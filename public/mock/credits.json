@@ -1,0 +1,38 @@
+{
+  "note": "Stock photographs illustrate fictional mock villas. They do not represent paipak inventory or the listed Thai locations.",
+  "license": "https://unsplash.com/license",
+  "images": [
+    {
+      "file": "villa-01.webp",
+      "source": "https://unsplash.com/photos/Id7u0EkTjBE"
+    },
+    {
+      "file": "villa-02.webp",
+      "source": "https://unsplash.com/photos/tVzyDSV84w8"
+    },
+    {
+      "file": "villa-03.webp",
+      "source": "https://unsplash.com/photos/g39p1kDjvSY"
+    },
+    {
+      "file": "villa-04.webp",
+      "source": "https://unsplash.com/photos/y3_AHHrxUBY"
+    },
+    {
+      "file": "villa-05.webp",
+      "source": "https://unsplash.com/photos/b_79nOqf95I"
+    },
+    {
+      "file": "villa-06.webp",
+      "source": "https://unsplash.com/photos/2d4lAQAlbDA"
+    },
+    {
+      "file": "villa-07.webp",
+      "source": "https://unsplash.com/photos/ylyn5r4vxcA"
+    },
+    {
+      "file": "villa-08.webp",
+      "source": "https://unsplash.com/photos/23fOdH9Zrwc"
+    }
+  ]
+}

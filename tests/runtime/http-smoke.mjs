@@ -16,10 +16,10 @@ async function check(path, status = 200, init = {}) {
 }
 
 const home = await (await check("/")).text();
-assert.match(home, /To get started/);
+assert.match(home, /ข้อมูลตัวอย่าง/);
 await check("/runtime-missing-page", 404);
-await check("/next.svg");
-await check("/favicon.ico");
+await check("/mock/villa-01.webp");
+await check("/icon.svg");
 
 const css = [...home.matchAll(/href="([^"?]+\.css(?:\?[^\"]*)?)"/g)]
   .map((match) => match[1]);
