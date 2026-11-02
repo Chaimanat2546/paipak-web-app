@@ -1,0 +1,15 @@
+project: paipak.com
+status: unverified_asset_inventory
+rule: Presence on disk is not approval; do not use as approved visual regression baseline.
+candidate_files:
+- three_column_ui_corner_comparison.png
+- a_clean_modern_ui_design_presentation_for_ui_co.png
+- image(20261102-054957).png
+- imagegen.png
+- pink_accent_pool_villa_marketplace.png
+- image(20261102-060320).png
+- image(20261102-043031).png
+- bold_navy_pool_villa_marketplace_board.png
+- image(20261102-043210).png
+- coastal_clean_pool_villa_moodboard.png
+approved_visual_baselines: []

@@ -1,0 +1,45 @@
+project: paipak.com
+status: partial_traceability_seed_not_full_coverage
+note: Examples link existing proposed Task IDs to decisions; no execution evidence
+  exists.
+links:
+- decision_id: BRAND-001
+  task_id: FND-002
+  required_evidence: design-tokens / visual_review
+  execution_state: not_started
+- decision_id: BRAND-002
+  task_id: FND-002
+  required_evidence: font-rendering test
+  execution_state: not_started
+- decision_id: UX-001
+  task_id: DISC-002
+  required_evidence: browse-without-dates E2E
+  execution_state: not_started
+- decision_id: UX-002
+  task_id: DISC-003
+  required_evidence: all-seven-categories visual test
+  execution_state: not_started
+- decision_id: PAGE-002
+  task_id: DISC-007
+  required_evidence: suggested-chip behavior
+  execution_state: not_started
+- decision_id: PAGE-009
+  task_id: MEM-005
+  required_evidence: modern-split responsive visual approval
+  execution_state: not_started
+- decision_id: ARCH-006
+  task_id: DATA-002
+  required_evidence: migration / RLS tests
+  execution_state: not_started
+- decision_id: ARCH-007
+  task_id: FND-001
+  required_evidence: module-boundary review
+  execution_state: not_started
+- decision_id: EXEC-008
+  task_id: BOOK-003
+  required_evidence: booking concurrency tests
+  execution_state: not_started
+- decision_id: MAT-006
+  task_id: DEV-001
+  required_evidence: CI artifact mapping
+  execution_state: not_started

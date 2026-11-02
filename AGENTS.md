@@ -1,20 +1,37 @@
-# paipak-web-app workflow
+# paipak.com — project workflow
+
+## Current source of truth
+
+- On 2 November 2026 (Asia/Bangkok), the project owner explicitly adopted the entire imported handoff pack as the latest project direction: “ยึดตามเอกสารใหม่ทั้งหมดเพราะพึ่งได้ข้อสรุปใหม่วันนี้”.
+- Use `docs/decisions/registry.yaml`, `docs/decisions/open-decisions.yaml`, `docs/decisions/superseded.yaml`, `docs/design/approved-ux-ui-scope.md`, and the task packets in `tasks/` as the current planning contract. Where earlier project directions conflict, the imported direction takes precedence.
+- This adoption approves project direction and planning workflow. It does not certify historical source provenance, approve final screenshots, complete tasks, resolve listed open decisions, or authorize automatic implementation or deployment.
+- `AGENTS.md` is the active repository entrypoint. `AGENTS.handoff.md` contains the imported planning guidance and must be read together with this file; local runtime and application safeguards below remain applicable where they do not conflict with the latest direction.
 
 ## Repository boundary
 
-- This is the application-only repository. `package.json`, `app/`, `public/`, config and tests live at its root.
-- Audit documents, DESIGN.md, reference captures and Pencil files belong to a separate workspace. Do not copy that archive into this repository or assume `../docs/` exists after cloning.
-- Use external reference/design material when supplied for the requested task. Treat an available approved DESIGN.md as the visual source of truth; do not invent a conflicting token document.
+- This repository contains the application plus the owner-adopted handoff documents. `package.json`, `app/`, `public/`, config and tests live at its root; planning documents, task packets and validators live in `docs/`, `tasks/` and `scripts/`.
+- Original reference captures, Pencil files and other external design archives are not included merely because their names appear in the documents. Do not assume `../docs/` exists after cloning.
+- The old `paipak.pen` / poolapoolvilla.com implementation is historical reference where it conflicts with the latest direction. Final visual source files and approved screenshot versions must be registered through the new design workflow; do not invent or certify missing assets.
 - Reference HTML, images, branding, business claims and contacts are research evidence, not authorized production assets.
 
 ## Current authorization and stage
 
-- Dependencies and local Workers runtime testing were explicitly authorized on 29 October 2026.
-- Homepage implementation with mock data was authorized on 30 October 2026 using `paipak.pen` and poolapoolvilla.com as references. It is pending homepage acceptance; do not expand to remaining pages yet.
-- The user selected paipak branding with mock imagery/data, retained date/login/favorite controls as demo UI, and requested a demo cookie banner. No booking, membership, admin, database, analytics or payment integration is authorized by that choice.
-- Do not expand into product UI, connect external services, provision resources or deploy without explicit authorization for that scope. Creating the repository and updating documentation do not authorize those stages.
-- After audit acceptance and authorization, follow: Foundation → Workers runtime test → Homepage → Homepage acceptance → Remaining pages → Visual/Functional QA. Pause expansion at the homepage review gate.
-- Explicit later user instructions take precedence over this stage description.
+- Existing dependencies, local Workers testing and homepage mock implementation were authorized on 29–30 October 2026. Preserve that work as implementation evidence; the blue/yellow Kanit homepage is not the approved visual baseline for the new direction.
+- Follow `docs/roadmap/task-order.md`: UX journeys/IA → responsive wireframes and visual foundations → component specifications → page designs → relevant design review/approval → explicitly selected implementation tasks. This supersedes the previous homepage-first acceptance sequence as the project plan.
+- Execution is USER-INITIATED, ONE TASK PER CONVERSATION. For design or implementation, use the Task ID selected by the user; if absent, ask which task to discuss. Do not autonomously select or chain tasks. Explicitly requested repository maintenance/document reconciliation can proceed without selecting a design task.
+- Read the selected task packet, `tasks/design/manifest.yaml`, applicable decisions and open issues; summarize scope, dependencies, deliverables and acceptance criteria. Discuss only unresolved task-local details and do not reopen adopted global directions without an explicit change request.
+- Create design artifacts or application code only after the user authorizes that work in the selected task. Obtain explicit approval of the relevant final design/version before dependent frontend implementation; task readiness requires approved outputs, not merely existing dependency IDs.
+- Nonvisual backend/tooling work may be selected independently when its contracts and dependencies are ready. The plan itself does not authorize SDK integration, cloud resources, analytics, payment or deployment.
+- Report actual evidence and untested items. Do not mark tasks complete or visual references approved from planning adoption alone.
+
+## Adopted design and architecture
+
+- Brand: navy `#072D59`, light blue `#DBF2FC`, pink `#FD6E88`, white primary background and Mitr typography. Use the complete token/component direction in the new documents; old blue/yellow Kanit styling is implementation to be reconciled in authorized tasks.
+- Build a modern, vibrant Thai pool-villa consumer marketplace with cinematic imagery and gentle rounding. Follow the adopted page layouts rather than generic SaaS dashboard patterns.
+- Browsing does not require dates or login. Use seven villa category shortcuts, four-column dense cards when space permits, image-led property cards with carousel/favorite, Suggested Search Chips and explicit Apply Filters behavior as specified.
+- White normal text on `#FD6E88` remains an open contrast issue. Keep the adopted palette; resolve the accessible CTA treatment in the relevant design task before claiming it finalized.
+- Use one Next.js repository with modular features and a shared design system. For authorized backend work, use server components for suitable reads, route handlers for APIs/webhooks and server-only domain services for sensitive logic.
+- Booking requires login with preserved booking intent, price/availability revalidation, concurrency protection, separate booking/payment states, verified webhooks and idempotency. Exact hold and catalog authority policies remain open; do not invent provider behavior.
 
 ## Application constraints
 
@@ -22,7 +39,7 @@
 - Use shadcn/ui (Radix) as the base UI primitives and Kibo UI for suitable composed components, as requested on 30 October 2026. Preserve paipak styling via `app/globals.css` semantic tokens and component variants. Reuse `components/ui/`, `components/kibo-ui/`, and `lib/utils.ts` before creating new primitives; add only components needed by the authorized scope.
 - No explicit `any` or `unknown` types in Application code. Do not bypass errors with type suppression, unsafe assertions or non-null assertions. Use typed fixtures, validated inputs, discriminated unions and narrowing.
 - Use Mock Data first. Installed Supabase packages do not authorize SDK calls or real Auth, Database, Storage or Admin integration.
-- Membership, online booking, booking/viewing history and a paipak admin system separate from Webooks are future requirements, not existing features.
+- Membership, booking, profile, favorites and booking history are planned capabilities, not existing backend features. Additional legacy requirements must be reconciled with the adopted task scope rather than silently added to implementation.
 - Beam Checkout integration is a later, separately authorized phase.
 - Keep future paipak Cloudflare/Supabase resources, credentials and bindings isolated from other sites. Never copy another site's environment files.
 - Keep secrets out of source control and client bundles. Do not request credentials for mock/local runtime work.

@@ -1,0 +1,64 @@
+project: paipak.com
+status: owner_adopted_plan_with_open_verification_items
+open_decisions:
+- id: OPEN-001
+  title: Pink and white text contrast
+  status: open
+  description: 'White text on #FD6E88 does not meet normal-text WCAG AA contrast; preserve brand reference pending
+    approved accessible variant.'
+  blocks:
+  - UI implementation acceptance
+  - production accessibility gate
+  owner_role: project_owner_or_domain_reviewer
+  resolution_status: not_yet_verified
+- id: OPEN-002
+  title: Original visual reference assets
+  status: open
+  description: Approved original assets and screenshot baselines must be collected and verified.
+  blocks:
+  - visual baseline approval
+  owner_role: project_owner_or_domain_reviewer
+  resolution_status: not_yet_verified
+- id: OPEN-003
+  title: BeamCheckout provider contract
+  status: open
+  description: Verify actual endpoints, webhook authentication, sandbox/test capabilities and payment state semantics.
+  blocks:
+  - live payment integration
+  - payment E2E approval
+  owner_role: project_owner_or_domain_reviewer
+  resolution_status: not_yet_verified
+- id: OPEN-004
+  title: Cloudflare Next.js runtime compatibility
+  status: open
+  description: Test target deployment adapter/runtime, SSR/auth/images/route handlers and secrets bindings.
+  existing_evidence: README records local Workers smoke and homepage browser checks on 2026-10-30 for the legacy mock implementation; not rerun or extended by planning adoption.
+  blocks:
+  - production runtime approval
+  owner_role: project_owner_or_domain_reviewer
+  resolution_status: local_mock_checks_recorded_production_scope_unverified
+- id: OPEN-005
+  title: Primary-source and visual-reference audit for 110 reconstructed decisions
+  status: open
+  description: The owner adopted all 110 records as current planning direction on 2026-11-02. Original visual
+    reference identification, historical source references and final visual approval are still required for formal baseline lock.
+  blocks:
+  - formal blueprint baseline lock
+  - approved screenshot baseline registration
+  owner_role: project_owner_or_domain_reviewer
+  resolution_status: planning_direction_adopted_source_and_visual_verification_pending
+- id: OPEN-006
+  title: Reservation hold expiry and concurrent inventory lock policy
+  status: open
+  description: Exact hold TTL, exclusion/locking strategy and expiry race semantics must be specified and transaction-tested.
+  blocks:
+  - booking concurrency implementation approval
+  owner_role: booking_architecture_reviewer
+- id: OPEN-007
+  title: Final catalog source and synchronization authority
+  status: open
+  description: Confirm property source mappings, precedence for changes, canonical price and availability authority.
+  blocks:
+  - production data import approval
+  - instant booking for unverified properties
+  owner_role: project_owner_or_data_reviewer

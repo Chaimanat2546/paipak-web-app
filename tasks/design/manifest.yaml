@@ -1,0 +1,442 @@
+project: paipak.com
+status: owner_adopted_plan_not_executed
+owner_adopted_on: '2026-11-02'
+execution_mode: manual_user_initiated
+notes:
+- Owner adopted the entire handoff pack as the latest direction on 2026-11-02; task execution and final visual approval are separate.
+- Design tasks are for AI Design Agent; human approves before related frontend implementation.
+- Task readiness requires approved dependent design outputs, not merely preselected UX direction.
+- Technical foundation and backend data work may run in parallel when independent.
+- No source screenshots are considered approved baselines yet.
+tasks:
+- id: UXD-001
+  title: User journeys and IA audit
+  stage: ux
+  kind: design
+  status: planned_not_started
+  handoff: manual_user_initiated
+  depends_on: []
+  decision_refs:
+  - UXF-003
+  - UXF-004
+  - UX-001
+  - UX-004
+  scope: Map browsing/search/detail/login/checkout/confirmation and guest/member navigation; no redesign of chosen
+    IA.
+  deliverables:
+  - journey-map.md
+  - information-architecture.md
+  - edge-flows.md
+  acceptance_criteria:
+  - Guests can browse without dates or login
+  - Booking requires login while preserving return intent
+  - Existing homepage/navigation/page inventory reflected
+  open_implementation_questions:
+  - How to capture diagram source and review flow annotations?
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+  approval_status: not_requested
+- id: UXD-002
+  title: Detailed responsive wireframes
+  stage: ux
+  kind: design
+  status: planned_not_started
+  handoff: manual_user_initiated
+  depends_on:
+  - UXD-001
+  decision_refs:
+  - WIRE-001
+  - WIRE-009
+  - PAGE-001
+  - PAGE-003
+  - PAGE-004
+  scope: Low-fidelity desktop/mobile wireframes of 10 templates; include sticky CTA, forms and filter drawer.
+  deliverables:
+  - wireframes-desktop
+  - wireframes-mobile
+  - annotations
+  acceptance_criteria:
+  - All 10 page templates covered
+  - Layouts respect selected variants
+  - Search available without dates
+  - No SaaS dashboard layout
+  open_implementation_questions: []
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+  approval_status: not_requested
+- id: DSD-001
+  title: Visual foundations and design token specification
+  stage: design
+  kind: design
+  status: planned_not_started
+  handoff: manual_user_initiated
+  depends_on:
+  - UXD-001
+  decision_refs:
+  - BRAND-001
+  - BRAND-002
+  - VIS-001
+  - VIS-003
+  - VIS-004
+  - VIS-007
+  - VIS-008
+  - VIS-009
+  scope: Define typography, color palette, spacing, radius, shadows, motion and layout as design specs, not production
+    CSS.
+  deliverables:
+  - token-sheet.md
+  - typography-spec.md
+  - responsive-visual-guidelines.md
+  acceptance_criteria:
+  - 'Navy #072D59, Blue #DBF2FC, Pink #FD6E88 unchanged'
+  - Mitr typography
+  - Accessible CTA contrast remains flagged OPEN, not silently changed
+  open_implementation_questions:
+  - Choose approved CTA solution for white text contrast before final CTA sign-off.
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+  approval_status: not_requested
+- id: DSD-002
+  title: Component visual states and interaction specs
+  stage: design
+  kind: design
+  status: planned_not_started
+  handoff: manual_user_initiated
+  depends_on:
+  - DSD-001
+  - UXD-002
+  decision_refs:
+  - WIRE-005
+  - WIRE-006
+  - WIRE-010
+  - MAT-002
+  scope: Define Button, Search, Floating Label, Card, Carousel, Category Nav, Filter, Picker, Dialog, Feedback.
+  deliverables:
+  - component-inventory.md
+  - component-specs
+  - state-matrix.yaml
+  acceptance_criteria:
+  - Responsive states / focus / errors documented
+  - Shared component reuse mapped
+  - No generic SaaS widgets
+  - Original reference proof or pending status explicit
+  open_implementation_questions: []
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+  approval_status: not_requested
+- id: UID-001
+  title: Homepage high-fidelity design
+  stage: screens
+  kind: design
+  status: planned_not_started
+  handoff: manual_user_initiated
+  depends_on:
+  - UXD-002
+  - DSD-002
+  decision_refs:
+  - PAGE-001
+  - WIRE-001
+  - WIRE-002
+  - WIRE-003
+  - WIRE-004
+  - WIRE-007
+  - UX-002
+  scope: Design homepage desktop/mobile; cinematic hero, unified centered search, seven categories, villa sections,
+    four columns when wide.
+  deliverables:
+  - home-desktop
+  - home-mobile
+  - home-interaction-notes
+  acceptance_criteria:
+  - First visit shows villas without required dates
+  - Seven confirmed category shortcuts
+  - Matches Pink Accent Premium and selected page layout
+  open_implementation_questions: []
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+  approval_status: not_requested
+- id: UID-002
+  title: Search results high-fidelity design
+  stage: screens
+  kind: design
+  status: planned_not_started
+  handoff: manual_user_initiated
+  depends_on:
+  - UXD-002
+  - DSD-002
+  decision_refs:
+  - PAGE-002
+  - WIRE-008
+  - WIRE-009
+  - WIRE-010
+  - UXF-007
+  scope: Search results grid, sidebar/drawer, suggestion chips, apply, pagination.
+  deliverables:
+  - results-desktop
+  - results-mobile
+  - filter-states
+  acceptance_criteria:
+  - Suggested chips are not active-filter chips
+  - Apply Filters interaction
+  - Pagination retains URL state
+  - Responsive columns avoid crushing cards
+  open_implementation_questions: []
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+  approval_status: not_requested
+- id: UID-003
+  title: Property detail and availability high-fidelity
+  stage: screens
+  kind: design
+  status: planned_not_started
+  handoff: manual_user_initiated
+  depends_on:
+  - UXD-002
+  - DSD-002
+  decision_refs:
+  - PAGE-003
+  - UXF-008
+  scope: Premium Booking Focus gallery and details left/booking right; states available unavailable unknown loading.
+  deliverables:
+  - detail-desktop
+  - detail-mobile
+  - booking-panel-states
+  acceptance_criteria:
+  - Gallery grid top
+  - Price quote displayed only when verified
+  - No confirmed booking state without reservation
+  - Mobile CTA accessible
+  open_implementation_questions: []
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+  approval_status: not_requested
+- id: UID-004
+  title: Checkout and confirmation high-fidelity
+  stage: screens
+  kind: design
+  status: planned_not_started
+  handoff: manual_user_initiated
+  depends_on:
+  - UXD-002
+  - DSD-002
+  - UXD-001
+  decision_refs:
+  - PAGE-004
+  - PAGE-007
+  - UXF-009
+  scope: Checkout review/edit and separate payment, truthful confirmation and mismatched payment state.
+  deliverables:
+  - checkout-desktop-mobile
+  - payment-states
+  - confirmation-desktop-mobile
+  acceptance_criteria:
+  - Auto-populated member contact
+  - Booking status distinct from payment status
+  - No duplicate form fields for member contact
+  - No unverified success message
+  open_implementation_questions: []
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+  approval_status: not_requested
+- id: UID-005
+  title: Authentication and account high-fidelity
+  stage: screens
+  kind: design
+  status: planned_not_started
+  handoff: manual_user_initiated
+  depends_on:
+  - UXD-002
+  - DSD-002
+  - UXD-001
+  decision_refs:
+  - PAGE-005
+  - PAGE-009
+  scope: Adaptive auth desktop modal/mobile fullscreen and Modern Split Profile with responsive fallback.
+  deliverables:
+  - auth-desktop-mobile
+  - profile-desktop-mobile
+  - auth-states
+  acceptance_criteria:
+  - Preserves return intent after login
+  - Modern Split not SaaS dashboard
+  - Focus and error flows documented
+  open_implementation_questions: []
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+  approval_status: not_requested
+- id: UID-006
+  title: Favorites and bookings high-fidelity
+  stage: screens
+  kind: design
+  status: planned_not_started
+  handoff: manual_user_initiated
+  depends_on:
+  - UXD-002
+  - DSD-002
+  decision_refs:
+  - PAGE-006
+  - PAGE-008
+  scope: Favorites grid, upcoming/past/cancelled bookings tabs, status badges.
+  deliverables:
+  - favorites-desktop-mobile
+  - mybookings-desktop-mobile
+  acceptance_criteria:
+  - Favorite cards reuse approved property card
+  - Booking and payment statuses separate
+  - Empty favorites route covered
+  open_implementation_questions: []
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+  approval_status: not_requested
+- id: UID-007
+  title: Empty loading error and offline feedback design
+  stage: states
+  kind: design
+  status: planned_not_started
+  handoff: manual_user_initiated
+  depends_on:
+  - DSD-002
+  - UID-001
+  - UID-002
+  - UID-003
+  - UID-004
+  - UID-005
+  - UID-006
+  decision_refs:
+  - PAGE-010
+  scope: Contextual Premium states across flows including no results, no favorites, payment pending, API errors.
+  deliverables:
+  - state-library
+  - skeleton-specs
+  - error-copy.md
+  acceptance_criteria:
+  - Empty vs error vs loading not conflated
+  - No misleading booking success
+  - Reduced motion supports skeletons and transitions
+  open_implementation_questions: []
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+  approval_status: not_requested
+- id: UID-008
+  title: Accessibility and responsive design review
+  stage: qa
+  kind: design
+  status: planned_not_started
+  handoff: manual_user_initiated
+  depends_on:
+  - UID-001
+  - UID-002
+  - UID-003
+  - UID-004
+  - UID-005
+  - UID-006
+  - UID-007
+  decision_refs:
+  - MAT-002
+  - BRAND-001
+  scope: Review responsive behavior, contrast, labels, focus ordering, motion and screen-reader annotations.
+  deliverables:
+  - a11y-design-review.md
+  - responsive-matrix.md
+  - contrast-issue-log.md
+  acceptance_criteria:
+  - Desktop/mobile screens reviewed
+  - CTA contrast unresolved item explicit and blocks primary button approval
+  - WCAG 2.2 AA target considered
+  open_implementation_questions:
+  - Finalize compliant button color/text treatment with owner before approval.
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+  approval_status: not_requested
+- id: UID-009
+  title: Final visual reference approval and handoff
+  stage: qa
+  kind: design
+  status: planned_not_started
+  handoff: manual_user_initiated
+  depends_on:
+  - UID-008
+  decision_refs:
+  - MAT-002
+  - MAT-009
+  - MAT-010
+  scope: Approve visual references per screen/component, register immutable version and links to development tasks.
+  deliverables:
+  - approved-reference-registry.yaml
+  - handoff-map.yaml
+  - design-review-signoff.md
+  acceptance_criteria:
+  - Every approved screenshot links to its source and version
+  - Candidate vs approved separated
+  - Owner signoff recorded
+  - Superseded refs not active
+  open_implementation_questions: []
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+  approval_status: not_requested
+- id: UXD-003
+  title: Usability prototype and user testing spec
+  stage: ux
+  kind: design
+  status: planned_not_started
+  handoff: manual_user_initiated
+  depends_on:
+  - UXD-002
+  decision_refs:
+  - UXF-004
+  - PAGE-001
+  - PAGE-004
+  scope: Build click-through prototype and task-based validation plan without executing production booking.
+  deliverables:
+  - prototype-index.md
+  - usability-scenarios.md
+  acceptance_criteria:
+  - Core browse-to-checkout path navigable
+  - Test with sample data only
+  - Observations and fixes linked to designs
+  open_implementation_questions: []
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+  approval_status: not_requested

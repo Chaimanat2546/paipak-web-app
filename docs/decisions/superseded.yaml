@@ -1,0 +1,23 @@
+project: paipak.com
+status: provisional_mapping_requires_original_asset_review
+superseded_concepts:
+- id: SUPER-001
+  previous: SaaS-like profile form / tabbed profile / account hub early drafts
+  replaced_by: PAGE-009
+  current: Modern Split Profile
+  reason: User rejected SaaS-like member profile concepts
+- id: SUPER-002
+  previous: Destination-first homepage shortcuts
+  replaced_by: UX-002
+  current: Seven villa categories
+  reason: Category-first homepage decision overrides destination shortcuts
+- id: SUPER-003
+  previous: Active applied-filter chips below search bar
+  replaced_by: PAGE-002
+  current: Suggested Search Chips
+  reason: Explicit user modification of search results template
+- id: SUPER-004
+  previous: Generic AI-style UI / dull or overcrowded landing concepts
+  replaced_by: BRAND-001
+  current: Pink Accent Premium + approved visual direction
+  reason: User rejected earlier concepts

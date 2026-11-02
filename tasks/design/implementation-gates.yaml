@@ -1,0 +1,52 @@
+project: paipak.com
+status: owner_adopted_dependency_overlay
+note: Apply these to existing execution backlog when it is materialized; not evidence that implementation tasks
+  exist.
+implementation_design_dependencies:
+  FND-002:
+  - DSD-001
+  FND-004:
+  - DSD-002
+  - UID-008
+  DISC-002:
+  - UID-001
+  - UID-009
+  DISC-003:
+  - UID-001
+  - UID-009
+  DISC-004:
+  - DSD-002
+  - UID-009
+  DISC-005:
+  - UID-001
+  - UID-009
+  DISC-007:
+  - UID-002
+  - UID-009
+  PROP-002:
+  - UID-003
+  - UID-009
+  PROP-004:
+  - UID-003
+  - UID-009
+  PROP-005:
+  - UID-003
+  - UID-009
+  MEM-003:
+  - UID-005
+  - UID-009
+  MEM-005:
+  - UID-005
+  - UID-009
+  MEM-006:
+  - UID-006
+  - UID-009
+  MEM-007:
+  - UID-006
+  - UID-009
+  CHECK-001:
+  - UID-004
+  - UID-009
+  CHECK-002:
+  - UID-004
+  - UID-009
