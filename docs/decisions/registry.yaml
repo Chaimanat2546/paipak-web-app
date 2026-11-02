@@ -10,6 +10,32 @@ owner_adoption:
   scope: Entire imported handoff pack; supersedes conflicting earlier project directions
   final_visual_approval: pending
   task_execution: not_authorized_by_adoption_alone
+task_clarifications:
+- task_id: UXD-001
+  confirmed_on: '2026-11-02'
+  timezone: Asia/Bangkok
+  source: Explicit project owner answers to Q-01 through Q-05 in this repository chat
+  final_deliverable_approval: approved
+  approved_version: review-2
+  approved_on: '2026-11-02'
+  approval_source: Explicit project owner message in this repository chat
+  approval_instruction: อนุมัติ UXD-001 review-2
+  decisions:
+  - id: Q-01
+    status: owner_confirmed
+    summary: Favorites requires login; no temporary Guest favorites or Guest-to-member merge.
+  - id: Q-02
+    status: owner_confirmed
+    summary: Cancel authentication back to booking-origin Detail with active selections, or to the originating page for Header authentication, subject to Q-03.
+  - id: Q-03
+    status: owner_confirmed
+    summary: Keep Booking Intent only within an uninterrupted active flow; do not recover it after reload, tab close or intent/session expiry. Results URL state and existing booking/payment records are separate.
+  - id: Q-04
+    status: owner_confirmed
+    summary: Retain supporting Footer links as inventory for separate content scope; no listing-owner portal added to the ten templates.
+  - id: Q-05
+    status: owner_confirmed
+    summary: One total guest count without adult/child separation, plus pets separately; domain limits and incomplete member-contact details remain for later relevant tasks.
 decisions:
 - id: PRIN-001
   title: Trust First
@@ -169,7 +195,9 @@ decisions:
 - id: UXF-004
   title: Flexible Booking Journey
   status: approved
-  summary: Dates and guests can change without losing state
+  summary: Dates and guests can change without losing state within an active uninterrupted flow; no Booking Intent recovery after reload, tab close or intent/session expiry.
+  clarification_refs:
+  - UXD-001/Q-03
   source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
     assets not yet audited
   version: planning-1
@@ -766,7 +794,10 @@ decisions:
 - id: PAGE-005
   title: Adaptive Authentication
   status: approved
-  summary: Desktop modal/mobile fullscreen; return to in-progress booking.
+  summary: Desktop modal/mobile fullscreen; return to active booking during uninterrupted authentication. Cancel back to origin; no intent recovery after reload, tab close or intent/session expiry.
+  clarification_refs:
+  - UXD-001/Q-02
+  - UXD-001/Q-03
   source: User-selected paipak.com planning conversation
   version: planning-1
   category: PAGES
@@ -799,7 +830,9 @@ decisions:
 - id: PAGE-008
   title: Favorites Grid
   status: approved
-  summary: No collections or comparison.
+  summary: Login required to view or manage Favorites; no temporary Guest favorites or Guest-to-member merge; no collections or comparison.
+  clarification_refs:
+  - UXD-001/Q-01
   source: User-selected paipak.com planning conversation
   version: planning-1
   category: PAGES
@@ -1128,7 +1161,9 @@ decisions:
 - id: EXEC-007
   title: Identity-First + Journey Gates
   status: approved
-  summary: Return intent across login.
+  summary: Return active intent across uninterrupted login; no intent recovery after reload, tab close or intent/session expiry.
+  clarification_refs:
+  - UXD-001/Q-03
   source: User-selected paipak.com planning conversation
   version: planning-1
   category: BACKLOG

@@ -31,7 +31,7 @@ Repository นี้มีแอปและชุดเอกสารส่ง
 
 หลังนำเข้า ภูยืนยันให้ใช้ชุดนี้เป็นข้อกำหนดวางแผนหลักเมื่อ 2 พฤศจิกายน 2026 จึงให้ยึดเอกสารใหม่เมื่อขัดกับโค้ดหรือแนวทางเดิม โดยเก็บโค้ดเดิมไว้ปรับใน task ที่ได้รับอนุญาต ข้อมูลต้นทางย้อนหลังและภาพอ้างอิงยังต้องตรวจสอบ การยืนยันทิศทางไม่ใช่การรับรองภาพหน้าจอหรือผลทดสอบ
 
-ลำดับงานปัจจุบันยึด [task-order.md](docs/roadmap/task-order.md) แทนลำดับตรวจรับหน้าแรกเดิม: เริ่มจาก UX/IA → wireframe และ visual foundations → component/page designs → ตรวจและอนุมัติแบบที่เกี่ยวข้อง → งาน implementation ที่ภูเลือก แต่ละ task เริ่มและอนุมัติแยกกันตาม [owner-approval-policy.md](docs/roadmap/owner-approval-policy.md) โดย `UXD-001` เป็นงานเริ่มต้นตามแผนและยังไม่ได้เริ่มทำ
+ลำดับงานปัจจุบันยึด [task-order.md](docs/roadmap/task-order.md) แทนลำดับตรวจรับหน้าแรกเดิม: เริ่มจาก UX/IA → wireframe และ visual foundations → component/page designs → ตรวจและอนุมัติแบบที่เกี่ยวข้อง → งาน implementation ที่ภูเลือก แต่ละ task เริ่มและอนุมัติแยกกันตาม [owner-approval-policy.md](docs/roadmap/owner-approval-policy.md) โดยภูตรวจรับ [UXD-001 review-2](tasks/design/UXD-001.md#owner-acceptance) แล้วเมื่อ 2 พฤศจิกายน 2026 ส่วน [UXD-002 review-4](docs/design/uxd-002/annotations.md) มี wireframe Desktop/Mobile และ annotations แล้ว อยู่ระหว่างรอภูตรวจรับ DSD-001 และ task อื่นยังไม่ได้เริ่ม
 
 ## ชุดเวอร์ชันที่ทดสอบ
 

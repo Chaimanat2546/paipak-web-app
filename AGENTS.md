@@ -29,9 +29,15 @@
 - Brand: navy `#072D59`, light blue `#DBF2FC`, pink `#FD6E88`, white primary background and Mitr typography. Use the complete token/component direction in the new documents; old blue/yellow Kanit styling is implementation to be reconciled in authorized tasks.
 - Build a modern, vibrant Thai pool-villa consumer marketplace with cinematic imagery and gentle rounding. Follow the adopted page layouts rather than generic SaaS dashboard patterns.
 - Browsing does not require dates or login. Use seven villa category shortcuts, four-column dense cards when space permits, image-led property cards with carousel/favorite, Suggested Search Chips and explicit Apply Filters behavior as specified.
+- Owner-confirmed UXD-001 clarifications on 2 November 2026: Favorites requires login with no temporary Guest favorites; preserve Booking Intent only during uninterrupted navigation/authentication and never recover it after reload, tab close or intent/session expiry; use one total guest count without adult/child separation plus pets separately. Cancelling Auth returns to its origin with still-active selections. Supporting Footer links do not authorize a listing-owner portal. See `docs/design/uxd-001/edge-flows.md` Q-01 through Q-05.
 - White normal text on `#FD6E88` remains an open contrast issue. Keep the adopted palette; resolve the accessible CTA treatment in the relevant design task before claiming it finalized.
 - Use one Next.js repository with modular features and a shared design system. For authorized backend work, use server components for suitable reads, route handlers for APIs/webhooks and server-only domain services for sensitive logic.
 - Booking requires login with preserved booking intent, price/availability revalidation, concurrency protection, separate booking/payment states, verified webhooks and idempotency. Exact hold and catalog authority policies remain open; do not invent provider behavior.
+
+## Wireframe authoring rules
+
+- For future wireframe creation or revisions, read and follow [Wireframe Guidelines](docs/design/wireframe-guidelines.md).
+- Apply these rules within the selected task's existing scope, sequence and dependencies. Owner-approved project decisions take precedence over generic examples or open-question examples in the guidelines. This addition does not authorize revising existing artifacts or starting another task.
 
 ## Application constraints
 

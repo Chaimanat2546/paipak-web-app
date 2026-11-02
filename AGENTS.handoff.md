@@ -14,6 +14,7 @@
 - Brand: `#072D59` navy, `#DBF2FC` light blue, `#FD6E88` pink; white primary background; font Mitr.
 - Product: modern vibrant Thai pool-villa consumer marketplace, *not* a SaaS dashboard; cinematic villa imagery; gentle rounding.
 - Browse villas without specifying dates; 7 approved categories; 4-column dense cards on sufficiently wide desktop; Overlay Property Cards with carousel/favorite; suggested search chips in results; Apply Filters interaction.
+- Owner clarification on 2 November 2026 (UXD-001 Q-01–Q-05): Favorites requires login with no Guest favorites; Booking Intent is kept only in an uninterrupted navigation/authentication flow and is not recovered after reload, tab close or intent/session expiry; one total guest count without adult/child separation plus pets separately; cancel Auth back to its origin with still-active selections; supporting Footer links do not authorize a listing-owner portal.
 - Page templates include Premium Marketplace Home, Search Results, Premium Booking Focus Detail, Premium Member Checkout, Adaptive Authentication, Tabbed My Bookings, Hybrid Confirmation, Favorites Grid, Modern Split Profile, Contextual Premium feedback.
 - White text on `#FD6E88` does not meet WCAG 2.2 AA for normal text. **Keep visual reference as approved, do not silently change branding, and do not claim accessible CTA finalized; escalate decision.**
 
