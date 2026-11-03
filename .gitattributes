@@ -1,0 +1,2 @@
+# Preserve native Pencil design files without text normalization.
+*.pen -text -diff -merge

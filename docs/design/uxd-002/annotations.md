@@ -1,5 +1,13 @@
 # UXD-002 — Wireframes และ Annotations
 
+> **ชุดล่าสุด review-5 วันที่ 3 พฤศจิกายน 2026:** [ดัชนีภาพ 40 ไฟล์และหลักฐาน](review-5/README.md), [component inventory / entry-exit / states / acceptance](review-5/component-inventory.md), [Pencil source](paipak-wireframe.pen), [layer snapshot](review-5/editable-snapshot.json) ภาพและสเปกยังรอเจ้าของตรวจรับ เจ้าของแจ้งบันทึก native source หลังแก้ครบแล้ว
+
+Review-5 มี Desktop 18 / Mobile 22 ภาพ และ external annotation panels 40 แผง ใช้ Q-01–Q-12 และ F-01 ใน [review-decisions](review-decisions.md) แยก customer-facing UI ออกจาก notes ตาม guidelines; State sheets เป็น supporting artifacts ไม่ใช่ routes เพิ่ม
+
+## Historical record — review-4
+
+เนื้อหาด้านล่างและ [rebuilt-1](rebuilt-1/README.md) เป็นประวัติ ไม่ใช่ image/spec index ล่าสุด ลิงก์ต้นฉบับภายนอกในส่วนประวัติไม่ใช่ตำแหน่ง editable source ปัจจุบัน
+
 วันที่: 2 พฤศจิกายน 2026 · Asia/Bangkok · รุ่น: review-4 · สถานะ: รอภูตรวจรับ
 
 ยึด [UXD-001 review-2 ที่อนุมัติแล้ว](../../../tasks/design/UXD-001.md#owner-acceptance) และ [ขอบเขต UX/UI](../approved-ux-ui-scope.md) รุ่นนี้แก้การปะปนของคำอธิบายกับหน้าจอ โดยย้ายหมายเหตุออกจากพื้นที่ UI และแยกเอกสารตามหน้าที่ ไม่เปลี่ยนข้อสรุป Q-01 ถึง Q-05

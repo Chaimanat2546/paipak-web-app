@@ -1,0 +1,4291 @@
+{
+  "task": "UXD-002",
+  "draft": "review-5",
+  "createdOn": "2026-11-03",
+  "approval": "pending_owner_review",
+  "description": "Layout and diagram layers for the native Pencil user flow. Merge existing WF-* subtrees by id from editable-snapshot.json; WF screen/annotation content is intentionally omitted here.",
+  "layers": [
+    {
+      "parentId": null,
+      "layer": {
+        "type": "frame",
+        "id": "Gr8uN",
+        "x": 0,
+        "y": 0,
+        "name": "FLOW-DESKTOP — actual wireframe connections",
+        "width": 15520,
+        "height": 7289,
+        "fill": "#F4F5F7",
+        "layout": "none"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "OSEBs",
+        "x": 0,
+        "y": 0,
+        "name": "Flow heading",
+        "fill": "#072D59",
+        "textGrowth": "fixed-width",
+        "width": 7000,
+        "content": "Desktop · User flow — UXD-002 review-5",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 56
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "HDam9",
+        "x": 0,
+        "y": 96,
+        "name": "Flow legend",
+        "fill": "#526175",
+        "textGrowth": "fixed-width",
+        "width": 7400,
+        "content": "ลูกศรเข้ม = เส้นทางหลัก   •   ลูกศรเทา = ทางแยก/สถานะประกอบ   •   Annotation อยู่ใต้กรอบและแยกจาก UI",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 28
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "ppydY",
+        "x": 0,
+        "y": 155,
+        "name": "Lane 01 · ค้นหา → จอง → ชำระเงิน",
+        "fill": "#072D59",
+        "textGrowth": "fixed-width",
+        "width": 15460,
+        "content": "01 · ค้นหา → จอง → ชำระเงิน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 38
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "sZNqN",
+        "x": 0,
+        "y": 2317,
+        "name": "Lane 02 · ตัวเลือกและสถานะระหว่างทำรายการ",
+        "fill": "#072D59",
+        "textGrowth": "fixed-width",
+        "width": 15460,
+        "content": "02 · ตัวเลือกและสถานะระหว่างทำรายการ",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 38
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "N33OH",
+        "x": 0,
+        "y": 4346,
+        "name": "Lane 03 · บัญชีสมาชิกและสถานะประกอบ",
+        "fill": "#072D59",
+        "textGrowth": "fixed-width",
+        "width": 15460,
+        "content": "03 · บัญชีสมาชิกและสถานะประกอบ",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 38
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "g8bMrE",
+        "x": 1459,
+        "y": 588,
+        "name": "FLOWEDGE WF-01 to WF-02",
+        "geometry": "M1462 600l516 0m-18 9l18-9-18-9",
+        "viewBox": [
+          1459,
+          588,
+          522,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 522,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "gVHEp",
+        "x": 1476,
+        "y": 495,
+        "name": "FLOWLABEL ค้นหา / เลือกหมวด",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 488,
+        "content": "ค้นหา / เลือกหมวด",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "y9oD8m",
+        "x": 3459,
+        "y": 588,
+        "name": "FLOWEDGE WF-02 to WF-03",
+        "geometry": "M3462 600l516 0m-18 9l18-9-18-9",
+        "viewBox": [
+          3459,
+          588,
+          522,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 522,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "zGKmY",
+        "x": 3476,
+        "y": 495,
+        "name": "FLOWLABEL เปิดการ์ดที่พัก",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 488,
+        "content": "เปิดการ์ดที่พัก",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "zfa8i",
+        "x": 5459,
+        "y": 588,
+        "name": "FLOWEDGE WF-03 to WF-05",
+        "geometry": "M5462 600l516 0m-18 9l18-9-18-9",
+        "viewBox": [
+          5459,
+          588,
+          522,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 522,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "JYs20",
+        "x": 5476,
+        "y": 495,
+        "name": "FLOWLABEL จอง · ข้อมูลครบ · Guest",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 488,
+        "content": "จอง · ข้อมูลครบ · Guest",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "VPYyJ",
+        "x": 9459,
+        "y": 588,
+        "name": "FLOWEDGE WF-04 to WF-04C",
+        "geometry": "M9462 600l516 0m-18 9l18-9-18-9",
+        "viewBox": [
+          9459,
+          588,
+          522,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 522,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "yZyWG",
+        "x": 9476,
+        "y": 495,
+        "name": "FLOWLABEL กดชำระเงิน",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 488,
+        "content": "กดชำระเงิน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "Du355",
+        "x": 11459,
+        "y": 588,
+        "name": "FLOWEDGE WF-04C to WF-04P",
+        "geometry": "M11462 600l516 0m-18 9l18-9-18-9",
+        "viewBox": [
+          11459,
+          588,
+          522,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 522,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "j899x0",
+        "x": 11476,
+        "y": 495,
+        "name": "FLOWLABEL ยืนยันและไปชำระเงิน",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 488,
+        "content": "ยืนยันและไปชำระเงิน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "dbvBq",
+        "x": 13459,
+        "y": 588,
+        "name": "FLOWEDGE WF-04P to WF-07",
+        "geometry": "M13462 600l516 0m-18 9l18-9-18-9",
+        "viewBox": [
+          13459,
+          588,
+          522,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 522,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "ByPYI",
+        "x": 13476,
+        "y": 495,
+        "name": "FLOWLABEL อ่านสถานะจริง",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 488,
+        "content": "อ่านสถานะจริง",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "u423V",
+        "x": 7530,
+        "y": 544,
+        "name": "FLOW-GATE Revalidate price and availability",
+        "width": 380,
+        "height": 112,
+        "fill": "#F1F5F9",
+        "cornerRadius": 8,
+        "stroke": "#94A3B8",
+        "strokeWidth": 1,
+        "layout": "none"
+      }
+    },
+    {
+      "parentId": "u423V",
+      "layer": {
+        "type": "text",
+        "id": "X78Et",
+        "x": 18,
+        "y": 18,
+        "name": "Revalidation condition",
+        "fill": "#072D59",
+        "textGrowth": "fixed-width",
+        "width": 344,
+        "content": "ตรวจราคา / วันว่าง\nด้วยข้อมูลล่าสุด",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 28
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "IW5IF",
+        "x": 7457,
+        "y": 588,
+        "name": "FLOWEDGE Auth success to revalidation",
+        "geometry": "M7460 600l55 0m-18 9l18-9-18-9",
+        "viewBox": [
+          7457,
+          588,
+          61,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 61,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "zD0dS",
+        "x": 7458,
+        "y": 515,
+        "name": "FLOWLABEL สำเร็จ",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 64,
+        "content": "สำเร็จ",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "HG4qj",
+        "x": 7922,
+        "y": 588,
+        "name": "FLOWEDGE Revalidation ready to review",
+        "geometry": "M7925 600l55 0m-18 9l18-9-18-9",
+        "viewBox": [
+          7922,
+          588,
+          61,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 61,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "or1qI",
+        "x": 7928,
+        "y": 515,
+        "name": "FLOWLABEL พร้อม",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 66,
+        "content": "พร้อม",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "ZR0Dc",
+        "x": 5077,
+        "y": 261,
+        "name": "FLOWEDGE Member bypass Auth",
+        "geometry": "M5080 320l0-56 2640 0 0 260m-9-18l9 18 9-18",
+        "viewBox": [
+          5077,
+          261,
+          2655,
+          266
+        ],
+        "fill": "#00000000",
+        "width": 2655,
+        "height": 266,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "MMpkB",
+        "x": 5110,
+        "y": 220,
+        "name": "FLOWLABEL Member → ตรวจข้อมูลใหม่ โดยข้าม Auth",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 2580,
+        "content": "Member → ตรวจข้อมูลใหม่ โดยข้าม Auth",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "VM3je",
+        "x": 4708,
+        "y": 1104,
+        "name": "FLOWEDGE Cancel Auth to detail",
+        "geometry": "M6720 1107l0 739-2000 0 0-16m9 18l-9-18-9 18",
+        "viewBox": [
+          4708,
+          1104,
+          2015,
+          747
+        ],
+        "fill": "#00000000",
+        "width": 2015,
+        "height": 747,
+        "stroke": "#64748B",
+        "strokeWidth": 2.5,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "QnRp0",
+        "x": 4000,
+        "y": 1864,
+        "name": "FLOWLABEL ยกเลิก Auth → กลับ Detail พร้อมค่าที่ยังใช้ได้",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 1000,
+        "content": "ยกเลิก Auth → กลับ Detail พร้อมค่าที่ยังใช้ได้",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "NSiEt",
+        "x": 4708,
+        "y": 673,
+        "name": "FLOWEDGE Revalidation not ready to WF-03S",
+        "geometry": "M7720 676l0 1756-3000 0 0 45m-9-18l9 18 9-18",
+        "viewBox": [
+          4708,
+          673,
+          3015,
+          1807
+        ],
+        "fill": "#00000000",
+        "width": 3015,
+        "height": 1807,
+        "stroke": "#64748B",
+        "strokeWidth": 2.5,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "IbbKw",
+        "x": 7630,
+        "y": 780,
+        "name": "FLOWLABEL ไม่ว่าง / ตรวจไม่ได้ / ราคาเปลี่ยน",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 330,
+        "content": "ไม่ว่าง / ตรวจไม่ได้ / ราคาเปลี่ยน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "vWlhp",
+        "x": 708,
+        "y": 1613,
+        "name": "FLOWEDGE WF-01 supports WF-02A",
+        "geometry": "M720 1616l0 801 0 0 0 60m-9-18l9 18 9-18",
+        "viewBox": [
+          708,
+          1613,
+          24,
+          867
+        ],
+        "fill": "#00000000",
+        "width": 24,
+        "height": 867,
+        "stroke": "#94A3B8",
+        "strokeWidth": 2,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "zdpUg",
+        "x": 748,
+        "y": 2046.5,
+        "name": "FLOWLABEL พิมพ์สถานที่ → Autocomplete",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 320,
+        "content": "พิมพ์สถานที่ → Autocomplete",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "wGEEe",
+        "x": 2708,
+        "y": 1722,
+        "name": "FLOWEDGE WF-02 supports WF-02P",
+        "geometry": "M2720 1725l0 692 0 0 0 60m-9-18l9 18 9-18",
+        "viewBox": [
+          2708,
+          1722,
+          24,
+          758
+        ],
+        "fill": "#00000000",
+        "width": 24,
+        "height": 758,
+        "stroke": "#94A3B8",
+        "strokeWidth": 2,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "s5szoH",
+        "x": 2748,
+        "y": 2101,
+        "name": "FLOWLABEL เปิดตัวเลือกวัน / จำนวน",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 320,
+        "content": "เปิดตัวเลือกวัน / จำนวน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "RKK0R",
+        "x": 6708,
+        "y": 1104,
+        "name": "FLOWEDGE WF-05 supports WF-05R",
+        "geometry": "M6720 1107l0 1310 0 0 0 60m-9-18l9 18 9-18",
+        "viewBox": [
+          6708,
+          1104,
+          24,
+          1376
+        ],
+        "fill": "#00000000",
+        "width": 24,
+        "height": 1376,
+        "stroke": "#94A3B8",
+        "strokeWidth": 2,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "aNNxs",
+        "x": 6748,
+        "y": 1792,
+        "name": "FLOWLABEL สลับ Login / Register",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 320,
+        "content": "สลับ Login / Register",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "z80B54",
+        "x": 8708,
+        "y": 1647,
+        "name": "FLOWEDGE WF-04 supports WF-10F",
+        "geometry": "M8720 1650l0 767 0 0 0 60m-9-18l9 18 9-18",
+        "viewBox": [
+          8708,
+          1647,
+          24,
+          833
+        ],
+        "fill": "#00000000",
+        "width": 24,
+        "height": 833,
+        "stroke": "#94A3B8",
+        "strokeWidth": 2,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "Ag3sc",
+        "x": 8748,
+        "y": 2063.5,
+        "name": "FLOWLABEL สถานะฟอร์มเมื่อข้อมูลผิด",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 320,
+        "content": "สถานะฟอร์มเมื่อข้อมูลผิด",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "nDCdc",
+        "x": 4708,
+        "y": 597,
+        "name": "FLOWEDGE Status to my bookings",
+        "geometry": "M15460 600l20 0 0 3866-10760 0 0 40m-9-18l9 18 9-18",
+        "viewBox": [
+          4708,
+          597,
+          10775,
+          3912
+        ],
+        "fill": "#00000000",
+        "width": 10775,
+        "height": 3912,
+        "stroke": "#64748B",
+        "strokeWidth": 2.5,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "M5a7C",
+        "x": 5600,
+        "y": 4418,
+        "name": "FLOWLABEL ดูการจองของฉัน",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 900,
+        "content": "ดูการจองของฉัน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "DBVTA",
+        "x": 5077,
+        "y": 1500,
+        "name": "FLOWEDGE My bookings to booking detail",
+        "geometry": "M5080 4506l0-84 10380 0 0-2903-740 0 0-16m9 18l-9-18-9 18",
+        "viewBox": [
+          5077,
+          1500,
+          10386,
+          3009
+        ],
+        "fill": "#00000000",
+        "width": 10386,
+        "height": 3009,
+        "stroke": "#94A3B8",
+        "strokeWidth": 2,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "l8ILs",
+        "x": 5500,
+        "y": 4480,
+        "name": "FLOWLABEL เลือกรายการ → Booking Detail / สถานะล่าสุด",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 1700,
+        "content": "เลือกรายการ → Booking Detail / สถานะล่าสุด",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "WKaem",
+        "x": 1457,
+        "y": 4754,
+        "name": "FLOWEDGE Account WF-08 to WF-09",
+        "geometry": "M1460 4766l520 0m-18 9l18-9-18-9",
+        "viewBox": [
+          1457,
+          4754,
+          526,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 526,
+        "height": 24,
+        "stroke": "#64748B",
+        "strokeWidth": 2.5,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "gtbSw",
+        "x": 1475,
+        "y": 4671,
+        "name": "FLOWLABEL ผ่านเมนูบัญชี",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 490,
+        "content": "ผ่านเมนูบัญชี",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "yDITo",
+        "x": 3457,
+        "y": 4754,
+        "name": "FLOWEDGE Account WF-09 to WF-06",
+        "geometry": "M3460 4766l520 0m-18 9l18-9-18-9",
+        "viewBox": [
+          3457,
+          4754,
+          526,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 526,
+        "height": 24,
+        "stroke": "#64748B",
+        "strokeWidth": 2.5,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "UWAOA",
+        "x": 3475,
+        "y": 4671,
+        "name": "FLOWLABEL การจองของฉัน",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 490,
+        "content": "การจองของฉัน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "path",
+        "id": "i2WYN",
+        "x": 5457,
+        "y": 4754,
+        "name": "FLOWEDGE Account WF-06 to WF-10",
+        "geometry": "M5460 4766l520 0m-18 9l18-9-18-9",
+        "viewBox": [
+          5457,
+          4754,
+          526,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 526,
+        "height": 24,
+        "stroke": "#64748B",
+        "strokeWidth": 2.5,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "coBTh",
+        "x": 5475,
+        "y": 4671,
+        "name": "FLOWLABEL Loading / Empty / Error",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 490,
+        "content": "Loading / Empty / Error",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "text",
+        "id": "LZCdc",
+        "x": 10000,
+        "y": 2497,
+        "name": "Shared booking rules",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 3800,
+        "content": "เงื่อนไขร่วม\n• Browse ได้โดยไม่เลือกวันหรือ Login\n• ข้อมูลจองครบก่อนเปิด Auth\n• Guest ต้อง Login ก่อน Member Review\n• แก้วัน/จำนวน → ตรวจราคาและวันว่างใหม่\n• Reload / ปิดแท็บ / หมดอายุ → ไม่กู้ Booking Intent\n• ยืนยันใน WF-04C แล้วจึงไป Payment\n• Booking / Payment status แยกกัน\n• ลูกศรเทาเชื่อม State sheet ไม่ได้เพิ่ม route ใหม่",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 32
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "zsjpq",
+        "x": 0,
+        "y": 340,
+        "name": "WF-01 / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "WiJ26",
+        "x": 1100,
+        "y": 1644,
+        "name": "WF-01 Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "rn05M",
+        "x": 2000,
+        "y": 340,
+        "name": "WF-02 / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "J0bAfA",
+        "x": 3100,
+        "y": 1753,
+        "name": "WF-02 Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "bi6rm",
+        "x": 4000,
+        "y": 340,
+        "name": "WF-03 / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "RlHry",
+        "x": 5100,
+        "y": 1862,
+        "name": "WF-03 Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "o7Rfi2",
+        "x": 6000,
+        "y": 340,
+        "name": "WF-05 / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#E6E6E6",
+        "layout": "vertical",
+        "padding": [
+          64,
+          0
+        ],
+        "alignItems": "center"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "O8UOw",
+        "x": 7100,
+        "y": 1135,
+        "name": "WF-05 Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "WPh5D",
+        "x": 8000,
+        "y": 340,
+        "name": "WF-04 / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "AFzxt",
+        "x": 9100,
+        "y": 1678,
+        "name": "WF-04 Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "nua36",
+        "x": 10000,
+        "y": 340,
+        "name": "WF-04C / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#E2E2E2",
+        "layout": "vertical",
+        "padding": [
+          64,
+          0
+        ],
+        "alignItems": "center"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "no88C",
+        "x": 11100,
+        "y": 1019,
+        "name": "WF-04C Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "ITI2f",
+        "x": 12000,
+        "y": 340,
+        "name": "WF-04P / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "FTfXQ",
+        "x": 13100,
+        "y": 1340,
+        "name": "WF-04P Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "glddl",
+        "x": 14000,
+        "y": 340,
+        "name": "WF-07 / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "oTmL0",
+        "x": 15100,
+        "y": 1535,
+        "name": "WF-07 Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "tXuo5",
+        "x": 0,
+        "y": 2497,
+        "name": "WF-02A / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "svj8O",
+        "x": 1100,
+        "y": 2908,
+        "name": "WF-02A Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "Fe6hU",
+        "x": 2000,
+        "y": 2497,
+        "name": "WF-02P / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "IX1L3",
+        "x": 3100,
+        "y": 3870,
+        "name": "WF-02P Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "w6IH0W",
+        "x": 4000,
+        "y": 2497,
+        "name": "WF-03S / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "lpEXO",
+        "x": 5100,
+        "y": 3109,
+        "name": "WF-03S Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "ADWKk",
+        "x": 6000,
+        "y": 2497,
+        "name": "WF-05R / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#E6E6E6",
+        "layout": "vertical",
+        "padding": [
+          64,
+          0
+        ],
+        "alignItems": "center"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "NSUn8",
+        "x": 7100,
+        "y": 3537,
+        "name": "WF-05R Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "gJoAG",
+        "x": 8000,
+        "y": 2497,
+        "name": "WF-10F / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "Koapn",
+        "x": 9100,
+        "y": 3456,
+        "name": "WF-10F Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "YpPdP",
+        "x": 0,
+        "y": 4526,
+        "name": "WF-08 / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "jcfmk",
+        "x": 1100,
+        "y": 5314,
+        "name": "WF-08 Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "vchPv",
+        "x": 2000,
+        "y": 4526,
+        "name": "WF-09 / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "VByug",
+        "x": 3100,
+        "y": 5433,
+        "name": "WF-09 Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "MSyuU",
+        "x": 4000,
+        "y": 4526,
+        "name": "WF-06 / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "DKttD",
+        "x": 5100,
+        "y": 5621,
+        "name": "WF-06 Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "I9likH",
+        "x": 6000,
+        "y": 4526,
+        "name": "WF-10 / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "Uqtpy",
+        "x": 7100,
+        "y": 6532,
+        "name": "WF-10 Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "bzKNu",
+        "x": 8000,
+        "y": 4526,
+        "name": "WF-10I / Desktop / review-5",
+        "clip": true,
+        "width": 1440,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "Gr8uN",
+      "layer": {
+        "type": "frame",
+        "id": "Gqgle",
+        "x": 9100,
+        "y": 4979,
+        "name": "WF-10I Desktop — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": null,
+      "layer": {
+        "type": "frame",
+        "id": "PxJc7",
+        "x": 0,
+        "y": 7889,
+        "name": "FLOW-MOBILE — actual wireframe connections",
+        "width": 7840,
+        "height": 10960,
+        "fill": "#F4F5F7",
+        "layout": "none"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "l2nJW",
+        "x": 0,
+        "y": 0,
+        "name": "Flow heading",
+        "fill": "#072D59",
+        "textGrowth": "fixed-width",
+        "width": 7000,
+        "content": "Mobile · User flow — UXD-002 review-5",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 56
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "YLjva",
+        "x": 0,
+        "y": 96,
+        "name": "Flow legend",
+        "fill": "#526175",
+        "textGrowth": "fixed-width",
+        "width": 7400,
+        "content": "ลูกศรเข้ม = เส้นทางหลัก   •   ลูกศรเทา = ทางแยก/สถานะประกอบ   •   Annotation อยู่ใต้กรอบและแยกจาก UI",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 28
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "GtbID",
+        "x": 0,
+        "y": 155,
+        "name": "Lane 01 · ค้นหา → จอง → ชำระเงิน",
+        "fill": "#072D59",
+        "textGrowth": "fixed-width",
+        "width": 7780,
+        "content": "01 · ค้นหา → จอง → ชำระเงิน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 38
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "ZPOvU",
+        "x": 0,
+        "y": 2748,
+        "name": "Lane 02 · เมนู ค้นหา สมัครสมาชิก และฟอร์ม",
+        "fill": "#072D59",
+        "textGrowth": "fixed-width",
+        "width": 7780,
+        "content": "02 · เมนู ค้นหา สมัครสมาชิก และฟอร์ม",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 38
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "i6Db8",
+        "x": 0,
+        "y": 5145,
+        "name": "Lane 03 · ตัวกรอง ปฏิทิน และราคา/วันว่าง",
+        "fill": "#072D59",
+        "textGrowth": "fixed-width",
+        "width": 7780,
+        "content": "03 · ตัวกรอง ปฏิทิน และราคา/วันว่าง",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 38
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "xD86i",
+        "x": 0,
+        "y": 7063,
+        "name": "Lane 04 · บัญชีสมาชิกและสถานะประกอบ",
+        "fill": "#072D59",
+        "textGrowth": "fixed-width",
+        "width": 7780,
+        "content": "04 · บัญชีสมาชิกและสถานะประกอบ",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 38
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "i1QgDE",
+        "x": 409,
+        "y": 588,
+        "name": "FLOWEDGE WF-01 to WF-02",
+        "geometry": "M412 600l566 0m-18 9l18-9-18-9",
+        "viewBox": [
+          409,
+          588,
+          572,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 572,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "Lv9Y9",
+        "x": 426,
+        "y": 495,
+        "name": "FLOWLABEL ค้นหา / เลือกหมวด",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 538,
+        "content": "ค้นหา / เลือกหมวด",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "Co211",
+        "x": 1409,
+        "y": 588,
+        "name": "FLOWEDGE WF-02 to WF-03",
+        "geometry": "M1412 600l566 0m-18 9l18-9-18-9",
+        "viewBox": [
+          1409,
+          588,
+          572,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 572,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "rJfbQ",
+        "x": 1426,
+        "y": 495,
+        "name": "FLOWLABEL เปิดการ์ดที่พัก",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 538,
+        "content": "เปิดการ์ดที่พัก",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "dS0MS",
+        "x": 2409,
+        "y": 588,
+        "name": "FLOWEDGE WF-03 to WF-05",
+        "geometry": "M2412 600l566 0m-18 9l18-9-18-9",
+        "viewBox": [
+          2409,
+          588,
+          572,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 572,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "Z5wqYj",
+        "x": 2426,
+        "y": 495,
+        "name": "FLOWLABEL จอง · ข้อมูลครบ · Guest",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 538,
+        "content": "จอง · ข้อมูลครบ · Guest",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "mUStT",
+        "x": 4409,
+        "y": 588,
+        "name": "FLOWEDGE WF-04 to WF-04C",
+        "geometry": "M4412 600l566 0m-18 9l18-9-18-9",
+        "viewBox": [
+          4409,
+          588,
+          572,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 572,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "N0CTDz",
+        "x": 4426,
+        "y": 495,
+        "name": "FLOWLABEL กดชำระเงิน",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 538,
+        "content": "กดชำระเงิน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "y7SoV",
+        "x": 5409,
+        "y": 588,
+        "name": "FLOWEDGE WF-04C to WF-04P",
+        "geometry": "M5412 600l566 0m-18 9l18-9-18-9",
+        "viewBox": [
+          5409,
+          588,
+          572,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 572,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "j9caAb",
+        "x": 5426,
+        "y": 495,
+        "name": "FLOWLABEL ยืนยันและไปชำระเงิน",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 538,
+        "content": "ยืนยันและไปชำระเงิน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "UkXtO",
+        "x": 6409,
+        "y": 588,
+        "name": "FLOWEDGE WF-04P to WF-07",
+        "geometry": "M6412 600l566 0m-18 9l18-9-18-9",
+        "viewBox": [
+          6409,
+          588,
+          572,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 572,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "cUMvt",
+        "x": 6426,
+        "y": 495,
+        "name": "FLOWLABEL อ่านสถานะจริง",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 538,
+        "content": "อ่านสถานะจริง",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "S3HMAP",
+        "x": 3525,
+        "y": 544,
+        "name": "FLOW-GATE Revalidate price and availability",
+        "width": 340,
+        "height": 112,
+        "fill": "#F1F5F9",
+        "cornerRadius": 8,
+        "stroke": "#94A3B8",
+        "strokeWidth": 1,
+        "layout": "none"
+      }
+    },
+    {
+      "parentId": "S3HMAP",
+      "layer": {
+        "type": "text",
+        "id": "HSJhK",
+        "x": 18,
+        "y": 18,
+        "name": "Revalidation condition",
+        "fill": "#072D59",
+        "textGrowth": "fixed-width",
+        "width": 304,
+        "content": "ตรวจราคา / วันว่าง\nด้วยข้อมูลล่าสุด",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 28
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "jGLKN",
+        "x": 3407,
+        "y": 588,
+        "name": "FLOWEDGE Auth success to revalidation",
+        "geometry": "M3410 600l100 0m-18 9l18-9-18-9",
+        "viewBox": [
+          3407,
+          588,
+          106,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 106,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "Sf7ZN",
+        "x": 3408,
+        "y": 515,
+        "name": "FLOWLABEL สำเร็จ",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 109,
+        "content": "สำเร็จ",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "G25xLg",
+        "x": 3877,
+        "y": 588,
+        "name": "FLOWEDGE Revalidation ready to review",
+        "geometry": "M3880 600l100 0m-18 9l18-9-18-9",
+        "viewBox": [
+          3877,
+          588,
+          106,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 106,
+        "height": 24,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "kWqcL",
+        "x": 3883,
+        "y": 515,
+        "name": "FLOWLABEL พร้อม",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 111,
+        "content": "พร้อม",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "jIdhe",
+        "x": 2289.5,
+        "y": 261,
+        "name": "FLOWEDGE Member bypass Auth",
+        "geometry": "M2292.5 320l0-56 1402.5 0 0 260m-9-18l9 18 9-18",
+        "viewBox": [
+          2289.5,
+          261,
+          1417.5,
+          266
+        ],
+        "fill": "#00000000",
+        "width": 1417.5,
+        "height": 266,
+        "stroke": "#072D59",
+        "strokeWidth": 4,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "D01Tvs",
+        "x": 2322.5,
+        "y": 220,
+        "name": "FLOWLABEL Member → ตรวจข้อมูลใหม่ โดยข้าม Auth",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 1342.5,
+        "content": "Member → ตรวจข้อมูลใหม่ โดยข้าม Auth",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "bEo4K",
+        "x": 2183,
+        "y": 1201,
+        "name": "FLOWEDGE Cancel Auth to detail",
+        "geometry": "M3195 1204l0 1073-1000 0 0-16m9 18l-9-18-9 18",
+        "viewBox": [
+          2183,
+          1201,
+          1015,
+          1081
+        ],
+        "fill": "#00000000",
+        "width": 1015,
+        "height": 1081,
+        "stroke": "#64748B",
+        "strokeWidth": 2.5,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "zIPPN",
+        "x": 2000,
+        "y": 2295,
+        "name": "FLOWLABEL ยกเลิก Auth → กลับ Detail พร้อมค่าที่ยังใช้ได้",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 380,
+        "content": "ยกเลิก Auth → กลับ Detail พร้อมค่าที่ยังใช้ได้",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 18
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "itbum",
+        "x": 3692,
+        "y": 673,
+        "name": "FLOWEDGE Revalidation not ready to WF-03S",
+        "geometry": "M3695 676l0 4584 500 0 0 45m-9-18l9 18 9-18",
+        "viewBox": [
+          3692,
+          673,
+          515,
+          4635
+        ],
+        "fill": "#00000000",
+        "width": 515,
+        "height": 4635,
+        "stroke": "#64748B",
+        "strokeWidth": 2.5,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "Nr97P",
+        "x": 3715,
+        "y": 689,
+        "name": "FLOWLABEL ไม่ว่าง / ตรวจไม่ได้ / ราคาเปลี่ยน",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 260,
+        "content": "ไม่ว่าง / ตรวจไม่ได้ / ราคาเปลี่ยน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "OzXnn",
+        "x": 183,
+        "y": 1999,
+        "name": "FLOWEDGE WF-01 supports WF-01N",
+        "geometry": "M195 2002l0 846 0 0 0 60m-9-18l9 18 9-18",
+        "viewBox": [
+          183,
+          1999,
+          24,
+          912
+        ],
+        "fill": "#00000000",
+        "width": 24,
+        "height": 912,
+        "stroke": "#94A3B8",
+        "strokeWidth": 2,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "Ais1u",
+        "x": 223,
+        "y": 2455,
+        "name": "FLOWLABEL เปิดเมนูมือถือ",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 320,
+        "content": "เปิดเมนูมือถือ",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "hjVyk",
+        "x": 1183,
+        "y": 1943,
+        "name": "FLOWEDGE WF-02 supports WF-02A",
+        "geometry": "M1195 1946l0 902 0 0 0 60m-9-18l9 18 9-18",
+        "viewBox": [
+          1183,
+          1943,
+          24,
+          968
+        ],
+        "fill": "#00000000",
+        "width": 24,
+        "height": 968,
+        "stroke": "#94A3B8",
+        "strokeWidth": 2,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "Zssx5",
+        "x": 1223,
+        "y": 2427,
+        "name": "FLOWLABEL พิมพ์สถานที่",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 320,
+        "content": "พิมพ์สถานที่",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "NnuY0",
+        "x": 2183,
+        "y": 2262,
+        "name": "FLOWEDGE WF-03 supports WF-03V",
+        "geometry": "M2195 2265l0 583 0 0 0 60m-9-18l9 18 9-18",
+        "viewBox": [
+          2183,
+          2262,
+          24,
+          649
+        ],
+        "fill": "#00000000",
+        "width": 24,
+        "height": 649,
+        "stroke": "#94A3B8",
+        "strokeWidth": 2,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "ggZnH",
+        "x": 2020,
+        "y": 2700,
+        "name": "FLOWLABEL ดูตำแหน่งแถบจองใน viewport",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 360,
+        "content": "ดูตำแหน่งแถบจองใน viewport",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "Y1uQaf",
+        "x": 3183,
+        "y": 1201,
+        "name": "FLOWEDGE WF-05 supports WF-05R",
+        "geometry": "M3195 1204l0 1644 0 0 0 60m-9-18l9 18 9-18",
+        "viewBox": [
+          3183,
+          1201,
+          24,
+          1710
+        ],
+        "fill": "#00000000",
+        "width": 24,
+        "height": 1710,
+        "stroke": "#94A3B8",
+        "strokeWidth": 2,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "H6qt6",
+        "x": 3223,
+        "y": 2056,
+        "name": "FLOWLABEL สลับ Login / Register",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 320,
+        "content": "สลับ Login / Register",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "Kkutg",
+        "x": 4183,
+        "y": 1537,
+        "name": "FLOWEDGE WF-04 supports WF-10F",
+        "geometry": "M4195 1540l0 1308 0 0 0 60m-9-18l9 18 9-18",
+        "viewBox": [
+          4183,
+          1537,
+          24,
+          1374
+        ],
+        "fill": "#00000000",
+        "width": 24,
+        "height": 1374,
+        "stroke": "#94A3B8",
+        "strokeWidth": 2,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "dk4ox",
+        "x": 4223,
+        "y": 2224,
+        "name": "FLOWLABEL สถานะฟอร์มเมื่อข้อมูลผิด",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 320,
+        "content": "สถานะฟอร์มเมื่อข้อมูลผิด",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "V2juEC",
+        "x": 1183,
+        "y": 657,
+        "name": "FLOWEDGE Results open filter drawer",
+        "geometry": "M1410 660l400 0 0 4605-615 0 0 40m-9-18l9 18 9-18",
+        "viewBox": [
+          1183,
+          657,
+          630,
+          4651
+        ],
+        "fill": "#00000000",
+        "width": 630,
+        "height": 4651,
+        "stroke": "#64748B",
+        "strokeWidth": 2.5,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "QORcD",
+        "x": 1790,
+        "y": 2460,
+        "name": "FLOWLABEL เปิดตัวกรอง → Apply กลับ Results\nปิดก่อน Apply = ทิ้งค่าร่าง",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 180,
+        "content": "เปิดตัวกรอง → Apply กลับ Results\nปิดก่อน Apply = ทิ้งค่าร่าง",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "S5YuTY",
+        "x": 2192,
+        "y": 3789,
+        "name": "FLOWEDGE Detail date edit",
+        "geometry": "M2195 3792l0 1453 1000 0 0 60m-9-18l9 18 9-18",
+        "viewBox": [
+          2192,
+          3789,
+          1015,
+          1519
+        ],
+        "fill": "#00000000",
+        "width": 1015,
+        "height": 1519,
+        "stroke": "#64748B",
+        "strokeWidth": 2.5,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "ElJcS",
+        "x": 2223,
+        "y": 5205,
+        "name": "FLOWLABEL เลือก/แก้วัน → บันทึกกลับต้นทาง",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 900,
+        "content": "เลือก/แก้วัน → บันทึกกลับต้นทาง",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "iaQ9T",
+        "x": 2000,
+        "y": 6521,
+        "name": "Search picker reference",
+        "fill": "#526175",
+        "textGrowth": "fixed-width",
+        "width": 390,
+        "content": "WF-02P: เปิดจากช่องวัน/จำนวนใน Search\nบันทึกแล้วกลับ origin; คนรวม + pets แยก",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "s2Aphw",
+        "x": 2183,
+        "y": 597,
+        "name": "FLOWEDGE Status to my bookings",
+        "geometry": "M7410 600l390 0 0 6583-5605 0 0 40m-9-18l9 18 9-18",
+        "viewBox": [
+          2183,
+          597,
+          5620,
+          6629
+        ],
+        "fill": "#00000000",
+        "width": 5620,
+        "height": 6629,
+        "stroke": "#64748B",
+        "strokeWidth": 2.5,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "qDjU5",
+        "x": 2550,
+        "y": 7135,
+        "name": "FLOWLABEL ดูการจองของฉัน",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 900,
+        "content": "ดูการจองของฉัน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "aZBkU",
+        "x": 2289.5,
+        "y": 1757,
+        "name": "FLOWEDGE My bookings to booking detail",
+        "geometry": "M2292.5 7223l0-84 5487.5 0 0-5363-585 0 0-16m9 18l-9-18-9 18",
+        "viewBox": [
+          2289.5,
+          1757,
+          5493.5,
+          5469
+        ],
+        "fill": "#00000000",
+        "width": 5493.5,
+        "height": 5469,
+        "stroke": "#94A3B8",
+        "strokeWidth": 2,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "BFOOp",
+        "x": 2500,
+        "y": 7200,
+        "name": "FLOWLABEL เลือกรายการ → Booking Detail / สถานะล่าสุด",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 1700,
+        "content": "เลือกรายการ → Booking Detail / สถานะล่าสุด",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "uvozJ",
+        "x": 407,
+        "y": 7471,
+        "name": "FLOWEDGE Account WF-08 to WF-09",
+        "geometry": "M410 7483l570 0m-18 9l18-9-18-9",
+        "viewBox": [
+          407,
+          7471,
+          576,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 576,
+        "height": 24,
+        "stroke": "#64748B",
+        "strokeWidth": 2.5,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "AIPYW",
+        "x": 425,
+        "y": 7388,
+        "name": "FLOWLABEL ผ่านเมนูบัญชี",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 540,
+        "content": "ผ่านเมนูบัญชี",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "cYeWq",
+        "x": 1407,
+        "y": 7471,
+        "name": "FLOWEDGE Account WF-09 to WF-06",
+        "geometry": "M1410 7483l570 0m-18 9l18-9-18-9",
+        "viewBox": [
+          1407,
+          7471,
+          576,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 576,
+        "height": 24,
+        "stroke": "#64748B",
+        "strokeWidth": 2.5,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "MAaam",
+        "x": 1425,
+        "y": 7388,
+        "name": "FLOWLABEL การจองของฉัน",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 540,
+        "content": "การจองของฉัน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "path",
+        "id": "E61ZKA",
+        "x": 2407,
+        "y": 7471,
+        "name": "FLOWEDGE Account WF-06 to WF-10",
+        "geometry": "M2410 7483l570 0m-18 9l18-9-18-9",
+        "viewBox": [
+          2407,
+          7471,
+          576,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 576,
+        "height": 24,
+        "stroke": "#64748B",
+        "strokeWidth": 2.5,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "uli0V",
+        "x": 2425,
+        "y": 7388,
+        "name": "FLOWLABEL Loading / Empty / Error",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 540,
+        "content": "Loading / Empty / Error",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "text",
+        "id": "BbyoW",
+        "x": 5000,
+        "y": 2928,
+        "name": "Shared booking rules",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 2760,
+        "content": "เงื่อนไขร่วม\n• Browse ได้โดยไม่เลือกวันหรือ Login\n• ข้อมูลจองครบก่อนเปิด Auth\n• Guest ต้อง Login ก่อน Member Review\n• แก้วัน/จำนวน → ตรวจราคาและวันว่างใหม่\n• Reload / ปิดแท็บ / หมดอายุ → ไม่กู้ Booking Intent\n• ยืนยันใน WF-04C แล้วจึงไป Payment\n• Booking / Payment status แยกกัน\n• ลูกศรเทาเชื่อม State sheet ไม่ได้เพิ่ม route ใหม่",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 32
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "CMCzX",
+        "x": 0,
+        "y": 340,
+        "name": "WF-01 / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "pE3rS",
+        "x": 430,
+        "y": 2030,
+        "name": "WF-01 Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "Y1SFQZ",
+        "x": 1000,
+        "y": 340,
+        "name": "WF-02 / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "zUJam",
+        "x": 1430,
+        "y": 1974,
+        "name": "WF-02 Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "TtzM7",
+        "x": 2000,
+        "y": 340,
+        "name": "WF-03 / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "p1COri",
+        "x": 2430,
+        "y": 2293,
+        "name": "WF-03 Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "zYncb",
+        "x": 3000,
+        "y": 340,
+        "name": "WF-05 / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "height": 844,
+        "fill": "#FFFFFF",
+        "layout": "vertical",
+        "padding": 24,
+        "alignItems": "center"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "bb9N2",
+        "x": 3430,
+        "y": 1232,
+        "name": "WF-05 Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "iRqe3",
+        "x": 4000,
+        "y": 340,
+        "name": "WF-04 / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "jE2qT",
+        "x": 4430,
+        "y": 1568,
+        "name": "WF-04 Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "FzcNu",
+        "x": 5000,
+        "y": 340,
+        "name": "WF-04C / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "height": 844,
+        "fill": "#DCDCDC",
+        "layout": "none"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "NVBnk",
+        "x": 5430,
+        "y": 1232,
+        "name": "WF-04C Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "gJYdw",
+        "x": 6000,
+        "y": 340,
+        "name": "WF-04P / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "dYEbV",
+        "x": 6430,
+        "y": 1735,
+        "name": "WF-04P Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "hBikZ",
+        "x": 7000,
+        "y": 340,
+        "name": "WF-07 / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "iqv2o",
+        "x": 7430,
+        "y": 1792,
+        "name": "WF-07 Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "lhFmH",
+        "x": 0,
+        "y": 2928,
+        "name": "WF-01N / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "ZXtkw",
+        "x": 430,
+        "y": 3667,
+        "name": "WF-01N Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "ZOplD",
+        "x": 1000,
+        "y": 2928,
+        "name": "WF-02A / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "Ip3K7",
+        "x": 1430,
+        "y": 3737,
+        "name": "WF-02A Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "xpBrD",
+        "x": 2000,
+        "y": 2928,
+        "name": "WF-03V / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "height": 844,
+        "fill": "#FFFFFF",
+        "layout": "none"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "ooRQL",
+        "x": 2430,
+        "y": 3820,
+        "name": "WF-03V Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "abBhD",
+        "x": 3000,
+        "y": 2928,
+        "name": "WF-05R / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical",
+        "padding": 24,
+        "alignItems": "center"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "TGIXl",
+        "x": 3430,
+        "y": 3824,
+        "name": "WF-05R Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "Clbn4",
+        "x": 4000,
+        "y": 2928,
+        "name": "WF-10F / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "IdrsG",
+        "x": 4430,
+        "y": 4648,
+        "name": "WF-10F Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "dxGjo",
+        "x": 1000,
+        "y": 5325,
+        "name": "WF-02F / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "tx9cI",
+        "x": 1430,
+        "y": 5980,
+        "name": "WF-02F Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "PoLBc",
+        "x": 2000,
+        "y": 5325,
+        "name": "WF-02P / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "PBHsS",
+        "x": 2430,
+        "y": 6539,
+        "name": "WF-02P Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "fNYuY",
+        "x": 3000,
+        "y": 5325,
+        "name": "WF-03D / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "height": 844,
+        "fill": "#DCDCDC",
+        "layout": "none"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "YTl2a",
+        "x": 3430,
+        "y": 6217,
+        "name": "WF-03D Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "zlq0t",
+        "x": 4000,
+        "y": 5325,
+        "name": "WF-03S / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "dGKoP",
+        "x": 4430,
+        "y": 6587,
+        "name": "WF-03S Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "bK02n",
+        "x": 0,
+        "y": 7243,
+        "name": "WF-08 / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "B0Ctmx",
+        "x": 430,
+        "y": 8255,
+        "name": "WF-08 Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "w48Pyi",
+        "x": 1000,
+        "y": 7243,
+        "name": "WF-09 / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "jizRy",
+        "x": 1430,
+        "y": 8341,
+        "name": "WF-09 Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "KVuSK",
+        "x": 2000,
+        "y": 7243,
+        "name": "WF-06 / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "sso4q",
+        "x": 2430,
+        "y": 8675,
+        "name": "WF-06 Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "s7Uvx0",
+        "x": 3000,
+        "y": 7243,
+        "name": "WF-10 / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "gAUfA",
+        "x": 3430,
+        "y": 10203,
+        "name": "WF-10 Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "K1Dj8w",
+        "x": 4000,
+        "y": 7243,
+        "name": "WF-10I / Mobile / review-5",
+        "clip": true,
+        "width": 390,
+        "fill": "#FFFFFF",
+        "layout": "vertical"
+      }
+    },
+    {
+      "parentId": "PxJc7",
+      "layer": {
+        "type": "frame",
+        "id": "c4nOTr",
+        "x": 4430,
+        "y": 8370,
+        "name": "WF-10I Mobile — external annotation",
+        "width": 330,
+        "fill": "#FFF9D9",
+        "layout": "vertical",
+        "gap": 14,
+        "padding": 24
+      }
+    },
+    {
+      "parentId": null,
+      "layer": {
+        "type": "frame",
+        "id": "EfYDD",
+        "x": 0,
+        "y": -1800,
+        "name": "USER-FLOW — START HERE",
+        "clip": true,
+        "width": 3200,
+        "height": 1520,
+        "fill": "#FFFFFF",
+        "layout": "none"
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "Uq4Al",
+        "x": 64,
+        "y": 40,
+        "name": "Overview title",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 3000,
+        "content": "USER FLOW · paipak",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 44
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "O3NqN",
+        "x": 64,
+        "y": 108,
+        "name": "Overview subtitle",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 3040,
+        "content": "เริ่มดูจากภาพรวมนี้ · หน้าจอจริงที่แก้ไขได้อยู่ใน FLOW-DESKTOP และ FLOW-MOBILE ด้านล่าง",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 25
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "UbtXO",
+        "x": 80,
+        "y": 270,
+        "name": "Overview WF-01",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 260,
+        "content": "WF-01 · หน้าแรก",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 23
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "rectangle",
+        "id": "t4eqMf",
+        "x": 80,
+        "y": 330,
+        "name": "Thumbnail WF-01",
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "review-5/mobile/wf-01.png",
+          "mode": "contain"
+        },
+        "width": 240,
+        "height": 430
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "rICMZ",
+        "x": 80,
+        "y": 790,
+        "name": "Overview action WF-01",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 270,
+        "content": "ค้นหา / เลือกหมวด",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "path",
+        "id": "XHsrH",
+        "x": 327,
+        "y": 528,
+        "name": "Overview transition WF-01",
+        "geometry": "M330 540l120 0m-18 9l18-9-18-9",
+        "viewBox": [
+          327,
+          528,
+          126,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 126,
+        "height": 24,
+        "stroke": "#526175",
+        "strokeWidth": 3,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "THHH1",
+        "x": 470,
+        "y": 270,
+        "name": "Overview WF-02",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 260,
+        "content": "WF-02 · ผลการค้นหา",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 23
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "rectangle",
+        "id": "W7V9w",
+        "x": 470,
+        "y": 330,
+        "name": "Thumbnail WF-02",
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "review-5/mobile/wf-02.png",
+          "mode": "contain"
+        },
+        "width": 240,
+        "height": 430
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "nZ6Q7",
+        "x": 470,
+        "y": 790,
+        "name": "Overview action WF-02",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 270,
+        "content": "เปิดการ์ดที่พัก",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "path",
+        "id": "lldPE",
+        "x": 717,
+        "y": 528,
+        "name": "Overview transition WF-02",
+        "geometry": "M720 540l120 0m-18 9l18-9-18-9",
+        "viewBox": [
+          717,
+          528,
+          126,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 126,
+        "height": 24,
+        "stroke": "#526175",
+        "strokeWidth": 3,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "t5kL6d",
+        "x": 860,
+        "y": 270,
+        "name": "Overview WF-03",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 260,
+        "content": "WF-03 · รายละเอียดที่พัก",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 23
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "rectangle",
+        "id": "ZLqXP",
+        "x": 860,
+        "y": 330,
+        "name": "Thumbnail WF-03",
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "review-5/mobile/wf-03v.png",
+          "mode": "contain"
+        },
+        "width": 240,
+        "height": 430
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "cZVBL",
+        "x": 860,
+        "y": 790,
+        "name": "Overview action WF-03",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 270,
+        "content": "จองที่พักนี้ · ข้อมูลครบ",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "path",
+        "id": "IWIIg",
+        "x": 1107,
+        "y": 528,
+        "name": "Overview transition WF-03",
+        "geometry": "M1110 540l120 0m-18 9l18-9-18-9",
+        "viewBox": [
+          1107,
+          528,
+          126,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 126,
+        "height": 24,
+        "stroke": "#526175",
+        "strokeWidth": 3,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "iGskP",
+        "x": 1250,
+        "y": 270,
+        "name": "Overview WF-05",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 260,
+        "content": "WF-05 · เข้าสู่ระบบ (Guest)",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 23
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "rectangle",
+        "id": "p12x3M",
+        "x": 1250,
+        "y": 330,
+        "name": "Thumbnail WF-05",
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "review-5/mobile/wf-05.png",
+          "mode": "contain"
+        },
+        "width": 240,
+        "height": 430
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "y95xoL",
+        "x": 1250,
+        "y": 790,
+        "name": "Overview action WF-05",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 270,
+        "content": "สำเร็จ → ตรวจราคา/วันว่าง",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "path",
+        "id": "YT61i",
+        "x": 1497,
+        "y": 528,
+        "name": "Overview transition WF-05",
+        "geometry": "M1500 540l120 0m-18 9l18-9-18-9",
+        "viewBox": [
+          1497,
+          528,
+          126,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 126,
+        "height": 24,
+        "stroke": "#526175",
+        "strokeWidth": 3,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "aAtgo",
+        "x": 1640,
+        "y": 270,
+        "name": "Overview WF-04",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 260,
+        "content": "WF-04 · ตรวจรายการจอง",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 23
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "rectangle",
+        "id": "bwq6b",
+        "x": 1640,
+        "y": 330,
+        "name": "Thumbnail WF-04",
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "review-5/mobile/wf-04.png",
+          "mode": "contain"
+        },
+        "width": 240,
+        "height": 430
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "p5Uvdo",
+        "x": 1640,
+        "y": 790,
+        "name": "Overview action WF-04",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 270,
+        "content": "กดชำระเงิน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "path",
+        "id": "l5bV6P",
+        "x": 1887,
+        "y": 528,
+        "name": "Overview transition WF-04",
+        "geometry": "M1890 540l120 0m-18 9l18-9-18-9",
+        "viewBox": [
+          1887,
+          528,
+          126,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 126,
+        "height": 24,
+        "stroke": "#526175",
+        "strokeWidth": 3,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "xZ091",
+        "x": 2030,
+        "y": 270,
+        "name": "Overview WF-04C",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 260,
+        "content": "WF-04C · สรุปเพื่อยืนยัน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 23
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "rectangle",
+        "id": "eIY35",
+        "x": 2030,
+        "y": 330,
+        "name": "Thumbnail WF-04C",
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "review-5/mobile/wf-04c.png",
+          "mode": "contain"
+        },
+        "width": 240,
+        "height": 430
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "cdhMh",
+        "x": 2030,
+        "y": 790,
+        "name": "Overview action WF-04C",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 270,
+        "content": "ยืนยันและไปชำระเงิน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "path",
+        "id": "TAwka",
+        "x": 2277,
+        "y": 528,
+        "name": "Overview transition WF-04C",
+        "geometry": "M2280 540l120 0m-18 9l18-9-18-9",
+        "viewBox": [
+          2277,
+          528,
+          126,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 126,
+        "height": 24,
+        "stroke": "#526175",
+        "strokeWidth": 3,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "O3jcEO",
+        "x": 2420,
+        "y": 270,
+        "name": "Overview WF-04P",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 260,
+        "content": "WF-04P · ขั้นชำระเงิน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 23
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "rectangle",
+        "id": "VtB28",
+        "x": 2420,
+        "y": 330,
+        "name": "Thumbnail WF-04P",
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "review-5/mobile/wf-04p.png",
+          "mode": "contain"
+        },
+        "width": 240,
+        "height": 430
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "EocPQ",
+        "x": 2420,
+        "y": 790,
+        "name": "Overview action WF-04P",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 270,
+        "content": "อ่านผลที่ตรวจสอบได้",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "path",
+        "id": "IpkXK",
+        "x": 2667,
+        "y": 528,
+        "name": "Overview transition WF-04P",
+        "geometry": "M2670 540l120 0m-18 9l18-9-18-9",
+        "viewBox": [
+          2667,
+          528,
+          126,
+          24
+        ],
+        "fill": "#00000000",
+        "width": 126,
+        "height": 24,
+        "stroke": "#526175",
+        "strokeWidth": 3,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "Z1jl3",
+        "x": 2810,
+        "y": 270,
+        "name": "Overview WF-07",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 260,
+        "content": "WF-07 · รายละเอียดการจอง",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 23
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "rectangle",
+        "id": "v1sEqH",
+        "x": 2810,
+        "y": 330,
+        "name": "Thumbnail WF-07",
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "review-5/mobile/wf-07.png",
+          "mode": "contain"
+        },
+        "width": 240,
+        "height": 430
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "BS7C7",
+        "x": 2810,
+        "y": 790,
+        "name": "Overview action WF-07",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 270,
+        "content": "แยกสถานะจอง / ชำระเงิน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 20
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "path",
+        "id": "HBWHD",
+        "x": 977,
+        "y": 207,
+        "name": "Overview member skips auth",
+        "geometry": "M980 260l0-50 780 0 0 50m-9-18l9 18 9-18",
+        "viewBox": [
+          977,
+          207,
+          795,
+          56
+        ],
+        "fill": "#00000000",
+        "width": 795,
+        "height": 56,
+        "stroke": "#65758A",
+        "strokeWidth": 3,
+        "strokeLinejoin": "round",
+        "strokeLinecap": "round"
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "H5Oyvb",
+        "x": 1060,
+        "y": 158,
+        "name": "FLOWLABEL สมาชิกที่ login แล้ว → ข้าม Auth และตรวจราคา/วันว่างก่อน Review",
+        "fill": "#334155",
+        "textGrowth": "fixed-width",
+        "width": 1240,
+        "content": "สมาชิกที่ login แล้ว → ข้าม Auth และตรวจราคา/วันว่างก่อน Review",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 21
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "juYw2",
+        "x": 80,
+        "y": 900,
+        "name": "Overview booking conditions",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 3020,
+        "content": "ก่อนจอง: วันและจำนวนต้องครบ · ยกเลิก Auth กลับต้นทางพร้อมค่าที่ยังใช้ได้ · ราคาเปลี่ยน / ไม่ว่าง / ตรวจไม่ได้ → WF-03S",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 23
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "uPbQ1",
+        "x": 80,
+        "y": 948,
+        "name": "Overview confirmation return",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 3020,
+        "content": "WF-04C กลับไปแก้ได้ที่ WF-04 · Reload / ปิดแท็บ / Intent หรือ Session หมดอายุ: ไม่กู้ Booking Intent",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 23
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "b3n3RB",
+        "x": 80,
+        "y": 1030,
+        "name": "Overview supporting title",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 3020,
+        "content": "ทางแยกและหน้าประกอบ — เชื่อมกับกรอบจริงบน canvas ด้านล่าง",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 27
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "rectangle",
+        "cornerRadius": 8,
+        "id": "SdIBu",
+        "x": 80,
+        "y": 1090,
+        "name": "Supporting group ค้นหา / ตัวกรอง",
+        "fill": "#F4F5F6",
+        "width": 730,
+        "height": 270
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "wob1G",
+        "x": 104,
+        "y": 1110,
+        "name": "Group ค้นหา / ตัวกรอง",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 680,
+        "content": "ค้นหา / ตัวกรอง",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 25
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "O10Wzh",
+        "x": 104,
+        "y": 1160,
+        "name": "Refs ค้นหา / ตัวกรอง",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 680,
+        "content": "WF-02A · WF-02F · WF-02P",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 23
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "Ob62V",
+        "x": 104,
+        "y": 1210,
+        "name": "Rules ค้นหา / ตัวกรอง",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 680,
+        "content": "พิมพ์สถานที่ · แก้วัน/จำนวน\nApply จึงใช้ค่าตัวกรอง",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "rectangle",
+        "cornerRadius": 8,
+        "id": "Yiz9Y",
+        "x": 860,
+        "y": 1090,
+        "name": "Supporting group วันเข้าพัก / ราคา",
+        "fill": "#F4F5F6",
+        "width": 730,
+        "height": 270
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "nz60l",
+        "x": 884,
+        "y": 1110,
+        "name": "Group วันเข้าพัก / ราคา",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 680,
+        "content": "วันเข้าพัก / ราคา",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 25
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "QdYYl",
+        "x": 884,
+        "y": 1160,
+        "name": "Refs วันเข้าพัก / ราคา",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 680,
+        "content": "WF-03D · WF-03S",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 23
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "uDEK3",
+        "x": 884,
+        "y": 1210,
+        "name": "Rules วันเข้าพัก / ราคา",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 680,
+        "content": "แก้วัน → กลับต้นทาง\nตรวจราคาและวันว่างใหม่",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "rectangle",
+        "cornerRadius": 8,
+        "id": "jrq7g",
+        "x": 1640,
+        "y": 1090,
+        "name": "Supporting group สมาชิก / รายการจอง",
+        "fill": "#F4F5F6",
+        "width": 730,
+        "height": 270
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "N1xclr",
+        "x": 1664,
+        "y": 1110,
+        "name": "Group สมาชิก / รายการจอง",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 680,
+        "content": "สมาชิก / รายการจอง",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 25
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "syBVI",
+        "x": 1664,
+        "y": 1160,
+        "name": "Refs สมาชิก / รายการจอง",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 680,
+        "content": "WF-08 · WF-09 · WF-06",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 23
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "PtlZy",
+        "x": 1664,
+        "y": 1210,
+        "name": "Rules สมาชิก / รายการจอง",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 680,
+        "content": "Favorites ต้อง login\nดูข้อมูลบัญชีและรายการจอง",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "rectangle",
+        "cornerRadius": 8,
+        "id": "QYjTa",
+        "x": 2420,
+        "y": 1090,
+        "name": "Supporting group สถานะระหว่างใช้งาน",
+        "fill": "#F4F5F6",
+        "width": 730,
+        "height": 270
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "oqYQe",
+        "x": 2444,
+        "y": 1110,
+        "name": "Group สถานะระหว่างใช้งาน",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 680,
+        "content": "สถานะระหว่างใช้งาน",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 25
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "fpKr4",
+        "x": 2444,
+        "y": 1160,
+        "name": "Refs สถานะระหว่างใช้งาน",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 680,
+        "content": "WF-05R · WF-10 · WF-10F · WF-10I",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 23
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "fMZTJ",
+        "x": 2444,
+        "y": 1210,
+        "name": "Rules สถานะระหว่างใช้งาน",
+        "fill": "#242424",
+        "textGrowth": "fixed-width",
+        "width": 680,
+        "content": "สมัครสมาชิก · ฟอร์มผิด\nLoading / Empty / Error · รูปภาพ",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    },
+    {
+      "parentId": "EfYDD",
+      "layer": {
+        "type": "text",
+        "id": "ybhWW",
+        "x": 80,
+        "y": 1420,
+        "name": "Static flow note",
+        "fill": "#586272",
+        "textGrowth": "fixed-width",
+        "width": 3030,
+        "content": "ลูกศรอธิบายการนำทางและสถานะของ wireframe · ยังไม่ใช่ prototype ที่กดใช้งานได้ · review-5 / รอเจ้าของตรวจรับ",
+        "lineHeight": 1.4,
+        "fontFamily": "Mitr",
+        "fontSize": 22
+      }
+    }
+  ]
+}

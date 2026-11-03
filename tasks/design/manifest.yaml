@@ -81,21 +81,40 @@ tasks:
   - interaction-specification.md
   - ux-requirements.md
   artifact_links:
-  - docs/design/uxd-002/wireframes-desktop/
-  - docs/design/uxd-002/wireframes-mobile/
+  - docs/design/uxd-002/review-5/README.md
+  - docs/design/uxd-002/review-5/desktop/
+  - docs/design/uxd-002/review-5/mobile/
+  - docs/design/uxd-002/review-5/component-inventory.md
+  - docs/design/uxd-002/review-5/user-flow.md
+  - docs/design/uxd-002/review-5/user-flow-overview.png
+  - docs/design/uxd-002/review-5/editable-flow-snapshot.json
+  - docs/design/uxd-002/review-5/canvas-user-flow.json
+  - docs/design/uxd-002/review-5/flow-groups/README.md
+  - docs/design/uxd-002/review-5/flow-groups/desktop/README.md
+  - docs/design/uxd-002/review-5/flow-groups/desktop/index.png
+  - docs/design/uxd-002/review-5/flow-groups/desktop/flow-index.json
+  - docs/design/uxd-002/review-5/flow-groups/desktop/editable-snapshot.json
+  - docs/design/uxd-002/review-5/flow-groups/index.png
+  - docs/design/uxd-002/review-5/flow-groups/flow-index.json
+  - docs/design/uxd-002/review-5/flow-groups/editable-snapshot.json
+  - docs/design/uxd-002/review-5/editable-snapshot.json
+  - docs/design/uxd-002/review-5/export-index.json
   - docs/design/uxd-002/annotations.md
   - docs/design/uxd-002/interaction-specification.md
   - docs/design/uxd-002/ux-requirements.md
-  editable_source: C:/Users/USER/.pencil/documents/2d950f8a-3698-4a79-b265-862d2fc9b90f/paipak-wireframe.pen
+  - docs/design/uxd-002/review-decisions.md
+  editable_source: docs/design/uxd-002/paipak-wireframe.pen
+  editable_source_note: Latest connected canvas has 8 Desktop and 8 Mobile review groups, 2 review indexes and 3 existing flow boards, retaining 40 screens and 40 external annotations. Full backup is review-5/flow-groups/desktop/editable-snapshot.json. Owner will save when ready; latest native layout is not verified on disk. No Computer Use in this revision.
   plan_approved_on: '2026-11-02'
-  draft_version: review-4
-  revision_summary: Apply owner-confirmed navigation and exact logo notice on 24 Headers; add Mobile open-menu state and retain Login-first Auth. Export 30 PNGs with 30 external annotations; no application changes.
+  draft_version: review-5
+  previous_draft_version: rebuilt-1
+  revision_summary: Apply owner Q-01 through Q-12 and F-01; keep login before member review, use Airbnb-style review grouping and confirmation before payment. Add autocomplete, date editor, fixed viewport, carousel and inline form states. Preserve prior exports; no application changes.
   export_counts:
-    desktop: 14
-    mobile: 16
+    desktop: 18
+    mobile: 22
     main_frames: 18
-    supporting_frames: 12
-  evidence_summary: Pencil static renders and PNG review at Desktop 1440px and Mobile 390px, image-dimension and document checks; Tablet adaptation and accessibility annotations only; no application or runtime changes.
+    supporting_frames: 22
+  evidence_summary: Static review of 8 Desktop and 8 Mobile flow groups plus 2 indexes and 18 PNGs; Desktop board bounds and text spacing checked and Desktop image sources verified. Existing 40 screen PNGs and 40 annotations retained. Latest 21-container canvas has full layer backup; owner controls native save. Runtime, Tablet, keyboard and backend/payment behavior untested.
   acceptance_criteria:
   - All 10 page templates covered
   - Layouts respect selected variants

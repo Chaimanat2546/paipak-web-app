@@ -1,6 +1,8 @@
 # UXD-002 — UX / Functional Requirements
 
-วันที่: 2 พฤศจิกายน 2026 · Asia/Bangkok · รุ่น: review-4
+วันที่: 3 พฤศจิกายน 2026 · Asia/Bangkok · รุ่น: review-5
+
+เพิ่มคำตอบเจ้าของรอบ UXD-002 ตาม [review-decisions](review-decisions.md) ข้อกำหนดใหม่กำกับการแก้แบบ ไม่ใช่การอนุมัติภาพหรือ authorization ให้เขียนระบบจริง
 
 เอกสารนี้เป็นดัชนีข้อกำหนดที่ใช้กับ wireframe ไม่ใช่ UI copy โดยรวบรวมข้อกำหนดเดิมและคำสั่ง Navigation ล่าสุดของภูแยกแหล่งที่มา อ้าง [UXD-001 review-2 ที่อนุมัติแล้ว](../../../tasks/design/UXD-001.md#owner-acceptance), [registry](../../decisions/registry.yaml) และ [ขอบเขต UX/UI](../approved-ux-ui-scope.md)
 
@@ -36,7 +38,20 @@
 
 ชื่อบริษัท ช่องทางติดต่อจริง รายละเอียดภาษาอังกฤษ และหน้าบทความยังไม่ได้รับหรือออกแบบ การยืนยันรายการใน Navigation ไม่ใช่การอนุมัติธุรกรรมโอนเงินหรือให้เริ่ม task อื่น
 
-## ความสัมพันธ์กับข้อความบนหน้า
+## รายละเอียดที่เจ้าของยืนยันระหว่างรีวิว UXD-002
+
+| รหัส | ข้อกำหนด | แหล่งยืนยัน | จุดตรวจ |
+|---|---|---|---|
+| UXR-19 | Location ใช้การพิมพ์พร้อมรายการแนะนำ โดย location/date/guest ในการค้นหายัง optional | Q-01 | WF-02A; LOCATION-01; I-25 |
+| UXR-20 | คง Guest Auth ก่อน Member Review/Checkout; กดจอง → Auth เมื่อจำเป็น → revalidate → ตรวจรายการแบบ Airbnb → ชำระเงิน; Member ไม่ต้อง Auth ซ้ำ | F-01 วันที่ 3 พ.ย. 2026 | WF-03/WF-05/WF-04; I-08/I-11 |
+| UXR-21 | ห้องนอนเป็นช่วงต่ำสุด–สูงสุด ใช้ปุ่ม −/+ แยกสองค่า ค่า sample ไม่กำหนด catalog limits | Q-02/Q-03 | WF-02/WF-02F; BEDROOM-MIN/MAX-01 |
+| UXR-22 | ปิด filter โดยไม่ Apply ทิ้ง draft; นำ Favorite ออกทันที ไม่ถามยืนยันและไม่มี Undo | Q-08/Q-09 | WF-02F/WF-08; I-06/I-15 |
+| UXR-23 | ตรวจฟอร์มระหว่างพิมพ์ Client และตรวจซ้ำ Server เมื่อส่ง พร้อมข้อความผิดพลาดใน context | Q-10 | WF-10F; I-27; implementation/domain contracts แยก |
+| UXR-24 | กดชำระเงินใน Review เปิดสรุปเพื่อยืนยัน Desktop modal / Mobile bottom sheet ก่อน Payment step; มีทางกลับแก้ | Q-11 และ F-01 | WF-04C; CONFIRM-BOOKING-01; I-23 |
+| UXR-25 | แยกปุ่มจองจากการแก้วัน/ดูราคาในแถบ Mobile; date editor เกือบเต็มจอพร้อม Save ตาม reference | Q-12 และคำแก้ให้เป็นปุ่มจอง | WF-03V/WF-03D; I-08/I-24 |
+| UXR-26 | Carousel ไม่ autoplay ไม่วนที่รูปสุดท้าย ลูกศรถัดไป disabled; รูปเดียวซ่อน controls; error ใช้ icon+ข้อความไม่มี Retry | Q-04 ถึง Q-07 | WF-10I; I-04/I-26 |
+
+## ความสัมพันธ์กับข้อความบนหน้า — review-5
 
 กฎ “ไม่บังคับเลือกวันที่” อยู่ใน UXR-01 ส่วน Wireframe แสดง label “เช็คอิน – เช็คเอาท์” และค่าเริ่มต้น “เพิ่มวันที่” ไม่ต้องคัดลอกประโยคข้อกำหนดลงหน้าเว็บ
 
@@ -48,4 +63,4 @@
 
 รายการ [OPEN-001 ถึง OPEN-007](../../decisions/open-decisions.yaml) ยังมีผล ไม่ปิดจากการจัดเอกสารใหม่ ไม่กำหนดสี CTA ที่ผ่าน contrast แล้ว วิธีชำระเงินจริง payment API, hold TTL, วิธีล็อก inventory หรือแหล่งราคา/วันว่างแทนเจ้าของโครงการ
 
-UXD-002 review-4 ยังรอตรวจรับ ส่วนข้อกำหนดที่รับมาจาก UXD-001 review-2 คงสถานะอนุมัติเดิม ไม่มีการแก้โค้ดแอปหรือเริ่ม task ถัดไป
+UXD-002 review-5 ยังรอตรวจรับภาพและสเปก ส่วน UXD-001 review-2 คงสถานะอนุมัติเดิม ไม่มีการแก้โค้ดแอปหรือเริ่ม task ถัดไป ข้อเสนอและส่วนที่ยังไม่กำหนดอ่านใน [component inventory](review-5/component-inventory.md)

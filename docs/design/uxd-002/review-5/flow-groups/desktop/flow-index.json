@@ -1,0 +1,79 @@
+{
+  "task": "UXD-002",
+  "draft": "review-5",
+  "date": "2026-11-03",
+  "platform": "desktop",
+  "approval": "pending_owner_review",
+  "index": {
+    "id": "H5hD9g",
+    "path": "index.png",
+    "width": 6700,
+    "height": 1400
+  },
+  "groups": [
+    {
+      "flow": "F-01",
+      "id": "m7LoAf",
+      "title": "ค้นหาและเลือกที่พัก",
+      "path": "f-01.png",
+      "width": 3200,
+      "height": 2700
+    },
+    {
+      "flow": "F-02",
+      "id": "JDJgn",
+      "title": "เลือกข้อมูลเข้าพัก",
+      "path": "f-02.png",
+      "width": 3200,
+      "height": 2700
+    },
+    {
+      "flow": "F-03",
+      "id": "xZr3R",
+      "title": "เข้าสู่ระบบและสมัครสมาชิก",
+      "path": "f-03.png",
+      "width": 3200,
+      "height": 2700
+    },
+    {
+      "flow": "F-04",
+      "id": "yyvUA",
+      "title": "ตรวจรายการ จอง และชำระเงิน",
+      "path": "f-04.png",
+      "width": 3200,
+      "height": 2700
+    },
+    {
+      "flow": "F-05",
+      "id": "tPG6B",
+      "title": "รับผลและตรวจสถานะการจอง",
+      "path": "f-05.png",
+      "width": 3200,
+      "height": 2700
+    },
+    {
+      "flow": "F-06",
+      "id": "rLH5E",
+      "title": "บันทึกและจัดการรายการโปรด",
+      "path": "f-06.png",
+      "width": 3200,
+      "height": 2700
+    },
+    {
+      "flow": "F-07",
+      "id": "LtAel",
+      "title": "ดูการจองของฉัน",
+      "path": "f-07.png",
+      "width": 3200,
+      "height": 2700
+    },
+    {
+      "flow": "F-08",
+      "id": "WWINd",
+      "title": "ดูและแก้ไขโปรไฟล์",
+      "path": "f-08.png",
+      "width": 3200,
+      "height": 2700
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "task": "UXD-002",
+  "version": "rebuilt-1",
+  "approval": "pending_owner_review",
+  "screens": [
+    {
+      "path": "desktop/wf-01.png",
+      "width": 1440,
+      "height": 1256
+    },
+    {
+      "path": "desktop/wf-02.png",
+      "width": 1440,
+      "height": 1365
+    },
+    {
+      "path": "desktop/wf-02p.png",
+      "width": 1440,
+      "height": 1325
+    },
+    {
+      "path": "desktop/wf-03.png",
+      "width": 1440,
+      "height": 1474
+    },
+    {
+      "path": "desktop/wf-03s.png",
+      "width": 1440,
+      "height": 564
+    },
+    {
+      "path": "desktop/wf-04.png",
+      "width": 1440,
+      "height": 1227
+    },
+    {
+      "path": "desktop/wf-04p.png",
+      "width": 1440,
+      "height": 952
+    },
+    {
+      "path": "desktop/wf-05.png",
+      "width": 1440,
+      "height": 747
+    },
+    {
+      "path": "desktop/wf-05r.png",
+      "width": 1440,
+      "height": 992
+    },
+    {
+      "path": "desktop/wf-06.png",
+      "width": 1440,
+      "height": 1047
+    },
+    {
+      "path": "desktop/wf-07.png",
+      "width": 1440,
+      "height": 1147
+    },
+    {
+      "path": "desktop/wf-08.png",
+      "width": 1440,
+      "height": 740
+    },
+    {
+      "path": "desktop/wf-09.png",
+      "width": 1440,
+      "height": 859
+    },
+    {
+      "path": "desktop/wf-10.png",
+      "width": 1440,
+      "height": 1712
+    },
+    {
+      "path": "mobile/wf-01.png",
+      "width": 390,
+      "height": 1642
+    },
+    {
+      "path": "mobile/wf-01n.png",
+      "width": 390,
+      "height": 691
+    },
+    {
+      "path": "mobile/wf-02.png",
+      "width": 390,
+      "height": 1586
+    },
+    {
+      "path": "mobile/wf-02f.png",
+      "width": 390,
+      "height": 580
+    },
+    {
+      "path": "mobile/wf-02p.png",
+      "width": 390,
+      "height": 1166
+    },
+    {
+      "path": "mobile/wf-03.png",
+      "width": 390,
+      "height": 1905
+    },
+    {
+      "path": "mobile/wf-03s.png",
+      "width": 390,
+      "height": 1214
+    },
+    {
+      "path": "mobile/wf-04.png",
+      "width": 390,
+      "height": 1642
+    },
+    {
+      "path": "mobile/wf-04p.png",
+      "width": 390,
+      "height": 1347
+    },
+    {
+      "path": "mobile/wf-05.png",
+      "width": 390,
+      "height": 603
+    },
+    {
+      "path": "mobile/wf-05r.png",
+      "width": 390,
+      "height": 848
+    },
+    {
+      "path": "mobile/wf-06.png",
+      "width": 390,
+      "height": 1384
+    },
+    {
+      "path": "mobile/wf-07.png",
+      "width": 390,
+      "height": 1404
+    },
+    {
+      "path": "mobile/wf-08.png",
+      "width": 390,
+      "height": 964
+    },
+    {
+      "path": "mobile/wf-09.png",
+      "width": 390,
+      "height": 1050
+    },
+    {
+      "path": "mobile/wf-10.png",
+      "width": 390,
+      "height": 2654
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "task": "UXD-002",
+  "version": "review-5",
+  "createdOn": "2026-11-03",
+  "approval": "pending_owner_review",
+  "screens": [
+    {
+      "id": "zsjpq",
+      "code": "wf-01",
+      "mobile": false,
+      "width": 1440,
+      "height": 1256,
+      "path": "desktop/wf-01.png"
+    },
+    {
+      "id": "CMCzX",
+      "code": "wf-01",
+      "mobile": true,
+      "width": 390,
+      "height": 1642,
+      "path": "mobile/wf-01.png"
+    },
+    {
+      "id": "rn05M",
+      "code": "wf-02",
+      "mobile": false,
+      "width": 1440,
+      "height": 1365,
+      "path": "desktop/wf-02.png"
+    },
+    {
+      "id": "Y1SFQZ",
+      "code": "wf-02",
+      "mobile": true,
+      "width": 390,
+      "height": 1586,
+      "path": "mobile/wf-02.png"
+    },
+    {
+      "id": "bi6rm",
+      "code": "wf-03",
+      "mobile": false,
+      "width": 1440,
+      "height": 1474,
+      "path": "desktop/wf-03.png"
+    },
+    {
+      "id": "TtzM7",
+      "code": "wf-03",
+      "mobile": true,
+      "width": 390,
+      "height": 1905,
+      "path": "mobile/wf-03.png"
+    },
+    {
+      "id": "WPh5D",
+      "code": "wf-04",
+      "mobile": false,
+      "width": 1440,
+      "height": 1290,
+      "path": "desktop/wf-04.png"
+    },
+    {
+      "id": "iRqe3",
+      "code": "wf-04",
+      "mobile": true,
+      "width": 390,
+      "height": 1180,
+      "path": "mobile/wf-04.png"
+    },
+    {
+      "id": "ITI2f",
+      "code": "wf-04p",
+      "mobile": false,
+      "width": 1440,
+      "height": 952,
+      "path": "desktop/wf-04p.png"
+    },
+    {
+      "id": "gJYdw",
+      "code": "wf-04p",
+      "mobile": true,
+      "width": 390,
+      "height": 1347,
+      "path": "mobile/wf-04p.png"
+    },
+    {
+      "id": "o7Rfi2",
+      "code": "wf-05",
+      "mobile": false,
+      "width": 1440,
+      "height": 747,
+      "path": "desktop/wf-05.png"
+    },
+    {
+      "id": "zYncb",
+      "code": "wf-05",
+      "mobile": true,
+      "width": 390,
+      "height": 844,
+      "path": "mobile/wf-05.png"
+    },
+    {
+      "id": "ADWKk",
+      "code": "wf-05r",
+      "mobile": false,
+      "width": 1440,
+      "height": 992,
+      "path": "desktop/wf-05r.png"
+    },
+    {
+      "id": "abBhD",
+      "code": "wf-05r",
+      "mobile": true,
+      "width": 390,
+      "height": 848,
+      "path": "mobile/wf-05r.png"
+    },
+    {
+      "id": "MSyuU",
+      "code": "wf-06",
+      "mobile": false,
+      "width": 1440,
+      "height": 1047,
+      "path": "desktop/wf-06.png"
+    },
+    {
+      "id": "KVuSK",
+      "code": "wf-06",
+      "mobile": true,
+      "width": 390,
+      "height": 1384,
+      "path": "mobile/wf-06.png"
+    },
+    {
+      "id": "glddl",
+      "code": "wf-07",
+      "mobile": false,
+      "width": 1440,
+      "height": 1147,
+      "path": "desktop/wf-07.png"
+    },
+    {
+      "id": "hBikZ",
+      "code": "wf-07",
+      "mobile": true,
+      "width": 390,
+      "height": 1404,
+      "path": "mobile/wf-07.png"
+    },
+    {
+      "id": "YpPdP",
+      "code": "wf-08",
+      "mobile": false,
+      "width": 1440,
+      "height": 740,
+      "path": "desktop/wf-08.png"
+    },
+    {
+      "id": "bK02n",
+      "code": "wf-08",
+      "mobile": true,
+      "width": 390,
+      "height": 964,
+      "path": "mobile/wf-08.png"
+    },
+    {
+      "id": "vchPv",
+      "code": "wf-09",
+      "mobile": false,
+      "width": 1440,
+      "height": 859,
+      "path": "desktop/wf-09.png"
+    },
+    {
+      "id": "w48Pyi",
+      "code": "wf-09",
+      "mobile": true,
+      "width": 390,
+      "height": 1050,
+      "path": "mobile/wf-09.png"
+    },
+    {
+      "id": "Fe6hU",
+      "code": "wf-02p",
+      "mobile": false,
+      "width": 1440,
+      "height": 1325,
+      "path": "desktop/wf-02p.png"
+    },
+    {
+      "id": "PoLBc",
+      "code": "wf-02p",
+      "mobile": true,
+      "width": 390,
+      "height": 1166,
+      "path": "mobile/wf-02p.png"
+    },
+    {
+      "id": "w6IH0W",
+      "code": "wf-03s",
+      "mobile": false,
+      "width": 1440,
+      "height": 564,
+      "path": "desktop/wf-03s.png"
+    },
+    {
+      "id": "zlq0t",
+      "code": "wf-03s",
+      "mobile": true,
+      "width": 390,
+      "height": 1214,
+      "path": "mobile/wf-03s.png"
+    },
+    {
+      "id": "I9likH",
+      "code": "wf-10",
+      "mobile": false,
+      "width": 1440,
+      "height": 1958,
+      "path": "desktop/wf-10.png"
+    },
+    {
+      "id": "s7Uvx0",
+      "code": "wf-10",
+      "mobile": true,
+      "width": 390,
+      "height": 2912,
+      "path": "mobile/wf-10.png"
+    },
+    {
+      "id": "lhFmH",
+      "code": "wf-01n",
+      "mobile": true,
+      "width": 390,
+      "height": 691,
+      "path": "mobile/wf-01n.png"
+    },
+    {
+      "id": "dxGjo",
+      "code": "wf-02f",
+      "mobile": true,
+      "width": 390,
+      "height": 607,
+      "path": "mobile/wf-02f.png"
+    },
+    {
+      "id": "nua36",
+      "code": "wf-04c",
+      "mobile": false,
+      "width": 1440,
+      "height": 631,
+      "path": "desktop/wf-04c.png"
+    },
+    {
+      "id": "FzcNu",
+      "code": "wf-04c",
+      "mobile": true,
+      "width": 390,
+      "height": 844,
+      "path": "mobile/wf-04c.png"
+    },
+    {
+      "id": "tXuo5",
+      "code": "wf-02a",
+      "mobile": false,
+      "width": 1440,
+      "height": 363,
+      "path": "desktop/wf-02a.png"
+    },
+    {
+      "id": "ZOplD",
+      "code": "wf-02a",
+      "mobile": true,
+      "width": 390,
+      "height": 761,
+      "path": "mobile/wf-02a.png"
+    },
+    {
+      "id": "fNYuY",
+      "code": "wf-03d",
+      "mobile": true,
+      "width": 390,
+      "height": 844,
+      "path": "mobile/wf-03d.png"
+    },
+    {
+      "id": "xpBrD",
+      "code": "wf-03v",
+      "mobile": true,
+      "width": 390,
+      "height": 844,
+      "path": "mobile/wf-03v.png"
+    },
+    {
+      "id": "bzKNu",
+      "code": "wf-10i",
+      "mobile": false,
+      "width": 1440,
+      "height": 405,
+      "path": "desktop/wf-10i.png"
+    },
+    {
+      "id": "K1Dj8w",
+      "code": "wf-10i",
+      "mobile": true,
+      "width": 390,
+      "height": 1079,
+      "path": "mobile/wf-10i.png"
+    },
+    {
+      "id": "gJoAG",
+      "code": "wf-10f",
+      "mobile": false,
+      "width": 1440,
+      "height": 911,
+      "path": "desktop/wf-10f.png"
+    },
+    {
+      "id": "Clbn4",
+      "code": "wf-10f",
+      "mobile": true,
+      "width": 390,
+      "height": 1672,
+      "path": "mobile/wf-10f.png"
+    }
+  ]
+}
