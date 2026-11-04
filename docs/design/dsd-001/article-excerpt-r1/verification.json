@@ -1,0 +1,23 @@
+{
+  "version": "Article-excerpt-r1",
+  "excerpt_geometry": [
+    {
+      "case": "short",
+      "content": "เริ่มจากจำนวนคน บรรยากาศ และวันพักผ่อนที่อยากได้",
+      "width": 600,
+      "height": 26
+    },
+    {
+      "case": "overflow",
+      "content": "เริ่มจากจำนวนคน บรรยากาศ และวันพักผ่อนที่อยากได้ แล้วค่อยเลือกที่พักที่มีพื้นที่และสิ่งอำนวยความสะดวกเหมาะกับทริปของเรา ทั้งมุมพักผ่อนและพื้นที่ใช้เวลาร่วมกัน…",
+      "width": 600,
+      "height": 52
+    }
+  ],
+  "short_does_not_reserve_second_line": true,
+  "home_unchanged": true,
+  "variables_unchanged": true,
+  "visual_review": "Both native cases and overflow caption PNG inspected",
+  "automatic_clamp_test": false
+}
+

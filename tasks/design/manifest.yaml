@@ -1,4 +1,4 @@
-project: paipak.com
+project: papaipak.com
 status: owner_adopted_plan_in_progress
 owner_adopted_on: '2026-11-02'
 execution_mode: manual_user_initiated
@@ -8,6 +8,9 @@ notes:
 - Task readiness requires approved dependent design outputs, not merely preselected UX direction.
 - Technical foundation and backend data work may run in parallel when independent.
 - No source screenshots are considered approved baselines yet.
+- 'Owner amendment 2026-11-03: approve Visual Direction in DSD-001 before Wireframe revisions and G2 acceptance in UXD-002; preserve review-5 as existing pending-review evidence.'
+- 'Owner approved Design Governance Kit v1.0 as the project-wide standard on 2026-11-03; each task design/version still requires explicit owner approval before related frontend implementation. No task status changes follow from governance approval; see docs/design/governance/README.md and registry governance_approval.'
+- 'Owner clarification 2026-11-03: explicit task plan/scope approval at G0 is required before creating or revising UI Design artifacts; final design/version approval is separately required before Frontend. Existing task authorizations remain valid within their approved scope; governance approval or Task ID selection alone does not start design work.'
 tasks:
 - id: UXD-001
   title: User journeys and IA audit
@@ -67,6 +70,18 @@ tasks:
   handoff: manual_user_initiated
   depends_on:
   - UXD-001
+  - DSD-001
+  required_dependency_outputs:
+  - task_id: DSD-001
+    artifact: visual-direction.md
+    gate: G1
+    approval_status: approved_output_recorded
+    approved_direction: A / Holiday Panorama
+    approved_version: review-2
+    approved_on: '2026-11-03'
+    approval_artifact: docs/design/dsd-001/visual-direction.md
+    scope: Owner-approved direction/version before new wireframe revisions and G2 acceptance; full token-spec completion is not required for this dependency.
+  workflow_transition: Existing review-5 remains retained and awaiting owner review. Review alignment after G1 inside a user-selected UXD-002 conversation; do not regenerate or approve automatically.
   decision_refs:
   - WIRE-001
   - WIRE-009
@@ -103,7 +118,7 @@ tasks:
   - docs/design/uxd-002/interaction-specification.md
   - docs/design/uxd-002/ux-requirements.md
   - docs/design/uxd-002/review-decisions.md
-  editable_source: docs/design/uxd-002/paipak-wireframe.pen
+  editable_source: docs/design/uxd-002/papaipak-wireframe.pen
   editable_source_note: Latest connected canvas has 8 Desktop and 8 Mobile review groups, 2 review indexes and 3 existing flow boards, retaining 40 screens and 40 external annotations. Full backup is review-5/flow-groups/desktop/editable-snapshot.json. Owner will save when ready; latest native layout is not verified on disk. No Computer Use in this revision.
   plan_approved_on: '2026-11-02'
   draft_version: review-5
@@ -120,6 +135,7 @@ tasks:
   - Layouts respect selected variants
   - Search available without dates
   - No SaaS dashboard layout
+  - Approved DSD-001 G1 direction/version linked and review-5 alignment recorded before G2 acceptance
   open_implementation_questions: []
   evidence_required:
   - design_artifact_links
@@ -131,8 +147,313 @@ tasks:
   title: Visual foundations and design token specification
   stage: design
   kind: design
-  status: planned_not_started
+  status: in_progress
   handoff: manual_user_initiated
+  plan_version: DSD-001/G0-plan-2
+  plan_approved_on: '2026-11-03'
+  approval_timezone: Asia/Bangkok
+  plan_approval_source: Explicit project owner answer in this chat's voice session after selecting three direction studies
+  plan_approval_instruction: อนุมัติเลย
+  current_gate: foundation_review
+  native_home_approval_record: "docs/design/dsd-001/home-desktop-r15/owner-home-acceptance.json"
+  native_home_previous_consolidated_source_node: "iQ3YE"
+  native_home_previous_consolidated_version: "Home Desktop-r8"
+  foundation_approval_requested_scope: "Confirmed Desktop specification aligned to accepted Home-r15; proposed/open/deferred items remain separate; not Frontend authorization"
+  previous_foundation_version: "foundation-2-desktop"
+  direction_approval_status: approved
+  approved_direction: A / Holiday Panorama
+  approved_direction_version: review-2
+  direction_approved_on: '2026-11-03'
+  direction_approval_source: Explicit project owner selection in this chat
+  direction_approval_instruction: ขอเปลี่ยนเป็นแบบ A
+  previous_direction: B / Villa Journal / review-2
+  previous_direction_instruction: แบบนี้แหละฉันเลือกก B
+  native_design_version: F01-ui-3
+  previous_native_design_version: F01-ui-2
+  native_design_approval_status: pending_owner_review
+  native_header_candidate: Guest Header-r11 / signed-out Home Desktop; pink sign-in action, 22px circular Thai flag, simplified search label and placeholder logo
+  native_header_auth_state: guest_signed_out
+  native_header_scheme_preference: Owner accepted the displayed Guest Header-r11 with the instruction โอเคเลย.
+  native_header_candidate_status: approved_home_desktop_header_only
+  native_header_approved_version: Guest Header-r11
+  native_header_approval_instruction: โอเคเลย
+  native_header_approved_on: '2026-11-03'
+  native_header_approval_scope: Home Desktop signed-out header appearance only; placeholder logo remains provisional, OPEN-001 remains open, full Home/F01 and DSD-001 approval and frontend authorization remain separate.
+  native_canvas_trial_version: Home-Guest-Header-r11-placeholder-logo
+  native_header_live_trial_status: approved_home_desktop_header_only
+  native_header_rollout_version: F01-ui-3
+  native_header_rollout_authorization_instruction: โอเค เอาไอคอนแบบนี้ไปปรับให้ครบทุกจุดที่มีภาษาและ LINE เลย แล้วเว็บชื่อ papaipak ปรับทุกจัดด้วยรวมถึงเอกสาร
+  native_display_name: papaipak
+  native_brand_rollout_artifact: docs/design/dsd-001/f01-ui-3/README.md
+  native_icon_asset_selection_status: owner_selected_Header-icons-r4
+  native_icon_rollout_status: applied_pending_combined_version_review
+  native_header_rollout_status: pending_owner_review
+  native_previous_page_review: Home Desktop-r7 / historical_source_superseded_by_r8_appearance_review
+  native_page_review_current: Home Desktop-r8 appearance accepted; Results and shared Search evidence retain their separate pending scope
+  native_review_device_scope: desktop_only_until_owner_resumes_mobile
+  native_mobile_review_status: paused_by_owner_at_Results-r2
+  native_device_scope_source: Owner requested to set Mobile aside and focus on Desktop in this chat on 2026-11-04.
+  native_page_review_version: F01-ui-3 / Home Desktop-r8; previous Search evidence Legacy-search-r5 / Month-nav-r6
+  native_page_review_status: Home_r8_combined_appearance_accepted_only; other_page_functional_and_combined_version_reviews_pending
+  native_results_revision_authorization_instruction: จัดการ
+  native_results_revision_scope: Results-review-1 findings RSL-01 RSL-02 RSL-03; six Desktop/Mobile default, applied-filter and page-two roots plus static control-state previews.
+  native_results_upper_authorization_instruction: โอเคเดี๋ยวเรามาทำส่วนบนกันก่อน
+  native_results_upper_scope: Desktop destination/count context, unified optional search bar and inline Suggested Search Chips only; default/applied-filter/page-two states. Mobile remains paused; Header, Footer, filter panel and cards preserved.
+  native_search_states_authorization_instruction: ลืมเช็คการกดช่องค้นหาเลยตั้งแต่หน้าแรก
+  native_search_states_scope: Static Desktop Home and Results anchored location/date/guest scenes, empty-search destination and incomplete/complete date examples. Main pages and Mobile preserved; no functional prototype or query contract.
+  native_search_states_status: drafted_pending_owner_review
+  native_search_states_artifact: docs/design/dsd-001/f01-ui-3/search-states-r4/README.md
+  native_search_states_backup: docs/design/dsd-001/f01-ui-3/search-states-r4/after-snapshot.json
+  native_legacy_search_authorization_instruction: ไปเอามาจากโค้ดเก่า
+  native_legacy_search_scope: Adapt existing components/home-search.tsx location input, Desktop two-month calendar and immediate numeric counters into static Home/Results opened states. Preserve current branding, total guests plus pets, optional search and Desktop-only scope; no application changes or runtime claims.
+  native_legacy_search_status: drafted_pending_owner_review
+  native_legacy_search_artifact: docs/design/dsd-001/f01-ui-3/legacy-search-r5/README.md
+  native_month_navigation_revision: Month-nav-r6 / arrows at opposite outer edges control the two-month pair
+  native_month_navigation_artifact: docs/design/dsd-001/f01-ui-3/legacy-search-r5/month-nav-r6/README.md
+  native_month_navigation_backup: docs/design/dsd-001/f01-ui-3/legacy-search-r5/month-nav-r6/after-snapshot.json
+  native_home_guided_review_plan: docs/design/dsd-001/f01-ui-3/home-guided-review/README.md
+  native_home_consolidated_version: "Home Desktop-r15"
+  native_home_consolidated_status: "owner_accepted_combined_appearance_only; OPEN-001 and readiness items remain open"
+  native_home_consolidated_artifact: "docs/design/dsd-001/home-desktop-r15/README.md"
+  native_home_consolidated_source_node: "ZfZvJ"
+  native_home_cta_contrast_proposal: docs/design/dsd-001/f01-ui-3/home-guided-review/cta-brand-contrast-r1/README.md
+  native_home_compact_language_artifact: docs/design/dsd-001/f01-ui-3/home-guided-review/header-language-r2/README.md
+  native_home_compact_contact_artifact: docs/design/dsd-001/f01-ui-3/home-guided-review/header-contact-r2/README.md
+  native_category_shortcut_policy: Owner chose category-only Results for Home category shortcuts and matching view-all links; do not carry Home location/date/guests/pets into this destination. Further search happens on Results. No route/query implementation or instruction to erase the Home form or booking intent.
+  native_category_shortcut_owner_instruction: 3 เพราะออกแบบมาเพื่อเป็นทางลัดในการไปในหมวดที่ต้องการแล้วค่อยไป search อีกที
+  native_card_information_proposal: Home Desktop-r7 / seven category rows reusing r6 cards
+  native_card_information_proposal_status: historical_r7_source; current_card_appearance_included_in_accepted_Home_r8; runtime_unverified
+  native_card_information_proposal_artifact: docs/design/dsd-001/f01-ui-2/home-desktop-r7/README.md
+  native_previous_card_proposal_status: isolated A B C and row studies 3 and 4 were returned; owner requested whole-page design quality
+  native_page_review_artifact: docs/design/dsd-001/f01-ui-3/home-guided-review/home-desktop-r8/README.md
+  native_page_review_backup: docs/design/dsd-001/f01-ui-3/home-guided-review/home-desktop-r8/editable-snapshot.json
+  native_page_revision_authorization_instruction: งั้นโอเคอยู่ ในหน้าแรกอยากมีหลายๆหมวดหน่อย
+  native_home_category_sections: 7
+  native_home_category_classification_status: unverified_visual_mock_only
+  native_header_utility_previous_state_version: Header-reference-r3
+  native_header_utility_state_version: Header-icons-r4
+  native_header_utility_state_status: pending_owner_review
+  native_header_utility_state_artifact: docs/design/dsd-001/f01-ui-2/header-icons-r4/README.md
+  native_header_utility_reference_evidence: docs/design/dsd-001/f01-ui-2/header-reference-research/README.md
+  native_header_utility_alternatives_version: Header-utility-study-r2 / A paired popup and B centered modal
+  native_header_utility_alternatives_status: revision_requested_research_first
+  native_header_utility_alternatives_artifact: docs/design/dsd-001/f01-ui-2/header-utility-study-r2/README.md
+  native_header_rollout_scope: Existing F-01 Desktop/Mobile headers, mobile navigation, footer logo lockups and header utility presentation states only.
+  native_canvas_trial_artifact: docs/design/dsd-001/f01-ui-1/home-guest-r11-logo/README.md
+  native_canvas_trial_backup: docs/design/dsd-001/f01-ui-1/home-guest-r11-logo/after-snapshot.json
+  native_editable_source: C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen
+  native_editable_backup: docs/design/dsd-001/f01-ui-3/editable-snapshot.json
+  native_flow_scope: Owner-requested F-01 UI completion only; static Desktop/Mobile layouts and supporting states, not functional frontend.
+  native_flow_authorization_instruction: ทำให้หรบ
+  native_flow_reference: docs/design/uxd-002/papaipak-wireframe.pen
+  foundation_version: "foundation-3-desktop"
+  foundation_approval_status: "approved_desktop_specification_with_open_items"
+  foundation_approved_on: "2026-11-05"
+  foundation_owner_acceptance: docs/design/dsd-001/foundation-3-desktop/owner-foundation-acceptance.json
+  foundation_approval_scope: "Confirmed Desktop specification only; proposed/open/deferred remain unchanged; no task completion or Frontend authorization"
+  foundation_alignment_status: "A_Home_Desktop_r15_reconciled; Desktop_scope; proposed_open_deferred_items_retained"
+  foundation_artifact: "docs/design/dsd-001/foundation-3-desktop/README.md"
+  foundation_observation_evidence: "docs/design/dsd-001/foundation-3-desktop/observed-values.json"
+  foundation_alignment_instruction: ปรับให้ตรงกับที่เราคุยกันเมื่อกี้
+  foundation_aligned_on: "2026-11-05"
+  foundation_alignment_audit: "docs/design/dsd-001/foundation-3-desktop/alignment-audit.md"
+  home_media_ui_version: Home-media-ui-r6 / Home Desktop-r14 draft
+  home_media_ui_instruction: ออกแบบ ui เลยได้ไหม
+  home_media_ui_scope: Two curated TikTok and article sections on a copy of Home Desktop-r8; Desktop static visual draft only within DSD-001. No automatic task chaining, foundation approval or frontend authorization.
+  home_media_ui_status: draft_pending_owner_review
+  home_media_ui_source_node: Oftfq
+  home_media_ui_source_node_previous_export: eMYWM
+  tiktok_states_version: TikTok-states-r3
+  tiktok_states_artifact: docs/design/dsd-001/tiktok-states-r3/README.md
+  tiktok_states_status: owner_accepted_tiktok_state_design
+  tiktok_states_acceptance: docs/design/dsd-001/tiktok-states-r3/owner-acceptance.json
+  tiktok_states_instruction: Native TikTok Playing Paused Buffering; one previous clip on left in middle and last positions
+  tiktok_states_overview_node: nXylc
+  tiktok_states_previous_version: TikTok-states-r2 host states retained; custom playback schematics historical
+  article_states_version: Article-states-r1
+  article_states_artifact: docs/design/dsd-001/article-states-r1/README.md
+  article_states_status: review_in_progress
+  article_click_area: owner_confirmed_whole_image_and_text_as_one_link_per_story
+  article_motion_version: Article-motion-r7
+  article_motion_artifact: docs/design/dsd-001/article-motion-r7/README.md
+  article_cover_display: owner_confirmed_16_9_cover_base; full_cover_intent_retained; selected_layout_preserved; legacy_image_handling_pending
+  article_cover_base_ratio: '16:9'
+  article_cover_spec: docs/design/dsd-001/article-cover-spec.md
+  article_cover_ui_version: Article-cover-16x9-r1
+  article_cover_ui_artifact: docs/design/dsd-001/article-cover-16x9-r1/README.md
+  article_cover_ui_status: draft_review_in_progress; safe_area_principle_confirmed; real_cover_verification_pending
+  article_cover_safe_area_approval: docs/design/dsd-001/article-cover-16x9-r1/owner-safe-area-choice.json
+  article_cover_ui_node: pNJ3F
+  article_title_spec: docs/design/dsd-001/article-title-spec.md
+  article_title_line_limits: owner_confirmed_featured_2_supporting_1_with_ellipsis
+  article_title_height: reserved_slots_returned_by_owner; natural_title_and_panel_height_proposed; visual_review_pending
+  article_title_ui_version: Article-title-r4
+  article_title_ui_artifact: docs/design/dsd-001/article-title-r4/README.md
+  article_excerpt_spec: docs/design/dsd-001/article-excerpt-spec.md
+  article_featured_excerpt: owner_confirmed_max_2_lines_with_ellipsis_natural_height
+  article_supporting_excerpt: owner_confirmed_max_2_lines_with_ellipsis_natural_height
+  article_excerpt_ui_version: Article-excerpt-r1
+  article_excerpt_ui_artifact: docs/design/dsd-001/article-excerpt-r1/README.md
+  article_content_rules: docs/design/dsd-001/article-content-rules.md
+  article_no_cover_home: owner_confirmed_hide_that_story
+  article_featured_replacement: owner_confirmed_promote_next_ready_preserve_curated_order
+  article_curated_empty_fallback: owner_confirmed_latest_eligible_articles_with_covers_newest_first
+  article_count_ui_artifact: docs/design/dsd-001/article-count-r1/README.md
+  article_count_ui_status: owner_accepted_two_story_appearance; other_counts_pending
+  article_two_story_acceptance: docs/design/dsd-001/article-count-r1/owner-two-story-acceptance.json
+  article_availability_ui_artifact: docs/design/dsd-001/article-availability-r1/README.md
+  article_motion_status: featured_r7_and_supporting_r8_motion_accepted; separate_focus_review_pending; r4_appearance_reference_preserved
+  article_featured_motion_acceptance: docs/design/dsd-001/article-motion-r7/owner-featured-motion-acceptance.json
+  article_supporting_motion_version: Article-supporting-motion-r8
+  article_supporting_motion_artifact: docs/design/dsd-001/article-supporting-motion-r8/README.md
+  article_supporting_motion_status: owner_accepted_displayed_supporting_hover
+  article_supporting_motion_acceptance: docs/design/dsd-001/article-supporting-motion-r8/owner-supporting-motion-acceptance.json
+  article_focus_artifact: docs/design/dsd-001/article-focus-r3/README.md
+  article_focus_status: featured_dark_surface_selected; secondary_index_dark_extension_withdrawn; no_replacement_selected
+  article_focus_choice: docs/design/dsd-001/article-focus-r3/owner-focus-choice.json
+  article_press_version: Article-press-r4
+  article_press_artifact: docs/design/dsd-001/article-press-r4/README.md
+  article_press_status: owner_accepted_displayed_article_press_r4; supporting_index_adaptation_pending
+  article_press_acceptance: docs/design/dsd-001/article-press-r4/owner-press-acceptance.json
+  article_secondary_interaction_artifact: docs/design/dsd-001/article-secondary-interaction-r3/README.md
+  article_secondary_interaction_status: owner_accepted_secondary_r3; index_plain_link; index_animation_deferred
+  article_secondary_interaction_acceptance: docs/design/dsd-001/article-secondary-interaction-r3/owner-secondary-acceptance.json
+  article_review_version: Article Desktop review-2
+  article_review_artifact: docs/design/dsd-001/article-desktop-review-2/README.md
+  article_review_status: owner_accepted_review_2_visual_and_activation; keyboard_accessibility_unresolved
+  article_review_acceptance: docs/design/dsd-001/article-desktop-review-2/owner-article-acceptance.json
+  native_home_review_version: Home Desktop-r15
+  native_home_review_node: ZfZvJ
+  native_home_review_artifact: docs/design/dsd-001/home-desktop-r15/README.md
+  native_home_review_status: "owner_accepted_combined_appearance_only; Desktop_foundation_accepted_with_open_items"
+  article_right_side_correction: docs/design/dsd-001/article-desktop-review-1/right-side-correction/owner-right-side-correction.json
+  article_safe_area_artifact: docs/design/dsd-001/article-safe-area-r2/README.md
+  article_safe_area_status: constructed_cover_sample_withdrawn; image_file_authoring_outside_web; actual_image_display_verification_separate
+  article_cover_source_clarification: docs/design/dsd-001/article-safe-area-r2/owner-cover-source-clarification.json
+  article_ready_state_acceptance: docs/design/dsd-001/article-body-fallback-r2/owner-ready-state-acceptance.json
+  article_loading_acceptance: docs/design/dsd-001/article-states-r1/owner-loading-acceptance.json
+  article_failure_policy: docs/design/dsd-001/article-hidden-r2/owner-decision.json
+  article_appearance_selection: docs/design/dsd-001/article-motion-r4/owner-selection.json
+  home_media_ui_artifact: docs/design/dsd-001/home-media-ui-r6/README.md
+  home_media_ui_revision_instruction: ต่อด้วยบทความ
+  home_media_ui_reference_artifact: docs/design/dsd-001/home-media-ui-r3/reference-owner.png
+  home_media_ui_previous_version: Home-media-ui-r5 and earlier exported snapshots retained; r2 and r1 retained in native and artifacts
+  cta_visual_choice_reconfirmed_on: '2026-11-04'
+  cta_visual_choice_reconfirmed_instruction: '3'
+  cta_visual_choice_reconfirmation_artifact: docs/design/dsd-001/f01-ui-3/home-guided-review/cta-brand-contrast-r1/owner-choice.json
+  cta_color_preference: pink_background_white_label
+  cta_preference_confirmed_on: '2026-11-03'
+  cta_preference_instruction: ขแชมพูขาว
+  cta_review_version: CTA-review-3
+  cta_exact_shade_approval_status: owner_selected_visual_reference
+  cta_selected_background: '#FD6E88'
+  cta_selected_label: '#FFFFFF'
+  cta_selection_instruction: เอาแบบเดิมอ่ะฉันว่าสวยแล้ว
+  cta_selection_on: '2026-11-03'
+  cta_accessibility_status: unresolved_OPEN-001
+  draft_version: review-2
+  previous_draft_version: review-1
+  revision_summary: Owner found review-1 too similar and block-like; create three fresh compositions with stronger visual identity. Supplied screenshot is a quality reference, not a selected direction or production asset.
+  artifact_links:
+  - docs/design/dsd-001/visual-direction.md
+  - docs/design/dsd-001/token-sheet.md
+  - docs/design/dsd-001/typography-spec.md
+  - docs/design/dsd-001/responsive-visual-guidelines.md
+  - docs/design/dsd-001/foundation-2-desktop/README.md
+  - docs/design/dsd-001/foundation-2-desktop/observed-values.json
+  - docs/design/dsd-001/foundation-2-desktop/verification.json
+  - docs/design/dsd-001/foundation-3-desktop/README.md
+  - docs/design/dsd-001/foundation-3-desktop/review-manifest.json
+  - docs/design/dsd-001/foundation-3-desktop/owner-foundation-acceptance.json
+  - docs/design/dsd-001/foundation-3-desktop/observed-values.json
+  - docs/design/dsd-001/foundation-3-desktop/verification.json
+  - docs/design/dsd-001/foundation-3-desktop/alignment-audit.md
+  - docs/design/dsd-001/home-content-requirements.md
+  - docs/design/dsd-001/home-content-foundation-impact.md
+  - docs/design/dsd-001/home-media-ui-r1/README.md
+  - docs/design/dsd-001/home-media-ui-r1/review-manifest.json
+  - docs/design/dsd-001/home-media-ui-r1/QYUtP.png
+  - docs/design/dsd-001/home-media-ui-r1/fSC7S.png
+  - docs/design/dsd-001/home-media-ui-r2/README.md
+  - docs/design/dsd-001/home-media-ui-r2/review-manifest.json
+  - docs/design/dsd-001/home-media-ui-r2/e2IyY7.png
+  - docs/design/dsd-001/home-media-ui-r2/Dn6ah.png
+  - docs/design/dsd-001/home-media-ui-r2/V9yDq1.png
+  - docs/design/dsd-001/home-media-ui-r3/README.md
+  - docs/design/dsd-001/home-media-ui-r3/review-manifest.json
+  - docs/design/dsd-001/home-media-ui-r3/MIdin.png
+  - docs/design/dsd-001/home-media-ui-r3/YGt3D.png
+  - docs/design/dsd-001/home-media-ui-r3/eMYWM.png
+  - docs/design/dsd-001/home-media-ui-r3/reference-owner.png
+  - docs/design/dsd-001/home-media-ui-r4/README.md
+  - docs/design/dsd-001/home-media-ui-r4/review-manifest.json
+  - docs/design/dsd-001/home-media-ui-r4/MIdin.png
+  - docs/design/dsd-001/home-media-ui-r5/README.md
+  - docs/design/dsd-001/home-media-ui-r5/review-manifest.json
+  - docs/design/dsd-001/home-media-ui-r5/MIdin.png
+  - docs/design/dsd-001/home-media-ui-r5/YGt3D.png
+  - docs/design/dsd-001/home-media-ui-r6/README.md
+  - docs/design/dsd-001/home-media-ui-r6/review-manifest.json
+  - docs/design/dsd-001/home-media-ui-r6/DsgG9.png
+  - docs/design/dsd-001/home-media-ui-r6/YGt3D.png
+  - docs/design/dsd-001/foundation-1/pre-a-alignment-2026-11-04/README.md
+  - docs/design/dsd-001/review-2/README.md
+  - docs/design/dsd-001/pencil-A-1/README.md
+  - docs/design/dsd-001/pencil-A-1/desktop.png
+  - docs/design/dsd-001/pencil-A-1/mobile.png
+  - docs/design/dsd-001/pencil-A-1/editable-snapshot.json
+  - docs/design/dsd-001/f01-ui-1/README.md
+  - docs/design/dsd-001/f01-ui-1/review-manifest.json
+  - docs/design/dsd-001/f01-ui-1/editable-snapshot.json
+  - docs/design/dsd-001/f01-ui-1/qa.md
+  - docs/design/dsd-001/f01-ui-1/header-r2/README.md
+  - docs/design/dsd-001/f01-ui-1/header-r3/README.md
+  - docs/design/dsd-001/f01-ui-1/header-r4/README.md
+  - docs/design/dsd-001/f01-ui-1/header-r5/README.md
+  - docs/design/dsd-001/f01-ui-1/header-r5/reference-evidence.json
+  - docs/design/dsd-001/f01-ui-1/header-r6/README.md
+  - docs/design/dsd-001/f01-ui-1/header-r7-guest/README.md
+  - docs/design/dsd-001/f01-ui-1/home-guest-r7-trial/README.md
+  - docs/design/dsd-001/f01-ui-1/home-guest-r8-color/README.md
+  - docs/design/dsd-001/f01-ui-1/home-guest-r9-flag/README.md
+  - docs/design/dsd-001/f01-ui-1/home-guest-r10-flag-size/README.md
+  - docs/design/dsd-001/f01-ui-1/home-guest-r11-logo/README.md
+  - docs/design/dsd-001/f01-ui-2/README.md
+  - docs/design/dsd-001/f01-ui-2/review-manifest.json
+  - docs/design/dsd-001/f01-ui-2/editable-snapshot.json
+  - docs/design/dsd-001/f01-ui-2/verification.json
+  - docs/design/dsd-001/f01-ui-2/qa.md
+  - docs/design/dsd-001/f01-ui-2/home-desktop-r3/README.md
+  - docs/design/dsd-001/f01-ui-2/home-desktop-r4/README.md
+  - docs/design/dsd-001/f01-ui-2/home-desktop-r5/README.md
+  - docs/design/dsd-001/f01-ui-2/home-info-proposal/README.md
+  - docs/design/dsd-001/f01-ui-2/home-card-layouts-2/README.md
+  - docs/design/dsd-001/f01-ui-2/home-card-row-3/README.md
+  - docs/design/dsd-001/f01-ui-2/home-card-row-4/README.md
+  - docs/design/dsd-001/f01-ui-2/home-desktop-r6/README.md
+  - docs/design/dsd-001/f01-ui-2/home-desktop-r6/critique.md
+  - docs/design/dsd-001/f01-ui-2/home-desktop-r7/README.md
+  - docs/design/dsd-001/f01-ui-2/home-desktop-r7/presentation-fixtures.json
+  - docs/design/dsd-001/f01-ui-2/header-popovers-r1/README.md
+  - docs/design/dsd-001/f01-ui-2/header-utility-study-r2/README.md
+  - docs/design/dsd-001/f01-ui-2/header-reference-research/README.md
+  - docs/design/dsd-001/f01-ui-2/header-reference-r3/README.md
+  - docs/design/dsd-001/f01-ui-2/header-icons-r4/README.md
+  - docs/design/dsd-001/f01-ui-3/README.md
+  - docs/design/dsd-001/f01-ui-3/results-review-1/README.md
+  - docs/design/dsd-001/f01-ui-3/results-r2/README.md
+  - docs/design/dsd-001/f01-ui-3/results-upper-r3/README.md
+  - docs/design/dsd-001/review-2/direction-a-desktop.png
+  - docs/design/dsd-001/review-2/direction-a-mobile.png
+  - docs/design/dsd-001/review-2/direction-b-desktop.png
+  - docs/design/dsd-001/review-2/direction-b-mobile.png
+  - docs/design/dsd-001/review-2/direction-c-desktop.png
+  - docs/design/dsd-001/review-2/direction-c-mobile.png
+  - docs/design/dsd-001/review-2/contrast-evidence.json
+  - docs/design/dsd-001/foundation-1/pink-white-options.png
+  - docs/design/dsd-001/foundation-1/pink-white-contrast.json
+  - docs/design/dsd-001/foundation-1/cta-selection.json
+  evidence_summary: "A / Holiday Panorama / review-2 remains G1. Owner accepted Home Desktop-r15 combined appearance including TikTok-states-r3, Article Desktop review-2 and Footer-contact-column-r4. Foundation-3-desktop reconciles all four deliverables to that accepted1440x6091 reference with read-only native observations and local motion evidence. Foundation-2 text is archived byte-for-byte. Generic motion and other widths remain proposed; Mobile paused; OPEN-001 and keyboard/accessibility remain unresolved. Owner accepted foundation-3 Desktop specification with proposed/open/deferred items retained. Task remains in progress with no Frontend or automatic next task authorized."
   depends_on:
   - UXD-001
   decision_refs:
@@ -144,24 +465,25 @@ tasks:
   - VIS-007
   - VIS-008
   - VIS-009
-  scope: Define typography, color palette, spacing, radius, shadows, motion and layout as design specs, not production
-    CSS.
+  scope: First propose Visual Direction within the approved brand/layout/UX constraints and obtain owner approval at G1; define typography, color palette, spacing, radius, shadows, motion and layout as design specs, not production CSS.
   deliverables:
+  - visual-direction.md
   - token-sheet.md
   - typography-spec.md
   - responsive-visual-guidelines.md
   acceptance_criteria:
   - 'Navy #072D59, Blue #DBF2FC, Pink #FD6E88 unchanged'
-  - Mitr typography
+  - Mitr primary typography; supplementary font and usage approved by owner before use
+  - Owner-approved G1 direction/version before UXD-002 Wireframe revisions and G2 acceptance
   - Accessible CTA contrast remains flagged OPEN, not silently changed
   open_implementation_questions:
-  - Choose approved CTA solution for white text contrast before final CTA sign-off.
+  - Resolve OPEN-001 before the relevant final CTA acceptance; owner retained original pink/white visual reference, so do not repeat color selection automatically or infer an accessibility exception.
   evidence_required:
   - design_artifact_links
   - desktop_mobile_review
   - accessibility_review
   - human_approval
-  approval_status: not_requested
+  approval_status: pending_owner_review
 - id: DSD-002
   title: Component visual states and interaction specs
   stage: design

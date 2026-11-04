@@ -1,0 +1,71 @@
+{
+  "version": "TikTok-states-r1",
+  "pngs": {
+    "D8uZn.png": {
+      "width": 1776,
+      "height": 1000,
+      "sha256": "82b001efebfcbe2e19f2aeba32b5522301012016f5b32794c5f46ea047d0866d"
+    },
+    "Pixz3.png": {
+      "width": 1488,
+      "height": 880,
+      "sha256": "58c69a192fe2dc9a564277f29ef80d0b7213eb2f0b0bf56951fc66004562a4bf"
+    },
+    "SONbt.png": {
+      "width": 1776,
+      "height": 1000,
+      "sha256": "edb2bb9cb3c0e89794e7c1cbec52fa71bd150dcecd07eeb59fe77fe1a079421f"
+    },
+    "V2P8IZ.png": {
+      "width": 1776,
+      "height": 1000,
+      "sha256": "f96db0106ccc21d4b65b5e90048f915715a8e4e2027f8dcad7f638bc3ee37a39"
+    },
+    "wBAQ2.png": {
+      "width": 1776,
+      "height": 1000,
+      "sha256": "6b0fa0f062a0cab20949e2cc918081f0bcd83409f40c3804eadb3bbc17e1cc7f"
+    },
+    "WITnS.png": {
+      "width": 1776,
+      "height": 1000,
+      "sha256": "1c6c7c3916215d961fa48451fb126563bd6f6991574fee2cd55554948068a105"
+    },
+    "wMtDm.png": {
+      "width": 1488,
+      "height": 740,
+      "sha256": "574b5d81f6bd51e1761c1ac04f8cd3a2568c140e8e833cc2db157f2b15c3828a"
+    },
+    "Z0VFLO.png": {
+      "width": 1776,
+      "height": 1000,
+      "sha256": "eb4cabd09f6fddbcf136e87666b1d550aefeee4c0cd36574220ab2e361ca2511"
+    }
+  },
+  "state_count": 12,
+  "board_count": 8,
+  "native_node_count": 382,
+  "named_nodes": true,
+  "unfinished_root_placeholders": [],
+  "home_unchanged": true,
+  "variables_unchanged": true,
+  "comparison": "Full native JSON before/after creation, same current IDs",
+  "contrast": {
+    "navy_white": 13.737680109134693,
+    "navy_light_blue": 11.852687944511379,
+    "retained_pink_white_open_001": 2.705343217728925
+  },
+  "not_tested": [
+    "functional prototype",
+    "actual provider appearance",
+    "browser keyboard and screen reader",
+    "live player audio/fullscreen/events",
+    "Mobile",
+    "application runtime"
+  ],
+  "limitations": [
+    "missing-cover visual variant specified but not separately drawn",
+    "list-error collapse proposed",
+    "proposed behavior and final version await approval"
+  ]
+}

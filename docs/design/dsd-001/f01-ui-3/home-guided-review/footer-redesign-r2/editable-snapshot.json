@@ -1,0 +1,3743 @@
+{
+  "context": "AIvZs",
+  "footer": "A5wVpm",
+  "snapshot": {
+    "type": "frame",
+    "id": "AIvZs",
+    "x": 6174,
+    "y": 22011,
+    "name": "REVIEW · Home 4D · redesigned Footer in page context · r2",
+    "width": 1440,
+    "fill": "#FFFFFF",
+    "layout": "vertical",
+    "children": [
+      {
+        "type": "frame",
+        "id": "aQrgy",
+        "name": "Existing Luxury row · unchanged Footer context",
+        "width": 1440,
+        "fill": "#072D59",
+        "layout": "vertical",
+        "gap": 24,
+        "padding": [
+          24,
+          56,
+          48,
+          56
+        ],
+        "children": [
+          {
+            "type": "frame",
+            "id": "MDu3d",
+            "name": "Recommended heading and listing navigation",
+            "width": "fill_container",
+            "height": 48,
+            "gap": 24,
+            "justifyContent": "space_between",
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "frame",
+                "id": "DhEkY",
+                "name": "Recommended title and nearby view-all link",
+                "height": 48,
+                "gap": 20,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "h4lFVO",
+                    "name": "Recommended section heading",
+                    "fill": "#FFFFFF",
+                    "content": "พูลวิลล่า Luxury",
+                    "lineHeight": 1.4,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 32,
+                    "fontWeight": "500"
+                  },
+                  {
+                    "type": "frame",
+                    "id": "k0lcqM",
+                    "name": "View all recommended villas",
+                    "height": 44,
+                    "gap": 6,
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "BqJny",
+                        "name": "View all label",
+                        "fill": "#FFFFFF",
+                        "content": "ดูทั้งหมด",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14,
+                        "fontWeight": "normal"
+                      },
+                      {
+                        "type": "icon",
+                        "id": "kU9C7",
+                        "name": "View all arrow",
+                        "width": 18,
+                        "height": 18,
+                        "icon": "arrow-right",
+                        "library": "lucide",
+                        "fill": "#FFFFFF"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "mibvH",
+                "name": "Listing rail controls · separate from photo controls",
+                "height": 48,
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "xpK1N",
+                    "name": "Listing previous and next buttons",
+                    "gap": 8,
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "z3wCR1",
+                        "name": "Previous villas · disabled at start",
+                        "opacity": 0.35,
+                        "width": 44,
+                        "height": 44,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 22,
+                        "stroke": "#072D5940",
+                        "strokeWidth": 1,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "KmQxJ",
+                            "name": "Listing left arrow",
+                            "width": 22,
+                            "height": 22,
+                            "icon": "chevron-left",
+                            "library": "lucide",
+                            "fill": "#072D59"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "aDEVJ",
+                        "name": "Next villas · move listing rail only",
+                        "width": 44,
+                        "height": 44,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 22,
+                        "stroke": "#072D5940",
+                        "strokeWidth": 1,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "puo2b",
+                            "name": "Listing right arrow",
+                            "width": 22,
+                            "height": 22,
+                            "icon": "chevron-right",
+                            "library": "lucide",
+                            "fill": "#072D59"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "Pr9a5",
+            "name": "Category viewport · พูลวิลล่า Luxury",
+            "clip": true,
+            "width": "fill_container",
+            "height": 362,
+            "layout": "none",
+            "children": [
+              {
+                "type": "frame",
+                "id": "dWLZY",
+                "layoutPosition": "absolute",
+                "x": 0,
+                "y": 0,
+                "name": "Category listing track · พูลวิลล่า Luxury",
+                "width": 2680,
+                "height": 362,
+                "gap": 24,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "xwj1H",
+                    "name": "พูลวิลล่า Luxury · fixture 23",
+                    "clip": true,
+                    "width": 314,
+                    "height": 362,
+                    "fill": "#FFFFFF",
+                    "cornerRadius": 16,
+                    "layout": "vertical",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "isg7m",
+                        "name": "CAROUSEL · พูลวิลล่า Luxury · fixture 23",
+                        "clip": true,
+                        "width": "fill_container",
+                        "height": 210,
+                        "fill": {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "images/generated-1.png",
+                          "mode": "cover"
+                        },
+                        "cornerRadius": [
+                          16,
+                          16,
+                          0,
+                          0
+                        ],
+                        "layout": "none",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "g3thTN",
+                            "layoutPosition": "absolute",
+                            "x": 260,
+                            "y": 10,
+                            "name": "FAVORITE-01 · login required",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "v2YCK",
+                                "name": "FAVORITE-01 · login required icon",
+                                "width": 22,
+                                "height": 22,
+                                "icon": "heart",
+                                "library": "lucide",
+                                "fill": "#FFFFFF",
+                                "effect": {
+                                  "type": "shadow",
+                                  "shadowType": "outer",
+                                  "color": "#072D59CC",
+                                  "offset": {
+                                    "x": 0,
+                                    "y": 1
+                                  },
+                                  "blur": 2
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "ryhVW",
+                            "layoutPosition": "absolute",
+                            "x": 8,
+                            "y": 83,
+                            "name": "Previous image · disabled at first · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "i3EAaR",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "WdyGq",
+                                    "name": "Previous image · disabled at first icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-left",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "iIXrp",
+                            "layoutPosition": "absolute",
+                            "x": 262,
+                            "y": 83,
+                            "name": "Next image · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "e8pmms",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "gzSr6",
+                                    "name": "Next image icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-right",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "PNHRw",
+                            "layoutPosition": "absolute",
+                            "x": 136.5,
+                            "y": 197,
+                            "name": "Image pagination",
+                            "gap": 4,
+                            "children": [
+                              {
+                                "type": "ellipse",
+                                "id": "h2CMH",
+                                "name": "Image 1 active",
+                                "fill": "#FFFFFF",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "Na765",
+                                "name": "Image 2",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "gPhu6",
+                                "name": "Image 3",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "NwJjs",
+                                "name": "Image 4",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "u0o5z",
+                                "name": "Image 5",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "YRQxE",
+                        "name": "Home-r6 white information body",
+                        "width": "fill_container",
+                        "height": 152,
+                        "layout": "vertical",
+                        "gap": 6,
+                        "padding": 14,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "rRbWU",
+                            "name": "Home-r6 property title",
+                            "fill": "#072D59",
+                            "textGrowth": "fixed-width-height",
+                            "width": "fill_container",
+                            "height": 27,
+                            "content": "บ้านพักตัวอย่าง 23",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 18,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "kOnzf",
+                            "name": "Home-r6 location row",
+                            "height": 21,
+                            "gap": 4,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "RX6uG",
+                                "name": "Location pin",
+                                "width": 14,
+                                "height": 14,
+                                "icon": "map-pin",
+                                "library": "lucide",
+                                "fill": "#6B7280"
+                              },
+                              {
+                                "type": "text",
+                                "id": "M37lCW",
+                                "name": "Location value",
+                                "fill": "#6B7280",
+                                "content": "พัทยา",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 14,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "jExJC",
+                            "name": "Home-r6 capacity row",
+                            "height": 21,
+                            "gap": 16,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "T7LKm",
+                                "name": "users fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "Vpuce",
+                                    "name": "users icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "users",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "uXYuh",
+                                    "name": "users value",
+                                    "fill": "#6B7280",
+                                    "content": "12 คน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "id": "ERhod",
+                                "name": "bed-double fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "CtlUa",
+                                    "name": "bed-double icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "bed-double",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "LafNq",
+                                    "name": "bed-double value",
+                                    "fill": "#6B7280",
+                                    "content": "4 ห้องนอน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "a8RQO",
+                            "name": "Home-r6 price information · not a button",
+                            "width": "fill_container",
+                            "height": 33,
+                            "gap": 6,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "VmA6t",
+                                "name": "Starting qualifier",
+                                "fill": "#6B7280",
+                                "content": "เริ่มต้น",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              },
+                              {
+                                "type": "text",
+                                "id": "hCEd8",
+                                "name": "Nightly amount",
+                                "fill": "#072D59",
+                                "content": "฿8,900",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 22,
+                                "fontWeight": "500"
+                              },
+                              {
+                                "type": "text",
+                                "id": "hZZso",
+                                "name": "Nightly unit",
+                                "fill": "#6B7280",
+                                "content": "/ คืน",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "bYgek",
+                    "name": "พูลวิลล่า Luxury · fixture 24",
+                    "clip": true,
+                    "width": 314,
+                    "height": 362,
+                    "fill": "#FFFFFF",
+                    "cornerRadius": 16,
+                    "layout": "vertical",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "BhzoB",
+                        "name": "CAROUSEL · พูลวิลล่า Luxury · fixture 24",
+                        "clip": true,
+                        "width": "fill_container",
+                        "height": 210,
+                        "fill": {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "images/generated-4.png",
+                          "mode": "cover"
+                        },
+                        "cornerRadius": [
+                          16,
+                          16,
+                          0,
+                          0
+                        ],
+                        "layout": "none",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "p0Er2b",
+                            "layoutPosition": "absolute",
+                            "x": 260,
+                            "y": 10,
+                            "name": "FAVORITE-01 · login required",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "i0vPe",
+                                "name": "FAVORITE-01 · login required icon",
+                                "width": 22,
+                                "height": 22,
+                                "icon": "heart",
+                                "library": "lucide",
+                                "fill": "#FFFFFF",
+                                "effect": {
+                                  "type": "shadow",
+                                  "shadowType": "outer",
+                                  "color": "#072D59CC",
+                                  "offset": {
+                                    "x": 0,
+                                    "y": 1
+                                  },
+                                  "blur": 2
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "Vtitq",
+                            "layoutPosition": "absolute",
+                            "x": 8,
+                            "y": 83,
+                            "name": "Previous image · disabled at first · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "bxvoO",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "r47lfN",
+                                    "name": "Previous image · disabled at first icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-left",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "WyCxp",
+                            "layoutPosition": "absolute",
+                            "x": 262,
+                            "y": 83,
+                            "name": "Next image · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "YWvts",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "xEbaH",
+                                    "name": "Next image icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-right",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "iaa1L",
+                            "layoutPosition": "absolute",
+                            "x": 136.5,
+                            "y": 197,
+                            "name": "Image pagination",
+                            "gap": 4,
+                            "children": [
+                              {
+                                "type": "ellipse",
+                                "id": "rrYPq",
+                                "name": "Image 1 active",
+                                "fill": "#FFFFFF",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "FNLXU",
+                                "name": "Image 2",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "GRE72",
+                                "name": "Image 3",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "cSQl8",
+                                "name": "Image 4",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "BY70y",
+                                "name": "Image 5",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "MExp7",
+                        "name": "Home-r6 white information body",
+                        "width": "fill_container",
+                        "height": 152,
+                        "layout": "vertical",
+                        "gap": 6,
+                        "padding": 14,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "NRP0F",
+                            "name": "Home-r6 property title",
+                            "fill": "#072D59",
+                            "textGrowth": "fixed-width-height",
+                            "width": "fill_container",
+                            "height": 27,
+                            "content": "บ้านพักตัวอย่าง 24",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 18,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "I9D09L",
+                            "name": "Home-r6 location row",
+                            "height": 21,
+                            "gap": 4,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "Aw6Tu",
+                                "name": "Location pin",
+                                "width": 14,
+                                "height": 14,
+                                "icon": "map-pin",
+                                "library": "lucide",
+                                "fill": "#6B7280"
+                              },
+                              {
+                                "type": "text",
+                                "id": "ZaxBU",
+                                "name": "Location value",
+                                "fill": "#6B7280",
+                                "content": "พัทยา",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 14,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "U36iBA",
+                            "name": "Home-r6 capacity row",
+                            "height": 21,
+                            "gap": 16,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "H5Ova5",
+                                "name": "users fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "r5DmAB",
+                                    "name": "users icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "users",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "DlGVi",
+                                    "name": "users value",
+                                    "fill": "#6B7280",
+                                    "content": "12 คน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "id": "zBpGL",
+                                "name": "bed-double fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "UpKSl",
+                                    "name": "bed-double icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "bed-double",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "TO3KS",
+                                    "name": "bed-double value",
+                                    "fill": "#6B7280",
+                                    "content": "4 ห้องนอน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "P1CUET",
+                            "name": "Home-r6 price information · not a button",
+                            "width": "fill_container",
+                            "height": 33,
+                            "gap": 6,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "K9pEtP",
+                                "name": "Starting qualifier",
+                                "fill": "#6B7280",
+                                "content": "เริ่มต้น",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              },
+                              {
+                                "type": "text",
+                                "id": "r1deG",
+                                "name": "Nightly amount",
+                                "fill": "#072D59",
+                                "content": "฿8,900",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 22,
+                                "fontWeight": "500"
+                              },
+                              {
+                                "type": "text",
+                                "id": "XckKJ",
+                                "name": "Nightly unit",
+                                "fill": "#6B7280",
+                                "content": "/ คืน",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "huPAB",
+                    "name": "พูลวิลล่า Luxury · fixture 21",
+                    "clip": true,
+                    "width": 314,
+                    "height": 362,
+                    "fill": "#FFFFFF",
+                    "cornerRadius": 16,
+                    "layout": "vertical",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "RHX6h",
+                        "name": "CAROUSEL · พูลวิลล่า Luxury · fixture 21",
+                        "clip": true,
+                        "width": "fill_container",
+                        "height": 210,
+                        "fill": {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "images/generated-3.png",
+                          "mode": "cover"
+                        },
+                        "cornerRadius": [
+                          16,
+                          16,
+                          0,
+                          0
+                        ],
+                        "layout": "none",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "KEk1o",
+                            "layoutPosition": "absolute",
+                            "x": 260,
+                            "y": 10,
+                            "name": "FAVORITE-01 · login required",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "ZfpbD",
+                                "name": "FAVORITE-01 · login required icon",
+                                "width": 22,
+                                "height": 22,
+                                "icon": "heart",
+                                "library": "lucide",
+                                "fill": "#FFFFFF",
+                                "effect": {
+                                  "type": "shadow",
+                                  "shadowType": "outer",
+                                  "color": "#072D59CC",
+                                  "offset": {
+                                    "x": 0,
+                                    "y": 1
+                                  },
+                                  "blur": 2
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "vsSF2",
+                            "layoutPosition": "absolute",
+                            "x": 8,
+                            "y": 83,
+                            "name": "Previous image · disabled at first · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "TG7bz",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "q82C2Z",
+                                    "name": "Previous image · disabled at first icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-left",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "o4aH9",
+                            "layoutPosition": "absolute",
+                            "x": 262,
+                            "y": 83,
+                            "name": "Next image · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "dEK0e",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "TBZ52",
+                                    "name": "Next image icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-right",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "M0sHa7",
+                            "layoutPosition": "absolute",
+                            "x": 136.5,
+                            "y": 197,
+                            "name": "Image pagination",
+                            "gap": 4,
+                            "children": [
+                              {
+                                "type": "ellipse",
+                                "id": "h1jyuf",
+                                "name": "Image 1 active",
+                                "fill": "#FFFFFF",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "NK9Ej",
+                                "name": "Image 2",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "K53neq",
+                                "name": "Image 3",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "M1CPJC",
+                                "name": "Image 4",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "XDwee",
+                                "name": "Image 5",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "Fpi5C",
+                        "name": "Home-r6 white information body",
+                        "width": "fill_container",
+                        "height": 152,
+                        "layout": "vertical",
+                        "gap": 6,
+                        "padding": 14,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "Y6AAhn",
+                            "name": "Home-r6 property title",
+                            "fill": "#072D59",
+                            "textGrowth": "fixed-width-height",
+                            "width": "fill_container",
+                            "height": 27,
+                            "content": "บ้านพักตัวอย่าง 21",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 18,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "RCwo9",
+                            "name": "Home-r6 location row",
+                            "height": 21,
+                            "gap": 4,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "kic8J",
+                                "name": "Location pin",
+                                "width": 14,
+                                "height": 14,
+                                "icon": "map-pin",
+                                "library": "lucide",
+                                "fill": "#6B7280"
+                              },
+                              {
+                                "type": "text",
+                                "id": "jaDYO",
+                                "name": "Location value",
+                                "fill": "#6B7280",
+                                "content": "พัทยา",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 14,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "q3VSU",
+                            "name": "Home-r6 capacity row",
+                            "height": 21,
+                            "gap": 16,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "EZ60Q",
+                                "name": "users fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "DbxS2",
+                                    "name": "users icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "users",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "IdnxR",
+                                    "name": "users value",
+                                    "fill": "#6B7280",
+                                    "content": "12 คน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "id": "NPJdC",
+                                "name": "bed-double fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "b3rPao",
+                                    "name": "bed-double icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "bed-double",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "ft02S",
+                                    "name": "bed-double value",
+                                    "fill": "#6B7280",
+                                    "content": "4 ห้องนอน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "WVPe5",
+                            "name": "Home-r6 price information · not a button",
+                            "width": "fill_container",
+                            "height": 33,
+                            "gap": 6,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "Rw5YI",
+                                "name": "Starting qualifier",
+                                "fill": "#6B7280",
+                                "content": "เริ่มต้น",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              },
+                              {
+                                "type": "text",
+                                "id": "ZT1BR",
+                                "name": "Nightly amount",
+                                "fill": "#072D59",
+                                "content": "฿8,900",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 22,
+                                "fontWeight": "500"
+                              },
+                              {
+                                "type": "text",
+                                "id": "wUOfl",
+                                "name": "Nightly unit",
+                                "fill": "#6B7280",
+                                "content": "/ คืน",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "rAaQe",
+                    "name": "พูลวิลล่า Luxury · fixture 22",
+                    "clip": true,
+                    "width": 314,
+                    "height": 362,
+                    "fill": "#FFFFFF",
+                    "cornerRadius": 16,
+                    "layout": "vertical",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "lW4cJ",
+                        "name": "CAROUSEL · พูลวิลล่า Luxury · fixture 22",
+                        "clip": true,
+                        "width": "fill_container",
+                        "height": 210,
+                        "fill": {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "images/generated-5.png",
+                          "mode": "cover"
+                        },
+                        "cornerRadius": [
+                          16,
+                          16,
+                          0,
+                          0
+                        ],
+                        "layout": "none",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "d2BKR",
+                            "layoutPosition": "absolute",
+                            "x": 260,
+                            "y": 10,
+                            "name": "FAVORITE-01 · login required",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "zfXTB",
+                                "name": "FAVORITE-01 · login required icon",
+                                "width": 22,
+                                "height": 22,
+                                "icon": "heart",
+                                "library": "lucide",
+                                "fill": "#FFFFFF",
+                                "effect": {
+                                  "type": "shadow",
+                                  "shadowType": "outer",
+                                  "color": "#072D59CC",
+                                  "offset": {
+                                    "x": 0,
+                                    "y": 1
+                                  },
+                                  "blur": 2
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "Hb7RI",
+                            "layoutPosition": "absolute",
+                            "x": 8,
+                            "y": 83,
+                            "name": "Previous image · disabled at first · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "uJXaS",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "eJyYe",
+                                    "name": "Previous image · disabled at first icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-left",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "I0jXq",
+                            "layoutPosition": "absolute",
+                            "x": 262,
+                            "y": 83,
+                            "name": "Next image · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "La9rg",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "F23Et",
+                                    "name": "Next image icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-right",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "Qdkg6",
+                            "layoutPosition": "absolute",
+                            "x": 136.5,
+                            "y": 197,
+                            "name": "Image pagination",
+                            "gap": 4,
+                            "children": [
+                              {
+                                "type": "ellipse",
+                                "id": "DUsrR",
+                                "name": "Image 1 active",
+                                "fill": "#FFFFFF",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "KyFJQ",
+                                "name": "Image 2",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "W7N5xV",
+                                "name": "Image 3",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "HbIc3",
+                                "name": "Image 4",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "PdNKm",
+                                "name": "Image 5",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "LpRT7",
+                        "name": "Home-r6 white information body",
+                        "width": "fill_container",
+                        "height": 152,
+                        "layout": "vertical",
+                        "gap": 6,
+                        "padding": 14,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "L2541",
+                            "name": "Home-r6 property title",
+                            "fill": "#072D59",
+                            "textGrowth": "fixed-width-height",
+                            "width": "fill_container",
+                            "height": 27,
+                            "content": "บ้านพักตัวอย่าง 22",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 18,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "gxbph",
+                            "name": "Home-r6 location row",
+                            "height": 21,
+                            "gap": 4,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "O5G8W",
+                                "name": "Location pin",
+                                "width": 14,
+                                "height": 14,
+                                "icon": "map-pin",
+                                "library": "lucide",
+                                "fill": "#6B7280"
+                              },
+                              {
+                                "type": "text",
+                                "id": "X0e5Ab",
+                                "name": "Location value",
+                                "fill": "#6B7280",
+                                "content": "พัทยา",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 14,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "ZxkMT",
+                            "name": "Home-r6 capacity row",
+                            "height": 21,
+                            "gap": 16,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "SIWWN",
+                                "name": "users fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "dImiF",
+                                    "name": "users icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "users",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "Z77aa",
+                                    "name": "users value",
+                                    "fill": "#6B7280",
+                                    "content": "12 คน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "id": "C6ZSH",
+                                "name": "bed-double fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "qCQWY",
+                                    "name": "bed-double icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "bed-double",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "KVNc9",
+                                    "name": "bed-double value",
+                                    "fill": "#6B7280",
+                                    "content": "4 ห้องนอน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "tHzMJ",
+                            "name": "Home-r6 price information · not a button",
+                            "width": "fill_container",
+                            "height": 33,
+                            "gap": 6,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "i622d",
+                                "name": "Starting qualifier",
+                                "fill": "#6B7280",
+                                "content": "เริ่มต้น",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              },
+                              {
+                                "type": "text",
+                                "id": "TREs5",
+                                "name": "Nightly amount",
+                                "fill": "#072D59",
+                                "content": "฿8,900",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 22,
+                                "fontWeight": "500"
+                              },
+                              {
+                                "type": "text",
+                                "id": "v0CC2N",
+                                "name": "Nightly unit",
+                                "fill": "#6B7280",
+                                "content": "/ คืน",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "H4C9I",
+                    "name": "พูลวิลล่า Luxury · fixture 11",
+                    "clip": true,
+                    "width": 314,
+                    "height": 362,
+                    "fill": "#FFFFFF",
+                    "cornerRadius": 16,
+                    "layout": "vertical",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "nyddd",
+                        "name": "CAROUSEL · พูลวิลล่า Luxury · fixture 11",
+                        "clip": true,
+                        "width": "fill_container",
+                        "height": 210,
+                        "fill": {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "images/generated-1.png",
+                          "mode": "cover"
+                        },
+                        "cornerRadius": [
+                          16,
+                          16,
+                          0,
+                          0
+                        ],
+                        "layout": "none",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "jCOjh",
+                            "layoutPosition": "absolute",
+                            "x": 260,
+                            "y": 10,
+                            "name": "FAVORITE-01 · login required",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "w60Fi",
+                                "name": "FAVORITE-01 · login required icon",
+                                "width": 22,
+                                "height": 22,
+                                "icon": "heart",
+                                "library": "lucide",
+                                "fill": "#FFFFFF",
+                                "effect": {
+                                  "type": "shadow",
+                                  "shadowType": "outer",
+                                  "color": "#072D59CC",
+                                  "offset": {
+                                    "x": 0,
+                                    "y": 1
+                                  },
+                                  "blur": 2
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "vJPyk",
+                            "layoutPosition": "absolute",
+                            "x": 8,
+                            "y": 83,
+                            "name": "Previous image · disabled at first · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "uWBAP",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "tSTMx",
+                                    "name": "Previous image · disabled at first icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-left",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "zpe7q",
+                            "layoutPosition": "absolute",
+                            "x": 262,
+                            "y": 83,
+                            "name": "Next image · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "zQ4lo",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "P5QII",
+                                    "name": "Next image icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-right",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "k3qku",
+                            "layoutPosition": "absolute",
+                            "x": 136.5,
+                            "y": 197,
+                            "name": "Image pagination",
+                            "gap": 4,
+                            "children": [
+                              {
+                                "type": "ellipse",
+                                "id": "rU9TR",
+                                "name": "Image 1 active",
+                                "fill": "#FFFFFF",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "qfztE",
+                                "name": "Image 2",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "KtQhc",
+                                "name": "Image 3",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "r05yIs",
+                                "name": "Image 4",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "I5FRt",
+                                "name": "Image 5",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "BZnrq",
+                        "name": "Home-r6 white information body",
+                        "width": "fill_container",
+                        "height": 152,
+                        "layout": "vertical",
+                        "gap": 6,
+                        "padding": 14,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "KT1GT",
+                            "name": "Home-r6 property title",
+                            "fill": "#072D59",
+                            "textGrowth": "fixed-width-height",
+                            "width": "fill_container",
+                            "height": 27,
+                            "content": "บ้านพักตัวอย่าง 11",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 18,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "B01Zyf",
+                            "name": "Home-r6 location row",
+                            "height": 21,
+                            "gap": 4,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "a3yNfv",
+                                "name": "Location pin",
+                                "width": 14,
+                                "height": 14,
+                                "icon": "map-pin",
+                                "library": "lucide",
+                                "fill": "#6B7280"
+                              },
+                              {
+                                "type": "text",
+                                "id": "uriKy",
+                                "name": "Location value",
+                                "fill": "#6B7280",
+                                "content": "พัทยา",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 14,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "YVaSb",
+                            "name": "Home-r6 capacity row",
+                            "height": 21,
+                            "gap": 16,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "gVg2q",
+                                "name": "users fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "SK58b",
+                                    "name": "users icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "users",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "mCEwT",
+                                    "name": "users value",
+                                    "fill": "#6B7280",
+                                    "content": "12 คน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "id": "v1s0a8",
+                                "name": "bed-double fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "m0sIWm",
+                                    "name": "bed-double icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "bed-double",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "FILH1",
+                                    "name": "bed-double value",
+                                    "fill": "#6B7280",
+                                    "content": "4 ห้องนอน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "B0uOS8",
+                            "name": "Home-r6 price information · not a button",
+                            "width": "fill_container",
+                            "height": 33,
+                            "gap": 6,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "kNCqb",
+                                "name": "Starting qualifier",
+                                "fill": "#6B7280",
+                                "content": "เริ่มต้น",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              },
+                              {
+                                "type": "text",
+                                "id": "Cs6e6",
+                                "name": "Nightly amount",
+                                "fill": "#072D59",
+                                "content": "฿8,900",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 22,
+                                "fontWeight": "500"
+                              },
+                              {
+                                "type": "text",
+                                "id": "uwM9X",
+                                "name": "Nightly unit",
+                                "fill": "#6B7280",
+                                "content": "/ คืน",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "Zrjag",
+                    "name": "พูลวิลล่า Luxury · fixture 12",
+                    "clip": true,
+                    "width": 314,
+                    "height": 362,
+                    "fill": "#FFFFFF",
+                    "cornerRadius": 16,
+                    "layout": "vertical",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "QjA70",
+                        "name": "CAROUSEL · พูลวิลล่า Luxury · fixture 12",
+                        "clip": true,
+                        "width": "fill_container",
+                        "height": 210,
+                        "fill": {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "images/generated-4.png",
+                          "mode": "cover"
+                        },
+                        "cornerRadius": [
+                          16,
+                          16,
+                          0,
+                          0
+                        ],
+                        "layout": "none",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "ofMKO",
+                            "layoutPosition": "absolute",
+                            "x": 260,
+                            "y": 10,
+                            "name": "FAVORITE-01 · login required",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "W1dlg",
+                                "name": "FAVORITE-01 · login required icon",
+                                "width": 22,
+                                "height": 22,
+                                "icon": "heart",
+                                "library": "lucide",
+                                "fill": "#FFFFFF",
+                                "effect": {
+                                  "type": "shadow",
+                                  "shadowType": "outer",
+                                  "color": "#072D59CC",
+                                  "offset": {
+                                    "x": 0,
+                                    "y": 1
+                                  },
+                                  "blur": 2
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "s6Zdm7",
+                            "layoutPosition": "absolute",
+                            "x": 8,
+                            "y": 83,
+                            "name": "Previous image · disabled at first · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "I6VYE",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "Jn2iC",
+                                    "name": "Previous image · disabled at first icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-left",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "qNjG9",
+                            "layoutPosition": "absolute",
+                            "x": 262,
+                            "y": 83,
+                            "name": "Next image · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "Q460c",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "geFwN",
+                                    "name": "Next image icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-right",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "ZwUqS",
+                            "layoutPosition": "absolute",
+                            "x": 136.5,
+                            "y": 197,
+                            "name": "Image pagination",
+                            "gap": 4,
+                            "children": [
+                              {
+                                "type": "ellipse",
+                                "id": "UCSex",
+                                "name": "Image 1 active",
+                                "fill": "#FFFFFF",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "plAYd",
+                                "name": "Image 2",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "U9UO0",
+                                "name": "Image 3",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "N9Fnd",
+                                "name": "Image 4",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "NmCbZ",
+                                "name": "Image 5",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "oUxqz",
+                        "name": "Home-r6 white information body",
+                        "width": "fill_container",
+                        "height": 152,
+                        "layout": "vertical",
+                        "gap": 6,
+                        "padding": 14,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "iAHfv",
+                            "name": "Home-r6 property title",
+                            "fill": "#072D59",
+                            "textGrowth": "fixed-width-height",
+                            "width": "fill_container",
+                            "height": 27,
+                            "content": "บ้านพักตัวอย่าง 12",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 18,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "R0Tin",
+                            "name": "Home-r6 location row",
+                            "height": 21,
+                            "gap": 4,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "H0gFfs",
+                                "name": "Location pin",
+                                "width": 14,
+                                "height": 14,
+                                "icon": "map-pin",
+                                "library": "lucide",
+                                "fill": "#6B7280"
+                              },
+                              {
+                                "type": "text",
+                                "id": "amTH8",
+                                "name": "Location value",
+                                "fill": "#6B7280",
+                                "content": "พัทยา",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 14,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "vh6EW",
+                            "name": "Home-r6 capacity row",
+                            "height": 21,
+                            "gap": 16,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "pS18o",
+                                "name": "users fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "x2PHsD",
+                                    "name": "users icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "users",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "mjghN",
+                                    "name": "users value",
+                                    "fill": "#6B7280",
+                                    "content": "12 คน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "id": "yEaXr",
+                                "name": "bed-double fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "PucDa",
+                                    "name": "bed-double icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "bed-double",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "oABZK",
+                                    "name": "bed-double value",
+                                    "fill": "#6B7280",
+                                    "content": "4 ห้องนอน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "MuzYZ",
+                            "name": "Home-r6 price information · not a button",
+                            "width": "fill_container",
+                            "height": 33,
+                            "gap": 6,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "z5qiw",
+                                "name": "Starting qualifier",
+                                "fill": "#6B7280",
+                                "content": "เริ่มต้น",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              },
+                              {
+                                "type": "text",
+                                "id": "L5WA0",
+                                "name": "Nightly amount",
+                                "fill": "#072D59",
+                                "content": "฿8,900",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 22,
+                                "fontWeight": "500"
+                              },
+                              {
+                                "type": "text",
+                                "id": "d0wQmT",
+                                "name": "Nightly unit",
+                                "fill": "#6B7280",
+                                "content": "/ คืน",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "vNSln",
+                    "name": "พูลวิลล่า Luxury · fixture 9",
+                    "clip": true,
+                    "width": 314,
+                    "height": 362,
+                    "fill": "#FFFFFF",
+                    "cornerRadius": 16,
+                    "layout": "vertical",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "jUHjN",
+                        "name": "CAROUSEL · พูลวิลล่า Luxury · fixture 9",
+                        "clip": true,
+                        "width": "fill_container",
+                        "height": 210,
+                        "fill": {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "images/generated-3.png",
+                          "mode": "cover"
+                        },
+                        "cornerRadius": [
+                          16,
+                          16,
+                          0,
+                          0
+                        ],
+                        "layout": "none",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "L0VRH",
+                            "layoutPosition": "absolute",
+                            "x": 260,
+                            "y": 10,
+                            "name": "FAVORITE-01 · login required",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "PJ9Zd",
+                                "name": "FAVORITE-01 · login required icon",
+                                "width": 22,
+                                "height": 22,
+                                "icon": "heart",
+                                "library": "lucide",
+                                "fill": "#FFFFFF",
+                                "effect": {
+                                  "type": "shadow",
+                                  "shadowType": "outer",
+                                  "color": "#072D59CC",
+                                  "offset": {
+                                    "x": 0,
+                                    "y": 1
+                                  },
+                                  "blur": 2
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "GEvrM",
+                            "layoutPosition": "absolute",
+                            "x": 8,
+                            "y": 83,
+                            "name": "Previous image · disabled at first · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "TTMrq",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "zVpE4",
+                                    "name": "Previous image · disabled at first icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-left",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "XmGeB",
+                            "layoutPosition": "absolute",
+                            "x": 262,
+                            "y": 83,
+                            "name": "Next image · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "TKli4",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "bOxpi",
+                                    "name": "Next image icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-right",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "K2XeTu",
+                            "layoutPosition": "absolute",
+                            "x": 136.5,
+                            "y": 197,
+                            "name": "Image pagination",
+                            "gap": 4,
+                            "children": [
+                              {
+                                "type": "ellipse",
+                                "id": "hEQeB",
+                                "name": "Image 1 active",
+                                "fill": "#FFFFFF",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "eddze",
+                                "name": "Image 2",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "hIoD1",
+                                "name": "Image 3",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "I2bWg",
+                                "name": "Image 4",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "OvVzd",
+                                "name": "Image 5",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "MezW3",
+                        "name": "Home-r6 white information body",
+                        "width": "fill_container",
+                        "height": 152,
+                        "layout": "vertical",
+                        "gap": 6,
+                        "padding": 14,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "B5YOv",
+                            "name": "Home-r6 property title",
+                            "fill": "#072D59",
+                            "textGrowth": "fixed-width-height",
+                            "width": "fill_container",
+                            "height": 27,
+                            "content": "บ้านพักตัวอย่าง 09",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 18,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "dJHYC",
+                            "name": "Home-r6 location row",
+                            "height": 21,
+                            "gap": 4,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "A58Gv",
+                                "name": "Location pin",
+                                "width": 14,
+                                "height": 14,
+                                "icon": "map-pin",
+                                "library": "lucide",
+                                "fill": "#6B7280"
+                              },
+                              {
+                                "type": "text",
+                                "id": "nZcl2",
+                                "name": "Location value",
+                                "fill": "#6B7280",
+                                "content": "พัทยา",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 14,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "k9K6X6",
+                            "name": "Home-r6 capacity row",
+                            "height": 21,
+                            "gap": 16,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "XkVmQ",
+                                "name": "users fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "Q0uUl",
+                                    "name": "users icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "users",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "uh6cl",
+                                    "name": "users value",
+                                    "fill": "#6B7280",
+                                    "content": "12 คน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "id": "pA2BS",
+                                "name": "bed-double fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "A6vF7O",
+                                    "name": "bed-double icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "bed-double",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "QeV8Y",
+                                    "name": "bed-double value",
+                                    "fill": "#6B7280",
+                                    "content": "4 ห้องนอน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "cILCJ",
+                            "name": "Home-r6 price information · not a button",
+                            "width": "fill_container",
+                            "height": 33,
+                            "gap": 6,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "bD635",
+                                "name": "Starting qualifier",
+                                "fill": "#6B7280",
+                                "content": "เริ่มต้น",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              },
+                              {
+                                "type": "text",
+                                "id": "BSYKL",
+                                "name": "Nightly amount",
+                                "fill": "#072D59",
+                                "content": "฿8,900",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 22,
+                                "fontWeight": "500"
+                              },
+                              {
+                                "type": "text",
+                                "id": "zgi81",
+                                "name": "Nightly unit",
+                                "fill": "#6B7280",
+                                "content": "/ คืน",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "AUiZl",
+                    "name": "พูลวิลล่า Luxury · fixture 10",
+                    "clip": true,
+                    "width": 314,
+                    "height": 362,
+                    "fill": "#FFFFFF",
+                    "cornerRadius": 16,
+                    "layout": "vertical",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "N9BHq",
+                        "name": "CAROUSEL · พูลวิลล่า Luxury · fixture 10",
+                        "clip": true,
+                        "width": "fill_container",
+                        "height": 210,
+                        "fill": {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "images/generated-5.png",
+                          "mode": "cover"
+                        },
+                        "cornerRadius": [
+                          16,
+                          16,
+                          0,
+                          0
+                        ],
+                        "layout": "none",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "KRIjs",
+                            "layoutPosition": "absolute",
+                            "x": 260,
+                            "y": 10,
+                            "name": "FAVORITE-01 · login required",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "b2faXm",
+                                "name": "FAVORITE-01 · login required icon",
+                                "width": 22,
+                                "height": 22,
+                                "icon": "heart",
+                                "library": "lucide",
+                                "fill": "#FFFFFF",
+                                "effect": {
+                                  "type": "shadow",
+                                  "shadowType": "outer",
+                                  "color": "#072D59CC",
+                                  "offset": {
+                                    "x": 0,
+                                    "y": 1
+                                  },
+                                  "blur": 2
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "QaXSN",
+                            "layoutPosition": "absolute",
+                            "x": 8,
+                            "y": 83,
+                            "name": "Previous image · disabled at first · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "lnMRw",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "EO3zp",
+                                    "name": "Previous image · disabled at first icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-left",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "EiUbJ",
+                            "layoutPosition": "absolute",
+                            "x": 262,
+                            "y": 83,
+                            "name": "Next image · reveal on card hover or keyboard focus",
+                            "opacity": 0,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF00",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "WTAMY",
+                                "name": "Photo arrow face · 28px within 44px target",
+                                "width": 28,
+                                "height": 28,
+                                "fill": "#FFFFFF",
+                                "cornerRadius": 14,
+                                "stroke": "#072D5933",
+                                "strokeWidth": 1,
+                                "justifyContent": "center",
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "ejxnb",
+                                    "name": "Next image icon",
+                                    "width": 16,
+                                    "height": 16,
+                                    "icon": "chevron-right",
+                                    "library": "lucide",
+                                    "fill": "#072D59"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "Kr0M7",
+                            "layoutPosition": "absolute",
+                            "x": 136.5,
+                            "y": 197,
+                            "name": "Image pagination",
+                            "gap": 4,
+                            "children": [
+                              {
+                                "type": "ellipse",
+                                "id": "JA1ND",
+                                "name": "Image 1 active",
+                                "fill": "#FFFFFF",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "FNhfX",
+                                "name": "Image 2",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "D5ol1",
+                                "name": "Image 3",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "pw7Pw",
+                                "name": "Image 4",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              },
+                              {
+                                "type": "ellipse",
+                                "id": "tIQSJ",
+                                "name": "Image 5",
+                                "fill": "#FFFFFF80",
+                                "width": 5,
+                                "height": 5
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "v9bZ3",
+                        "name": "Home-r6 white information body",
+                        "width": "fill_container",
+                        "height": 152,
+                        "layout": "vertical",
+                        "gap": 6,
+                        "padding": 14,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "LQmtp",
+                            "name": "Home-r6 property title",
+                            "fill": "#072D59",
+                            "textGrowth": "fixed-width-height",
+                            "width": "fill_container",
+                            "height": 27,
+                            "content": "บ้านพักตัวอย่าง 10",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 18,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "q9A8HL",
+                            "name": "Home-r6 location row",
+                            "height": 21,
+                            "gap": 4,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "IsZUZ",
+                                "name": "Location pin",
+                                "width": 14,
+                                "height": 14,
+                                "icon": "map-pin",
+                                "library": "lucide",
+                                "fill": "#6B7280"
+                              },
+                              {
+                                "type": "text",
+                                "id": "KTA5E",
+                                "name": "Location value",
+                                "fill": "#6B7280",
+                                "content": "พัทยา",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 14,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "vmeFV",
+                            "name": "Home-r6 capacity row",
+                            "height": 21,
+                            "gap": 16,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "frame",
+                                "id": "SWeL4",
+                                "name": "users fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "Duyov",
+                                    "name": "users icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "users",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "kjKWv",
+                                    "name": "users value",
+                                    "fill": "#6B7280",
+                                    "content": "12 คน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "id": "CPpow",
+                                "name": "bed-double fact",
+                                "gap": 4,
+                                "alignItems": "center",
+                                "children": [
+                                  {
+                                    "type": "icon",
+                                    "id": "dgGYc",
+                                    "name": "bed-double icon",
+                                    "width": 14,
+                                    "height": 14,
+                                    "icon": "bed-double",
+                                    "library": "lucide",
+                                    "fill": "#6B7280"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "id": "pzoTR",
+                                    "name": "bed-double value",
+                                    "fill": "#6B7280",
+                                    "content": "4 ห้องนอน",
+                                    "lineHeight": 1.5,
+                                    "fontFamily": "$font.primary",
+                                    "fontSize": 14,
+                                    "fontWeight": "normal"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "IQxAt",
+                            "name": "Home-r6 price information · not a button",
+                            "width": "fill_container",
+                            "height": 33,
+                            "gap": 6,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "i96h8",
+                                "name": "Starting qualifier",
+                                "fill": "#6B7280",
+                                "content": "เริ่มต้น",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              },
+                              {
+                                "type": "text",
+                                "id": "oinaC",
+                                "name": "Nightly amount",
+                                "fill": "#072D59",
+                                "content": "฿8,900",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 22,
+                                "fontWeight": "500"
+                              },
+                              {
+                                "type": "text",
+                                "id": "UV2kw",
+                                "name": "Nightly unit",
+                                "fill": "#6B7280",
+                                "content": "/ คืน",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13,
+                                "fontWeight": "normal"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "A5wVpm",
+        "name": "Home Footer redesign · pool-edge close · r2",
+        "width": "fill_container",
+        "fill": "#FFFFFF",
+        "layout": "vertical",
+        "children": [
+          {
+            "type": "frame",
+            "id": "ppM1L",
+            "name": "Footer pool-edge transition",
+            "clip": true,
+            "width": "fill_container",
+            "height": 48,
+            "fill": "#FFFFFF",
+            "layout": "none",
+            "children": [
+              {
+                "type": "path",
+                "id": "orWUB",
+                "x": 0,
+                "y": 0,
+                "name": "Reused pool-edge motif · light blue Footer entry",
+                "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+                "viewBox": [
+                  0,
+                  0,
+                  1440,
+                  95
+                ],
+                "fill": "#DBF2FC",
+                "width": 1440,
+                "height": 48
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "zjilh",
+            "name": "Footer light blue surface",
+            "width": "fill_container",
+            "fill": "#DBF2FC",
+            "layout": "vertical",
+            "gap": 24,
+            "padding": [
+              32,
+              56,
+              40,
+              56
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "SCQj0",
+                "name": "Footer brand and contact row",
+                "width": "fill_container",
+                "height": 48,
+                "justifyContent": "space_between",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "KYrIt",
+                    "name": "Footer papaipak brand link · existing placeholder logo",
+                    "height": 46,
+                    "gap": 10,
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "slCvB",
+                        "name": "Placeholder logo · house and pool · not final brand asset",
+                        "width": 42,
+                        "height": 42,
+                        "layout": "none",
+                        "children": [
+                          {
+                            "type": "path",
+                            "id": "p8WOa6",
+                            "x": 1,
+                            "y": 1,
+                            "name": "Pink villa silhouette",
+                            "geometry": "M4 18q0-2 2-4l12-10q2-2 4 0l12 10q2 2 2 4v15q0 3-3 3h-26q-3 0-3-3z",
+                            "viewBox": [
+                              0,
+                              0,
+                              40,
+                              40
+                            ],
+                            "fill": "#FD6E88",
+                            "width": 40,
+                            "height": 40
+                          },
+                          {
+                            "type": "rectangle",
+                            "cornerRadius": [
+                              3,
+                              3,
+                              0,
+                              0
+                            ],
+                            "id": "b3WOey",
+                            "x": 17,
+                            "y": 20,
+                            "name": "Villa doorway",
+                            "fill": "#FFFFFF",
+                            "width": 10,
+                            "height": 15
+                          },
+                          {
+                            "type": "path",
+                            "id": "khbPv",
+                            "x": 2,
+                            "y": 32,
+                            "name": "Navy pool wave",
+                            "geometry": "M1 4q4-4 9 0 5 4 10 0 5-4 10 0 4 3 7 0",
+                            "viewBox": [
+                              0,
+                              0,
+                              38,
+                              8
+                            ],
+                            "fill": "#FFFFFF00",
+                            "width": 38,
+                            "height": 8,
+                            "stroke": "#072D59",
+                            "strokeWidth": 2.5,
+                            "strokeLinecap": "round"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "id": "XCr2b",
+                        "name": "papaipak wordmark study",
+                        "fill": "#072D59",
+                        "content": "papaipak",
+                        "lineHeight": 1.2,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 38,
+                        "fontWeight": "600"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "UHkYs",
+                    "name": "Footer contact navigation · destination review pending",
+                    "width": 152,
+                    "height": 48,
+                    "fill": "#FFFFFF",
+                    "cornerRadius": 24,
+                    "gap": 10,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "O4Qgpc",
+                        "name": "Footer contact headphones",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "headphones",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      },
+                      {
+                        "type": "text",
+                        "id": "thbMS",
+                        "name": "Footer contact label",
+                        "fill": "#072D59",
+                        "content": "ติดต่อ",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "bTqPB",
+                "name": "Footer closing message and supporting navigation",
+                "width": "fill_container",
+                "gap": 80,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "aQ8me",
+                    "name": "Footer closing message · existing copy",
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "พื้นที่ความสุขส่วนตัว",
+                    "lineHeight": 1.4,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 36
+                  },
+                  {
+                    "type": "frame",
+                    "id": "gZdVo",
+                    "name": "Footer supporting content links · two columns",
+                    "width": 560,
+                    "gap": 32,
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "tRFQF",
+                        "name": "Footer information link column",
+                        "width": 264,
+                        "layout": "vertical",
+                        "gap": 4,
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "DzfFg",
+                            "name": "เกี่ยวกับเรา Footer link target · same-tab content",
+                            "width": "fill_container",
+                            "height": 44,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "oWAoL",
+                                "name": "เกี่ยวกับเรา Footer link label",
+                                "fill": "#072D59",
+                                "content": "เกี่ยวกับเรา",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 16
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "LttJB",
+                            "name": "วิธีจอง Footer link target · same-tab content",
+                            "width": "fill_container",
+                            "height": 44,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "fCrjO",
+                                "name": "วิธีจอง Footer link label",
+                                "fill": "#072D59",
+                                "content": "วิธีจอง",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 16
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "pyUdu",
+                        "name": "Footer policies link column",
+                        "width": 264,
+                        "layout": "vertical",
+                        "gap": 4,
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "OpXyg",
+                            "name": "เงื่อนไข Footer link target · same-tab content",
+                            "width": "fill_container",
+                            "height": 44,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "EYvVL",
+                                "name": "เงื่อนไข Footer link label",
+                                "fill": "#072D59",
+                                "content": "เงื่อนไข",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 16
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "Mf2A2",
+                            "name": "ความเป็นส่วนตัว Footer link target · same-tab content",
+                            "width": "fill_container",
+                            "height": 44,
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "AKxpV",
+                                "name": "ความเป็นส่วนตัว Footer link label",
+                                "fill": "#072D59",
+                                "content": "ความเป็นส่วนตัว",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 16
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footerReadback": [
+    {
+      "id": "A5wVpm",
+      "name": "Home Footer redesign · pool-edge close · r2",
+      "width": 1440,
+      "height": 284,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "ppM1L",
+      "name": "Footer pool-edge transition",
+      "width": 1440,
+      "height": 48
+    },
+    {
+      "id": "orWUB",
+      "name": "Reused pool-edge motif · light blue Footer entry",
+      "width": 1440,
+      "height": 48
+    },
+    {
+      "id": "zjilh",
+      "name": "Footer light blue surface",
+      "width": 1440,
+      "height": 236,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "SCQj0",
+      "name": "Footer brand and contact row",
+      "width": 1328,
+      "height": 48
+    },
+    {
+      "id": "KYrIt",
+      "name": "Footer papaipak brand link · existing placeholder logo",
+      "width": 225,
+      "height": 46
+    },
+    {
+      "id": "slCvB",
+      "name": "Placeholder logo · house and pool · not final brand asset",
+      "width": 42,
+      "height": 42
+    },
+    {
+      "id": "p8WOa6",
+      "name": "Pink villa silhouette",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "b3WOey",
+      "name": "Villa doorway",
+      "width": 10,
+      "height": 15
+    },
+    {
+      "id": "khbPv",
+      "name": "Navy pool wave",
+      "width": 38,
+      "height": 8
+    },
+    {
+      "id": "XCr2b",
+      "name": "papaipak wordmark study",
+      "content": "papaipak",
+      "width": 173,
+      "height": 46
+    },
+    {
+      "id": "UHkYs",
+      "name": "Footer contact navigation · destination review pending",
+      "width": 152,
+      "height": 48,
+      "problems": "fully clipped"
+    },
+    {
+      "id": "O4Qgpc",
+      "name": "Footer contact headphones",
+      "width": 20,
+      "height": 20,
+      "problems": "fully clipped"
+    },
+    {
+      "id": "thbMS",
+      "name": "Footer contact label",
+      "content": "ติดต่อ",
+      "width": 41,
+      "height": 24
+    },
+    {
+      "id": "bTqPB",
+      "name": "Footer closing message and supporting navigation",
+      "width": 1328,
+      "height": 92,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "aQ8me",
+      "name": "Footer closing message · existing copy",
+      "content": "พื้นที่ความสุขส่วนตัว",
+      "width": 688,
+      "height": 50,
+      "problems": "fully clipped"
+    },
+    {
+      "id": "gZdVo",
+      "name": "Footer supporting content links · two columns",
+      "width": 560,
+      "height": 92,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "tRFQF",
+      "name": "Footer information link column",
+      "width": 264,
+      "height": 92,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "DzfFg",
+      "name": "เกี่ยวกับเรา Footer link target · same-tab content",
+      "width": 264,
+      "height": 44,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "oWAoL",
+      "name": "เกี่ยวกับเรา Footer link label",
+      "content": "เกี่ยวกับเรา",
+      "width": 74,
+      "height": 24
+    },
+    {
+      "id": "LttJB",
+      "name": "วิธีจอง Footer link target · same-tab content",
+      "width": 264,
+      "height": 44,
+      "problems": "fully clipped"
+    },
+    {
+      "id": "fCrjO",
+      "name": "วิธีจอง Footer link label",
+      "content": "วิธีจอง",
+      "width": 46,
+      "height": 24
+    },
+    {
+      "id": "pyUdu",
+      "name": "Footer policies link column",
+      "width": 264,
+      "height": 92,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "OpXyg",
+      "name": "เงื่อนไข Footer link target · same-tab content",
+      "width": 264,
+      "height": 44,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "EYvVL",
+      "name": "เงื่อนไข Footer link label",
+      "content": "เงื่อนไข",
+      "width": 49,
+      "height": 24
+    },
+    {
+      "id": "Mf2A2",
+      "name": "ความเป็นส่วนตัว Footer link target · same-tab content",
+      "width": 264,
+      "height": 44,
+      "problems": "fully clipped"
+    },
+    {
+      "id": "AKxpV",
+      "name": "ความเป็นส่วนตัว Footer link label",
+      "content": "ความเป็นส่วนตัว",
+      "width": 108,
+      "height": 24
+    }
+  ],
+  "wholeCanvas": {
+    "roots": 104,
+    "nodes": 23761
+  }
+}

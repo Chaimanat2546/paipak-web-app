@@ -1,0 +1,19 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "โอเค",
+  "context": "Owner acknowledged the displayed Article-hidden-r2 context after instruction to hide unavailable articles without retry UI",
+  "status": "owner_accepted_hidden_article_context_appearance",
+  "version": "Article-hidden-r2",
+  "native_root": "q1Q2w",
+  "image": "q1Q2w.png",
+  "image_sha256": "b34ed63a3f61862f2718f7f7ab756e7f6ec64d676539816bfc6dce3adad5f477",
+  "scope": "Displayed TikTok-to-Footer composition with article section absent",
+  "logging_implemented": false,
+  "whole_article_version_approved": false,
+  "whole_home_version_approved": false,
+  "foundation_approved": false,
+  "functional_acceptance": false,
+  "frontend_authorized": false
+}

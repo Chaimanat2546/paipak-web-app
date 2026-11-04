@@ -1,0 +1,223 @@
+{
+  "version": "TikTok-states-r2",
+  "task": "DSD-001",
+  "status": "draft_pending_owner_review",
+  "owner_feedback": "ไม่สวยเลยมันดูไม่เข้ากับเว็บ",
+  "revises": "TikTok-states-r1",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "source_home": {
+    "node": "Oftfq",
+    "version": "Home-media-ui-r6 / Home Desktop-r14",
+    "unchanged": true
+  },
+  "design_reference": "Existing direction A, TikTok r5, Home-media-ui-r6 editorial floating white surface and existing water-signature path",
+  "states": [
+    {
+      "key": "loading",
+      "board": "KIDC4",
+      "section": "sQ3Y4",
+      "stage": "D5POe4",
+      "front": "idTcQ",
+      "png": "KIDC4.png"
+    },
+    {
+      "key": "error",
+      "board": "UsmNk",
+      "section": "B5TkkF",
+      "stage": "z7hgb",
+      "front": "rYpzv",
+      "png": "UsmNk.png"
+    },
+    {
+      "key": "ready",
+      "board": "JihO7",
+      "section": "HJpek",
+      "stage": "d9UHHR",
+      "front": "ZCvQz",
+      "png": "JihO7.png"
+    },
+    {
+      "key": "playing",
+      "board": "y8Gp9",
+      "section": "s8YMZ",
+      "stage": "qLRba",
+      "front": "D9ja9",
+      "png": "y8Gp9.png"
+    },
+    {
+      "key": "paused",
+      "board": "ZPna1",
+      "section": "f6mnhz",
+      "stage": "f4FhF",
+      "front": "fLnJ7",
+      "png": "ZPna1.png"
+    },
+    {
+      "key": "buffering",
+      "board": "kXsfW",
+      "section": "rGY9R",
+      "stage": "tB0ay",
+      "front": "FU3PE",
+      "png": "kXsfW.png"
+    },
+    {
+      "key": "ended",
+      "board": "y2IlT",
+      "section": "dilEE",
+      "stage": "WekM8",
+      "front": "WU8oC",
+      "png": "y2IlT.png"
+    },
+    {
+      "key": "middle",
+      "board": "tnlzw",
+      "section": "rwgP5",
+      "stage": "owceX",
+      "front": "SkOZ4",
+      "png": "tnlzw.png"
+    },
+    {
+      "key": "last",
+      "board": "y6Lsb",
+      "section": "wwdFn",
+      "stage": "up3SM",
+      "front": "wX3WB",
+      "png": "y6Lsb.png"
+    },
+    {
+      "key": "unavailable",
+      "board": "Rtmrv",
+      "section": "QpqJE",
+      "stage": "Q3PT7",
+      "front": "Hf1Ow",
+      "png": "Rtmrv.png"
+    },
+    {
+      "key": "section-loading",
+      "board": "yRzQ8",
+      "section": "Tg1HN",
+      "stage": "aqbbS",
+      "front": "dlNO8",
+      "png": "yRzQ8.png"
+    },
+    {
+      "key": "cover-failed",
+      "board": "x1IS3",
+      "section": "y2B6Ms",
+      "stage": "UczDm",
+      "front": "p4tkVa",
+      "png": "x1IS3.png"
+    },
+    {
+      "key": "empty",
+      "board": "Eat45",
+      "png": "Eat45.png",
+      "note": "Actual preceding Luxury and article sections without TikTok; proposed empty behavior"
+    }
+  ],
+  "state_count": 13,
+  "review_boards": [
+    {
+      "node": "KIDC4",
+      "name": "REVIEW · TikTok states-r2 · loading · full Home context",
+      "png": "KIDC4.png"
+    },
+    {
+      "node": "UsmNk",
+      "name": "REVIEW · TikTok states-r2 · error · full Home context",
+      "png": "UsmNk.png"
+    },
+    {
+      "node": "JihO7",
+      "name": "REVIEW · TikTok states-r2 · ready · full section",
+      "png": "JihO7.png"
+    },
+    {
+      "node": "y8Gp9",
+      "name": "REVIEW · TikTok states-r2 · playing · full section",
+      "png": "y8Gp9.png"
+    },
+    {
+      "node": "ZPna1",
+      "name": "REVIEW · TikTok states-r2 · paused · full section",
+      "png": "ZPna1.png"
+    },
+    {
+      "node": "kXsfW",
+      "name": "REVIEW · TikTok states-r2 · buffering · full section",
+      "png": "kXsfW.png"
+    },
+    {
+      "node": "y2IlT",
+      "name": "REVIEW · TikTok states-r2 · ended · full section",
+      "png": "y2IlT.png"
+    },
+    {
+      "node": "tnlzw",
+      "name": "REVIEW · TikTok states-r2 · middle · full section",
+      "png": "tnlzw.png"
+    },
+    {
+      "node": "y6Lsb",
+      "name": "REVIEW · TikTok states-r2 · last · full section",
+      "png": "y6Lsb.png"
+    },
+    {
+      "node": "Rtmrv",
+      "name": "REVIEW · TikTok states-r2 · unavailable · full section",
+      "png": "Rtmrv.png"
+    },
+    {
+      "node": "yRzQ8",
+      "name": "REVIEW · TikTok states-r2 · section-loading · full section",
+      "png": "yRzQ8.png"
+    },
+    {
+      "node": "x1IS3",
+      "name": "REVIEW · TikTok states-r2 · cover-failed · full section",
+      "png": "x1IS3.png"
+    },
+    {
+      "node": "cmquC",
+      "name": "START HERE · TikTok states-r2 · recovery with actual articles",
+      "png": "cmquC.png"
+    },
+    {
+      "node": "Eat45",
+      "name": "REVIEW · TikTok states-r2 · no clips · actual adjacent Home sections",
+      "png": "Eat45.png"
+    },
+    {
+      "node": "vBjZ3",
+      "name": "REVIEW · TikTok states-r2 · controls on actual image surface",
+      "png": "vBjZ3.png"
+    }
+  ],
+  "start_here": {
+    "node": "cmquC",
+    "png": "cmquC.png"
+  },
+  "controls": {
+    "node": "vBjZ3",
+    "png": "vBjZ3.png"
+  },
+  "detail_exports": {
+    "loading": "sQ3Y4.png",
+    "error": "B5TkkF.png"
+  },
+  "variables_unchanged": true,
+  "functional_prototype": false,
+  "provider_controls": "schematic_not_pixel_verified",
+  "behavior_changes_from_r1": [],
+  "shared_tokens_changed": false,
+  "mobile": "paused",
+  "frontend": "not_authorized",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "whole_canvas": {
+    "nodes": 37193,
+    "roots": 134
+  }
+}
+

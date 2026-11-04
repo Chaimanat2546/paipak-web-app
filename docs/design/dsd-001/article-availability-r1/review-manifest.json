@@ -1,0 +1,32 @@
+{
+  "version": "Article-availability-r1",
+  "task": "DSD-001",
+  "status": "owner_accepted_two_story_appearance",
+  "owner_choice": {
+    "quote": "1",
+    "question": "If the featured story has no cover",
+    "decision": "Promote the next ready story; preserve curated order"
+  },
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "board": "tYgDU",
+  "section": "RFule",
+  "role_mapping": {
+    "original_first": "hidden: missing cover",
+    "original_second": "featured",
+    "original_third": "supporting"
+  },
+  "source_home_unchanged": true,
+  "variables_unchanged": true,
+  "content_rules": "../article-content-rules.md",
+  "functional_prototype": false,
+  "frontend": "not_authorized",
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "whole_canvas": {
+    "nodes": 38024,
+    "roots": 156
+  },
+  "owner_appearance_acceptance": "../article-count-r1/owner-two-story-acceptance.json"
+}

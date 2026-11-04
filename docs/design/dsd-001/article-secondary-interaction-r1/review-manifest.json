@@ -1,0 +1,74 @@
+{
+  "version": "Article-secondary-interaction-r1",
+  "task": "DSD-001",
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "status": "supporting_and_index_adaptation_pending_owner_review",
+  "basis": "../article-press-r4/owner-press-acceptance.json",
+  "prototype": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-article-secondary-interaction-r1.html",
+  "prototype_sha256": "2b29fb3773a1758abc4e83b2d73bb0fdeb6bc5950e400d72e3cc906f8c5eda92",
+  "prototype_bytes": 104006,
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_board": "lnXuU",
+  "native_supporting": "z1kw7",
+  "native_index": "P1rDEJ",
+  "image": "lnXuU.png",
+  "image_size_px": [
+    720,
+    440
+  ],
+  "image_sha256": "b0fcd9aaffd2078bc518c0bd45a2ac05236d9e18f8c48e36943eb06eb806e70d",
+  "proposal": {
+    "duration_ms": 420,
+    "press_entry_ms": 140,
+    "travel_px": [
+      3,
+      -4,
+      0
+    ],
+    "supporting_surface": "navy behind text only, 12px outward inset, radius16 without layout reflow",
+    "index_surface": "navy 44px-high, 12px outward horizontal inset, radius12",
+    "color_reveal": "circle from actual pointer point; caption-center for keyboard activation",
+    "navigation": "same-tab after shared activation; reduced/unsupported bypass waiting; preserve modifier/new-tab in future implementation",
+    "real_navigation_implemented": false
+  },
+  "qa": {
+    "source_checks": {
+      "fragment": true,
+      "under_1mb": true,
+      "one_inline_png": true,
+      "no_network_api": true,
+      "shared_420ms": true,
+      "real_coordinates": true,
+      "completion_after_both": true,
+      "entry140": true,
+      "hover336": true,
+      "reduced": true,
+      "no_outline": true,
+      "no_manual_tabindex": true,
+      "two_native_links": true,
+      "duplicate_visual_hidden": true
+    },
+    "script_syntax_node_check": "PASS",
+    "native_png_opened": true,
+    "bounds": "Diagnostics retained after explicit clip:false; exported visual complete; not certified clean",
+    "browser_interaction_tested": false,
+    "font_loading_verified": false,
+    "full_accessibility_certified": false
+  },
+  "accepted_sources_unchanged": [
+    "article-press-r4",
+    "article-supporting-motion-r8"
+  ],
+  "main_home_unchanged": true,
+  "variables_unchanged": true,
+  "owner_approved": false,
+  "whole_article_approved": false,
+  "whole_home_approved": false,
+  "foundation_approved": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ]
+}

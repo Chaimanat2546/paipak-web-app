@@ -1,0 +1,64 @@
+{
+  "version": "Home-media-ui-r5",
+  "date": "2026-11-04",
+  "status": "static_visual_draft_verified; owner_review_pending",
+  "png_dimensions": [
+    {
+      "id": "MIdin",
+      "size": [
+        1440,
+        816
+      ]
+    },
+    {
+      "id": "YGt3D",
+      "size": [
+        1440,
+        1488
+      ]
+    },
+    {
+      "id": "eMYWM",
+      "size": [
+        1440,
+        6066
+      ]
+    }
+  ],
+  "links_checked": 29,
+  "missing_except_pending_report": [],
+  "scope_checks": {
+    "articles_unchanged": true,
+    "other_home_sections_unchanged": true,
+    "variables_unchanged": true,
+    "navy_background_retained": true,
+    "placeholder_removed": true,
+    "complete_path_geometry": true
+  },
+  "application_status": "",
+  "repository_validators": [
+    {
+      "command": "python scripts/validate-handoff.py",
+      "exit_code": 0,
+      "output": "PASS structure: 110 decision records; 14 design tasks; no missing refs/dependency cycles\r\nNOTE: Does not verify source provenance, approved visual baselines, test runs, or actual task readiness."
+    },
+    {
+      "command": "python scripts/validate-registry.py",
+      "exit_code": 0,
+      "output": "Registry records: 110; 11-section topic coverage: PASS"
+    }
+  ],
+  "visual_check": {
+    "opened": [
+      "Full-size MIdin.png",
+      "Native YGt3D preview"
+    ],
+    "motifs": "Actual Hero path PGRbi and pool transition SoKpn copied into the section",
+    "result": "No visible headline/signature/control collision; curved boundary joins white article area; fixed Navbar/body content preserved by source comparison"
+  },
+  "limits": [
+    "Static visual only; no video playback, animation or actual navigation",
+    "No keyboard, screen reader, other-width or Mobile acceptance",
+    "Pink/White CTA remains OPEN-001; foundation/UI version still pending owner review"
+  ]
+}

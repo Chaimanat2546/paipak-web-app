@@ -1,0 +1,90 @@
+{
+  "version": "Article-states-r1",
+  "task": "DSD-001",
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "status": "loading_appearance_accepted; retry_panel_superseded_by_silent_hide; remaining_article_review_pending",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "source_section": "W0z7U",
+  "states": [
+    {
+      "key": "default",
+      "native_root": "KCbCH",
+      "image": "KCbCH.png",
+      "size_px": [
+        1440,
+        720
+      ],
+      "sha256": "89ad81fa72fd26ee9dcc03e694609e3533e3e94a758127aa395bafa98d20440d",
+      "appearance_status": "pending_owner_review"
+    },
+    {
+      "key": "no_excerpt",
+      "native_root": "l5kvNr",
+      "image": "l5kvNr.png",
+      "size_px": [
+        1440,
+        684
+      ],
+      "sha256": "1693382e0211bcec5730dc9ddbdea3a06ccfda61e4ef9a6423d3203ff9051547",
+      "appearance_status": "superseded_by_owner_revision; historical_PNG_only",
+      "current_native_version": "../article-body-fallback-r2/README.md"
+    },
+    {
+      "key": "loading",
+      "native_root": "BvlEu",
+      "image": "BvlEu.png",
+      "size_px": [
+        1440,
+        720
+      ],
+      "sha256": "29679ed5c2122d0170f6fd95b562e893ea5768e25d4c449e17a2d0187ecf9765",
+      "appearance_status": "owner_accepted_static_loading_appearance",
+      "acceptance": "owner-loading-acceptance.json"
+    },
+    {
+      "key": "error",
+      "native_root": "f6x4t",
+      "image": "f6x4t.png",
+      "size_px": [
+        1440,
+        381
+      ],
+      "sha256": "4837dbbe2a0846570bad87463b46b6afb470806ef8a2727a8fe1b4fdc94dd92b",
+      "appearance_status": "historical_rejected_treatment; native_root_disabled",
+      "replacement": "../article-hidden-r2/README.md"
+    }
+  ],
+  "reused_count_states": {
+    "one": "../article-count-r1/d9ah7n.png",
+    "two": "../article-availability-r1/RFule.png",
+    "zero": "Hide per Q2; adjacent-section context pending integrated Home review"
+  },
+  "rules": {
+    "cover_ratio": "16:9",
+    "featured_title_max_lines": 2,
+    "supporting_title_max_lines": 1,
+    "excerpt_max_lines": 2,
+    "excerpt_required": false,
+    "title_rendering": "Static one-line ellipsis fixtures; full titles retained in metadata"
+  },
+  "qa": "Four native PNGs opened at full 1440px width; no visible overlap or missing important content",
+  "structural_qa": "Bounds diagnostics stored separately; some reports differ from exported image; no clean all-bounds claim",
+  "motion": "Static skeleton reference only; article hover/focus/motion reconciliation remains pending",
+  "real_text_cover_safe_area": "Pending study and review; do not claim all real covers tested",
+  "source_home_unchanged": true,
+  "footer_unchanged": true,
+  "tiktok_unchanged": true,
+  "variables_unchanged": true,
+  "functional_prototype": false,
+  "whole_article_approved": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "current_excerpt_fallback": "Use article body opening when excerpt missing; see ../article-body-fallback-r2/owner-instruction.json",
+  "loading_review_status": "owner_accepted_static_appearance",
+  "error_review_status": "superseded_by_owner_hide_policy",
+  "current_failure_policy": "../article-hidden-r2/owner-decision.json"
+}

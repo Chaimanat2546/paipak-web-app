@@ -1,0 +1,18 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "3 แต่เป็นแบบค่อยค่อยเปลี่ยนสีนะไม่ใช่แบบพึบพับ",
+  "selected_option": 3,
+  "selected_visual": "พื้นข้อมูลเข้ม",
+  "source_version": "Article-focus-r2",
+  "native_root": "qV3Kf",
+  "status": "owner_selected_dark_surface_with_gradual_color_change",
+  "timing_ms_proposed": 500,
+  "numeric_timing_approved": false,
+  "supporting_and_index_adaptation_reviewed": false,
+  "whole_article_approved": false,
+  "whole_home_approved": false,
+  "foundation_approved": false,
+  "frontend_authorized": false
+}

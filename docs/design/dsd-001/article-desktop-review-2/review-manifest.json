@@ -1,0 +1,118 @@
+{
+  "version": "Article Desktop review-2",
+  "task": "DSD-001",
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "gate": "Bounded article visual and agreed activation specification review before Home integration",
+  "status": "owner_accepted_visual_and_agreed_activation_for_home_integration",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "L4FBX",
+  "image": "L4FBX.png",
+  "image_size_px": [
+    1440,
+    746
+  ],
+  "image_sha256": "1980a54da28cb6d71618ac30674c426d6aeb746ce1623346b30840af5944ea9c",
+  "accepted_individual_inputs": [
+    {
+      "path": "../article-body-fallback-r2/owner-ready-state-acceptance.json",
+      "sha256": "aed74092e00fa334b5e76beacac0f8b23037630552a690fbe7b38888333c0c9e"
+    },
+    {
+      "path": "../article-motion-r7/owner-featured-motion-acceptance.json",
+      "sha256": "d2116e1f13402d267e48ebe63392f198e6dbaa162110fa88ec3daa4d265cf716"
+    },
+    {
+      "path": "../article-supporting-motion-r8/owner-supporting-motion-acceptance.json",
+      "sha256": "548c61f46a00cb22ef117c80477ae577182c699488190bd842a795b0975133a1"
+    },
+    {
+      "path": "../article-press-r4/owner-press-acceptance.json",
+      "sha256": "155e10c9bcb72556d7b7dc0cf1d8777b513a346850d2264b43aa18abb4910764"
+    },
+    {
+      "path": "../article-secondary-interaction-r2/owner-secondary-acceptance.json",
+      "sha256": "9dff2f36b1765026132231d76da31f954dec6b185f1f5ddfc0bc1c25d0a17675"
+    },
+    {
+      "path": "../article-focus-r3/owner-focus-choice.json",
+      "sha256": "0993c8add38246e37bc6be5cf96a73dc3f1d5e83ca815474bbd12c949b699cf9"
+    },
+    {
+      "path": "../article-count-r1/owner-one-story-acceptance.json",
+      "sha256": "1ca3b0ba0882d142a902d3c6d4748be7fe1a08de7d94a92d7a82e1929d079f84"
+    },
+    {
+      "path": "../article-count-r1/owner-two-story-acceptance.json",
+      "sha256": "3a677dd858bd89d2f0f93ad0f8fe610573cd4499e1c5069ee60a0ee91877d149"
+    },
+    {
+      "path": "../article-count-r1/owner-zero-story-decision.json",
+      "sha256": "8ff3918b2fbd711d165d23a927692d533a3bec0128898a29b65e10d65d9cec05"
+    },
+    {
+      "path": "../article-states-r1/owner-loading-acceptance.json",
+      "sha256": "85a9ea9e663bdbf2fb06bf12aa3e5bd11d23aab2642160a480e9709b8537810d"
+    },
+    {
+      "path": "../article-hidden-r2/owner-context-acceptance.json",
+      "sha256": "bf81c05287e7a06f88ef45f4ac5acde3d46b3285d556afefbe347a2388ff28a4"
+    },
+    {
+      "path": "../article-safe-area-r2/owner-cover-source-clarification.json",
+      "sha256": "3336464acf520a80e58685aaf273564e79bcd8666e5e79394a0b89caf0c6c13b"
+    },
+    {
+      "path": "../article-content-rules.json",
+      "sha256": "81d09b4a6e74a22d0ea8cec1199458b08b6c2ce10daf4cdac9803b9980631e4c"
+    },
+    {
+      "path": "../article-secondary-interaction-r3/owner-secondary-acceptance.json",
+      "sha256": "511221fbdc3c1cb02088e92a2cd181fb1b20277fd907a033d5482fd9629d779d"
+    }
+  ],
+  "current_interactions": {
+    "featured_hover": "Article-motion-r7",
+    "featured_activation": "Article-press-r4 point-origin reveal and420ms bounce",
+    "supporting_hover": "Article-supporting-motion-r8",
+    "supporting_activation": "accepted secondary-r3 bounce only420ms",
+    "all_articles_activation": "accepted secondary-r3 plain immediate link, no animation/delay; effects deferred",
+    "keyboard_custom_secondary_index": "unagreed dark extension withdrawn; no replacement custom cue selected; excluded from this visual acceptance scope; actual application keyboard/a11y verification unresolved"
+  },
+  "state_inventory": {
+    "ready": "../article-body-fallback-r2/README.md",
+    "one_two_zero": "../article-count-r1/README.md",
+    "loading": "../article-states-r1/owner-loading-acceptance.json",
+    "list_unavailable_hidden": "../article-hidden-r2/README.md",
+    "incomplete_fields_promotion_and_topup": "../article-content-rules.json",
+    "withdrawn_cover_composition_sample": "../article-safe-area-r2/owner-cover-source-clarification.json"
+  },
+  "excluded_history": [
+    "secondary/index dark focus y6U0w",
+    "constructed cover W6Mdof",
+    "all-articles bounce/color proposals superseded by plain-link decision"
+  ],
+  "qa": {
+    "native_png_opened": true,
+    "dimensions_verified": true,
+    "default_png_hash_equals_accepted_ready_source": true,
+    "accepted_prototypes_hashes_unchanged": true,
+    "browser_runtime_tested": false,
+    "font_loading_verified": false,
+    "keyboard_screen_reader_accessibility_certified": false,
+    "real_navigation_verified": false
+  },
+  "main_home_unchanged": true,
+  "variables_unchanged": true,
+  "article_visual_version_approved": true,
+  "whole_home_version_approved": false,
+  "foundation_approved": false,
+  "task_complete": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "next_if_visual_accepted": "Consolidated Home Desktop appearance review R2, with unresolved accessibility items retained; then foundation R3",
+  "owner_acceptance": "owner-article-acceptance.json"
+}

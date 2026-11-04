@@ -1,0 +1,52 @@
+[
+  {
+    "id": "JhIkG",
+    "name": "Footer direct contact links · destinations pending",
+    "problem": "partially clipped"
+  },
+  {
+    "id": "BLOdW",
+    "name": "LINE OA direct link · no intermediate popup",
+    "problem": "partially clipped"
+  },
+  {
+    "id": "QObIo",
+    "name": "Visible LINE contact text",
+    "problem": "fully clipped"
+  },
+  {
+    "id": "uTkVA",
+    "name": "LINE OA channel label",
+    "problem": "fully clipped"
+  },
+  {
+    "id": "tHKAq",
+    "name": "LINE direct action label · destination pending",
+    "problem": "fully clipped"
+  },
+  {
+    "id": "v2ZSF",
+    "name": "Phone direct link · number pending",
+    "problem": "partially clipped"
+  },
+  {
+    "id": "d05FrX",
+    "name": "Phone channel icon",
+    "problem": "fully clipped"
+  },
+  {
+    "id": "utBql",
+    "name": "Visible phone contact text",
+    "problem": "fully clipped"
+  },
+  {
+    "id": "SJh7j",
+    "name": "Phone channel label",
+    "problem": "fully clipped"
+  },
+  {
+    "id": "o4sYfG",
+    "name": "Phone number placeholder · not a verified number",
+    "problem": "fully clipped"
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "version": "Home-media-ui-r3 / Home Desktop-r11 draft",
+  "task": "DSD-001",
+  "created_on": "2026-11-04",
+  "owner_instruction": "ประมาณนี้",
+  "owner_reference": "reference-owner.png",
+  "status": "draft_pending_owner_review",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "frames": [
+    {
+      "id": "eMYWM",
+      "name": "Home Desktop-r11",
+      "png": "eMYWM.png",
+      "width": 1440,
+      "height": 6010
+    },
+    {
+      "id": "YGt3D",
+      "name": "Split TikTok with unchanged articles",
+      "png": "YGt3D.png",
+      "width": 1440,
+      "height": 1432
+    },
+    {
+      "id": "MIdin",
+      "name": "Reference-adapted split TikTok",
+      "png": "MIdin.png",
+      "width": 1440,
+      "height": 760
+    }
+  ],
+  "article_node": "DsgG9",
+  "previous": {
+    "version": "Home-media-ui-r2",
+    "node": "V9yDq1",
+    "artifact": "../home-media-ui-r2/README.md",
+    "preserved": true
+  },
+  "design": {
+    "composition": "Left narrative and browse action; one front clip on right, two receding next-clip previews behind it to the right; no blue stage container",
+    "content_width": 1328,
+    "left_width": 448,
+    "column_gap": 48,
+    "right_stage": {
+      "width": 832,
+      "height": 640
+    },
+    "selected_cover": {
+      "width": 296,
+      "height": 526,
+      "outline": "#FD6E88",
+      "play_target": 56
+    },
+    "navigation": {
+      "target": 48,
+      "pose": "first clip; previous disabled, next enabled",
+      "indicators": "passive first-of-five indicator, Navy active pill and gray dots"
+    },
+    "copy": "Curated TikTok label replaces the reference's unverified customer-review claim; no price, amenity or booking claims imported",
+    "cta": {
+      "label": "ดูที่พักทั้งหมด",
+      "fill": "#FD6E88",
+      "text": "#FFFFFF",
+      "target": "Proposed existing all-property Results entry only; static, not a booking action",
+      "contrast": "2.705343:1; OPEN-001 remains unresolved"
+    },
+    "scope": "TikTok visual revision only; article and other Home subtrees match prior source",
+    "not_shared_tokens": true
+  },
+  "shader": {
+    "pencil_relative": "images/dsd-001-tiktok-depth-r2.glsl",
+    "source_artifact": "../home-media-ui-r2/depth-projection.glsl",
+    "active_planes": 2,
+    "application_integration": false
+  },
+  "checks": {
+    "previous_r2_unchanged": true,
+    "other_home_sections_match": true,
+    "articles_match": true,
+    "variables_unchanged": true,
+    "placeholder_removed": true,
+    "new_root_first": true,
+    "active_projection_planes": 2,
+    "active_play_icons": 1
+  },
+  "wholeCanvas": {
+    "roots": 111,
+    "nodes": 35867
+  },
+  "assets": {
+    "images": "Reused generated Home study images; not real TikTok video covers",
+    "provided_reference": "User attachment archived unchanged, not copied into the UI as a full-screen bitmap",
+    "functional_prototype": false
+  },
+  "review_limits": [
+    "Static first-position pose only; no playback or animated transition",
+    "No actual keyboard, native-player, loading/error/selection/end-state testing",
+    "Creator credit and exact native player UI still need real selected post references",
+    "Mobile paused; foundation and final UI approval remain pending; OPEN-001 stays open"
+  ]
+}

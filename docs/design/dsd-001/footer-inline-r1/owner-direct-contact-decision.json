@@ -1,0 +1,16 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "question_id": "home-desktop-closeout-plan-1/Q8",
+  "owner_quote": "อยากให้เขียนแยกเอาไว้เลยไม่ต้องทำเป็นปุ่มติดต่ออย่างเดียวจะได้ไม่ต้องกดเข้ามาอีก",
+  "status": "owner_confirmed_requirement",
+  "decision": "Replace the single Footer Contact button with separately visible LINE and phone contact information and direct channel actions; no intermediate contact panel",
+  "header_contact": "Unchanged",
+  "real_line_destination": "Pending confirmation",
+  "real_phone_number": "Pending confirmation",
+  "visual_proposal": "Footer-inline-r1 / kengy",
+  "visual_appearance_approved": false,
+  "whole_home_version_approved": false,
+  "frontend_authorized": false
+}

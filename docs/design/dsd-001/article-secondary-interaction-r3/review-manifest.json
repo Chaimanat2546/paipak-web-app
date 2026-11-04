@@ -1,0 +1,51 @@
+{
+  "version": "Article-secondary-interaction-r3",
+  "task": "DSD-001",
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_accepted_displayed_secondary_r3; index_animation_deferred",
+  "owner_decision": "owner-index-decision.json",
+  "prototype": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-article-secondary-interaction-r3.html",
+  "prototype_sha256": "a23d7d3a43fe67507994e4edb7bb4cd8552093f0d6a4989437bac327cd872247",
+  "prototype_bytes": 101145,
+  "native_review": "lnXuU",
+  "native_index": "P1rDEJ",
+  "native_default_review": "L4FBX",
+  "native_default_index": "uPq42",
+  "index": {
+    "activation": "plain link",
+    "animation": false,
+    "artificial_delay_ms": 0,
+    "real_navigation_implemented": false,
+    "animation_design": "deferred by owner"
+  },
+  "supporting": "accepted bounce-only420ms",
+  "featured": "accepted press-r4 unchanged",
+  "qa": {
+    "source_checks": {
+      "under_1mb": true,
+      "index_not_in_animation_group": true,
+      "no_index_animation": true,
+      "index_handler_no_wait": true,
+      "no_dark_layers": true,
+      "supporting_bounce_retained": true,
+      "index_css_no_transition": true,
+      "two_links": true,
+      "no_network_api": true
+    },
+    "script_syntax_node_check": "PASS",
+    "browser_interaction_tested": false,
+    "real_navigation_tested": false
+  },
+  "old_accepted_source_hashes_preserved": true,
+  "main_home_unchanged": true,
+  "variables_unchanged": true,
+  "whole_article_approved": false,
+  "whole_home_approved": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "owner_acceptance": "owner-secondary-acceptance.json"
+}

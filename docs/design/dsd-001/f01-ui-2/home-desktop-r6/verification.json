@@ -1,0 +1,15 @@
+{
+  "header_hero_categories_footer_unchanged": true,
+  "eight_cards_retained": true,
+  "four_full_cards": true,
+  "uniform_card_dimensions": true,
+  "images_have_same_height": true,
+  "price_is_not_a_filled_button": true,
+  "count_absent": true,
+  "view_all_next_to_title": true,
+  "font_mitr": true,
+  "main_at_origin": true,
+  "status": "applied_home_desktop_pending_owner_review",
+  "functional_prototype": false,
+  "OPEN_001": "open"
+}

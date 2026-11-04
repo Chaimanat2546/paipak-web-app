@@ -1,0 +1,720 @@
+{
+  "root": "F9LoP",
+  "snapshot": {
+    "type": "frame",
+    "id": "F9LoP",
+    "x": 9334,
+    "y": 24051,
+    "name": "REVIEW · OPEN-001 · brand-palette CTA contrast · r1",
+    "width": 1038,
+    "fill": "#FFFFFF",
+    "layout": "vertical",
+    "gap": 20,
+    "padding": 24,
+    "children": [
+      {
+        "type": "text",
+        "id": "C4Buqv",
+        "name": "CTA contrast review heading",
+        "fill": "#072D59",
+        "content": "เปรียบเทียบความชัดของข้อความบนปุ่ม",
+        "lineHeight": 1.5,
+        "fontFamily": "$font.primary",
+        "fontSize": 24
+      },
+      {
+        "type": "text",
+        "id": "F4rQi",
+        "name": "CTA review scope",
+        "fill": "#072D59",
+        "content": "ใช้สีแบรนด์เดิม ขนาดและฟอนต์ปุ่มเท่ากันทุกแบบ",
+        "lineHeight": 1.5,
+        "fontFamily": "$font.primary",
+        "fontSize": 14
+      },
+      {
+        "type": "frame",
+        "id": "wVir8",
+        "name": "Three CTA contrast variants",
+        "width": "fill_container",
+        "gap": 24,
+        "children": [
+          {
+            "type": "frame",
+            "id": "OaZf5",
+            "name": "pinkNavy CTA comparison column",
+            "width": 314,
+            "layout": "vertical",
+            "gap": 20,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "id": "cxPMT",
+                "name": "pinkNavy variant label",
+                "fill": "#072D59",
+                "content": "ชมพู / ข้อความนาวี",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 18
+              },
+              {
+                "type": "frame",
+                "id": "ZcveB",
+                "name": "pinkNavy Search CTA sample",
+                "width": 164,
+                "height": 60,
+                "fill": "#FD6E88",
+                "cornerRadius": 18,
+                "gap": 10,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "tjr16",
+                    "name": "Search icon white",
+                    "width": 26,
+                    "height": 26,
+                    "icon": "search",
+                    "library": "lucide",
+                    "fill": "#072D59"
+                  },
+                  {
+                    "type": "text",
+                    "id": "uL3Qh",
+                    "name": "ค้นหา · white label",
+                    "fill": "#072D59",
+                    "content": "ค้นหา",
+                    "fontFamily": "$font.primary",
+                    "fontSize": 22,
+                    "fontWeight": "500"
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "F7swP",
+                "name": "pinkNavy Sign-in CTA sample",
+                "width": 148,
+                "height": 48,
+                "fill": "#FD6E88",
+                "cornerRadius": 16,
+                "gap": 8,
+                "padding": [
+                  0,
+                  20
+                ],
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "x0f8Zo",
+                    "name": "Sign-in action icon",
+                    "width": 20,
+                    "height": 20,
+                    "icon": "log-in",
+                    "library": "lucide",
+                    "fill": "#072D59"
+                  },
+                  {
+                    "type": "text",
+                    "id": "YY9Ti",
+                    "name": "Guest sign-in label",
+                    "fill": "#072D59",
+                    "content": "เข้าสู่ระบบ",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 16,
+                    "fontWeight": "500"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "YYORe",
+                "name": "pinkNavy nominal contrast ratio",
+                "fill": "#072D59",
+                "content": "5.08 : 1",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 24
+              },
+              {
+                "type": "text",
+                "id": "iPKhr",
+                "name": "pinkNavy contrast finding",
+                "fill": "#072D59",
+                "content": "ผ่านเกณฑ์สีข้อความทั่วไป",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 14
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "lnIB4",
+            "name": "navyWhite CTA comparison column",
+            "width": 314,
+            "layout": "vertical",
+            "gap": 20,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "id": "fqFK8",
+                "name": "navyWhite variant label",
+                "fill": "#072D59",
+                "content": "นาวี / ข้อความขาว",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 18
+              },
+              {
+                "type": "frame",
+                "id": "U17xj",
+                "name": "navyWhite Search CTA sample",
+                "width": 164,
+                "height": 60,
+                "fill": "#072D59",
+                "cornerRadius": 18,
+                "gap": 10,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "rgsXE",
+                    "name": "Search icon white",
+                    "width": 26,
+                    "height": 26,
+                    "icon": "search",
+                    "library": "lucide",
+                    "fill": "#FFFFFF"
+                  },
+                  {
+                    "type": "text",
+                    "id": "p4Dx1",
+                    "name": "ค้นหา · white label",
+                    "fill": "#FFFFFF",
+                    "content": "ค้นหา",
+                    "fontFamily": "$font.primary",
+                    "fontSize": 22,
+                    "fontWeight": "500"
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "AbDNo",
+                "name": "navyWhite Sign-in CTA sample",
+                "width": 148,
+                "height": 48,
+                "fill": "#072D59",
+                "cornerRadius": 16,
+                "gap": 8,
+                "padding": [
+                  0,
+                  20
+                ],
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "VcxVZ",
+                    "name": "Sign-in action icon",
+                    "width": 20,
+                    "height": 20,
+                    "icon": "log-in",
+                    "library": "lucide",
+                    "fill": "#FFFFFF"
+                  },
+                  {
+                    "type": "text",
+                    "id": "NIUmT",
+                    "name": "Guest sign-in label",
+                    "fill": "#FFFFFF",
+                    "content": "เข้าสู่ระบบ",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 16,
+                    "fontWeight": "500"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "KbZeB",
+                "name": "navyWhite nominal contrast ratio",
+                "fill": "#072D59",
+                "content": "13.74 : 1",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 24
+              },
+              {
+                "type": "text",
+                "id": "eRoz9",
+                "name": "navyWhite contrast finding",
+                "fill": "#072D59",
+                "content": "ผ่านเกณฑ์สีข้อความทั่วไป",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 14
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "TVtpK",
+            "name": "original CTA comparison column",
+            "width": 314,
+            "layout": "vertical",
+            "gap": 20,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "id": "pqnHs",
+                "name": "original variant label",
+                "fill": "#072D59",
+                "content": "แบบเดิม ชมพู / ขาว",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 18
+              },
+              {
+                "type": "frame",
+                "id": "l9Ol2",
+                "name": "original Search CTA sample",
+                "width": 164,
+                "height": 60,
+                "fill": "#FD6E88",
+                "cornerRadius": 18,
+                "gap": 10,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "s1tA8D",
+                    "name": "Search icon white",
+                    "width": 26,
+                    "height": 26,
+                    "icon": "search",
+                    "library": "lucide",
+                    "fill": "#FFFFFF"
+                  },
+                  {
+                    "type": "text",
+                    "id": "JzrYd",
+                    "name": "ค้นหา · white label",
+                    "fill": "#FFFFFF",
+                    "content": "ค้นหา",
+                    "fontFamily": "$font.primary",
+                    "fontSize": 22,
+                    "fontWeight": "500"
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "SaAfH",
+                "name": "original Sign-in CTA sample",
+                "width": 148,
+                "height": 48,
+                "fill": "#FD6E88",
+                "cornerRadius": 16,
+                "gap": 8,
+                "padding": [
+                  0,
+                  20
+                ],
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "Ldxhg",
+                    "name": "Sign-in action icon",
+                    "width": 20,
+                    "height": 20,
+                    "icon": "log-in",
+                    "library": "lucide",
+                    "fill": "#FFFFFF"
+                  },
+                  {
+                    "type": "text",
+                    "id": "UACkD",
+                    "name": "Guest sign-in label",
+                    "fill": "#FFFFFF",
+                    "content": "เข้าสู่ระบบ",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 16,
+                    "fontWeight": "500"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "r1HE5x",
+                "name": "original nominal contrast ratio",
+                "fill": "#072D59",
+                "content": "2.71 : 1",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 24
+              },
+              {
+                "type": "text",
+                "id": "l4jog",
+                "name": "original contrast finding",
+                "fill": "#072D59",
+                "content": "ยังไม่ผ่านเกณฑ์สีข้อความทั่วไป",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 14
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "QAFTE",
+        "name": "Contrast reference threshold",
+        "fill": "#072D59",
+        "content": "WCAG 2.2 SC 1.4.3: ข้อความทั่วไปอย่างน้อย 4.5 : 1",
+        "lineHeight": 1.5,
+        "fontFamily": "$font.primary",
+        "fontSize": 14
+      }
+    ]
+  },
+  "readback": [
+    {
+      "id": "F9LoP",
+      "name": "REVIEW · OPEN-001 · brand-palette CTA contrast · r1",
+      "type": "frame",
+      "fill": "#FFFFFF",
+      "width": 1038,
+      "height": 458
+    },
+    {
+      "id": "C4Buqv",
+      "name": "CTA contrast review heading",
+      "type": "text",
+      "fill": "#072D59",
+      "fontSize": 24,
+      "width": 382,
+      "height": 36
+    },
+    {
+      "id": "F4rQi",
+      "name": "CTA review scope",
+      "type": "text",
+      "fill": "#072D59",
+      "fontSize": 14,
+      "width": 277,
+      "height": 21
+    },
+    {
+      "id": "wVir8",
+      "name": "Three CTA contrast variants",
+      "type": "frame",
+      "width": 990,
+      "height": 272
+    },
+    {
+      "id": "OaZf5",
+      "name": "pinkNavy CTA comparison column",
+      "type": "frame",
+      "width": 314,
+      "height": 272,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "cxPMT",
+      "name": "pinkNavy variant label",
+      "type": "text",
+      "fill": "#072D59",
+      "fontSize": 18,
+      "width": 146,
+      "height": 27
+    },
+    {
+      "id": "ZcveB",
+      "name": "pinkNavy Search CTA sample",
+      "type": "frame",
+      "fill": "#FD6E88",
+      "width": 164,
+      "height": 60,
+      "problems": "fully clipped"
+    },
+    {
+      "id": "tjr16",
+      "name": "Search icon white",
+      "type": "icon",
+      "fill": "#072D59",
+      "width": 26,
+      "height": 26
+    },
+    {
+      "id": "uL3Qh",
+      "name": "ค้นหา · white label",
+      "type": "text",
+      "fill": "#072D59",
+      "fontSize": 22,
+      "width": 51,
+      "height": 35
+    },
+    {
+      "id": "F7swP",
+      "name": "pinkNavy Sign-in CTA sample",
+      "type": "frame",
+      "fill": "#FD6E88",
+      "width": 148,
+      "height": 48,
+      "problems": "fully clipped"
+    },
+    {
+      "id": "x0f8Zo",
+      "name": "Sign-in action icon",
+      "type": "icon",
+      "fill": "#072D59",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "YY9Ti",
+      "name": "Guest sign-in label",
+      "type": "text",
+      "fill": "#072D59",
+      "fontSize": 16,
+      "width": 66,
+      "height": 24
+    },
+    {
+      "id": "YYORe",
+      "name": "pinkNavy nominal contrast ratio",
+      "type": "text",
+      "fill": "#072D59",
+      "fontSize": 24,
+      "width": 88,
+      "height": 36,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "iPKhr",
+      "name": "pinkNavy contrast finding",
+      "type": "text",
+      "fill": "#072D59",
+      "fontSize": 14,
+      "width": 144,
+      "height": 21,
+      "problems": "fully clipped"
+    },
+    {
+      "id": "lnIB4",
+      "name": "navyWhite CTA comparison column",
+      "type": "frame",
+      "width": 314,
+      "height": 272,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "fqFK8",
+      "name": "navyWhite variant label",
+      "type": "text",
+      "fill": "#072D59",
+      "fontSize": 18,
+      "width": 140,
+      "height": 27
+    },
+    {
+      "id": "U17xj",
+      "name": "navyWhite Search CTA sample",
+      "type": "frame",
+      "fill": "#072D59",
+      "width": 164,
+      "height": 60,
+      "problems": "fully clipped"
+    },
+    {
+      "id": "rgsXE",
+      "name": "Search icon white",
+      "type": "icon",
+      "fill": "#FFFFFF",
+      "width": 26,
+      "height": 26
+    },
+    {
+      "id": "p4Dx1",
+      "name": "ค้นหา · white label",
+      "type": "text",
+      "fill": "#FFFFFF",
+      "fontSize": 22,
+      "width": 51,
+      "height": 35
+    },
+    {
+      "id": "AbDNo",
+      "name": "navyWhite Sign-in CTA sample",
+      "type": "frame",
+      "fill": "#072D59",
+      "width": 148,
+      "height": 48,
+      "problems": "fully clipped"
+    },
+    {
+      "id": "VcxVZ",
+      "name": "Sign-in action icon",
+      "type": "icon",
+      "fill": "#FFFFFF",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "NIUmT",
+      "name": "Guest sign-in label",
+      "type": "text",
+      "fill": "#FFFFFF",
+      "fontSize": 16,
+      "width": 66,
+      "height": 24
+    },
+    {
+      "id": "KbZeB",
+      "name": "navyWhite nominal contrast ratio",
+      "type": "text",
+      "fill": "#072D59",
+      "fontSize": 24,
+      "width": 94,
+      "height": 36,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "eRoz9",
+      "name": "navyWhite contrast finding",
+      "type": "text",
+      "fill": "#072D59",
+      "fontSize": 14,
+      "width": 144,
+      "height": 21,
+      "problems": "fully clipped"
+    },
+    {
+      "id": "TVtpK",
+      "name": "original CTA comparison column",
+      "type": "frame",
+      "width": 314,
+      "height": 272,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "pqnHs",
+      "name": "original variant label",
+      "type": "text",
+      "fill": "#072D59",
+      "fontSize": 18,
+      "width": 153,
+      "height": 27
+    },
+    {
+      "id": "l9Ol2",
+      "name": "original Search CTA sample",
+      "type": "frame",
+      "fill": "#FD6E88",
+      "width": 164,
+      "height": 60,
+      "problems": "fully clipped"
+    },
+    {
+      "id": "s1tA8D",
+      "name": "Search icon white",
+      "type": "icon",
+      "fill": "#FFFFFF",
+      "width": 26,
+      "height": 26
+    },
+    {
+      "id": "JzrYd",
+      "name": "ค้นหา · white label",
+      "type": "text",
+      "fill": "#FFFFFF",
+      "fontSize": 22,
+      "width": 51,
+      "height": 35
+    },
+    {
+      "id": "SaAfH",
+      "name": "original Sign-in CTA sample",
+      "type": "frame",
+      "fill": "#FD6E88",
+      "width": 148,
+      "height": 48,
+      "problems": "fully clipped"
+    },
+    {
+      "id": "Ldxhg",
+      "name": "Sign-in action icon",
+      "type": "icon",
+      "fill": "#FFFFFF",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "UACkD",
+      "name": "Guest sign-in label",
+      "type": "text",
+      "fill": "#FFFFFF",
+      "fontSize": 16,
+      "width": 66,
+      "height": 24
+    },
+    {
+      "id": "r1HE5x",
+      "name": "original nominal contrast ratio",
+      "type": "text",
+      "fill": "#072D59",
+      "fontSize": 24,
+      "width": 79,
+      "height": 36,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "l4jog",
+      "name": "original contrast finding",
+      "type": "text",
+      "fill": "#072D59",
+      "fontSize": 14,
+      "width": 175,
+      "height": 21,
+      "problems": "fully clipped"
+    },
+    {
+      "id": "QAFTE",
+      "name": "Contrast reference threshold",
+      "type": "text",
+      "fill": "#072D59",
+      "fontSize": 14,
+      "width": 308,
+      "height": 21,
+      "problems": "fully clipped"
+    }
+  ],
+  "wholeCanvas": {
+    "roots": 108,
+    "nodes": 29712
+  },
+  "ratios": {
+    "pinkWhite": 2.705343217728925,
+    "pinkNavy": 5.077980501367648,
+    "navyWhite": 13.737680109134693,
+    "normalTextMinimum": 4.5
+  }
+}

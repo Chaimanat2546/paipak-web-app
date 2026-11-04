@@ -1,0 +1,17 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "2",
+  "question_context": "Article-press-r1: use this motion / bounce more gently / bounce more strongly",
+  "selected_option": "เด้งเบาลง",
+  "status": "owner_requested_lower_amplitude; revised_preview_pending",
+  "change": "Halve press and rebound travel, preserving timing and other behavior",
+  "previous_travel_px": [3, -4, 0],
+  "new_travel_px": [1.5, -2, 0],
+  "release_duration_ms": 240,
+  "native_board": "m0I12",
+  "press_approved": false,
+  "focus_choice_approved": false,
+  "frontend_authorized": false
+}

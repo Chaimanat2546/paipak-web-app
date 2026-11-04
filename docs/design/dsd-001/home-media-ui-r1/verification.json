@@ -1,0 +1,82 @@
+{
+  "version": "Home-media-ui-r1",
+  "status": "static_draft_checks_passed; owner_review_pending",
+  "verified_on": "2026-11-04",
+  "png_dimensions": [
+    {
+      "id": "fSC7S",
+      "size": [
+        1440,
+        6034
+      ]
+    },
+    {
+      "id": "QYUtP",
+      "size": [
+        1440,
+        1456
+      ]
+    },
+    {
+      "id": "U85bZz",
+      "size": [
+        1440,
+        784
+      ]
+    },
+    {
+      "id": "XuqNc",
+      "size": [
+        1440,
+        672
+      ]
+    }
+  ],
+  "local_links_checked": 62,
+  "missing_links": [],
+  "preservation_checks": {
+    "original_source_unchanged": true,
+    "existing_copied_sections_match": true,
+    "font_variable_unchanged": true,
+    "wrapper_before_footer": true,
+    "source_retained": true,
+    "draft_root_first": true,
+    "placeholder_removed": true
+  },
+  "application_status": "",
+  "repository_validators": [
+    {
+      "command": "python scripts/validate-handoff.py",
+      "exit_code": 0,
+      "output": "PASS structure: 110 decision records; 14 design tasks; no missing refs/dependency cycles\r\nNOTE: Does not verify source provenance, approved visual baselines, test runs, or actual task readiness."
+    },
+    {
+      "command": "python scripts/validate-registry.py",
+      "exit_code": 0,
+      "output": "Registry records: 110; 11-section topic coverage: PASS"
+    }
+  ],
+  "visual_inspection": {
+    "opened": [
+      "U85bZz native screenshot",
+      "XuqNc native screenshot",
+      "QYUtP.png",
+      "fSC7S.png"
+    ],
+    "scope": "Desktop1440 static composition only",
+    "native_bounds_limitation": "Visitor placement/clipping flags do not match rendered layout; documented in README and review manifest",
+    "reference": "POOLA Journal live CDP screenshot inspected; article structure only, not adopted brand"
+  },
+  "untested": [
+    "Actual TikTok playback and one-active behavior",
+    "Links, keyboard, focus, loading/error states",
+    "Other widths, Mobile, text zoom and reduced motion"
+  ],
+  "approval": {
+    "Home_r8": "preserved prior appearance acceptance",
+    "Home_media_r1": "pending_owner_review",
+    "foundation": "pending_owner_review",
+    "frontend": "not_authorized",
+    "OPEN_001": "open"
+  }
+}

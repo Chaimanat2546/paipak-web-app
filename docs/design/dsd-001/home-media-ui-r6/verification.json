@@ -1,0 +1,64 @@
+{
+  "version": "Home-media-ui-r6",
+  "date": "2026-11-04",
+  "status": "static_article_draft_verified; owner_review_pending",
+  "png_dimensions": [
+    {
+      "id": "DsgG9",
+      "size": [
+        1440,
+        729
+      ]
+    },
+    {
+      "id": "YGt3D",
+      "size": [
+        1440,
+        1545
+      ]
+    },
+    {
+      "id": "eMYWM",
+      "size": [
+        1440,
+        6123
+      ]
+    }
+  ],
+  "links_checked": 29,
+  "missing_except_pending_report": [],
+  "scope_checks": {
+    "tiktok_unchanged": true,
+    "other_home_sections_unchanged": true,
+    "article_copy_preserved": true,
+    "variables_unchanged": true,
+    "placeholder_removed": true
+  },
+  "application_status": "",
+  "repository_validators": [
+    {
+      "command": "python scripts/validate-handoff.py",
+      "exit_code": 0,
+      "output": "PASS structure: 110 decision records; 14 design tasks; no missing refs/dependency cycles\r\nNOTE: Does not verify source provenance, approved visual baselines, test runs, or actual task readiness."
+    },
+    {
+      "command": "python scripts/validate-registry.py",
+      "exit_code": 0,
+      "output": "Registry records: 110; 11-section topic coverage: PASS"
+    }
+  ],
+  "visual_inspection": {
+    "opened": [
+      "Full-size DsgG9.png",
+      "Native full-Home preview"
+    ],
+    "result": "Feature caption fits its light-blue backing; supporting text/images aligned; no visible collision; footer remains after articles",
+    "scope": "Desktop1440 static layout only"
+  },
+  "limits": [
+    "Generated sample imagery and copy, not real published articles",
+    "No article reader, CMS, navigation or backend integration",
+    "No keyboard, zoom, focus, responsive or Mobile testing",
+    "Final UI/foundation approval pending; OPEN-001 remains open"
+  ]
+}

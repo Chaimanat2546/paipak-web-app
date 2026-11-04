@@ -1,4 +1,19 @@
-project: paipak.com
+project: papaipak.com
+brand_name_confirmation:
+  display_name: papaipak
+  previous_display_name: paipak
+  confirmed_on: '2026-11-04'
+  timezone: Asia/Bangkok
+  source: Explicit project owner message in this repository chat
+  instruction: โอเค เอาไอคอนแบบนี้ไปปรับให้ครบทุกจุดที่มีภาษาและ LINE เลย แล้วเว็บชื่อ papaipak ปรับทุกจัดด้วยรวมถึงเอกสาร
+  domain: papaipak.com
+  domain_status: owner_confirmed_for_project_documents
+  domain_confirmed_on: '2026-11-04'
+  domain_confirmation_instruction: papaipak.com — เปลี่ยนให้ตรงชื่อเว็บ
+  icon_selection: Header-icons-r4 / Thai and UK circular flags with official LINE brand icon
+  scope: Display-name correction in Pencil and current document prose; selected icon rollout in existing F-01 UI. Preserve real paths, technical identifiers, source URLs and historical evidence files.
+  full_design_approval: pending_owner_review
+  frontend_authorization: not_granted
 registry_status: owner_adopted_planning_direction_pending_source_and_visual_verification
 note: All 110 records are adopted as the current planning direction. This does not certify historical source
   provenance, approve final visual artifacts, resolve open decisions or complete implementation tasks.
@@ -10,6 +25,48 @@ owner_adoption:
   scope: Entire imported handoff pack; supersedes conflicting earlier project directions
   final_visual_approval: pending
   task_execution: not_authorized_by_adoption_alone
+governance_approval:
+  status: approved
+  version: '1.0'
+  approved_on: '2026-11-03'
+  timezone: Asia/Bangkok
+  approver_role: project_owner
+  source: Explicit project owner instruction in this repository chat
+  instruction: อนุมัติ Design Governance Kit v1.0 เป็นมาตรฐานกลางของโปรเจกต์ โดยแบบแต่ละ Task ยังต้องให้ฉันอนุมัติก่อนทำ Frontend
+  artifact: docs/design/governance/README.md
+  scope: Integrated kit v1.0 with the three confirmed clarifications; project-wide design principles, governance rules, review standards and task template. Document 07 remains illustrative and the archived wireframe copy defers to the maintained authoring guide.
+  task_design_approval: explicit_owner_approval_per_task_and_version_required_before_frontend
+  task_start_approval: explicit_owner_approval_of_task_plan_and_scope_required_before_ui_design
+  execution_clarification:
+    confirmed_on: '2026-11-03'
+    timezone: Asia/Bangkok
+    source: Explicit project owner clarification in this repository chat
+    instruction: ก่อนทำรวมถึง ui design ด้วย
+    summary: Owner must approve the selected task plan and scope before creating or revising UI Design artifacts; owner approval of the resulting design/version is still required before related frontend implementation. Governance approval alone authorizes neither stage. Existing task-specific authorizations remain valid within their approved scope.
+  final_visual_approval: not_granted_by_governance_approval
+  task_execution: not_started_by_governance_approval
+governance_clarifications:
+  confirmed_on: '2026-11-03'
+  timezone: Asia/Bangkok
+  source: Explicit owner choices 2, 3, 1 in this repository chat, followed by instruction to apply the changes
+  kit_path: docs/design/governance/README.md
+  kit_version: '1.0'
+  kit_status: approved_project_standard
+  final_visual_approval: not_granted_by_this_change
+  task_execution: not_started_by_document_integration
+  decisions:
+  - topic: typography
+    selected_option: 2
+    status: owner_confirmed
+    summary: Keep Mitr primary; supplementary fonts may be proposed but require owner approval of name and usage before use. No supplementary font is approved here.
+  - topic: workflow_order
+    selected_option: 3
+    status: owner_confirmed
+    summary: Visual Direction precedes Wireframe. DSD-001 provides the owner-approved G1 direction/version for UXD-002 before new wireframe revisions and G2 acceptance; preserve approved UX/business rules and existing draft evidence.
+  - topic: homepage_review_example
+    selected_option: 1
+    status: owner_confirmed
+    summary: Keep document 07 illustrative only; it is not a review of the current Homepage or an approved visual baseline.
 task_clarifications:
 - task_id: UXD-001
   confirmed_on: '2026-11-02'

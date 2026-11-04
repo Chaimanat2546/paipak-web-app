@@ -1,0 +1,21 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "1",
+  "question": "เรื่องรอง: ใช้แบบนี้ / ขยับเฉพาะลูกศร / ใช้เพียงเส้นใต้",
+  "selected_option": "ใช้แบบนี้",
+  "status": "owner_accepted_supporting_article_motion_r8",
+  "version": "Article-supporting-motion-r8",
+  "prototype": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-supporting-motion-r8.html",
+  "prototype_sha256": "2dc0b190b3700fe44c835f9ea88c8ae518447be4a45dc4367c52ff00f1dd942d",
+  "scope": "Displayed supporting hover with fixed cover, text translated 3px right, pink title underline, arrow translated 2px right and 2px up, 336ms easing as previewed",
+  "reduced_motion": "No translation; underline feedback is immediate",
+  "native_hover_root": "ZuiOX",
+  "separate_focus_appearance_approved": false,
+  "whole_article_version_approved": false,
+  "whole_home_version_approved": false,
+  "foundation_approved": false,
+  "application_runtime_tested": false,
+  "frontend_authorized": false
+}

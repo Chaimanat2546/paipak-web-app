@@ -1,0 +1,29 @@
+{
+  "version": "Footer-contact-column-r2",
+  "task": "DSD-001",
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_selected_right_contact_column; revised_appearance_pending",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "kengy",
+  "size_px": [
+    1440,
+    312
+  ],
+  "previous_version": "../footer-inline-r1/README.md",
+  "owner_choice": "owner-layout-choice.json",
+  "image": "kengy.png",
+  "image_sha256": "1f52879b99eb846deee732b21ee928f9ed659e2c4f0372de9836c2d1bf1f1afb",
+  "visual_qa": "Native export opened at 1440px: complete footer, four visible columns, no visible clipping or overlap",
+  "structural_qa": "Get bounds diagnostics differ from native image; unresolved; see bounds-diagnostics.json",
+  "header_unchanged": true,
+  "main_home_unchanged": true,
+  "variables_unchanged": true,
+  "real_contact_data": "Not verified",
+  "functional_acceptance": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "version": "Home-media-ui-r6 / Home Desktop-r14 draft",
+  "task": "DSD-001",
+  "date": "2026-11-04",
+  "owner_instruction": "ต่อด้วยบทความ",
+  "status": "draft_pending_owner_review",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "home_node": "eMYWM",
+  "section_node": "DsgG9",
+  "protected_tiktok_node": "MIdin",
+  "frames": [
+    {
+      "id": "DsgG9",
+      "png": "DsgG9.png",
+      "width": 1440,
+      "height": 729
+    },
+    {
+      "id": "YGt3D",
+      "png": "YGt3D.png",
+      "width": 1440,
+      "height": 1545
+    },
+    {
+      "id": "eMYWM",
+      "png": "eMYWM.png",
+      "width": 1440,
+      "height": 6123
+    }
+  ],
+  "design": {
+    "composition": "One featured story with photo and floating white reading panel; two borderless supporting rows",
+    "featured": "696x536 composition;696x380 photo;648x187 white caption overlapping image;44px Navy reading link",
+    "supporting": "592px column,224x224 photos,40px between rows",
+    "typography": "Mitr Regular; section36/400, lead26/400 and supporting22/400; proposed local preview roles only",
+    "brand_motif": "Existing SoKpn pool-edge path copied as Light Blue backing KQOjD",
+    "content": "Original sample titles, topics and summaries retained; manual selection and order retained",
+    "navigation": "Static proposed internal reading links; article reader/CMS not created"
+  },
+  "checks": {
+    "tiktok_unchanged": true,
+    "other_home_sections_unchanged": true,
+    "article_copy_preserved": true,
+    "variables_unchanged": true,
+    "placeholder_removed": true
+  },
+  "wholeCanvas": {
+    "roots": 111,
+    "nodes": 35877
+  },
+  "preservation": "Only article section revised; current native root edited in place; prior snapshots/PNGs retained",
+  "prior_artifact": "../home-media-ui-r5/README.md",
+  "limitations": {
+    "functional": false,
+    "Mobile": "paused_by_owner",
+    "foundation": "pending_owner_review",
+    "OPEN_001": "open; existing TikTok CTA unchanged",
+    "frontend": "not_authorized",
+    "assets": "Generated study images and sample articles; no real publication or availability claims"
+  }
+}

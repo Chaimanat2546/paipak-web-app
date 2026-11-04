@@ -1,0 +1,101 @@
+{
+  "version": "Home-media-ui-r2 / Home Desktop-r10 draft",
+  "task": "DSD-001",
+  "created_on": "2026-11-04",
+  "owner_instruction": "tiktok อยากได้เป็น section 3D",
+  "status": "draft_pending_owner_review",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "frames": [
+    {
+      "id": "V9yDq1",
+      "name": "Home Desktop-r10",
+      "png": "V9yDq1.png",
+      "width": 1440,
+      "height": 6185
+    },
+    {
+      "id": "Dn6ah",
+      "name": "3D TikTok plus unchanged articles",
+      "png": "Dn6ah.png",
+      "width": 1440,
+      "height": 1607
+    },
+    {
+      "id": "e2IyY7",
+      "name": "3D TikTok section",
+      "png": "e2IyY7.png",
+      "width": 1440,
+      "height": 935
+    }
+  ],
+  "article_node": "LjyRl",
+  "previous_version": {
+    "id": "fSC7S",
+    "version": "Home-media-ui-r1",
+    "artifact": "../home-media-ui-r1/README.md",
+    "preserved": true
+  },
+  "accepted_home": {
+    "id": "iQ3YE",
+    "version": "Home Desktop-r8",
+    "retained": true
+  },
+  "design": {
+    "type": "Static 3D coverflow visual",
+    "stage": {
+      "width": 1328,
+      "height": 704,
+      "fill": "#DBF2FC",
+      "radius": 28
+    },
+    "planes": "Five depth planes: two far, two near, one front selected",
+    "perspective": "Native editable photo frames with a Pencil-only Y-projection shader on four side planes",
+    "selected_clip": "Front-facing original 328x584 study cover and one 56px play target",
+    "navigation": "Both44px arrows active in this middle-position pose; native layer labels corrected from villa controls",
+    "proposed_behavior": "Arrows bring a clip to the front; user manually plays the selected clip; no autoplay added. Edge, selection, active-player and keyboard states remain for review.",
+    "scope": "TikTok only; copied articles, villa sections, header, hero and Footer match r1",
+    "not_shared_tokens": true
+  },
+  "shader": {
+    "pencil_relative": "images/dsd-001-tiktok-depth-r2.glsl",
+    "source_copy": "depth-projection.glsl",
+    "purpose": "Design-only static perspective effect; no time uniform, no animation and no application integration"
+  },
+  "checks": {
+    "previous_r1_unchanged": true,
+    "non_tiktok_sections_match": true,
+    "articles_match": true,
+    "variables_unchanged": true,
+    "new_root_first": true,
+    "placeholder_removed": true,
+    "shader_planes": 4,
+    "active_play_icons": 1
+  },
+  "wholeCanvas": {
+    "roots": 110,
+    "nodes": 33790
+  },
+  "assets": {
+    "photos": [
+      "images/generated-1.png",
+      "images/generated-3.png",
+      "images/generated-4.png",
+      "images/generated-5.png",
+      "images/generated-9.png"
+    ],
+    "provenance": "Existing generated Home study assets, not real TikTok thumbnails; sample creator credit retained"
+  },
+  "references": [
+    {
+      "url": "https://swiperjs.com/demos/240-effect-coverflow/core.html",
+      "scope": "Official coverflow reference discovered and opened; screenshot capture timed out, so no successful screenshot inspection is claimed. No dependency installed."
+    }
+  ],
+  "limits": [
+    "Static visual draft, not a working slider or TikTok player",
+    "No actual motion, playing/paused/loading/error/edge states or browser keyboard test",
+    "Mobile paused; final foundation and UI version approval remain pending",
+    "OPEN-001 stays open and primary CTA remains unchanged",
+    "Native encrypted .pen source accessed only through MCP; shader is a separate editable design asset"
+  ]
+}

@@ -1,10 +1,11 @@
-# paipak.com — Project Scope & Agent Handoff Pack
+# papaipak — Project Scope & Agent Handoff Pack
 
-**Purpose:** Copy the contents of this folder into the root of your paipak.com project. This is the **planning contract for separate AI-agent conversations**, NOT an instruction to implement the site automatically.
+**Purpose:** Copy the contents of this folder into the root of your papaipak project. This is the **planning contract for separate AI-agent conversations**, NOT an instruction to implement the site automatically.
 
 **Owner adoption — 2 November 2026 (Asia/Bangkok):** The project owner confirmed that this entire pack is the latest project direction and supersedes conflicting earlier directions. It is now the planning contract for this repository. Historical source provenance, original assets and final visual approvals remain outstanding; adoption does not complete or start tasks. The imported entrypoint is stored as `AGENTS.handoff.md`; the active `AGENTS.md` integrates this direction with local application/runtime safeguards. The legacy mock homepage is not an approved visual baseline for the new direction.
 
 ## What is present
+- The owner approved [UX/UI Design Governance Kit v1.0](docs/design/governance/README.md) as the project-wide standard on 3 November 2026, including Mitr primary with supplementary fonts subject to approval, Visual Direction before Wireframe, and the illustrative-only Homepage review example. Each task's design/version still requires explicit owner approval before related frontend implementation. Current order and existing-draft handling are in `docs/roadmap/task-order.md`.
 - **110 reconstructed decision records across 11 sections** (`docs/decisions/registry.yaml`) plus 7 open issues. The owner has adopted their planning direction; historical source provenance and final visual baselines are not independently verified.
 - **14 design task packets**, manual handoff (`tasks/design/`), with explicit dependencies and UX/UI approval gate for frontend.
 - High-level **implementation task boundaries** (`tasks/implementation/`); detailed technical choices are discussed separately inside each task chat.

@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "question_id": "home-desktop-closeout-plan-1/Q5",
+  "owner_quote": "โอเคตกลงแบบนี้แหละ",
+  "context": "Loading skeleton retained; owner subsequently replaced the user-facing error/retry proposal with hiding the unavailable optional article section",
+  "status": "owner_confirmed_behavior",
+  "scope": "Home article section loading and list-request error; other ready Home sections remain usable",
+  "ready": "Show content directly when available; do not force a skeleton delay",
+  "loading": {
+    "presentation": "Light skeleton representing the article composition within its own section",
+    "layout": "Reserve space close to expected composition; static loading appearance accepted at Desktop 1440px; live layout shift not tested",
+    "page_blocking_loader": false
+  },
+  "request_failure": {
+    "presentation": "Hide entire optional article section for the failure case described by owner; keep other ready Home sections usable",
+    "error_message": false,
+    "retry_control": false,
+    "refresh_prompt": false,
+    "internal_logging": "Required for later team diagnosis; not implemented or connected",
+    "treat_as_empty_catalog": false,
+    "global_system_failure_policy": "Outside this decision"
+  },
+  "successful_empty_result": "Apply previously confirmed zero-story rule: hide the article section",
+  "individual_cover_failure": "Separate confirmed Q4 rule: skip affected story and promote next ready story",
+  "native_state_appearance_approved": false,
+  "functional_acceptance": false,
+  "whole_article_version_approved": false,
+  "frontend_authorized": false,
+  "native_state_proposals": {
+    "package": "article-states-r1/README.md",
+    "loading": "BvlEu",
+    "error": "f6x4t historical; disabled",
+    "appearance_approval": "loading_static_appearance_accepted; failure_behavior_confirmed_as_hidden; combined_context_pending",
+    "hidden_context": "q1Q2w"
+  },
+  "loading_appearance_approval": "article-states-r1/owner-loading-acceptance.json",
+  "error_appearance_approved": false,
+  "initial_Q5_context": "Owner accepted the explanation and recommendation of option 1: section skeleton while loading, local error and retry on failure, hide only on confirmed empty result",
+  "current_failure_policy_evidence": "article-hidden-r2/owner-decision.json",
+  "historical_retry_behavior": {
+    "retry_success": "Show available eligible articles, or apply zero-story rule if the successful result is empty",
+    "retry_failure": "Return to section-local error and retry state"
+  },
+  "motion_timing": "Loading skeleton motion/timing remains pending; no user-facing article error copy is required under the revised policy"
+}

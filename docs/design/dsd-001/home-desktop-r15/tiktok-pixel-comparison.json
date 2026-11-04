@@ -1,0 +1,16 @@
+[
+  {
+    "source": "current_source",
+    "pixel_data_equal": false,
+    "different_channels": 78,
+    "total_channels": 4700160,
+    "max_channel_delta": 1
+  },
+  {
+    "source": "archived_source",
+    "pixel_data_equal": false,
+    "different_channels": 87,
+    "total_channels": 4700160,
+    "max_channel_delta": 1
+  }
+]

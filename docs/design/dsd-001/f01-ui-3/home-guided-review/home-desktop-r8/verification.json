@@ -1,0 +1,74 @@
+{
+  "homeNodes": 1954,
+  "nonFooterContentMatches": true,
+  "differences": [],
+  "fixtureCardCount": 54,
+  "photoArrowFaceCount": 108,
+  "photoArrowFacesAll28": true,
+  "footerPngMatchesOwnerSelectedR3": true,
+  "footerSha256": "FB75B6EEAEC67BF71F6C20873822A9C2CF6783212A22B516622FC36A4E4CC1D1",
+  "utilitySceneNodeCounts": [
+    {
+      "key": "language",
+      "node": "NpGoy",
+      "nativeCount": 1976
+    },
+    {
+      "key": "contact",
+      "node": "SLKXi",
+      "nativeCount": 1973
+    }
+  ],
+  "visibleCardsAtStart": 28,
+  "trackCardCounts": [
+    {
+      "id": "MA1Rt",
+      "name": "Listing rail track · eight fixture villas",
+      "count": 8,
+      "width": 2680,
+      "x": 0
+    },
+    {
+      "id": "r1ihV",
+      "name": "Category listing track · พูลวิลล่าใกล้ทะเล",
+      "count": 8,
+      "width": 2680,
+      "x": 0
+    },
+    {
+      "id": "Xp73K",
+      "name": "Category listing track · พูลวิลล่าสายปาร์ตี้",
+      "count": 8,
+      "width": 2680,
+      "x": 0
+    },
+    {
+      "id": "Y0ENKh",
+      "name": "Category listing track · พูลวิลล่าราคาพิเศษ",
+      "count": 8,
+      "width": 2680,
+      "x": 0
+    },
+    {
+      "id": "zJ9ja",
+      "name": "Category listing track · พูลวิลล่า Outing",
+      "count": 8,
+      "width": 2680,
+      "x": 0
+    },
+    {
+      "id": "Yq0ia",
+      "name": "Category listing track · พูลวิลล่า Pet Friendly",
+      "count": 6,
+      "width": 2004,
+      "x": 0
+    },
+    {
+      "id": "A41irA",
+      "name": "Category listing track · พูลวิลล่า Luxury",
+      "count": 8,
+      "width": 2680,
+      "x": 0
+    }
+  ]
+}

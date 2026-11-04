@@ -1,0 +1,13 @@
+{
+  "main_home_unchanged": true,
+  "eight_fixture_cards": true,
+  "four_full_cards": true,
+  "uniform_card_dimensions": true,
+  "separate_price_bases": true,
+  "price_base_height_56": true,
+  "uniform_photo_heights": true,
+  "no_card_count": true,
+  "font_mitr": true,
+  "status": "proposed_not_applied",
+  "functional_prototype": false
+}

@@ -1,0 +1,73 @@
+{
+  "version": "Article-focus-r1",
+  "task": "DSD-001",
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_returned_enclosing_outline_for_revision",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "states": [
+    {
+      "key": "featured",
+      "native_root": "mbFLJ",
+      "image": "mbFLJ.png",
+      "size_px": [
+        720,
+        610
+      ],
+      "image_sha256": "1ebf310a0f8ea1ea9bcb685551f9b5a6bbbf1177e8aa73476bdd0e4ec814ea3e",
+      "appearance_status": "returned_for_revision; native_review_root_disabled"
+    },
+    {
+      "key": "supporting",
+      "native_root": "g3HELa",
+      "image": "g3HELa.png",
+      "size_px": [
+        640,
+        246
+      ],
+      "image_sha256": "7ff49267fd5797a25cee4bfdf76cedb96a7c85f0bee90b5b64eef71118af9b86",
+      "appearance_status": "returned_for_revision; native_review_root_disabled"
+    },
+    {
+      "key": "index",
+      "native_root": "Dl1Qq",
+      "image": "Dl1Qq.png",
+      "size_px": [
+        180,
+        117
+      ],
+      "image_sha256": "6a7bebf1043a69bb33ca83f9be912cb53fdb1715c5db89b7112eb963d01292e7",
+      "appearance_status": "returned_for_revision; native_review_root_disabled"
+    }
+  ],
+  "focus_style": {
+    "color": "#072D59",
+    "stroke_px": 2,
+    "offset_px": 6,
+    "radii_px": {
+      "featured": 30,
+      "supporting": 22,
+      "index": 12
+    }
+  },
+  "color_only_contrast": {
+    "navy_on_white": 13.7377,
+    "navy_on_light_blue": 11.8527,
+    "scope": "Hex-value computation only; not complete accessibility or runtime acceptance"
+  },
+  "visual_qa": "Opened all three latest native PNGs; full focus outline visible in each; separate example states, not simultaneous focus",
+  "keyboard_runtime_tested": false,
+  "screen_reader_tested": false,
+  "structural_bounds": "Diagnostics retained; not certified clean",
+  "main_home_unchanged": true,
+  "approved_sources_unchanged": true,
+  "variables_unchanged": true,
+  "whole_article_approved": false,
+  "whole_home_approved": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "replacement": "../article-focus-r2/README.md"
+}

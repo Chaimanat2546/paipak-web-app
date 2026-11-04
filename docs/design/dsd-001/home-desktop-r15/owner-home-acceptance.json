@@ -1,0 +1,21 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "1",
+  "question": "รับภาพรวม Home รุ่นนี้ไหมครับ? หลังจากนี้ยังตรวจ Foundation แยกอีกขั้น 1. รับภาพรวมรุ่นนี้ 2. มีจุดต้องแก้ 3. ไล่ตรวจทีละช่วง",
+  "selected_option": "รับภาพรวมรุ่นนี้",
+  "status": "owner_accepted_home_desktop_r15_combined_appearance",
+  "version": "Home Desktop-r15",
+  "native_root": "ZfZvJ",
+  "image": "ZfZvJ.png",
+  "image_sha256": "05f509321ab2510d826a3be3f750c32d39fc5abf272d1a4a68d24b2ec4db3883",
+  "scope": "Consolidated Desktop Home appearance with accepted TikTok-states-r3, Article Desktop review-2 and Footer-contact-column-r4; not application functionality/accessibility certification",
+  "foundation_approved": false,
+  "task_complete": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ]
+}

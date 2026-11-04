@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "โอเคตกลงแบบนี้แหละ",
+  "context": "Owner requested to see the two-story case, then accepted the displayed image",
+  "status": "owner_accepted_two_story_appearance",
+  "scope": "Two available stories: one featured and one supporting in the displayed composition",
+  "visual_source_version": "Article-availability-r1",
+  "image": "../article-availability-r1/RFule.png",
+  "image_sha256": "0f5cfbc03f65f65389b5a2c45c6f85327313f11f526761101fe4fbf42827ad81",
+  "native_board": "tYgDU",
+  "native_section": "RFule",
+  "one_story_case": "not_approved_by_this_specific_two_story_acceptance",
+  "zero_story_case": "not_approved_by_this_specific_two_story_acceptance",
+  "functional_acceptance": false,
+  "whole_article_version_approved": false,
+  "frontend_authorized": false
+}

@@ -1,0 +1,22 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "ให้ใช้เนื้อหาแทน",
+  "context": "Reviewing the no-excerpt state in Article-states-r1",
+  "status": "owner_confirmed_behavior; revised_appearance_pending",
+  "decision": "When a dedicated excerpt is missing, use the opening text of the article body instead, for featured and supporting stories",
+  "priority": "Dedicated excerpt when available; article-body opening otherwise",
+  "maximum_lines": 2,
+  "overflow": "Ellipsis; retain full article body unchanged",
+  "text_extraction": "Use plain readable text from the body, not an AI-written summary",
+  "both_excerpt_and_body_missing": "Not explicitly determined by this instruction; do not invent text or change required-field eligibility implicitly",
+  "supersedes": "Q3 omit-excerpt-area treatment only; cover, title and read-destination requirements remain in force",
+  "native_root": "l5kvNr",
+  "version": "Article-body-fallback-r2",
+  "copy_status": "Fictional article-body fixtures for design review; not verified CMS content",
+  "appearance_approved": false,
+  "extraction_runtime_implemented": false,
+  "whole_article_version_approved": false,
+  "frontend_authorized": false
+}

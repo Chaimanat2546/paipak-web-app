@@ -1,0 +1,1803 @@
+{
+  "version": "TikTok-states-r3",
+  "variables": {
+    "variables": {
+      "brand.navy": {
+        "type": "color",
+        "value": "#072D59"
+      },
+      "brand.pink": {
+        "type": "color",
+        "value": "#FD6E88"
+      },
+      "brand.light": {
+        "type": "color",
+        "value": "#DBF2FC"
+      },
+      "surface.page": {
+        "type": "color",
+        "value": "#FFFFFF"
+      },
+      "font.primary": {
+        "type": "string",
+        "value": "Mitr"
+      },
+      "spacing.unit": {
+        "type": "number",
+        "value": 4
+      }
+    }
+  },
+  "boards": [
+    {
+      "type": "frame",
+      "id": "nXylc",
+      "x": 46630,
+      "y": 22011,
+      "name": "REVIEW · TikTok states-r3 · middle · one previous clip on left",
+      "clip": true,
+      "width": 1520,
+      "height": 1016,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "reD9N",
+          "x": 40,
+          "y": 28,
+          "name": "Review state label",
+          "fill": "#072D59",
+          "textGrowth": "fixed-width",
+          "width": 1440,
+          "content": "คลิปกลาง · เห็นคลิปก่อนหน้า 1 ใบทางซ้าย",
+          "lineHeight": 1.5,
+          "fontFamily": "Mitr",
+          "fontSize": 28
+        },
+        {
+          "type": "frame",
+          "id": "Mc8Rp",
+          "x": 40,
+          "y": 104,
+          "name": "TikTok r3 · middle · native provider playback",
+          "width": 1440,
+          "height": 816,
+          "fill": "$brand.navy",
+          "gap": 48,
+          "padding": [
+            48,
+            56,
+            80,
+            56
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "W4EfRP",
+              "name": "TikTok left narrative and browse action",
+              "width": 448,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "e3Saii",
+                  "name": "TikTok source label · open platform lockup",
+                  "height": 28,
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "qh8QB",
+                      "name": "TikTok platform icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "tiktok-logo",
+                      "library": "phosphor",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZrxEe",
+                      "name": "Curated TikTok label",
+                      "fill": "$brand.light",
+                      "content": "คลิปคัดสรรจาก TikTok",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m68mK",
+                  "name": "Editorial headline with reused water signature",
+                  "width": "fill_container",
+                  "height": 128,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Gzo5e",
+                      "name": "TikTok split headline",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "พาชมพูลวิลล่า\nก่อนออกไปพักด้วยกัน",
+                      "lineHeight": 1.28,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 40
+                    },
+                    {
+                      "type": "path",
+                      "id": "R8j5zg",
+                      "layoutPosition": "absolute",
+                      "x": 184,
+                      "y": 98,
+                      "name": "Hero water signature reused below heading",
+                      "geometry": "M4 23c31-23 43-20 46-10 1 16 33 9 49-8-3 18 17 18 45 3",
+                      "viewBox": [
+                        0,
+                        0,
+                        148,
+                        32
+                      ],
+                      "width": 192,
+                      "height": 28,
+                      "stroke": "$brand.pink",
+                      "strokeWidth": 4,
+                      "strokeLinecap": "round"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "qKRSx",
+                  "name": "TikTok split supporting copy",
+                  "fill": "$brand.light",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "รวมคลิปพาชมบ้านและไอเดียวันพักผ่อน\nที่เราคัดมาให้ดู ก่อนเลือกมุมที่อยากไปพัก",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16
+                },
+                {
+                  "type": "frame",
+                  "id": "S4pZF",
+                  "name": "Browse all villas · static proposed existing Results entry · OPEN-001",
+                  "width": 200,
+                  "height": 52,
+                  "fill": "$brand.pink",
+                  "cornerRadius": 26,
+                  "gap": 10,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "f7WYS4",
+                      "name": "Browse all villas pink-white CTA reference",
+                      "fill": "#FFFFFF",
+                      "content": "ดูที่พักทั้งหมด",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "XxHnO",
+                      "name": "Browse villas directional arrow",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "arrow-up-right",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tsoj5",
+              "name": "Poolside clip deck · middle · unchanged selection behavior",
+              "clip": true,
+              "width": 832,
+              "height": 688,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "fais6",
+                  "layoutPosition": "absolute",
+                  "x": 28,
+                  "y": 520,
+                  "name": "Ambient pool water line · reused brand signature",
+                  "geometry": "M4 23c31-23 43-20 46-10 1 16 33 9 49-8-3 18 17 18 45 3",
+                  "viewBox": [
+                    0,
+                    0,
+                    148,
+                    32
+                  ],
+                  "width": 720,
+                  "height": 100,
+                  "stroke": "#DBF2FC30",
+                  "strokeWidth": 2,
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "frame",
+                  "id": "fdz6y",
+                  "x": 556,
+                  "y": 160,
+                  "name": "Farthest next clip preview",
+                  "opacity": 0.54,
+                  "rotation": -5,
+                  "width": 196,
+                  "height": 348,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "effect": [
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "#072D5940",
+                      "offset": {
+                        "x": 0,
+                        "y": 12
+                      },
+                      "blur": 26
+                    },
+                    {
+                      "type": "shader",
+                      "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                      "uniforms": {
+                        "u_content": "pencil:object",
+                        "u_angle": 0.2,
+                        "u_distance": 1000,
+                        "u_scale": 0.99,
+                        "u_light": 0.92
+                      }
+                    }
+                  ],
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KQHQG",
+                      "x": 3,
+                      "y": 3,
+                      "name": "Farthest next clip preview · generated study image",
+                      "width": 190,
+                      "height": 342,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/generated-9.png",
+                        "mode": "cover"
+                      },
+                      "cornerRadius": 15,
+                      "layout": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fgBRx",
+                  "x": 438,
+                  "y": 96,
+                  "name": "Next clip behind selected card",
+                  "opacity": 0.74,
+                  "rotation": 4,
+                  "width": 248,
+                  "height": 440,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "effect": [
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "#072D5940",
+                      "offset": {
+                        "x": 0,
+                        "y": 12
+                      },
+                      "blur": 26
+                    },
+                    {
+                      "type": "shader",
+                      "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                      "uniforms": {
+                        "u_content": "pencil:object",
+                        "u_angle": 0.27,
+                        "u_distance": 1000,
+                        "u_scale": 0.99,
+                        "u_light": 0.92
+                      }
+                    }
+                  ],
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "F00HsX",
+                      "x": 3,
+                      "y": 3,
+                      "name": "Next clip behind selected card · generated study image",
+                      "width": 242,
+                      "height": 434,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/generated-1.png",
+                        "mode": "cover"
+                      },
+                      "cornerRadius": 15,
+                      "layout": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "o0oVpd",
+                  "x": 28,
+                  "y": 96,
+                  "name": "Previous clip preview · exactly one on left",
+                  "opacity": 0.74,
+                  "rotation": -4,
+                  "width": 248,
+                  "height": 440,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "effect": [
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "#072D5940",
+                      "offset": {
+                        "x": 0,
+                        "y": 12
+                      },
+                      "blur": 26
+                    },
+                    {
+                      "type": "shader",
+                      "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                      "uniforms": {
+                        "u_content": "pencil:object",
+                        "u_angle": -0.27,
+                        "u_distance": 1000,
+                        "u_scale": 0.99,
+                        "u_light": 0.92
+                      }
+                    }
+                  ],
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wXFiu",
+                      "x": 3,
+                      "y": 3,
+                      "name": "Previous clip study image",
+                      "width": 242,
+                      "height": 434,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/generated-5.png",
+                        "mode": "cover"
+                      },
+                      "cornerRadius": 15,
+                      "layout": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C1Dsh0",
+                  "x": 196,
+                  "y": 16,
+                  "name": "Front selected TikTok cover · manual-play study",
+                  "clip": true,
+                  "width": 320,
+                  "height": 568,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/generated-4.png",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": 24,
+                  "stroke": "$brand.pink",
+                  "strokeWidth": 2,
+                  "strokeAlignment": "inner",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#072D5940",
+                    "offset": {
+                      "x": 0,
+                      "y": 24
+                    },
+                    "blur": 40
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZTjbU",
+                      "x": 132,
+                      "y": 256,
+                      "name": "Play selected clip · 56px manual target",
+                      "width": 56,
+                      "height": 56,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "vEp0B",
+                          "name": "Selected clip play icon",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "play-fill",
+                          "library": "phosphor",
+                          "fill": "$brand.navy"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "r9nPAV",
+                  "x": 0,
+                  "y": 280,
+                  "name": "Previous clip · enabled · left outer edge",
+                  "width": 48,
+                  "height": 48,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#072D5926",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 18
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "oIjRa",
+                      "name": "Previous clip · disabled at first icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "chevron-left",
+                      "library": "lucide",
+                      "fill": "$brand.navy"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "M1aQd",
+                  "x": 716,
+                  "y": 280,
+                  "name": "Next clip · select next cover",
+                  "width": 48,
+                  "height": 48,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#072D5926",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 18
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "ITaz8",
+                      "name": "Next clip · select next cover icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "chevron-right",
+                      "library": "lucide",
+                      "fill": "$brand.navy"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "F6HWaN",
+                  "x": 312,
+                  "y": 620,
+                  "name": "Passive position · third of five",
+                  "height": 8,
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "VWkwG",
+                      "name": "Active position pill · Pink on Navy",
+                      "opacity": 0.55,
+                      "fill": "#DBF2FC",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "tiV8d",
+                      "name": "Inactive position 2",
+                      "opacity": 0.55,
+                      "fill": "#DBF2FC",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "D7KogF",
+                      "name": "Inactive position 3",
+                      "fill": "#FD6E88",
+                      "width": 24,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "BPCwx",
+                      "name": "Inactive position 4",
+                      "opacity": 0.55,
+                      "fill": "#DBF2FC",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "XpYdh",
+                      "name": "Inactive position 5",
+                      "opacity": 0.55,
+                      "fill": "#DBF2FC",
+                      "width": 8,
+                      "height": 8
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "WygWL",
+                  "x": 196,
+                  "y": 590,
+                  "name": "Source credit · fixture only",
+                  "enabled": false,
+                  "fill": "#DBF2FC",
+                  "textGrowth": "fixed-width",
+                  "width": 320,
+                  "content": "ผู้สร้างคลิปตัวอย่าง ↗",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Mitr",
+                  "fontSize": 14
+                }
+              ]
+            },
+            {
+              "type": "path",
+              "id": "S1I7fa",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 760,
+              "name": "Reused Home pool-edge transition into articles",
+              "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+              "viewBox": [
+                0,
+                0,
+                1440,
+                95
+              ],
+              "fill": "#FFFFFF",
+              "width": 1440,
+              "height": 56
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "j7A0vg",
+          "x": 40,
+          "y": 954,
+          "name": "Review note",
+          "fill": "#072D59",
+          "textGrowth": "fixed-width",
+          "width": 1440,
+          "content": "เล่นอยู่ / หยุดชั่วคราว / Buffering ใช้ตัวเล่น TikTok จริง · เว็บออกแบบเฉพาะ deck และปุ่มเลือกคลิป",
+          "lineHeight": 1.5,
+          "fontFamily": "Mitr",
+          "fontSize": 17
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "PUm76",
+      "x": 48270,
+      "y": 22011,
+      "name": "REVIEW · TikTok states-r3 · last · one previous clip on left",
+      "clip": true,
+      "width": 1520,
+      "height": 1016,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "rNLID",
+          "x": 40,
+          "y": 28,
+          "name": "Review state label",
+          "fill": "#072D59",
+          "textGrowth": "fixed-width",
+          "width": 1440,
+          "content": "คลิปสุดท้าย · ยังเห็นคลิปก่อนหน้า 1 ใบทางซ้าย",
+          "lineHeight": 1.5,
+          "fontFamily": "Mitr",
+          "fontSize": 28
+        },
+        {
+          "type": "frame",
+          "id": "cadzh",
+          "x": 40,
+          "y": 104,
+          "name": "TikTok r3 · last · native provider playback",
+          "width": 1440,
+          "height": 816,
+          "fill": "$brand.navy",
+          "gap": 48,
+          "padding": [
+            48,
+            56,
+            80,
+            56
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "hauzH",
+              "name": "TikTok left narrative and browse action",
+              "width": 448,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fRNTn",
+                  "name": "TikTok source label · open platform lockup",
+                  "height": 28,
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "IGMeA",
+                      "name": "TikTok platform icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "tiktok-logo",
+                      "library": "phosphor",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PoTEC",
+                      "name": "Curated TikTok label",
+                      "fill": "$brand.light",
+                      "content": "คลิปคัดสรรจาก TikTok",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XnGva",
+                  "name": "Editorial headline with reused water signature",
+                  "width": "fill_container",
+                  "height": 128,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aJETr",
+                      "name": "TikTok split headline",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "พาชมพูลวิลล่า\nก่อนออกไปพักด้วยกัน",
+                      "lineHeight": 1.28,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 40
+                    },
+                    {
+                      "type": "path",
+                      "id": "y2Yxgs",
+                      "layoutPosition": "absolute",
+                      "x": 184,
+                      "y": 98,
+                      "name": "Hero water signature reused below heading",
+                      "geometry": "M4 23c31-23 43-20 46-10 1 16 33 9 49-8-3 18 17 18 45 3",
+                      "viewBox": [
+                        0,
+                        0,
+                        148,
+                        32
+                      ],
+                      "width": 192,
+                      "height": 28,
+                      "stroke": "$brand.pink",
+                      "strokeWidth": 4,
+                      "strokeLinecap": "round"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "oyXiM",
+                  "name": "TikTok split supporting copy",
+                  "fill": "$brand.light",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "รวมคลิปพาชมบ้านและไอเดียวันพักผ่อน\nที่เราคัดมาให้ดู ก่อนเลือกมุมที่อยากไปพัก",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16
+                },
+                {
+                  "type": "frame",
+                  "id": "B80TvY",
+                  "name": "Browse all villas · static proposed existing Results entry · OPEN-001",
+                  "width": 200,
+                  "height": 52,
+                  "fill": "$brand.pink",
+                  "cornerRadius": 26,
+                  "gap": 10,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Kv21V",
+                      "name": "Browse all villas pink-white CTA reference",
+                      "fill": "#FFFFFF",
+                      "content": "ดูที่พักทั้งหมด",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "t3knIT",
+                      "name": "Browse villas directional arrow",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "arrow-up-right",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "O6O8L0",
+              "name": "Poolside clip deck · last · unchanged selection behavior",
+              "clip": true,
+              "width": 832,
+              "height": 688,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "l2jq0x",
+                  "layoutPosition": "absolute",
+                  "x": 28,
+                  "y": 520,
+                  "name": "Ambient pool water line · reused brand signature",
+                  "geometry": "M4 23c31-23 43-20 46-10 1 16 33 9 49-8-3 18 17 18 45 3",
+                  "viewBox": [
+                    0,
+                    0,
+                    148,
+                    32
+                  ],
+                  "width": 720,
+                  "height": 100,
+                  "stroke": "#DBF2FC30",
+                  "strokeWidth": 2,
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "frame",
+                  "id": "gyOyr",
+                  "x": 556,
+                  "y": 160,
+                  "name": "Farthest next clip preview",
+                  "enabled": false,
+                  "opacity": 0.54,
+                  "rotation": -5,
+                  "width": 196,
+                  "height": 348,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "effect": [
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "#072D5940",
+                      "offset": {
+                        "x": 0,
+                        "y": 12
+                      },
+                      "blur": 26
+                    },
+                    {
+                      "type": "shader",
+                      "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                      "uniforms": {
+                        "u_content": "pencil:object",
+                        "u_angle": 0.2,
+                        "u_distance": 1000,
+                        "u_scale": 0.99,
+                        "u_light": 0.92
+                      }
+                    }
+                  ],
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "e4wmCS",
+                      "x": 3,
+                      "y": 3,
+                      "name": "Farthest next clip preview · generated study image",
+                      "width": 190,
+                      "height": 342,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/generated-9.png",
+                        "mode": "cover"
+                      },
+                      "cornerRadius": 15,
+                      "layout": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gHW8u",
+                  "x": 438,
+                  "y": 96,
+                  "name": "Next clip behind selected card",
+                  "enabled": false,
+                  "opacity": 0.74,
+                  "rotation": 4,
+                  "width": 248,
+                  "height": 440,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "effect": [
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "#072D5940",
+                      "offset": {
+                        "x": 0,
+                        "y": 12
+                      },
+                      "blur": 26
+                    },
+                    {
+                      "type": "shader",
+                      "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                      "uniforms": {
+                        "u_content": "pencil:object",
+                        "u_angle": 0.27,
+                        "u_distance": 1000,
+                        "u_scale": 0.99,
+                        "u_light": 0.92
+                      }
+                    }
+                  ],
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "j5U9oW",
+                      "x": 3,
+                      "y": 3,
+                      "name": "Next clip behind selected card · generated study image",
+                      "width": 242,
+                      "height": 434,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/generated-4.png",
+                        "mode": "cover"
+                      },
+                      "cornerRadius": 15,
+                      "layout": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NXN2N",
+                  "x": 28,
+                  "y": 96,
+                  "name": "Previous clip preview · exactly one on left",
+                  "opacity": 0.74,
+                  "rotation": -4,
+                  "width": 248,
+                  "height": 440,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "effect": [
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "#072D5940",
+                      "offset": {
+                        "x": 0,
+                        "y": 12
+                      },
+                      "blur": 26
+                    },
+                    {
+                      "type": "shader",
+                      "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                      "uniforms": {
+                        "u_content": "pencil:object",
+                        "u_angle": -0.27,
+                        "u_distance": 1000,
+                        "u_scale": 0.99,
+                        "u_light": 0.92
+                      }
+                    }
+                  ],
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VmlfS",
+                      "x": 3,
+                      "y": 3,
+                      "name": "Previous clip study image",
+                      "width": 242,
+                      "height": 434,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/generated-1.png",
+                        "mode": "cover"
+                      },
+                      "cornerRadius": 15,
+                      "layout": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "l9lZM",
+                  "x": 196,
+                  "y": 16,
+                  "name": "Front selected TikTok cover · manual-play study",
+                  "clip": true,
+                  "width": 320,
+                  "height": 568,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/generated-9.png",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": 24,
+                  "stroke": "$brand.pink",
+                  "strokeWidth": 2,
+                  "strokeAlignment": "inner",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#072D5940",
+                    "offset": {
+                      "x": 0,
+                      "y": 24
+                    },
+                    "blur": 40
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "d4QON",
+                      "x": 132,
+                      "y": 256,
+                      "name": "Play selected clip · 56px manual target",
+                      "width": 56,
+                      "height": 56,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "FS1g8",
+                          "name": "Selected clip play icon",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "play-fill",
+                          "library": "phosphor",
+                          "fill": "$brand.navy"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bLnVW",
+                  "x": 0,
+                  "y": 280,
+                  "name": "Previous clip · enabled · left outer edge",
+                  "width": 48,
+                  "height": 48,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#072D5926",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 18
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "c16sj6",
+                      "name": "Previous clip · disabled at first icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "chevron-left",
+                      "library": "lucide",
+                      "fill": "$brand.navy"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yX29L",
+                  "x": 716,
+                  "y": 280,
+                  "name": "Next clip · disabled at last",
+                  "opacity": 0.35,
+                  "width": 48,
+                  "height": 48,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#072D5926",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 18
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Qsvxq",
+                      "name": "Next clip · select next cover icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "chevron-right",
+                      "library": "lucide",
+                      "fill": "$brand.navy"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FceUv",
+                  "x": 312,
+                  "y": 620,
+                  "name": "Passive position · fifth of five",
+                  "height": 8,
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "ssDbD",
+                      "name": "Active position pill · Pink on Navy",
+                      "opacity": 0.55,
+                      "fill": "#DBF2FC",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "e9uvPw",
+                      "name": "Inactive position 2",
+                      "opacity": 0.55,
+                      "fill": "#DBF2FC",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "x0vcoO",
+                      "name": "Inactive position 3",
+                      "opacity": 0.55,
+                      "fill": "#DBF2FC",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "I8wfj",
+                      "name": "Inactive position 4",
+                      "opacity": 0.55,
+                      "fill": "#DBF2FC",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "FWfgy",
+                      "name": "Inactive position 5",
+                      "fill": "#FD6E88",
+                      "width": 24,
+                      "height": 8
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "jKWK6",
+                  "x": 196,
+                  "y": 590,
+                  "name": "Source credit · fixture only",
+                  "enabled": false,
+                  "fill": "#DBF2FC",
+                  "textGrowth": "fixed-width",
+                  "width": 320,
+                  "content": "ผู้สร้างคลิปตัวอย่าง ↗",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Mitr",
+                  "fontSize": 14
+                }
+              ]
+            },
+            {
+              "type": "path",
+              "id": "OZNFF",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 760,
+              "name": "Reused Home pool-edge transition into articles",
+              "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+              "viewBox": [
+                0,
+                0,
+                1440,
+                95
+              ],
+              "fill": "#FFFFFF",
+              "width": 1440,
+              "height": 56
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "N5w3ev",
+          "x": 40,
+          "y": 954,
+          "name": "Review note",
+          "fill": "#072D59",
+          "textGrowth": "fixed-width",
+          "width": 1440,
+          "content": "เล่นอยู่ / หยุดชั่วคราว / Buffering ใช้ตัวเล่น TikTok จริง · เว็บออกแบบเฉพาะ deck และปุ่มเลือกคลิป",
+          "lineHeight": 1.5,
+          "fontFamily": "Mitr",
+          "fontSize": 17
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "hAYhj",
+      "x": 49910,
+      "y": 22011,
+      "name": "REVIEW · TikTok states-r3 · first · no previous clip",
+      "clip": true,
+      "width": 1520,
+      "height": 1016,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "Qys4z",
+          "x": 40,
+          "y": 28,
+          "name": "Review state label",
+          "fill": "#072D59",
+          "textGrowth": "fixed-width",
+          "width": 1440,
+          "content": "คลิปแรก · ยังไม่มีคลิปก่อนหน้าทางซ้าย",
+          "lineHeight": 1.5,
+          "fontFamily": "Mitr",
+          "fontSize": 28
+        },
+        {
+          "type": "frame",
+          "id": "v9qG0",
+          "x": 40,
+          "y": 104,
+          "name": "TikTok r3 · first · no previous clip",
+          "width": 1440,
+          "height": 816,
+          "fill": "$brand.navy",
+          "gap": 48,
+          "padding": [
+            48,
+            56,
+            80,
+            56
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "H41Nu",
+              "name": "TikTok left narrative and browse action",
+              "width": 448,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "IZReg",
+                  "name": "TikTok source label · open platform lockup",
+                  "height": 28,
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "kGvA0",
+                      "name": "TikTok platform icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "tiktok-logo",
+                      "library": "phosphor",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "m42yB",
+                      "name": "Curated TikTok label",
+                      "fill": "$brand.light",
+                      "content": "คลิปคัดสรรจาก TikTok",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ln1JS",
+                  "name": "Editorial headline with reused water signature",
+                  "width": "fill_container",
+                  "height": 128,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IUPFM",
+                      "name": "TikTok split headline",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "พาชมพูลวิลล่า\nก่อนออกไปพักด้วยกัน",
+                      "lineHeight": 1.28,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 40
+                    },
+                    {
+                      "type": "path",
+                      "id": "YnmyE",
+                      "layoutPosition": "absolute",
+                      "x": 184,
+                      "y": 98,
+                      "name": "Hero water signature reused below heading",
+                      "geometry": "M4 23c31-23 43-20 46-10 1 16 33 9 49-8-3 18 17 18 45 3",
+                      "viewBox": [
+                        0,
+                        0,
+                        148,
+                        32
+                      ],
+                      "width": 192,
+                      "height": 28,
+                      "stroke": "$brand.pink",
+                      "strokeWidth": 4,
+                      "strokeLinecap": "round"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "RCAW3",
+                  "name": "TikTok split supporting copy",
+                  "fill": "$brand.light",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "รวมคลิปพาชมบ้านและไอเดียวันพักผ่อน\nที่เราคัดมาให้ดู ก่อนเลือกมุมที่อยากไปพัก",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16
+                },
+                {
+                  "type": "frame",
+                  "id": "r9qT0R",
+                  "name": "Browse all villas · static proposed existing Results entry · OPEN-001",
+                  "width": 200,
+                  "height": 52,
+                  "fill": "$brand.pink",
+                  "cornerRadius": 26,
+                  "gap": 10,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ag8e7",
+                      "name": "Browse all villas pink-white CTA reference",
+                      "fill": "#FFFFFF",
+                      "content": "ดูที่พักทั้งหมด",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "ElRIV",
+                      "name": "Browse villas directional arrow",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "arrow-up-right",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "c76xOP",
+              "name": "Poolside clip deck · asymmetric depth and water line",
+              "clip": true,
+              "width": 832,
+              "height": 688,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "XnSGM",
+                  "layoutPosition": "absolute",
+                  "x": 28,
+                  "y": 520,
+                  "name": "Ambient pool water line · reused brand signature",
+                  "geometry": "M4 23c31-23 43-20 46-10 1 16 33 9 49-8-3 18 17 18 45 3",
+                  "viewBox": [
+                    0,
+                    0,
+                    148,
+                    32
+                  ],
+                  "width": 720,
+                  "height": 100,
+                  "stroke": "#DBF2FC30",
+                  "strokeWidth": 2,
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "frame",
+                  "id": "B4s2G",
+                  "x": 556,
+                  "y": 160,
+                  "name": "Farthest next clip preview",
+                  "opacity": 0.54,
+                  "rotation": -5,
+                  "width": 196,
+                  "height": 348,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "effect": [
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "#072D5940",
+                      "offset": {
+                        "x": 0,
+                        "y": 12
+                      },
+                      "blur": 26
+                    },
+                    {
+                      "type": "shader",
+                      "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                      "uniforms": {
+                        "u_content": "pencil:object",
+                        "u_angle": 0.2,
+                        "u_distance": 1000,
+                        "u_scale": 0.99,
+                        "u_light": 0.92
+                      }
+                    }
+                  ],
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "j2gcf",
+                      "x": 3,
+                      "y": 3,
+                      "name": "Farthest next clip preview · generated study image",
+                      "width": 190,
+                      "height": 342,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/generated-4.png",
+                        "mode": "cover"
+                      },
+                      "cornerRadius": 15,
+                      "layout": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CXLFy",
+                  "x": 438,
+                  "y": 96,
+                  "name": "Next clip behind selected card",
+                  "opacity": 0.74,
+                  "rotation": 4,
+                  "width": 248,
+                  "height": 440,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "effect": [
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "#072D5940",
+                      "offset": {
+                        "x": 0,
+                        "y": 12
+                      },
+                      "blur": 26
+                    },
+                    {
+                      "type": "shader",
+                      "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                      "uniforms": {
+                        "u_content": "pencil:object",
+                        "u_angle": 0.27,
+                        "u_distance": 1000,
+                        "u_scale": 0.99,
+                        "u_light": 0.92
+                      }
+                    }
+                  ],
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FhEQW",
+                      "x": 3,
+                      "y": 3,
+                      "name": "Next clip behind selected card · generated study image",
+                      "width": 242,
+                      "height": 434,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/generated-5.png",
+                        "mode": "cover"
+                      },
+                      "cornerRadius": 15,
+                      "layout": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rFbzY",
+                  "x": 196,
+                  "y": 16,
+                  "name": "Front selected TikTok cover · manual-play study",
+                  "clip": true,
+                  "width": 320,
+                  "height": 568,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/generated-3.png",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": 24,
+                  "stroke": "$brand.pink",
+                  "strokeWidth": 2,
+                  "strokeAlignment": "inner",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#072D5940",
+                    "offset": {
+                      "x": 0,
+                      "y": 24
+                    },
+                    "blur": 40
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NbPMh",
+                      "x": 132,
+                      "y": 256,
+                      "name": "Play selected clip · 56px manual target",
+                      "width": 56,
+                      "height": 56,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Eldsn",
+                          "name": "Selected clip play icon",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "play-fill",
+                          "library": "phosphor",
+                          "fill": "$brand.navy"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BQnXV",
+                  "x": 0,
+                  "y": 280,
+                  "name": "Previous clip · disabled at first · consistent left edge",
+                  "opacity": 0.35,
+                  "width": 48,
+                  "height": 48,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#072D5926",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 18
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "PKLU3",
+                      "name": "Previous clip · disabled at first icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "chevron-left",
+                      "library": "lucide",
+                      "fill": "$brand.navy"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qOCFm",
+                  "x": 716,
+                  "y": 280,
+                  "name": "Next clip · select next cover",
+                  "width": 48,
+                  "height": 48,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#072D5926",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 18
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "zMlFt",
+                      "name": "Next clip · select next cover icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "chevron-right",
+                      "library": "lucide",
+                      "fill": "$brand.navy"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pZWju",
+                  "x": 312,
+                  "y": 620,
+                  "name": "Passive clip position indicators · first of five",
+                  "height": 8,
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "MsPNV",
+                      "name": "Active position pill · Pink on Navy",
+                      "fill": "$brand.pink",
+                      "width": 24,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "kyHVJ",
+                      "name": "Inactive position 2",
+                      "opacity": 0.55,
+                      "fill": "$brand.light",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "G2PrSI",
+                      "name": "Inactive position 3",
+                      "opacity": 0.55,
+                      "fill": "$brand.light",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "BszwZ",
+                      "name": "Inactive position 4",
+                      "opacity": 0.55,
+                      "fill": "$brand.light",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "KvKRq",
+                      "name": "Inactive position 5",
+                      "opacity": 0.55,
+                      "fill": "$brand.light",
+                      "width": 8,
+                      "height": 8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "path",
+              "id": "PM3Qd",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 760,
+              "name": "Reused Home pool-edge transition into articles",
+              "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+              "viewBox": [
+                0,
+                0,
+                1440,
+                95
+              ],
+              "fill": "#FFFFFF",
+              "width": 1440,
+              "height": 56
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "t0nGM",
+          "x": 40,
+          "y": 954,
+          "name": "Review note",
+          "fill": "#072D59",
+          "textGrowth": "fixed-width",
+          "width": 1440,
+          "content": "เมื่อเลื่อนไปคลิปถัดไป จะแสดงคลิปก่อนหน้า 1 ใบทางซ้าย · ไม่เปลี่ยนการเลือกคลิปให้เป็น Autoplay",
+          "lineHeight": 1.5,
+          "fontFamily": "Mitr",
+          "fontSize": 17
+        }
+      ]
+    }
+  ]
+}
+

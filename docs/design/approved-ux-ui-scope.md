@@ -1,7 +1,7 @@
 # Approved UX/UI direction — condensed handoff (not final design artifact)
 
 ## Product and behavior
-Thai pool-villa booking marketplace paipak.com. Browse/search all homes without selecting check-in/check-out dates. Booking requires a member account. Preserve Property ID, date range and guests when prompted to log in, then **revalidate** price and availability. Search includes destination/date/guest fields; date/guest optional for browsing.
+Thai pool-villa booking marketplace papaipak.com. Browse/search all homes without selecting check-in/check-out dates. Booking requires a member account. Preserve Property ID, date range and guests when prompted to log in, then **revalidate** price and availability. Search includes destination/date/guest fields; date/guest optional for browsing.
 
 ### Owner-confirmed UXD-001 clarifications — 2 November 2026
 
@@ -15,6 +15,8 @@ These clarifications supersede conflicting review-1 proposals. See [UXD-001 revi
 
 ## Brand
 Pink Accent Premium; navy `#072D59`; light-blue `#DBF2FC`; crimson-pink `#FD6E88`; white base; Mitr typeface. Modern & vibrant, cinematic photography, slightly rounded and elevated surfaces, expressive motion with reduced-motion support. Avoid default SaaS templates.
+
+Owner clarification on 3 November 2026: Mitr remains the primary typeface. A supplementary font may be proposed with a defined role, but its name and usage require owner approval before use; no supplementary font is approved by this clarification.
 
 ## Approved 7 villa category shortcuts
 1. พูลวิลล่าแนะนำ
@@ -45,3 +47,5 @@ WCAG 2.2 AA minimum; pink `#FD6E88` with white normal text fails contrast. Do no
 
 ## Design production process
 User manually starts each `UXD-*`, `DSD-*`, or `UID-*` task with Design Agent; task-local discussion and final owner design approval; only then unblock corresponding frontend coding work. Existing screenshots in planning are not approved regression baselines.
+
+Owner order amendment on 3 November 2026: approve Visual Direction/version in DSD-001 before Wireframe revisions and G2 acceptance in UXD-002, while preserving approved UX/business rules. Existing review-5 remains draft evidence awaiting owner review; do not regenerate or approve it from this amendment. The owner subsequently approved [Design Governance Kit v1.0](governance/README.md) as the project-wide standard on the same date. Its Homepage example remains illustrative only. Each task's design/version still requires explicit owner approval before related frontend implementation.

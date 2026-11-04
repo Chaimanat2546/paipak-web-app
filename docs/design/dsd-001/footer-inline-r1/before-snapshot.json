@@ -1,0 +1,460 @@
+{
+  "type": "frame",
+  "id": "b5ltx",
+  "name": "Selected Footer-detail-r3 · Home Desktop-r8",
+  "width": "fill_container",
+  "fill": "#FFFFFF",
+  "layout": "vertical",
+  "children": [
+    {
+      "type": "frame",
+      "id": "ya8RY",
+      "name": "Footer pool-edge transition",
+      "clip": true,
+      "width": "fill_container",
+      "height": 48,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "path",
+          "id": "qtNbO",
+          "x": 0,
+          "y": 0,
+          "name": "Reused pool-edge motif · light blue Footer entry",
+          "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+          "viewBox": [
+            0,
+            0,
+            1440,
+            95
+          ],
+          "fill": "#DBF2FC",
+          "width": 1440,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "e8yBTd",
+      "name": "Footer light blue surface",
+      "width": "fill_container",
+      "fill": "#DBF2FC",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": [
+        24,
+        56
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "biSl9",
+          "name": "Footer brand and contact row",
+          "width": "fill_container",
+          "height": 48,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "uge9q",
+              "name": "Footer papaipak brand link · existing placeholder logo",
+              "height": 46,
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FHNME",
+                  "name": "Placeholder logo · house and pool · not final brand asset",
+                  "width": 42,
+                  "height": 42,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "A73Gd",
+                      "x": 1,
+                      "y": 1,
+                      "name": "Pink villa silhouette",
+                      "geometry": "M4 18q0-2 2-4l12-10q2-2 4 0l12 10q2 2 2 4v15q0 3-3 3h-26q-3 0-3-3z",
+                      "viewBox": [
+                        0,
+                        0,
+                        40,
+                        40
+                      ],
+                      "fill": "#FD6E88",
+                      "width": 40,
+                      "height": 40
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": [
+                        3,
+                        3,
+                        0,
+                        0
+                      ],
+                      "id": "F5gVw6",
+                      "x": 17,
+                      "y": 20,
+                      "name": "Villa doorway",
+                      "fill": "#FFFFFF",
+                      "width": 10,
+                      "height": 15
+                    },
+                    {
+                      "type": "path",
+                      "id": "Ya1wu",
+                      "x": 2,
+                      "y": 32,
+                      "name": "Navy pool wave",
+                      "geometry": "M1 4q4-4 9 0 5 4 10 0 5-4 10 0 4 3 7 0",
+                      "viewBox": [
+                        0,
+                        0,
+                        38,
+                        8
+                      ],
+                      "fill": "#FFFFFF00",
+                      "width": 38,
+                      "height": 8,
+                      "stroke": "#072D59",
+                      "strokeWidth": 2.5,
+                      "strokeLinecap": "round"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "afoAI",
+                  "name": "papaipak wordmark study",
+                  "fill": "#072D59",
+                  "content": "papaipak",
+                  "lineHeight": 1.2,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 38,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SpxV7",
+              "name": "Footer contact navigation · destination review pending",
+              "width": 152,
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "gap": 10,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "lyJgL",
+                  "name": "Footer contact headphones",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "headphones",
+                  "library": "lucide",
+                  "fill": "#072D59"
+                },
+                {
+                  "type": "text",
+                  "id": "BYCoO",
+                  "name": "Footer contact label",
+                  "fill": "#072D59",
+                  "content": "ติดต่อ",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LyBro",
+          "name": "Footer closing message and supporting navigation",
+          "width": "fill_container",
+          "gap": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "CM4V3",
+              "name": "Footer brand message and marketplace description",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "X6NpB",
+                  "name": "Footer closing message · existing copy",
+                  "fill": "#072D59",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "พื้นที่ความสุขส่วนตัว",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 32
+                },
+                {
+                  "type": "text",
+                  "id": "xJWC1",
+                  "name": "Footer supporting description · reused Home copy",
+                  "fill": "#072D59",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "ค้นพบพูลวิลล่าสำหรับวันดี ๆ ของคุณ",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "L2J0B0",
+              "name": "Footer supporting content links · two columns",
+              "width": 560,
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "I8Rco",
+                  "name": "Footer information link column",
+                  "width": 264,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SL8TC",
+                      "name": "Footer navigation group heading · เริ่มต้นกับ papaipak",
+                      "fill": "#072D59",
+                      "content": "เริ่มต้นกับ papaipak",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "W1276e",
+                      "name": "เกี่ยวกับเรา Footer link target · same-tab content",
+                      "width": "fill_container",
+                      "height": 44,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "t9HGDP",
+                          "name": "เกี่ยวกับเรา Footer link label",
+                          "fill": "#072D59",
+                          "content": "เกี่ยวกับเรา",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "BDoMt",
+                          "name": "Footer internal content navigation arrow",
+                          "opacity": 0.55,
+                          "width": 14,
+                          "height": 14,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "#072D59"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rUArU",
+                      "name": "วิธีจอง Footer link target · same-tab content",
+                      "width": "fill_container",
+                      "height": 44,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "P9gHWi",
+                          "name": "วิธีจอง Footer link label",
+                          "fill": "#072D59",
+                          "content": "วิธีจอง",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "Jq7ez",
+                          "name": "Footer internal content navigation arrow",
+                          "opacity": 0.55,
+                          "width": 14,
+                          "height": 14,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "#072D59"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "t60AT",
+                  "name": "Footer policies link column",
+                  "width": 264,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "X3ILg",
+                      "name": "Footer navigation group heading · ข้อมูลสำคัญ",
+                      "fill": "#072D59",
+                      "content": "ข้อมูลสำคัญ",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NTVss",
+                      "name": "เงื่อนไข Footer link target · same-tab content",
+                      "width": "fill_container",
+                      "height": 44,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "IrsHB",
+                          "name": "เงื่อนไข Footer link label",
+                          "fill": "#072D59",
+                          "content": "เงื่อนไข",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "n73Vc",
+                          "name": "Footer internal content navigation arrow",
+                          "opacity": 0.55,
+                          "width": 14,
+                          "height": 14,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "#072D59"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "W1V2QB",
+                      "name": "ความเป็นส่วนตัว Footer link target · same-tab content",
+                      "width": "fill_container",
+                      "height": 44,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "libki",
+                          "name": "ความเป็นส่วนตัว Footer link label",
+                          "fill": "#072D59",
+                          "content": "ความเป็นส่วนตัว",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "c6H8Zw",
+                          "name": "Footer internal content navigation arrow",
+                          "opacity": 0.55,
+                          "width": 14,
+                          "height": 14,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "#072D59"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "A6yqOt",
+          "name": "Footer domain and return-to-top row",
+          "width": "fill_container",
+          "height": 44,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "yJnnK",
+              "name": "Owner-confirmed papaipak domain",
+              "fill": "#072D59",
+              "content": "papaipak.com",
+              "lineHeight": 1.5,
+              "fontFamily": "$font.primary",
+              "fontSize": 14
+            },
+            {
+              "type": "frame",
+              "id": "xLUpL",
+              "name": "Footer return to top · preserves Home criteria",
+              "height": 44,
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "t9qCm",
+                  "name": "Return to top label",
+                  "fill": "#072D59",
+                  "content": "กลับขึ้นด้านบน",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 14
+                },
+                {
+                  "type": "icon",
+                  "id": "gyrFY",
+                  "name": "Return to top arrow",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "arrow-up",
+                  "library": "lucide",
+                  "fill": "#072D59"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

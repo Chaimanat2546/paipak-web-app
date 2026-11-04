@@ -1,0 +1,55 @@
+{
+  "version": "Article-safe-area-r2",
+  "task": "DSD-001",
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "status": "withdrawn_from_owner_review_after_external_cover_authoring_clarification; history_only",
+  "principle_reference": "../article-cover-16x9-r1/owner-safe-area-choice.json",
+  "native_board": "W6Mdof",
+  "native_featured": "j3YS3",
+  "native_cover": "rjor8",
+  "native_panel": "ejrBH",
+  "image": "W6Mdof.png",
+  "image_sha256": "a1e2b9f866d196e21e0319720d17d3a0ddcea56376a332b61a00b2bb31f5dbf4",
+  "image_size_px": [
+    1504,
+    710
+  ],
+  "fixture_geometry": {
+    "cover_px": [
+      696,
+      391.5
+    ],
+    "ratio": "16:9",
+    "panel_top_y": 315.5,
+    "overlap_px": 76,
+    "overlap_percent_approx": 19.4,
+    "critical_text_bottom_y_approx": 244,
+    "critical_photo_bottom_y": 224.5,
+    "universal_safe_area_rule": false
+  },
+  "scope": "Editable mock cover for text visibility check, not a production cover or new cover-template standard",
+  "qa": {
+    "native_png_opened": true,
+    "cover_ratio_and_existing_panel_geometry_checked": true,
+    "critical_text_and_photo_visible_before_after_overlap": true,
+    "bounds": "Diagnostics retained: review caption flagged while exported visual is complete; not certified clean",
+    "browser_runtime_tested": false,
+    "responsive_coverage": "Desktop fixture only; Mobile paused"
+  },
+  "owner_sample_approved": false,
+  "production_cover_approved": false,
+  "main_home_unchanged": true,
+  "approved_source_unchanged": true,
+  "variables_unchanged": true,
+  "whole_article_approved": false,
+  "whole_home_approved": false,
+  "foundation_approved": false,
+  "frontend_authorized": false,
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "owner_clarification": "owner-cover-source-clarification.json",
+  "native_board_enabled": false,
+  "sample_is_acceptance_prerequisite": false
+}

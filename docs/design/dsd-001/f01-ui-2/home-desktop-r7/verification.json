@@ -1,0 +1,20 @@
+{
+  "header_hero_shortcuts_footer_unchanged": true,
+  "recommended_row_unchanged": true,
+  "category_sections": 7,
+  "card_instances": 54,
+  "unique_fixture_ids": 24,
+  "independent_tracks": true,
+  "all_tracks_initially_zero": true,
+  "viewports_four_cards": true,
+  "track_widths_match": true,
+  "uniform_card_sizes": true,
+  "no_listing_counter": true,
+  "one_row_coordinate_change_independent": true,
+  "all_restored": true,
+  "history_artwork_preserved": true,
+  "status": "applied_home_desktop_pending_owner_review",
+  "classification_verification": "not_verified_mock_layout_only",
+  "functional_prototype": false,
+  "OPEN_001": "open"
+}

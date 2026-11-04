@@ -1,0 +1,18 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "ปกก็คือปกส่วนตัวตัวหนังสืออ่ะมันอยู่ที่ว่าเขาไป Custom มาจาก Photoshop ไม่เกี่ยวกับเว็บ",
+  "status": "owner_clarified_cover_is_completed_image_with_baked_text_authored_outside_website",
+  "interpretation": "Website displays the supplied cover as one image; text within the image is not website typography or an editable web text layer. Article title/body outside the image remain separate website content.",
+  "action": "Withdraw constructed-cover sample from owner review; hide native sample board and retain history",
+  "native_board": "W6Mdof",
+  "native_board_enabled": false,
+  "cover_editor_or_template_authorized": false,
+  "prior_16_9_and_no_auto_crop_zoom_changed": false,
+  "prior_safe_area_principle_reopened": false,
+  "real_image_occlusion_verification_completed": false,
+  "whole_article_approved": false,
+  "whole_home_approved": false,
+  "frontend_authorized": false
+}

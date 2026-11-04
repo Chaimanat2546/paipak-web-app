@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "question_id": "home-desktop-closeout-plan-1/Q7",
+  "question": "ถ้าคัดบทความขึ้น Home ไว้แค่ 1–2 เรื่อง แต่ยังมีเรื่องอื่นในคลัง ให้เติมอัตโนมัติไหม?",
+  "owner_quote": "2",
+  "selected_option": "เติมบทความล่าสุดให้ครบ 3 เรื่อง; เรื่องเด่น 1 และเรื่องรอง 2",
+  "status": "owner_confirmed_content_rule",
+  "scope": "Home article selection when one or two eligible curated stories remain",
+  "curated_priority": "Keep eligible curated stories first in their curated order",
+  "top_up": {
+    "enabled": true,
+    "target_total": 3,
+    "source": "Other eligible articles, most recently edited first under Q6",
+    "placement": "Append after curated stories",
+    "duplicates": false
+  },
+  "insufficient_eligible_stories": "Show only available stories; retain accepted one-story or two-story layout without placeholders",
+  "curated_empty": "Existing latest fallback remains in force",
+  "zero_eligible_stories": "Existing hide-section rule remains in force",
+  "eligibility": "Existing required-field and failed-cover rules remain in force",
+  "prior_one_and_two_story_acceptances": "Still valid for final result counts after selection and top-up",
+  "data_contract_verified": false,
+  "query_implemented": false,
+  "whole_article_version_approved": false,
+  "frontend_authorized": false
+}

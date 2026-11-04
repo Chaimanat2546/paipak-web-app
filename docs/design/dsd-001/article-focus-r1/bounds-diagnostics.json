@@ -1,0 +1,33 @@
+{
+  "featured": [
+    {
+      "id": "fjqqK",
+      "name": "Whole-story keyboard focus · decorative arrow has no separate Tab stop",
+      "problem": "partially clipped"
+    }
+  ],
+  "supporting": [
+    {
+      "id": "BFvWr",
+      "name": "Supporting story keyboard focus · whole-story target",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "e0TuXf",
+      "name": "Supporting article text 1",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "lpXG8",
+      "name": "Supporting focus title underline · decorative feedback",
+      "problem": "fully clipped"
+    }
+  ],
+  "index": [
+    {
+      "id": "N718ad",
+      "name": "All articles link keyboard focus",
+      "problem": "fully clipped"
+    }
+  ]
+}

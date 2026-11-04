@@ -1,0 +1,13 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "question": "ตรวจ Footer-contact-column-r2: ใช้ตามภาพ, เพิ่มพื้นที่คอลัมน์ติดต่อ, หรือลดขนาดไอคอนและช่องไฟ",
+  "owner_quote": "3",
+  "selected_option": "ลดขนาดไอคอนและช่องไฟ",
+  "status": "owner_requested_revision",
+  "result": "Footer-contact-column-r3 / kengy",
+  "result_appearance_approved": false,
+  "whole_home_version_approved": false,
+  "frontend_authorized": false
+}

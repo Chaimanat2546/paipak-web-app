@@ -1,0 +1,18 @@
+{
+  "version": "Home-Guest-Header-r7-trial",
+  "status": "pending_owner_review",
+  "checks": {
+    "main_home_at_canvas_origin": true,
+    "main_home_body_unchanged_including_ids": true,
+    "header_matches_guest_r7_candidate": true,
+    "guest_sign_in_label_present": true,
+    "no_profile_avatar": true,
+    "header_height_124": true,
+    "old_header_preserved_in_history": true,
+    "original_a_study_artwork_preserved": true,
+    "no_path_geometry_placeholders": true
+  },
+  "visual_review": "Opened exported full Home PNG; sign-in button visible with Hero and villa cards.",
+  "scope": "Static Home Desktop only",
+  "OPEN-001": "open"
+}

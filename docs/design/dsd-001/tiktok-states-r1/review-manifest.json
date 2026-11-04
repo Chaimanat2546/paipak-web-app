@@ -1,0 +1,184 @@
+{
+  "version": "TikTok-states-r1",
+  "task": "DSD-001",
+  "status": "returned_by_owner",
+  "instruction": "ยังไม่ได้ออกกแบบ state ของ tiktok เลย",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "source_home": {
+    "current_node": "Oftfq",
+    "previous_exported_node": "eMYWM",
+    "version": "Home-media-ui-r6 / Home Desktop-r14",
+    "unchanged": true,
+    "id_note": "Current Pencil session exposes remapped identifiers; prior exported snapshots retain their original IDs."
+  },
+  "overview": {
+    "node": "Pixz3",
+    "png": "Pixz3.png"
+  },
+  "host_controls": {
+    "node": "wMtDm",
+    "png": "wMtDm.png"
+  },
+  "states": [
+    {
+      "board": "wBAQ2",
+      "key": "ready",
+      "stage": "ornvD",
+      "front": "Pg0yZ",
+      "prev": "nrvsg",
+      "next": "hwvZU",
+      "dots": "X5MIY",
+      "title": "พร้อมเล่น · โฟกัสด้วยคีย์บอร์ด",
+      "png": "wBAQ2.png"
+    },
+    {
+      "board": "wBAQ2",
+      "key": "loading",
+      "stage": "QngGE",
+      "front": "bktBJ",
+      "prev": "lzSex",
+      "next": "bYQJ0",
+      "dots": "idqxu",
+      "title": "กดเล่น · กำลังเตรียมคลิป",
+      "png": "wBAQ2.png"
+    },
+    {
+      "board": "V2P8IZ",
+      "key": "playing",
+      "stage": "h2FlKz",
+      "front": "ZUf2L",
+      "prev": "g9mSjG",
+      "next": "yKQby",
+      "dots": "CYfRI",
+      "title": "กำลังเล่นบนหน้า Home",
+      "png": "V2P8IZ.png"
+    },
+    {
+      "board": "V2P8IZ",
+      "key": "paused",
+      "stage": "QEQh0",
+      "front": "qMlxh",
+      "prev": "AQe2G",
+      "next": "S14Wb",
+      "dots": "v9s4z",
+      "title": "หยุดชั่วคราว · เล่นต่อ",
+      "png": "V2P8IZ.png"
+    },
+    {
+      "board": "WITnS",
+      "key": "buffering",
+      "stage": "dmrEI",
+      "front": "PNTp8",
+      "prev": "SqXK7",
+      "next": "I5FeV4",
+      "dots": "qB60Y",
+      "title": "สะดุดระหว่างเล่น · รอข้อมูล",
+      "png": "WITnS.png"
+    },
+    {
+      "board": "WITnS",
+      "key": "ended",
+      "stage": "QzWA3",
+      "front": "bABZR",
+      "prev": "w0KQn",
+      "next": "qZ9UO",
+      "dots": "ytEUz",
+      "title": "เล่นจบ · เลือกทำต่อ",
+      "png": "WITnS.png"
+    },
+    {
+      "board": "D8uZn",
+      "key": "middle",
+      "stage": "U0Rlw",
+      "front": "o7PhI",
+      "prev": "ygpUv",
+      "next": "WhEph",
+      "dots": "WixFd",
+      "title": "เลือกคลิปใหม่ · ตำแหน่งกลาง",
+      "png": "D8uZn.png"
+    },
+    {
+      "board": "D8uZn",
+      "key": "last",
+      "stage": "FDPSG",
+      "front": "Kx7A9",
+      "prev": "jPP69",
+      "next": "aEtLh",
+      "dots": "kNoDV",
+      "title": "คลิปสุดท้าย · สิ้นสุดรายการ",
+      "png": "D8uZn.png"
+    },
+    {
+      "board": "Z0VFLO",
+      "key": "error",
+      "stage": "x7hOA3",
+      "front": "ITybs",
+      "prev": "ADgrB",
+      "next": "X0fSi",
+      "dots": "h5SBN4",
+      "title": "โหลดไม่สำเร็จ · ลองใหม่ได้",
+      "png": "Z0VFLO.png"
+    },
+    {
+      "board": "Z0VFLO",
+      "key": "unavailable",
+      "stage": "mHPuN",
+      "front": "xv9o1",
+      "prev": "yFJhY",
+      "next": "BFZMx",
+      "dots": "M6Tce8",
+      "title": "คลิปไม่พร้อมให้รับชม",
+      "png": "Z0VFLO.png"
+    },
+    {
+      "board": "SONbt",
+      "key": "section-loading",
+      "stage": "s9gMGQ",
+      "front": "FhyTN",
+      "prev": "JEDbL",
+      "next": "e8skH",
+      "dots": "s1hE6A",
+      "title": "กำลังโหลดรายการที่คัดไว้",
+      "png": "SONbt.png"
+    },
+    {
+      "board": "SONbt",
+      "key": "empty",
+      "stage": "YunIj",
+      "front": "GqcKT",
+      "prev": "JEwWA",
+      "next": "o50JHu",
+      "dots": "sJXuQ",
+      "title": "ไม่มีคลิปที่แสดงได้ · ยุบ section",
+      "png": "SONbt.png"
+    }
+  ],
+  "functional_prototype": false,
+  "provider_controls": "schematic_not_pixel_verified",
+  "owner_approved_behavior": [
+    "manual click-to-play",
+    "inline on Home",
+    "only one playing clip",
+    "curated links from multiple channels"
+  ],
+  "proposed_behavior": [
+    "no wrap at rail end",
+    "newly selected clip waits at cover",
+    "no automatic next after ended",
+    "pause when out of viewport or tab hidden; no auto resume",
+    "hide section when no eligible clips remain"
+  ],
+  "home_unchanged": true,
+  "variables_unchanged": true,
+  "mobile": "paused",
+  "frontend": "not_authorized",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "whole_canvas": {
+    "nodes": 36259,
+    "roots": 119
+  },
+  "owner_feedback": "ไม่สวยเลยมันดูไม่เข้ากับเว็บ",
+  "revised_by": "../tiktok-states-r2/README.md"
+}

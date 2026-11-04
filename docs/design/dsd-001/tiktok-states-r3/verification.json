@@ -1,0 +1,82 @@
+{
+  "version": "TikTok-states-r3",
+  "home_unchanged": true,
+  "variables_unchanged": true,
+  "position_checks": [
+    {
+      "key": "middle",
+      "previous_count": 1,
+      "expected": 1,
+      "one_previous_behind_front": true,
+      "front_position": [
+        196,
+        16
+      ],
+      "front_size": [
+        320,
+        568
+      ]
+    },
+    {
+      "key": "last",
+      "previous_count": 1,
+      "expected": 1,
+      "one_previous_behind_front": true,
+      "front_position": [
+        196,
+        16
+      ],
+      "front_size": [
+        320,
+        568
+      ]
+    },
+    {
+      "key": "first",
+      "previous_count": 0,
+      "expected": 0,
+      "one_previous_behind_front": true,
+      "front_position": [
+        196,
+        16
+      ],
+      "front_size": [
+        320,
+        568
+      ]
+    }
+  ],
+  "all_position_checks_pass": true,
+  "named_nodes": true,
+  "unfinished_roots": [],
+  "png_dimensions": {
+    "cadzh.png": [
+      1440,
+      816
+    ],
+    "hAYhj.png": [
+      1520,
+      1016
+    ],
+    "Mc8Rp.png": [
+      1440,
+      816
+    ],
+    "nXylc.png": [
+      1520,
+      1016
+    ],
+    "PUm76.png": [
+      1520,
+      1016
+    ],
+    "v9qG0.png": [
+      1440,
+      816
+    ]
+  },
+  "provider_states": "Native TikTok; no new custom Playing Paused Buffering UI",
+  "runtime_verified": false,
+  "owner_version_approval": "accepted_bounded_tiktok_state_design",
+  "owner_acceptance": "owner-acceptance.json"
+}

@@ -1,0 +1,21 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "1",
+  "question": "ตรวจสถานะกำลังโหลดบทความ: ใช้ตามภาพ / ลดรายละเอียด / ปรับสีให้เห็นชัดขึ้น",
+  "selected_option": "ใช้ตามภาพ",
+  "status": "owner_accepted_loading_state_appearance",
+  "version": "Article-states-r1",
+  "native_root": "BvlEu",
+  "image": "BvlEu.png",
+  "image_sha256": "29679ed5c2122d0170f6fd95b562e893ea5768e25d4c449e17a2d0187ecf9765",
+  "scope": "Displayed static article loading skeleton at Desktop 1440px; section only",
+  "animation_or_timing_approved": false,
+  "error_state_approved": false,
+  "body_fallback_state_approved": false,
+  "whole_article_version_approved": false,
+  "whole_home_version_approved": false,
+  "functional_acceptance": false,
+  "frontend_authorized": false
+}

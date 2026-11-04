@@ -1,0 +1,130 @@
+{
+  "default": [
+    {
+      "id": "KCbCH",
+      "name": "REVIEW · Article-states-r1 · default three stories",
+      "bounds": {
+        "x": 81894,
+        "y": 23490,
+        "width": 1440,
+        "height": 719.5
+      }
+    },
+    {
+      "id": "wAoFH",
+      "name": "Article section heading and index link",
+      "bounds": {
+        "x": 56,
+        "y": 40,
+        "width": 1328,
+        "height": 49
+      }
+    },
+    {
+      "id": "rPpt8",
+      "name": "Editorial composition · lead and secondary stories",
+      "bounds": {
+        "x": 56,
+        "y": 121,
+        "width": 1328,
+        "height": 526.5
+      }
+    }
+  ],
+  "no_excerpt": [
+    {
+      "id": "l5kvNr",
+      "name": "REVIEW · Article-states-r1 · no excerpts · natural height",
+      "bounds": {
+        "x": 83434,
+        "y": 23490,
+        "width": 1440,
+        "height": 683.5
+      }
+    },
+    {
+      "id": "Bg8Ty",
+      "name": "Article section heading and index link",
+      "bounds": {
+        "x": 56,
+        "y": 40,
+        "width": 1328,
+        "height": 49
+      }
+    },
+    {
+      "id": "iAq8K",
+      "name": "Editorial composition · lead and secondary stories",
+      "bounds": {
+        "x": 56,
+        "y": 121,
+        "width": 1328,
+        "height": 490.5
+      }
+    }
+  ],
+  "loading": [
+    {
+      "id": "BvlEu",
+      "name": "REVIEW · Article-states-r1 · loading skeleton · section only",
+      "bounds": {
+        "x": 84974,
+        "y": 23490,
+        "width": 1440,
+        "height": 719.5
+      }
+    },
+    {
+      "id": "PBEoj",
+      "name": "Article section heading and index link",
+      "bounds": {
+        "x": 56,
+        "y": 40,
+        "width": 1328,
+        "height": 49
+      }
+    },
+    {
+      "id": "oEwkt",
+      "name": "Article loading composition · reserves default geometry",
+      "bounds": {
+        "x": 56,
+        "y": 171,
+        "width": 1328,
+        "height": 526.5
+      }
+    }
+  ],
+  "error": [
+    {
+      "id": "f6x4t",
+      "name": "REVIEW · Article-states-r1 · request error and retry",
+      "bounds": {
+        "x": 86514,
+        "y": 23490,
+        "width": 1440,
+        "height": 381
+      }
+    },
+    {
+      "id": "dRW6z",
+      "name": "Article section heading and index link",
+      "bounds": {
+        "x": 56,
+        "y": 40,
+        "width": 1328,
+        "height": 49
+      }
+    },
+    {
+      "id": "aQo7t",
+      "name": "Section-local article error · not empty catalog",
+      "bounds": {
+        "x": 56,
+        "y": 171,
+        "width": 1328,
+        "height": 188
+      }
+    }
+  ]
+}

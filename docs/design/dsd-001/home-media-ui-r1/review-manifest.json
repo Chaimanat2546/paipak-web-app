@@ -1,0 +1,89 @@
+{
+  "version": "Home-media-ui-r1 / Home Desktop-r9 draft",
+  "task": "DSD-001",
+  "created_on": "2026-11-04",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "authorization": {
+    "instruction": "ออกแบบ ui เลยได้ไหม",
+    "basis": "Owner requested UI execution after confirming home-content requirements and reviewing foundation impact; bounded follow-up to this DSD-001 conversation",
+    "scope": "Two Home Desktop sections in a copied r8 screen for visual review; no automatic start of another task"
+  },
+  "status": "draft_pending_owner_review",
+  "foundation_approval_status": "pending_owner_review",
+  "mobile_status": "paused_by_owner",
+  "functional_prototype": false,
+  "OPEN_001": "open; original Pink/White CTA retained",
+  "frames": [
+    {
+      "id": "fSC7S",
+      "name": "Home Desktop-r9 draft",
+      "png": "fSC7S.png",
+      "width": 1440,
+      "height": 6034
+    },
+    {
+      "id": "QYUtP",
+      "name": "New TikTok and articles sections",
+      "png": "QYUtP.png",
+      "width": 1440,
+      "height": 1456
+    },
+    {
+      "id": "U85bZz",
+      "name": "TikTok section",
+      "png": "U85bZz.png",
+      "width": 1440,
+      "height": 784
+    },
+    {
+      "id": "XuqNc",
+      "name": "Articles section",
+      "png": "XuqNc.png",
+      "width": 1440,
+      "height": 672
+    }
+  ],
+  "baseline": {
+    "id": "iQ3YE",
+    "version": "Home Desktop-r8",
+    "approval": "owner_accepted_combined_appearance_only",
+    "unchanged": true
+  },
+  "proposed_visual_defaults": {
+    "placement": "After seven villa sections, before owner-accepted Footer",
+    "tiktok": "Left introduction and copied navigation controls; three 328x584 portrait covers visible, fourth fixture off-track; 56px play targets",
+    "articles": "One 640px feature with two supporting stories; 44px reading links; sample topic labels",
+    "typography": "Mitr; headings 32/400; clip titles18/500; lead article26/400; supporting titles22/400",
+    "not_final_tokens": true
+  },
+  "checks": {
+    "original_source_unchanged": true,
+    "existing_copied_sections_match": true,
+    "font_variable_unchanged": true,
+    "wrapper_before_footer": true,
+    "source_retained": true,
+    "draft_root_first": true,
+    "placeholder_removed": true
+  },
+  "wholeCanvas": {
+    "roots": 109,
+    "nodes": 31738
+  },
+  "assets": {
+    "source": "Existing generated study images reused from Home-r8; no new image or creator rights certified",
+    "covers": [
+      "images/generated-3.png",
+      "images/generated-4.png",
+      "images/generated-5.png",
+      "images/generated-1.png"
+    ],
+    "content": "Fictional clip/article titles and explicitly sample creator credits; no real curated post URLs selected"
+  },
+  "known_limits": [
+    "Static idle state only; playback, one-active synchronization, hover/focus/error/loading and rail end states are not implemented or fully designed",
+    "No live TikTok integration, article reader, CMS, backend or frontend",
+    "No new responsive/Mobile or actual keyboard/zoom/reduced-motion testing",
+    "Native visitor bounds returned inconsistent placement/clipping positions; rendered PNGs were inspected instead; do not count visitor flags as a passing browser test",
+    "Pencil browser return-screenshot query timed out; source article reference was inspected via CDP screenshot instead"
+  ]
+}

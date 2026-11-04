@@ -1,0 +1,1145 @@
+{
+  "root": "e407uY",
+  "popup": "xXmX6",
+  "snapshot": {
+    "type": "frame",
+    "id": "e407uY",
+    "x": 6174,
+    "y": 20943,
+    "name": "REVIEW · Home 4C.1 · compact language popover · r2",
+    "clip": true,
+    "width": 688,
+    "height": 414,
+    "fill": "#FFFFFF",
+    "cornerRadius": 20,
+    "layout": "none",
+    "children": [
+      {
+        "type": "frame",
+        "id": "SaJtP",
+        "x": -720,
+        "y": 124,
+        "name": "language hero context",
+        "width": 1440,
+        "height": 470,
+        "layout": "none",
+        "children": [
+          {
+            "type": "rectangle",
+            "id": "rceRN",
+            "x": 0,
+            "y": 0,
+            "name": "A hero · generated architectural scene",
+            "fill": {
+              "type": "image",
+              "enabled": true,
+              "url": "images/generated-9.png",
+              "mode": "cover"
+            },
+            "width": 1440,
+            "height": 470
+          },
+          {
+            "type": "frame",
+            "id": "s0EGm",
+            "x": 136,
+            "y": 32,
+            "name": "A headline and supporting copy",
+            "width": 540,
+            "layout": "vertical",
+            "gap": 4,
+            "children": [
+              {
+                "type": "text",
+                "id": "y4NGf",
+                "name": "A headline line one",
+                "fill": "#072D59",
+                "content": "พักด้วยกัน",
+                "lineHeight": 1.13,
+                "fontFamily": "$font.primary",
+                "fontSize": 96,
+                "fontWeight": "600"
+              },
+              {
+                "type": "text",
+                "id": "q9e2s0",
+                "name": "A headline line two",
+                "fill": "#072D59",
+                "content": "ให้เต็มที่",
+                "lineHeight": 1.13,
+                "fontFamily": "$font.primary",
+                "fontSize": 96,
+                "fontWeight": "600"
+              },
+              {
+                "type": "text",
+                "id": "WdxSu",
+                "name": "A supporting copy",
+                "fill": "#072D59",
+                "content": "ค้นพบพูลวิลล่าสำหรับวันดี ๆ ของคุณ",
+                "lineHeight": 1.6,
+                "fontFamily": "$font.primary",
+                "fontSize": 22,
+                "fontWeight": "500"
+              }
+            ]
+          },
+          {
+            "type": "path",
+            "id": "bf1mA",
+            "x": 470,
+            "y": 204,
+            "name": "A pink water signature",
+            "geometry": "M4 23c31-23 43-20 46-10 1 16 33 9 49-8-3 18 17 18 45 3",
+            "viewBox": [
+              0,
+              0,
+              148,
+              32
+            ],
+            "width": 148,
+            "height": 32,
+            "stroke": "#FD6E88",
+            "strokeWidth": 5,
+            "strokeLinecap": "round"
+          },
+          {
+            "type": "path",
+            "id": "Viess",
+            "x": 0,
+            "y": 375,
+            "name": "White pool-edge transition",
+            "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+            "viewBox": [
+              0,
+              0,
+              1440,
+              95
+            ],
+            "fill": "#FFFFFF",
+            "width": 1440,
+            "height": 95
+          },
+          {
+            "type": "frame",
+            "id": "hObPI",
+            "x": 200,
+            "y": 330,
+            "name": "A centered optional search",
+            "width": 1040,
+            "height": 88,
+            "fill": "#FFFFFF",
+            "cornerRadius": 32,
+            "effect": {
+              "type": "shadow",
+              "shadowType": "outer",
+              "color": "#072D5926",
+              "offset": {
+                "x": 0,
+                "y": 6
+              },
+              "blur": 20
+            },
+            "gap": 12,
+            "padding": [
+              12,
+              20
+            ],
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "frame",
+                "id": "EF6OZ",
+                "name": "สถานที่ optional field",
+                "width": "fill_container",
+                "gap": 16,
+                "padding": [
+                  0,
+                  10
+                ],
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "H9S5J",
+                    "name": "สถานที่ icon",
+                    "width": 30,
+                    "height": 30,
+                    "icon": "map-pin",
+                    "library": "lucide",
+                    "fill": "#072D59"
+                  },
+                  {
+                    "type": "frame",
+                    "id": "jGoK2",
+                    "name": "สถานที่ text",
+                    "layout": "vertical",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "v194lz",
+                        "name": "สถานที่ label",
+                        "fill": "#072D59",
+                        "content": "สถานที่",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 17,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "text",
+                        "id": "zk5Bm",
+                        "name": "สถานที่ value",
+                        "fill": "#6B7280",
+                        "content": "อยากไปที่ไหน",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 17,
+                        "fontWeight": "normal"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "RaaL9",
+                "name": "วันเข้าพัก optional field",
+                "width": "fill_container",
+                "gap": 16,
+                "padding": [
+                  0,
+                  10
+                ],
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "B16G2r",
+                    "name": "วันเข้าพัก icon",
+                    "width": 30,
+                    "height": 30,
+                    "icon": "calendar-days",
+                    "library": "lucide",
+                    "fill": "#072D59"
+                  },
+                  {
+                    "type": "frame",
+                    "id": "eBker",
+                    "name": "วันเข้าพัก text",
+                    "layout": "vertical",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "A0k9q2",
+                        "name": "วันเข้าพัก label",
+                        "fill": "#072D59",
+                        "content": "วันเข้าพัก",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 17,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "text",
+                        "id": "jzYGh",
+                        "name": "วันเข้าพัก value",
+                        "fill": "#6B7280",
+                        "content": "เลือกวันภายหลัง",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 17,
+                        "fontWeight": "normal"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "Y3KCa",
+                "name": "ผู้เข้าพัก optional field",
+                "width": "fill_container",
+                "gap": 16,
+                "padding": [
+                  0,
+                  10
+                ],
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "GyqqR",
+                    "name": "ผู้เข้าพัก icon",
+                    "width": 30,
+                    "height": 30,
+                    "icon": "users",
+                    "library": "lucide",
+                    "fill": "#072D59"
+                  },
+                  {
+                    "type": "frame",
+                    "id": "kVxBp",
+                    "name": "ผู้เข้าพัก text",
+                    "layout": "vertical",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "zd2sk",
+                        "name": "ผู้เข้าพัก label",
+                        "fill": "#072D59",
+                        "content": "ผู้เข้าพัก",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 17,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "text",
+                        "id": "wTHFn",
+                        "name": "ผู้เข้าพัก value",
+                        "fill": "#6B7280",
+                        "content": "คน / สัตว์เลี้ยง",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 17,
+                        "fontWeight": "normal"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "BRuMT",
+                "name": "CTA · owner selected original pink white",
+                "width": 164,
+                "height": 60,
+                "fill": "#FD6E88",
+                "cornerRadius": 18,
+                "gap": 10,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "dHJw6",
+                    "name": "Search icon white",
+                    "width": 26,
+                    "height": 26,
+                    "icon": "search",
+                    "library": "lucide",
+                    "fill": "#FFFFFF"
+                  },
+                  {
+                    "type": "text",
+                    "id": "M9KRTL",
+                    "name": "ค้นหา · white label",
+                    "fill": "#FFFFFF",
+                    "content": "ค้นหา",
+                    "fontFamily": "$font.primary",
+                    "fontSize": 22,
+                    "fontWeight": "500"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "PQSsu",
+        "x": -720,
+        "y": 0,
+        "name": "language approved header context",
+        "width": 1440,
+        "height": 124,
+        "fill": "#FFFFFF",
+        "gap": 24,
+        "padding": [
+          16,
+          56
+        ],
+        "justifyContent": "space_between",
+        "alignItems": "center",
+        "children": [
+          {
+            "type": "frame",
+            "id": "ZE2k6",
+            "name": "Brand and owner display notice",
+            "width": 480,
+            "layout": "vertical",
+            "gap": 6,
+            "children": [
+              {
+                "type": "frame",
+                "id": "mutg5",
+                "name": "Placeholder logo and papaipak wordmark",
+                "height": 46,
+                "gap": 10,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "HSKVN",
+                    "name": "Placeholder logo · house and pool · not final brand asset",
+                    "width": 42,
+                    "height": 42,
+                    "layout": "none",
+                    "children": [
+                      {
+                        "type": "path",
+                        "id": "FYnbr",
+                        "x": 1,
+                        "y": 1,
+                        "name": "Pink villa silhouette",
+                        "geometry": "M4 18q0-2 2-4l12-10q2-2 4 0l12 10q2 2 2 4v15q0 3-3 3h-26q-3 0-3-3z",
+                        "viewBox": [
+                          0,
+                          0,
+                          40,
+                          40
+                        ],
+                        "fill": "#FD6E88",
+                        "width": 40,
+                        "height": 40
+                      },
+                      {
+                        "type": "rectangle",
+                        "cornerRadius": [
+                          3,
+                          3,
+                          0,
+                          0
+                        ],
+                        "id": "m11VL",
+                        "x": 17,
+                        "y": 20,
+                        "name": "Villa doorway",
+                        "fill": "#FFFFFF",
+                        "width": 10,
+                        "height": 15
+                      },
+                      {
+                        "type": "path",
+                        "id": "Q7jz3",
+                        "x": 2,
+                        "y": 32,
+                        "name": "Navy pool wave",
+                        "geometry": "M1 4q4-4 9 0 5 4 10 0 5-4 10 0 4 3 7 0",
+                        "viewBox": [
+                          0,
+                          0,
+                          38,
+                          8
+                        ],
+                        "fill": "#FFFFFF00",
+                        "width": 38,
+                        "height": 8,
+                        "stroke": "#072D59",
+                        "strokeWidth": 2.5,
+                        "strokeLinecap": "round"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "hGwds",
+                    "name": "papaipak wordmark study",
+                    "fill": "#072D59",
+                    "content": "papaipak",
+                    "lineHeight": 1.2,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 38,
+                    "fontWeight": "600"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "qfNV2",
+                "name": "Owner supplied display notice",
+                "fill": "#072D59",
+                "textGrowth": "fixed-width",
+                "width": "fill_container",
+                "content": "กรุณาโอนเงิน ชื่อ ...... แบบบริษัท",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 14
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "Wwt5f",
+            "name": "Right navigation · main links and icon utilities",
+            "width": 760,
+            "height": 52,
+            "gap": 28,
+            "justifyContent": "end",
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "frame",
+                "id": "VNKv5",
+                "name": "Primary navigation",
+                "height": 48,
+                "gap": 12,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "IIx6o",
+                    "name": "หน้าแรก · current page",
+                    "width": 48,
+                    "height": 48,
+                    "fill": "#FFFFFF",
+                    "cornerRadius": 16,
+                    "gap": 16,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "gvqig",
+                        "name": "หน้าแรก · current page icon",
+                        "width": 22,
+                        "height": 22,
+                        "icon": "house",
+                        "library": "lucide",
+                        "fill": "#FD6E88"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "LfxxT",
+                    "name": "ค้นหาที่พัก navigation target",
+                    "height": 48,
+                    "gap": 16,
+                    "padding": [
+                      0,
+                      12
+                    ],
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "EZgu2",
+                        "name": "ค้นหาที่พัก navigation label",
+                        "fill": "#072D59",
+                        "content": "ค้นหาที่พัก",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 17,
+                        "fontWeight": "500"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "XV0EW",
+                    "name": "บทความ navigation target",
+                    "height": 48,
+                    "gap": 16,
+                    "padding": [
+                      0,
+                      8
+                    ],
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "rYcpI",
+                        "name": "บทความ navigation label",
+                        "fill": "#072D59",
+                        "content": "บทความ",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 17
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "bDsXM",
+                "name": "Language and contact utilities",
+                "height": 52,
+                "fill": "#FFFFFF",
+                "cornerRadius": 16,
+                "gap": 4,
+                "padding": 4,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "seV3C",
+                    "name": "เปลี่ยนภาษา · ไทย / English",
+                    "width": 44,
+                    "height": 44,
+                    "fill": "#DBF2FC",
+                    "cornerRadius": 12,
+                    "gap": 16,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "EZLmu",
+                        "name": "ภาษาไทย · circular Thailand flag",
+                        "clip": true,
+                        "width": 22,
+                        "height": 22,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 11,
+                        "layout": "vertical",
+                        "children": [
+                          {
+                            "type": "rectangle",
+                            "id": "VQgH8",
+                            "name": "Top red stripe",
+                            "fill": "#A51931",
+                            "width": 22,
+                            "height": 3.6666666666666665
+                          },
+                          {
+                            "type": "rectangle",
+                            "id": "qdq2y",
+                            "name": "Upper white stripe",
+                            "fill": "#FFFFFF",
+                            "width": 22,
+                            "height": 3.6666666666666665
+                          },
+                          {
+                            "type": "rectangle",
+                            "id": "CP1fu",
+                            "name": "Center blue stripe",
+                            "fill": "#2D2A4A",
+                            "width": 22,
+                            "height": 7.333333333333333
+                          },
+                          {
+                            "type": "rectangle",
+                            "id": "z9ua6E",
+                            "name": "Lower white stripe",
+                            "fill": "#FFFFFF",
+                            "width": 22,
+                            "height": 3.6666666666666665
+                          },
+                          {
+                            "type": "rectangle",
+                            "id": "yfD4M",
+                            "name": "Bottom red stripe",
+                            "fill": "#A51931",
+                            "width": 22,
+                            "height": 3.6666666666666665
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "nCmJv",
+                    "name": "ติดต่อเรา · LINE OA / โทร",
+                    "width": 44,
+                    "height": 44,
+                    "fill": "#FFFFFF00",
+                    "cornerRadius": 12,
+                    "gap": 16,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "w9UhGQ",
+                        "name": "ติดต่อเรา · LINE OA / โทร icon",
+                        "width": 22,
+                        "height": 22,
+                        "icon": "headset",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "w5bInA",
+                "name": "Guest · เข้าสู่ระบบ · WF-05 Login first",
+                "width": 148,
+                "height": 48,
+                "fill": "#FD6E88",
+                "cornerRadius": 16,
+                "gap": 8,
+                "padding": [
+                  0,
+                  20
+                ],
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "RuB0d",
+                    "name": "Sign-in action icon",
+                    "width": 20,
+                    "height": 20,
+                    "icon": "log-in",
+                    "library": "lucide",
+                    "fill": "#FFFFFF"
+                  },
+                  {
+                    "type": "text",
+                    "id": "v18pes",
+                    "name": "Guest sign-in label",
+                    "fill": "#FFFFFF",
+                    "content": "เข้าสู่ระบบ",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 16,
+                    "fontWeight": "500"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "xXmX6",
+        "x": 212,
+        "y": 96,
+        "name": "Language popover · compact 224px",
+        "width": 224,
+        "fill": "#FFFFFF",
+        "cornerRadius": 16,
+        "effect": {
+          "type": "shadow",
+          "shadowType": "outer",
+          "color": "#072D5926",
+          "offset": {
+            "x": 0,
+            "y": 8
+          },
+          "blur": 24
+        },
+        "layout": "vertical",
+        "gap": 2,
+        "padding": 8,
+        "children": [
+          {
+            "type": "frame",
+            "id": "Sdtu7",
+            "name": "language menu heading",
+            "width": "fill_container",
+            "height": 44,
+            "padding": [
+              0,
+              0,
+              0,
+              8
+            ],
+            "justifyContent": "space_between",
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "id": "Bm2Qd",
+                "name": "language menu title",
+                "fill": "#072D59",
+                "content": "เลือกภาษา",
+                "fontFamily": "$font.primary",
+                "fontSize": 16,
+                "fontWeight": "500"
+              },
+              {
+                "type": "frame",
+                "id": "Wt0Ql",
+                "name": "language close target · 44px",
+                "width": 44,
+                "height": 44,
+                "cornerRadius": 12,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "KfJoe",
+                    "name": "language close icon",
+                    "width": 16,
+                    "height": 16,
+                    "icon": "x",
+                    "library": "lucide",
+                    "fill": "#072D59"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "QZYVg",
+            "name": "language option 0",
+            "width": "fill_container",
+            "height": 44,
+            "fill": "#DBF2FC",
+            "cornerRadius": 12,
+            "gap": 10,
+            "padding": [
+              0,
+              8
+            ],
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "frame",
+                "id": "bMavc",
+                "name": "Thai flag · 22px",
+                "clip": true,
+                "width": 22,
+                "height": 22,
+                "fill": "#FFFFFF",
+                "cornerRadius": 11,
+                "layout": "vertical",
+                "children": [
+                  {
+                    "type": "rectangle",
+                    "id": "VkVit",
+                    "name": "Top red stripe",
+                    "fill": "#A51931",
+                    "width": 22,
+                    "height": 3.6666666666666665
+                  },
+                  {
+                    "type": "rectangle",
+                    "id": "rGIjO",
+                    "name": "Upper white stripe",
+                    "fill": "#FFFFFF",
+                    "width": 22,
+                    "height": 3.6666666666666665
+                  },
+                  {
+                    "type": "rectangle",
+                    "id": "TJ50u",
+                    "name": "Center blue stripe",
+                    "fill": "#2D2A4A",
+                    "width": 22,
+                    "height": 7.333333333333333
+                  },
+                  {
+                    "type": "rectangle",
+                    "id": "RxvCV",
+                    "name": "Lower white stripe",
+                    "fill": "#FFFFFF",
+                    "width": 22,
+                    "height": 3.6666666666666665
+                  },
+                  {
+                    "type": "rectangle",
+                    "id": "HcGcQ",
+                    "name": "Bottom red stripe",
+                    "fill": "#A51931",
+                    "width": 22,
+                    "height": 3.6666666666666665
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "bkbkM",
+                "name": "Language option 0",
+                "fill": "#072D59",
+                "textGrowth": "fixed-width",
+                "width": "fill_container",
+                "content": "ไทย",
+                "fontFamily": "$font.primary",
+                "fontSize": 16,
+                "fontWeight": "500"
+              },
+              {
+                "type": "icon",
+                "id": "GJnRr",
+                "name": "Selected language check",
+                "width": 20,
+                "height": 20,
+                "icon": "check",
+                "library": "lucide",
+                "fill": "#072D59"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "QRSaM",
+            "name": "language option 1",
+            "width": "fill_container",
+            "height": 44,
+            "fill": "#FFFFFF",
+            "cornerRadius": 12,
+            "gap": 10,
+            "padding": [
+              0,
+              8
+            ],
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "frame",
+                "id": "goCS7",
+                "name": "English · UK flag · source SVG vector · 22px circle",
+                "clip": true,
+                "width": 22,
+                "height": 22,
+                "cornerRadius": 11,
+                "layout": "none",
+                "children": [
+                  {
+                    "type": "path",
+                    "id": "FwbHY",
+                    "x": 0,
+                    "y": 0,
+                    "name": "UK flag source path 0",
+                    "geometry": "M0 0h512v512h-512z",
+                    "viewBox": [
+                      0,
+                      0,
+                      512,
+                      512
+                    ],
+                    "fill": "#012169",
+                    "width": 22,
+                    "height": 22
+                  },
+                  {
+                    "type": "path",
+                    "id": "PQUza",
+                    "x": 0,
+                    "y": 0,
+                    "name": "UK flag source path 1",
+                    "geometry": "M512 0v64l-190 192 190 187v69h-67l-191-188-186 188h-68v-68l186-187-186-183v-74h62l192 188 186-188z",
+                    "viewBox": [
+                      0,
+                      0,
+                      512,
+                      512
+                    ],
+                    "fill": "#FFF",
+                    "width": 22,
+                    "height": 22
+                  },
+                  {
+                    "type": "path",
+                    "id": "Q1RIVs",
+                    "x": 0,
+                    "y": 0,
+                    "name": "UK flag source path 2",
+                    "geometry": "M184 324l11 34-153 154h-42v-3z m124-12l54 8 150 147v45z m204-312l-192 196-4-44 150-152z m-512 1l193 189-59-8-134-133z",
+                    "viewBox": [
+                      0,
+                      0,
+                      512,
+                      512
+                    ],
+                    "fill": "#C8102E",
+                    "width": 22,
+                    "height": 22
+                  },
+                  {
+                    "type": "path",
+                    "id": "T8uJz",
+                    "x": 0,
+                    "y": 0,
+                    "name": "UK flag source path 3",
+                    "geometry": "M176 0v512h160v-512z m-176 176v160h512v-160z",
+                    "viewBox": [
+                      0,
+                      0,
+                      512,
+                      512
+                    ],
+                    "fill": "#FFF",
+                    "width": 22,
+                    "height": 22
+                  },
+                  {
+                    "type": "path",
+                    "id": "RlpwQ",
+                    "x": 0,
+                    "y": 0,
+                    "name": "UK flag source path 4",
+                    "geometry": "M0 208v96h512v-96z m208-208v512h96v-512z",
+                    "viewBox": [
+                      0,
+                      0,
+                      512,
+                      512
+                    ],
+                    "fill": "#C8102E",
+                    "width": 22,
+                    "height": 22
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "JwRCD",
+                "name": "Language option 1",
+                "fill": "#072D59",
+                "textGrowth": "fixed-width",
+                "width": "fill_container",
+                "content": "English",
+                "fontFamily": "$font.primary",
+                "fontSize": 16,
+                "fontWeight": "normal"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "popupReadback": [
+    {
+      "id": "xXmX6",
+      "name": "Language popover · compact 224px",
+      "width": 224,
+      "height": 152
+    },
+    {
+      "id": "Sdtu7",
+      "name": "language menu heading",
+      "width": 208,
+      "height": 44
+    },
+    {
+      "id": "Bm2Qd",
+      "name": "language menu title",
+      "width": 69,
+      "height": 25
+    },
+    {
+      "id": "Wt0Ql",
+      "name": "language close target · 44px",
+      "width": 44,
+      "height": 44
+    },
+    {
+      "id": "KfJoe",
+      "name": "language close icon",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "QZYVg",
+      "name": "language option 0",
+      "width": 208,
+      "height": 44
+    },
+    {
+      "id": "bMavc",
+      "name": "Thai flag · 22px",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "VkVit",
+      "name": "Top red stripe",
+      "width": 22,
+      "height": 3.6666666666666665
+    },
+    {
+      "id": "rGIjO",
+      "name": "Upper white stripe",
+      "width": 22,
+      "height": 3.6666666666666665
+    },
+    {
+      "id": "TJ50u",
+      "name": "Center blue stripe",
+      "width": 22,
+      "height": 7.333333333333333
+    },
+    {
+      "id": "RxvCV",
+      "name": "Lower white stripe",
+      "width": 22,
+      "height": 3.666666666666666
+    },
+    {
+      "id": "HcGcQ",
+      "name": "Bottom red stripe",
+      "width": 22,
+      "height": 3.666666666666668
+    },
+    {
+      "id": "bkbkM",
+      "name": "Language option 0",
+      "width": 130,
+      "height": 25
+    },
+    {
+      "id": "GJnRr",
+      "name": "Selected language check",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "QRSaM",
+      "name": "language option 1",
+      "width": 208,
+      "height": 44
+    },
+    {
+      "id": "goCS7",
+      "name": "English · UK flag · source SVG vector · 22px circle",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "FwbHY",
+      "name": "UK flag source path 0",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "PQUza",
+      "name": "UK flag source path 1",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "Q1RIVs",
+      "name": "UK flag source path 2",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "T8uJz",
+      "name": "UK flag source path 3",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "RlpwQ",
+      "name": "UK flag source path 4",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "JwRCD",
+      "name": "Language option 1",
+      "width": 160,
+      "height": 25
+    }
+  ],
+  "wholeCanvas": {
+    "roots": 102,
+    "nodes": 23385
+  }
+}

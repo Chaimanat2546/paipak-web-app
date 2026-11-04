@@ -1,0 +1,108 @@
+{
+  "version": "foundation-1",
+  "status": "proposed; OPEN-001 open",
+  "method": "WCAG sRGB relative luminance; unrounded threshold comparisons",
+  "sources": [
+    "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html"
+  ],
+  "limits": "Solid pairs only, not all rendered states/photographic/translucent contexts",
+  "pairs": [
+    {
+      "name": "white/pink",
+      "foreground": "#FFFFFF",
+      "background": "#FD6E88",
+      "ratio": 2.705343217728925,
+      "normalTextAA": false,
+      "nonText3To1": false
+    },
+    {
+      "name": "navy/pink",
+      "foreground": "#072D59",
+      "background": "#FD6E88",
+      "ratio": 5.077980501367648,
+      "normalTextAA": true,
+      "nonText3To1": true
+    },
+    {
+      "name": "navy/white",
+      "foreground": "#072D59",
+      "background": "#FFFFFF",
+      "ratio": 13.737680109134693,
+      "normalTextAA": true,
+      "nonText3To1": true
+    },
+    {
+      "name": "navy/light",
+      "foreground": "#072D59",
+      "background": "#DBF2FC",
+      "ratio": 11.852687944511379,
+      "normalTextAA": true,
+      "nonText3To1": true
+    },
+    {
+      "name": "body/white",
+      "foreground": "#202124",
+      "background": "#FFFFFF",
+      "ratio": 16.098951261824404,
+      "normalTextAA": true,
+      "nonText3To1": true
+    },
+    {
+      "name": "body/quiet",
+      "foreground": "#202124",
+      "background": "#F7F7F7",
+      "ratio": 15.027387562067453,
+      "normalTextAA": true,
+      "nonText3To1": true
+    },
+    {
+      "name": "muted/white",
+      "foreground": "#6B7280",
+      "background": "#FFFFFF",
+      "ratio": 4.834490081424352,
+      "normalTextAA": true,
+      "nonText3To1": true
+    },
+    {
+      "name": "muted/quiet",
+      "foreground": "#6B7280",
+      "background": "#F7F7F7",
+      "ratio": 4.512701165249804,
+      "normalTextAA": true,
+      "nonText3To1": true
+    },
+    {
+      "name": "muted/light",
+      "foreground": "#6B7280",
+      "background": "#DBF2FC",
+      "ratio": 4.1711338341512425,
+      "normalTextAA": false,
+      "nonText3To1": true
+    },
+    {
+      "name": "success/white",
+      "foreground": "#15803D",
+      "background": "#FFFFFF",
+      "ratio": 5.0155974781114745,
+      "normalTextAA": true,
+      "nonText3To1": true
+    },
+    {
+      "name": "error/white",
+      "foreground": "#B91C1C",
+      "background": "#FFFFFF",
+      "ratio": 6.4700447145121895,
+      "normalTextAA": true,
+      "nonText3To1": true
+    },
+    {
+      "name": "decorative-border/white",
+      "foreground": "#E5E7EB",
+      "background": "#FFFFFF",
+      "ratio": 1.238090749353873,
+      "normalTextAA": false,
+      "nonText3To1": false
+    }
+  ]
+}

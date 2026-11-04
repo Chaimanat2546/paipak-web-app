@@ -1,0 +1,981 @@
+{
+  "version": "F01-ui-3",
+  "display_name": "papaipak",
+  "domain": "papaipak.com",
+  "status": "pending_owner_review",
+  "functional_prototype": false,
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_snapshot": "editable-snapshot.json",
+  "review_group_count": 29,
+  "native_active_review_node_count": 5956,
+  "whole_canvas_roots": 157,
+  "whole_canvas_nodes": 38045,
+  "supplementary_home_media_draft": {
+    "version": "Home-media-ui-r6 / Home Desktop-r14 draft",
+    "node": "Oftfq",
+    "native_node_count": 2087,
+    "artifact": "../home-media-ui-r6/README.md",
+    "status": "draft_pending_owner_review",
+    "scope": "Owner-requested article refinement: featured image with floating reading panel and pool-edge backing, plus two supporting rows. TikTok and other Home sections unchanged. Final UI/foundation approval pending.",
+    "previous_exported_node": "eMYWM"
+  },
+  "selected_icon_version": "Header-icons-r4",
+  "selected_icon_approval_scope": "owner selected icon assets and authorized rollout, not full combined UI acceptance",
+  "frames": [
+    {
+      "node": "iQ3YE",
+      "width": 1440,
+      "height": 4578,
+      "png": "home-guided-review/home-desktop-r8/iQ3YE.png",
+      "name": "F01 · Home Desktop-r8 · consolidated guided review",
+      "native_node_count": 1954,
+      "typography_revision": "1A / category labels Mitr 600; recommended heading Mitr Regular 400",
+      "photo_controls_revision": "2B.1 / Photo-quiet-r1 / 28px face, 44px target",
+      "native_snapshot": "home-guided-review/home-desktop-r8/editable-snapshot.json",
+      "footer_revision": "Owner-accepted Footer-detail-r3 / integrated node r9F19E",
+      "status": "owner_accepted_combined_appearance_only; OPEN-001_and_readiness_items_pending"
+    },
+    {
+      "node": "avf6v",
+      "width": 390,
+      "height": 844,
+      "png": "avf6v.png",
+      "name": "F01 · Gallery viewer · Mobile 390x844 · ui-3",
+      "native_node_count": 17
+    },
+    {
+      "node": "dbMM6",
+      "width": 1440,
+      "height": 1030,
+      "png": "dbMM6.png",
+      "name": "F01 · WF-10I Carousel five states · Mobile",
+      "native_node_count": 103
+    },
+    {
+      "node": "E3Tu4",
+      "width": 390,
+      "height": 844,
+      "png": "E3Tu4.png",
+      "name": "F01 · WF-01N Open navigation · Mobile 390x844 · ui-3",
+      "native_node_count": 58
+    },
+    {
+      "node": "E9JumJ",
+      "width": 1440,
+      "height": 1022,
+      "png": "E9JumJ.png",
+      "name": "F01 · WF-02P Dates and guests · Mobile",
+      "native_node_count": 254
+    },
+    {
+      "node": "g9sYI",
+      "width": 1440,
+      "height": 962,
+      "png": "g9sYI.png",
+      "name": "F01 · WF-10I Carousel five states · Desktop",
+      "native_node_count": 103
+    },
+    {
+      "node": "GjoEH",
+      "width": 1440,
+      "height": 1022,
+      "png": "GjoEH.png",
+      "name": "F01 · WF-02A Location states · Mobile",
+      "native_node_count": 57
+    },
+    {
+      "node": "h9ExoH",
+      "width": 1440,
+      "height": 519,
+      "png": "h9ExoH.png",
+      "name": "F01 · Header-r11 utility states · ui-3",
+      "native_node_count": 75
+    },
+    {
+      "node": "HpR7z",
+      "width": 1440,
+      "height": 1815,
+      "png": "results-upper-r3/screens/HpR7z.png",
+      "name": "F01 · WF-02 Pagination page 2 · Desktop · ui-3 · Results-upper-r3",
+      "native_node_count": 392
+    },
+    {
+      "node": "JGYFJ",
+      "width": 1440,
+      "height": 996,
+      "png": "JGYFJ.png",
+      "name": "F01 · Draft and cancel filters · Desktop",
+      "native_node_count": 88
+    },
+    {
+      "node": "L8ev6",
+      "width": 390,
+      "height": 3891,
+      "png": "results-r2/screens/L8ev6.png",
+      "name": "F01 · WF-02 Results · Mobile · ui-3 · Results-r2",
+      "native_node_count": 333
+    },
+    {
+      "node": "LoLN7",
+      "width": 1440,
+      "height": 849,
+      "png": "LoLN7.png",
+      "name": "F01 · WF-02P Dates and guests · Desktop",
+      "native_node_count": 254
+    },
+    {
+      "node": "NhfIy",
+      "width": 390,
+      "height": 844,
+      "png": "NhfIy.png",
+      "name": "F01 · WF-02F Filter drawer · Mobile 390x844 · ui-3",
+      "native_node_count": 46
+    },
+    {
+      "node": "NmzZ4",
+      "width": 1440,
+      "height": 1501,
+      "png": "results-upper-r3/screens/NmzZ4.png",
+      "name": "F01 · WF-02 Applied filters · Desktop · ui-3 · Results-upper-r3",
+      "native_node_count": 332
+    },
+    {
+      "node": "O5lUa1",
+      "width": 1440,
+      "height": 1022,
+      "png": "O5lUa1.png",
+      "name": "F01 · WF-10 Loading empty error · Mobile",
+      "native_node_count": 106
+    },
+    {
+      "node": "osaIa",
+      "width": 1440,
+      "height": 1815,
+      "png": "results-upper-r3/screens/osaIa.png",
+      "name": "F01 · WF-02 Results · Desktop · ui-3 · Results-upper-r3",
+      "native_node_count": 392
+    },
+    {
+      "node": "Oyv0v",
+      "width": 1440,
+      "height": 649,
+      "png": "Oyv0v.png",
+      "name": "F01 · WF-02A Location states · Desktop",
+      "native_node_count": 57
+    },
+    {
+      "node": "P62IV",
+      "width": 390,
+      "height": 3891,
+      "png": "results-r2/screens/P62IV.png",
+      "name": "F01 · WF-02 Pagination page 2 · Mobile · ui-3 · Results-r2",
+      "native_node_count": 333
+    },
+    {
+      "node": "PiA4h",
+      "width": 390,
+      "height": 2341,
+      "png": "PiA4h.png",
+      "name": "F01 · WF-01 Home · Mobile · ui-3",
+      "native_node_count": 145
+    },
+    {
+      "node": "qcEOf",
+      "width": 1440,
+      "height": 1653,
+      "png": "qcEOf.png",
+      "name": "F01 · WF-03 Detail · Desktop · ui-3",
+      "native_node_count": 106
+    },
+    {
+      "node": "Qu46v",
+      "width": 1440,
+      "height": 798,
+      "png": "Qu46v.png",
+      "name": "F01 · WF-10 Loading empty error · Desktop",
+      "native_node_count": 46
+    },
+    {
+      "node": "Rg5AF",
+      "width": 390,
+      "height": 844,
+      "png": "Rg5AF.png",
+      "name": "F01 · WF-10F Incomplete search dates · Mobile 390x844 · ui-3",
+      "native_node_count": 113
+    },
+    {
+      "node": "S3VaWy",
+      "width": 390,
+      "height": 2176,
+      "png": "S3VaWy.png",
+      "name": "F01 · WF-03 Detail · Mobile · ui-3",
+      "native_node_count": 89
+    },
+    {
+      "node": "TKJ7Z",
+      "width": 1440,
+      "height": 900,
+      "png": "TKJ7Z.png",
+      "name": "F01 · Gallery viewer · Desktop 1440x900 · ui-3",
+      "native_node_count": 17
+    },
+    {
+      "node": "uBBn2",
+      "width": 1440,
+      "height": 546,
+      "png": "uBBn2.png",
+      "name": "F01 · Return to origin and preserved context",
+      "native_node_count": 29
+    },
+    {
+      "node": "vnCNA",
+      "width": 1440,
+      "height": 842,
+      "png": "vnCNA.png",
+      "name": "F01 · WF-10F Incomplete search dates · Desktop",
+      "native_node_count": 129
+    },
+    {
+      "node": "w9QeyO",
+      "width": 1440,
+      "height": 426,
+      "png": "w9QeyO.png",
+      "name": "F01 · START HERE · A UI review-2",
+      "native_node_count": 17
+    },
+    {
+      "node": "yL7bS",
+      "width": 390,
+      "height": 844,
+      "png": "yL7bS.png",
+      "name": "F01 · WF-03V Detail viewport · Mobile 390x844 · ui-3",
+      "native_node_count": 36
+    },
+    {
+      "node": "YQRxl",
+      "width": 390,
+      "height": 3311,
+      "png": "results-r2/screens/YQRxl.png",
+      "name": "F01 · WF-02 Applied filters · Mobile · ui-3 · Results-r2",
+      "native_node_count": 275
+    }
+  ],
+  "latest_page_revision": "Results-r2",
+  "native_revision_snapshot": "results-r2/after-snapshot.json",
+  "native_snapshot_scope": "Full base in native_snapshot; overlay Results-r2 six pages/state board from native_revision_snapshot, then the three Desktop pages from native_upper_revision_snapshot. Mobile/Home in the last snapshot are regression evidence. Search-states-r4 adds ten supplementary review roots without replacing the main pages. Legacy-search-r5 adds nine new review roots sourced from the legacy search component; main pages and earlier studies are preserved. Home Desktop-r8 replaces the current Home frame with the consolidated snapshot while preserving A1ks07 as the previous base; the two new utility scenes copy the r8 Home and accepted compact popups.",
+  "supplementary_review_boards": [
+    {
+      "node": "ok6Vg",
+      "name": "REVIEW · Results-r2 · Desktop default hover focus and Mobile controls",
+      "png": "results-r2/ok6Vg.png",
+      "native_node_count": 140
+    },
+    {
+      "node": "A68V1a",
+      "viewport_node": "A2GPL",
+      "name": "REVIEW · Search-states-r4 · H-LOCATION",
+      "png": "search-states-r4/screens/A2GPL.png",
+      "png_scope": "1440x900 viewport excluding review caption",
+      "native_node_count": 377
+    },
+    {
+      "node": "oFsJ2",
+      "viewport_node": "nMQkj",
+      "name": "REVIEW · Search-states-r4 · H-DATES",
+      "png": "search-states-r4/screens/nMQkj.png",
+      "png_scope": "1440x900 viewport excluding review caption",
+      "native_node_count": 455
+    },
+    {
+      "node": "PqFiC",
+      "viewport_node": "nGvi5",
+      "name": "REVIEW · Search-states-r4 · H-GUESTS",
+      "png": "search-states-r4/screens/nGvi5.png",
+      "png_scope": "1440x900 viewport excluding review caption",
+      "native_node_count": 381
+    },
+    {
+      "node": "CQW4f",
+      "viewport_node": "JKflR",
+      "name": "REVIEW · Search-states-r4 · R-LOCATION",
+      "png": "search-states-r4/screens/JKflR.png",
+      "png_scope": "1440x900 viewport excluding review caption",
+      "native_node_count": 404
+    },
+    {
+      "node": "KoHUN",
+      "viewport_node": "kFGpj",
+      "name": "REVIEW · Search-states-r4 · R-DATES",
+      "png": "search-states-r4/screens/kFGpj.png",
+      "png_scope": "1440x900 viewport excluding review caption",
+      "native_node_count": 482
+    },
+    {
+      "node": "j8iwM",
+      "viewport_node": "fmuXZ",
+      "name": "REVIEW · Search-states-r4 · R-GUESTS",
+      "png": "search-states-r4/screens/fmuXZ.png",
+      "png_scope": "1440x900 viewport excluding review caption",
+      "native_node_count": 408
+    },
+    {
+      "node": "xentK",
+      "viewport_node": "SYKeI",
+      "name": "REVIEW · Search-states-r4 · SEARCH-EMPTY",
+      "png": "search-states-r4/screens/SYKeI.png",
+      "png_scope": "1440x900 viewport excluding review caption",
+      "native_node_count": 380
+    },
+    {
+      "node": "S0ricW",
+      "viewport_node": "HEwd6",
+      "name": "REVIEW · Search-states-r4 · H-DATE-ERROR",
+      "png": "search-states-r4/screens/HEwd6.png",
+      "png_scope": "1440x900 viewport excluding review caption",
+      "native_node_count": 455
+    },
+    {
+      "node": "l8wTjw",
+      "viewport_node": "LVh4t",
+      "name": "REVIEW · Search-states-r4 · H-DATE-SELECTED",
+      "png": "search-states-r4/screens/LVh4t.png",
+      "png_scope": "1440x900 viewport excluding review caption",
+      "native_node_count": 455
+    },
+    {
+      "node": "c9whv",
+      "name": "START HERE · Search-states-r4 · Desktop search review",
+      "png": "search-states-r4/c9whv.png",
+      "native_node_count": 166
+    },
+    {
+      "node": "DX5Qr",
+      "name": "REVIEW · Search confirmation study · proposal only",
+      "png": "search-confirmation-study-r1/DX5Qr.png",
+      "native_node_count": 114,
+      "status": "proposal_pending_owner_choice",
+      "native_snapshot": "search-confirmation-study-r1/clean-guest-snapshot.json",
+      "revision": "Option C without clear count or policy helper; proposal only"
+    },
+    {
+      "node": "fGgOA",
+      "name": "REVIEW · Three search pickers audit · current states",
+      "png": "search-three-audit-r1/fGgOA.png",
+      "native_node_count": 163,
+      "status": "review_findings_only",
+      "native_snapshot": "search-three-audit-r1/final-snapshot.json",
+      "known_bounds_warnings": [
+        {
+          "id": "g61cD",
+          "name": "สถานที่ audit column",
+          "problem": "partially clipped"
+        },
+        {
+          "id": "MEOPo",
+          "name": "วันเข้าพัก audit column",
+          "problem": "partially clipped"
+        },
+        {
+          "id": "oMlGA",
+          "name": "Audit limitation",
+          "problem": "fully clipped"
+        }
+      ]
+    },
+    {
+      "node": "a3iOx",
+      "name": "REVIEW · Legacy-search-r5 · HOME-LOCATION",
+      "png": "legacy-search-r5/screens/a3iOx.png",
+      "native_node_count": 368,
+      "status": "pending_owner_review"
+    },
+    {
+      "node": "jhTNh",
+      "name": "REVIEW · Legacy-search-r5 · HOME-DATES",
+      "png": "legacy-search-r5/screens/jhTNh.png",
+      "native_node_count": 557,
+      "status": "pending_owner_review",
+      "revision": "Month-nav-r6 / shared pair navigation"
+    },
+    {
+      "node": "jSj9V",
+      "name": "REVIEW · Legacy-search-r5 · HOME-GUESTS",
+      "png": "legacy-search-r5/screens/jSj9V.png",
+      "native_node_count": 374,
+      "status": "pending_owner_review"
+    },
+    {
+      "node": "DnMEK",
+      "name": "REVIEW · Legacy-search-r5 · RESULTS-LOCATION",
+      "png": "legacy-search-r5/screens/DnMEK.png",
+      "native_node_count": 395,
+      "status": "pending_owner_review"
+    },
+    {
+      "node": "swZck",
+      "name": "REVIEW · Legacy-search-r5 · RESULTS-DATES",
+      "png": "legacy-search-r5/screens/swZck.png",
+      "native_node_count": 584,
+      "status": "pending_owner_review",
+      "revision": "Month-nav-r6 / shared pair navigation"
+    },
+    {
+      "node": "vZlhp",
+      "name": "REVIEW · Legacy-search-r5 · RESULTS-GUESTS",
+      "png": "legacy-search-r5/screens/vZlhp.png",
+      "native_node_count": 401,
+      "status": "pending_owner_review"
+    },
+    {
+      "node": "hyLBr",
+      "name": "REVIEW · Legacy-search-r5 · HOME-MISSING-CHECKOUT",
+      "png": "legacy-search-r5/screens/hyLBr.png",
+      "native_node_count": 559,
+      "status": "pending_owner_review",
+      "revision": "Month-nav-r6 / shared pair navigation"
+    },
+    {
+      "node": "S366d",
+      "name": "REVIEW · Legacy-search-r5 · HOME-COMPLETE-RANGE-TO-GUESTS",
+      "png": "legacy-search-r5/screens/S366d.png",
+      "native_node_count": 376,
+      "status": "pending_owner_review"
+    },
+    {
+      "node": "BI46M",
+      "name": "START HERE · Legacy-search-r5 · adapted from home-search.tsx",
+      "png": "legacy-search-r5/BI46M.png",
+      "native_node_count": 258,
+      "status": "pending_owner_review",
+      "revision": "Month-nav-r6 / shared pair navigation"
+    },
+    {
+      "node": "y3RjQf",
+      "name": "REVIEW · Home 2B.2 · quiet carousel first middle last",
+      "png": "home-guided-review/carousel-edges-r1/y3RjQf.png",
+      "native_node_count": 110,
+      "status": "owner_accepted_scoped_home_2b2_only",
+      "native_snapshot": "home-guided-review/carousel-edges-r1/editable-snapshot.json"
+    },
+    {
+      "node": "xOs4G",
+      "name": "REVIEW · Home 2C.2 · two-card listing start",
+      "png": "home-guided-review/listing-step-two-r1/xOs4G.png",
+      "native_node_count": 274,
+      "status": "owner_accepted_scoped_home_2c2_only",
+      "native_snapshot": "home-guided-review/listing-step-two-r1/editable-snapshot.json"
+    },
+    {
+      "node": "F23f9S",
+      "name": "REVIEW · Home 2C.2 · two-card listing middle",
+      "png": "home-guided-review/listing-step-two-r1/F23f9S.png",
+      "native_node_count": 274,
+      "status": "owner_accepted_scoped_home_2c2_only",
+      "native_snapshot": "home-guided-review/listing-step-two-r1/editable-snapshot.json"
+    },
+    {
+      "node": "SFvsa",
+      "name": "REVIEW · Home 2C.2 · two-card listing end",
+      "png": "home-guided-review/listing-step-two-r1/SFvsa.png",
+      "native_node_count": 274,
+      "status": "owner_accepted_scoped_home_2c2_only",
+      "native_snapshot": "home-guided-review/listing-step-two-r1/editable-snapshot.json"
+    },
+    {
+      "node": "xv7Ce",
+      "name": "REVIEW · Home 2C.2 · two-card listing odd",
+      "png": "home-guided-review/listing-step-two-r1/xv7Ce.png",
+      "native_node_count": 274,
+      "status": "owner_accepted_scoped_home_2c2_only",
+      "native_snapshot": "home-guided-review/listing-step-two-r1/editable-snapshot.json"
+    },
+    {
+      "node": "UDzK9",
+      "name": "HISTORY · Home 3A · r1 fallback revision requested",
+      "png": "home-guided-review/image-exceptions-r1/UDzK9.png",
+      "native_node_count": 112,
+      "status": "historical_rejected_home_missing_and_failed_fallbacks; superseded by Image-availability-r2 proposal",
+      "native_snapshot": "home-guided-review/image-exceptions-r1/editable-snapshot.json"
+    },
+    {
+      "node": "MYD5A",
+      "name": "REVIEW · Home 3A · photo availability rules · r2",
+      "png": "home-guided-review/image-availability-r2/MYD5A.png",
+      "native_node_count": 275,
+      "status": "owner_accepted_scoped_home_3a_only",
+      "native_snapshot": "home-guided-review/image-availability-r2/editable-snapshot.json"
+    },
+    {
+      "node": "RRvp4",
+      "name": "HISTORY · Home 3B · r1 unavailable-price card rejected",
+      "png": "home-guided-review/title-price-r1/RRvp4.png",
+      "native_node_count": 140,
+      "status": "title_ellipsis_accepted; Home_unavailable_price_fallback_rejected; superseded_by_Complete-data-r2",
+      "native_snapshot": "home-guided-review/title-price-r1/editable-snapshot.json"
+    },
+    {
+      "node": "t87K3A",
+      "name": "REVIEW · Home 3B · complete-data cards only · r2",
+      "png": "home-guided-review/complete-data-r2/t87K3A.png",
+      "native_node_count": 275,
+      "status": "revised_visual_presented; search_visibility_clarification_pending",
+      "native_snapshot": "home-guided-review/complete-data-r2/editable-snapshot.json"
+    },
+    {
+      "node": "NOXpV",
+      "name": "REVIEW · Home 3C.2 · initial listing loading · r1",
+      "png": "home-guided-review/loading-r1/NOXpV.png",
+      "native_node_count": 291,
+      "status": "owner_accepted_scoped_home_3c2_only",
+      "native_snapshot": "home-guided-review/loading-r1/editable-snapshot.json"
+    },
+    {
+      "node": "z9TUD5",
+      "name": "HISTORY · Home 3C.3 · error panel rejected; hide failed section",
+      "png": "home-guided-review/listing-error-r1/z9TUD5.png",
+      "native_node_count": 283,
+      "status": "rejected_for_Home; owner chose to hide failed section",
+      "native_snapshot": "home-guided-review/listing-error-r1/editable-snapshot.json"
+    },
+    {
+      "node": "ITiqO",
+      "name": "REVIEW · Home 3D.1 · filled pink heart without circle · r3",
+      "png": "home-guided-review/card-focus-r3/ITiqO.png",
+      "native_node_count": 106,
+      "status": "owner_accepted_scoped_home_3d1_appearance_only",
+      "native_snapshot": "home-guided-review/card-focus-r3/editable-snapshot.json"
+    },
+    {
+      "node": "oYzOn",
+      "name": "REVIEW · Home 3D.2 · underlined links and filled arrow focus · r2",
+      "png": "home-guided-review/navigation-focus-r2/oYzOn.png",
+      "native_node_count": 43,
+      "status": "owner_accepted_scoped_home_3d2_only",
+      "native_snapshot": "home-guided-review/navigation-focus-r2/editable-snapshot.json"
+    },
+    {
+      "node": "e407uY",
+      "name": "REVIEW · Home 4C.1 · compact language popover · r2",
+      "png": "home-guided-review/header-language-r2/e407uY.png",
+      "native_node_count": 80,
+      "status": "owner_accepted_scoped_home_4c1_only",
+      "native_snapshot": "home-guided-review/header-language-r2/editable-snapshot.json"
+    },
+    {
+      "node": "ZrguB",
+      "name": "REVIEW · Home 4C.2 · compact contact popover · r2",
+      "png": "home-guided-review/header-contact-r2/ZrguB.png",
+      "native_node_count": 77,
+      "status": "owner_accepted_scoped_home_4c2_only",
+      "native_snapshot": "home-guided-review/header-contact-r2/editable-snapshot.json"
+    },
+    {
+      "node": "AIvZs",
+      "footer_node": "A5wVpm",
+      "name": "SELECTED · Home Footer-detail-r3 · restored owner choice",
+      "png": "home-guided-review/footer-selected-r3/AIvZs.png",
+      "footer_png": "home-guided-review/footer-selected-r3/A5wVpm.png",
+      "native_node_count": 312,
+      "status": "owner_accepted_scoped_Footer_visual_section; included_in_Home_Desktop_r8",
+      "native_snapshot": "home-guided-review/footer-selected-r3/editable-snapshot.json"
+    },
+    {
+      "node": "NpGoy",
+      "popup_node": "iBrrX",
+      "name": "F01 · Home Desktop-r8 · language open · 1440x900",
+      "png": "home-guided-review/home-desktop-r8/NpGoy.png",
+      "native_node_count": 1976,
+      "status": "combined_context_pending_owner_review; popup_appearance_previously_accepted",
+      "native_snapshot": "home-guided-review/home-desktop-r8/editable-snapshot.json"
+    },
+    {
+      "node": "SLKXi",
+      "popup_node": "n3Uwxy",
+      "name": "F01 · Home Desktop-r8 · contact open · 1440x900",
+      "png": "home-guided-review/home-desktop-r8/SLKXi.png",
+      "native_node_count": 1973,
+      "status": "combined_context_pending_owner_review; popup_appearance_previously_accepted",
+      "native_snapshot": "home-guided-review/home-desktop-r8/editable-snapshot.json"
+    },
+    {
+      "node": "F9LoP",
+      "name": "DECISION · OPEN-001 · original pink-white retained · issue open",
+      "png": "home-guided-review/cta-brand-contrast-r1/F9LoP.png",
+      "native_node_count": 35,
+      "status": "owner_retained_original_visual_reference; OPEN-001_open",
+      "native_snapshot": "home-guided-review/cta-brand-contrast-r1/editable-snapshot.json",
+      "contrast_evidence": "home-guided-review/cta-brand-contrast-r1/contrast-evidence.json",
+      "owner_choice": "home-guided-review/cta-brand-contrast-r1/owner-choice.json",
+      "decision_snapshot": "home-guided-review/cta-brand-contrast-r1/decision-snapshot.json"
+    }
+  ],
+  "latest_desktop_revision": "Results-upper-r3",
+  "mobile_revision": "Results-r2 / paused by owner",
+  "native_upper_revision_snapshot": "results-upper-r3/after-snapshot.json",
+  "latest_search_revision": "Legacy-search-r5 / Month-nav-r6 / pending owner review",
+  "native_search_revision_snapshot": "legacy-search-r5/after-snapshot.json",
+  "native_search_review_node_count": 3963,
+  "search_confirmation_proposal": "search-confirmation-study-r1/README.md",
+  "native_legacy_search_review_node_count": 3864,
+  "native_month_navigation_snapshot": "legacy-search-r5/month-nav-r6/after-snapshot.json",
+  "home_guided_review_plan": "home-guided-review/README.md",
+  "native_home_typography_revision_snapshot": "home-guided-review/heading-regular-r2/verification.json",
+  "home_guided_review_current": "Home Desktop-r8 combined appearance accepted; CTA original retained with OPEN-001 open; all four foundation-2-desktop documents aligned to A and current Home decisions, awaiting final foundation review; Mobile paused",
+  "home_guided_review_1a_acceptance": {
+    "instruction": "ข้อต่อไปได้",
+    "version": "Heading-regular-r2",
+    "scope": "Reviewed 1A crop only: category labels 600, recommended heading Regular 400, shown layout; not full Home approval"
+  },
+  "home_guided_review_1b_decision": {
+    "instruction": "3 เพราะออกแบบมาเพื่อเป็นทางลัดในการไปในหมวดที่ต้องการแล้วค่อยไป search อีกที",
+    "scope": "Category shortcuts and view-all open category-only Results across all locations; do not carry Home location/date/guest/pet form criteria. Users search further on Results. Not a command to erase Home form or booking intent.",
+    "status": "owner_confirmed_behavior_only; category Results visual and runtime evidence pending"
+  },
+  "home_guided_review_1c_decision": {
+    "answer": "1",
+    "scope": "Browser Back from Results restores the original Home section and listing-rail scroll position within continuous navigation; no new reload/tab-close booking-intent restoration",
+    "status": "owner_confirmed_behavior_only; runtime untested"
+  },
+  "home_guided_review_2a_decision": {
+    "answer": "1",
+    "scope": "Whole property card opens Detail, including photo/title/information; favorite, photo arrows and dots are independent controls that do not also open Detail",
+    "status": "owner_confirmed_behavior_only; click and keyboard runtime untested"
+  },
+  "native_home_photo_controls_snapshot": "home-guided-review/photo-quiet-r1/after-snapshot.json",
+  "home_guided_review_2b1_revision_instruction": {
+    "answer": "2",
+    "scope": "Reduce photo-arrow and focus prominence; retain hit target and visible keyboard focus",
+    "status": "revised_pending_owner_review"
+  },
+  "home_guided_review_2b1_acceptance": {
+    "instruction": "โอเคแล้วข้อต่อไป",
+    "version": "Photo-quiet-r1",
+    "scope": "Photo arrow appearance only: 28px face, 44px target, revised focus; not entire carousel/Home or runtime"
+  },
+  "home_guided_review_2b2_acceptance": {
+    "answer": "1",
+    "version": "Carousel-edges-r1",
+    "scope": "Home first/middle/last photo states including disabled previous at first and disabled next at last, current active dots. Single/failed images, full Home, UXD-002 and runtime remain outside acceptance."
+  },
+  "home_guided_review_2c1_decision": {
+    "answer": "2",
+    "scope": "Move each listing rail by two cards per arrow activation; 676px at current Desktop card width 314px and gap 24px. Replaces prior one-card draft proposal.",
+    "status": "owner_confirmed_two_card_step; end clamp accepted separately in 2C.2; runtime untested"
+  },
+  "home_guided_review_2c2_acceptance": {
+    "answer": "1",
+    "version": "Listing-step-two-r1",
+    "scope": "Home Desktop listing states: stop at each track end without trailing blank space; disabled direction faded. Includes final one-card clamp for hypothetical seven-card rail. Static review only; not full Home or runtime approval."
+  },
+  "home_guided_review_2d_clarification": {
+    "instruction": "Login เป็น modal เลยไม่ต้องเปลี่ยนหน้า",
+    "scope": "Guest favorite opens Login modal over the current Desktop Home without page navigation. Preserve underlying Home scroll, listing rail and photo state; cancel closes modal without changing favorites. Reaffirms existing Desktop Auth modal direction.",
+    "status": "owner_confirmed_modal_behavior_only; Auth appearance and runtime unreviewed",
+    "remaining": "No new decision about automatic favorite action after successful login; focus return requires functional verification."
+  },
+  "home_guided_review_2d_acceptance": {
+    "instruction": "แบบนี้ได้",
+    "scope": "Guest favorite opens Login modal over the current Home without page navigation; closing it keeps Home context and does not save Guest favorites. Acceptance of this behavior only; Auth appearance and runtime unreviewed."
+  },
+  "home_guided_review_3a_revision_instruction": {
+    "instruction": "ปรับ 2-3 ไม่แสดงหากไม่มีรูปแต่ค้นหาแล้วจะเจอ",
+    "scope": "Do not display properties without photos in Home listing rows. Keep those properties discoverable in search results; this does not unpublish or delete the catalog entry.",
+    "status": "owner_confirmed_home_visibility; revised visual pending; runtime untested",
+    "remaining": "Results fallback appearance and empty-category presentation remain unreviewed."
+  },
+  "home_guided_review_3a_partial_failure_decision": {
+    "answer": "1",
+    "scope": "Skip failed images and use working images for Home cards. A property remains on Home when usable photos exist; properties with no usable photos are excluded from Home but remain searchable.",
+    "status": "owner_confirmed_behavior; Image-availability-r2 visual pending; runtime untested"
+  },
+  "home_guided_review_3a_acceptance": {
+    "answer": "1",
+    "version": "Image-availability-r2",
+    "scope": "Accept revised Home example: omit properties without usable photos from Home while retaining search discoverability; skip failed photos when usable ones remain; no blank card slot; single-photo controls hidden. Static scoped review only, not full Home, Results fallback or runtime approval."
+  },
+  "home_guided_review_3b_instruction": {
+    "instruction": "ชื่อยาวถูก แต่ถ้าอันไหนข้อมูลไม่ครบไม่ต้องแสดงการ์ดแทน",
+    "scope": "Accept single-line ellipsis for long titles. Omit incomplete-data cards from Home instead of displaying unavailable-price fallback. Keep complete cards contiguous.",
+    "status": "owner_confirmed_title_and_home_visibility; revised_visual_presented; search_visibility_confirmed_separately",
+    "remaining": "Exact required fields need the relevant data contract. Results incomplete-data appearance and runtime remain unreviewed."
+  },
+  "home_guided_review_3b_search_decision": {
+    "answer": "1",
+    "scope": "Properties missing price or other required card information remain discoverable in search results but are omitted from Home listing rows, consistent with the prior no-photo rule.",
+    "status": "owner_confirmed_visibility_behavior_only; Results incomplete-data presentation and runtime remain unreviewed"
+  },
+  "home_guided_review_3c1_decision": {
+    "answer": "1",
+    "scope": "After successful load, omit an entire Home category section when no eligible complete-data cards with usable photos remain. Following sections close the gap. Preserve all seven category shortcuts and prior search discoverability policies.",
+    "status": "owner_confirmed_behavior_only; loading/error separately reviewed; runtime untested"
+  },
+  "home_guided_review_3c2_acceptance": {
+    "answer": "1",
+    "version": "Loading-r1",
+    "scope": "Use four noninteractive skeleton cards with loading status during initial Home listing load, preserving the row area until a successful or failed response. Successful empty sections follow 3C.1; error separately reviewed.",
+    "status": "owner_accepted_scoped_initial_loading_visual; runtime and background refresh unreviewed"
+  },
+  "home_guided_review_3c3_decision": {
+    "answer": "1",
+    "clarifying_question_option": "Hide the entire category section when loading fails, like the empty-section presentation; this is not option 1 of the earlier error-panel question.",
+    "scope": "Hide failed Home category sections without inline error panel or retry button; keep successful sections and seven category shortcuts. Preserve the distinction between error and successful empty data internally. Owner overrides the proposed inline Home recovery presentation only.",
+    "status": "owner_confirmed_home_visibility_behavior; runtime untested; general Results/Auth error rules unchanged",
+    "remaining": "No automatic retry, timeout, whole-page reload or all-sections-failed recovery policy is inferred."
+  },
+  "home_guided_review_3d1_revision_instruction": {
+    "instruction": "ต้องเป็นหัวใจสีชมพูสิ่แล้วก็ต้องไม่มีกรอบวงกลมด้วย",
+    "scope": "Favorite keyboard-focus sample uses brand pink #FD6E88 outlined heart with no visible circular frame, white halo or circular face. Retain transparent 44px hit target. Does not imply saved state or change default/photo-arrow style.",
+    "status": "revised_in_Pencil_Card-focus-r2; pending_owner_visual_review; keyboard_and_photo_contrast_untested"
+  },
+  "home_guided_review_3d1_fill_instruction": {
+    "instruction": "ขอแบบ fill",
+    "scope": "Use phosphor heart-fill, brand pink #FD6E88, 22px, with transparent 44px target and no circular frame in the right-hand review sample. Appearance change only; Guest authentication/favorite rules unchanged.",
+    "status": "appearance_accepted_scoped_Card-focus-r3; keyboard_and_photo_contrast_untested"
+  },
+  "home_guided_review_3d1_acceptance": {
+    "instruction": "โอเค ไปต่อ",
+    "version": "Card-focus-r3",
+    "scope": "Accept shown filled brand-pink heart with no circular frame in the reviewed card sample. Scoped appearance acceptance only; not full keyboard accessibility, global state semantics, Main Home rollout or task completion."
+  },
+  "home_guided_review_3d2_revision_instruction": {
+    "instruction": "ปรับใหม่หมด",
+    "scope_interpretation": "Redesign all three focus treatments currently under review: category shortcut, view-all and listing arrows. No inferred permission to redesign the whole Home or alter accepted heart appearance.",
+    "revision": "Navigation-focus-r2: navy underlines on category/view-all links; filled navy next arrow with white icon; remove previous enclosing outlines.",
+    "status": "revised_in_Pencil_pending_owner_visual_review; keyboard_runtime_untested"
+  },
+  "home_guided_review_3d2_acceptance": {
+    "answer": "1",
+    "version": "Navigation-focus-r2",
+    "scope": "Accept shown focus treatments for Home category shortcut and view-all navy underlines and filled navy listing arrow with white icon. Scoped visual acceptance only; default destinations, card heart and previous decisions unchanged.",
+    "status": "owner_accepted_scoped_visual; actual keyboard/focus/contrast across all contexts untested; OPEN-001 remains open"
+  },
+  "home_header_navigation_review": {
+    "node": "awwwD",
+    "png": "home-guided-review/header-navigation-r1/awwwD.png",
+    "scope": "Existing Header exported without appearance changes for navigation contract review; no click test",
+    "notes": "home-guided-review/header-navigation-r1/README.md"
+  },
+  "home_guided_review_4a1_decision": {
+    "answer": "1",
+    "scope": "Header logo and Home icon go to the top of Home while preserving Home search selections. Browser Back from Results continues to restore the prior Home section and rail position.",
+    "status": "owner_confirmed_navigation_behavior_only; actual route/scroll untested"
+  },
+  "home_guided_review_4a2_decision": {
+    "answer": "1",
+    "scope": "Header search link opens general all-properties Results across all locations with default entry criteria, without carrying Home location/date/guest/pet selections or a prior category/filter context. Home form and Booking Intent are not erased. Main Search and category shortcuts retain their accepted behavior.",
+    "status": "owner_confirmed_navigation_behavior_only; generic Results visual/route/query/runtime unverified"
+  },
+  "home_guided_review_4a3_decision": {
+    "answer": "1",
+    "scope": "Header article link targets an internal papaipak article index. Navigation destination contract only; exact URL, content, article UI and CMS remain separately scoped and are not started.",
+    "status": "owner_confirmed_destination_only; article page and runtime not implemented or approved"
+  },
+  "home_guided_review_4b_basis": {
+    "scope": "Header sign-in uses the existing Desktop Login modal over the originating page, consistent with approved Adaptive Auth direction and 2D clarification. Cancel closes modal without navigation or clearing active selections; return focus to Header sign-in trigger.",
+    "status": "existing_contract_reference_only; no new Auth UI acceptance, member Header design or F-06 task started"
+  },
+  "home_header_language_review": {
+    "node": "e407uY",
+    "source_context_node": "n3Qds",
+    "source_review_node": "IfMTi",
+    "popup_node": "xXmX6",
+    "png": "home-guided-review/header-language-r2/e407uY.png",
+    "scope": "Compact Desktop right-side Header context copy; original Header-icons-r4 preserved; no actual language switching test",
+    "notes": "home-guided-review/header-language-r2/README.md"
+  },
+  "home_guided_review_4c1_revision_instruction": {
+    "answer": "2",
+    "scope": "Make the existing Header language popover compact while preserving selected flag assets and usable click targets.",
+    "revision": "Header-language-r2: panel224x152, language rows44px, close target44px, flags22px; right edge anchored to existing trigger",
+    "status": "revised_in_Pencil_pending_owner_visual_review; language switching and keyboard runtime untested"
+  },
+  "home_guided_review_4c1_acceptance": {
+    "answer": "1",
+    "version": "Header-language-r2",
+    "scope": "Accept compact224x152 Desktop language popover with44px rows/close target and22px flags, Thai current highlight/check. Scoped presentation only; no actual language-switch, translations, locale/currency expansion, full Header/Home or i18n acceptance."
+  },
+  "home_header_contact_review": {
+    "node": "ZrguB",
+    "source_context_node": "wthCi",
+    "source_review_node": "IfMTi",
+    "popup_node": "R3zSU",
+    "png": "home-guided-review/header-contact-r2/ZrguB.png",
+    "scope": "Compact Desktop contact context copy; original preserved; no actual contact action",
+    "notes": "home-guided-review/header-contact-r2/README.md"
+  },
+  "home_guided_review_4c2_revision_instruction": {
+    "answer": "1",
+    "selected_option": "Compact the contact panel to match the language panel; not acceptance of the original large panel.",
+    "scope": "Reduce panel spacing while preserving official LINE logo and both channel descriptions.",
+    "revision": "Header-contact-r2:280x176 panel;56px contact rows;44px close target;32px official LINE logo in44px clear-space field",
+    "status": "owner_accepted_scoped_Header-contact-r2; contact_destinations_and_runtime_unverified"
+  },
+  "home_guided_review_4c2_acceptance": {
+    "answer": "1",
+    "version": "Header-contact-r2",
+    "scope": "Accept compact280x176 contact popover,56px channel rows, official32px LINE logo with44px clear-space field,44px close target, both channel descriptions retained. Presentation only; actual LINE/phone destinations and contact actions remain unverified."
+  },
+  "home_footer_navigation_review": {
+    "node": "lHJJV",
+    "png": "home-guided-review/footer-navigation-r1/lHJJV.png",
+    "scope": "Existing Footer exported unchanged for navigation review; four content links separate from Contact",
+    "notes": "home-guided-review/footer-navigation-r1/README.md",
+    "proposed_footer_revision": "home-guided-review/footer-selected-r3/README.md"
+  },
+  "home_guided_review_4d1_decision": {
+    "answer": "1",
+    "scope": "Four Footer content links (About, How to book, Terms, Privacy) open internal content pages in the same tab. Contact handled separately. Navigation contract only, no content/CMS task started.",
+    "status": "owner_confirmed_before_Footer_redesign_request; route/content/runtime_unverified"
+  },
+  "home_guided_review_footer_redesign_instruction": {
+    "instruction": "ทำใหม่เลย",
+    "scope_interpretation": "Redesign the Footer currently under review while retaining accepted brand, existing five links, original copy and same-tab content-link decision. Do not infer whole-Home redesign or frontend authorization.",
+    "revision": "Footer-redesign-r2 / context AIvZs / Footer A5wVpm",
+    "status": "created_in_Pencil_pending_owner_visual_review; Main Home Footer preserved until consolidation"
+  },
+  "home_guided_review_footer_detail_instruction": {
+    "instruction": "2 3 เพิ่ม detail ไปหน่อย",
+    "scope": "Refine both brand and navigation areas of the proposed Footer. Reuse existing brand/Hero copy; retain five content/contact destinations and same-tab content behavior.",
+    "revision": "Footer-detail-r3: grouped navigation headings/arrows, short brand description, confirmed domain and proposed return-to-top utility",
+    "status": "revised_in_Pencil_pending_owner_visual_review; Contact destination and actual interactions unreviewed"
+  },
+  "home_guided_review_footer_menu_instruction": {
+    "answer": "3",
+    "scope": "Refine the menu side of the current Footer draft. Brand area is preserved fromr3, not inferred separately approved.",
+    "revision": "Footer-menu-r4: four same-tab links with20px icons,16px titles and13px descriptions;64px targets; no group headings or repeated arrows",
+    "status": "revised_in_Pencil_pending_owner_visual_review; Contact destination and actual interactions remain pending"
+  },
+  "home_guided_review_footer_selection": {
+    "instruction": "เอาแบบเดิมดีกว่า",
+    "reference": "Owner attached image matches Footer-detail-r3 with group headings and arrows.",
+    "selected_version": "Footer-detail-r3 / restored in footer-selected-r3",
+    "scope": "Owner selected this Footer appearance only. Restore grouped menu with arrows; discardr4 icon/description menu. Same-tab content links remain confirmed. No full Home/task/frontend approval.",
+    "native_context": "AIvZs",
+    "native_footer": "A5wVpm",
+    "native_navigation": "UCIyX",
+    "evidence": "home-guided-review/footer-selected-r3/README.md",
+    "status": "owner_selected_and_restored_in_Pencil; Contact4D.2 and full-page consolidation pending"
+  },
+  "home_guided_review_footer_acceptance": {
+    "instruction": "โอเคแล้วสำหรับ footer",
+    "version": "Footer-detail-r3 / footer-selected-r3",
+    "scope": "Accept selected Footer appearance as a complete Footer visual section; retain previously confirmed same-tab content links. Contact destinations/runtime remain unverified. No final Home/F-01/DSD-001 or frontend approval."
+  },
+  "latest_home_desktop_revision": "Home Desktop-r8 / owner-accepted combined appearance; OPEN-001 and functional/content readiness pending",
+  "native_home_consolidated_snapshot": "home-guided-review/home-desktop-r8/editable-snapshot.json",
+  "native_home_consolidated_verification": "home-guided-review/home-desktop-r8/verification.json",
+  "previous_home_base_frame": {
+    "node": "A1ks07",
+    "width": 1440,
+    "height": 4427,
+    "png": "home-guided-review/photo-quiet-r1/A1ks07.png",
+    "name": "F01 · WF-01 Home · Desktop · Home-Desktop-r7 seven categories",
+    "native_node_count": 1928,
+    "typography_revision": "1A / category labels Mitr 600; recommended heading Mitr Regular 400",
+    "photo_controls_revision": "2B.1 / Photo-quiet-r1 / 28px face, 44px target"
+  },
+  "native_active_review_node_count_scope": "Core frames metadata sum with source-verified Home replacement; supplementary roots recorded separately; whole-canvas count verified by Pencil traversal.",
+  "home_guided_review_r8_appearance_acceptance": {
+    "answer": "1",
+    "version": "Home Desktop-r8",
+    "scope": "Owner accepts the consolidated Home Desktop appearance shown in the full-page image. This is not final accessibility/functional/task/frontend acceptance; OPEN-001 and documented unresolved contracts remain open."
+  },
+  "home_guided_review_cta_owner_choice": {
+    "answer": "3",
+    "scope": "Retain original#FD6E88 background/#FFFFFF label as visual reference and keep OPEN-001 open. No accessible exception, final foundation or frontend acceptance. Do not automatically change Home colors or repeat CTA selection.",
+    "evidence": "home-guided-review/cta-brand-contrast-r1/owner-choice.json",
+    "status": "owner_reconfirmed_original_visual_reference; OPEN-001_unresolved"
+  },
+  "foundation_alignment_audit": "../foundation-alignment-audit-2026-11-04.md",
+  "foundation_version": "foundation-2-desktop",
+  "foundation_alignment_status": "documents_aligned_to_A_and_Home_Desktop_r8; final_foundation_review_pending",
+  "foundation_artifact": "../foundation-2-desktop/README.md",
+  "foundation_observation_evidence": "../foundation-2-desktop/observed-values.json",
+  "foundation_approval_status": "pending_owner_review",
+  "supplementary_tiktok_state_draft": {
+    "version": "TikTok-states-r3",
+    "node": "nXylc",
+    "artifact": "../tiktok-states-r3/README.md",
+    "status": "owner_accepted_tiktok_state_design",
+    "functional_prototype": false,
+    "provider_states": "Native TikTok Playing Paused Buffering",
+    "carousel": "One previous preview on left; other host states retained at r2",
+    "owner_acceptance": "../tiktok-states-r3/owner-acceptance.json"
+  },
+  "supplementary_article_state_review": {
+    "version": "Article-states-r1",
+    "node": "kQOMV",
+    "artifact": "../article-states-r1/README.md",
+    "status": "review_in_progress",
+    "owner_confirmed": "Whole image and text clickable as one link per story",
+    "functional_prototype": false,
+    "visual_status": "static feedback returned; motion proposed"
+  },
+  "supplementary_article_motion_review": {
+    "version": "Article-motion-r4",
+    "artifact": "../article-motion-r4/README.md",
+    "status": "owner_selected_article_appearance_reference",
+    "type": "in_conversation_motion_study",
+    "application_implementation": false,
+    "owner_confirmed_cover_policy": "Full cover including embedded text, no crop or zoom",
+    "owner_selection": "../article-motion-r4/owner-selection.json",
+    "owner_confirmed_cover_base_ratio": "16:9",
+    "cover_spec": "../article-cover-spec.md"
+  },
+  "supplementary_article_cover_review": {
+    "version": "Article-cover-16x9-r1",
+    "node": "pNJ3F",
+    "artifact": "../article-cover-16x9-r1/README.md",
+    "status": "draft_review_in_progress",
+    "issue": "Numeric safe-area and real cover verification pending",
+    "safe_area_principle": "owner_confirmed",
+    "owner_safe_area_choice": "../article-cover-16x9-r1/owner-safe-area-choice.json"
+  },
+  "supplementary_article_title_review": {
+    "version": "Article-title-r4",
+    "node": "GH7LG",
+    "artifact": "../article-title-r4/README.md",
+    "status": "draft_visual_review_pending",
+    "owner_rule": "Supporting one line with ellipsis; featured max two lines"
+  },
+  "supplementary_article_excerpt_review": {
+    "version": "Article-excerpt-r1",
+    "node": "KdGZY",
+    "artifact": "../article-excerpt-r1/README.md",
+    "status": "draft_visual_review_pending",
+    "owner_rule": "Featured and supporting excerpts max two lines with ellipsis, natural height"
+  },
+  "article_content_rules": "../article-content-rules.md",
+  "owner_confirmed_article_missing_cover": "Hide that story on Home; promote next ready if featured; preserve curated order",
+  "supplementary_article_availability_review": {
+    "version": "Article-availability-r1",
+    "node": "tYgDU",
+    "artifact": "../article-availability-r1/README.md",
+    "status": "owner_accepted_two_story_appearance"
+  },
+  "owner_confirmed_article_curated_empty": "Use latest eligible articles with covers, newest first; existing layout; data retrieval not implemented",
+  "supplementary_article_count_proposal": {
+    "version": "Article-count-r1",
+    "node": "N1UpHy",
+    "artifact": "../article-count-r1/README.md",
+    "status": "partially_accepted_two_story_appearance",
+    "owner_acceptance": "../article-count-r1/owner-two-story-acceptance.json"
+  },
+  "home_consolidation_review_candidate": {
+    "version": "Home Desktop-r15",
+    "node": "ZfZvJ",
+    "artifact": "../home-desktop-r15/README.md",
+    "status": "owner_accepted_combined_appearance_only",
+    "frontend_authorized": false,
+    "owner_acceptance": "../home-desktop-r15/owner-home-acceptance.json"
+  },
+  "current_accepted_home": {
+    "version": "Home Desktop-r15",
+    "node": "ZfZvJ",
+    "artifact": "../home-desktop-r15/README.md",
+    "owner_acceptance": "../home-desktop-r15/owner-home-acceptance.json",
+    "scope": "Home Desktop combined appearance only; F01 package/other pages and foundation gates separate",
+    "frontend_authorized": false
+  },
+  "inventory_counts_are_historical_snapshot": true
+}

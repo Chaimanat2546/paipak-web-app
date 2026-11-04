@@ -1,0 +1,768 @@
+{
+  "root": "oYzOn",
+  "snapshot": {
+    "type": "frame",
+    "id": "oYzOn",
+    "x": 6174,
+    "y": 20342,
+    "name": "REVIEW · Home 3D.2 · category view-all listing keyboard focus · r1",
+    "width": 1038,
+    "fill": "#DBF2FC",
+    "layout": "vertical",
+    "gap": 16,
+    "padding": 24,
+    "children": [
+      {
+        "type": "text",
+        "id": "jSQBK",
+        "name": "Home navigation focus review heading",
+        "fill": "#072D59",
+        "content": "จุดโฟกัสของทางลัดและปุ่มเลื่อนแถว",
+        "lineHeight": 1.5,
+        "fontFamily": "$font.primary",
+        "fontSize": 24
+      },
+      {
+        "type": "text",
+        "id": "slHIj",
+        "name": "Focus comparison row explanation",
+        "fill": "#072D59",
+        "content": "แถวบน: ปกติ • แถวล่าง: เมื่อใช้ Tab เลือกปุ่มนั้น",
+        "lineHeight": 1.5,
+        "fontFamily": "$font.primary",
+        "fontSize": 14
+      },
+      {
+        "type": "frame",
+        "id": "CRePa",
+        "name": "Three Home navigation control comparisons",
+        "width": "fill_container",
+        "gap": 24,
+        "children": [
+          {
+            "type": "frame",
+            "id": "PIGAX",
+            "name": "category navigation focus column",
+            "width": 314,
+            "layout": "vertical",
+            "gap": 12,
+            "children": [
+              {
+                "type": "text",
+                "id": "btI1N",
+                "name": "category navigation caption",
+                "fill": "#072D59",
+                "content": "ทางลัดหมวด",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 18
+              },
+              {
+                "type": "frame",
+                "id": "TDM1B",
+                "name": "category default review background",
+                "width": 314,
+                "height": 128,
+                "fill": "#FFFFFF",
+                "cornerRadius": 12,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "I8iEp",
+                    "name": "category default control sample",
+                    "width": 104,
+                    "layout": "vertical",
+                    "gap": 6,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "DvbXl",
+                        "name": "ใกล้ทะเล A icon",
+                        "width": 32,
+                        "height": 32,
+                        "icon": "waves",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      },
+                      {
+                        "type": "text",
+                        "id": "o1Cds1",
+                        "name": "ใกล้ทะเล A label",
+                        "fill": "#072D59",
+                        "content": "ใกล้ทะเล",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 18,
+                        "fontWeight": "600"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "Q9Umsr",
+                "name": "category focused review background",
+                "width": 314,
+                "height": 128,
+                "fill": "#FFFFFF",
+                "cornerRadius": 12,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "gOj5d",
+                    "name": "category keyboard focus control sample",
+                    "width": 104,
+                    "cornerRadius": 8,
+                    "stroke": "#072D59",
+                    "strokeWidth": 2,
+                    "strokeAlignment": "outer",
+                    "layout": "vertical",
+                    "gap": 6,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "SgBex",
+                        "name": "ใกล้ทะเล A icon",
+                        "width": 32,
+                        "height": 32,
+                        "icon": "waves",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      },
+                      {
+                        "type": "text",
+                        "id": "Am85U",
+                        "name": "ใกล้ทะเล A label",
+                        "fill": "#072D59",
+                        "content": "ใกล้ทะเล",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 18,
+                        "fontWeight": "600"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "k4O3A",
+            "name": "viewAll navigation focus column",
+            "width": 314,
+            "layout": "vertical",
+            "gap": 12,
+            "children": [
+              {
+                "type": "text",
+                "id": "C1SQe",
+                "name": "viewAll navigation caption",
+                "fill": "#072D59",
+                "content": "ดูทั้งหมด",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 18
+              },
+              {
+                "type": "frame",
+                "id": "SPG78",
+                "name": "viewAll default review background",
+                "width": 314,
+                "height": 128,
+                "fill": "#FFFFFF",
+                "cornerRadius": 12,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "YNNkT",
+                    "name": "viewAll default control sample",
+                    "height": 44,
+                    "gap": 6,
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "OPg4O",
+                        "name": "View all label",
+                        "fill": "#072D59",
+                        "content": "ดูทั้งหมด",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14,
+                        "fontWeight": "normal"
+                      },
+                      {
+                        "type": "icon",
+                        "id": "DCbER",
+                        "name": "View all arrow",
+                        "width": 18,
+                        "height": 18,
+                        "icon": "arrow-right",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "qTrAg",
+                "name": "viewAll focused review background",
+                "width": 314,
+                "height": 128,
+                "fill": "#FFFFFF",
+                "cornerRadius": 12,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "S6iDI",
+                    "name": "viewAll keyboard focus control sample",
+                    "height": 44,
+                    "cornerRadius": 8,
+                    "stroke": "#072D59",
+                    "strokeWidth": 2,
+                    "strokeAlignment": "outer",
+                    "gap": 6,
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "sMWUI",
+                        "name": "View all label",
+                        "fill": "#072D59",
+                        "content": "ดูทั้งหมด",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14,
+                        "fontWeight": "normal"
+                      },
+                      {
+                        "type": "icon",
+                        "id": "lsEHx",
+                        "name": "View all arrow",
+                        "width": 18,
+                        "height": 18,
+                        "icon": "arrow-right",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "h8Oz6",
+            "name": "listing navigation focus column",
+            "width": 314,
+            "layout": "vertical",
+            "gap": 12,
+            "children": [
+              {
+                "type": "text",
+                "id": "EoIQM",
+                "name": "listing navigation caption",
+                "fill": "#072D59",
+                "content": "เลื่อนแถวบ้าน",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 18
+              },
+              {
+                "type": "frame",
+                "id": "BUYJ8",
+                "name": "listing default review background",
+                "width": 314,
+                "height": 128,
+                "fill": "#FFFFFF",
+                "cornerRadius": 12,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "PXJWz",
+                    "name": "listing default control sample",
+                    "height": 48,
+                    "gap": 16,
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "qBJYF",
+                        "name": "Listing previous and next buttons",
+                        "gap": 8,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "Y7CJQ",
+                            "name": "Previous villas · disabled at start",
+                            "opacity": 0.35,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 22,
+                            "stroke": "#072D5940",
+                            "strokeWidth": 1,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "JiPCA",
+                                "name": "Listing left arrow",
+                                "width": 22,
+                                "height": 22,
+                                "icon": "chevron-left",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "EaZjr",
+                            "name": "Next villas · move listing rail only",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 22,
+                            "stroke": "#072D5940",
+                            "strokeWidth": 1,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "Qtu3r",
+                                "name": "Listing right arrow",
+                                "width": 22,
+                                "height": 22,
+                                "icon": "chevron-right",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "mdPi8",
+                "name": "listing focused review background",
+                "width": 314,
+                "height": 128,
+                "fill": "#FFFFFF",
+                "cornerRadius": 12,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "axtqK",
+                    "name": "listing keyboard focus control sample",
+                    "height": 48,
+                    "gap": 16,
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "zrXBq",
+                        "name": "Listing previous and next buttons",
+                        "gap": 8,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "pP3hh",
+                            "name": "Previous villas · disabled at start",
+                            "opacity": 0.35,
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 22,
+                            "stroke": "#072D5940",
+                            "strokeWidth": 1,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "Rf5O5",
+                                "name": "Listing left arrow",
+                                "width": 22,
+                                "height": 22,
+                                "icon": "chevron-left",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "zxdoD",
+                            "name": "Next villas · move listing rail only",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 22,
+                            "stroke": "#072D59",
+                            "strokeWidth": 2,
+                            "strokeAlignment": "outer",
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "f93Vif",
+                                "name": "Listing right arrow",
+                                "width": 22,
+                                "height": 22,
+                                "icon": "chevron-right",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "x6FpL",
+        "name": "Focus behavior scope note",
+        "fill": "#072D59",
+        "content": "กรอบแสดงเฉพาะ keyboard focus • ปุ่มที่เลื่อนต่อไม่ได้จะไม่รับ Tab • ไม่เปลี่ยนทางลัดเป็นตัวกรอง",
+        "lineHeight": 1.5,
+        "fontFamily": "$font.primary",
+        "fontSize": 14
+      }
+    ]
+  },
+  "cases": [
+    {
+      "key": "category",
+      "focused": false,
+      "pane": "TDM1B",
+      "control": "I8iEp"
+    },
+    {
+      "key": "category",
+      "focused": true,
+      "pane": "Q9Umsr",
+      "control": "gOj5d"
+    },
+    {
+      "key": "viewAll",
+      "focused": false,
+      "pane": "SPG78",
+      "control": "YNNkT"
+    },
+    {
+      "key": "viewAll",
+      "focused": true,
+      "pane": "qTrAg",
+      "control": "S6iDI"
+    },
+    {
+      "key": "listing",
+      "focused": false,
+      "pane": "BUYJ8",
+      "control": "PXJWz"
+    },
+    {
+      "key": "listing",
+      "focused": true,
+      "pane": "mdPi8",
+      "control": "axtqK"
+    }
+  ],
+  "readback": [
+    {
+      "id": "oYzOn",
+      "name": "REVIEW · Home 3D.2 · category view-all listing keyboard focus · r1",
+      "width": 1038,
+      "height": 481
+    },
+    {
+      "id": "jSQBK",
+      "name": "Home navigation focus review heading",
+      "width": 356,
+      "height": 36
+    },
+    {
+      "id": "slHIj",
+      "name": "Focus comparison row explanation",
+      "width": 281,
+      "height": 21
+    },
+    {
+      "id": "CRePa",
+      "name": "Three Home navigation control comparisons",
+      "width": 990,
+      "height": 307
+    },
+    {
+      "id": "PIGAX",
+      "name": "category navigation focus column",
+      "width": 314,
+      "height": 307,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "btI1N",
+      "name": "category navigation caption",
+      "width": 96,
+      "height": 27
+    },
+    {
+      "id": "TDM1B",
+      "name": "category default review background",
+      "width": 314,
+      "height": 128
+    },
+    {
+      "id": "I8iEp",
+      "name": "category default control sample",
+      "width": 104,
+      "height": 65
+    },
+    {
+      "id": "DvbXl",
+      "name": "ใกล้ทะเล A icon",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "o1Cds1",
+      "name": "ใกล้ทะเล A label",
+      "width": 65,
+      "height": 27
+    },
+    {
+      "id": "Q9Umsr",
+      "name": "category focused review background",
+      "width": 314,
+      "height": 128,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "gOj5d",
+      "name": "category keyboard focus control sample",
+      "width": 104,
+      "height": 65
+    },
+    {
+      "id": "SgBex",
+      "name": "ใกล้ทะเล A icon",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "Am85U",
+      "name": "ใกล้ทะเล A label",
+      "width": 65,
+      "height": 27
+    },
+    {
+      "id": "k4O3A",
+      "name": "viewAll navigation focus column",
+      "width": 314,
+      "height": 307,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "C1SQe",
+      "name": "viewAll navigation caption",
+      "width": 68,
+      "height": 27
+    },
+    {
+      "id": "SPG78",
+      "name": "viewAll default review background",
+      "width": 314,
+      "height": 128
+    },
+    {
+      "id": "YNNkT",
+      "name": "viewAll default control sample",
+      "width": 77,
+      "height": 44
+    },
+    {
+      "id": "OPg4O",
+      "name": "View all label",
+      "width": 53,
+      "height": 21
+    },
+    {
+      "id": "DCbER",
+      "name": "View all arrow",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "id": "qTrAg",
+      "name": "viewAll focused review background",
+      "width": 314,
+      "height": 128,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "S6iDI",
+      "name": "viewAll keyboard focus control sample",
+      "width": 77,
+      "height": 44
+    },
+    {
+      "id": "sMWUI",
+      "name": "View all label",
+      "width": 53,
+      "height": 21
+    },
+    {
+      "id": "lsEHx",
+      "name": "View all arrow",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "id": "h8Oz6",
+      "name": "listing navigation focus column",
+      "width": 314,
+      "height": 307,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "EoIQM",
+      "name": "listing navigation caption",
+      "width": 100,
+      "height": 27
+    },
+    {
+      "id": "BUYJ8",
+      "name": "listing default review background",
+      "width": 314,
+      "height": 128
+    },
+    {
+      "id": "PXJWz",
+      "name": "listing default control sample",
+      "width": 96,
+      "height": 48
+    },
+    {
+      "id": "qBJYF",
+      "name": "Listing previous and next buttons",
+      "width": 96,
+      "height": 44
+    },
+    {
+      "id": "Y7CJQ",
+      "name": "Previous villas · disabled at start",
+      "width": 44,
+      "height": 44
+    },
+    {
+      "id": "JiPCA",
+      "name": "Listing left arrow",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "EaZjr",
+      "name": "Next villas · move listing rail only",
+      "width": 44,
+      "height": 44
+    },
+    {
+      "id": "Qtu3r",
+      "name": "Listing right arrow",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "mdPi8",
+      "name": "listing focused review background",
+      "width": 314,
+      "height": 128,
+      "problems": "partially clipped"
+    },
+    {
+      "id": "axtqK",
+      "name": "listing keyboard focus control sample",
+      "width": 96,
+      "height": 48
+    },
+    {
+      "id": "zrXBq",
+      "name": "Listing previous and next buttons",
+      "width": 96,
+      "height": 44
+    },
+    {
+      "id": "pP3hh",
+      "name": "Previous villas · disabled at start",
+      "width": 44,
+      "height": 44
+    },
+    {
+      "id": "Rf5O5",
+      "name": "Listing left arrow",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "zxdoD",
+      "name": "Next villas · move listing rail only",
+      "width": 44,
+      "height": 44
+    },
+    {
+      "id": "f93Vif",
+      "name": "Listing right arrow",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "x6FpL",
+      "name": "Focus behavior scope note",
+      "width": 579,
+      "height": 21,
+      "problems": "fully clipped"
+    }
+  ],
+  "wholeCanvas": {
+    "roots": 101,
+    "nodes": 23303
+  }
+}

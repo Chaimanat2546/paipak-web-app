@@ -1,0 +1,46 @@
+{
+  "version": "Article-count-r1",
+  "task": "DSD-001",
+  "status": "one_and_two_story_appearance_accepted; zero_story_behavior_confirmed; integrated_version_pending",
+  "owner_question": "แล้วถ้าไม่มีล่าสุดสมมติมีแค่ 1 หรือ 2 ล่ะ",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "one_story": {
+    "board": "N1UpHy",
+    "section": "d9ah7n",
+    "png": "d9ah7n.png",
+    "proposal": "One featured story at existing width centered; supporting column removed",
+    "status": "owner_accepted_appearance",
+    "acceptance": "owner-one-story-acceptance.json"
+  },
+  "two_stories": {
+    "source": "../article-availability-r1/RFule.png",
+    "native_source": "tYgDU",
+    "proposal": "One featured plus one supporting; no unused story slot",
+    "status": "owner_accepted_appearance",
+    "acceptance": "owner-two-story-acceptance.json"
+  },
+  "zero_stories": {
+    "status": "owner_confirmed_behavior",
+    "decision": "Hide entire section when no eligible catalog stories exist",
+    "evidence": "owner-zero-story-decision.json",
+    "native_frame_reviewed": false
+  },
+  "curated_empty_fallback": "Already confirmed latest eligible; not overridden by count proposal",
+  "curated_top_up": {
+    "status": "owner_confirmed_in_Q7",
+    "evidence": "../article-top-up-decision.json",
+    "decision": "Keep curated order first and append latest eligible without duplicates to total three; accepted one/two layouts apply if fewer are available"
+  },
+  "home_unchanged": true,
+  "variables_unchanged": true,
+  "functional_prototype": false,
+  "frontend": "not_authorized",
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "whole_canvas": {
+    "nodes": 38045,
+    "roots": 157
+  }
+}

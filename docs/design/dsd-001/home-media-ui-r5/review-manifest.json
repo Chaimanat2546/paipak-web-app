@@ -1,0 +1,82 @@
+{
+  "version": "Home-media-ui-r5 / Home Desktop-r13 draft",
+  "task": "DSD-001",
+  "date": "2026-11-04",
+  "owner_instruction": "ยังไม่เข้ากับเว็บขาดลูกเล่นไปหน่อย",
+  "status": "draft_pending_owner_review",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "home_node": "eMYWM",
+  "section_node": "MIdin",
+  "frames": [
+    {
+      "id": "MIdin",
+      "png": "MIdin.png",
+      "width": 1440,
+      "height": 816
+    },
+    {
+      "id": "YGt3D",
+      "png": "YGt3D.png",
+      "width": 1440,
+      "height": 1488
+    },
+    {
+      "id": "eMYWM",
+      "png": "eMYWM.png",
+      "width": 1440,
+      "height": 6066
+    }
+  ],
+  "changes": [
+    "Reused actual Hero Pink water signature under enlarged Regular headline",
+    "Reused actual Home pool-edge transition into articles",
+    "Added subdued water signature behind the clip deck",
+    "Larger selected cover and staggered rotated next-clip previews",
+    "Replaced filled source badge with TikTok platform icon and open label",
+    "Added directional arrow to existing browse CTA"
+  ],
+  "reused_native_assets": [
+    {
+      "source": "PGRbi",
+      "name": "A pink water signature",
+      "copies": [
+        "hgwij",
+        "lBGip"
+      ]
+    },
+    {
+      "source": "SoKpn",
+      "name": "White pool-edge transition",
+      "copy": "cr54z"
+    }
+  ],
+  "geometry_proposals": {
+    "heading": "Mitr40/400 line-height1.28; not a global typography change",
+    "front_cover": "320x568; manual56px play target",
+    "stage": "832x688; Navy section remains full-width",
+    "navigation": "48px arrows; previous disabled in first-position pose"
+  },
+  "checks": {
+    "articles_unchanged": true,
+    "other_home_sections_unchanged": true,
+    "variables_unchanged": true,
+    "navy_background_retained": true,
+    "placeholder_removed": true,
+    "complete_path_geometry": true
+  },
+  "wholeCanvas": {
+    "roots": 111,
+    "nodes": 35873
+  },
+  "prior_artifact": "../home-media-ui-r4/README.md",
+  "preservation": "Current editable root revised in place; prior snapshots/PNGs retained. Header, Hero, seven villa rows, articles and Footer unchanged.",
+  "limits": {
+    "functional": false,
+    "animated": false,
+    "Mobile": "paused_by_owner",
+    "foundation": "pending_owner_review",
+    "OPEN_001": "open; Pink/White CTA retained",
+    "frontend": "not_authorized"
+  },
+  "assets": "Existing generated study images; no real TikTok posts or customer claims implied"
+}

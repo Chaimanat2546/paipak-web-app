@@ -1,0 +1,76 @@
+{
+  "version": "Article-cover-16x9-r1",
+  "frame_checks": [
+    {
+      "id": "o710g4",
+      "size": [
+        696,
+        391.5
+      ],
+      "is_16_9": true
+    },
+    {
+      "id": "drb8f",
+      "size": [
+        224,
+        126
+      ],
+      "is_16_9": true
+    },
+    {
+      "id": "zwDyM",
+      "size": [
+        224,
+        126
+      ],
+      "is_16_9": true
+    },
+    {
+      "id": "uaZ6h",
+      "size": [
+        696,
+        391.5
+      ],
+      "is_16_9": true
+    },
+    {
+      "id": "TtrzY",
+      "size": [
+        224,
+        126
+      ],
+      "is_16_9": true
+    },
+    {
+      "id": "d4hHmB",
+      "size": [
+        224,
+        126
+      ],
+      "is_16_9": true
+    }
+  ],
+  "all_frames_16_9": true,
+  "home_unchanged": true,
+  "variables_unchanged": true,
+  "named_nodes": true,
+  "unfinished_roots": [],
+  "png_dimensions": {
+    "pNJ3F.png": [
+      1520,
+      980
+    ],
+    "R1IKAn.png": [
+      1440,
+      741
+    ],
+    "wTGFa.png": [
+      1520,
+      980
+    ]
+  },
+  "javascript_syntax": "node --check passed",
+  "browser_interactions_verified": false,
+  "cover_visibility": "not fully accepted: featured caption overlaps lower 76px; safe-area decision pending",
+  "real_text_bearing_covers_tested": false
+}

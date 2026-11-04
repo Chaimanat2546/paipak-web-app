@@ -1,0 +1,38 @@
+[
+  {
+    "file": "direction-a-desktop.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "2ff979f29576ae3e34f7516c9076a833478537211c28790a64612dcb9969d1ba"
+  },
+  {
+    "file": "direction-a-mobile.png",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "92067ee8ab074127150c2fddbeaa0f62b2f9470b49a6f0529fd7cfcb8065985b"
+  },
+  {
+    "file": "direction-b-desktop.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "049df4e9f4c6222c5a2862c1623b0156595cdcbbce69be7b49c26931a0e37b58"
+  },
+  {
+    "file": "direction-b-mobile.png",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "cb626b5f948dd5a69baa27d9755acb916da597a3851a0866a80496ead5353b32"
+  },
+  {
+    "file": "direction-c-desktop.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "330dbb5278e1262b049aa81858df2b7a2cbb651cb55c9df671372466a0130170"
+  },
+  {
+    "file": "direction-c-mobile.png",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "b64c57e97c7669049452645a1c5d7bfa51c0a637ad3d8515f195b717e073970f"
+  }
+]

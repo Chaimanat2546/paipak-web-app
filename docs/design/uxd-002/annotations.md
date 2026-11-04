@@ -1,6 +1,6 @@
 # UXD-002 — Wireframes และ Annotations
 
-> **ชุดล่าสุด review-5 วันที่ 3 พฤศจิกายน 2026:** [ดัชนีภาพ 40 ไฟล์และหลักฐาน](review-5/README.md), [component inventory / entry-exit / states / acceptance](review-5/component-inventory.md), [Pencil source](paipak-wireframe.pen), [layer snapshot](review-5/editable-snapshot.json) ภาพและสเปกยังรอเจ้าของตรวจรับ เจ้าของแจ้งบันทึก native source หลังแก้ครบแล้ว
+> **ชุดล่าสุด review-5 วันที่ 3 พฤศจิกายน 2026:** [ดัชนีภาพ 40 ไฟล์และหลักฐาน](review-5/README.md), [component inventory / entry-exit / states / acceptance](review-5/component-inventory.md), [Pencil source](papaipak-wireframe.pen), [layer snapshot](review-5/editable-snapshot.json) ภาพและสเปกยังรอเจ้าของตรวจรับ เจ้าของแจ้งบันทึก native source หลังแก้ครบแล้ว ชื่อไฟล์ในลิงก์แก้ให้ตรงไฟล์ที่มีอยู่เมื่อ 4 พฤศจิกายน 2026 โดยไม่ตรวจรับ layout รุ่นนี้
 
 Review-5 มี Desktop 18 / Mobile 22 ภาพ และ external annotation panels 40 แผง ใช้ Q-01–Q-12 และ F-01 ใน [review-decisions](review-decisions.md) แยก customer-facing UI ออกจาก notes ตาม guidelines; State sheets เป็น supporting artifacts ไม่ใช่ routes เพิ่ม
 
@@ -60,7 +60,7 @@ WF-10 เป็นแผ่นรวมสถานะประกอบหน�
 
 ## Navigation ที่ภูยืนยันล่าสุด
 
-- ซ้ายบน: โลโก้ paipak พร้อมข้อความ **“กรุณาโอนเงิน ชื่อ ...... แบบบริษัท”** ข้างโลโก้ ใช้ข้อความตามที่ภูยืนยัน ไม่แทนชื่อบริษัทหรือข้อมูลบัญชีด้วยข้อมูลที่แต่งขึ้น
+- ซ้ายบน: โลโก้ papaipak พร้อมข้อความ **“กรุณาโอนเงิน ชื่อ ...... แบบบริษัท”** ข้างโลโก้ ใช้ข้อความตามที่ภูยืนยัน ไม่แทนชื่อบริษัทหรือข้อมูลบัญชีด้วยข้อมูลที่แต่งขึ้น
 - Desktop ขวาบน: ตัวเลือกไทย/English และ LINE OA/โทร; ขวาล่าง: หน้าแรก, ค้นหาที่พัก/จอง, บทความ และเข้าสู่ระบบ
 - Mobile: โลโก้และข้อความอยู่ซ้าย ปุ่มเมนูอยู่ขวา สถานะเปิดใน WF-01N แสดงภาษา ช่องทางติดต่อ และเมนูครบตามรายการ
 - Guest กดเข้าสู่ระบบเปิด Login ก่อน มีทางสลับไปสมัครสมาชิกตามคำตอบล่าสุด ไม่เปิด Register เป็นค่าเริ่มต้น

@@ -1,0 +1,147 @@
+{
+  "version": "Home-Desktop-r7",
+  "purpose": "Static layout examples only. These associations do not assert category membership, ranking, discounts, pet policy, availability or inventory authority.",
+  "source_fixtures": "docs/design/dsd-001/f01-ui-1/fixtures.json",
+  "verified_category_classification": false,
+  "groups": [
+    {
+      "title": "พูลวิลล่าแนะนำ",
+      "fixture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "section_node": "PANR1",
+      "track_node": "K8MB2z",
+      "viewport_node": "yERNP",
+      "previous_control": "Twk79",
+      "next_control": "Pm9nH",
+      "category_membership": "not_verified",
+      "png": "PANR1.png"
+    },
+    {
+      "title": "พูลวิลล่าใกล้ทะเล",
+      "fixture_ids": [
+        12,
+        9,
+        10,
+        11,
+        16,
+        13,
+        14,
+        15
+      ],
+      "section_node": "Z5pz3j",
+      "track_node": "idwYA",
+      "viewport_node": "hBLdG",
+      "previous_control": "P2uHZT",
+      "next_control": "gdaJl",
+      "category_membership": "not_verified",
+      "png": "Z5pz3j.png"
+    },
+    {
+      "title": "พูลวิลล่าสายปาร์ตี้",
+      "fixture_ids": [
+        18,
+        19,
+        20,
+        17,
+        22,
+        23,
+        24,
+        21
+      ],
+      "section_node": "aPN85",
+      "track_node": "yFfMl",
+      "viewport_node": "uy459",
+      "previous_control": "b5yGB",
+      "next_control": "yWBja",
+      "category_membership": "not_verified",
+      "png": "aPN85.png"
+    },
+    {
+      "title": "พูลวิลล่าราคาพิเศษ",
+      "fixture_ids": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "section_node": "Q99ieY",
+      "track_node": "KmSjY",
+      "viewport_node": "ay8Tn",
+      "previous_control": "cvIFk",
+      "next_control": "luCw7",
+      "category_membership": "not_verified",
+      "png": "Q99ieY.png"
+    },
+    {
+      "title": "พูลวิลล่า Outing",
+      "fixture_ids": [
+        13,
+        16,
+        14,
+        15,
+        17,
+        20,
+        18,
+        19
+      ],
+      "section_node": "Wak43",
+      "track_node": "P87Yf",
+      "viewport_node": "BdmMh",
+      "previous_control": "XKgRJ",
+      "next_control": "U5VjD",
+      "category_membership": "not_verified",
+      "png": "Wak43.png"
+    },
+    {
+      "title": "พูลวิลล่า Pet Friendly",
+      "fixture_ids": [
+        2,
+        1,
+        4,
+        3,
+        5,
+        6
+      ],
+      "section_node": "a7hyPs",
+      "track_node": "AOrG1",
+      "viewport_node": "k47UR",
+      "previous_control": "zY7Vj",
+      "next_control": "ID3vq",
+      "category_membership": "not_verified",
+      "png": "a7hyPs.png"
+    },
+    {
+      "title": "พูลวิลล่า Luxury",
+      "fixture_ids": [
+        23,
+        24,
+        21,
+        22,
+        11,
+        12,
+        9,
+        10
+      ],
+      "section_node": "YRNYJ",
+      "track_node": "hABX1",
+      "viewport_node": "wsVsF",
+      "previous_control": "hmN1w",
+      "next_control": "YhQaD",
+      "category_membership": "not_verified",
+      "png": "YRNYJ.png"
+    }
+  ],
+  "existing_pet_fixture_constraint": "Pet Friendly sample uses only existing fixture IDs 1-6 whose pet_friendly_example flag is true; not a real pet policy"
+}

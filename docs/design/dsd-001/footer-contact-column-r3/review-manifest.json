@@ -1,0 +1,36 @@
+{
+  "version": "Footer-contact-column-r3",
+  "task": "DSD-001",
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_requested_smaller_icons_and_spacing; revised_appearance_pending",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "kengy",
+  "size_px": [
+    1440,
+    299
+  ],
+  "owner_choice": "owner-spacing-choice.json",
+  "image": "kengy.png",
+  "image_sha256": "96e19f2b5452fac99cc7d9395ea68605d63369b9f49b521018725642bf063eb6",
+  "unchanged_subtree_comparison_with_r2": {
+    "Footer pool-edge transition": true,
+    "Footer papaipak brand link · existing placeholder logo": true,
+    "Footer brand message and marketplace description": true,
+    "Footer information link column": true,
+    "Footer policies link column": true,
+    "Footer domain and return-to-top row": true
+  },
+  "visual_qa": "Native export opened at 1440px: both direct channels visible; aligned text; no visible overlap or clipping",
+  "structural_qa": "Get bounds diagnostics differ from native image; unresolved; see bounds-diagnostics.json",
+  "main_home_unchanged": true,
+  "header_unchanged": true,
+  "variables_unchanged": true,
+  "contact_destinations": "unverified",
+  "functional_acceptance": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ]
+}

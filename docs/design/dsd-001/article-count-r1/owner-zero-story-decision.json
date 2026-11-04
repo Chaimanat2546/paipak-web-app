@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "1",
+  "question_id": "home-desktop-closeout-plan-1/Q2",
+  "question": "ถ้าทั้งเว็บยังไม่มีบทความพร้อมแสดงเลย ให้ทำอย่างไร",
+  "selected_option": "ซ่อนส่วนบทความทั้งหมด",
+  "status": "owner_confirmed_zero_story_behavior",
+  "trigger": "No eligible stories exist across the entire catalog, including latest fallback",
+  "decision": "Hide the entire Home article section, including its heading and section spacing; adjacent sections flow together using normal page spacing",
+  "empty_message": false,
+  "replacement_cta": false,
+  "curated_empty_fallback": "Unchanged: use latest eligible stories when curated set is empty and eligible catalog stories exist",
+  "native_zero_story_frame": "not_created_or_reviewed",
+  "whole_article_version_approved": false,
+  "whole_home_version_approved": false,
+  "functional_acceptance": false,
+  "frontend_authorized": false
+}

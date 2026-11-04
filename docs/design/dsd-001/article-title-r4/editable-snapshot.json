@@ -1,0 +1,984 @@
+{
+  "version": "Article-title-r4",
+  "boards": [
+    {
+      "type": "frame",
+      "id": "GH7LG",
+      "x": 73694,
+      "y": 22011,
+      "name": "REVIEW · Article title-r4 · supporting one line · default",
+      "clip": true,
+      "width": 1520,
+      "height": 980,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "L6Pr7j",
+          "x": 40,
+          "y": 24,
+          "name": "Review label",
+          "fill": "#072D59",
+          "textGrowth": "fixed-width",
+          "width": 1440,
+          "content": "ชื่อเรื่องรอง1บรรทัด · เรื่องเด่นสูงสุด2บรรทัดตามเดิม",
+          "lineHeight": 1.5,
+          "fontFamily": "Mitr",
+          "fontSize": 28
+        },
+        {
+          "type": "frame",
+          "id": "yt4Rc",
+          "x": 40,
+          "y": 104,
+          "name": "Articles · supporting 1 line ellipsis · featured 2 lines · default",
+          "width": 1440,
+          "fill": "$surface.page",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            40,
+            56,
+            72,
+            56
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "R0Zocy",
+              "name": "Article section heading and index link",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "a7BUf",
+                  "name": "Articles section heading",
+                  "fill": "$brand.navy",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "เรื่องน่าอ่าน สำหรับวันพักผ่อน",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 36
+                },
+                {
+                  "type": "frame",
+                  "id": "M2NIs",
+                  "name": "All articles link · 44px target",
+                  "height": 44,
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RSK84",
+                      "name": "All articles label",
+                      "fill": "$brand.navy",
+                      "content": "บทความทั้งหมด",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "icon",
+                      "id": "u2FHH",
+                      "name": "All articles arrow",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "$brand.navy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Y9xsC9",
+              "name": "Editorial composition · lead and secondary stories",
+              "width": "fill_container",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "GVqbM",
+                  "name": "Featured editorial story · photo and floating reading panel",
+                  "clip": true,
+                  "width": 696,
+                  "height": 526.5,
+                  "cornerRadius": 24,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "WEihe",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 248,
+                      "name": "Pool-edge backing beneath featured story",
+                      "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+                      "viewBox": [
+                        0,
+                        0,
+                        1440,
+                        95
+                      ],
+                      "fill": "$brand.light",
+                      "width": 696,
+                      "height": 278.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "b9vVF2",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Featured article image · generated study cover",
+                      "clip": true,
+                      "width": 696,
+                      "height": 391.5,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/generated-4.png",
+                        "mode": "contain"
+                      },
+                      "cornerRadius": 24,
+                      "layout": "none"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pzbuG",
+                      "x": 24,
+                      "y": 315.5,
+                      "name": "Floating featured-article reading panel",
+                      "width": 648,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#072D591F",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ryiiE",
+                          "name": "Featured topic fixture",
+                          "fill": "$brand.navy",
+                          "content": "เลือกที่พัก",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 14
+                        },
+                        {
+                          "type": "frame",
+                          "id": "t7XMcC",
+                          "name": "Featured title and reading affordance",
+                          "width": "fill_container",
+                          "gap": 24,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "M3HNk",
+                              "name": "Featured article title fixture",
+                              "fill": "$brand.navy",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "เลือกพูลวิลล่าให้พอดี\nกับทริปของเรา",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 26
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ejXBM",
+                              "name": "Read featured article · full title accessible name proposed · 44px target",
+                              "width": 44,
+                              "height": 44,
+                              "fill": "$brand.navy",
+                              "cornerRadius": 22,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "JlKvM",
+                                  "name": "Read featured story arrow",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "arrow-up-right",
+                                  "library": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "vLh2w",
+                          "name": "Featured article short description",
+                          "fill": "#53657C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "เริ่มจากจำนวนคน บรรยากาศ และวันพักผ่อนที่อยากได้",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 16
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OBxNn",
+                  "name": "Curated supporting reads · borderless editorial rows",
+                  "width": 592,
+                  "layout": "vertical",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kUh4R",
+                      "name": "Supporting article fixture 1",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "TuNhr",
+                          "name": "Supporting article study cover 1",
+                          "clip": true,
+                          "width": 208,
+                          "height": 117,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/generated-5.png",
+                            "mode": "contain"
+                          },
+                          "cornerRadius": 16,
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "k9X3M",
+                          "name": "Supporting article text 1",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "X9aygB",
+                              "name": "Supporting topic fixture 1",
+                              "fill": "$brand.navy",
+                              "content": "เที่ยวกับเพื่อน",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 14
+                            },
+                            {
+                              "type": "text",
+                              "id": "fmqaE",
+                              "name": "Supporting article title fixture 1",
+                              "fill": "$brand.navy",
+                              "textGrowth": "fixed-width-height",
+                              "width": "fill_container",
+                              "height": 32,
+                              "content": "ชวนแก๊งเพื่อนมาใช้วันหยุดให้เต็มที่",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 22
+                            },
+                            {
+                              "type": "text",
+                              "id": "LUmkM",
+                              "name": "Supporting article summary fixture 1",
+                              "fill": "#53657C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "ไอเดียจัดทริปให้มีเวลาทั้งอยู่ด้วยกัน\nและพักผ่อนในแบบที่ชอบ",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 14
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XESF3",
+                              "name": "Read supporting article 1 · 44px target",
+                              "height": 44,
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "GOC7K",
+                                  "name": "Read supporting article label",
+                                  "fill": "$brand.navy",
+                                  "content": "อ่านเรื่องนี้",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 14
+                                },
+                                {
+                                  "type": "icon",
+                                  "id": "pVF2a",
+                                  "name": "Read article arrow",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "arrow-up-right",
+                                  "library": "lucide",
+                                  "fill": "$brand.navy"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ryeqZ",
+                      "name": "Supporting article fixture 2",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "E2t6Y",
+                          "name": "Supporting article study cover 2",
+                          "clip": true,
+                          "width": 208,
+                          "height": 117,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/generated-1.png",
+                            "mode": "contain"
+                          },
+                          "cornerRadius": 16,
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VWWt7",
+                          "name": "Supporting article text 2",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "sORLd",
+                              "name": "Supporting topic fixture 2",
+                              "fill": "$brand.navy",
+                              "content": "ไอเดียวันหยุด",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 14
+                            },
+                            {
+                              "type": "text",
+                              "id": "qVggQ",
+                              "name": "Supporting article title fixture 2",
+                              "fill": "$brand.navy",
+                              "textGrowth": "fixed-width-height",
+                              "width": "fill_container",
+                              "height": 32,
+                              "content": "วันพักผ่อนแบบไม่ต้องรีบ เริ่มจากอะไรดี",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 22
+                            },
+                            {
+                              "type": "text",
+                              "id": "Q0fe55",
+                              "name": "Supporting article summary fixture 2",
+                              "fill": "#53657C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "เปลี่ยนวันว่างธรรมดา ให้เป็นทริป\nที่มีเวลาให้ตัวเองมากขึ้น",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 14
+                            },
+                            {
+                              "type": "frame",
+                              "id": "LLRbV",
+                              "name": "Read supporting article 2 · 44px target",
+                              "height": 44,
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Na2av",
+                                  "name": "Read supporting article label",
+                                  "fill": "$brand.navy",
+                                  "content": "อ่านเรื่องนี้",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 14
+                                },
+                                {
+                                  "type": "icon",
+                                  "id": "BiosP",
+                                  "name": "Read article arrow",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "arrow-up-right",
+                                  "library": "lucide",
+                                  "fill": "$brand.navy"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "e1LuyR",
+          "x": 40,
+          "y": 890,
+          "name": "Review note",
+          "fill": "#072D59",
+          "textGrowth": "fixed-width",
+          "width": 1440,
+          "content": "เรื่องรองจำกัด1บรรทัดและตัดด้วย … · เก็บชื่อเต็มสำหรับหน้าอ่านและชื่อที่อ่านออกเสียง",
+          "lineHeight": 1.5,
+          "fontFamily": "Mitr",
+          "fontSize": 17
+        },
+        {
+          "type": "text",
+          "id": "L0hJj",
+          "x": 40,
+          "y": 934,
+          "name": "Scope note",
+          "fill": "#072D59",
+          "textGrowth": "fixed-width",
+          "width": 1440,
+          "content": "คงปก16:9 / safe-area / Mitr Regular / พื้นที่กดทั้งเรื่อง · ชื่อเด่นสูงสุด2 รองสูงสุด3บรรทัด",
+          "lineHeight": 1.5,
+          "fontFamily": "Mitr",
+          "fontSize": 14
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "SdSdm",
+      "x": 75334,
+      "y": 22011,
+      "name": "REVIEW · Article title-r4 · supporting one line · overflow",
+      "clip": true,
+      "width": 1520,
+      "height": 980,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "RVLzr",
+          "x": 40,
+          "y": 24,
+          "name": "Review label",
+          "fill": "#072D59",
+          "textGrowth": "fixed-width",
+          "width": 1440,
+          "content": "ตัวอย่างชื่อยาว · เรื่องรอง1บรรทัดแล้วแสดง …",
+          "lineHeight": 1.5,
+          "fontFamily": "Mitr",
+          "fontSize": 28
+        },
+        {
+          "type": "frame",
+          "id": "vbHEI",
+          "x": 40,
+          "y": 104,
+          "name": "Articles · supporting 1 line ellipsis · featured 2 lines · overflow",
+          "width": 1440,
+          "fill": "$surface.page",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            40,
+            56,
+            72,
+            56
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "rd5yb",
+              "name": "Article section heading and index link",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "j7veZ",
+                  "name": "Articles section heading",
+                  "fill": "$brand.navy",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "เรื่องน่าอ่าน สำหรับวันพักผ่อน",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 36
+                },
+                {
+                  "type": "frame",
+                  "id": "ojP0a",
+                  "name": "All articles link · 44px target",
+                  "height": 44,
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Blr5i",
+                      "name": "All articles label",
+                      "fill": "$brand.navy",
+                      "content": "บทความทั้งหมด",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "icon",
+                      "id": "NXNBV",
+                      "name": "All articles arrow",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "$brand.navy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CL5KW",
+              "name": "Editorial composition · lead and secondary stories",
+              "width": "fill_container",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "lTEEu",
+                  "name": "Featured editorial story · photo and floating reading panel",
+                  "clip": true,
+                  "width": 696,
+                  "height": 526.5,
+                  "cornerRadius": 24,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "ceB3U",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 248,
+                      "name": "Pool-edge backing beneath featured story",
+                      "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+                      "viewBox": [
+                        0,
+                        0,
+                        1440,
+                        95
+                      ],
+                      "fill": "$brand.light",
+                      "width": 696,
+                      "height": 278.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lwutS",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Featured article image · generated study cover",
+                      "clip": true,
+                      "width": 696,
+                      "height": 391.5,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/generated-4.png",
+                        "mode": "contain"
+                      },
+                      "cornerRadius": 24,
+                      "layout": "none"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "LpPBh",
+                      "x": 24,
+                      "y": 315.5,
+                      "name": "Floating featured-article reading panel",
+                      "width": 648,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#072D591F",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TPMFw",
+                          "name": "Featured topic fixture",
+                          "fill": "$brand.navy",
+                          "content": "เลือกที่พัก",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 14
+                        },
+                        {
+                          "type": "frame",
+                          "id": "N7BHf",
+                          "name": "Featured title and reading affordance",
+                          "width": "fill_container",
+                          "gap": 24,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ENaPq",
+                              "name": "Featured article title fixture",
+                              "fill": "$brand.navy",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "เลือกพูลวิลล่าให้พอดี\nกับทริปของเรา",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 26
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hbwLm",
+                              "name": "Read featured article · full title accessible name proposed · 44px target",
+                              "width": 44,
+                              "height": 44,
+                              "fill": "$brand.navy",
+                              "cornerRadius": 22,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "ELrrD",
+                                  "name": "Read featured story arrow",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "arrow-up-right",
+                                  "library": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "JSEnD",
+                          "name": "Featured article short description",
+                          "fill": "#53657C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "เริ่มจากจำนวนคน บรรยากาศ และวันพักผ่อนที่อยากได้",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 16
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nIlFj",
+                  "name": "Curated supporting reads · borderless editorial rows",
+                  "width": 592,
+                  "layout": "vertical",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VOh8U",
+                      "name": "Supporting article fixture 1",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "TX1yX",
+                          "name": "Supporting article study cover 1",
+                          "clip": true,
+                          "width": 208,
+                          "height": 117,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/generated-5.png",
+                            "mode": "contain"
+                          },
+                          "cornerRadius": 16,
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "q66HM",
+                          "name": "Supporting article text 1",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "nipt3",
+                              "name": "Supporting topic fixture 1",
+                              "fill": "$brand.navy",
+                              "content": "เที่ยวกับเพื่อน",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 14
+                            },
+                            {
+                              "type": "text",
+                              "id": "c2zTK",
+                              "name": "Supporting article title fixture 1",
+                              "fill": "$brand.navy",
+                              "textGrowth": "fixed-width-height",
+                              "width": "fill_container",
+                              "height": 32,
+                              "content": "ชวนแก๊งเพื่อนมาใช้วันหยุดให้เต็มที่…",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 22
+                            },
+                            {
+                              "type": "text",
+                              "id": "hlEed",
+                              "name": "Supporting article summary fixture 1",
+                              "fill": "#53657C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "ไอเดียจัดทริปให้มีเวลาทั้งอยู่ด้วยกัน\nและพักผ่อนในแบบที่ชอบ",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 14
+                            },
+                            {
+                              "type": "frame",
+                              "id": "nP6kb",
+                              "name": "Read supporting article 1 · 44px target",
+                              "height": 44,
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "IiSFY",
+                                  "name": "Read supporting article label",
+                                  "fill": "$brand.navy",
+                                  "content": "อ่านเรื่องนี้",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 14
+                                },
+                                {
+                                  "type": "icon",
+                                  "id": "oJH60",
+                                  "name": "Read article arrow",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "arrow-up-right",
+                                  "library": "lucide",
+                                  "fill": "$brand.navy"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cQ2JQ",
+                      "name": "Supporting article fixture 2",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "dLCvM",
+                          "name": "Supporting article study cover 2",
+                          "clip": true,
+                          "width": 208,
+                          "height": 117,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/generated-1.png",
+                            "mode": "contain"
+                          },
+                          "cornerRadius": 16,
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tfPlu",
+                          "name": "Supporting article text 2",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "fqDTa",
+                              "name": "Supporting topic fixture 2",
+                              "fill": "$brand.navy",
+                              "content": "ไอเดียวันหยุด",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 14
+                            },
+                            {
+                              "type": "text",
+                              "id": "RkF2A",
+                              "name": "Supporting article title fixture 2",
+                              "fill": "$brand.navy",
+                              "textGrowth": "fixed-width-height",
+                              "width": "fill_container",
+                              "height": 32,
+                              "content": "วันพักผ่อนแบบไม่ต้องรีบ เริ่มจากอะไร…",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 22
+                            },
+                            {
+                              "type": "text",
+                              "id": "ZWr9o",
+                              "name": "Supporting article summary fixture 2",
+                              "fill": "#53657C",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "เปลี่ยนวันว่างธรรมดา ให้เป็นทริป\nที่มีเวลาให้ตัวเองมากขึ้น",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 14
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XUUDg",
+                              "name": "Read supporting article 2 · 44px target",
+                              "height": 44,
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "GurYr",
+                                  "name": "Read supporting article label",
+                                  "fill": "$brand.navy",
+                                  "content": "อ่านเรื่องนี้",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 14
+                                },
+                                {
+                                  "type": "icon",
+                                  "id": "hkjwI",
+                                  "name": "Read article arrow",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "arrow-up-right",
+                                  "library": "lucide",
+                                  "fill": "$brand.navy"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "vbz2m",
+          "x": 40,
+          "y": 890,
+          "name": "Review note",
+          "fill": "#072D59",
+          "textGrowth": "fixed-width",
+          "width": 1440,
+          "content": "เรื่องรองจำกัด1บรรทัดและตัดด้วย … · เก็บชื่อเต็มสำหรับหน้าอ่านและชื่อที่อ่านออกเสียง",
+          "lineHeight": 1.5,
+          "fontFamily": "Mitr",
+          "fontSize": 17
+        },
+        {
+          "type": "text",
+          "id": "jpd9H",
+          "x": 40,
+          "y": 934,
+          "name": "Scope note",
+          "fill": "#072D59",
+          "textGrowth": "fixed-width",
+          "width": 1440,
+          "content": "คงปก16:9 / safe-area / Mitr Regular / พื้นที่กดทั้งเรื่อง · ชื่อเด่นสูงสุด2 รองสูงสุด3บรรทัด",
+          "lineHeight": 1.5,
+          "fontFamily": "Mitr",
+          "fontSize": 14
+        }
+      ]
+    }
+  ]
+}
+

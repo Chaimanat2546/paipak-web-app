@@ -1,8 +1,11 @@
-# paipak.com — project workflow
+# papaipak — project workflow
 
 ## Current source of truth
 
+- Owner naming correction on 4 November 2026: the displayed brand/site name is **papaipak**, and the owner explicitly confirmed **papaipak.com** as the domain for current project documents. Existing repository paths, filenames, technical identifiers, source URLs and historical snapshots keep their real names. This naming confirmation does not verify domain ownership or configure hosting/DNS. The owner also selected the Header-icons-r4 assets for all language/LINE placements and authorized their rollout in the existing Pencil F-01 scope; this is not approval of the full F01-ui-3 package or Frontend implementation.
+
 - On 2 November 2026 (Asia/Bangkok), the project owner explicitly adopted the entire imported handoff pack as the latest project direction: “ยึดตามเอกสารใหม่ทั้งหมดเพราะพึ่งได้ข้อสรุปใหม่วันนี้”.
+- On 3 November 2026 (Asia/Bangkok), the owner approved Design Governance Kit v1.0 as the project-wide standard. Read `docs/design/governance/README.md` and the approval record in `docs/decisions/registry.yaml`. Each task's design/version still requires explicit owner approval before related frontend implementation; governance approval does not approve task outputs or start tasks.
 - Use `docs/decisions/registry.yaml`, `docs/decisions/open-decisions.yaml`, `docs/decisions/superseded.yaml`, `docs/design/approved-ux-ui-scope.md`, and the task packets in `tasks/` as the current planning contract. Where earlier project directions conflict, the imported direction takes precedence.
 - This adoption approves project direction and planning workflow. It does not certify historical source provenance, approve final screenshots, complete tasks, resolve listed open decisions, or authorize automatic implementation or deployment.
 - `AGENTS.md` is the active repository entrypoint. `AGENTS.handoff.md` contains the imported planning guidance and must be read together with this file; local runtime and application safeguards below remain applicable where they do not conflict with the latest direction.
@@ -17,16 +20,17 @@
 ## Current authorization and stage
 
 - Existing dependencies, local Workers testing and homepage mock implementation were authorized on 29–30 October 2026. Preserve that work as implementation evidence; the blue/yellow Kanit homepage is not the approved visual baseline for the new direction.
-- Follow `docs/roadmap/task-order.md`: UX journeys/IA → responsive wireframes and visual foundations → component specifications → page designs → relevant design review/approval → explicitly selected implementation tasks. This supersedes the previous homepage-first acceptance sequence as the project plan.
+- Follow `docs/roadmap/task-order.md`: UX journeys/IA → owner-approved Visual Direction in DSD-001 → responsive wireframes, with remaining visual foundations in DSD-001 → component specifications → page designs → relevant design review/approval → explicitly selected implementation tasks. The owner selected Visual Direction before Wireframe on 3 November 2026; existing UXD-002 review-5 remains pending owner review, not automatically revised or approved.
 - Execution is USER-INITIATED, ONE TASK PER CONVERSATION. For design or implementation, use the Task ID selected by the user; if absent, ask which task to discuss. Do not autonomously select or chain tasks. Explicitly requested repository maintenance/document reconciliation can proceed without selecting a design task.
 - Read the selected task packet, `tasks/design/manifest.yaml`, applicable decisions and open issues; summarize scope, dependencies, deliverables and acceptance criteria. Discuss only unresolved task-local details and do not reopen adopted global directions without an explicit change request.
 - Create design artifacts or application code only after the user authorizes that work in the selected task. Obtain explicit approval of the relevant final design/version before dependent frontend implementation; task readiness requires approved outputs, not merely existing dependency IDs.
+- Owner clarification on 3 November 2026: approval is required before UI Design too. Discuss and present the selected task's plan/scope at G0, then obtain explicit owner authorization before creating or revising direction studies, Wireframes, High-Fi screens, tokens or component/state designs. Approval of the governance standard or selection of a Task ID alone is not approval to produce design artifacts. Existing explicit task authorizations remain valid within their approved scope; do not ask again for the same authorized work. Final design/version approval remains required before related frontend implementation.
 - Nonvisual backend/tooling work may be selected independently when its contracts and dependencies are ready. The plan itself does not authorize SDK integration, cloud resources, analytics, payment or deployment.
 - Report actual evidence and untested items. Do not mark tasks complete or visual references approved from planning adoption alone.
 
 ## Adopted design and architecture
 
-- Brand: navy `#072D59`, light blue `#DBF2FC`, pink `#FD6E88`, white primary background and Mitr typography. Use the complete token/component direction in the new documents; old blue/yellow Kanit styling is implementation to be reconciled in authorized tasks.
+- Brand: navy `#072D59`, light blue `#DBF2FC`, pink `#FD6E88`, white primary background and Mitr as the primary typeface. The owner permits proposals for a supplementary typeface, with explicit approval of the font and usage before use. No supplementary font is approved by this clarification. Use the complete token/component direction in the new documents; old blue/yellow Kanit styling is implementation to be reconciled in authorized tasks.
 - Build a modern, vibrant Thai pool-villa consumer marketplace with cinematic imagery and gentle rounding. Follow the adopted page layouts rather than generic SaaS dashboard patterns.
 - Browsing does not require dates or login. Use seven villa category shortcuts, four-column dense cards when space permits, image-led property cards with carousel/favorite, Suggested Search Chips and explicit Apply Filters behavior as specified.
 - Owner-confirmed UXD-001 clarifications on 2 November 2026: Favorites requires login with no temporary Guest favorites; preserve Booking Intent only during uninterrupted navigation/authentication and never recover it after reload, tab close or intent/session expiry; use one total guest count without adult/child separation plus pets separately. Cancelling Auth returns to its origin with still-active selections. Supporting Footer links do not authorize a listing-owner portal. See `docs/design/uxd-001/edge-flows.md` Q-01 through Q-05.
@@ -34,20 +38,25 @@
 - Use one Next.js repository with modular features and a shared design system. For authorized backend work, use server components for suitable reads, route handlers for APIs/webhooks and server-only domain services for sensitive logic.
 - Booking requires login with preserved booking intent, price/availability revalidation, concurrency protection, separate booking/payment states, verified webhooks and idempotency. Exact hold and catalog authority policies remain open; do not invent provider behavior.
 
-## Wireframe authoring rules
+## Design governance and wireframe authoring rules
+
+- Before each Design Task, read [Governance README](docs/design/governance/README.md) and `01`–`05` in that folder; use `06-task-brief-template.md` with the existing Task Packet. Apply the owner-approved Design Governance Kit v1.0 as the project-wide standard, within approved product decisions, task scope and runtime safeguards. Each task's final design/version requires separate explicit owner approval before related frontend implementation.
+- The owner-confirmed clarifications of 3 November 2026 are: Mitr remains primary with supplementary fonts subject to approval; Visual Direction precedes Wireframe; `07-homepage-review-example.md` is illustrative only, not a review of the current Homepage. Importing the kit does not approve final designs, start tasks or authorize frontend implementation.
+- In the integrated kit, G1 is Visual Direction and G2 is UX/Wireframe. UXD-002 requires the owner-approved DSD-001 direction/version before new wireframe revisions and final G2 acceptance. Preserve existing draft evidence; review alignment only in a user-selected task. Approved UX/business rules and UXD-001 review-2 remain in force.
 
 - For future wireframe creation or revisions, read and follow [Wireframe Guidelines](docs/design/wireframe-guidelines.md).
+- `docs/design/governance/wireframe_guidelines_paipak.md` preserves the ZIP's source copy; `docs/design/wireframe-guidelines.md` is the maintained authoring guide and takes precedence over that copy.
 - Apply these rules within the selected task's existing scope, sequence and dependencies. Owner-approved project decisions take precedence over generic examples or open-question examples in the guidelines. This addition does not authorize revising existing artifacts or starting another task.
 
 ## Application constraints
 
 - Keep Next.js, Tailwind CSS and TypeScript strict. Do not substitute a different application framework.
-- Use shadcn/ui (Radix) as the base UI primitives and Kibo UI for suitable composed components, as requested on 30 October 2026. Preserve paipak styling via `app/globals.css` semantic tokens and component variants. Reuse `components/ui/`, `components/kibo-ui/`, and `lib/utils.ts` before creating new primitives; add only components needed by the authorized scope.
+- Use shadcn/ui (Radix) as the base UI primitives and Kibo UI for suitable composed components, as requested on 30 October 2026. Preserve papaipak styling via `app/globals.css` semantic tokens and component variants. Reuse `components/ui/`, `components/kibo-ui/`, and `lib/utils.ts` before creating new primitives; add only components needed by the authorized scope.
 - No explicit `any` or `unknown` types in Application code. Do not bypass errors with type suppression, unsafe assertions or non-null assertions. Use typed fixtures, validated inputs, discriminated unions and narrowing.
 - Use Mock Data first. Installed Supabase packages do not authorize SDK calls or real Auth, Database, Storage or Admin integration.
 - Membership, booking, profile, favorites and booking history are planned capabilities, not existing backend features. Additional legacy requirements must be reconciled with the adopted task scope rather than silently added to implementation.
 - Beam Checkout integration is a later, separately authorized phase.
-- Keep future paipak Cloudflare/Supabase resources, credentials and bindings isolated from other sites. Never copy another site's environment files.
+- Keep future papaipak Cloudflare/Supabase resources, credentials and bindings isolated from other sites. Never copy another site's environment files.
 - Keep secrets out of source control and client bundles. Do not request credentials for mock/local runtime work.
 - Do not submit real booking, payment, contact, newsletter, owner or recruitment forms while inspecting a reference website. Do not bypass protections or access unauthorized data.
 

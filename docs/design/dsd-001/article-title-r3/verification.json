@@ -1,0 +1,35 @@
+{
+  "version": "Article-title-r3",
+  "geometry": [
+    {
+      "name": "Supporting article study cover 1",
+      "width": 208,
+      "height": 117
+    },
+    {
+      "name": "Supporting article title fixture 1",
+      "content": "ชวนแก๊งเพื่อนมาใช้วันหยุดให้เต็มที่",
+      "width": 360,
+      "height": 32
+    },
+    {
+      "name": "Supporting article study cover 2",
+      "width": 208,
+      "height": 117
+    },
+    {
+      "name": "Supporting article title fixture 2",
+      "content": "วันพักผ่อนแบบไม่ต้องรีบ เริ่มจากอะไรดี",
+      "width": 360,
+      "height": 32
+    }
+  ],
+  "no_forced_supporting_breaks": true,
+  "all_supporting_images_16_9": true,
+  "home_unchanged": true,
+  "variables_unchanged": true,
+  "visual_review": "Final native section screenshot and full-resolution PNG inspected after widening titles",
+  "all_titles_and_widths_verified": false,
+  "functional_line_clamp_test": false
+}
+

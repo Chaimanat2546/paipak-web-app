@@ -1,0 +1,1384 @@
+{
+  "version": "Search-confirmation-study-r1",
+  "revision": "Option C without clear count or policy helper",
+  "status": "proposal_pending_owner_choice",
+  "root": {
+    "type": "frame",
+    "id": "DX5Qr",
+    "x": 4558,
+    "y": 12332,
+    "name": "REVIEW · Search confirmation study · proposal only",
+    "width": 1440,
+    "fill": "#F2FAFE",
+    "layout": "vertical",
+    "gap": 24,
+    "padding": 32,
+    "children": [
+      {
+        "type": "text",
+        "id": "Flato",
+        "name": "Confirmation study title",
+        "fill": "#072D59",
+        "content": "ปุ่มในแผงค้นหา ควรทำหน้าที่อะไร?",
+        "lineHeight": 1.4,
+        "fontFamily": "$font.primary",
+        "fontSize": 26,
+        "fontWeight": "500"
+      },
+      {
+        "type": "text",
+        "id": "QCw4D",
+        "name": "Confirmation study scope",
+        "fill": "#072D59",
+        "content": "เปรียบเทียบด้วยผู้เข้าพักชุดเดียวกัน · หลักการใช้กับวันเข้าพักด้วย · ยังเป็นข้อเสนอ ไม่เปลี่ยนแบบหลัก",
+        "lineHeight": 1.4,
+        "fontFamily": "$font.primary",
+        "fontSize": 15,
+        "fontWeight": "normal"
+      },
+      {
+        "type": "frame",
+        "id": "yGMEs",
+        "name": "Three confirmation approaches",
+        "width": "fill_container",
+        "gap": 22,
+        "children": [
+          {
+            "type": "frame",
+            "id": "G9K3g",
+            "name": "A confirmation alternative",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 16,
+            "children": [
+              {
+                "type": "text",
+                "id": "V9nnE8",
+                "name": "A alternative title",
+                "fill": "#072D59",
+                "content": "A · เสร็จสิ้น",
+                "lineHeight": 1.4,
+                "fontFamily": "$font.primary",
+                "fontSize": 20,
+                "fontWeight": "500"
+              },
+              {
+                "type": "text",
+                "id": "TgP6o",
+                "name": "A alternative explanation",
+                "fill": "#072D59",
+                "textGrowth": "fixed-width",
+                "width": "fill_container",
+                "content": "ยืนยันค่าที่เลือกและปิดแผง แล้วกดค้นหาอีกครั้ง",
+                "lineHeight": 1.4,
+                "fontFamily": "$font.primary",
+                "fontSize": 14,
+                "fontWeight": "normal"
+              },
+              {
+                "type": "frame",
+                "id": "u4rnDa",
+                "name": "A search field and submit outside popover",
+                "width": "fill_container",
+                "height": 64,
+                "gap": 8,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "drDHm",
+                    "name": "A guest trigger with current form value",
+                    "width": "fill_container",
+                    "height": 64,
+                    "fill": "#DBF2FC",
+                    "cornerRadius": 14,
+                    "layout": "vertical",
+                    "padding": [
+                      8,
+                      12
+                    ],
+                    "justifyContent": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "VTaug",
+                        "name": "A guest field label",
+                        "fill": "#072D59",
+                        "content": "ผู้เข้าพัก",
+                        "lineHeight": 1.4,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 12,
+                        "fontWeight": "normal"
+                      },
+                      {
+                        "type": "text",
+                        "id": "dRsr7",
+                        "name": "A guest field value",
+                        "fill": "#072D59",
+                        "content": "12 คน · สัตว์เลี้ยง 1",
+                        "lineHeight": 1.4,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 16,
+                        "fontWeight": "500"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "fWz6K",
+                    "name": "A Search submit outside popover",
+                    "width": 104,
+                    "height": 64,
+                    "fill": "#FD6E88",
+                    "cornerRadius": 16,
+                    "gap": 8,
+                    "padding": [
+                      0,
+                      18
+                    ],
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "w9O4H",
+                        "name": "ค้นหา icon",
+                        "width": 18,
+                        "height": 18,
+                        "icon": "search",
+                        "library": "lucide",
+                        "fill": "#FFFFFF"
+                      },
+                      {
+                        "type": "text",
+                        "id": "avZH2",
+                        "name": "ค้นหา label",
+                        "fill": "#FFFFFF",
+                        "content": "ค้นหา",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 15,
+                        "fontWeight": "500"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "T30Ppn",
+                "name": "A Guests selected popover comparison",
+                "width": "fill_container",
+                "fill": "#FFFFFF",
+                "cornerRadius": 20,
+                "stroke": "#D6E4EE",
+                "strokeWidth": 1,
+                "layout": "vertical",
+                "gap": 8,
+                "padding": 16,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "Rz4Ts",
+                    "name": "Guest panel header",
+                    "width": "fill_container",
+                    "gap": 16,
+                    "justifyContent": "space_between",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "D2HA02",
+                        "name": "Guest panel title",
+                        "fill": "#072D59",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้เข้าพัก",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 18,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "frame",
+                        "id": "h6AIN",
+                        "name": "Close guests and return",
+                        "width": 44,
+                        "height": 44,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 24,
+                        "gap": 16,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "zQl64",
+                            "name": "Close guests and return icon",
+                            "width": 24,
+                            "height": 24,
+                            "icon": "x",
+                            "library": "lucide",
+                            "fill": "#072D59"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "LKLyf",
+                    "x": 24,
+                    "y": 92,
+                    "name": "Total guest helper",
+                    "enabled": false,
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": 400,
+                    "content": "จำนวนผู้เข้าพักรวม",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 16
+                  },
+                  {
+                    "type": "frame",
+                    "id": "Vk53N",
+                    "name": "ผู้เข้าพักรวม counter",
+                    "width": "fill_container",
+                    "gap": 16,
+                    "justifyContent": "space_between",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "LZ204",
+                        "name": "ผู้เข้าพักรวม caption",
+                        "fill": "#072D59",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้เข้าพักรวม",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 16
+                      },
+                      {
+                        "type": "frame",
+                        "id": "RwimE",
+                        "name": "ผู้เข้าพักรวม controls",
+                        "gap": 10,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "I7COo",
+                            "name": "ผู้เข้าพักรวม decrease",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "WqLBd",
+                                "name": "ผู้เข้าพักรวม decrease icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "minus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "id": "ErEjJ",
+                            "name": "ผู้เข้าพักรวม number",
+                            "fill": "#072D59",
+                            "content": "12",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 17,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "FFUJJ",
+                            "name": "ผู้เข้าพักรวม increase",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "q6WLpf",
+                                "name": "ผู้เข้าพักรวม increase icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "plus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "xPzYk",
+                    "name": "สัตว์เลี้ยง counter",
+                    "width": "fill_container",
+                    "gap": 16,
+                    "justifyContent": "space_between",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "NTeLt",
+                        "name": "สัตว์เลี้ยง caption",
+                        "fill": "#072D59",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "สัตว์เลี้ยง",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 16
+                      },
+                      {
+                        "type": "frame",
+                        "id": "HOhve",
+                        "name": "สัตว์เลี้ยง controls",
+                        "gap": 10,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "Nb5y1",
+                            "name": "สัตว์เลี้ยง decrease",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "gkXzc",
+                                "name": "สัตว์เลี้ยง decrease icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "minus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "id": "Okyea",
+                            "name": "สัตว์เลี้ยง number",
+                            "fill": "#072D59",
+                            "content": "1",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 17,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "yZmjj",
+                            "name": "สัตว์เลี้ยง increase",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "UVZcF",
+                                "name": "สัตว์เลี้ยง increase icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "plus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "ip8xw",
+                    "name": "Pet policy helper",
+                    "fill": "#6B7280",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "ตรวจจำนวนที่รองรับและนโยบายสัตว์เลี้ยงของแต่ละที่พักก่อนจอง",
+                    "lineHeight": 1.4,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 13
+                  },
+                  {
+                    "type": "frame",
+                    "id": "zPaXJ",
+                    "name": "Guest actions",
+                    "width": "fill_container",
+                    "gap": 12,
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "hUn9P",
+                        "name": "ล้างจำนวน action",
+                        "width": "fill_container",
+                        "height": 44,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 12,
+                        "stroke": "#6B7280",
+                        "strokeWidth": 1,
+                        "gap": 8,
+                        "padding": [
+                          0,
+                          18
+                        ],
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "VJ5j6",
+                            "name": "ล้างจำนวน label",
+                            "fill": "#072D59",
+                            "content": "ล้างจำนวน",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 16,
+                            "fontWeight": "500"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "jl3ta",
+                        "name": "บันทึก action",
+                        "width": "fill_container",
+                        "height": 44,
+                        "fill": "#FD6E88",
+                        "cornerRadius": 12,
+                        "gap": 8,
+                        "padding": [
+                          0,
+                          18
+                        ],
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "F7IfxA",
+                            "name": "บันทึก label",
+                            "fill": "#FFFFFF",
+                            "content": "เสร็จสิ้น",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 16,
+                            "fontWeight": "500"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "lVsZ1",
+            "name": "B confirmation alternative",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 16,
+            "children": [
+              {
+                "type": "text",
+                "id": "lSOxk",
+                "name": "B alternative title",
+                "fill": "#072D59",
+                "content": "B · ใช้จำนวนนี้",
+                "lineHeight": 1.4,
+                "fontFamily": "$font.primary",
+                "fontSize": 20,
+                "fontWeight": "500"
+              },
+              {
+                "type": "text",
+                "id": "c7iRu8",
+                "name": "B alternative explanation",
+                "fill": "#072D59",
+                "textGrowth": "fixed-width",
+                "width": "fill_container",
+                "content": "ระบุสิ่งที่ยืนยันชัดขึ้น แต่ยังต้องกดสองขั้น",
+                "lineHeight": 1.4,
+                "fontFamily": "$font.primary",
+                "fontSize": 14,
+                "fontWeight": "normal"
+              },
+              {
+                "type": "frame",
+                "id": "NFy89",
+                "name": "B search field and submit outside popover",
+                "width": "fill_container",
+                "height": 64,
+                "gap": 8,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "UwUed",
+                    "name": "B guest trigger with current form value",
+                    "width": "fill_container",
+                    "height": 64,
+                    "fill": "#DBF2FC",
+                    "cornerRadius": 14,
+                    "layout": "vertical",
+                    "padding": [
+                      8,
+                      12
+                    ],
+                    "justifyContent": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "azv3b",
+                        "name": "B guest field label",
+                        "fill": "#072D59",
+                        "content": "ผู้เข้าพัก",
+                        "lineHeight": 1.4,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 12,
+                        "fontWeight": "normal"
+                      },
+                      {
+                        "type": "text",
+                        "id": "AXmLg",
+                        "name": "B guest field value",
+                        "fill": "#072D59",
+                        "content": "12 คน · สัตว์เลี้ยง 1",
+                        "lineHeight": 1.4,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 16,
+                        "fontWeight": "500"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "JI9Is",
+                    "name": "B Search submit outside popover",
+                    "width": 104,
+                    "height": 64,
+                    "fill": "#FD6E88",
+                    "cornerRadius": 16,
+                    "gap": 8,
+                    "padding": [
+                      0,
+                      18
+                    ],
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "C6rcBz",
+                        "name": "ค้นหา icon",
+                        "width": 18,
+                        "height": 18,
+                        "icon": "search",
+                        "library": "lucide",
+                        "fill": "#FFFFFF"
+                      },
+                      {
+                        "type": "text",
+                        "id": "YKBKb",
+                        "name": "ค้นหา label",
+                        "fill": "#FFFFFF",
+                        "content": "ค้นหา",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 15,
+                        "fontWeight": "500"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "RoyWx",
+                "name": "B Guests selected popover comparison",
+                "width": "fill_container",
+                "fill": "#FFFFFF",
+                "cornerRadius": 20,
+                "stroke": "#D6E4EE",
+                "strokeWidth": 1,
+                "layout": "vertical",
+                "gap": 8,
+                "padding": 16,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "HTrmV",
+                    "name": "Guest panel header",
+                    "width": "fill_container",
+                    "gap": 16,
+                    "justifyContent": "space_between",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "kDPEe",
+                        "name": "Guest panel title",
+                        "fill": "#072D59",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้เข้าพัก",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 18,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "frame",
+                        "id": "FSDag",
+                        "name": "Close guests and return",
+                        "width": 44,
+                        "height": 44,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 24,
+                        "gap": 16,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "UrqCK",
+                            "name": "Close guests and return icon",
+                            "width": 24,
+                            "height": 24,
+                            "icon": "x",
+                            "library": "lucide",
+                            "fill": "#072D59"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "q2Poh1",
+                    "x": 24,
+                    "y": 92,
+                    "name": "Total guest helper",
+                    "enabled": false,
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": 400,
+                    "content": "จำนวนผู้เข้าพักรวม",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 16
+                  },
+                  {
+                    "type": "frame",
+                    "id": "H8jTui",
+                    "name": "ผู้เข้าพักรวม counter",
+                    "width": "fill_container",
+                    "gap": 16,
+                    "justifyContent": "space_between",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "RdDzo",
+                        "name": "ผู้เข้าพักรวม caption",
+                        "fill": "#072D59",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้เข้าพักรวม",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 16
+                      },
+                      {
+                        "type": "frame",
+                        "id": "Bf8u0",
+                        "name": "ผู้เข้าพักรวม controls",
+                        "gap": 10,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "zxiMc",
+                            "name": "ผู้เข้าพักรวม decrease",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "Scurm",
+                                "name": "ผู้เข้าพักรวม decrease icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "minus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "id": "WqHYO",
+                            "name": "ผู้เข้าพักรวม number",
+                            "fill": "#072D59",
+                            "content": "12",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 17,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "OrQLg",
+                            "name": "ผู้เข้าพักรวม increase",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "LtjHA",
+                                "name": "ผู้เข้าพักรวม increase icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "plus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "FP653",
+                    "name": "สัตว์เลี้ยง counter",
+                    "width": "fill_container",
+                    "gap": 16,
+                    "justifyContent": "space_between",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "abdkx",
+                        "name": "สัตว์เลี้ยง caption",
+                        "fill": "#072D59",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "สัตว์เลี้ยง",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 16
+                      },
+                      {
+                        "type": "frame",
+                        "id": "WgDxz",
+                        "name": "สัตว์เลี้ยง controls",
+                        "gap": 10,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "mSnMg",
+                            "name": "สัตว์เลี้ยง decrease",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "COl4A",
+                                "name": "สัตว์เลี้ยง decrease icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "minus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "id": "K3kf8",
+                            "name": "สัตว์เลี้ยง number",
+                            "fill": "#072D59",
+                            "content": "1",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 17,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "uc6rQ",
+                            "name": "สัตว์เลี้ยง increase",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "X5KcQ",
+                                "name": "สัตว์เลี้ยง increase icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "plus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "GhSjg",
+                    "name": "Pet policy helper",
+                    "fill": "#6B7280",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "ตรวจจำนวนที่รองรับและนโยบายสัตว์เลี้ยงของแต่ละที่พักก่อนจอง",
+                    "lineHeight": 1.4,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 13
+                  },
+                  {
+                    "type": "frame",
+                    "id": "xjawY",
+                    "name": "Guest actions",
+                    "width": "fill_container",
+                    "gap": 12,
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "QnakO",
+                        "name": "ล้างจำนวน action",
+                        "width": "fill_container",
+                        "height": 44,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 12,
+                        "stroke": "#6B7280",
+                        "strokeWidth": 1,
+                        "gap": 8,
+                        "padding": [
+                          0,
+                          18
+                        ],
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "hdRW6",
+                            "name": "ล้างจำนวน label",
+                            "fill": "#072D59",
+                            "content": "ล้างจำนวน",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 16,
+                            "fontWeight": "500"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "x6M9Nr",
+                        "name": "บันทึก action",
+                        "width": "fill_container",
+                        "height": 44,
+                        "fill": "#FD6E88",
+                        "cornerRadius": 12,
+                        "gap": 8,
+                        "padding": [
+                          0,
+                          18
+                        ],
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "jgs8I",
+                            "name": "บันทึก label",
+                            "fill": "#FFFFFF",
+                            "content": "ใช้จำนวนนี้",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 16,
+                            "fontWeight": "500"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "ECmwQ",
+            "name": "C confirmation alternative",
+            "width": "fill_container",
+            "fill": "#F2FAFE",
+            "layout": "vertical",
+            "gap": 16,
+            "children": [
+              {
+                "type": "text",
+                "id": "c4YEsZ",
+                "name": "C alternative title",
+                "fill": "#072D59",
+                "content": "C · ไม่มีบันทึกหรือล้างจำนวน",
+                "lineHeight": 1.4,
+                "fontFamily": "$font.primary",
+                "fontSize": 20,
+                "fontWeight": "500"
+              },
+              {
+                "type": "text",
+                "id": "l2x4Fm",
+                "name": "C alternative explanation",
+                "fill": "#072D59",
+                "textGrowth": "fixed-width",
+                "width": "fill_container",
+                "content": "ปรับค่าในแถบค้นหาทันที แล้วกดค้นหาเมื่อพร้อม",
+                "lineHeight": 1.4,
+                "fontFamily": "$font.primary",
+                "fontSize": 14,
+                "fontWeight": "normal"
+              },
+              {
+                "type": "frame",
+                "id": "zSah1",
+                "name": "C search field and submit outside popover",
+                "width": "fill_container",
+                "height": 64,
+                "gap": 8,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "k3Ut1",
+                    "name": "C guest trigger with current form value",
+                    "width": "fill_container",
+                    "height": 64,
+                    "fill": "#DBF2FC",
+                    "cornerRadius": 14,
+                    "layout": "vertical",
+                    "padding": [
+                      8,
+                      12
+                    ],
+                    "justifyContent": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "wh7gB",
+                        "name": "C guest field label",
+                        "fill": "#072D59",
+                        "content": "ผู้เข้าพัก",
+                        "lineHeight": 1.4,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 12,
+                        "fontWeight": "normal"
+                      },
+                      {
+                        "type": "text",
+                        "id": "U15H7",
+                        "name": "C guest field value",
+                        "fill": "#072D59",
+                        "content": "12 คน · สัตว์เลี้ยง 1",
+                        "lineHeight": 1.4,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 16,
+                        "fontWeight": "500"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "J6cxY",
+                    "name": "C Search submit outside popover",
+                    "width": 104,
+                    "height": 64,
+                    "fill": "#FD6E88",
+                    "cornerRadius": 16,
+                    "gap": 8,
+                    "padding": [
+                      0,
+                      18
+                    ],
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "diQbe",
+                        "name": "ค้นหา icon",
+                        "width": 18,
+                        "height": 18,
+                        "icon": "search",
+                        "library": "lucide",
+                        "fill": "#FFFFFF"
+                      },
+                      {
+                        "type": "text",
+                        "id": "d1atU",
+                        "name": "ค้นหา label",
+                        "fill": "#FFFFFF",
+                        "content": "ค้นหา",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 15,
+                        "fontWeight": "500"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "qw2xq",
+                "name": "C Guests selected popover comparison",
+                "width": "fill_container",
+                "fill": "#FFFFFF",
+                "cornerRadius": 20,
+                "stroke": "#D6E4EE",
+                "strokeWidth": 1,
+                "layout": "vertical",
+                "gap": 8,
+                "padding": 16,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "kpRZA",
+                    "name": "Guest panel header",
+                    "width": "fill_container",
+                    "gap": 16,
+                    "justifyContent": "space_between",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "muSMj",
+                        "name": "Guest panel title",
+                        "fill": "#072D59",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้เข้าพัก",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 18,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "frame",
+                        "id": "l2TBu",
+                        "name": "Close guests and return",
+                        "width": 44,
+                        "height": 44,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 24,
+                        "gap": 16,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "cyBlF",
+                            "name": "Close guests and return icon",
+                            "width": 24,
+                            "height": 24,
+                            "icon": "x",
+                            "library": "lucide",
+                            "fill": "#072D59"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "VUegF",
+                    "x": 24,
+                    "y": 92,
+                    "name": "Total guest helper",
+                    "enabled": false,
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": 400,
+                    "content": "จำนวนผู้เข้าพักรวม",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 16
+                  },
+                  {
+                    "type": "frame",
+                    "id": "Znrcp",
+                    "name": "ผู้เข้าพักรวม counter",
+                    "width": "fill_container",
+                    "gap": 16,
+                    "justifyContent": "space_between",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "Qy0DQ",
+                        "name": "ผู้เข้าพักรวม caption",
+                        "fill": "#072D59",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้เข้าพักรวม",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 16
+                      },
+                      {
+                        "type": "frame",
+                        "id": "MZzZW",
+                        "name": "ผู้เข้าพักรวม controls",
+                        "gap": 10,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "pFGnt",
+                            "name": "ผู้เข้าพักรวม decrease",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "HPR8S",
+                                "name": "ผู้เข้าพักรวม decrease icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "minus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "id": "YAmaC",
+                            "name": "ผู้เข้าพักรวม number",
+                            "fill": "#072D59",
+                            "content": "12",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 17,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "uxDsV",
+                            "name": "ผู้เข้าพักรวม increase",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "hxPuK",
+                                "name": "ผู้เข้าพักรวม increase icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "plus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "jDPV5",
+                    "name": "สัตว์เลี้ยง counter",
+                    "width": "fill_container",
+                    "gap": 16,
+                    "justifyContent": "space_between",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "Q02Zg9",
+                        "name": "สัตว์เลี้ยง caption",
+                        "fill": "#072D59",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "สัตว์เลี้ยง",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 16
+                      },
+                      {
+                        "type": "frame",
+                        "id": "jG2id",
+                        "name": "สัตว์เลี้ยง controls",
+                        "gap": 10,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "Tr6BA",
+                            "name": "สัตว์เลี้ยง decrease",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "LfJV7",
+                                "name": "สัตว์เลี้ยง decrease icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "minus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "id": "AdrdM",
+                            "name": "สัตว์เลี้ยง number",
+                            "fill": "#072D59",
+                            "content": "1",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 17,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "nR7gq",
+                            "name": "สัตว์เลี้ยง increase",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "a4j4fl",
+                                "name": "สัตว์เลี้ยง increase icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "plus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "dOA4w",
+        "name": "Proposal behavior boundary",
+        "fill": "#072D59",
+        "content": "A/B ต้องยืนยันในแผง · C ปิดแผงได้โดยค่าค้นหายังคงอยู่ และยังไม่โหลด Results จนกดค้นหา",
+        "lineHeight": 1.4,
+        "fontFamily": "$font.primary",
+        "fontSize": 15,
+        "fontWeight": "normal"
+      },
+      {
+        "type": "text",
+        "id": "pO8D3",
+        "name": "Proposal status",
+        "fill": "#53657C",
+        "content": "ข้อเสนอเฉพาะ Search บน Home/Results · ไม่เปลี่ยนตัวกรอง Apply หรือ date editor ของการจอง · รอเลือกแนวทาง",
+        "lineHeight": 1.4,
+        "fontFamily": "$font.primary",
+        "fontSize": 13,
+        "fontWeight": "normal"
+      }
+    ]
+  },
+  "issues": [],
+  "wholeCanvasRoots": 78,
+  "wholeCanvasNodes": 16539
+}

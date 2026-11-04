@@ -1,0 +1,77 @@
+{
+  "version": "Article-focus-r3",
+  "task": "DSD-001",
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_selected_dark_surface; 500ms_transition_pending_review",
+  "owner_choice": "owner-focus-choice.json",
+  "prototype": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-article-focus-r3.html",
+  "prototype_sha256": "72224a55369946c5fa393e355882563b5f94b4aab063c6d6feaa8d93e0aa8bf1",
+  "prototype_bytes": 966079,
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "qV3Kf",
+  "image": "qV3Kf.png",
+  "image_sha256": "cffd9d3dedf2584d71503a7d107dde7692fa3c41b6a1bccfc57e3cc136e4aeec",
+  "image_size_px": [
+    1440,
+    746
+  ],
+  "transition_proposal": {
+    "duration_ms": 500,
+    "easing": "ease-in-out",
+    "delay_ms": 0,
+    "directions": [
+      "enter",
+      "leave"
+    ],
+    "properties": [
+      "caption background color",
+      "caption text color",
+      "excerpt text color",
+      "arrow background color",
+      "arrow icon color"
+    ],
+    "scope": "keyboard focus; explicit simulation toggle",
+    "loop": false
+  },
+  "preserved": [
+    "accepted featured hover r7",
+    "accepted press r3 420ms/140ms +3/-4/0px",
+    "default geometry, cover, title and body"
+  ],
+  "reduced_motion": "Immediate color change without travel",
+  "qa": {
+    "script_syntax_node_check": "PASS",
+    "source_checks": {
+      "fragment": true,
+      "under_1mb": true,
+      "two_assets": true,
+      "no_api": true,
+      "focus_500": true,
+      "press_420": true,
+      "entry_140": true,
+      "hover_336": true,
+      "travel_unchanged": true,
+      "reduced": true,
+      "old_root_removed": true
+    },
+    "native_endpoint_png_opened": true,
+    "browser_interaction_tested": false,
+    "font_loading_verified": false,
+    "intermediate_color_contrast_verified": false,
+    "full_focus_accessibility_certified": false
+  },
+  "visual_choice_approved": true,
+  "numeric_timing_approved": false,
+  "supporting_and_index_adaptation_pending": true,
+  "main_home_unchanged": true,
+  "variables_unchanged": true,
+  "approved_source_files_unchanged": true,
+  "whole_article_approved": false,
+  "whole_home_approved": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ]
+}

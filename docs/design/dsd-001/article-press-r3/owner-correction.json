@@ -1,0 +1,21 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "เมื่อกี๊ฉันบอกผิดไม่ใช่เบาลงแต่หมายถึงให้เด้งช้าลงเอากลับไปเป็นเท่าเดิมก่อนแล้วปรับให้ช้าลง",
+  "status": "owner_corrected_request_restore_original_travel_and_slow_timing",
+  "supersedes": "r2 lower-amplitude instruction; do not keep the half-travel treatment",
+  "travel_px": [3, -4, 0],
+  "timing_proposal": {
+    "release_duration_ms": 420,
+    "previous_release_duration_ms": 240,
+    "press_entry_ms": 140,
+    "previous_press_entry_ms": 80,
+    "easing_changed": false,
+    "hover_timing_changed": false
+  },
+  "native_board": "m0I12",
+  "revised_preview_approved": false,
+  "focus_choice_approved": false,
+  "frontend_authorized": false
+}

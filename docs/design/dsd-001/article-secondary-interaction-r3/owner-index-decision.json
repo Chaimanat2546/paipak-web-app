@@ -1,0 +1,16 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "ตรงปุ่มบทความทั้งหมดทิ้งไว้ก่อนเอาให้มันกดไว้เฉยเฉยไม่ต้องมีอนิเมชั่นเดี๋ยวค่อยทำทีหลัง",
+  "status": "owner_directed_plain_all_articles_link; animation_design_deferred",
+  "current_behavior": "Plain clickable link, no bounce/reveal/hover motion or artificial delay",
+  "supersedes": "Only all-articles activation animation in secondary-r2 acceptance",
+  "supporting_bounce_acceptance": "../article-secondary-interaction-r2/owner-secondary-acceptance.json",
+  "supporting_and_featured_unchanged": true,
+  "real_navigation_implemented": false,
+  "animation_design_blocks_current_review": false,
+  "whole_article_approved": false,
+  "whole_home_approved": false,
+  "frontend_authorized": false
+}

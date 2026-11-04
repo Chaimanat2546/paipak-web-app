@@ -1,0 +1,71 @@
+{
+  "version": "Article-excerpt-r1",
+  "task": "DSD-001",
+  "status": "draft_visual_review_pending",
+  "owner_choice": {
+    "quote": "1",
+    "question": "คำโปรยของเรื่องเด่น",
+    "selected": "Maximum two lines then ellipsis; no empty reserved line for short copy"
+  },
+  "featured_excerpt_max_lines": 2,
+  "supporting_excerpt_policy": "owner_confirmed_max_2_lines_with_ellipsis_natural_height",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "states": [
+    {
+      "key": "short",
+      "board": "KdGZY",
+      "section": "W0z7U",
+      "summary": "PkF3f",
+      "caption": "YMooc",
+      "featured": "iqf8T",
+      "featuredHeight": 526.5,
+      "summaryGeometry": {
+        "content": "เริ่มจากจำนวนคน บรรยากาศ และวันพักผ่อนที่อยากได้",
+        "width": 600,
+        "height": 26
+      },
+      "png": "KdGZY.png",
+      "section_png": "W0z7U.png"
+    },
+    {
+      "key": "overflow",
+      "board": "Tf2Pc",
+      "section": "AEeDw",
+      "summary": "qnY35",
+      "caption": "ZAJPG",
+      "featured": "v408E",
+      "featuredHeight": 552.5,
+      "summaryGeometry": {
+        "content": "เริ่มจากจำนวนคน บรรยากาศ และวันพักผ่อนที่อยากได้ แล้วค่อยเลือกที่พักที่มีพื้นที่และสิ่งอำนวยความสะดวกเหมาะกับทริปของเรา ทั้งมุมพักผ่อนและพื้นที่ใช้เวลาร่วมกัน…",
+        "width": 600,
+        "height": 52
+      },
+      "png": "Tf2Pc.png",
+      "section_png": "AEeDw.png"
+    }
+  ],
+  "overflow_full_excerpt_fixture": "เริ่มจากจำนวนคน บรรยากาศ และวันพักผ่อนที่อยากได้ แล้วค่อยเลือกที่พักที่มีพื้นที่และสิ่งอำนวยความสะดวกเหมาะกับทริปของเรา ทั้งมุมพักผ่อนและพื้นที่ใช้เวลาร่วมกัน เพื่อให้ทุกคนได้ใช้วันหยุดในแบบที่ชอบ",
+  "source_home_unchanged": true,
+  "variables_unchanged": true,
+  "layout": "Same 16:9 covers, overlap safe-area and selected one-plus-two composition; panel grows with actual excerpt height",
+  "title_limits": {
+    "featured": 2,
+    "supporting": 1
+  },
+  "functional_prototype": false,
+  "frontend": "not_authorized",
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "whole_canvas": {
+    "nodes": 37993,
+    "roots": 155
+  },
+  "owner_supporting_choice": {
+    "quote": "1",
+    "question": "คำโปรยเรื่องรองทางขวา",
+    "selected": "Maximum two lines then ellipsis; no empty reserved line for short copy",
+    "scope": "Supporting excerpt rule, not combined visual approval"
+  }
+}

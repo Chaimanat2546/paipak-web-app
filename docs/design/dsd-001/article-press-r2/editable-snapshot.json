@@ -1,0 +1,512 @@
+{
+  "type": "frame",
+  "id": "m0I12",
+  "x": 90414,
+  "y": 28761.5,
+  "name": "REVIEW · Article-press-r2 · softer press and single rebound",
+  "clip": true,
+  "width": 2240,
+  "fill": "#FFFFFF",
+  "gap": 24,
+  "padding": 16,
+  "children": [
+    {
+      "type": "frame",
+      "id": "Kwt2w",
+      "name": "Article press phase · normal",
+      "width": 720,
+      "height": 624,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "piXWX",
+          "x": 12,
+          "y": 12,
+          "name": "Review label · press normal",
+          "fill": "$brand.navy",
+          "content": "ปกติ",
+          "lineHeight": 1.5,
+          "fontFamily": "$font.primary",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "Ir0yZ",
+          "x": 12,
+          "y": 56,
+          "name": "Featured story press reference · normal",
+          "clip": true,
+          "width": 696,
+          "height": 552.5,
+          "cornerRadius": 24,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "ALoQH",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 248,
+              "name": "Pool-edge backing beneath featured story",
+              "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+              "viewBox": [
+                0,
+                0,
+                1440,
+                95
+              ],
+              "fill": "$brand.light",
+              "width": 696,
+              "height": 304.5
+            },
+            {
+              "type": "frame",
+              "id": "l0qFNh",
+              "x": 0,
+              "y": 0,
+              "name": "Featured article image · generated study cover",
+              "clip": true,
+              "width": 696,
+              "height": 391.5,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/generated-4.png",
+                "mode": "contain"
+              },
+              "cornerRadius": 24,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "ylxs3",
+              "x": 24,
+              "y": 315.5,
+              "name": "Floating featured-article reading panel",
+              "width": 648,
+              "fill": "#FFFFFF",
+              "cornerRadius": 20,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D591F",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 24
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "y2gJ9q",
+                  "name": "Featured topic fixture",
+                  "fill": "$brand.navy",
+                  "content": "เลือกที่พัก",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 14
+                },
+                {
+                  "type": "frame",
+                  "id": "ucGfI",
+                  "name": "Featured title and reading affordance",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tVkXx",
+                      "name": "Featured article title fixture",
+                      "fill": "$brand.navy",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "เลือกพูลวิลล่าให้พอดี\nกับทริปของเรา",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 26
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tsvtn",
+                      "name": "Read featured article · full title accessible name proposed · 44px target",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "$brand.navy",
+                      "cornerRadius": 22,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "xefsk",
+                          "name": "Read featured story arrow",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "arrow-up-right",
+                          "library": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "eWNcV",
+                  "name": "Featured body-opening fallback · static two-line fixture",
+                  "fill": "#53657C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "เริ่มจากจำนวนคน บรรยากาศ และวันพักผ่อนที่อยากได้ แล้วค่อยเลือกบ้านที่มีพื้นที่ให้ทุกคนได้ใช้เวลาร่วมกัน…",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "LpOM6",
+      "name": "Article press phase · pressed",
+      "width": 720,
+      "height": 624,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "hnOAt",
+          "x": 12,
+          "y": 12,
+          "name": "Review label · press pressed",
+          "fill": "$brand.navy",
+          "content": "ตอนกด · ขยับเบาลง",
+          "lineHeight": 1.5,
+          "fontFamily": "$font.primary",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "Txb7T",
+          "x": 12,
+          "y": 57.5,
+          "name": "Featured story press reference · pressed",
+          "clip": true,
+          "width": 696,
+          "height": 552.5,
+          "cornerRadius": 24,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "X3OTbw",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 248,
+              "name": "Pool-edge backing beneath featured story",
+              "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+              "viewBox": [
+                0,
+                0,
+                1440,
+                95
+              ],
+              "fill": "$brand.light",
+              "width": 696,
+              "height": 304.5
+            },
+            {
+              "type": "frame",
+              "id": "tu9KK",
+              "x": 0,
+              "y": 0,
+              "name": "Featured article image · generated study cover",
+              "clip": true,
+              "width": 696,
+              "height": 391.5,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/generated-4.png",
+                "mode": "contain"
+              },
+              "cornerRadius": 24,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "NwV01",
+              "x": 24,
+              "y": 315.5,
+              "name": "Floating featured-article reading panel",
+              "width": 648,
+              "fill": "#FFFFFF",
+              "cornerRadius": 20,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D591F",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 24
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HRyVR",
+                  "name": "Featured topic fixture",
+                  "fill": "$brand.navy",
+                  "content": "เลือกที่พัก",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 14
+                },
+                {
+                  "type": "frame",
+                  "id": "E1ApLb",
+                  "name": "Featured title and reading affordance",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZqVEm",
+                      "name": "Featured article title fixture",
+                      "fill": "$brand.navy",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "เลือกพูลวิลล่าให้พอดี\nกับทริปของเรา",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 26
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YgfJv",
+                      "name": "Read featured article · full title accessible name proposed · 44px target",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "$brand.navy",
+                      "cornerRadius": 22,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "ZstMY",
+                          "name": "Read featured story arrow",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "arrow-up-right",
+                          "library": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "NfqVD",
+                  "name": "Featured body-opening fallback · static two-line fixture",
+                  "fill": "#53657C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "เริ่มจากจำนวนคน บรรยากาศ และวันพักผ่อนที่อยากได้ แล้วค่อยเลือกบ้านที่มีพื้นที่ให้ทุกคนได้ใช้เวลาร่วมกัน…",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "fp1Jj",
+      "name": "Article press phase · rebound",
+      "width": 720,
+      "height": 624,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "f08rg",
+          "x": 12,
+          "y": 12,
+          "name": "Review label · press rebound",
+          "fill": "$brand.navy",
+          "content": "ตอนปล่อย · เด้งกลับเบา ๆ",
+          "lineHeight": 1.5,
+          "fontFamily": "$font.primary",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "YWZ02",
+          "x": 12,
+          "y": 54,
+          "name": "Featured story press reference · rebound",
+          "clip": true,
+          "width": 696,
+          "height": 552.5,
+          "cornerRadius": 24,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "BSmzr",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 248,
+              "name": "Pool-edge backing beneath featured story",
+              "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+              "viewBox": [
+                0,
+                0,
+                1440,
+                95
+              ],
+              "fill": "$brand.light",
+              "width": 696,
+              "height": 304.5
+            },
+            {
+              "type": "frame",
+              "id": "hlqeg",
+              "x": 0,
+              "y": 0,
+              "name": "Featured article image · generated study cover",
+              "clip": true,
+              "width": 696,
+              "height": 391.5,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/generated-4.png",
+                "mode": "contain"
+              },
+              "cornerRadius": 24,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "xM0xe",
+              "x": 24,
+              "y": 315.5,
+              "name": "Floating featured-article reading panel",
+              "width": 648,
+              "fill": "#FFFFFF",
+              "cornerRadius": 20,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D591F",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 24
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SzhHS",
+                  "name": "Featured topic fixture",
+                  "fill": "$brand.navy",
+                  "content": "เลือกที่พัก",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 14
+                },
+                {
+                  "type": "frame",
+                  "id": "X4abo0",
+                  "name": "Featured title and reading affordance",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Fw80K",
+                      "name": "Featured article title fixture",
+                      "fill": "$brand.navy",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "เลือกพูลวิลล่าให้พอดี\nกับทริปของเรา",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 26
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TcwMu",
+                      "name": "Read featured article · full title accessible name proposed · 44px target",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "$brand.navy",
+                      "cornerRadius": 22,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "VR1LA",
+                          "name": "Read featured story arrow",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "arrow-up-right",
+                          "library": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "l7uOAd",
+                  "name": "Featured body-opening fallback · static two-line fixture",
+                  "fill": "#53657C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "เริ่มจากจำนวนคน บรรยากาศ และวันพักผ่อนที่อยากได้ แล้วค่อยเลือกบ้านที่มีพื้นที่ให้ทุกคนได้ใช้เวลาร่วมกัน…",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

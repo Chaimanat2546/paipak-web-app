@@ -1,0 +1,153 @@
+# DSD-001 — Token sheet
+
+รุ่น foundation-3-desktop · 5 พฤศจิกายน 2026 · A / Holiday Panorama / review-2
+
+**สถานะ: จัด role ให้ตรงกับ Home Desktop-r15 และ states ที่รับด้านภาพแล้ว; รอ final foundation approval** เป็น design specification ไม่ใช่ CSS หรือการย้าย tokens เข้าแอป Mobile ยังพักไว้
+
+## วิธีอ่านสถานะ
+
+- Locked: brand, Mitr และข้อกำหนดผลิตภัณฑ์ที่อนุมัติแล้ว
+- Home reference: ค่าที่อ่านจาก native Home1440px หรือ appearance state ที่เจ้าของเลือก ใช้กับขอบเขตนั้น ไม่แทนการรับ shared design system ทั้งหมด
+- Proposed: role mapping หรือค่าที่ยังไม่รับเฉพาะ เช่น generic motion นอกบทความที่รับแล้ว
+- Open/deferred: ข้อจำกัดที่ยังไม่ผ่านหรือยังไม่ได้ตรวจ ไม่ตีความเป็น approved
+
+เก็บร่าง B เดิมใน [archive](foundation-1/pre-a-alignment-2026-11-04/README.md) ใช้ [หลักฐานปัจจุบัน](foundation-3-desktop/README.md) แทน composition ของ B
+
+## Colors
+
+| Token role | ค่า | การใช้ / สถานะ |
+| --- | --- | --- |
+| brand.navy | #072D59 | Locked; heading, ราคา, navigation, functional icons |
+| brand.pink | #FD6E88 | Locked; accent และ CTA reference ที่เจ้าของคงไว้ |
+| brand.light | #DBF2FC | Locked; ใช้เฉพาะ surface ที่มีหน้าที่ |
+| surface.page | #FFFFFF | พื้นหลัก |
+| surface.home.recommended | #F2FAFE | Home reference; พื้นแนะนำ |
+| surface.home.special | #FFF5F7 | Home reference; พื้นหมวดราคาพิเศษ |
+| surface.home.luxury | #072D59 | Home reference; ข้อความหัวข้อ/ดูทั้งหมดสีขาว |
+| surface.home.tiktok | #072D59 | Home-r15/TikTok-states-r3 |
+| surface.article.caption | #FFFFFF | แผงอ่านเรื่องเด่น; เรื่องรองปกติไม่มีกรอบ |
+| text.article.body | #53657C | เนื้อหาบทความนอกภาพปก |
+| text.tiktok.body | #DBF2FC | ข้อความรองบน Navy; หัวเรื่องขาว |
+| surface.home.footer / selected-language | #DBF2FC | Home/Footer และแถวภาษาปัจจุบัน |
+| surface.overlay / property-card | #FFFFFF | แผงลอยและการ์ด |
+| surface.loading | #DCEAF1 | Skeleton ที่เจ้าของเลือก ไม่ใช่ข้อมูลบ้านจริง |
+| text.interface / brand | #072D59 | ข้อความและข้อมูลสำคัญใน Home |
+| text.metadata | #6B7280 | Metadata บนขาว; ไม่ลด opacity เพิ่มเอง |
+| text.contact-hint | #53657C | คำอธิบายช่องทางติดต่อบนขาว |
+| text.on-navy | #FFFFFF | หัวข้อ/ลิงก์บน Navy ตาม reference |
+| action.primary.fill.visual-reference | #FD6E88 | Owner-retained reference; OPEN-001 |
+| action.primary.label.visual-reference | #FFFFFF | Owner-retained reference; ไม่รับรอง AA |
+| border.listing.decorative | #072D5940 | เส้นปุ่มเลื่อนแถว; ไอคอน Navy เป็นตัวบอก action |
+| focus.ink | #072D59 | เส้นใต้ลิงก์/พื้นปุ่มเลื่อน/วง photo-arrow ตาม state ที่เลือก |
+| favorite.focus.visual-reference | #FD6E88 | Heart-fillไม่มีวงกลมในตัวอย่าง focus; ไม่ใช่การบันทึก Guest favorite |
+
+Planning neutrals #F7F7F7, #E5E7EB, body ink #202124 และ semantic success #15803D/error #B91C1C ยังคงตาม TOK-002/003 ใน [registry](../../decisions/registry.yaml) ไม่ลบหรือเปลี่ยน global defaults จากการรับ Home ข้อความ interface ของ Home ใช้ text.brand; Footerเก่าสีเทาไม่ใช่ Footerที่เลือกแล้ว
+
+พื้นเฉพาะแนะนำ/ราคาพิเศษ/Luxury/Footer เป็นการใช้เฉพาะ Home ที่รับ ไม่สร้าง alternating section recipe ให้ทุกหน้า ภาพจริงและข้อความบนภาพต้องตรวจเป็นรายกรณี
+
+## OPEN-001 — คงชมพูเดิมกับข้อความขาว
+
+เจ้าของเลือกข้อ3เมื่อ4พฤศจิกายน2026: คง #FD6E88 / #FFFFFF และให้ OPEN-001 เปิดต่อ ยืนยันความชอบเดิม ไม่เลือก Pink/Navy หรือ Navy/White ไม่ปรับเฉดหรือถามเลือกสีซ้ำโดยอัตโนมัติ ดู [owner choice](f01-ui-3/home-guided-review/cta-brand-contrast-r1/owner-choice.json)
+
+| คู่สี | Nominal ratio | สถานะ |
+| --- | ---: | --- |
+| White / Pink ที่เลือก | 2.705343217728925:1 | ไม่ผ่าน4.5:1และ3:1; OPEN-001ยังเปิด |
+| Navy / Pink | 5.077980501367648:1 | หลักฐานคู่สีทางเลือก ไม่ได้รับเลือก |
+| White / Navy | 13.737680109134693:1 | คู่สี solid ผ่านเฉพาะการคำนวณ ไม่ใช่ primary CTAที่เลือก |
+
+ใช้ค่าไม่ปัดเศษก่อนเทียบ threshold ตาม [W3C SC1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum) การเก็บ visual reference ไม่ใช่ accessibility exception, final CTA sign-off หรือ implementation acceptance ไม่ปิด issue จากการรับ Home/เอกสารนี้
+
+## Spacing และ geometry อ้างอิง
+
+Spacing palette เดิม4/8/12/16/20/24/32/40/48/64pxยังเป็นฐาน ค่า6/14/56pxด้านล่างเป็น named Home roles จากแบบที่รับ ไม่กระจาย one-off values ไปทุก component
+
+| Role | ค่าpx | ขอบเขต |
+| --- | --- | --- |
+| home.content.inline | 56 | กรอบ1440px; content1328px |
+| home.section.padding | 24 top /56 inline /48 bottom | แถวบ้าน |
+| home.section.content-gap | 24 | หัวข้อกับแถวการ์ด |
+| property.rail.gap | 24 | ระหว่างการ์ด |
+| property.info.padding / gap | 14 /6 | พื้นข้อมูลการ์ด |
+| home.search.padding / gap | 12×20 /12 | แถบค้นหากลางHero |
+| footer.surface.padding / gap | 24×56 /20 | Footer-contact-column-r4 |
+| footer.contact.row / gap | สูง48 /4 | LINE/โทรศัพท์ตรง; แยกจาก Header popup |
+| home.tiktok.padding / narrative-gap | 48 top /56 inline /80 bottom;48 gap | Narrative448px +stage832px |
+| home.article.padding / composition-gap | 40 top /56 inline /72 bottom;40 gap | เรื่องเด่น696px +รอง592px |
+| article.caption.padding / gap | 24 /10 | แผง648px ซ้อน76pxที่1440px ไม่ใช่safe areaสากล |
+| article.supporting.image-text-gap / rows-gap | 24 /40 | รูป208×117 ข้อความ360px |
+| overlay.compact.padding / gap | 8 /2 | แผงภาษา/ติดต่อ |
+| language.row | สูง44 | Panel224×152 |
+| contact.row | สูง56 | Panel280×176 รองรับชื่อ+คำอธิบาย |
+
+ที่1440px: Headerสูง124, Hero470, category strip94, listing viewport1328×362, การ์ด314×362 = รูป210 +ข้อมูล152px กฎความกว้างจออื่นอยู่ใน [responsive guide](responsive-visual-guidelines.md) ไม่ใช้314pxเป็น fixed width ทุก viewport
+
+## Radii
+
+| Role | ค่าpx | สถานะ/หน้าที่ |
+| --- | --- | --- |
+| radius.default.badge / input / card / panel | 6 /8 /12 /16 | Planning TOK-008 ยังไม่ถูกแทนทั้งระบบ |
+| radius.home.card | 16 | Home reference |
+| radius.home.photo | 16 16 0 0 | รูปในการ์ด |
+| radius.home.search | 32 | แถบค้นหา1040×88 |
+| radius.home.search-action | 18 | ปุ่มค้นหา164×60 |
+| radius.header.sign-in | 16 | ปุ่ม148×48 |
+| radius.home.recommended-top | 28 28 0 0 | Sectionแนะนำ |
+| radius.compact-panel | 16 | ภาษาและติดต่อ |
+| radius.listing-button | 22 | ปุ่มเลื่อน44×44 |
+| radius.photo-arrow-face | 14 | หน้า28px ภายในtarget44px |
+| radius.article.featured-photo | 24 | รูป696×391.5 |
+| radius.article.caption | 20 | แผงอ่านเรื่องเด่น |
+| radius.article.supporting-photo | 16 | รูป208×117 |
+| radius.tiktok.selected-cover | 24 | คลิปหลัก320×568 |
+
+Home radius16เป็น local reference ที่ใหม่กว่าร่างB ไม่เปลี่ยน shared card radiusของทุกหน้าตามลำพัง ขอบสระHero/Footerเป็น vector motifที่มีอยู่ ไม่ใช่ token radius.hero-cut96pxหรือcollage.rotation/overlapของB
+
+## Elevation
+
+| ระดับ | ค่า reference | การใช้ |
+| --- | --- | --- |
+| flat | ไม่มีsurface shadow | พื้นหน้า รูป การ์ด หมวดและFooter |
+| raised | #072D5926, offset0/6, blur20px | Floating Home search |
+| overlay | #072D5926, offset0/8, blur24px | แผงภาษา/ติดต่อ |
+| article.caption | #072D591F, offset0/8, blur24px | แผงอ่านลอย; ไม่ใส่เงาให้เรื่องรองทุกใบ |
+| tiktok.selected-cover | #072D5940, offset0/24, blur40px | ชั้นคลิปหลัก3Dที่รับ |
+
+Alpha26เท่ากับ38/255โดยประมาณ Native popupกำหนดค่าข้างต้น ไม่ใช้ร่างoverlay18%/12/32ของBเป็นcurrent Home ไอคอนหัวใจเส้นขาวมีเงาเล็ก #072D59CC/0/1/blur2 ตามreference ช่วยแยกเส้นบนภาพ แต่ไม่รับรองcontrastทุกภาพ
+
+## Focus, targets และ icons
+
+| Element | Treatmentที่เลือก | ขอบเขตหลักฐาน |
+| --- | --- | --- |
+| Category shortcut | เส้นNavy36×3pxใต้labelเมื่อfocus | Focus-study target104×82; defaultHomevisualเดิมสูง65ในslot82 |
+| ดูทั้งหมดในแถวบ้าน | เส้นNavy3pxใต้ลิงก์ | Targetสูง44; ไม่ยกไปทำเอฟเฟกต์บทความทั้งหมดเอง |
+| เลื่อนแถว | พื้นNavy/ไอคอนขาวเมื่อfocus | Target44×44; disabledจางและข้ามTab |
+| Photo arrow | หน้า28px/ไอคอน16px; วงNavy2pxเมื่อfocus | Target44×44โปร่งใส; defaultซ่อน |
+| Favorite | ชมพูทึบ22pxไม่มีวงกลมในตัวอย่างfocusที่เลือก | Target44×44; defaultHomeยังเป็นoutlineขาวตามภาพรวมที่รับ |
+
+การทำwrapperของหมวดต้องไม่ขยับไอคอน/labelเมื่อfocus ไม่อ่านtarget82pxในstate studyว่าแก้geometryหน้าอื่นแล้ว หัวใจชมพูในstudyเป็นappearanceที่เลือก ไม่ใช่ saved Guest state และยังต้องตรวจfocus visibilityบนภาพหลากหลาย
+
+Utility iconsใช้Lucideตามnative ส่วนheart-fillใช้Phosphorตามคำขอแบบfill เป็นข้อยกเว้นเฉพาะที่เลือกแล้ว ธงไทย/UKและโลโก้LINEทางการเป็นassetsที่ยืนยันการเลือก appearance ไม่ใช่ฟอนต์เสริม หรือสิทธิ์สร้างicon/โลโก้ใหม่
+
+## Motion เฉพาะบทความที่รับแล้ว
+
+| Role | ค่าในตัวอย่างที่รับ | ขอบเขต |
+| --- | --- | --- |
+| home.article.featured-hover | 336ms; cubic-bezier(.2,.8,.2,1) | ยกกรอบรูป6px เอียงตามตัวอย่างและscale1.035; captionยก6px; ไม่zoomด้านใน |
+| home.article.supporting-hover | 336ms; easingเดียวกัน | รูปคงที่ ข้อความขวา3px เส้นใต้ชมพู ลูกศรขวา2px/ขึ้น2px |
+| home.article.press-entry | 140ms ease-out | การกดลง3px |
+| home.article.activation | 420ms; cubic-bezier(.22,1,.36,1) | เด้ง+3/-4/0pxครั้งเดียว; เด่นแผ่สีจากจุดกดพร้อมเด้ง รองไม่มีแผ่สี |
+| home.article.index-activation | ไม่มีแอนิเมชัน; delay0ms | บทความทั้งหมดเป็นลิงก์ปกติ เอฟเฟกต์พักไว้ |
+
+อ้าง [featured-hover](article-motion-r7/owner-featured-motion-acceptance.json), [supporting-hover](article-supporting-motion-r8/owner-supporting-motion-acceptance.json), [press-r4](article-press-r4/owner-press-acceptance.json), [secondary-r3](article-secondary-interaction-r3/owner-secondary-acceptance.json) เป็น local reference ไม่ใช่ shared motion ทุกหน้า
+
+ในแท็บเดิม เรื่องเด่น/รองถึงจังหวะเปิดปลายทางหลัง420msตามแบบที่รับ บทความทั้งหมดไม่รอ animation เมื่อ reduced motion/ไม่รองรับ animation ไปต่อทันทีโดยคงข้อมูลและการกด รักษา modifier/new-tab ตาม browser ตัวอย่างยังไม่เชื่อม navigation จริง พื้นเข้ม secondary/index ที่เพิ่มเองถูกถอน ไม่เลือก custom focus แทนเอง การตรวจ keyboard cue/timing/contrastในแอปยังค้าง
+
+## Generic motion ที่ยังเสนอ
+
+120ms press,180ms color,240ms overlay,400ms optional intro และ cubic-bezier(.2,0,0,1) ยังเป็น planning proposals สำหรับส่วนอื่น ไม่แทนค่าบทความที่รับแล้วและไม่ผูกเข้าแอปจากเอกสารนี้ การเลื่อนแถวทีละ2หลัง/หยุดปลายแถวเป็น behavior ที่รับ ไม่ใช่durationของrails ห้ามเพิ่ม autoplay/loop/parallax/scroll hijacking TikTok Playing/Paused/Bufferingใช้UI providerตามstates-r3
+
+## ขอบเขตข้อมูลและhandoff
+
+Homeซ่อนการ์ดข้อมูล/รูปไม่ครบแต่บ้านยังค้นเจอ ข้ามรูปเสียเมื่อมีรูปใช้ได้ ขณะโหลดครั้งแรกใช้skeleton หมวดที่ไม่มีบ้านพร้อมหรือโหลดล้มเหลวซ่อนทั้งส่วน กฎนี้ไม่แปลงerrorเป็นemptyในข้อมูลภายใน และไม่เปลี่ยนerror recoveryของResults/Auth
+
+ชื่อเต็ม ราคา แหล่งข้อมูลจริง contact destinations และassetsยังมีข้อค้างตาม [review](foundation-3-desktop/README.md) Full component/state contractsหรือหน้าอื่นไม่ถูกอนุมัติแทนจากrole mappingนี้ Final foundation versionยังต้องให้เจ้าของตรวจรับและOPEN-001ยังblockacceptanceที่เกี่ยวข้อง ไม่มีproductionCSS, tokensเข้าแอป, backend, Mobileใหม่หรือTaskอื่นในงานนี้

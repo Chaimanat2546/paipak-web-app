@@ -1,8 +1,10 @@
-# paipak.com — agent entrypoint (planning scope)
+# papaipak — agent entrypoint (planning scope)
 
 **Execution mode: USER-INITIATED, ONE TASK PER CONVERSATION.** On 2 November 2026 (Asia/Bangkok), the owner adopted this entire handoff pack as the latest project direction, superseding conflicting earlier directions. The existing application remains a legacy mock homepage; adoption does not approve final visual artifacts, historical source provenance, completed implementation or release. Read the active repository entrypoint `AGENTS.md` for current integration and local runtime safeguards.
 
 ## Required steps for any agent
+For current governance integration, follow `AGENTS.md` and `docs/design/governance/README.md`. The owner approved Design Governance Kit v1.0 as the project-wide standard on 3 November 2026, including the three confirmed clarifications. Each task's design/version still requires explicit owner approval before related frontend implementation. Explicit document maintenance may proceed without selecting a design task.
+
 1. Ask the user which **Task ID** they want to discuss, unless already given. Do not autonomously select the next task.
 2. Read the relevant Task Packet at `tasks/design/<ID>.md` (for design work) or the high-level implementation backlog; check `tasks/design/manifest.yaml` for prerequisites.
 3. Read applicable current entries in `docs/decisions/registry.yaml`, and flags in `docs/decisions/open-decisions.yaml` and `docs/decisions/superseded.yaml`. Registry's *decision status approved* means user selected that direction; it does **not** mean the reconstructed record or screenshots received formal baseline sign-off.
@@ -11,7 +13,7 @@
 6. Provide real evidence, mark items not tested as not tested, and ask the user to approve finished designs. Never self-approve or run unrelated next tasks.
 
 ## Design lock
-- Brand: `#072D59` navy, `#DBF2FC` light blue, `#FD6E88` pink; white primary background; font Mitr.
+- Brand: `#072D59` navy, `#DBF2FC` light blue, `#FD6E88` pink; white primary background; Mitr primary. Supplementary typefaces may be proposed but require owner approval before use.
 - Product: modern vibrant Thai pool-villa consumer marketplace, *not* a SaaS dashboard; cinematic villa imagery; gentle rounding.
 - Browse villas without specifying dates; 7 approved categories; 4-column dense cards on sufficiently wide desktop; Overlay Property Cards with carousel/favorite; suggested search chips in results; Apply Filters interaction.
 - Owner clarification on 2 November 2026 (UXD-001 Q-01–Q-05): Favorites requires login with no Guest favorites; Booking Intent is kept only in an uninterrupted navigation/authentication flow and is not recovered after reload, tab close or intent/session expiry; one total guest count without adult/child separation plus pets separately; cancel Auth back to its origin with still-active selections; supporting Footer links do not authorize a listing-owner portal.
@@ -25,6 +27,7 @@
 - Preview/Staging must not use production database/live payment credentials. Do not deploy production or rotate secrets autonomously.
 
 ## Source-of-truth and permissions
+- Owner-confirmed workflow amendment on 3 November 2026: approve Visual Direction in DSD-001 before Wireframe creation/revision and G2 acceptance in UXD-002. Existing review-5 remains retained and pending owner review; UXD-001 approval and adopted product behavior remain valid. See `docs/roadmap/task-order.md` for named output dependencies and transition handling.
 - `docs/decisions/registry.yaml` and task packets are the owner-adopted planning contract as of 2 November 2026. Original reference assets, source-level provenance checks and final visual/task approvals remain pending; planned tasks have not been executed merely by adopting the pack.
 - Never fabricate approved screenshots, test results, CI run IDs, credentials, provider endpoints, or task status.
 - If file/scope needs modification outside your selected task, propose a scope change and ask permission.

@@ -1,0 +1,258 @@
+{
+  "version": "F01-ui-2",
+  "status": "pending_owner_review",
+  "type": "static_native_UI_design",
+  "functional_prototype": false,
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "wireframe_reference": "docs/design/uxd-002/papaipak-wireframe.pen",
+  "review_group_count": 29,
+  "native_node_count": 3460,
+  "header_source": {
+    "version": "Guest Header-r11",
+    "node": "awwwD",
+    "owner_approved_scope": "Home Desktop signed-out Header only",
+    "instruction": "โอเคเลย"
+  },
+  "rollout_authorization": "โอเคเอาไปปรับให้ครบ",
+  "responsive_rollout_approval": "pending_owner_review",
+  "frames": [
+    {
+      "node": "A1ks07",
+      "name": "F01 · WF-01 Home · Desktop · F01-ui-2 · approved Header-r11",
+      "png": "A1ks07.png",
+      "width": 1440,
+      "height": 1303,
+      "native_node_count": 166
+    },
+    {
+      "node": "PiA4h",
+      "name": "F01 · WF-01 Home · Mobile · ui-2",
+      "png": "PiA4h.png",
+      "width": 390,
+      "height": 2341,
+      "native_node_count": 145
+    },
+    {
+      "node": "osaIa",
+      "name": "F01 · WF-02 Results · Desktop · ui-2",
+      "png": "osaIa.png",
+      "width": 1440,
+      "height": 1763,
+      "native_node_count": 263
+    },
+    {
+      "node": "L8ev6",
+      "name": "F01 · WF-02 Results · Mobile · ui-2",
+      "png": "L8ev6.png",
+      "width": 390,
+      "height": 3860,
+      "native_node_count": 209
+    },
+    {
+      "node": "qcEOf",
+      "name": "F01 · WF-03 Detail · Desktop · ui-2",
+      "png": "qcEOf.png",
+      "width": 1440,
+      "height": 1653,
+      "native_node_count": 106
+    },
+    {
+      "node": "S3VaWy",
+      "name": "F01 · WF-03 Detail · Mobile · ui-2",
+      "png": "S3VaWy.png",
+      "width": 390,
+      "height": 2176,
+      "native_node_count": 89
+    },
+    {
+      "node": "yL7bS",
+      "name": "F01 · WF-03V Detail viewport · Mobile 390x844 · ui-2",
+      "png": "yL7bS.png",
+      "width": 390,
+      "height": 844,
+      "native_node_count": 36
+    },
+    {
+      "node": "Oyv0v",
+      "name": "F01 · WF-02A Location states · Desktop",
+      "png": "Oyv0v.png",
+      "width": 1440,
+      "height": 649,
+      "native_node_count": 57
+    },
+    {
+      "node": "GjoEH",
+      "name": "F01 · WF-02A Location states · Mobile",
+      "png": "GjoEH.png",
+      "width": 1440,
+      "height": 1022,
+      "native_node_count": 57
+    },
+    {
+      "node": "LoLN7",
+      "name": "F01 · WF-02P Dates and guests · Desktop",
+      "png": "LoLN7.png",
+      "width": 1440,
+      "height": 849,
+      "native_node_count": 254
+    },
+    {
+      "node": "E9JumJ",
+      "name": "F01 · WF-02P Dates and guests · Mobile",
+      "png": "E9JumJ.png",
+      "width": 1440,
+      "height": 1022,
+      "native_node_count": 254
+    },
+    {
+      "node": "NhfIy",
+      "name": "F01 · WF-02F Filter drawer · Mobile 390x844 · ui-2",
+      "png": "NhfIy.png",
+      "width": 390,
+      "height": 844,
+      "native_node_count": 46
+    },
+    {
+      "node": "E3Tu4",
+      "name": "F01 · WF-01N Open navigation · Mobile 390x844 · ui-2",
+      "png": "E3Tu4.png",
+      "width": 390,
+      "height": 844,
+      "native_node_count": 52
+    },
+    {
+      "node": "TKJ7Z",
+      "name": "F01 · Gallery viewer · Desktop 1440x900 · ui-2",
+      "png": "TKJ7Z.png",
+      "width": 1440,
+      "height": 900,
+      "native_node_count": 17
+    },
+    {
+      "node": "avf6v",
+      "name": "F01 · Gallery viewer · Mobile 390x844 · ui-2",
+      "png": "avf6v.png",
+      "width": 390,
+      "height": 844,
+      "native_node_count": 17
+    },
+    {
+      "node": "NmzZ4",
+      "name": "F01 · WF-02 Applied filters · Desktop · ui-2",
+      "png": "NmzZ4.png",
+      "width": 1440,
+      "height": 1522,
+      "native_node_count": 233
+    },
+    {
+      "node": "YQRxl",
+      "name": "F01 · WF-02 Applied filters · Mobile · ui-2",
+      "png": "YQRxl.png",
+      "width": 390,
+      "height": 3366,
+      "native_node_count": 183
+    },
+    {
+      "node": "JGYFJ",
+      "name": "F01 · Draft and cancel filters · Desktop",
+      "png": "JGYFJ.png",
+      "width": 1440,
+      "height": 996,
+      "native_node_count": 88
+    },
+    {
+      "node": "Qu46v",
+      "name": "F01 · WF-10 Loading empty error · Desktop",
+      "png": "Qu46v.png",
+      "width": 1440,
+      "height": 798,
+      "native_node_count": 46
+    },
+    {
+      "node": "O5lUa1",
+      "name": "F01 · WF-10 Loading empty error · Mobile",
+      "png": "O5lUa1.png",
+      "width": 1440,
+      "height": 1022,
+      "native_node_count": 106
+    },
+    {
+      "node": "vnCNA",
+      "name": "F01 · WF-10F Incomplete search dates · Desktop",
+      "png": "vnCNA.png",
+      "width": 1440,
+      "height": 842,
+      "native_node_count": 129
+    },
+    {
+      "node": "Rg5AF",
+      "name": "F01 · WF-10F Incomplete search dates · Mobile 390x844 · ui-2",
+      "png": "Rg5AF.png",
+      "width": 390,
+      "height": 844,
+      "native_node_count": 113
+    },
+    {
+      "node": "g9sYI",
+      "name": "F01 · WF-10I Carousel five states · Desktop",
+      "png": "g9sYI.png",
+      "width": 1440,
+      "height": 962,
+      "native_node_count": 103
+    },
+    {
+      "node": "dbMM6",
+      "name": "F01 · WF-10I Carousel five states · Mobile",
+      "png": "dbMM6.png",
+      "width": 1440,
+      "height": 1030,
+      "native_node_count": 103
+    },
+    {
+      "node": "HpR7z",
+      "name": "F01 · WF-02 Pagination page 2 · Desktop · ui-2",
+      "png": "HpR7z.png",
+      "width": 1440,
+      "height": 1763,
+      "native_node_count": 263
+    },
+    {
+      "node": "P62IV",
+      "name": "F01 · WF-02 Pagination page 2 · Mobile · ui-2",
+      "png": "P62IV.png",
+      "width": 390,
+      "height": 3860,
+      "native_node_count": 209
+    },
+    {
+      "node": "uBBn2",
+      "name": "F01 · Return to origin and preserved context",
+      "png": "uBBn2.png",
+      "width": 1440,
+      "height": 546,
+      "native_node_count": 29
+    },
+    {
+      "node": "w9QeyO",
+      "name": "F01 · START HERE · A UI review-2",
+      "png": "w9QeyO.png",
+      "width": 1440,
+      "height": 426,
+      "native_node_count": 17
+    },
+    {
+      "node": "h9ExoH",
+      "name": "F01 · Header-r11 utility states · ui-2",
+      "png": "h9ExoH.png",
+      "width": 1440,
+      "height": 519,
+      "native_node_count": 70
+    }
+  ],
+  "base_coverage": "../f01-ui-1/review-manifest.json",
+  "fixtures": "../f01-ui-1/fixtures.json",
+  "assets": "../f01-ui-1/images/",
+  "backup": "editable-snapshot.json",
+  "before_backup": "before-snapshot.json",
+  "OPEN_001": "open; original #FD6E88 / white retained"
+}

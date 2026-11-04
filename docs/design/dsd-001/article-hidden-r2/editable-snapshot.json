@@ -1,0 +1,1093 @@
+{
+  "type": "frame",
+  "id": "q1Q2w",
+  "x": 86514,
+  "y": 23971,
+  "name": "REVIEW · Article-hidden-r2 · TikTok to Footer · no article error UI",
+  "metadata": {
+    "type": "design-contract",
+    "articleSection": "Hidden on article-list load failure; no retry or refresh prompt",
+    "logging": "Internal diagnostic logging deferred; no integration"
+  },
+  "clip": true,
+  "width": 1440,
+  "fill": "#FFFFFF",
+  "layout": "vertical",
+  "children": [
+    {
+      "type": "frame",
+      "id": "FbtYL",
+      "name": "Accepted TikTok first state · context unchanged",
+      "width": "fill_container",
+      "height": 816,
+      "fill": "$brand.navy",
+      "gap": 48,
+      "padding": [
+        48,
+        56,
+        80,
+        56
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "EVQ3k",
+          "name": "TikTok left narrative and browse action",
+          "width": 448,
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "C5GsP",
+              "name": "TikTok source label · open platform lockup",
+              "height": 28,
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "v02eWU",
+                  "name": "TikTok platform icon",
+                  "width": 22,
+                  "height": 22,
+                  "icon": "tiktok-logo",
+                  "library": "phosphor",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "text",
+                  "id": "X4bA4n",
+                  "name": "Curated TikTok label",
+                  "fill": "$brand.light",
+                  "content": "คลิปคัดสรรจาก TikTok",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 14
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gZraI",
+              "name": "Editorial headline with reused water signature",
+              "width": "fill_container",
+              "height": 128,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Zuy9N",
+                  "name": "TikTok split headline",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "พาชมพูลวิลล่า\nก่อนออกไปพักด้วยกัน",
+                  "lineHeight": 1.28,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 40
+                },
+                {
+                  "type": "path",
+                  "id": "O0M5Q",
+                  "layoutPosition": "absolute",
+                  "x": 184,
+                  "y": 98,
+                  "name": "Hero water signature reused below heading",
+                  "geometry": "M4 23c31-23 43-20 46-10 1 16 33 9 49-8-3 18 17 18 45 3",
+                  "viewBox": [
+                    0,
+                    0,
+                    148,
+                    32
+                  ],
+                  "width": 192,
+                  "height": 28,
+                  "stroke": "$brand.pink",
+                  "strokeWidth": 4,
+                  "strokeLinecap": "round"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "ybLvw",
+              "name": "TikTok split supporting copy",
+              "fill": "$brand.light",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "รวมคลิปพาชมบ้านและไอเดียวันพักผ่อน\nที่เราคัดมาให้ดู ก่อนเลือกมุมที่อยากไปพัก",
+              "lineHeight": 1.65,
+              "fontFamily": "$font.primary",
+              "fontSize": 16
+            },
+            {
+              "type": "frame",
+              "id": "e1pCa",
+              "name": "Browse all villas · static proposed existing Results entry · OPEN-001",
+              "width": 200,
+              "height": 52,
+              "fill": "$brand.pink",
+              "cornerRadius": 26,
+              "gap": 10,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Iettr",
+                  "name": "Browse all villas pink-white CTA reference",
+                  "fill": "#FFFFFF",
+                  "content": "ดูที่พักทั้งหมด",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 17,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "icon",
+                  "id": "eUiVI",
+                  "name": "Browse villas directional arrow",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "arrow-up-right",
+                  "library": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zd4JR",
+          "name": "Poolside clip deck · asymmetric depth and water line",
+          "clip": true,
+          "width": 832,
+          "height": 688,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "fhp6i",
+              "layoutPosition": "absolute",
+              "x": 28,
+              "y": 520,
+              "name": "Ambient pool water line · reused brand signature",
+              "geometry": "M4 23c31-23 43-20 46-10 1 16 33 9 49-8-3 18 17 18 45 3",
+              "viewBox": [
+                0,
+                0,
+                148,
+                32
+              ],
+              "width": 720,
+              "height": 100,
+              "stroke": "#DBF2FC30",
+              "strokeWidth": 2,
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "frame",
+              "id": "Hqlz9",
+              "x": 556,
+              "y": 160,
+              "name": "Farthest next clip preview",
+              "opacity": 0.54,
+              "rotation": -5,
+              "width": 196,
+              "height": 348,
+              "fill": "#FFFFFF",
+              "cornerRadius": 18,
+              "effect": [
+                {
+                  "type": "shadow",
+                  "shadowType": "outer",
+                  "color": "#072D5940",
+                  "offset": {
+                    "x": 0,
+                    "y": 12
+                  },
+                  "blur": 26
+                },
+                {
+                  "type": "shader",
+                  "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                  "uniforms": {
+                    "u_content": "pencil:object",
+                    "u_angle": 0.2,
+                    "u_distance": 1000,
+                    "u_scale": 0.99,
+                    "u_light": 0.92
+                  }
+                }
+              ],
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "R06PP4",
+                  "x": 3,
+                  "y": 3,
+                  "name": "Farthest next clip preview · generated study image",
+                  "width": 190,
+                  "height": 342,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/generated-4.png",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": 15,
+                  "layout": "none"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cAFQb",
+              "x": 438,
+              "y": 96,
+              "name": "Next clip behind selected card",
+              "opacity": 0.74,
+              "rotation": 4,
+              "width": 248,
+              "height": 440,
+              "fill": "#FFFFFF",
+              "cornerRadius": 18,
+              "effect": [
+                {
+                  "type": "shadow",
+                  "shadowType": "outer",
+                  "color": "#072D5940",
+                  "offset": {
+                    "x": 0,
+                    "y": 12
+                  },
+                  "blur": 26
+                },
+                {
+                  "type": "shader",
+                  "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                  "uniforms": {
+                    "u_content": "pencil:object",
+                    "u_angle": 0.27,
+                    "u_distance": 1000,
+                    "u_scale": 0.99,
+                    "u_light": 0.92
+                  }
+                }
+              ],
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VGR5A",
+                  "x": 3,
+                  "y": 3,
+                  "name": "Next clip behind selected card · generated study image",
+                  "width": 242,
+                  "height": 434,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/generated-5.png",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": 15,
+                  "layout": "none"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pnNp3",
+              "x": 196,
+              "y": 16,
+              "name": "Front selected TikTok cover · manual-play study",
+              "clip": true,
+              "width": 320,
+              "height": 568,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/generated-3.png",
+                "mode": "cover"
+              },
+              "cornerRadius": 24,
+              "stroke": "$brand.pink",
+              "strokeWidth": 2,
+              "strokeAlignment": "inner",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D5940",
+                "offset": {
+                  "x": 0,
+                  "y": 24
+                },
+                "blur": 40
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "t0M60K",
+                  "x": 132,
+                  "y": 256,
+                  "name": "Play selected clip · 56px manual target",
+                  "width": 56,
+                  "height": 56,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 28,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "v66aaR",
+                      "name": "Selected clip play icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "play-fill",
+                      "library": "phosphor",
+                      "fill": "$brand.navy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "S10Kb",
+              "x": 0,
+              "y": 280,
+              "name": "Previous clip · disabled at first · consistent left edge",
+              "opacity": 0.35,
+              "width": 48,
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 14,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D5926",
+                "offset": {
+                  "x": 0,
+                  "y": 4
+                },
+                "blur": 18
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "JPIAj",
+                  "name": "Previous clip · disabled at first icon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "chevron-left",
+                  "library": "lucide",
+                  "fill": "$brand.navy"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ucDIL",
+              "x": 716,
+              "y": 280,
+              "name": "Next clip · select next cover",
+              "width": 48,
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 14,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D5926",
+                "offset": {
+                  "x": 0,
+                  "y": 4
+                },
+                "blur": 18
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "UaVSq",
+                  "name": "Next clip · select next cover icon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "chevron-right",
+                  "library": "lucide",
+                  "fill": "$brand.navy"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "prSoP",
+              "x": 312,
+              "y": 620,
+              "name": "Passive clip position indicators · first of five",
+              "height": 8,
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 4,
+                  "id": "lefnZ",
+                  "name": "Active position pill · Pink on Navy",
+                  "fill": "$brand.pink",
+                  "width": 24,
+                  "height": 8
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 4,
+                  "id": "J5beA",
+                  "name": "Inactive position 2",
+                  "opacity": 0.55,
+                  "fill": "$brand.light",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 4,
+                  "id": "UYukX",
+                  "name": "Inactive position 3",
+                  "opacity": 0.55,
+                  "fill": "$brand.light",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 4,
+                  "id": "bMwfG",
+                  "name": "Inactive position 4",
+                  "opacity": 0.55,
+                  "fill": "$brand.light",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 4,
+                  "id": "oGEpP",
+                  "name": "Inactive position 5",
+                  "opacity": 0.55,
+                  "fill": "$brand.light",
+                  "width": 8,
+                  "height": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "path",
+          "id": "E1stDJ",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 760,
+          "name": "Reused Home pool-edge transition into articles",
+          "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+          "viewBox": [
+            0,
+            0,
+            1440,
+            95
+          ],
+          "fill": "#FFFFFF",
+          "width": 1440,
+          "height": 56
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "MJHV3",
+      "name": "Approved Footer-contact-column-r4 · context unchanged",
+      "clip": true,
+      "width": "fill_container",
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "TqIfZ",
+          "name": "Footer pool-edge transition",
+          "clip": true,
+          "width": "fill_container",
+          "height": 48,
+          "fill": "#FFFFFF",
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "bji1n",
+              "x": 0,
+              "y": 0,
+              "name": "Reused pool-edge motif · light blue Footer entry",
+              "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+              "viewBox": [
+                0,
+                0,
+                1440,
+                95
+              ],
+              "fill": "#DBF2FC",
+              "width": 1440,
+              "height": 48
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NDm2n",
+          "name": "Footer light blue surface",
+          "width": "fill_container",
+          "fill": "#DBF2FC",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            24,
+            56
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "KF16p",
+              "name": "Footer closing message and supporting navigation",
+              "width": "fill_container",
+              "gap": 64,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gan5f",
+                  "name": "Footer brand message and marketplace description",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QIYd5",
+                      "name": "Footer papaipak brand link · existing placeholder logo",
+                      "height": 46,
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ya7sR",
+                          "name": "Placeholder logo · house and pool · not final brand asset",
+                          "width": 42,
+                          "height": 42,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "cpivw",
+                              "x": 1,
+                              "y": 1,
+                              "name": "Pink villa silhouette",
+                              "geometry": "M4 18q0-2 2-4l12-10q2-2 4 0l12 10q2 2 2 4v15q0 3-3 3h-26q-3 0-3-3z",
+                              "viewBox": [
+                                0,
+                                0,
+                                40,
+                                40
+                              ],
+                              "fill": "#FD6E88",
+                              "width": 40,
+                              "height": 40
+                            },
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": [
+                                3,
+                                3,
+                                0,
+                                0
+                              ],
+                              "id": "S9X31T",
+                              "x": 17,
+                              "y": 20,
+                              "name": "Villa doorway",
+                              "fill": "#FFFFFF",
+                              "width": 10,
+                              "height": 15
+                            },
+                            {
+                              "type": "path",
+                              "id": "NhDVN",
+                              "x": 2,
+                              "y": 32,
+                              "name": "Navy pool wave",
+                              "geometry": "M1 4q4-4 9 0 5 4 10 0 5-4 10 0 4 3 7 0",
+                              "viewBox": [
+                                0,
+                                0,
+                                38,
+                                8
+                              ],
+                              "fill": "#FFFFFF00",
+                              "width": 38,
+                              "height": 8,
+                              "stroke": "#072D59",
+                              "strokeWidth": 2.5,
+                              "strokeLinecap": "round"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "V0Yeb",
+                          "name": "papaipak wordmark study",
+                          "fill": "#072D59",
+                          "content": "papaipak",
+                          "lineHeight": 1.2,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 38,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "pSlQ9",
+                      "name": "Footer closing message · existing copy",
+                      "fill": "#072D59",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "พื้นที่ความสุขส่วนตัว",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "O1UAi",
+                      "name": "Footer supporting description · reused Home copy",
+                      "fill": "#072D59",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "ค้นพบพูลวิลล่าสำหรับวันดี ๆ ของคุณ",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 16
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dotQg",
+                  "name": "Footer navigation and contact · three columns",
+                  "width": 800,
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Uensi",
+                      "name": "Footer information link column",
+                      "width": 240,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "P46ho",
+                          "name": "Footer navigation group heading · เริ่มต้นกับ papaipak",
+                          "fill": "#072D59",
+                          "content": "เริ่มต้นกับ papaipak",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "d8jcD",
+                          "name": "เกี่ยวกับเรา Footer link target · same-tab content",
+                          "width": "fill_container",
+                          "height": 44,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Z18L2e",
+                              "name": "เกี่ยวกับเรา Footer link label",
+                              "fill": "#072D59",
+                              "content": "เกี่ยวกับเรา",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "fL5Qd",
+                              "name": "Footer internal content navigation arrow",
+                              "opacity": 0.55,
+                              "width": 14,
+                              "height": 14,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "#072D59"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "g6HvV",
+                          "name": "วิธีจอง Footer link target · same-tab content",
+                          "width": "fill_container",
+                          "height": 44,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mfCpm",
+                              "name": "วิธีจอง Footer link label",
+                              "fill": "#072D59",
+                              "content": "วิธีจอง",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "JNkfk",
+                              "name": "Footer internal content navigation arrow",
+                              "opacity": 0.55,
+                              "width": 14,
+                              "height": 14,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "#072D59"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vHiCR",
+                      "name": "Footer policies link column",
+                      "width": 240,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "T6QCpG",
+                          "name": "Footer navigation group heading · ข้อมูลสำคัญ",
+                          "fill": "#072D59",
+                          "content": "ข้อมูลสำคัญ",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ocp0Z",
+                          "name": "เงื่อนไข Footer link target · same-tab content",
+                          "width": "fill_container",
+                          "height": 44,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "DG2ng",
+                              "name": "เงื่อนไข Footer link label",
+                              "fill": "#072D59",
+                              "content": "เงื่อนไข",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "kWWDS",
+                              "name": "Footer internal content navigation arrow",
+                              "opacity": 0.55,
+                              "width": 14,
+                              "height": 14,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "#072D59"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cZHiW",
+                          "name": "ความเป็นส่วนตัว Footer link target · same-tab content",
+                          "width": "fill_container",
+                          "height": 44,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "pfOPd",
+                              "name": "ความเป็นส่วนตัว Footer link label",
+                              "fill": "#072D59",
+                              "content": "ความเป็นส่วนตัว",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "jH085",
+                              "name": "Footer internal content navigation arrow",
+                              "opacity": 0.55,
+                              "width": 14,
+                              "height": 14,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "#072D59"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KJHFW",
+                      "name": "Footer contact column · visible direct channels",
+                      "width": 240,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "S9HPuf",
+                          "name": "Footer contact column heading",
+                          "fill": "#072D59",
+                          "content": "ติดต่อเรา",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "oR4cl",
+                          "name": "LINE OA direct contact · mock data · destination unbound",
+                          "metadata": {
+                            "type": "design-contract",
+                            "action": "open verified LINE OA directly",
+                            "destination": "pending owner confirmation"
+                          },
+                          "width": "fill_container",
+                          "height": 48,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Q87wx2",
+                              "name": "Selected official LINE icon · original clear space",
+                              "width": 32,
+                              "height": 32,
+                              "fill": "#FFFFFF",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "kkTEp",
+                                  "name": "Official LINE brand icon · original green · 24px",
+                                  "fill": {
+                                    "type": "image",
+                                    "enabled": true,
+                                    "url": "images/paipak-line-official.png",
+                                    "mode": "contain"
+                                  },
+                                  "width": 24,
+                                  "height": 24
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "JJXpI",
+                              "name": "Visible LINE contact text",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "RFImd",
+                                  "name": "LINE OA channel label",
+                                  "fill": "#072D59",
+                                  "content": "LINE OA",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 16,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "PT6oI",
+                                  "name": "Mock LINE OA identifier · not verified or linked",
+                                  "fill": "#072D59",
+                                  "content": "@papaipak-demo",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "af4nY",
+                          "name": "Phone direct contact · mock data · destination unbound",
+                          "metadata": {
+                            "type": "design-contract",
+                            "action": "tel verified phone number directly",
+                            "destination": "pending owner confirmation"
+                          },
+                          "width": "fill_container",
+                          "height": 48,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "W2t6jh",
+                              "name": "Phone icon alignment field · 32px",
+                              "width": 32,
+                              "height": 32,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "yNPrV",
+                                  "name": "Phone channel icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "phone",
+                                  "library": "lucide",
+                                  "fill": "#072D59"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "FQQLZ",
+                              "name": "Visible phone contact text",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "yJgK0",
+                                  "name": "Phone channel label",
+                                  "fill": "#072D59",
+                                  "content": "โทรหาเรา",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 16,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "USWBi",
+                                  "name": "Mock phone number · not verified or linked",
+                                  "fill": "#072D59",
+                                  "content": "02-000-0000",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CU1ce",
+              "name": "Footer domain and return-to-top row",
+              "width": "fill_container",
+              "height": 44,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vxe5x",
+                  "name": "Owner-confirmed papaipak domain",
+                  "fill": "#072D59",
+                  "content": "papaipak.com",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 14
+                },
+                {
+                  "type": "frame",
+                  "id": "Wy6tQ",
+                  "name": "Footer return to top · preserves Home criteria",
+                  "height": 44,
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HMZcE",
+                      "name": "Return to top label",
+                      "fill": "#072D59",
+                      "content": "กลับขึ้นด้านบน",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "icon",
+                      "id": "QuPWP",
+                      "name": "Return to top arrow",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "arrow-up",
+                      "library": "lucide",
+                      "fill": "#072D59"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

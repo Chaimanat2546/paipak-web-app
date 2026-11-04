@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "1",
+  "question_id": "home-desktop-closeout-plan-1/Q1",
+  "question": "เมื่อมีบทความพร้อมเพียงเรื่องเดียว จัดวางอย่างไร",
+  "selected_option": "กึ่งกลางตามภาพ คงขนาดเรื่องเด่นเดิม",
+  "status": "owner_accepted_one_story_appearance",
+  "scope": "Single available story: existing featured width centered; supporting column removed",
+  "visual_source_version": "Article-count-r1",
+  "image": "d9ah7n.png",
+  "image_sha256": "9867fe6e964c47ae35b6e17790fcb2f640fd275a6d9d5db9ca976020d17f4cef",
+  "native_board": "N1UpHy",
+  "native_section": "d9ah7n",
+  "featured_width_px": 696,
+  "zero_story_case": "pending_owner_decision",
+  "whole_article_version_approved": false,
+  "whole_home_version_approved": false,
+  "functional_acceptance": false,
+  "frontend_authorized": false
+}

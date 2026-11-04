@@ -1,0 +1,17 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "แบบนี้แหละ",
+  "version": "Article-secondary-interaction-r2",
+  "status": "owner_accepted_displayed_supporting_and_index_bounce_only",
+  "prototype": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-article-secondary-interaction-r2.html",
+  "prototype_sha256": "253deb8c6da88f8d5cd1d5d74b812537bb78d68a7a44ab31adb5b2b9db32195c",
+  "scope": "Supporting article and all-articles link activation: bounce only +3/-4/0px over420ms, entry140ms, no color spreading on click; featured press-r4 unchanged",
+  "keyboard_focus_package_approved": false,
+  "whole_article_version_approved": false,
+  "whole_home_version_approved": false,
+  "foundation_approved": false,
+  "browser_interaction_tested": false,
+  "frontend_authorized": false
+}

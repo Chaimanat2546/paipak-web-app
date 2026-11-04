@@ -1,0 +1,52 @@
+{
+  "version": "Article-title-r4",
+  "geometry": [
+    [
+      {
+        "name": "Featured article title fixture",
+        "content": "เลือกพูลวิลล่าให้พอดี\nกับทริปของเรา",
+        "width": 532,
+        "height": 72
+      },
+      {
+        "name": "Supporting article title fixture 1",
+        "content": "ชวนแก๊งเพื่อนมาใช้วันหยุดให้เต็มที่",
+        "width": 360,
+        "height": 32
+      },
+      {
+        "name": "Supporting article title fixture 2",
+        "content": "วันพักผ่อนแบบไม่ต้องรีบ เริ่มจากอะไรดี",
+        "width": 360,
+        "height": 32
+      }
+    ],
+    [
+      {
+        "name": "Featured article title fixture",
+        "content": "เลือกพูลวิลล่าให้พอดี\nกับทริปของเรา",
+        "width": 532,
+        "height": 72
+      },
+      {
+        "name": "Supporting article title fixture 1",
+        "content": "ชวนแก๊งเพื่อนมาใช้วันหยุดให้เต็มที่…",
+        "width": 360,
+        "height": 32
+      },
+      {
+        "name": "Supporting article title fixture 2",
+        "content": "วันพักผ่อนแบบไม่ต้องรีบ เริ่มจากอะไร…",
+        "width": 360,
+        "height": 32
+      }
+    ]
+  ],
+  "supporting_title_one_line": true,
+  "featured_unchanged_two_lines": true,
+  "home_unchanged": true,
+  "variables_unchanged": true,
+  "visual_review": "Both native cases and full-resolution overflow PNG inspected",
+  "automatic_ellipsis_test": false
+}
+

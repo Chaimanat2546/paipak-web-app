@@ -1,0 +1,57 @@
+{
+  "version": "Home guided review / 1A / Heading-regular-r2",
+  "status": "revised_pending_owner_review",
+  "before": {
+    "type": "text",
+    "id": "shJCO",
+    "name": "Recommended section heading",
+    "fill": "#072D59",
+    "content": "พูลวิลล่าแนะนำ",
+    "lineHeight": 1.4,
+    "fontFamily": "$font.primary",
+    "fontSize": 32,
+    "fontWeight": "600"
+  },
+  "after": {
+    "type": "text",
+    "id": "shJCO",
+    "name": "Recommended section heading",
+    "fill": "#072D59",
+    "content": "พูลวิลล่าแนะนำ",
+    "lineHeight": 1.4,
+    "fontFamily": "$font.primary",
+    "fontSize": 32
+  },
+  "resolvedWeight": "400",
+  "onlyFontWeightChanged": true,
+  "categoryWeights": [
+    {
+      "id": "FyYn1",
+      "weight": "600"
+    },
+    {
+      "id": "OVPvG",
+      "weight": "600"
+    },
+    {
+      "id": "jKTp1",
+      "weight": "600"
+    },
+    {
+      "id": "O3NF9g",
+      "weight": "600"
+    },
+    {
+      "id": "p7M6I",
+      "weight": "600"
+    },
+    {
+      "id": "feREL",
+      "weight": "600"
+    },
+    {
+      "id": "haqwh",
+      "weight": "600"
+    }
+  ]
+}

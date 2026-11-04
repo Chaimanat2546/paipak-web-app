@@ -1,0 +1,32 @@
+Add-Type -AssemblyName System.Drawing
+$reviewRoot = $PSScriptRoot
+$white = [System.Drawing.Color]::White
+$ink = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(7,45,89))
+$font = New-Object System.Drawing.Font('Tahoma',16,[System.Drawing.FontStyle]::Bold)
+foreach ($item in @(@('osaIa.png','desktop-fold.png',1440,900),@('L8ev6.png','mobile-fold.png',390,844))) {
+    $sourceImage = [System.Drawing.Image]::FromFile((Join-Path $reviewRoot ('screens/'+$item[0])))
+    $cropped = New-Object System.Drawing.Bitmap($item[2],$item[3])
+    $g = [System.Drawing.Graphics]::FromImage($cropped)
+    $g.Clear($white)
+    $g.DrawImage($sourceImage,0,0,(New-Object System.Drawing.Rectangle(0,0,$item[2],$item[3])),[System.Drawing.GraphicsUnit]::Pixel)
+    $g.Dispose()
+    $sourceImage.Dispose()
+    $cropped.Save((Join-Path $reviewRoot $item[1]),[System.Drawing.Imaging.ImageFormat]::Png)
+    $cropped.Dispose()
+}
+$comparison = New-Object System.Drawing.Bitmap(842,912)
+$g = [System.Drawing.Graphics]::FromImage($comparison)
+$g.Clear([System.Drawing.Color]::FromArgb(242,250,254))
+$g.DrawString('ก่อนปรับ', $font, $ink, 20, 12)
+$g.DrawString('หลังปรับ', $font, $ink, 432, 12)
+$before = [System.Drawing.Image]::FromFile((Join-Path $reviewRoot '../results-review-1/mobile-fold.png'))
+$after = [System.Drawing.Image]::FromFile((Join-Path $reviewRoot 'mobile-fold.png'))
+$g.DrawImage($before,20,48,390,844)
+$g.DrawImage($after,432,48,390,844)
+$before.Dispose()
+$after.Dispose()
+$g.Dispose()
+$comparison.Save((Join-Path $reviewRoot 'mobile-before-after.png'),[System.Drawing.Imaging.ImageFormat]::Png)
+$comparison.Dispose()
+$font.Dispose()
+$ink.Dispose()

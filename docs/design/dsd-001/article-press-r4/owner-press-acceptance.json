@@ -1,0 +1,22 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "1",
+  "question": "ตรงที่ต้องการไหมครับ? 1. ใช้แบบนี้ 2. ให้ทั้งสีและเด้งช้าลงอีก 3. ปรับลักษณะการแผ่สี",
+  "selected_option": "ใช้แบบนี้",
+  "status": "owner_accepted_displayed_article_press_r4",
+  "version": "Article-press-r4",
+  "prototype": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-article-press-r4.html",
+  "prototype_sha256": "3e8adde293439c19ccba59a6b0549d96b568abcb94eec85dfbcd04be738e076d",
+  "scope": "Featured article activation: circular dark-surface reveal from actual click point, synchronized with original +3/-4/0px bounce over 420ms; then same-tab navigation as specified; 140ms entry and accepted hover retained",
+  "reduced_motion": "Immediate end state and no artificial navigation wait",
+  "real_navigation_implemented": false,
+  "supporting_and_index_adaptation_approved": false,
+  "whole_article_version_approved": false,
+  "whole_home_version_approved": false,
+  "foundation_approved": false,
+  "browser_interaction_tested": false,
+  "frontend_authorized": false,
+  "external_selection_context": "Older focus-options-r2 carousel telemetry did not override explicit option 3 focus choice or this press-r4 approval"
+}

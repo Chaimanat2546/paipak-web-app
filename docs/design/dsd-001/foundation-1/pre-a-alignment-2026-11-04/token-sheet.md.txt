@@ -1,0 +1,145 @@
+# DSD-001 — Token sheet
+
+> สถานะล่าสุด: เจ้าของเปลี่ยนจาก B เป็น A / review-2 ด้วยข้อความ “ขอเปลี่ยนเป็นแบบ A” ร่าง foundation-1 ด้านล่างจัดทำก่อนการเปลี่ยนนี้ ต้องทบทวนค่าที่ผูกกับ composition ของ B ก่อนเสนอ final approval สีแบรนด์ Mitr และ CTA ชมพูเดิม/ขาวยังคงเดิม ดู [แบบ Pencil A ปัจจุบัน](pencil-A-1/README.md)
+
+รุ่น `foundation-1` · 3 พฤศจิกายน 2026 (Asia/Bangkok) · **PROPOSED / รอเจ้าของตรวจรับ**
+
+Direction อ้างอิง: **B / Villa Journal / review-2**, ผ่าน G1 แล้วตาม [บันทึกเลือก](visual-direction.md) เอกสารนี้เป็น design specification ไม่ใช่ production CSS และยังไม่ได้รับ final foundation approval
+
+## สถานะและขอบเขต
+
+สีแบรนด์ ฟอนต์หลัก และรายการ TOK-* ที่รับไว้ใน planning registry เป็น constraints ของข้อเสนอนี้ ส่วนชื่อ semantic roles, ค่ารายละเอียดและเงื่อนไขใช้ในชุด `foundation-1` ยังเสนอเพื่อตรวจรับ ไม่อ่านค่าสีหรือระยะจาก AI raster เป็นข้อกำหนดจริง
+
+## Colors
+
+| Token | ค่า | บทบาท / เงื่อนไข | ฐาน |
+|---|---|---|---|
+| brand.navy | #072D59 | Brand ink, headings, ราคา, functional icons | BRAND-001 |
+| brand.pink | #FD6E88 | Accent และ CTA visual reference ที่เจ้าของเลือก; ไม่ใช้เป็น body/link บนขาว | BRAND-001 / OPEN-001 |
+| brand.light | #DBF2FC | พื้นรองเฉพาะจุดที่ช่วย composition; ไม่สลับ section ทั้งหน้า | BRAND-001 / VIS-009 |
+| surface.page | #FFFFFF | พื้นหลักทุก template | TOK-002 |
+| surface.quiet | #F7F7F7 | ส่วนข้อมูลรอง/fallback ที่มีหน้าที่ | TOK-002 |
+| border.decorative | #E5E7EB | เส้น grouping ที่ไม่ใช่ตัวบ่งชี้ control เพียงอย่างเดียว | TOK-002 / TOK-010 |
+| text.primary | #202124 | Body และข้อมูลตัดสินใจ | TOK-002 |
+| text.brand | #072D59 | Heading, ราคา, navigation และ links | BRAND-001 |
+| text.muted | #6B7280 | Metadata บนขาวเท่านั้น; ห้ามใช้คู่ surface อื่นก่อนตรวจ | TOK-002 |
+| text.on-navy | #FFFFFF | ข้อความบน Navy ทึบ | proposed role |
+| text.on-pink.candidate | #072D59 | ข้อเสนอรอบแรก เก็บเป็นประวัติ; เจ้าของต้องการข้อความขาวแทน | superseded proposal |
+| text.on-action-pink.candidate | #FFFFFF | ข้อเสนอเฉดเข้มรอบก่อน ไม่ได้รับเลือก | superseded proposal |
+| action.primary.fill.visual-reference | #FD6E88 | เฉดเดิมที่เจ้าของเลือก; contrast issue ยังเปิด | owner-selected visual reference |
+| action.primary.label.visual-reference | #FFFFFF | ข้อความขาวตามที่เจ้าของเลือก; ไม่รับรอง AA | owner-selected visual reference |
+| border.control | #6B7280 | Boundary เมื่อจำเป็นต่อการระบุ input/control | proposed mapping |
+| focus.ink | #072D59 | Focus ring มีพื้นที่สีขาวแยกจากพื้นข้างเคียง | proposed mapping |
+| semantic.success | #15803D | Success ที่ยืนยันแล้ว พร้อม icon/label | TOK-003 |
+| semantic.error | #B91C1C | Error พร้อมข้อความ/ทางแก้ ไม่ใช้สีอย่างเดียว | TOK-003 |
+| semantic.info | #072D59 on #DBF2FC | ข้อมูลที่ยังรอตรวจ/คำแนะนำ ไม่ทำให้ดูเป็น success | proposed mapping |
+| semantic.warning | #072D59 on #DBF2FC | Icon และข้อความเตือนระบุความหมาย; ไม่เพิ่ม brand accent ใหม่ | proposed mapping |
+| overlay.scrim | Navy, opacity 45% | ลด prominence ของ backdrop; ตัวข้อความ/controls อยู่บน panel ทึบ | proposed |
+
+`text.muted` และ `border.decorative` ไม่ใช่ค่าที่ใช้แทนกันได้ พื้นขาวและพื้น quiet ต้องเลือกคู่ข้อความตามผลคำนวณ ไม่ลด opacity ของข้อมูลจำเป็นเพื่อทำให้ภาพดูเบา
+
+ราคาและลิงก์ “ดูทั้งหมด” ใช้ Navy เป็นข้อเสนอแก้ประเด็น B Mobile ในภาพศึกษา ไม่เปลี่ยน Direction B หรือถือว่าภาพเดิมถูกแก้แล้ว Pink ยังใช้เป็น accent ในภาพประกอบ/เส้นนำสายตาที่ไม่มีความหมายจำเป็นได้
+
+## OPEN-001 — ข้อเสนอ CTA รอบแรก (เก็บเป็นประวัติ)
+
+| ตัวเลือก | พื้น / ข้อความ / ขอบ | Text ratio ประมาณ | Trade-off |
+|---|---|---:|---|
+| 1 · Pink + Navy | Pink / Navy / ไม่มีขอบที่จำเป็นต่อการรับรู้ label | 5.078:1 | ข้อเสนอรอบแรก; ไม่ใช่คู่สีที่เจ้าของเลือก |
+| 2 · Navy + White | Navy / White / Navy | 13.738:1 | คอนทราสต์สูงกว่า แต่ปุ่มมีน้ำหนัก Navy มากขึ้น |
+| 3 · White + Navy outline | White / Navy / Navy 2px | 13.738:1 | ดูเบาและใช้แบรนด์เดิม แต่ primary action เด่นน้อยกว่าปุ่มทึบ |
+
+ทั้งสามเป็นข้อเสนอรอบแรก ไม่ใช่ current owner preference ไม่ใช้ White บน brand.pink `#FD6E88` เป็น normal-text treatment ที่รับรองแล้ว และไม่เปลี่ยนค่า brand.pink เพื่อแก้ contrast เอง ค่า ratio ตัดสินจากตัวเลขไม่ปัดเศษ; ต้องตรวจ states และบริบทใช้งานจริงแยก
+
+ตัวเลือก 1 บนพื้นขาวมีพื้นปุ่ม Pink/White ต่ำกว่า 3:1 แต่ label Navy ทำให้ระบุ action ได้; [W3C 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html) ไม่กำหนดให้ขอบ hit area ต้องผ่าน 3:1 ทุกกรณีที่มีเนื้อหามองเห็นเพื่อระบุ control อยู่แล้ว Focus/state cues ที่จำเป็นยังต้องผ่านเกณฑ์ที่เกี่ยวข้อง
+
+การเลือก Direction B ไม่ได้เลือก CTA โดยอัตโนมัติ OPEN-001 คงเปิดจนมี owner decision และหลักฐานตรวจ treatment ที่เกี่ยวข้อง ไม่รับรอง production accessibility จาก nominal pairs หรือภาพตัวอย่าง
+
+### CTA-review-2 — ข้อเสนอเฉดเข้ม (ไม่ได้เลือก)
+
+เจ้าของระบุในแชตนี้เมื่อ 3 พฤศจิกายน 2026 ว่าต้องการปุ่มชมพูข้อความขาว บันทึกเป็น **color-pair preference** แล้ว แต่ยังไม่ถือว่าอนุมัติเฉดใหม่หรือยอมรับ contrast ของ `#FD6E88` กับขาวที่ 2.705343:1
+
+เพื่อรักษาคู่สีตามที่ต้องการ เสนอเฉดเข้มขึ้นเฉพาะ semantic action fill โดย **brand.pink ยังคง #FD6E88** ทุกเฉดด้านล่างเป็น candidate ที่ต้องขออนุมัติก่อนใช้ ไม่มีการแทนค่าแบรนด์เดิมหรือเลือก default ใหม่อัตโนมัติ
+
+| ตัวเลือกที่ไม่ได้เลือก | Candidate action fill | Label | Text ratio ประมาณ | เหตุผล |
+|---|---|---|---:|---|
+| 1 · ชมพูสด | #D1385B | White #FFFFFF | 4.743:1 | เปลี่ยนจากชมพูเดิมน้อยที่สุดในสามเฉดที่เสนอ |
+| 2 · ชมพูเข้ม | #C52B50 | White #FFFFFF | 5.475:1 | ข้อความมี contrast มากขึ้น |
+| 3 · เบอร์รี | #AC244A | White #FFFFFF | 6.762:1 | เข้มที่สุดในสามตัวเลือก |
+
+ผล nominal solid-color pairs ทั้งสามผ่าน normal-text threshold 4.5:1 โดยเปรียบเทียบตัวเลขไม่ปัดเศษ แต่ยังไม่ใช่ผลตรวจ hover/focus/pressed/disabled/loading หรือทุกบริบทจริง ดู [ภาพเปรียบเทียบ](foundation-1/pink-white-options.png) และ [หลักฐานคำนวณ](foundation-1/pink-white-contrast.json)
+
+เฉดเข้มทั้งสามไม่ได้รับเลือก เก็บภาพและผลคำนวณไว้เป็นประวัติ ไม่ใช่ current recommendation หรือ token ที่อนุมัติ
+
+### CTA-review-3 — เจ้าของยืนยันเฉดเดิม
+
+เมื่อ 3 พฤศจิกายน 2026 เจ้าของตอบว่า “เอาแบบเดิมอ่ะฉันว่าสวยแล้ว” หลังเห็นภาพเทียบชมพูเดิมกับสามเฉดเข้ม จึงบันทึก **พื้น #FD6E88 / ข้อความ #FFFFFF** เป็น CTA visual reference ที่เลือก ไม่ปรับเฉดเข้ม ไม่เปลี่ยนสีข้อความกลับเป็น Navy และไม่สำรวจเฉดอื่นต่อโดยอัตโนมัติ
+
+Nominal text contrast ของคู่สีนี้ยังเป็น **2.705343:1** ไม่ผ่านเกณฑ์ข้อความปกติ การเลือก visual reference ไม่ใช่การรับรอง AA หรืออนุมัติ accessibility exception ดู [selection record](foundation-1/cta-selection.json)
+
+OPEN-001 คงเปิดและยังเป็น blocker ของ UI implementation acceptance / production accessibility gate ตาม decision log เดิม Final foundation version และ frontend ยังต้องอนุมัติแยก ไม่อ้างว่า DSD-001 เสร็จจากการเลือก CTA visual reference นี้
+
+## Spacing และ layout roles
+
+| Token | ค่า (px) | ใช้กับ |
+|---|---:|---|
+| space.1 / .2 / .3 / .4 | 4 / 8 / 12 / 16 | จังหวะ icon/label, ภายใน control และ metadata |
+| space.5 / .6 / .8 | 20 / 24 / 32 | Card gutters, padding และกลุ่มข้อมูล |
+| space.10 / .12 / .16 | 40 / 48 / 64 | จังหวะ section และระยะภายนอก |
+| space.20 / .24 | 80 / 96 | Hero composition เฉพาะบริบท ไม่ใช้เว้นทุก section |
+| section.gap | Mobile 40 / Tablet 48 / Desktop 64 | ส่วนเนื้อหาที่มีหน้าที่ต่างกัน |
+| group.gap | 16–24 | กลุ่มข้อมูลภายใน section |
+| grid.gap | Mobile 16 / Tablet 20 / Desktop 24 | Property grid |
+| layout.marketplace.max | 1440 | Home/Results/Favorites เมื่อพื้นที่พอ |
+| layout.detail.max | 1200 | Detail และเนื้อหาที่มี booking rail |
+| layout.reading.max | 680 | ข้อความยาว ไม่บังคับทั้งหน้าเป็นคอลัมน์นี้ |
+
+ขนาดกลางปรับแบบ fluid ระหว่างจุดอ้างอิงที่กำหนดใน responsive guide ไม่เพิ่ม arbitrary values ต่อหน้าจอเพื่อเลียนแบบ bitmap
+
+## Radius และ graphic treatment
+
+| Role | ค่า | ขอบเขต |
+|---|---:|---|
+| radius.badge | 6px | ป้ายสั้นที่มีข้อมูลรองรับ |
+| radius.control | 8px | Fields / ปุ่มทั่วไป |
+| radius.card-image | 12px | รูป listing และ shared property cards |
+| radius.panel | 16px | Popover/dialog surface ตามหน้าที่ |
+| radius.search | capsule ตามความสูง | Unified hero search เท่านั้น ไม่ทำทุก control เป็น pill |
+| radius.hero-cut | 96px Desktop / 64px Tablet / 40px Mobile | Curved corner ของภาพหลักใน B; ข้อยกเว้นเชิง art direction ที่เสนอ ไม่ใช่ radius ของทุก card |
+| collage.rotation | ไม่เกิน 3° | ภาพ inset ที่ไม่มีข้อความ/controls; ไม่เอียง form หรือ card ข้อมูล |
+| collage.overlap | 24px Desktop / 16px Mobile | ภาพ inset ซ้อนภาพหลัก โดยไม่ทับ search, headline หรือ controls |
+
+Radii 6/8/12/16 รักษา TOK-008 ส่วน hero-cut/rotation/overlap เป็นค่าข้อเสนอเฉพาะทิศทาง B และต้องผ่าน final foundation review
+
+## Elevation
+
+| ระดับ | Shadow specification | หน้าที่ |
+|---|---|---|
+| flat | ไม่มี shadow | พื้นหน้า ข้อความ รูป listing และ category shortcuts |
+| raised | Navy 12%; offset (0, 6px); blur 20px | Floating hero search / ภาพ inset ที่ลอยจริง |
+| overlay | Navy 18%; offset (0, 12px); blur 32px | Popover/dialog ที่อยู่เหนือเนื้อหา |
+
+ไม่เพิ่ม shadow ให้ทุก card เพื่อสร้างมิติ ทิศทาง B ใช้ photography crop, hierarchy และ overlap เป็นหลัก เงาเป็นตัวสนับสนุนชั้นที่มีหน้าที่
+
+## Focus / icons / motion
+
+- Functional icon ใช้ Navy เป็นค่าเสนอ; Pink ไม่เป็น cue เดียวของ default/selected/error เพราะ Pink/White ประมาณ 2.705:1
+- เสนอ icon family เดียวจากชุดที่โปรเจกต์มีอยู่ให้ DSD-002 จัด anatomy/variants ไม่ถือว่า raster icon แต่ละภาพเป็น asset ที่อนุมัติแล้ว
+- Focus ring เสนอ Navy 2px พร้อมช่องว่าง White 2px; ต้องเห็นครบและไม่ถูก sticky/overlay บังในขั้นทดสอบจริง
+- Target size เป้าหมายออกแบบ controls หลัก 44×44px หรือมากกว่า; เป็นมาตรฐานของข้อเสนอนี้ ไม่ใช่การกล่าวว่า WCAG AA กำหนด 44px ทุกกรณี [SC 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html) มี minimum 24×24px และข้อยกเว้นตามบริบท
+
+| Motion token | ค่าเสนอ | หน้าที่ / reduced motion |
+|---|---|---|
+| motion.press | 120ms | Feedback สั้น; reduce ใช้สี/outline คงที่ |
+| motion.color | 180ms | สี hover/selected; reduce ใช้สถานะปลายทางทันที |
+| motion.overlay | 240ms | Opacity และการเคลื่อนสั้นไม่เกิน 8px; reduce เหลือ opacity หรือทันที |
+| motion.image-intro | 400ms | Optional ครั้งเดียวเฉพาะภาพ hero ไม่ซ่อน content/search; reduce เป็นภาพนิ่ง |
+| motion.ease | cubic-bezier(0.2, 0, 0, 1) | ไม่มี bounce/overshoot |
+
+ไม่กำหนด autoplay, parallax, scroll hijacking หรือ animation บนราคาที่เปลี่ยนค่า การเปลี่ยนภาพด้วยการกระทำของผู้ใช้ต้องทำงานแม้ลด motion; interaction/state matrix เป็น DSD-002 ไม่ได้ส่งมอบใน Task นี้
+
+## Acceptance / handoff
+
+- ใช้ [typography-spec](typography-spec.md) และ [responsive guide](responsive-visual-guidelines.md) ร่วมกัน
+- ผลคำนวณและภาพตัวอย่างอยู่ใน [foundation-1](foundation-1/README.md)
+- ต้องมี owner choice ของ CTA และ final foundation approval/version ก่อนถือว่าข้อเสนอชุดนี้พร้อมเป็น dependency ของ implementation
+- ไม่อนุมัติ components หรือ page designs แทน DSD-002/UID tasks; ไม่เริ่มงานเหล่านั้นเอง

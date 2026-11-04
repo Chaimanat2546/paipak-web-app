@@ -1,0 +1,17 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "เราทำไว้ก่อนเพราะว่าเรายังไม่ได้ออกแบบฟีเจอร์บทความ",
+  "status": "owner_clarified_design_ahead_of_article_feature",
+  "scope": "Design Home article presentation and states in advance of the separately unstarted article feature",
+  "current_data": "Use clearly identified mock article content for this Home design phase; real article source is not a prerequisite now",
+  "future_display_contract": "The displayed snippet comes from that same article's body content, not independently invented copy; retain the confirmed maximum of two lines",
+  "actual_article_source_required_now": false,
+  "article_feature_started": false,
+  "cms_or_data_schema_selected": false,
+  "backend_connected": false,
+  "appearance_approved_by_this_message": false,
+  "frontend_authorized": false,
+  "next_review": "Continue Home article state appearance review using existing mock fixtures; keep final article/Home version acceptance separate"
+}

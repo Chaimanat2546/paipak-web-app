@@ -2,7 +2,7 @@
 
 วันที่ 3 พฤศจิกายน 2026 (Asia/Bangkok) · **รอเจ้าของตรวจรับแบบ**
 
-ปรับจาก rebuilt-1 ตามคำตอบเจ้าของ Q-01–Q-12 และ F-01 ใน [review-decisions](../review-decisions.md) ใช้หน้าตรวจรายการแบบ Airbnb โดยคงกฎ paipak ให้ Guest เข้าสู่ระบบก่อน Member Checkout ไม่คัดลอกตำแหน่ง Auth บริการผ่อนชำระ นโยบาย หรือข้อมูลที่พักของ reference มาเป็นความสามารถของ paipak
+ปรับจาก rebuilt-1 ตามคำตอบเจ้าของ Q-01–Q-12 และ F-01 ใน [review-decisions](../review-decisions.md) ใช้หน้าตรวจรายการแบบ Airbnb โดยคงกฎ papaipak ให้ Guest เข้าสู่ระบบก่อน Member Checkout ไม่คัดลอกตำแหน่ง Auth บริการผ่อนชำระ นโยบาย หรือข้อมูลที่พักของ reference มาเป็นความสามารถของ papaipak
 
 ## ไฟล์ต้นฉบับและสเปก
 
@@ -11,7 +11,7 @@
 - **Snapshot ก่อนเพิ่ม Desktop:** [flow-groups/editable-snapshot.json](flow-groups/editable-snapshot.json) — 12 major containers ของรอบ Mobile; ล่าสุดทั้งสองขนาดอยู่ใน flow-groups/desktop/editable-snapshot.json โดยหน้าจอจริงยัง 40 ภาพและแผงหมายเหตุเดิม 40 แผง
 - **User flow บน canvas:** เริ่มที่กรอบ `USER-FLOW — START HERE` แล้วดูหน้าจอจริงใน `FLOW-DESKTOP` และ `FLOW-MOBILE` ซึ่งเรียงตามเส้นทางและเชื่อมลูกศรแล้ว รวม 40 หน้าจอ + 40 แผงหมายเหตุเดิม ไม่เพิ่ม template หรือ route
 - [ภาพรวม user flow](user-flow-overview.png) · [Snapshot ก่อนเพิ่ม 8 review groups](editable-flow-snapshot.json) · [ตำแหน่งและชั้นลูกศรของ 3 flow boards เดิม](canvas-user-flow.json)
-- [Pencil source](../paipak-wireframe.pen) — จัด flow ใน canvas ที่เปิดไฟล์นี้แล้ว; เจ้าของจะบันทึกเองเมื่อพร้อม การบันทึก native ของ layout ล่าสุดยังไม่ยืนยันจากดิสก์ ใช้ flow-groups/desktop/editable-snapshot.json เป็นสำเนาล่าสุดระหว่างรอบันทึก
+- [Pencil source](../papaipak-wireframe.pen) — ลิงก์แก้ให้ตรงชื่อไฟล์ใน repository เมื่อ 4 พฤศจิกายน 2026; การบันทึก native ของ layout ล่าสุดยังไม่ยืนยันจากดิสก์ ใช้ flow-groups/desktop/editable-snapshot.json เป็นสำเนาล่าสุดระหว่างรอบันทึก
 - [Editable layer snapshot ก่อนจัด flow](editable-snapshot.json) — เก็บเนื้อหา 40 screen frames + 40 annotation frames เดิม; hierarchy ล่าสุดอยู่ใน flow-groups/editable-snapshot.json สำเนา public layer schema ไม่ใช่ไฟล์ .pen
 - [Export index](export-index.json) — frame IDs และขนาด PNG ทั้ง 40 ไฟล์
 - [Component inventory / states / acceptance](component-inventory.md)

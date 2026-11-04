@@ -1,0 +1,21 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "อันทั้งขวาเราไม่ได้คุยกันไว้แบบนี้นะ",
+  "status": "owner_returned_right_side; assistant_withdrew_unagreed_dark_extension",
+  "assistant_correction": "Withdraw secondary/index dark keyboard surfaces introduced in review-1; restore original borderless white appearance and retain accepted bounce-only activation. Do not generalize featured dark-surface choice to these targets.",
+  "withdrawn_native_root": "y6U0w",
+  "withdrawn_native_root_enabled": false,
+  "reference_native_root": "T93FT",
+  "reference_image": "T93FT.png",
+  "reference_image_sha256": "6508c857d5865b1bf60be3554ee6aa0e4c3e96633114f4af58a593c5d7ce8675",
+  "original_default_native_root": "L4FBX",
+  "featured_press_r4_unchanged": true,
+  "supporting_index_bounce_r2_unchanged": true,
+  "replacement_keyboard_focus_selected": false,
+  "corrected_reference_approved": false,
+  "whole_article_version_approved": false,
+  "whole_home_version_approved": false,
+  "frontend_authorized": false
+}

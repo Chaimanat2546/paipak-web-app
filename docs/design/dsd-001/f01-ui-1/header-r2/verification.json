@@ -1,0 +1,16 @@
+{
+  "version": "Header-r2",
+  "scope": "Home Desktop header candidate only",
+  "approval_status": "pending_owner_review",
+  "original_header_node": "QUgsg",
+  "candidate_header_node": "lOIQO",
+  "candidate_home_node": "TBasB",
+  "comparison_node": "zo9bx",
+  "text_inventory_preserved": true,
+  "non_header_content_and_geometry_unchanged": true,
+  "font": "Mitr via font.primary",
+  "header_height": 124,
+  "base_review_groups_unchanged": 28,
+  "backup_geometry": "explicit SVG paths included",
+  "functional_prototype": false
+}

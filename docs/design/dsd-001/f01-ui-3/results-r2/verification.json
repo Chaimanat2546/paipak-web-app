@@ -1,0 +1,1770 @@
+{
+  "version": "Results-r2",
+  "date": "2026-11-04",
+  "status": "pending_owner_review",
+  "approval_source": "Owner replied จัดการ to Results-review-1 findings RSL-01 RSL-02 RSL-03",
+  "screens": 6,
+  "cards": 44,
+  "fixture_checks": [
+    {
+      "before": "vEMvJ",
+      "after": "RJppp",
+      "root": "osaIa",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "ZPjmW",
+      "after": "K1Lq3P",
+      "root": "osaIa",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "uSo18",
+      "after": "kHLpv",
+      "root": "osaIa",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.66666666666663,
+      "height": 362
+    },
+    {
+      "before": "Iw4mj",
+      "after": "bcX08",
+      "root": "osaIa",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "cCAhN",
+      "after": "nATjw",
+      "root": "osaIa",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "x6d3X",
+      "after": "asX5t",
+      "root": "osaIa",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.66666666666663,
+      "height": 362
+    },
+    {
+      "before": "cBVze",
+      "after": "WUg6Q",
+      "root": "osaIa",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "iyvBH",
+      "after": "wQxVk",
+      "root": "osaIa",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "SihTH",
+      "after": "itEYb",
+      "root": "L8ev6",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "tNada",
+      "after": "Opepr",
+      "root": "L8ev6",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "glmiq",
+      "after": "arJgc",
+      "root": "L8ev6",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "txqLM",
+      "after": "WgmCy",
+      "root": "L8ev6",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "xO2ae",
+      "after": "ICxj2",
+      "root": "L8ev6",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "P3lxg1",
+      "after": "K1Hun",
+      "root": "L8ev6",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "A5j5q",
+      "after": "C4VfoE",
+      "root": "L8ev6",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "c9Os1f",
+      "after": "L5Hfm",
+      "root": "L8ev6",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "d3cTL",
+      "after": "niK5y",
+      "root": "NmzZ4",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "q9J3q",
+      "after": "CW246",
+      "root": "NmzZ4",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "kfx0e",
+      "after": "IBn8R",
+      "root": "NmzZ4",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.66666666666663,
+      "height": 362
+    },
+    {
+      "before": "lpeFK",
+      "after": "OS81N",
+      "root": "NmzZ4",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "wg3ru",
+      "after": "fdKgb",
+      "root": "NmzZ4",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "Yysd9",
+      "after": "ZIyTz",
+      "root": "NmzZ4",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.66666666666663,
+      "height": 362
+    },
+    {
+      "before": "BKPcS",
+      "after": "EkpsG",
+      "root": "YQRxl",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "tQUuq",
+      "after": "tthRh",
+      "root": "YQRxl",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "q3KZ9j",
+      "after": "fS76Z",
+      "root": "YQRxl",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "f4By2X",
+      "after": "Ibtua",
+      "root": "YQRxl",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "qUYhz",
+      "after": "rKutB",
+      "root": "YQRxl",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "DBS7U",
+      "after": "yL2lD",
+      "root": "YQRxl",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "B85QXz",
+      "after": "joV4X",
+      "root": "HpR7z",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "kRrMa",
+      "after": "ofteA",
+      "root": "HpR7z",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "pkYOY",
+      "after": "yXVlH",
+      "root": "HpR7z",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.66666666666663,
+      "height": 362
+    },
+    {
+      "before": "Deihz",
+      "after": "M2NGa",
+      "root": "HpR7z",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "H3fCYN",
+      "after": "GIDf5",
+      "root": "HpR7z",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "W5an8Q",
+      "after": "DZwJq",
+      "root": "HpR7z",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.66666666666663,
+      "height": 362
+    },
+    {
+      "before": "ECcsX",
+      "after": "Xv1YO",
+      "root": "HpR7z",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "YLiMj",
+      "after": "stzfP",
+      "root": "HpR7z",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 322.6666666666667,
+      "height": 362
+    },
+    {
+      "before": "L8Tkj",
+      "after": "owj8H",
+      "root": "P62IV",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "L2mxJK",
+      "after": "IzStR",
+      "root": "P62IV",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "HME9O",
+      "after": "uXfI1",
+      "root": "P62IV",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "b58AYX",
+      "after": "z0ffDU",
+      "root": "P62IV",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "XBzrB",
+      "after": "q9AXTp",
+      "root": "P62IV",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "WJpRU",
+      "after": "uK3Dj",
+      "root": "P62IV",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "Nkph8",
+      "after": "vbN0h",
+      "root": "P62IV",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    },
+    {
+      "before": "WhGsn",
+      "after": "XCZc3",
+      "root": "P62IV",
+      "valuesMatch": true,
+      "imageMatch": true,
+      "width": 342,
+      "height": 362
+    }
+  ],
+  "header_footer_checks": [
+    {
+      "id": "osaIa",
+      "header": true,
+      "footer": true
+    },
+    {
+      "id": "L8ev6",
+      "header": true,
+      "footer": true
+    },
+    {
+      "id": "NmzZ4",
+      "header": true,
+      "footer": true
+    },
+    {
+      "id": "YQRxl",
+      "header": true,
+      "footer": true
+    },
+    {
+      "id": "HpR7z",
+      "header": true,
+      "footer": true
+    },
+    {
+      "id": "P62IV",
+      "header": true,
+      "footer": true
+    }
+  ],
+  "home_unchanged": true,
+  "mobile_first_card_y": {
+    "before": 761,
+    "after": 480,
+    "improvement_px": 281
+  },
+  "mobile_search_height": {
+    "before": 314,
+    "after": 136
+  },
+  "mobile_search_values_and_pagination": [
+    {
+      "id": "L8ev6",
+      "values": [
+        "พัทยา",
+        "เลือกวันภายหลัง",
+        "คน / สัตว์เลี้ยง"
+      ],
+      "pageNumbers": [
+        {
+          "label": "1",
+          "selected": true
+        },
+        {
+          "label": "2",
+          "selected": false
+        },
+        {
+          "label": "3",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "id": "YQRxl",
+      "values": [
+        "พัทยา",
+        "เลือกวันภายหลัง",
+        "คน / สัตว์เลี้ยง"
+      ],
+      "pageNumbers": [
+        {
+          "label": "1",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "id": "P62IV",
+      "values": [
+        "พัทยา",
+        "เลือกวันภายหลัง",
+        "คน / สัตว์เลี้ยง"
+      ],
+      "pageNumbers": [
+        {
+          "label": "1",
+          "selected": false
+        },
+        {
+          "label": "2",
+          "selected": true
+        },
+        {
+          "label": "3",
+          "selected": false
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "id": "osaIa",
+      "frame": [
+        {
+          "width": 1440,
+          "height": 1982
+        }
+      ],
+      "cards": [
+        {
+          "id": "RJppp",
+          "name": "Results-r2 บ้านพักตัวอย่าง 01",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 60
+        },
+        {
+          "id": "K1Lq3P",
+          "name": "Results-r2 บ้านพักตัวอย่าง 02",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 60
+        },
+        {
+          "id": "kHLpv",
+          "name": "Results-r2 บ้านพักตัวอย่าง 03",
+          "w": 322.66666666666663,
+          "h": 362,
+          "y": 0,
+          "parentY": 60
+        },
+        {
+          "id": "bcX08",
+          "name": "Results-r2 บ้านพักตัวอย่าง 04",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 446
+        },
+        {
+          "id": "nATjw",
+          "name": "Results-r2 บ้านพักตัวอย่าง 05",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 446
+        },
+        {
+          "id": "asX5t",
+          "name": "Results-r2 บ้านพักตัวอย่าง 06",
+          "w": 322.66666666666663,
+          "h": 362,
+          "y": 0,
+          "parentY": 446
+        },
+        {
+          "id": "WUg6Q",
+          "name": "Results-r2 บ้านพักตัวอย่าง 07",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 832
+        },
+        {
+          "id": "wQxVk",
+          "name": "Results-r2 บ้านพักตัวอย่าง 08",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 832
+        }
+      ],
+      "search": [
+        {
+          "id": "EBCvs",
+          "w": 1312,
+          "h": 98
+        }
+      ],
+      "pagination": [
+        {
+          "type": "frame",
+          "id": "FDL8h",
+          "name": "Pagination · context retained",
+          "width": "fill_container",
+          "gap": 8,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JvApd",
+              "name": "Previous page · disabled",
+              "opacity": 0.45,
+              "width": 44,
+              "height": 44,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "rWXcJ",
+                  "name": "Previous page · disabled icon",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "chevron-left",
+                  "library": "lucide",
+                  "fill": "#072D59"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "X5mDn9",
+              "name": "1 action",
+              "width": 48,
+              "height": 48,
+              "fill": "#DBF2FC",
+              "cornerRadius": 12,
+              "gap": 8,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cBC6u",
+                  "name": "1 label",
+                  "fill": "#072D59",
+                  "content": "1",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fTonp",
+              "name": "2 action",
+              "width": 48,
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": "#6B7280",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "C1tFcy",
+                  "name": "2 label",
+                  "fill": "#072D59",
+                  "content": "2",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zr0Hh",
+              "name": "3 action",
+              "width": 48,
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": "#6B7280",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "D6R2mY",
+                  "name": "3 label",
+                  "fill": "#072D59",
+                  "content": "3",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dU07R",
+              "name": "Next page",
+              "width": 44,
+              "height": 44,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "w90lm",
+                  "name": "Next page icon",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "chevron-right",
+                  "library": "lucide",
+                  "fill": "#072D59"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L8ev6",
+      "frame": [
+        {
+          "width": 390,
+          "height": 3891
+        }
+      ],
+      "cards": [
+        {
+          "id": "itEYb",
+          "name": "Results-r2 บ้านพักตัวอย่าง 01",
+          "w": 342,
+          "h": 362,
+          "y": 382,
+          "parentY": 98
+        },
+        {
+          "id": "Opepr",
+          "name": "Results-r2 บ้านพักตัวอย่าง 02",
+          "w": 342,
+          "h": 362,
+          "y": 760,
+          "parentY": 98
+        },
+        {
+          "id": "arJgc",
+          "name": "Results-r2 บ้านพักตัวอย่าง 03",
+          "w": 342,
+          "h": 362,
+          "y": 1138,
+          "parentY": 98
+        },
+        {
+          "id": "WgmCy",
+          "name": "Results-r2 บ้านพักตัวอย่าง 04",
+          "w": 342,
+          "h": 362,
+          "y": 1516,
+          "parentY": 98
+        },
+        {
+          "id": "ICxj2",
+          "name": "Results-r2 บ้านพักตัวอย่าง 05",
+          "w": 342,
+          "h": 362,
+          "y": 1894,
+          "parentY": 98
+        },
+        {
+          "id": "K1Hun",
+          "name": "Results-r2 บ้านพักตัวอย่าง 06",
+          "w": 342,
+          "h": 362,
+          "y": 2272,
+          "parentY": 98
+        },
+        {
+          "id": "C4VfoE",
+          "name": "Results-r2 บ้านพักตัวอย่าง 07",
+          "w": 342,
+          "h": 362,
+          "y": 2650,
+          "parentY": 98
+        },
+        {
+          "id": "L5Hfm",
+          "name": "Results-r2 บ้านพักตัวอย่าง 08",
+          "w": 342,
+          "h": 362,
+          "y": 3028,
+          "parentY": 98
+        }
+      ],
+      "search": [
+        {
+          "id": "H5BpeF",
+          "w": 342,
+          "h": 136
+        }
+      ],
+      "pagination": [
+        {
+          "type": "frame",
+          "id": "WzNa4",
+          "name": "Mobile pagination",
+          "width": "fill_container",
+          "gap": 8,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "GILiQ",
+              "name": "Previous page · disabled",
+              "opacity": 0.45,
+              "width": 44,
+              "height": 44,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "P3Eun",
+                  "name": "Previous page · disabled icon",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "chevron-left",
+                  "library": "lucide",
+                  "fill": "#072D59"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AqnCF",
+              "name": "1 action",
+              "width": 48,
+              "height": 48,
+              "fill": "#DBF2FC",
+              "cornerRadius": 12,
+              "gap": 8,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "p78Gw",
+                  "name": "1 label",
+                  "fill": "#072D59",
+                  "content": "1",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Sk2Qk",
+              "name": "2 action",
+              "width": 48,
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": "#6B7280",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zCcxy",
+                  "name": "2 label",
+                  "fill": "#072D59",
+                  "content": "2",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iiKJX",
+              "name": "3 action",
+              "width": 48,
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": "#6B7280",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XzYgb",
+                  "name": "3 label",
+                  "fill": "#072D59",
+                  "content": "3",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QT1TX",
+              "name": "Next page",
+              "width": 44,
+              "height": 44,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "EQPOy",
+                  "name": "Next page icon",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "chevron-right",
+                  "library": "lucide",
+                  "fill": "#072D59"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NmzZ4",
+      "frame": [
+        {
+          "width": 1440,
+          "height": 1668
+        }
+      ],
+      "cards": [
+        {
+          "id": "niK5y",
+          "name": "Results-r2 บ้านพักตัวอย่าง 01",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 132
+        },
+        {
+          "id": "CW246",
+          "name": "Results-r2 บ้านพักตัวอย่าง 02",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 132
+        },
+        {
+          "id": "IBn8R",
+          "name": "Results-r2 บ้านพักตัวอย่าง 03",
+          "w": 322.66666666666663,
+          "h": 362,
+          "y": 0,
+          "parentY": 132
+        },
+        {
+          "id": "OS81N",
+          "name": "Results-r2 บ้านพักตัวอย่าง 04",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 518
+        },
+        {
+          "id": "fdKgb",
+          "name": "Results-r2 บ้านพักตัวอย่าง 05",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 518
+        },
+        {
+          "id": "ZIyTz",
+          "name": "Results-r2 บ้านพักตัวอย่าง 06",
+          "w": 322.66666666666663,
+          "h": 362,
+          "y": 0,
+          "parentY": 518
+        }
+      ],
+      "search": [
+        {
+          "id": "nBs33",
+          "w": 1312,
+          "h": 98
+        }
+      ],
+      "pagination": [
+        {
+          "type": "frame",
+          "id": "A0Cru7",
+          "name": "Pagination · context retained",
+          "width": "fill_container",
+          "gap": 8,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "TEIwH",
+              "name": "Previous page · disabled",
+              "opacity": 0.45,
+              "width": 44,
+              "height": 44,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "dJwdm",
+                  "name": "Previous page · disabled icon",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "chevron-left",
+                  "library": "lucide",
+                  "fill": "#072D59"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wxquU",
+              "name": "1 action",
+              "width": 48,
+              "height": 48,
+              "fill": "#DBF2FC",
+              "cornerRadius": 12,
+              "gap": 8,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NEPBp",
+                  "name": "1 label",
+                  "fill": "#072D59",
+                  "content": "1",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JWHIz",
+              "name": "Next page · disabled",
+              "opacity": 0.45,
+              "width": 44,
+              "height": 44,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "U0gPb2",
+                  "name": "Next page icon",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "chevron-right",
+                  "library": "lucide",
+                  "fill": "#072D59"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "YQRxl",
+      "frame": [
+        {
+          "width": 390,
+          "height": 3311
+        }
+      ],
+      "cards": [
+        {
+          "id": "EkpsG",
+          "name": "Results-r2 บ้านพักตัวอย่าง 01",
+          "w": 342,
+          "h": 362,
+          "y": 558,
+          "parentY": 98
+        },
+        {
+          "id": "tthRh",
+          "name": "Results-r2 บ้านพักตัวอย่าง 02",
+          "w": 342,
+          "h": 362,
+          "y": 936,
+          "parentY": 98
+        },
+        {
+          "id": "fS76Z",
+          "name": "Results-r2 บ้านพักตัวอย่าง 03",
+          "w": 342,
+          "h": 362,
+          "y": 1314,
+          "parentY": 98
+        },
+        {
+          "id": "Ibtua",
+          "name": "Results-r2 บ้านพักตัวอย่าง 04",
+          "w": 342,
+          "h": 362,
+          "y": 1692,
+          "parentY": 98
+        },
+        {
+          "id": "rKutB",
+          "name": "Results-r2 บ้านพักตัวอย่าง 05",
+          "w": 342,
+          "h": 362,
+          "y": 2070,
+          "parentY": 98
+        },
+        {
+          "id": "yL2lD",
+          "name": "Results-r2 บ้านพักตัวอย่าง 06",
+          "w": 342,
+          "h": 362,
+          "y": 2448,
+          "parentY": 98
+        }
+      ],
+      "search": [
+        {
+          "id": "JZR6Y",
+          "w": 342,
+          "h": 136
+        }
+      ],
+      "pagination": [
+        {
+          "type": "frame",
+          "id": "IKBzi",
+          "name": "Mobile pagination",
+          "width": "fill_container",
+          "gap": 8,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "GEzNU",
+              "name": "Previous page · disabled",
+              "opacity": 0.45,
+              "width": 44,
+              "height": 44,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "QAuf7",
+                  "name": "Previous page · disabled icon",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "chevron-left",
+                  "library": "lucide",
+                  "fill": "#072D59"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "o17fd5",
+              "name": "1 action",
+              "width": 48,
+              "height": 48,
+              "fill": "#DBF2FC",
+              "cornerRadius": 12,
+              "gap": 8,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "T6n90H",
+                  "name": "1 label",
+                  "fill": "#072D59",
+                  "content": "1",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hMOgc",
+              "name": "Next page · disabled",
+              "opacity": 0.45,
+              "width": 44,
+              "height": 44,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "S2N7Qn",
+                  "name": "Next page icon",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "chevron-right",
+                  "library": "lucide",
+                  "fill": "#072D59"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "HpR7z",
+      "frame": [
+        {
+          "width": 1440,
+          "height": 1982
+        }
+      ],
+      "cards": [
+        {
+          "id": "joV4X",
+          "name": "Results-r2 บ้านพักตัวอย่าง 09",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 60
+        },
+        {
+          "id": "ofteA",
+          "name": "Results-r2 บ้านพักตัวอย่าง 10",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 60
+        },
+        {
+          "id": "yXVlH",
+          "name": "Results-r2 บ้านพักตัวอย่าง 11",
+          "w": 322.66666666666663,
+          "h": 362,
+          "y": 0,
+          "parentY": 60
+        },
+        {
+          "id": "M2NGa",
+          "name": "Results-r2 บ้านพักตัวอย่าง 12",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 446
+        },
+        {
+          "id": "GIDf5",
+          "name": "Results-r2 บ้านพักตัวอย่าง 13",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 446
+        },
+        {
+          "id": "DZwJq",
+          "name": "Results-r2 บ้านพักตัวอย่าง 14",
+          "w": 322.66666666666663,
+          "h": 362,
+          "y": 0,
+          "parentY": 446
+        },
+        {
+          "id": "Xv1YO",
+          "name": "Results-r2 บ้านพักตัวอย่าง 15",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 832
+        },
+        {
+          "id": "stzfP",
+          "name": "Results-r2 บ้านพักตัวอย่าง 16",
+          "w": 322.6666666666667,
+          "h": 362,
+          "y": 0,
+          "parentY": 832
+        }
+      ],
+      "search": [
+        {
+          "id": "hKv5E",
+          "w": 1312,
+          "h": 98
+        }
+      ],
+      "pagination": [
+        {
+          "type": "frame",
+          "id": "eEnMF",
+          "name": "Pagination · context retained",
+          "width": "fill_container",
+          "gap": 8,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "y9Yfj",
+              "name": "Previous page active",
+              "width": 44,
+              "height": 44,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "p6hGu",
+                  "name": "Previous page · disabled icon",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "chevron-left",
+                  "library": "lucide",
+                  "fill": "#072D59"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Um7UY",
+              "name": "1 action",
+              "width": 48,
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": "#6B7280",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ajgIW",
+                  "name": "1 label",
+                  "fill": "#072D59",
+                  "content": "1",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m8lIBs",
+              "name": "2 action",
+              "width": 48,
+              "height": 48,
+              "fill": "#DBF2FC",
+              "cornerRadius": 12,
+              "stroke": "#6B7280",
+              "gap": 8,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tAx0T",
+                  "name": "2 label",
+                  "fill": "#072D59",
+                  "content": "2",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VUriu",
+              "name": "3 action",
+              "width": 48,
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": "#6B7280",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KZk2M",
+                  "name": "3 label",
+                  "fill": "#072D59",
+                  "content": "3",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "I3mkkn",
+              "name": "Next page",
+              "width": 44,
+              "height": 44,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "GfI0V",
+                  "name": "Next page icon",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "chevron-right",
+                  "library": "lucide",
+                  "fill": "#072D59"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P62IV",
+      "frame": [
+        {
+          "width": 390,
+          "height": 3891
+        }
+      ],
+      "cards": [
+        {
+          "id": "owj8H",
+          "name": "Results-r2 บ้านพักตัวอย่าง 09",
+          "w": 342,
+          "h": 362,
+          "y": 382,
+          "parentY": 98
+        },
+        {
+          "id": "IzStR",
+          "name": "Results-r2 บ้านพักตัวอย่าง 10",
+          "w": 342,
+          "h": 362,
+          "y": 760,
+          "parentY": 98
+        },
+        {
+          "id": "uXfI1",
+          "name": "Results-r2 บ้านพักตัวอย่าง 11",
+          "w": 342,
+          "h": 362,
+          "y": 1138,
+          "parentY": 98
+        },
+        {
+          "id": "z0ffDU",
+          "name": "Results-r2 บ้านพักตัวอย่าง 12",
+          "w": 342,
+          "h": 362,
+          "y": 1516,
+          "parentY": 98
+        },
+        {
+          "id": "q9AXTp",
+          "name": "Results-r2 บ้านพักตัวอย่าง 13",
+          "w": 342,
+          "h": 362,
+          "y": 1894,
+          "parentY": 98
+        },
+        {
+          "id": "uK3Dj",
+          "name": "Results-r2 บ้านพักตัวอย่าง 14",
+          "w": 342,
+          "h": 362,
+          "y": 2272,
+          "parentY": 98
+        },
+        {
+          "id": "vbN0h",
+          "name": "Results-r2 บ้านพักตัวอย่าง 15",
+          "w": 342,
+          "h": 362,
+          "y": 2650,
+          "parentY": 98
+        },
+        {
+          "id": "XCZc3",
+          "name": "Results-r2 บ้านพักตัวอย่าง 16",
+          "w": 342,
+          "h": 362,
+          "y": 3028,
+          "parentY": 98
+        }
+      ],
+      "search": [
+        {
+          "id": "bUz2h",
+          "w": 342,
+          "h": 136
+        }
+      ],
+      "pagination": [
+        {
+          "type": "frame",
+          "id": "eA9oB",
+          "name": "Mobile pagination",
+          "width": "fill_container",
+          "gap": 8,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "g2cwi",
+              "name": "Previous page active",
+              "width": 44,
+              "height": 44,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "O60Vq",
+                  "name": "Previous page · disabled icon",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "chevron-left",
+                  "library": "lucide",
+                  "fill": "#072D59"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nLKsV",
+              "name": "1 action",
+              "width": 48,
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": "#6B7280",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "f0d4dB",
+                  "name": "1 label",
+                  "fill": "#072D59",
+                  "content": "1",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R4zsT",
+              "name": "2 action",
+              "width": 48,
+              "height": 48,
+              "fill": "#DBF2FC",
+              "cornerRadius": 12,
+              "stroke": "#6B7280",
+              "gap": 8,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dWXXH",
+                  "name": "2 label",
+                  "fill": "#072D59",
+                  "content": "2",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LChba",
+              "name": "3 action",
+              "width": 48,
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": "#6B7280",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iqbJ3",
+                  "name": "3 label",
+                  "fill": "#072D59",
+                  "content": "3",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BfUXJ",
+              "name": "Next page",
+              "width": 44,
+              "height": 44,
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "HiRCm",
+                  "name": "Next page icon",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "chevron-right",
+                  "library": "lucide",
+                  "fill": "#072D59"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "state_board": "ok6Vg",
+  "not_tested": [
+    "functional hover/focus",
+    "keyboard",
+    "touch/swipe",
+    "URL state",
+    "backend search/auth",
+    "production accessibility"
+  ],
+  "open_issue": "OPEN-001 retained"
+}

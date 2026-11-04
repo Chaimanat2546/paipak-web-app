@@ -1,0 +1,16 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "question": "ตำแหน่งช่องทางติดต่อแบบนี้เป็นอย่างไร?",
+  "owner_quote": "3",
+  "selected_option": "จัดเป็นคอลัมน์ติดต่อด้านขวา แยกกลุ่มให้ชัดขึ้น",
+  "status": "owner_selected_layout_for_revision",
+  "requirement": "Visible LINE and phone channels remain direct; no intermediate contact button or popup",
+  "result": "Footer-contact-column-r2 / kengy",
+  "result_appearance_approved": false,
+  "verified_line_destination": false,
+  "verified_phone_number": false,
+  "whole_home_version_approved": false,
+  "frontend_authorized": false
+}

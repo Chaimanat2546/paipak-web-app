@@ -1,0 +1,67 @@
+# DSD-001 — Typography specification
+
+รุ่น foundation-2-desktop · 4 พฤศจิกายน 2026 · Direction A / review-2
+
+**สถานะ: จัดให้ตรงกับ Home Desktop-r8 ที่รับด้านหน้าตาแล้ว; รอตรวจรับ foundation เป็นชุด** Mobile พักไว้ ตารางนี้ไม่ใช่การอนุมัติ typography ของทุกหน้า ทุกขนาดจอ หรือ Frontend
+
+## Family และขอบเขต
+
+ใช้ Mitr สำหรับไทย Latin ตัวเลข ราคา และ interface copy ตามข้อสรุปเดิม Native variable font.primary มีค่า Mitr; อ่านค่าจาก Pencil และเก็บใน [observed evidence](foundation-2-desktop/observed-values.json) ไม่มี supplementary font ที่เพิ่มหรืออนุมัติในงานนี้
+
+ไฟล์ Mitr 400/500/600 และ OFL ที่เคยเก็บอยู่ใน [font source record](foundation-1/font-sources.json) ยังเป็นหลักฐานเดิม ไม่ใช่ผลว่าฟอนต์โหลดใน browser/แอปผ่านแล้ว การ์ดและ controls บางชื่อสืบจาก r6/r7 แต่ค่าด้านล่างอ่านจาก Home-r8 ปัจจุบัน
+
+## Desktop role mapping ที่ 1440px
+
+ขนาดเป็น px; line-height เป็นตัวคูณ น้ำหนัก normal เทียบกับ 400 ไม่ย้ายน้ำหนักตัวอักษรจากภาพ raster
+
+| Role | Size | Weight | Line-height | ใช้กับ / หลักฐาน |
+| --- | ---: | ---: | --- | --- |
+| home.hero.title | 96 | 600 | 1.13 | ทั้งสองบรรทัด; ZClla / QvP46 |
+| home.hero.support | 22 | 500 | 1.6 | ข้อความใต้ Hero; L3YMj |
+| home.section.recommended | 32 | 400 | 1.4 | พูลวิลล่าแนะนำ; V4IBc0 |
+| home.section.category | 32 | 500 | 1.4 | หัวข้อหมวดอื่นตามภาพที่รับ; qMuAW / QrZom |
+| home.category.label | 18 | 600 | 1.5 | ทางลัดทั้ง 7 หมวด |
+| property.title | 18 | 500 | 1.5 | กล่องชื่อหนึ่งบรรทัดสูง27px; e8K3M |
+| price.amount | 22 | 500 | 1.5 | ตัวเลขราคา; N5rUvz |
+| price.qualifier / unit | 13 | 400 | 1.5 | เริ่มต้น และ / คืน |
+| property.metadata | 14 | 400 | 1.5 | ทำเล คน ห้องนอน |
+| home.search.label | 17 | 500 | 1.5 | สถานที่/วันเข้าพัก/ผู้เข้าพัก |
+| home.search.value | 17 | 400 | 1.5 | ค่าว่างหรือค่าที่เลือก |
+| home.search.action | 22 | 500 | native-auto | ปุ่มค้นหา; QXbD3 มีความสูงข้อความที่วัดได้35px |
+| header.navigation | 17 | 400 /500 | 1.5 | ปกติ/active ตามภาพปัจจุบัน |
+| header.sign-in | 16 | 500 | 1.5 | ปุ่มเข้าสู่ระบบ |
+| navigation.view-all | 14 | 400 | 1.5 | ดูทั้งหมด; บน Luxury ใช้สีขาว |
+| overlay.heading / contact.option | 16 | 500 | native-auto | หัวข้อแผงและ LINE OA/โทร; r0ipA0 / JrbQ2 / Ej4nM / RIMD1 |
+| overlay.language.option | 16 | 500 /400 | native-auto | ไทยที่เลือก500; English400; nVnNU / y4ct9 |
+| overlay.contact.hint | 13 | 400 | native-auto | คำอธิบายการเปิดแอป |
+| footer.message | 32 | 400 | 1.4 | พื้นที่ความสุขส่วนตัว |
+| footer.support / link | 16 | 400 | 1.5 | คำอธิบายและลิงก์เนื้อหา |
+| footer.group-heading | 16 | 500 | 1.5 | เริ่มต้นกับ papaipak / ข้อมูลสำคัญ |
+| footer.utility | 14 | 400 | 1.5 | โดเมน / กลับขึ้นด้านบน |
+| brand.wordmark-study | 38 | 600 | 1.2 | โลโก้สมมติใน Header/Footer ไม่ใช่ body role |
+
+native-auto หมายถึงไม่มีค่า line-height explicit ใน Pencil ต้องรักษาการวางกึ่งกลางตาม reference และตรวจ font metrics ก่อนผูกเป็น frontend value ไม่เอาความสูงกล่องที่วัดได้ไปประกาศเป็น line-height ที่เจ้าของเลือกแล้ว
+
+Hero96px เป็น page-specific expression ของ A ไม่ใช่การเปลี่ยน Hero ทุก template เป็น96px Planning typography อื่นยังอยู่ใน [registry](../../decisions/registry.yaml) ไม่แก้ทุกหัวข้อเป็น400หรือ500เองจากการจัดเอกสารนี้ ความต่างหัวข้อแนะนำกับหมวดอื่นคงตาม Home ที่รับ
+
+## การตัดบรรทัดและข้อมูลไม่ครบ
+
+- ชื่อบ้านบน Home ใช้หนึ่งบรรทัดย่อด้วย … เพื่อให้ข้อมูลในแต่ละแถวอยู่แนวเดียวกัน ต่างจากร่าง B เดิมที่เสนอสองบรรทัด ชื่อเต็มต้องเข้าถึงได้จาก Detail และ accessible name; ไม่อาศัย hover อย่างเดียว
+- ภาพตัวอย่างชื่อยาวเป็นข้อความย่อที่เขียนในแบบ ไม่ใช่การทดสอบ dynamic truncation ห้ามตัดสระ/วรรณยุกต์ไทย และต้องตรวจ text zoom ก่อนรับรองระบบจริง
+- ไม่ย่อ metadata ราคา หรือข้อผิดพลาดที่จำเป็นจนอ่านไม่ได้เพื่อรักษาความสูงกล่องอ้างอิง เมื่อข้อความขยายต้องพิจารณา reflow โดยรักษากฎ UX
+- Home ไม่ใช้ข้อความ “ยังไม่มีข้อมูลราคา” แทนการ์ดที่ข้อมูลไม่ครบ ให้ตัดการ์ดนั้นออกตามข้อสรุป [3A–3B](f01-ui-3/home-guided-review/README.md) บ้านนั้นยังค้นเจอได้ การแสดงข้อมูลไม่ครบใน Results ยังต้องมีข้อกำหนด/หลักฐานของหน้านั้น
+- ราคาตัวอย่าง เช่น เริ่มต้น ฿8,900 / คืน เป็น fixture ไม่ใช่ quote, availability หรือส่วนลดจริง
+
+## ไทย Latin และขอบเขตการอ่าน
+
+Letter spacing ของข้อความไทยใช้0 ไม่บีบความกว้างหรือใช้ uppercase/letter spacing เป็น decoration ข้อความ Pet Friendly, Outing, Luxury ใช้ Mitr ตาม role เดิม ไม่เพิ่ม font เพื่อแก้ baseline โดยไม่อนุมัติ
+
+ชื่อเต็ม URL และข้อความยาวในเนื้อหาต้อง wrap อย่างปลอดภัย ข้อผิดพลาดต้องเป็นข้อความที่อ่านได้ ไม่พึ่งสีเพียงอย่างเดียว ไม่อ้างว่า Mitr ทุกไฟล์รองรับ tabular figures หากยังไม่มีหลักฐาน
+
+สี interface สำคัญใช้ Navy; metadata ใช้ #6B7280 บนขาวตาม reference CTAขาวบนชมพูคงไว้เฉพาะ visual reference และ OPEN-001 ยังเปิด ดู [token sheet](token-sheet.md) ไม่ใช้การเพิ่มน้ำหนักหรือขนาดตัวอักษรเพื่ออ้างว่าแก้ contrast แล้ว
+
+## สถานะ responsive และการตรวจ
+
+Mobile พักไว้ ไม่เอาขนาด36/48/64pxของ B หรือภาพ Mobileเก่ามาเป็น current A approval รอบนี้ยืนยันเฉพาะ numeric reference ของ Desktop1440px การโหลดฟอนต์จริง, fallback, 200% text zoom, การตัดชื่อไทย, screen reader และขนาดจออื่นยังไม่ได้ทดสอบ
+
+หลักฐานตัวอย่าง Home, card focus, long title และ Footer อยู่ใน [review manifest](f01-ui-3/review-manifest.json) เกณฑ์ตรวจเอกสารคือ family/weight/size traceกลับ native ได้, กฎหนึ่งบรรทัดและข้อมูลไม่ครบตรงคำตอบล่าสุด และไม่มีข้อความอ้างว่า foundation ทั้งชุดได้รับอนุมัติแล้ว

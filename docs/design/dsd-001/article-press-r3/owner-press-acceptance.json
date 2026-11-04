@@ -1,0 +1,22 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "1",
+  "question": "จังหวะนี้เป็นอย่างไรครับ? 1. ใช้จังหวะนี้ 2. ช้าลงอีก 3. เร็วขึ้นเล็กน้อย",
+  "selected_option": "ใช้จังหวะนี้",
+  "status": "owner_accepted_article_press_r3",
+  "version": "Article-press-r3",
+  "prototype": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-article-press-r3.html",
+  "prototype_sha256": "b61797862efb3dd1aa870da83870e931b00369bf8786ec6ddbd77c75286d61f9",
+  "scope": "Original travel +3/-4/0px; press entry 140ms; release 420ms; one rebound; existing easing and accepted hover unchanged",
+  "native_board": "m0I12",
+  "reduced_motion": "Movement disabled; activation retained",
+  "persistent_focus_choice_approved": false,
+  "whole_article_version_approved": false,
+  "whole_home_version_approved": false,
+  "foundation_approved": false,
+  "application_runtime_tested": false,
+  "frontend_authorized": false,
+  "repeated_reply": "Repeated 1 before any new question is recorded as confirmation of the same timing choice, not a focus selection"
+}

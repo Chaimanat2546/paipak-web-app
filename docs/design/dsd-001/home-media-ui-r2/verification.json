@@ -1,0 +1,77 @@
+{
+  "version": "Home-media-ui-r2",
+  "verified_on": "2026-11-04",
+  "status": "static_visual_draft_checks_passed; owner_review_pending",
+  "png_dimensions": [
+    {
+      "id": "V9yDq1",
+      "size": [
+        1440,
+        6185
+      ]
+    },
+    {
+      "id": "Dn6ah",
+      "size": [
+        1440,
+        1607
+      ]
+    },
+    {
+      "id": "e2IyY7",
+      "size": [
+        1440,
+        935
+      ]
+    }
+  ],
+  "shader_sha256": "2e58ebd073d041552c685fdca6ef095556daf260f899f9d7206487a2677cf324",
+  "shader_source_copy_matches": true,
+  "links_checked": 31,
+  "missing_except_pending_report": [],
+  "scope_checks": {
+    "previous_r1_unchanged": true,
+    "non_tiktok_sections_match": true,
+    "articles_match": true,
+    "variables_unchanged": true,
+    "new_root_first": true,
+    "placeholder_removed": true,
+    "shader_planes": 4,
+    "active_play_icons": 1
+  },
+  "application_status": "",
+  "repository_validators": [
+    {
+      "command": "python scripts/validate-handoff.py",
+      "exit_code": 0,
+      "output": "PASS structure: 110 decision records; 14 design tasks; no missing refs/dependency cycles\r\nNOTE: Does not verify source provenance, approved visual baselines, test runs, or actual task readiness."
+    },
+    {
+      "command": "python scripts/validate-registry.py",
+      "exit_code": 0,
+      "output": "Registry records: 110; 11-section topic coverage: PASS"
+    }
+  ],
+  "visual_inspection": {
+    "opened": [
+      "e2IyY7.png",
+      "Dn6ah.png"
+    ],
+    "perspective_rendered": true,
+    "scope": "Pencil static perspective and composition only; not browser/player validation",
+    "reference_screenshot": "Swiper demo opened but browser capture timed out; no successful source screenshot claimed"
+  },
+  "approval": {
+    "UI_version": "pending_owner_review",
+    "foundation": "pending_owner_review",
+    "Mobile": "paused_by_owner",
+    "OPEN_001": "open",
+    "frontend": "not_authorized"
+  },
+  "untested": [
+    "Animated selection transition",
+    "Native TikTok playback and single-active coordination",
+    "Keyboard, hover/focus/error/loading/edge states",
+    "Responsive widths and Mobile"
+  ]
+}

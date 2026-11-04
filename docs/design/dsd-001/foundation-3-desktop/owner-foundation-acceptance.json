@@ -1,0 +1,85 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "1",
+  "question": "รับสเปก Desktop รุ่นนี้ไหมครับ? 1. รับสเปก พร้อมคงข้อค้างที่ระบุ 2. ไล่ตรวจทีละเอกสาร 3. มีสเปกบางจุดต้องแก้",
+  "selected_option": "รับสเปก พร้อมคงข้อค้างที่ระบุ",
+  "version": "foundation-3-desktop",
+  "status": "owner_approved_desktop_specification_with_open_items",
+  "home_reference": "Home Desktop-r15",
+  "scope": "Confirmed Desktop specification aligned to accepted Home; all proposed/open/deferred items retain their prior status. No global promotion of planning defaults or full functional/accessibility certification.",
+  "reviewed_deliverables": [
+    {
+      "name": "visual-direction.md",
+      "path": "../visual-direction.md",
+      "sha256": "776b9b261a2bcc1f82045c46963b7b48aabc0ca73504bce34daf0a1b6aec0c28",
+      "bytes": 15570,
+      "reviewed_source": "approved-review-content/visual-direction.md.txt"
+    },
+    {
+      "name": "token-sheet.md",
+      "path": "../token-sheet.md",
+      "sha256": "464d152a402171613afd67680253da2bfcd4c968664759e8c1bb23de0d64ee73",
+      "bytes": 17725,
+      "reviewed_source": "approved-review-content/token-sheet.md.txt"
+    },
+    {
+      "name": "typography-spec.md",
+      "path": "../typography-spec.md",
+      "sha256": "0695bf7ecaefbdda42260b2fb22cac221f19e3b005884744bdb0ea5a25a63eda",
+      "bytes": 12967,
+      "reviewed_source": "approved-review-content/typography-spec.md.txt"
+    },
+    {
+      "name": "responsive-visual-guidelines.md",
+      "path": "../responsive-visual-guidelines.md",
+      "sha256": "729769dbf90778b07b289674ca12ebe3d75da31a73b11eb2b0fc5b152e272203",
+      "bytes": 16859,
+      "reviewed_source": "approved-review-content/responsive-visual-guidelines.md.txt"
+    }
+  ],
+  "published_deliverables": [
+    {
+      "name": "visual-direction.md",
+      "path": "../visual-direction.md",
+      "sha256": "47cfe7532048751178643d65f33247c7049fe87f3ac6610a333ba1f0dbea54ad",
+      "bytes": 16152,
+      "post_approval_change": "Approval/status metadata and evidence link only; specification body unchanged"
+    },
+    {
+      "name": "token-sheet.md",
+      "path": "../token-sheet.md",
+      "sha256": "abab593a5ce89bcd4b536b00c526f62a72d38ee324b757c6e9f58b16957a2b6f",
+      "bytes": 18299,
+      "post_approval_change": "Approval/status metadata and evidence link only; specification body unchanged"
+    },
+    {
+      "name": "typography-spec.md",
+      "path": "../typography-spec.md",
+      "sha256": "aa9c1af0473e07abd921fd32f00c4fee827e5e4e3d914139b6cc04ad795b7685",
+      "bytes": 13408,
+      "post_approval_change": "Approval/status metadata and evidence link only; specification body unchanged"
+    },
+    {
+      "name": "responsive-visual-guidelines.md",
+      "path": "../responsive-visual-guidelines.md",
+      "sha256": "ff93e5f82e6c17bc20fca5ae5a983220d4abdd9245d5bc0147da79975f828fbe",
+      "bytes": 17401,
+      "post_approval_change": "Approval/status metadata and evidence link only; specification body unchanged"
+    }
+  ],
+  "publication_change": "Only approval/status metadata and approval-record links added after owner acceptance; reviewed bytes frozen for audit",
+  "proposed_items_approved_by_document_acceptance": false,
+  "open_issues_resolved_by_document_acceptance": false,
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "mobile": "paused",
+  "other_widths": "proposed/unverified",
+  "keyboard_accessibility": "unresolved/unverified as recorded",
+  "production_assets_and_contacts_verified": false,
+  "task_complete": false,
+  "frontend_authorized": false,
+  "automatic_next_task_authorized": false
+}

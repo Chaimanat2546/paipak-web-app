@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "question_id": "home-desktop-closeout-plan-1/Q4",
+  "question": "ถ้ามีรูปปก แต่โหลดรูปไม่สำเร็จ ให้ทำอย่างไร?",
+  "owner_quote": "1",
+  "selected_option": "ข้ามเรื่องนั้น แล้วเลื่อนเรื่องถัดไปขึ้นแทน",
+  "status": "owner_confirmed_behavior",
+  "trigger": "Cover exists in article data but its load has failed; loading alone is not failure",
+  "decision": "Skip affected story in the current Home display and promote the next ready story in existing order without duplicates",
+  "fallback": "Apply existing curated-empty latest fallback and zero-displayable-story rules as applicable; do not treat temporary loading as an empty catalog",
+  "fallback_cover": false,
+  "per_image_retry_control": false,
+  "delete_or_unpublish_article": false,
+  "persist_failure_to_catalog": false,
+  "retry_timing_and_failure_detection": "Not specified by this design choice; implementation remains deferred",
+  "article_list_request_failure": "Separate pending decision Q5",
+  "native_failure_state": "Pending illustration and review in integrated article package",
+  "functional_acceptance": false,
+  "whole_article_version_approved": false,
+  "frontend_authorized": false
+}

@@ -10,7 +10,7 @@
 
 ## ไฟล์และรุ่น
 
-- [Pencil source](../paipak-wireframe.pen): native checkpoint ที่บันทึกผ่าน Save As หลังสร้างครบ 30 กรอบและ 30 แผง Annotation; เปิดแก้ผ่าน Pencil ได้
+- [Repository Pencil source](../papaipak-wireframe.pen): ลิงก์ปัจจุบันแก้ให้ตรงชื่อไฟล์ที่มีอยู่เมื่อ 4 พฤศจิกายน 2026; snapshot ของ checkpoint 30 กรอบ/30 แผง Annotation ยังคงเป็นหลักฐานของ rebuilt-1 ไม่รับรองว่า native file ปัจจุบันตรง checkpoint เก่านี้
 - [Editable layer snapshot](editable-snapshot.json): สำเนาชั้นงาน **ล่าสุดหลังเก็บระยะรอบท้าย** อ่านจาก Pencil MCP มี 60 root frames รวม UI และ annotations แยกกัน ไม่ใช่ไฟล์ .pen ที่เข้ารหัส และไม่ควรเปลี่ยนนามสกุลแทนการนำเข้าผ่าน MCP
 - [PNG index](export-index.json): รายชื่อไฟล์และขนาดของภาพส่งออกล่าสุด
 - Canvas ที่เปิดใน Pencil มีการเก็บระยะปฏิทินและตัวบอกตำแหน่งหมวดบน Mobile เพิ่มจาก native checkpoint; ไม่ได้ใช้ Computer Use เพื่อสั่ง Save ซ้ำหลังเจ้าของทักท้วง ข้อมูลรอบท้ายจึงสำรองใน JSON และ PNG ชุดนี้ ไม่รับรองว่า native checkpoint มีการปรับรอบท้ายทั้งหมด

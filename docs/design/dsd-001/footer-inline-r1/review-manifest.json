@@ -1,0 +1,36 @@
+{
+  "version": "Footer-inline-r1",
+  "task": "DSD-001",
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_direct_contact_requirement_confirmed; appearance_pending_owner_review",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "kengy",
+  "source_footer": "b5ltx",
+  "size_px": [
+    1440,
+    364
+  ],
+  "image": "kengy.png",
+  "image_sha256": "57a524c8fd9a0098532c642333a7a7962788f7af5c1248d26ac5d489d7c400a8",
+  "decision": "owner-direct-contact-decision.json",
+  "unchanged_subtree_comparison_ignoring_ids": {
+    "Footer pool-edge transition": true,
+    "Footer papaipak brand link · existing placeholder logo": true,
+    "Footer closing message and supporting navigation": true,
+    "Footer domain and return-to-top row": true
+  },
+  "visual_qa": "Export opened at native 1440px width: contact labels visible with no visible overlap or clipping",
+  "bounds_diagnostics": "bounds-diagnostics.json",
+  "bounds_diagnostics_status": "Get reports clipped contact descendants despite visible complete native export; structural diagnostic remains unresolved after alignment attempts. Do not claim a clean bounds check.",
+  "contact_data": "LINE OA destination and phone number unverified; no invented ID, number or working href",
+  "header_unchanged": true,
+  "main_home_unchanged": true,
+  "variables_unchanged": true,
+  "functional_prototype": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ]
+}

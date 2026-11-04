@@ -1,0 +1,36 @@
+{
+  "version": "foundation-2-desktop canonical text before R15 reconciliation",
+  "recorded_date": "2026-11-05",
+  "records": [
+    {
+      "source": "../../visual-direction.md",
+      "archive": "visual-direction.md.txt",
+      "bytes": 12238,
+      "sha256": "db9b0698aaec2c9a854bd42ed92638553cf1d449d81e3bb8dcc10e696460b732"
+    },
+    {
+      "source": "../../token-sheet.md",
+      "archive": "token-sheet.md.txt",
+      "bytes": 14304,
+      "sha256": "b76443b1d250a46a2dd42ea6fbd913783f4da3a340500397587673b944e8a9b2"
+    },
+    {
+      "source": "../../typography-spec.md",
+      "archive": "typography-spec.md.txt",
+      "bytes": 9890,
+      "sha256": "9500568df9e80ec1ac7d70ecbc3a0c6ed4ccc7701c556d29fd1dde5dd7098a69"
+    },
+    {
+      "source": "../../responsive-visual-guidelines.md",
+      "archive": "responsive-visual-guidelines.md.txt",
+      "bytes": 12544,
+      "sha256": "f9d2a63f32e8961eaf341a0f55c84208718013810365e9bf258de7edf1c5f6f4"
+    },
+    {
+      "source": "../README.md",
+      "archive": "README.md.txt",
+      "bytes": 8558,
+      "sha256": "c0d4c4dadc20c5557e17286a69feaf0e4ebdddbeb09ab3a3687b6301f06fa17d"
+    }
+  ]
+}

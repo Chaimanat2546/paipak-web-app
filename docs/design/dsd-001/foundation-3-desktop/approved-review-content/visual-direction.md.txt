@@ -1,0 +1,84 @@
+# DSD-001 — Visual Direction
+
+รุ่นเอกสาร foundation-3-desktop · 5 พฤศจิกายน 2026 (Asia/Bangkok)
+
+**ทิศทางปัจจุบัน: A / Holiday Panorama / review-2 ผ่าน G1 แล้ว**  
+Home Desktop-r15 ได้รับการรับรองด้านหน้าตารวม ส่วน foundation-3-desktop ยังรอตรวจรับเป็นชุด เอกสารรุ่นนี้จัดข้อกำหนดให้ตรงกับบทสนทนาล่าสุด ไม่ใช่การเลือก Direction ใหม่
+
+## ฐานการตัดสินใจและหลักฐาน
+
+| เรื่อง | ข้อสรุป | หลักฐาน |
+| --- | --- | --- |
+| G0 | อนุมัติ G0-plan-2 ให้ทำตัวอย่าง 3 แบบและ foundation ภายใน DSD-001 | เจ้าของตอบ “อนุมัติเลย”; [Task Packet](../../../tasks/design/DSD-001.md) |
+| G1 ปัจจุบัน | A / Holiday Panorama / review-2 แทน B | เจ้าของระบุ “ขอเปลี่ยนเป็นแบบ A”; [manifest](../../../tasks/design/manifest.yaml) |
+| Home Desktop | รับหน้าตารวม Home Desktop-r15 ที่1440×6091 | [หลักฐานรับภาพรวม](home-desktop-r15/owner-home-acceptance.json) |
+| บทความ | รับ Article Desktop review-2; เด่นแผ่สีพร้อมเด้ง รองเด้ง indexไม่มีแอนิเมชัน | [รุ่นที่รับ](article-desktop-review-2/owner-article-acceptance.json) / [indexล่าสุด](article-secondary-interaction-r3/owner-secondary-acceptance.json) |
+| TikTok | states-r3; Playing/Paused/Bufferingใช้ของTikTok | [หลักฐาน](tiktok-states-r3/owner-acceptance.json) |
+| Footer | contact-column-r4 แสดง LINE/โทรศัพท์โดยตรง | [หลักฐาน](footer-contact-column-r4/owner-footer-approval.json) |
+| CTA | คง #FD6E88 / #FFFFFF และ OPEN-001 เปิดต่อ | เจ้าของเลือก 3; [บันทึก](f01-ui-3/home-guided-review/cta-brand-contrast-r1/owner-choice.json) |
+| Foundation alignment | อนุญาตให้จัดเอกสารให้ตรงกับข้อสรุปล่าสุด | “ปรับให้ตรงกับที่เราคุยกันเมื่อกี้”; [ชุดเอกสารปัจจุบัน](foundation-3-desktop/README.md) |
+| ขอบเขตจอ | โฟกัส Desktop; Mobile พักไว้ | ไม่สร้างหรือรับรอง Mobile ใหม่จากการปรับเอกสารนี้ |
+
+UXD-001 review-2 เป็นฐาน UX/IA/edge flows ที่อนุมัติแล้ว ดู [Task และหลักฐาน](../../../tasks/design/UXD-001.md) ส่วน UXD-002 review-5 ยังรอตรวจรับและไม่ถูกแก้ในงานนี้ Design Governance Kit v1.0 เป็นมาตรฐานกลาง ไม่ใช่การอนุมัติผลงาน Task
+
+## บุคลิกและการจัดองค์ประกอบของ A
+
+papaipak / papaipak.com เป็น marketplace พูลวิลล่าไทยที่ให้ภาพบ้านนำสายตา ทันสมัย สดใส น่าเชื่อถือ และโค้งมนพอเหมาะ ใช้ Navy #072D59, Light Blue #DBF2FC, Pink #FD6E88, พื้นหลักขาว และ Mitr ไม่มีฟอนต์เสริมที่อนุมัติ
+
+| องค์ประกอบ | ข้อกำหนดปัจจุบัน |
+| --- | --- |
+| จุดเริ่มมอง | ภาพ panoramic ของบ้านและสระ พร้อมหัวเรื่องบนบริเวณที่อ่านได้ |
+| Hero | ที่กรอบ 1440px: Hero สูง 470px, หัวเรื่องสองบรรทัด Mitr 96/600, ขอบสระโค้งและเส้นลายเซ็นสีชมพูตามแบบ A |
+| Search | แถบค้นหากลาง Hero ขนาดอ้างอิง 1040×88px; เริ่มสำรวจบ้านได้โดยไม่เลือกวันหรือ login |
+| Discovery | ทางลัด 7 หมวด และแถวบ้านแนวนอนแยกกัน; แสดงเต็ม 4 ใบเมื่อพื้นที่พอ |
+| การ์ด | ภาพนำ ชื่อ ราคา และข้อมูลเปรียบเทียบ; default ให้ภาพเด่น ส่วน controls ใช้ตาม states ที่ตรวจ |
+| TikTok | พื้น Navy เรื่องเล่าซ้ายและคลิปหลักใน deck มีมิติทางขวา ไม่วาด Playing/Paused/Buffering ทับ provider |
+| บทความ | เรื่องเด่นภาพ16:9พร้อมแผงอ่านซ้อน และเรื่องรองสองแถวไม่มีกรอบ ฝั่งขวาคงพื้นขาว |
+| Footer | พื้นฟ้าอ่อน ขอบโค้ง แบรนด์/เมนูพร้อมลูกศร LINE/โทรศัพท์ที่เห็นทันที และกลับขึ้นด้านบน |
+| ภาษาภาพร่วม | ใช้จังหวะช่องว่าง ขนาดตัวอักษร และภาพสัมพันธ์กัน ไม่เติมกล่องหรือเงาให้ทุกส่วน |
+
+Home-r15 เป็นหลักฐานหน้าตาที่ 1440×6091px ไม่ใช่กฎให้ทุกหน้ามี Hero หรือ Footer composition เดียวกัน โดยเฉพาะ Results, Detail และ Checkout ต้องรักษา selected layouts และงานหลักของแต่ละหน้า
+
+ค่าที่ต่างจาก planning defaults เช่น Hero 96px, การ์ด radius16px และพื้นเฉพาะหมวด เป็น reference เฉพาะ Home ที่เจ้าของรับแล้ว ไม่ย้ายไปแทน global defaults ใน registry หรือแก้หน้าอื่นโดยอัตโนมัติ พื้นขาวยังเป็นพื้นหลัก ไม่สร้าง pattern สลับพื้นทุก section ให้ทั้งระบบ
+
+## ข้อสรุป Home ที่ต้องรักษา
+
+- ทางลัดหมวดและดูทั้งหมดของหมวดเปิด Results เฉพาะหมวดทั่วทุกพื้นที่ ไม่ส่งร่างสถานที่/วันที่/คน/pets บน Home ไปด้วย เมนูค้นหาที่พักใน Header เปิดที่พักทั้งหมด ส่วนปุ่มค้นหาหลักยังใช้เงื่อนไขที่เลือกตาม flow เดิม
+- เลื่อนแถวบ้านทีละ 2 หลังและหยุดพอดีท้ายแถว ไม่เว้นช่องว่าง; แถวกับรูปในการ์ดควบคุมแยกกัน ไม่มี autoplay/loop
+- ทั้งการ์ดเปิด Detail ยกเว้นหัวใจ ลูกศรและ dots; ชื่อยาวย่อหนึ่งบรรทัดและมีชื่อเต็มที่เข้าถึงได้
+- Home ไม่แสดงบ้านที่ข้อมูลหรือรูปไม่พร้อม แต่ยังค้นเจอใน Results ถ้าเสียบางรูปให้ข้ามและใช้รูปที่ดูได้ หมวดที่ไม่มีบ้านพร้อมแสดงหรือโหลดล้มเหลวซ่อนทั้งส่วน ขณะโหลดครั้งแรกใช้ skeleton
+- Guest กดหัวใจเปิด Login modal ทับหน้าเดิม ไม่มี Guest favorites ชั่วคราว ปิด modal แล้วอยู่จุดเดิม; Booking Intent รักษาเฉพาะ flow ต่อเนื่องตาม UXD-001
+- หัวใจในตัวอย่าง focus ที่เลือกเป็นชมพูทึบไม่มีวงกลม; ทางลัด/ดูทั้งหมดใช้เส้นใต้เมื่อ keyboard focus; ปุ่มเลื่อนแถวใช้พื้น Navy เมื่อ focus ทั้งหมดเป็นหลักฐาน appearance ไม่ใช่ผลทดสอบ keyboard จริง
+- โลโก้/รูปบ้าน Header ไปบนสุด Home โดยเก็บค่าค้นหา; บทความไปหน้ารวมภายในเว็บ; ลิงก์เนื้อหา Footer เปิดแท็บเดิม ไม่เริ่มสร้างหน้าเนื้อหาหรือ owner portal จากข้อสรุปนี้
+
+รายละเอียดการตัดสินใจแต่ละจุดอยู่ใน [guided review](f01-ui-3/home-guided-review/README.md) การเก็บ Home form ไม่ใช่การกู้ Booking Intent หลัง reload/ปิดแท็บ/หมดอายุ
+
+## ข้อสรุปสื่อและ Footer ของ Home-r15
+
+Home-r15 รวม TikTok-states-r3, Article Desktop review-2 และ Footer-contact-column-r4 ส่วนบน/แถวบ้าน10ส่วนคงต้นฉบับตามผลเทียบ schema ความสูง6091pxเป็นผลจากเนื้อหาตัวอย่าง ไม่กำหนดเป็น fixed page height ในแอป
+
+ปกบทความเป็นภาพสำเร็จรวมตัวหนังสือจาก Photoshop/เครื่องมือภายนอก เว็บไม่จัดข้อความในปก ส่วนชื่อ/เนื้อหานอกภาพเป็นข้อความเว็บ ปกใช้16:9เป็นฐาน ไม่ crop/zoomอัตโนมัติ และยังต้องตรวจภาพจริงกับพื้นที่ panel ซ้อน ตัวอย่างจัดปกขึ้นเองถูกถอน ไม่เป็นเงื่อนไขรับงาน
+
+เรื่องเด่นคง hover-r7/press-r4 ที่รับแล้ว เรื่องรองคง hover-r8 และเด้งอย่างเดียว420ms “บทความทั้งหมด” เป็นลิงก์ปกติไม่มี animation/delay การเพิ่มพื้นเข้มฝั่งขวาถูกถอน ไม่ยกกลับมาเป็น keyboard focus การตรวจ accessibility ในแอปยังแยกอยู่
+
+TikTokมีคลิปหลัก320×568ในstage832×688 ตำแหน่งแรกไม่มีภาพก่อนหน้า กลาง/สุดท้ายมีหนึ่งใบทางซ้าย การเลือกคลิปไม่เพิ่ม autoplay UIเล่น/หยุด/bufferingเป็นของTikTok ข้อมูลคลิปยังเป็นfixtures
+
+Footerสูง299px แสดง LINE/โทรศัพท์โดยตรงแทนปุ่มติดต่อเดียว ข้อมูล @papaipak-demo และ02-000-0000เป็นmock ยังไม่ผูกปลายทางจริง ภาพ/ฟอนต์/spacingที่สังเกตได้ดู [observed-values](foundation-3-desktop/observed-values.json)
+
+## ทางเลือกที่เคยเปรียบเทียบ
+
+| Direction / review-2 | แนวคิดและ trade-off | สถานะ |
+| --- | --- | --- |
+| A / Holiday Panorama | ภาพกว้างกับแถบค้นหากลางภาพ; ต้องคุม crop และข้อความบนภาพ | ปัจจุบัน ผ่าน G1 |
+| B / Villa Journal | ภาพหลักกับ inset และ hierarchy สองขนาด; ต้องมีภาพสัมพันธ์กันจริง | เคยเลือกแล้วถูก A แทน เก็บเป็นประวัติ |
+| C / Poolside Play | รูปทรงขอบสระและจังหวะสดใส; ต้องคุมลูกเล่นไม่แย่งการค้นหา | ไม่ได้เลือก |
+
+ภาพจาก [review-2](review-2/README.md) เป็น AI raster studies ไม่รับรอง exact font/color, assets จริง หรือ responsive runtime แบบ native ต่อเนื่องอยู่ใน [F01-ui-3](f01-ui-3/README.md) สถานะเก่าที่ยังไม่อนุมัติไม่เปลี่ยนตามการรับ Home
+
+## ชุด foundation ปัจจุบันและข้อจำกัด
+
+อ่าน [token-sheet](token-sheet.md), [typography-spec](typography-spec.md), [responsive guide](responsive-visual-guidelines.md) และ [foundation-3-desktop](foundation-3-desktop/README.md) ร่วมกัน ร่าง B ก่อนปรับเก็บแบบข้อความเดิมใน [archive](foundation-1/pre-a-alignment-2026-11-04/README.md)
+
+OPEN-001 ยังเปิด: ข้อความขาวบนชมพูเดิมมี nominal contrast 2.705343:1 การเลือกให้คงเดิมไม่ใช่ accessibility exception หรือ final CTA sign-off ไม่สำรวจเฉดใหม่ซ้ำโดยอัตโนมัติ
+
+ภาพ/โลโก้และข้อความบางส่วนยังเป็นข้อมูลศึกษา ต้องยืนยัน production assets, contact destinations, data contracts และตรวจ keyboard/zoom/reduced motion/contrast ในระบบจริง ขนาดจออื่นยังไม่ได้รับรอง Final foundation version ต้องให้เจ้าของอนุมัติแยกก่อน Frontend ไม่ปิด DSD-001 หรือเริ่ม Task ถัดไปจากการจัดเอกสารนี้

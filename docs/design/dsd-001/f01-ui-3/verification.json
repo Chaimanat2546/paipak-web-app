@@ -1,0 +1,401 @@
+{
+  "version": "F01-ui-3",
+  "placement_validation": {"total": 66, "passed": 66, "failed": 0},
+  "active_screens_exported": 29,
+  "document_validators": {"registry": "PASS 110 records", "handoff": "PASS 14 tasks, no missing refs or cycles"},
+  "not_tested": ["live locale switching", "LINE or telephone connection", "keyboard interactions", "real authentication", "frontend/backend runtime"],
+  "domain": "papaipak.com",
+  "domain_status": "owner confirmed for project documents on 2026-11-04",
+  "application_code_changed": false,
+  "display_name": "papaipak",
+  "date": "2026-11-04",
+  "status": "pending_owner_review",
+  "canvas_roots": 66,
+  "canvas_nodes": 11625,
+  "brand_replacements": 67,
+  "wordmark_count": 62,
+  "language_labels": 44,
+  "line_labels": 22,
+  "old_brand_EN_LINE_placeholder_remaining": [],
+  "unexpected_text_changes": [],
+  "preserved_home_sections": [
+    {
+      "id": "g2Gj2X",
+      "unchanged": true
+    },
+    {
+      "id": "H9DDs",
+      "unchanged": true
+    },
+    {
+      "id": "PANR1",
+      "unchanged": true
+    },
+    {
+      "id": "Z5pz3j",
+      "unchanged": true
+    },
+    {
+      "id": "aPN85",
+      "unchanged": true
+    },
+    {
+      "id": "Q99ieY",
+      "unchanged": true
+    },
+    {
+      "id": "Wak43",
+      "unchanged": true
+    },
+    {
+      "id": "a7hyPs",
+      "unchanged": true
+    },
+    {
+      "id": "YRNYJ",
+      "unchanged": true
+    }
+  ],
+  "text_changes": [
+    {
+      "id": "ibSeG",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "juoTZ",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "YTPeE",
+      "before": "ติดต่อ paipak",
+      "after": "ติดต่อ papaipak"
+    },
+    {
+      "id": "iQyqm",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "O8puT",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "fZHvs",
+      "before": "ติดต่อ paipak",
+      "after": "ติดต่อ papaipak"
+    },
+    {
+      "id": "Gg3W0",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "fIPbw",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "EYAY7",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "OE0mA",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "LpM3E",
+      "before": "หน้า Home หลายหมวด · Header-r11 คงเดิม · แต่ละแถวเลื่อนแยกกัน · ยังรอตรวจรับรุ่น r7",
+      "after": "papaipak · F01-ui-3 · ธงภาษาและโลโก้ LINE ตามแบบที่เลือก · Home-r7 ยังรอตรวจรับ"
+    },
+    {
+      "id": "a0nfqo",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "l39l6k",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "agROJ",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "sKn7B",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "S38qh",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "O8yDTu",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "k7rATs",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "PiMsz",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "v2Intm",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "actV1",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "a8jLD",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "K9OM0",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "TubSj",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "CLqvM",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "vxrRi",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "INgUH",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "tFmv6",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "fGUXE",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "VYAGJ",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "s0Hkd5",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "Smtxf",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "HiycV",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "GHj6n",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "e1i1U3",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "TJgGs",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "O9GYvW",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "l77vn5",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "dC0wM",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "t7u4D",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "a2vUzK",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "slwAX",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "DKKlf",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "pzuja",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "dniuf",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "pCpHt",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "PfeUr",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "SVSZr",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "DA9uP",
+      "before": "อ่านหน้า public เท่านั้น · คงแบรนด์และ Mitr ของ paipak · ไม่รับ business rules หรือ service claims ของเว็บอื่น",
+      "after": "อ่านหน้า public เท่านั้น · คงแบรนด์และ Mitr ของ papaipak · ไม่รับ business rules หรือ service claims ของเว็บอื่น"
+    },
+    {
+      "id": "Jw1Ub",
+      "before": "ตรวจ 3 พ.ย. 2026 · ภาพและเครื่องหมายการค้าบนเว็บอ้างอิงไม่ใช่ assets สำหรับ paipak",
+      "after": "ตรวจ 3 พ.ย. 2026 · ภาพและเครื่องหมายการค้าบนเว็บอ้างอิงไม่ใช่ assets สำหรับ papaipak"
+    },
+    {
+      "id": "b0n1k",
+      "before": "ข้อเสนอ paipak: คงข้อความเมนูหลัก ย้ายรายการภาษากับติดต่อไป popover และใช้ชื่อกำกับไอคอน · ไม่ใช่ผล usability test",
+      "after": "ข้อเสนอ papaipak: คงข้อความเมนูหลัก ย้ายรายการภาษากับติดต่อไป popover และใช้ชื่อกำกับไอคอน · ไม่ใช่ผล usability test"
+    },
+    {
+      "id": "Z2pTXn",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "XOAEJ",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "F7Djc",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "GqWIH",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "YkL9U",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "eNfui",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "i3tXDr",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "kiRXb",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "KX6gi",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "Sz9vz",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "M7aSdV",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "hDq1P",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "xieDr",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "kpAQJ",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "V3kUO",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "XpXHE",
+      "before": "paipak",
+      "after": "papaipak"
+    },
+    {
+      "id": "QWLT3",
+      "before": "paipak",
+      "after": "papaipak"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "version": "Article-title-r3",
+  "task": "DSD-001",
+  "status": "draft_visual_review_pending",
+  "owner_feedback_image": "owner-feedback.png",
+  "feedback_interpretation": "Supporting titles were split into short forced lines; inferred from annotated image",
+  "revises": "Article-title-r2",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "board": "I8afx",
+  "section": "XwSvS",
+  "png": "XwSvS.png",
+  "supporting_title_wrap": "Automatic from actual available width; no forced newline",
+  "supporting_title_width": 360,
+  "supporting_image_size": [
+    208,
+    117
+  ],
+  "supporting_gap": 24,
+  "maximum_lines": 3,
+  "featured_maximum_lines": 2,
+  "changes": [
+    "Removed manual newlines from the two supporting title fixtures",
+    "Expanded supporting text width from 344 to 360 by reducing thumbnail width from 224 to 208",
+    "Preserved 16:9 image ratio, 22px supporting title size and natural title/summary grouping"
+  ],
+  "home_unchanged": true,
+  "variables_unchanged": true,
+  "functional_prototype": false,
+  "frontend": "not_authorized",
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "geometry": [
+    {
+      "name": "Supporting article study cover 1",
+      "width": 208,
+      "height": 117
+    },
+    {
+      "name": "Supporting article title fixture 1",
+      "content": "ชวนแก๊งเพื่อนมาใช้วันหยุดให้เต็มที่",
+      "width": 360,
+      "height": 32
+    },
+    {
+      "name": "Supporting article study cover 2",
+      "width": 208,
+      "height": 117
+    },
+    {
+      "name": "Supporting article title fixture 2",
+      "content": "วันพักผ่อนแบบไม่ต้องรีบ เริ่มจากอะไรดี",
+      "width": 360,
+      "height": 32
+    }
+  ]
+}
+

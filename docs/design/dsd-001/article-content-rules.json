@@ -1,0 +1,111 @@
+{
+  "task": "DSD-001",
+  "date": "2026-11-04",
+  "scope": "Home article section only",
+  "missing_cover": {
+    "status": "owner_confirmed",
+    "owner_quote": "1",
+    "question": "ถ้าบทความไม่มีรูปปก ให้จัดการอย่างไร",
+    "decision": "Do not display that story on Home",
+    "placeholder_cover": false,
+    "text_only_fallback": false
+  },
+  "featured_replacement": {
+    "status": "owner_confirmed",
+    "owner_quote": "1",
+    "question": "กรณีเรื่องเด่นไม่มีปก",
+    "decision": "Promote next ready story preserving curated order, without duplication"
+  },
+  "temporary_cover_load_failure": {
+    "status": "owner_confirmed",
+    "question_id": "home-desktop-closeout-plan-1/Q4",
+    "owner_quote": "1",
+    "trigger": "Cover load has failed; loading alone is not failure",
+    "decision": "Skip affected story in current Home display and promote next ready story in existing order without duplicates",
+    "fallback_cover": false,
+    "per_image_retry_control": false,
+    "persist_failure_to_catalog": false,
+    "evidence": "article-cover-failure-decision.json",
+    "functional_verification": false
+  },
+  "other_incomplete_fields": {
+    "status": "owner_confirmed",
+    "question_id": "home-desktop-closeout-plan-1/Q3",
+    "owner_quote": "1",
+    "required_fields": [
+      "cover",
+      "title",
+      "read_destination"
+    ],
+    "missing_required_field": "Exclude story from Home and apply existing ordered promotion and fallback rules",
+    "excerpt_required": false,
+    "missing_excerpt": "Use text taken from the content of that same actual article, maximum two lines with ellipsis, for featured and supporting stories; no invented sample copy or AI summary",
+    "missing_excerpt_revision": "Owner requested body text during R1; supersedes the earlier Q3 omission treatment only",
+    "missing_excerpt_evidence": "article-body-source-clarification.json",
+    "actual_article_source": "Not required for current mock Home design; future real snippets must come from that article body; article feature remains unstarted",
+    "evidence": "article-required-fields-decision.json",
+    "data_contract_verified": false,
+    "stage_clarification": "article-stage-clarification.json"
+  },
+  "article_list_loading_and_error": {
+    "status": "owner_confirmed",
+    "question_id": "home-desktop-closeout-plan-1/Q5",
+    "owner_quote": "โอเคตกลงแบบนี้แหละ",
+    "ready": "Display content directly when available",
+    "loading": "Section-local light skeleton with space close to expected composition",
+    "request_failure": "Hide whole optional article section in the described failure case; no error notice, retry control or refresh prompt; other ready sections remain usable",
+    "successful_empty_result": "Hide section under confirmed zero-story rule",
+    "request_failure_is_empty_catalog": false,
+    "evidence": "article-loading-decision.json",
+    "native_state_appearance_approved": false,
+    "functional_verification": false,
+    "current_failure_policy_evidence": "article-hidden-r2/owner-decision.json",
+    "internal_logging": "Future internal technical logging requirement only; not implemented",
+    "global_system_failure_policy": "Outside this Home article decision"
+  },
+  "application_implementation": false,
+  "final_visual_approval": false,
+  "curated_set_empty_fallback": {
+    "status": "owner_confirmed",
+    "owner_quote": "ใช้บทความล่าสุดไง",
+    "trigger": "No eligible stories remain in the curated set",
+    "decision": "Use latest eligible stories with covers, newest first",
+    "layout": "First as featured, following stories as supporting; existing composition preserved",
+    "date_field": "Last edited timestamp, descending; owner confirmed in Q6; actual data contract not verified",
+    "date_order_status": "owner_confirmed",
+    "date_order_evidence": "article-latest-order-decision.json",
+    "replace_nonempty_curated_set": false,
+    "query_implemented": false
+  },
+  "curated_set_top_up": {
+    "status": "owner_confirmed",
+    "question_id": "home-desktop-closeout-plan-1/Q7",
+    "owner_quote": "2",
+    "trigger": "One or two eligible curated stories remain",
+    "target_total": 3,
+    "curated_priority": "Keep curated stories first in existing order",
+    "top_up_source": "Other eligible articles ordered by last edited timestamp descending under Q6",
+    "duplicates": false,
+    "insufficient_candidates": "Display available count using accepted one-story or two-story layout",
+    "evidence": "article-top-up-decision.json",
+    "query_implemented": false
+  },
+  "entire_catalog_empty": {
+    "status": "owner_confirmed",
+    "question_id": "home-desktop-closeout-plan-1/Q2",
+    "owner_quote": "1",
+    "trigger": "No eligible stories exist across the entire catalog, including latest fallback",
+    "decision": "Hide the entire Home article section, including its heading and section spacing; adjacent sections flow together using normal page spacing",
+    "evidence": "article-count-r1/owner-zero-story-decision.json"
+  },
+  "count_layout_proposal": {
+    "status": "one_and_two_story_appearance_accepted; zero_story_behavior_confirmed; integrated_version_pending",
+    "one": "Centered featured at original width",
+    "two": "Featured and one supporting",
+    "zero": "Hide entire section only when no eligible catalog stories exist",
+    "artifact": "article-count-r1/README.md",
+    "two_story_acceptance": "article-count-r1/owner-two-story-acceptance.json",
+    "one_story_acceptance": "article-count-r1/owner-one-story-acceptance.json",
+    "zero_story_decision": "article-count-r1/owner-zero-story-decision.json"
+  }
+}

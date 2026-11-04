@@ -1,0 +1,55 @@
+{
+  "version": "Article-supporting-motion-r8",
+  "task": "DSD-001",
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_accepted_supporting_motion; focus_and_combined_article_review_pending",
+  "prototype": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-supporting-motion-r8.html",
+  "prototype_sha256": "2dc0b190b3700fe44c835f9ea88c8ae518447be4a45dc4367c52ff00f1dd942d",
+  "prototype_bytes": 97664,
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_hover_root": "ZuiOX",
+  "static_baseline": "../article-body-fallback-r2/owner-ready-state-acceptance.json",
+  "featured_motion_preserved": "../article-motion-r7/owner-featured-motion-acceptance.json",
+  "proposed_motion": {
+    "cover_size_px": [
+      208,
+      117
+    ],
+    "cover_transform": "none",
+    "inner_image_zoom": false,
+    "text_translate_x_px": 3,
+    "arrow_translate_px": [
+      2,
+      -2
+    ],
+    "title_underline": "Pink 2px decorative",
+    "duration_ms": 336,
+    "easing": "cubic-bezier(.2,.8,.2,1)"
+  },
+  "reduced_motion": "No translation; underline feedback is immediate",
+  "semantics": "One whole-story link; image and read label/arrow do not create extra Tab stops",
+  "qa": {
+    "native_hover_png_visually_opened": true,
+    "script_syntax_node_check": "PASS",
+    "fragment_asset_and_size_checks": "PASS",
+    "browser_interaction_tested": false,
+    "font_loading_verified": false,
+    "structural_bounds": "Diagnostics retained; not certified clean"
+  },
+  "main_home_unchanged": true,
+  "featured_motion_unchanged": true,
+  "footer_unchanged": true,
+  "tiktok_unchanged": true,
+  "variables_unchanged": true,
+  "supporting_motion_approved": true,
+  "whole_article_approved": false,
+  "whole_home_approved": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "owner_acceptance": "owner-supporting-motion-acceptance.json",
+  "focus_reference_status": "Enclosing outline in old preview is not accepted; new focus alternatives are under article-focus-r2. Accepted hover motion remains unchanged."
+}

@@ -1,0 +1,68 @@
+{
+  "version": "foundation-2-desktop",
+  "verified_on": "2026-11-04",
+  "scope": "Documentation alignment only; no new UI, application code, runtime or product approval",
+  "status": "passed_documentation_checks",
+  "repository_validators": [
+    {
+      "command": "python scripts/validate-handoff.py",
+      "exit_code": 0,
+      "output": "PASS structure: 110 decision records; 14 design tasks; no missing refs/dependency cycles\r\nNOTE: Does not verify source provenance, approved visual baselines, test runs, or actual task readiness."
+    },
+    {
+      "command": "python scripts/validate-registry.py",
+      "exit_code": 0,
+      "output": "Registry records: 110; 11-section topic coverage: PASS"
+    }
+  ],
+  "archive": {
+    "files_checked": 5,
+    "all_sha256_match": true
+  },
+  "numeric_trace": {
+    "representative_text_roles": 45,
+    "geometry_records": 73,
+    "snapshot_node_ids_missing": [],
+    "declared_or_readback_values_compared": 511,
+    "differences": [],
+    "resolved_dimensions_not_crosschecked_against_declarative_snapshot": 149,
+    "note": "Resolved width/height from live Pencil Get may have fill_container or missing declarations in the stored snapshot. Those measurements remain observations, not independent snapshot comparisons."
+  },
+  "application_tracked_diff": "",
+  "approval": {
+    "G1": "A / Holiday Panorama / review-2",
+    "Home_Desktop_r8": "owner_accepted_combined_appearance_only",
+    "foundation": "pending_owner_review",
+    "Mobile": "paused_by_owner",
+    "OPEN_001": "open; original #FD6E88 / #FFFFFF retained",
+    "frontend": "not_authorized"
+  },
+  "untested": [
+    "Browser/runtime interactions",
+    "Other widths and Mobile",
+    "Keyboard/screen reader/text zoom",
+    "Motion and reduced motion",
+    "Production images, data and contact destinations"
+  ],
+  "relative_links": {
+    "checked": 97,
+    "missing": []
+  },
+  "metadata_and_scope_checks": {
+    "foundation_version_current": true,
+    "foundation_approval_still_pending": true,
+    "task_still_in_progress": true,
+    "G1_A_preserved": true,
+    "mobile_still_paused": true,
+    "CTA_original_preserved": true,
+    "OPEN_001_still_unresolved": true,
+    "four_docs_same_version": true,
+    "review_manifest_version_matches": true,
+    "review_manifest_approval_pending": true,
+    "foundation_alignment_audit_exists": true,
+    "foundation_artifact_exists": true,
+    "foundation_observation_evidence_exists": true,
+    "archive_sha256_all_match": true,
+    "application_working_tree_unchanged": true
+  }
+}

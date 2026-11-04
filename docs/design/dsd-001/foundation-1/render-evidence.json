@@ -1,0 +1,361 @@
+{
+  "renderer": "Windows System.Drawing / GDI+",
+  "fontFamilies": [
+    "Mitr",
+    "Mitr Medium",
+    "Mitr SemiBold"
+  ],
+  "textMeasurements": [
+    {
+      "text": "เลือกสีปุ่มหลัก",
+      "family": "Mitr Medium",
+      "size": 44.0,
+      "width": 281.3164,
+      "height": 74.572266,
+      "boxWidth": 1300.0,
+      "boxHeight": 80.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "สำหรับ Direction B · ทั้งสามแบบยังรอคุณเลือก",
+      "family": "Mitr",
+      "size": 22.0,
+      "width": 469.3584,
+      "height": 37.286133,
+      "boxWidth": 1300.0,
+      "boxHeight": 48.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "1 · Pink + Navy",
+      "family": "Mitr Medium",
+      "size": 28.0,
+      "width": 216.53331,
+      "height": 47.46,
+      "boxWidth": 360.0,
+      "boxHeight": 60.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "คงปุ่มชมพูตามแนว B",
+      "family": "Mitr",
+      "size": 20.0,
+      "width": 188.63281,
+      "height": 33.896484,
+      "boxWidth": 360.0,
+      "boxHeight": 60.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "ค้นหาพูลวิลล่า",
+      "family": "Mitr Medium",
+      "size": 23.0,
+      "width": 145.92873,
+      "height": 38.980957,
+      "boxWidth": 360.0,
+      "boxHeight": 76.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "5.078 : 1",
+      "family": "Mitr Medium",
+      "size": 30.0,
+      "width": 139.68999,
+      "height": 50.85,
+      "boxWidth": 360.0,
+      "boxHeight": 56.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "แนะนำ: ใกล้ทิศทางที่เลือกที่สุด",
+      "family": "Mitr",
+      "size": 17.0,
+      "width": 220.89209,
+      "height": 28.812012,
+      "boxWidth": 360.0,
+      "boxHeight": 55.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "2 · Navy + White",
+      "family": "Mitr Medium",
+      "size": 28.0,
+      "width": 240.83731,
+      "height": 47.46,
+      "boxWidth": 360.0,
+      "boxHeight": 60.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "ปุ่มทึบ น้ำหนักชัดขึ้น",
+      "family": "Mitr",
+      "size": 20.0,
+      "width": 175.17578,
+      "height": 33.896484,
+      "boxWidth": 360.0,
+      "boxHeight": 60.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "ค้นหาพูลวิลล่า",
+      "family": "Mitr Medium",
+      "size": 23.0,
+      "width": 145.92873,
+      "height": 38.980957,
+      "boxWidth": 360.0,
+      "boxHeight": 76.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "13.738 : 1",
+      "family": "Mitr Medium",
+      "size": 30.0,
+      "width": 149.43999,
+      "height": 50.85,
+      "boxWidth": 360.0,
+      "boxHeight": 56.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "คอนทราสต์ข้อความสูงกว่า",
+      "family": "Mitr",
+      "size": 17.0,
+      "width": 195.39209,
+      "height": 28.812012,
+      "boxWidth": 360.0,
+      "boxHeight": 55.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "3 · White + Navy",
+      "family": "Mitr Medium",
+      "size": 28.0,
+      "width": 241.45331,
+      "height": 47.46,
+      "boxWidth": 360.0,
+      "boxHeight": 60.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "ขอบ Navy บนพื้นขาว",
+      "family": "Mitr",
+      "size": 20.0,
+      "width": 193.78906,
+      "height": 33.896484,
+      "boxWidth": 360.0,
+      "boxHeight": 60.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "ค้นหาพูลวิลล่า",
+      "family": "Mitr Medium",
+      "size": 23.0,
+      "width": 145.92873,
+      "height": 38.980957,
+      "boxWidth": 360.0,
+      "boxHeight": 76.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "13.738 : 1",
+      "family": "Mitr Medium",
+      "size": 30.0,
+      "width": 149.43999,
+      "height": 50.85,
+      "boxWidth": 360.0,
+      "boxHeight": 56.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "ดูเบา แต่เด่นน้อยกว่าปุ่มทึบ",
+      "family": "Mitr",
+      "size": 17.0,
+      "width": 199.53418,
+      "height": 28.812012,
+      "boxWidth": 360.0,
+      "boxHeight": 55.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "ทุกตัวเลือกคงสีแบรนด์เดิม · วัด contrast ของคู่สีทึบ · ใช้ Mitr จริงในภาพนี้",
+      "family": "Mitr",
+      "size": 21.0,
+      "width": 700.3418,
+      "height": 35.59131,
+      "boxWidth": 1344.0,
+      "boxHeight": 70.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "White บน Pink = 2.705 : 1 ไม่ผ่านข้อความปกติ · OPEN-001 ยังเปิด · ยังไม่ใช่ final UI",
+      "family": "Mitr",
+      "size": 18.0,
+      "width": 702.43066,
+      "height": 30.506836,
+      "boxWidth": 1344.0,
+      "boxHeight": 64.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "Mitr · ภาษาไทยและตัวเลข",
+      "family": "Mitr Medium",
+      "size": 42.0,
+      "width": 485.8506,
+      "height": 71.18262,
+      "boxWidth": 1344.0,
+      "boxHeight": 80.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "Foundation-1 · ตัวอย่างฟอนต์จริงสำหรับตรวจสเปก · ยังรออนุมัติชุดสุดท้าย",
+      "family": "Mitr",
+      "size": 20.0,
+      "width": 668.78906,
+      "height": 33.896484,
+      "boxWidth": 1344.0,
+      "boxHeight": 52.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "วันพัก",
+      "family": "Mitr SemiBold",
+      "size": 64.0,
+      "width": 187.03125,
+      "height": 108.46875,
+      "boxWidth": 760.0,
+      "boxHeight": 112.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "ในแบบของเรา",
+      "family": "Mitr Medium",
+      "size": 40.0,
+      "width": 258.51562,
+      "height": 67.79297,
+      "boxWidth": 760.0,
+      "boxHeight": 80.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "hero.lead 64 / continuation 40 · Mitr 600 / 500",
+      "family": "Mitr",
+      "size": 18.0,
+      "width": 453.102,
+      "height": 30.509998,
+      "boxWidth": 560.0,
+      "boxHeight": 100.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "พูลวิลล่าแนะนำ",
+      "family": "Mitr Medium",
+      "size": 32.0,
+      "width": 214.1875,
+      "height": 54.234375,
+      "boxWidth": 750.0,
+      "boxHeight": 70.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "section.title 32 · Mitr 500",
+      "family": "Mitr",
+      "size": 18.0,
+      "width": 242.34,
+      "height": 30.509998,
+      "boxWidth": 560.0,
+      "boxHeight": 70.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "บ้านพักริมสระสำหรับวันหยุด\nกับครอบครัวและเพื่อน",
+      "family": "Mitr Medium",
+      "size": 18.0,
+      "width": 220.07812,
+      "height": 58.76367,
+      "boxWidth": 302.0,
+      "boxHeight": 100.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "card.title 18 · อนุญาตสองบรรทัดตาม measure",
+      "family": "Mitr",
+      "size": 18.0,
+      "width": 396.82617,
+      "height": 30.506836,
+      "boxWidth": 560.0,
+      "boxHeight": 90.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "เริ่มต้น ฿8,900 / คืน",
+      "family": "Mitr SemiBold",
+      "size": 24.0,
+      "width": 236.46094,
+      "height": 40.67578,
+      "boxWidth": 700.0,
+      "boxHeight": 70.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "price.primary 24 · Mitr 600",
+      "family": "Mitr",
+      "size": 18.0,
+      "width": 253.26599,
+      "height": 30.509998,
+      "boxWidth": 560.0,
+      "boxHeight": 70.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "ค้นพบพูลวิลล่าสำหรับวันดี ๆ ของคุณ เลือกดูบ้านได้ก่อนระบุวันเข้าพัก",
+      "family": "Mitr",
+      "size": 16.0,
+      "width": 471.23438,
+      "height": 27.117188,
+      "boxWidth": 590.0,
+      "boxHeight": 110.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "body.default 16 · line-height 1.65 ในสเปก",
+      "family": "Mitr",
+      "size": 18.0,
+      "width": 370.37988,
+      "height": 30.506836,
+      "boxWidth": 560.0,
+      "boxHeight": 90.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "Pet Friendly · พัทยา · 12 คน · 4 ห้องนอน",
+      "family": "Mitr",
+      "size": 14.0,
+      "width": 269.43848,
+      "height": 23.72754,
+      "boxWidth": 710.0,
+      "boxHeight": 65.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "metadata 14 · Mitr 400 · บนขาว",
+      "family": "Mitr",
+      "size": 18.0,
+      "width": 288.99316,
+      "height": 30.506836,
+      "boxWidth": 560.0,
+      "boxHeight": 70.0,
+      "fitsHeight": true
+    },
+    {
+      "text": "ภาพนี้ยืนยันการ render จากไฟล์ Mitr บนเครื่องมือออกแบบ ไม่ใช่การทดสอบฟอนต์ใน Next.js หรือ browser",
+      "family": "Mitr",
+      "size": 18.0,
+      "width": 853.18066,
+      "height": 30.506836,
+      "boxWidth": 1344.0,
+      "boxHeight": 80.0,
+      "fitsHeight": true
+    }
+  ],
+  "claim": "Design specimen only; no browser, screen-reader or app font-loading claim"
+}

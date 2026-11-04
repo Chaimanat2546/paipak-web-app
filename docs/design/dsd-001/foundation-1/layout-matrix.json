@@ -1,0 +1,117 @@
+{
+  "version": "foundation-1",
+  "status": "design targets; no runtime verification",
+  "minMultiColumnCard": 250,
+  "rows": [
+    {
+      "width": 320,
+      "outerGutter": 16,
+      "gap": 16,
+      "context": "home",
+      "available": 288,
+      "columns": 1,
+      "cardWidth": 288.0,
+      "passMinimum": true
+    },
+    {
+      "width": 390,
+      "outerGutter": 24,
+      "gap": 16,
+      "context": "home",
+      "available": 342,
+      "columns": 1,
+      "cardWidth": 342.0,
+      "passMinimum": true
+    },
+    {
+      "width": 768,
+      "outerGutter": 32,
+      "gap": 20,
+      "context": "home",
+      "available": 704,
+      "columns": 2,
+      "cardWidth": 342.0,
+      "passMinimum": true
+    },
+    {
+      "width": 1024,
+      "outerGutter": 40,
+      "gap": 24,
+      "context": "home",
+      "available": 944,
+      "columns": 3,
+      "cardWidth": 298.6666666666667,
+      "passMinimum": true
+    },
+    {
+      "width": 1024,
+      "outerGutter": 40,
+      "gap": 24,
+      "context": "results_with_sidebar",
+      "available": 656,
+      "columns": 2,
+      "cardWidth": 316.0,
+      "passMinimum": true
+    },
+    {
+      "width": 1280,
+      "outerGutter": 48,
+      "gap": 24,
+      "context": "home",
+      "available": 1184,
+      "columns": 4,
+      "cardWidth": 278.0,
+      "passMinimum": true
+    },
+    {
+      "width": 1280,
+      "outerGutter": 48,
+      "gap": 24,
+      "context": "results_with_sidebar",
+      "available": 896,
+      "columns": 3,
+      "cardWidth": 282.6666666666667,
+      "passMinimum": true
+    },
+    {
+      "width": 1440,
+      "outerGutter": 64,
+      "gap": 24,
+      "context": "home",
+      "available": 1312,
+      "columns": 4,
+      "cardWidth": 310.0,
+      "passMinimum": true
+    },
+    {
+      "width": 1440,
+      "outerGutter": 64,
+      "gap": 24,
+      "context": "results_with_sidebar",
+      "available": 1024,
+      "columns": 3,
+      "cardWidth": 325.3333333333333,
+      "passMinimum": true
+    },
+    {
+      "width": 1536,
+      "outerGutter": 64,
+      "gap": 24,
+      "context": "home",
+      "available": 1408,
+      "columns": 4,
+      "cardWidth": 334.0,
+      "passMinimum": true
+    },
+    {
+      "width": 1536,
+      "outerGutter": 64,
+      "gap": 24,
+      "context": "results_with_sidebar",
+      "available": 1120,
+      "columns": 4,
+      "cardWidth": 262.0,
+      "passMinimum": true
+    }
+  ]
+}

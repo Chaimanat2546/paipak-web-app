@@ -1,0 +1,13 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "กดแล้วเด้งอะไรเงี้ยมีไหม",
+  "status": "owner_requested_press_feedback_example; proposal_pending_review",
+  "interpretation": "Demonstrate a short press-and-release rebound on the article card",
+  "scope": "Featured article press feedback preview only; no new navigation, popup, article feature or site-wide rollout",
+  "preserve": "Approved static appearance, image framing, featured/supporting hover and one whole-story link",
+  "persistent_keyboard_focus": "Still needs a visible resting cue; focus alternatives in Article-focus-r2 remain unselected",
+  "press_approved": false,
+  "frontend_authorized": false
+}

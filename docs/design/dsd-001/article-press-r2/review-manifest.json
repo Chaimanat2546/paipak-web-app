@@ -1,0 +1,79 @@
+{
+  "version": "Article-press-r2",
+  "task": "DSD-001",
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "status": "superseded_by_owner_correction_article_press_r3",
+  "owner_revision": "owner-revision-request.json",
+  "prototype": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-article-press-r2.html",
+  "prototype_sha256": "5695879b7ce6681a0a97907d5166c83a302bb16b23a341fbb8efa23ec74275f0",
+  "prototype_bytes": 964711,
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_board": "m0I12",
+  "phases": [
+    {
+      "key": "normal",
+      "native_frame": "Kwt2w",
+      "image": "Kwt2w.png",
+      "size_px": [
+        720,
+        624
+      ],
+      "sha256": "f02f0810fb6f73a90629d56d796612d7d9c8d46c838d6b188f219b78d7c97a9a"
+    },
+    {
+      "key": "pressed",
+      "native_frame": "LpOM6",
+      "image": "LpOM6.png",
+      "size_px": [
+        720,
+        624
+      ],
+      "sha256": "c5968a76820ef9b18c46882aa40b200de5d9813712e2272b1daea642bc3f0ac4"
+    },
+    {
+      "key": "rebound",
+      "native_frame": "fp1Jj",
+      "image": "fp1Jj.png",
+      "size_px": [
+        720,
+        624
+      ],
+      "sha256": "cf1b01cf3213491dadb1106871b20b8abfe40b9fb658fe0fc8c5dd0a13e8d0bc"
+    }
+  ],
+  "proposal": {
+    "pressed_translate_y_px": 1.5,
+    "rebound_translate_y_px": -2,
+    "settled_translate_y_px": 0,
+    "release_duration_ms": 240,
+    "iterations": 1,
+    "whole_card_scale": 1,
+    "inner_image_zoom": false
+  },
+  "changes_from_r1": "Press and rebound distances halved; duration, easing, hover and navigation contract preserved",
+  "navigation": "No navigation in demo; future navigation must not wait for animation completion",
+  "focus": "Persistent focus alternative still pending; no enclosing frame introduced",
+  "reduced_motion": "Unchanged: cancel animation and disable movement while retaining activation",
+  "qa": {
+    "revised_native_pressed_and_rebound_pngs_opened": true,
+    "script_syntax_node_check": "PASS",
+    "fragment_assets_size_and_changed_values_checked": "PASS",
+    "browser_interaction_tested": false,
+    "font_loading_verified": false,
+    "structural_bounds": "Diagnostics retained; not certified clean"
+  },
+  "main_home_unchanged": true,
+  "approved_hover_sources_unchanged": true,
+  "variables_unchanged": true,
+  "press_approved": false,
+  "focus_choice_approved": false,
+  "whole_article_approved": false,
+  "whole_home_approved": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "superseded_by": "../article-press-r3/owner-correction.json"
+}

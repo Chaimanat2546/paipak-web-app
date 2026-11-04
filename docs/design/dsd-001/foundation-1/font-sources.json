@@ -1,0 +1,26 @@
+[
+  {
+    "file": "Mitr-Regular.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Regular.ttf",
+    "bytes": 222416,
+    "sha256": "3763923ca8d860f9c06f483f663cd3d8d94e9ed8c2f35a7ce35bb6b13e1219fd"
+  },
+  {
+    "file": "Mitr-Medium.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Medium.ttf",
+    "bytes": 222116,
+    "sha256": "847340933424d473bff6d011bc08543a2a2d2a670985a93e3431e3ac8926068f"
+  },
+  {
+    "file": "Mitr-SemiBold.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-SemiBold.ttf",
+    "bytes": 225796,
+    "sha256": "257e8612923ed13838b2f0a0f9b25527aa83513c657df049a5ee608e6d4a059d"
+  },
+  {
+    "file": "OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/OFL.txt",
+    "bytes": 4382,
+    "sha256": "427ae4ac208b3cb1930bc2398141bed5880f0c057af4d2fc91b2f7ba8dcffb7d"
+  }
+]

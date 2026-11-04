@@ -1,0 +1,77 @@
+{
+  "version": "Home-media-ui-r3",
+  "verified_on": "2026-11-04",
+  "status": "static_visual_draft_checks_passed; owner_review_pending",
+  "png_dimensions": [
+    {
+      "id": "eMYWM",
+      "size": [
+        1440,
+        6010
+      ]
+    },
+    {
+      "id": "YGt3D",
+      "size": [
+        1440,
+        1432
+      ]
+    },
+    {
+      "id": "MIdin",
+      "size": [
+        1440,
+        760
+      ]
+    }
+  ],
+  "reference_sha256": "dc4416df084a84cd97268763ca2c903e288cc4cdca7a8f47b1f860da9679cf83",
+  "reference_byte_copy_matches": true,
+  "local_links_checked": 31,
+  "missing_except_pending_report": [],
+  "scope_checks": {
+    "previous_r2_unchanged": true,
+    "other_home_sections_match": true,
+    "articles_match": true,
+    "variables_unchanged": true,
+    "placeholder_removed": true,
+    "new_root_first": true,
+    "active_projection_planes": 2,
+    "active_play_icons": 1
+  },
+  "application_status": "",
+  "repository_validators": [
+    {
+      "command": "python scripts/validate-handoff.py",
+      "exit_code": 0,
+      "output": "PASS structure: 110 decision records; 14 design tasks; no missing refs/dependency cycles\r\nNOTE: Does not verify source provenance, approved visual baselines, test runs, or actual task readiness."
+    },
+    {
+      "command": "python scripts/validate-registry.py",
+      "exit_code": 0,
+      "output": "Registry records: 110; 11-section topic coverage: PASS"
+    }
+  ],
+  "visual_inspection": {
+    "opened": [
+      "User-supplied reference",
+      "MIdin.png",
+      "YGt3D.png"
+    ],
+    "composition": "Left narrative and action, right front cover with two right-receding previews, white background",
+    "native_sizing_warnings": "Two inherited hidden-container fill widths were made explicit; subsequent execute returned no sizing warning",
+    "scope": "Desktop static visual only"
+  },
+  "approval": {
+    "ui": "pending_owner_review",
+    "foundation": "pending_owner_review",
+    "OPEN_001": "open",
+    "Mobile": "paused_by_owner",
+    "frontend": "not_authorized"
+  },
+  "untested": [
+    "Actual TikTok playback and one-active behavior",
+    "Animated deck navigation, final/empty/loading/error/focus states",
+    "Keyboard, screen reader, responsive widths and Mobile"
+  ]
+}

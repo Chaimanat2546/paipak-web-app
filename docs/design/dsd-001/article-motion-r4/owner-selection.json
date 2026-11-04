@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Article-motion-r4",
+  "status": "owner_selected_article_appearance_reference",
+  "owner_quote": "ขอเวอร์ชั่านี้",
+  "owner_image": "owner-reference.png",
+  "scope": "Restore article appearance matching the supplied image: featured photo with overlapping white caption and two supporting stories",
+  "source_note": "Static appearance matches r4; the screenshot does not independently approve all motion or image-data rules",
+  "supersedes_current_visual": "Article-motion-r6; cover-sizing iteration canceled by owner",
+  "frontend_authorized": false,
+  "whole_task_completed": false
+}

@@ -1,0 +1,140 @@
+{
+  "brand": "papaipak",
+  "files_changed": 30,
+  "replacements": 63,
+  "changes": [
+    {
+      "path": "AGENTS.md",
+      "replacements": 3
+    },
+    {
+      "path": "README.md",
+      "replacements": 5
+    },
+    {
+      "path": "tasks\\design\\UXD-002.md",
+      "replacements": 1
+    },
+    {
+      "path": "docs\\design\\uxd-001\\information-architecture.md",
+      "replacements": 3
+    },
+    {
+      "path": "docs\\design\\dsd-001\\visual-direction.md",
+      "replacements": 1
+    },
+    {
+      "path": "docs\\design\\uxd-002\\review-decisions.md",
+      "replacements": 7
+    },
+    {
+      "path": "docs\\design\\dsd-001\\review-2\\qa.md",
+      "replacements": 1
+    },
+    {
+      "path": "docs\\design\\uxd-002\\review-5\\user-flow.md",
+      "replacements": 1
+    },
+    {
+      "path": "docs\\design\\uxd-002\\review-5\\README.md",
+      "replacements": 2
+    },
+    {
+      "path": "docs\\design\\uxd-002\\annotations.md",
+      "replacements": 1
+    },
+    {
+      "path": "docs\\design\\dsd-001\\f01-ui-2\\README.md",
+      "replacements": 1
+    },
+    {
+      "path": "docs\\design\\dsd-001\\f01-ui-1\\header-r5\\README.md",
+      "replacements": 2
+    },
+    {
+      "path": "docs\\design\\dsd-001\\f01-ui-2\\header-reference-research\\README.md",
+      "replacements": 9
+    },
+    {
+      "path": "docs\\design\\dsd-001\\f01-ui-1\\home-guest-r11-logo\\README.md",
+      "replacements": 1
+    },
+    {
+      "path": "docs\\design\\dsd-001\\f01-ui-2\\home-card-layouts-2\\README.md",
+      "replacements": 1
+    },
+    {
+      "path": "README.handoff.md",
+      "replacements": 2
+    },
+    {
+      "path": "tasks\\templates\\task-conversation.md",
+      "replacements": 1
+    },
+    {
+      "path": "tasks\\design\\manifest.yaml",
+      "replacements": 1
+    },
+    {
+      "path": "tasks\\design\\implementation-gates.yaml",
+      "replacements": 1
+    },
+    {
+      "path": "AGENTS.handoff.md",
+      "replacements": 1
+    },
+    {
+      "path": "docs\\design\\wireframe-guidelines.md",
+      "replacements": 5
+    },
+    {
+      "path": "docs\\design\\reference-inventory.yaml",
+      "replacements": 1
+    },
+    {
+      "path": "docs\\design\\design-execution-plan.md",
+      "replacements": 1
+    },
+    {
+      "path": "docs\\audits\\traceability-matrix.yaml",
+      "replacements": 1
+    },
+    {
+      "path": "docs\\audits\\step2-audit-report.md",
+      "replacements": 1
+    },
+    {
+      "path": "docs\\decisions\\superseded.yaml",
+      "replacements": 1
+    },
+    {
+      "path": "docs\\decisions\\registry.yaml",
+      "replacements": 1
+    },
+    {
+      "path": "docs\\decisions\\open-decisions.yaml",
+      "replacements": 1
+    },
+    {
+      "path": "docs\\design\\governance\\wireframe_guidelines_paipak.md",
+      "replacements": 5
+    },
+    {
+      "path": "docs\\design\\governance\\README.md",
+      "replacements": 1
+    }
+  ],
+  "protected_mentions": [
+    "docs\\decisions\\registry.yaml",
+    "docs\\design\\dsd-001\\review-2\\prompt-record.md"
+  ],
+  "preserved": [
+    "real paths and filenames",
+    "inline code and fenced source",
+    "quoted source instructions",
+    "public URLs",
+    "historical JSON snapshots and raster images"
+  ],
+  "domain": "papaipak.com; owner confirmed on 2026-11-04; current project metadata and documentation updated; historical source labels and URLs retained",
+  "application_code_changed": false
+}

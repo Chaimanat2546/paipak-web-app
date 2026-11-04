@@ -1,0 +1,144 @@
+{
+  "version": "Results-upper-r3",
+  "date": "2026-11-04",
+  "status": "pending_owner_review",
+  "scope": "Desktop upper region only",
+  "approval_source": "Owner: โอเคเดี๋ยวเรามาทำส่วนบนกันก่อน",
+  "desktopChecks": [
+    {
+      "id": "osaIa",
+      "headerUnchanged": true,
+      "footerUnchanged": true,
+      "filterUnchanged": true,
+      "cardsUnchanged": true,
+      "fieldValuesUnchanged": true,
+      "suggestedLabelsUnchanged": true
+    },
+    {
+      "id": "NmzZ4",
+      "headerUnchanged": true,
+      "footerUnchanged": true,
+      "filterUnchanged": true,
+      "cardsUnchanged": true,
+      "fieldValuesUnchanged": true,
+      "suggestedLabelsUnchanged": true
+    },
+    {
+      "id": "HpR7z",
+      "headerUnchanged": true,
+      "footerUnchanged": true,
+      "filterUnchanged": true,
+      "cardsUnchanged": true,
+      "fieldValuesUnchanged": true,
+      "suggestedLabelsUnchanged": true
+    }
+  ],
+  "mobileChecks": [
+    {
+      "id": "L8ev6",
+      "unchanged": true
+    },
+    {
+      "id": "YQRxl",
+      "unchanged": true
+    },
+    {
+      "id": "P62IV",
+      "unchanged": true
+    }
+  ],
+  "homeUnchanged": true,
+  "metrics": [
+    {
+      "id": "osaIa",
+      "frame": [
+        {
+          "w": 1440,
+          "h": 1815
+        }
+      ],
+      "firstCard": [
+        {
+          "id": "RJppp",
+          "y": 364,
+          "width": 322.6666666666667,
+          "height": 362
+        }
+      ],
+      "search": [
+        {
+          "id": "EBCvs",
+          "w": 1312,
+          "h": 80
+        }
+      ]
+    },
+    {
+      "id": "NmzZ4",
+      "frame": [
+        {
+          "w": 1440,
+          "h": 1501
+        }
+      ],
+      "firstCard": [
+        {
+          "id": "niK5y",
+          "y": 436,
+          "width": 322.6666666666667,
+          "height": 362
+        }
+      ],
+      "search": [
+        {
+          "id": "nBs33",
+          "w": 1312,
+          "h": 80
+        }
+      ]
+    },
+    {
+      "id": "HpR7z",
+      "frame": [
+        {
+          "w": 1440,
+          "h": 1815
+        }
+      ],
+      "firstCard": [
+        {
+          "id": "joV4X",
+          "y": 364,
+          "width": 322.6666666666667,
+          "height": 362
+        }
+      ],
+      "search": [
+        {
+          "id": "hKv5E",
+          "w": 1312,
+          "h": 80
+        }
+      ]
+    }
+  ],
+  "firstHouse": {
+    "before": 531,
+    "after": 364,
+    "improvement": 167
+  },
+  "reference": {
+    "url": "https://www.airbnb.com/s/Pattaya--Thailand/homes",
+    "screenshot": "reference-airbnb-header.jpg",
+    "inspected": "2026-11-04",
+    "applied": "compact grouped search fields and shortcuts near search; retain papaipak palette/Mitr/UX"
+  },
+  "not_tested": [
+    "live search",
+    "keyboard/focus",
+    "opened location/date/guest overlays with revised anchors",
+    "backend",
+    "production accessibility"
+  ],
+  "open_issue": "OPEN-001 unchanged"
+}

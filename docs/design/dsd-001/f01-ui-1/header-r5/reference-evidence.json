@@ -1,0 +1,81 @@
+{
+  "checked_on": "2026-11-03",
+  "timezone": "Asia/Bangkok",
+  "method": "Firecrawl live public HTML; header controls inspected; no login, search submission or booking",
+  "sources": [
+    {
+      "name": "Airbnb",
+      "url": "https://www.airbnb.com/",
+      "statusCode": 200,
+      "observed_controls": [
+        {
+          "aria": "Search",
+          "visible_text": "",
+          "svg": true
+        },
+        {
+          "aria": "Log in or sign up",
+          "visible_text": "",
+          "svg": true
+        },
+        {
+          "aria": "Main navigation menu",
+          "visible_text": "",
+          "svg": true
+        }
+      ]
+    },
+    {
+      "name": "Booking.com",
+      "url": "https://www.booking.com/",
+      "statusCode": 200,
+      "observed_controls": [
+        {
+          "aria": "Language: English (US)",
+          "visible_text": "",
+          "svg": false,
+          "img": true
+        },
+        {
+          "aria": "Customer support",
+          "visible_text": "",
+          "svg": true,
+          "img": false
+        },
+        {
+          "aria": "Sign in",
+          "visible_text": "Sign in",
+          "svg": false,
+          "img": false
+        }
+      ]
+    },
+    {
+      "name": "Agoda",
+      "url": "https://www.agoda.com/",
+      "statusCode": 200,
+      "observation": "Primary navigation contains multiple text links; Account Menu has SVG with no visible text",
+      "observed_controls": [
+        {
+          "aria": "Account Menu",
+          "visible_text": "",
+          "svg": true
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Pencil browser screenshot calls failed or timed out; no protections bypassed",
+    "Firecrawl screenshot URLs returned, but remote viewer could not inspect them; screenshots were not downloaded or copied into production assets",
+    "DOM observations support control structure, not a claim of exact visual duplication or user usability testing"
+  ],
+  "design_inference": "Keep primary navigation text; use named icons for Home, language, contact and login; show existing language/contact entries in popovers; preserve paipak Login-first flow.",
+  "source_board": {
+    "id": "qy6ZD",
+    "browser_nodes": [
+      "B93ly",
+      "DYSxv",
+      "sSqT8"
+    ]
+  }
+}

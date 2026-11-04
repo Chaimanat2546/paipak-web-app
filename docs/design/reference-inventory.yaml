@@ -1,4 +1,4 @@
-project: paipak.com
+project: papaipak.com
 status: unverified_asset_inventory
 rule: Presence on disk is not approval; do not use as approved visual regression baseline.
 candidate_files:

@@ -1,0 +1,337 @@
+{
+  "type": "frame",
+  "id": "W6Mdof",
+  "x": 92814,
+  "y": 27916,
+  "name": "REVIEW · Article safe-area-r2 · text-bearing mock cover",
+  "context": "Text-cover safe-area study only, based on existing approved lower-background principle. Left full16:9 cover; right same cover in unchanged featured geometry 696x391.5, caption y315.5 (76px overlap). Critical mock text/photo is above overlap. Not universal safe-area pixels, production cover approval or a new cover design system. Main Home untouched.",
+  "clip": true,
+  "width": 1504,
+  "height": 710,
+  "fill": "$surface.page",
+  "layout": "vertical",
+  "gap": 24,
+  "padding": 40,
+  "children": [
+    {
+      "type": "text",
+      "id": "AYYGg",
+      "name": "Safe-area comparison heading",
+      "fill": "$brand.navy",
+      "content": "ปกเต็ม 16:9 เทียบกับเมื่อวางในเรื่องเด่น",
+      "lineHeight": 1.4,
+      "fontFamily": "$font.primary",
+      "fontSize": 20,
+      "fontWeight": "normal"
+    },
+    {
+      "type": "frame",
+      "id": "hmQYi",
+      "name": "Full cover and featured comparison",
+      "width": "fill_container",
+      "height": 552.5,
+      "gap": 32,
+      "children": [
+        {
+          "type": "frame",
+          "id": "RtE7h",
+          "name": "Full mock cover and review caption",
+          "width": 696,
+          "height": 502.5,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "B382lA",
+              "x": 0,
+              "y": 0,
+              "name": "Same complete mock cover · no crop",
+              "clip": true,
+              "width": 696,
+              "height": 391.5,
+              "fill": "$brand.light",
+              "cornerRadius": 24,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YTa8F",
+                  "x": 36,
+                  "y": 36,
+                  "name": "Cover mock topic · critical content",
+                  "fill": "$brand.navy",
+                  "content": "ไอเดียวันพักผ่อน",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "w9Ii21",
+                  "x": 36,
+                  "y": 88,
+                  "name": "Cover mock title · two complete lines",
+                  "fill": "$brand.navy",
+                  "textGrowth": "fixed-width",
+                  "width": 360,
+                  "content": "เลือกพูลวิลล่า\nให้พอดีกับทริป",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 36,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "r5la8",
+                  "x": 36,
+                  "y": 220,
+                  "name": "Cover mock supporting text · critical content",
+                  "fill": "$brand.navy",
+                  "textGrowth": "fixed-width",
+                  "width": 360,
+                  "content": "เริ่มจากจำนวนคนและวันพักผ่อน",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "fK6Gr",
+                  "x": 428,
+                  "y": 94,
+                  "name": "Study photograph contained inside cover",
+                  "clip": true,
+                  "width": 232,
+                  "height": 130.5,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/generated-4.png",
+                    "mode": "contain"
+                  },
+                  "cornerRadius": 16,
+                  "layout": "none"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "dzlf1",
+              "x": 0,
+              "y": 420,
+              "name": "Review caption outside cover",
+              "fill": "$brand.navy",
+              "textGrowth": "fixed-width",
+              "width": 640,
+              "content": "ปกตัวอย่าง: ข้อความและภาพสำคัญอยู่ช่วงบน\nส่วนล่างเป็นพื้นหลังให้แผงข้อมูลซ้อนได้",
+              "lineHeight": 1.6,
+              "fontFamily": "$font.primary",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "j3YS3",
+          "name": "Featured story with text-bearing mock cover",
+          "clip": true,
+          "width": 696,
+          "height": 552.5,
+          "cornerRadius": 24,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "aUhYv",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 248,
+              "name": "Pool-edge backing beneath featured story",
+              "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+              "viewBox": [
+                0,
+                0,
+                1440,
+                95
+              ],
+              "fill": "$brand.light",
+              "width": 696,
+              "height": 304.5
+            },
+            {
+              "type": "frame",
+              "id": "rjor8",
+              "x": 0,
+              "y": 0,
+              "name": "Mock text-bearing cover · 696 by 391.5 · 16:9",
+              "clip": true,
+              "width": 696,
+              "height": 391.5,
+              "fill": "$brand.light",
+              "cornerRadius": 24,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "q9zMNf",
+                  "x": 36,
+                  "y": 36,
+                  "name": "Cover mock topic · critical content",
+                  "fill": "$brand.navy",
+                  "content": "ไอเดียวันพักผ่อน",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "DX1HC",
+                  "x": 36,
+                  "y": 88,
+                  "name": "Cover mock title · two complete lines",
+                  "fill": "$brand.navy",
+                  "textGrowth": "fixed-width",
+                  "width": 360,
+                  "content": "เลือกพูลวิลล่า\nให้พอดีกับทริป",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 36,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "gu6T9",
+                  "x": 36,
+                  "y": 220,
+                  "name": "Cover mock supporting text · critical content",
+                  "fill": "$brand.navy",
+                  "textGrowth": "fixed-width",
+                  "width": 360,
+                  "content": "เริ่มจากจำนวนคนและวันพักผ่อน",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "vE8c9",
+                  "x": 428,
+                  "y": 94,
+                  "name": "Study photograph contained inside cover",
+                  "clip": true,
+                  "width": 232,
+                  "height": 130.5,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/generated-4.png",
+                    "mode": "contain"
+                  },
+                  "cornerRadius": 16,
+                  "layout": "none"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ejrBH",
+              "x": 24,
+              "y": 315.5,
+              "name": "Floating featured-article reading panel",
+              "width": 648,
+              "fill": "#FFFFFF",
+              "cornerRadius": 20,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D591F",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 24
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "W09VD1",
+                  "name": "Featured topic fixture",
+                  "fill": "$brand.navy",
+                  "content": "เลือกที่พัก",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 14
+                },
+                {
+                  "type": "frame",
+                  "id": "WwYsw",
+                  "name": "Featured title and reading affordance",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ug7US",
+                      "name": "Featured article title fixture",
+                      "fill": "$brand.navy",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "เลือกพูลวิลล่าให้พอดี\nกับทริปของเรา",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font.primary",
+                      "fontSize": 26
+                    },
+                    {
+                      "type": "frame",
+                      "id": "M1bcKT",
+                      "name": "Read featured article · full title accessible name proposed · 44px target",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "$brand.navy",
+                      "cornerRadius": 22,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "nRedx",
+                          "name": "Read featured story arrow",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "arrow-up-right",
+                          "library": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "mpYLa",
+                  "name": "Featured body-opening fallback · static two-line fixture",
+                  "fill": "#53657C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "เริ่มจากจำนวนคน บรรยากาศ และวันพักผ่อนที่อยากได้ แล้วค่อยเลือกบ้านที่มีพื้นที่ให้ทุกคนได้ใช้เวลาร่วมกัน…",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 16
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

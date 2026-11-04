@@ -1,0 +1,32 @@
+{
+  "method": "sRGB relative luminance; contrast=(lighter+0.05)/(darker+0.05); full precision used for threshold comparisons",
+  "source": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
+  "checked_on": "2026-11-04",
+  "normalTextMinimum": 4.5,
+  "largeTextMinimum": 3,
+  "cases": [
+    {
+      "key": "pinkNavy",
+      "background": "#FD6E88",
+      "foreground": "#072D59",
+      "ratio": 5.077980501367648,
+      "meetsNormalTextMinimum": true
+    },
+    {
+      "key": "navyWhite",
+      "background": "#072D59",
+      "foreground": "#FFFFFF",
+      "ratio": 13.737680109134693,
+      "meetsNormalTextMinimum": true
+    },
+    {
+      "key": "original",
+      "background": "#FD6E88",
+      "foreground": "#FFFFFF",
+      "ratio": 2.705343217728925,
+      "meetsNormalTextMinimum": false,
+      "meetsLargeTextMinimum": false
+    }
+  ],
+  "scope": "Default solid text/background color pairs only. No component/page WCAG acceptance, no change to Home Desktop-r8, no OPEN-001 closure without owner decision."
+}

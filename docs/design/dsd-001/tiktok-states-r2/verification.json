@@ -1,0 +1,98 @@
+{
+  "version": "TikTok-states-r2",
+  "state_count": 13,
+  "review_board_count": 15,
+  "new_native_node_count": 934,
+  "png_dimensions": {
+    "B5TkkF.png": [
+      1440,
+      816
+    ],
+    "cmquC.png": [
+      1440,
+      1545
+    ],
+    "Eat45.png": [
+      1440,
+      1235
+    ],
+    "JihO7.png": [
+      1520,
+      1016
+    ],
+    "KIDC4.png": [
+      1520,
+      1016
+    ],
+    "kXsfW.png": [
+      1520,
+      1016
+    ],
+    "Rtmrv.png": [
+      1520,
+      1016
+    ],
+    "sQ3Y4.png": [
+      1440,
+      816
+    ],
+    "tnlzw.png": [
+      1520,
+      1016
+    ],
+    "UsmNk.png": [
+      1520,
+      1016
+    ],
+    "vBjZ3.png": [
+      1488,
+      850
+    ],
+    "x1IS3.png": [
+      1520,
+      1016
+    ],
+    "y2IlT.png": [
+      1520,
+      1016
+    ],
+    "y6Lsb.png": [
+      1520,
+      1016
+    ],
+    "y8Gp9.png": [
+      1520,
+      1016
+    ],
+    "yRzQ8.png": [
+      1520,
+      1016
+    ],
+    "ZPna1.png": [
+      1520,
+      1016
+    ]
+  },
+  "home_unchanged": true,
+  "variables_unchanged": true,
+  "all_nodes_named": true,
+  "unfinished_roots": [],
+  "missing_links": [],
+  "visual_review": [
+    "native screenshots for all states",
+    "full resolution error and article context PNGs"
+  ],
+  "validation_commands": [
+    "python scripts/validate-handoff.py",
+    "python scripts/validate-registry.py"
+  ],
+  "runtime_verified": false,
+  "limitations": [
+    "Provider UI schematic",
+    "No actual selected TikTok URLs or creator metadata",
+    "No keyboard/network/audio/fullscreen/event tests",
+    "Owner design approval pending",
+    "Mobile paused",
+    "OPEN-001 remains open"
+  ]
+}

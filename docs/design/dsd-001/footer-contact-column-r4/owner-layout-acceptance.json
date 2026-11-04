@@ -1,0 +1,19 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "1 แต่ให้แสดงเป็นข้อมูลจริงจำลอง",
+  "question_context": "Review Footer-contact-column-r3: option 1 uses the displayed compact column layout",
+  "status": "owner_accepted_r3_layout_with_requested_mock_contact_data",
+  "accepted_layout": "Footer-contact-column-r3 / kengy.png",
+  "requested_change": "Replace pending-contact labels with realistic sample contact data",
+  "result": "Footer-contact-column-r4 / kengy",
+  "mock_line_identifier": "@papaipak-demo",
+  "mock_phone_number": "02-000-0000",
+  "data_status": "Fictional design fixtures; not verified real business contacts",
+  "active_contact_links": false,
+  "separate_owner_review_of_r4_export": false,
+  "whole_home_version_approved": false,
+  "foundation_approved": false,
+  "frontend_authorized": false
+}

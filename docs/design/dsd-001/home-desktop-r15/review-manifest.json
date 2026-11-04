@@ -1,0 +1,252 @@
+{
+  "version": "Home Desktop-r15",
+  "task": "DSD-001",
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "gate": "Home Desktop closeout R2 appearance review",
+  "status": "owner_accepted_combined_home_appearance_only",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "ZfZvJ",
+  "base_home": "Oftfq",
+  "images": [
+    {
+      "kind": "full",
+      "native_root": "ZfZvJ",
+      "image": "ZfZvJ.png",
+      "size_px": [
+        1440,
+        6091
+      ],
+      "sha256": "05f509321ab2510d826a3be3f750c32d39fc5abf272d1a4a68d24b2ec4db3883"
+    },
+    {
+      "kind": "top",
+      "native_root": "L8Zk0",
+      "image": "L8Zk0.png",
+      "size_px": [
+        1440,
+        688
+      ],
+      "sha256": "74c26006aaede3e3697749c22f16b06ba3631e33b69c582a480090c973d7b00c"
+    },
+    {
+      "kind": "middle",
+      "native_root": "bE4i5",
+      "image": "bE4i5.png",
+      "size_px": [
+        1440,
+        1518
+      ],
+      "sha256": "b219da479f94c5657d5ffe5d6016b489e30f1c84387e4cd7ed3abe97c4bcdf71"
+    },
+    {
+      "kind": "bottom",
+      "native_root": "Y4J5Wn",
+      "image": "Y4J5Wn.png",
+      "size_px": [
+        1440,
+        1861
+      ],
+      "sha256": "d5ee71be2f3c72c97b5286aa0e069a82eb42f407f28df69f4b640966bac6a110"
+    },
+    {
+      "kind": "tiktok",
+      "native_root": "Lejko",
+      "image": "Lejko.png",
+      "size_px": [
+        1440,
+        816
+      ],
+      "sha256": "5d2702798d4ae0d1580566b23334ff66e36e17aa62c01474db1764310de65db9"
+    },
+    {
+      "kind": "article",
+      "native_root": "s4H6L",
+      "image": "s4H6L.png",
+      "size_px": [
+        1440,
+        746
+      ],
+      "sha256": "1980a54da28cb6d71618ac30674c426d6aeb746ce1623346b30840af5944ea9c"
+    },
+    {
+      "kind": "footer",
+      "native_root": "kXTfu",
+      "image": "kXTfu.png",
+      "size_px": [
+        1440,
+        299
+      ],
+      "sha256": "499359dafd5e47c8559402504043ae775e69ba9e3f5d88bdd42ec8378643ad25"
+    }
+  ],
+  "accepted_component_inputs": [
+    {
+      "path": "../article-desktop-review-2/owner-article-acceptance.json",
+      "sha256": "e33ca25a2c883ed86e6f5b4c16527f2f3917fda16801997d8aa99345dc6954ba"
+    },
+    {
+      "path": "../tiktok-states-r3/owner-acceptance.json",
+      "sha256": "8d3214bac3794b460d2835bf86fcf6aaf1a6fe1ff2cad849e248321feb064130"
+    },
+    {
+      "path": "../footer-contact-column-r4/owner-footer-approval.json",
+      "sha256": "98996e6ac64de25462eb9131abb3cedeba41274346ceed3ee12cce64b5cbcdc5"
+    },
+    {
+      "path": "../article-secondary-interaction-r3/owner-secondary-acceptance.json",
+      "sha256": "511221fbdc3c1cb02088e92a2cd181fb1b20277fd907a033d5482fd9629d779d"
+    }
+  ],
+  "integrated_sources": {
+    "tiktok": {
+      "source": "v9qG0",
+      "copy": "Lejko",
+      "version": "TikTok-states-r3 first"
+    },
+    "article": {
+      "source": "L4FBX",
+      "copy": "s4H6L",
+      "version": "Article Desktop review-2"
+    },
+    "footer": {
+      "source": "kengy",
+      "copy": "kXTfu",
+      "version": "Footer-contact-column-r4"
+    }
+  },
+  "qa": {
+    "upper_and_villa_sections_schema_equal": [
+      {
+        "source": "kgafV",
+        "copy": "RT9W1",
+        "equal": true
+      },
+      {
+        "source": "LOYpk",
+        "copy": "R9uMa5",
+        "equal": true
+      },
+      {
+        "source": "xw6uT",
+        "copy": "bYDnM",
+        "equal": true
+      },
+      {
+        "source": "uak5J",
+        "copy": "DGuXf",
+        "equal": true
+      },
+      {
+        "source": "Q4D7h",
+        "copy": "M5koW",
+        "equal": true
+      },
+      {
+        "source": "Afjjw",
+        "copy": "uuS9s",
+        "equal": true
+      },
+      {
+        "source": "O3K0gx",
+        "copy": "k3nAU9",
+        "equal": true
+      },
+      {
+        "source": "RHcs2",
+        "copy": "b4uDVJ",
+        "equal": true
+      },
+      {
+        "source": "OfSiB",
+        "copy": "ARC5S",
+        "equal": true
+      },
+      {
+        "source": "eSwmw",
+        "copy": "k4NDo",
+        "equal": true
+      }
+    ],
+    "integrated_sections_schema_equal": [
+      {
+        "source": "v9qG0",
+        "copy": "Lejko",
+        "equal": true
+      },
+      {
+        "source": "L4FBX",
+        "copy": "s4H6L",
+        "equal": true
+      },
+      {
+        "source": "kengy",
+        "copy": "kXTfu",
+        "equal": true
+      }
+    ],
+    "component_export_hash_checks": [
+      {
+        "integrated": "Lejko",
+        "source": "../tiktok-states-r3/v9qG0.png",
+        "export_hash_equal": false
+      },
+      {
+        "integrated": "s4H6L",
+        "source": "../article-desktop-review-2/L4FBX.png",
+        "export_hash_equal": true
+      },
+      {
+        "integrated": "kXTfu",
+        "source": "../footer-contact-column-r4/kengy.png",
+        "export_hash_equal": true
+      }
+    ],
+    "tiktok_pixel_comparison": [
+      {
+        "source": "current_source",
+        "pixel_data_equal": false,
+        "different_channels": 78,
+        "total_channels": 4700160,
+        "max_channel_delta": 1
+      },
+      {
+        "source": "archived_source",
+        "pixel_data_equal": false,
+        "different_channels": 87,
+        "total_channels": 4700160,
+        "max_channel_delta": 1
+      }
+    ],
+    "tiktok_comparison_note": "Not byte-identical:78 channels of4700160 differ by at most1 against fresh source export;87 against archived source. Native styles match; visual reviewed. Do not claim exact pixel equality.",
+    "full_top_middle_bottom_pngs_opened": true,
+    "image_dimensions_verified": true,
+    "original_home_unchanged": true,
+    "variables_unchanged": true,
+    "ignored_flex_xy_properties_removed": true,
+    "bounds_diagnostics_retained": 7,
+    "bounds": "Rail tracks intentionally extend beyond clipped horizontal viewport, inherited from source; not a clean-diagnostics claim",
+    "browser_runtime_tested": false,
+    "keyboard_screen_reader_accessibility_certified": false,
+    "real_auth_data_navigation_player_tested": false,
+    "font_loading_verified": false
+  },
+  "whole_home_appearance_approved": true,
+  "task_complete": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "unresolved": [
+    "secondary custom keyboard cue not selected after withdrawn dark extension",
+    "application functional/accessibility verification",
+    "real assets/contacts/destinations",
+    "foundation reconciliation and R3 acceptance"
+  ],
+  "next_if_home_appearance_accepted": "Reconcile four foundation specifications and submit R3; no implementation task automatically started",
+  "owner_acceptance": "owner-home-acceptance.json",
+  "desktop_foundation_specification_approved": true,
+  "desktop_foundation_owner_acceptance": "../foundation-3-desktop/owner-foundation-acceptance.json",
+  "full_foundation_gate_passed": false
+}

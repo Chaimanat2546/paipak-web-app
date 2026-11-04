@@ -1,0 +1,22 @@
+{
+  "bar": [
+    {
+      "id": "qLEIh",
+      "name": "Focus bar beneath reading panel · no enclosing outline",
+      "problem": "fully clipped"
+    }
+  ],
+  "marker": [
+    {
+      "id": "zDyoh",
+      "name": "Title-only focus marker line 2",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "lHtoO",
+      "name": "Title-only focus marker line 1",
+      "problem": "partially clipped"
+    }
+  ],
+  "surface": []
+}

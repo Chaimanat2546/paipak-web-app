@@ -1,0 +1,48 @@
+{
+  "version": "Header-reference-r3",
+  "date": "2026-11-04",
+  "timezone": "Asia/Bangkok",
+  "status": "pending_owner_review",
+  "main_r1_r2_unchanged": {
+    "main": true,
+    "r1": true,
+    "r2": true
+  },
+  "board": {
+    "id": "JWRJ0",
+    "x": 0,
+    "y": -2294,
+    "width": 1472,
+    "height": 674
+  },
+  "preview_size": {
+    "width": 688,
+    "height": 414
+  },
+  "language": {
+    "panel": "qOuoZ",
+    "width": 264,
+    "option_height": 56,
+    "flag_size": 22
+  },
+  "contact": {
+    "panel": "nUb6A",
+    "width": 336,
+    "option_height": 72,
+    "icon_size": 22
+  },
+  "close_target": 44,
+  "contrast": {
+    "navy_on_white": 13.737680109134693,
+    "navy_on_selected_blue": 11.852687944511379,
+    "hint_on_white": 5.9653678733548885
+  },
+  "not_tested": [
+    "keyboard behavior",
+    "real locale change",
+    "LINE routing",
+    "phone routing",
+    "mobile adaptation"
+  ],
+  "open_issue": "OPEN-001 retained"
+}

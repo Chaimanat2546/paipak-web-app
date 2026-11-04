@@ -1,0 +1,24 @@
+[
+  {
+    "id": "Z6hU88",
+    "name": "Supporting selected surface · extends without reflow",
+    "bounds": {
+      "x": -12,
+      "y": 38,
+      "width": 384,
+      "height": 189
+    },
+    "problem": "partially clipped"
+  },
+  {
+    "id": "zRIjc",
+    "name": "Index selected surface · extends without reflow",
+    "bounds": {
+      "x": -12,
+      "y": 50,
+      "width": 140,
+      "height": 44
+    },
+    "problem": "fully clipped"
+  }
+]

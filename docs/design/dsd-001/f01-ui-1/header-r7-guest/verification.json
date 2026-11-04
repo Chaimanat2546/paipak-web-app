@@ -1,0 +1,13 @@
+{
+  "version": "Guest Header-r7",
+  "status": "pending_owner_review",
+  "auth_state": "guest_signed_out",
+  "explicit_sign_in_label": true,
+  "profile_avatar_removed": true,
+  "login_first_contract_retained": true,
+  "left_and_non_header_content_preserved": true,
+  "font": "Mitr via font.primary",
+  "header_height": 124,
+  "functional_auth": false,
+  "OPEN-001": "open"
+}

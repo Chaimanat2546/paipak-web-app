@@ -1,0 +1,21 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "1",
+  "question": "ภาพเมื่อบทความโหลดสำเร็จ: ใช้ตามภาพ / ปรับเรื่องเด่นด้านซ้าย / ปรับเรื่องรองด้านขวา",
+  "selected_option": "ใช้ตามภาพ",
+  "status": "owner_accepted_ready_article_appearance",
+  "version": "Article-body-fallback-r2",
+  "native_root": "l5kvNr",
+  "image": "l5kvNr.png",
+  "image_sha256": "1980a54da28cb6d71618ac30674c426d6aeb746ce1623346b30840af5944ea9c",
+  "scope": "Displayed Desktop article ready state, one featured and two supporting stories, mock body-text snippets",
+  "real_article_feature_started": false,
+  "motion_approved": false,
+  "whole_article_version_approved": false,
+  "whole_home_version_approved": false,
+  "foundation_approved": false,
+  "functional_acceptance": false,
+  "frontend_authorized": false
+}

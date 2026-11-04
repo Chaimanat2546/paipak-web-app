@@ -1,0 +1,14 @@
+{
+  "version": "Header-r3",
+  "approval_status": "pending_owner_review",
+  "owner_feedback": "ชอบแบบ 2 แต่ทางด้านขวายังไม่โอเค",
+  "scope": "Home Desktop right navigation only",
+  "preferred_left_from_r2_preserved": true,
+  "all_non_header_content_preserved": true,
+  "text_inventory_preserved": true,
+  "font": "Mitr via font.primary",
+  "header_height": 124,
+  "menu_column_width": 308,
+  "previous_35_native_roots_preserved": true,
+  "functional_prototype": false
+}

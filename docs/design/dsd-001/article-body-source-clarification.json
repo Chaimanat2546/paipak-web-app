@@ -1,0 +1,21 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "ไม่ใช่ข้อความต้นแบบแต่เป็นข้อความจากในเนื้อหาของบทความ",
+  "status": "future_article_body_source_contract; clarified_current_phase_uses_mocks",
+  "context": "Correction to the fictional body text used in Article-body-fallback-r2",
+  "decision": "The displayed description must be taken from the content of that same article, rather than separately invented sample copy or an AI summary",
+  "scope": "Home article description when no dedicated excerpt is available; featured and supporting",
+  "maximum_lines": 2,
+  "preserve_full_article": true,
+  "required_fields_unchanged": true,
+  "previous_mock_copy": "Design fixture for the current Home phase, not verified article data; appearance still pending",
+  "source_check": "No actual article body dataset found in app, components, lib or public; app/home-data.ts contains fictional villa fixtures only",
+  "next_input_needed": null,
+  "cms_connected": false,
+  "appearance_approved": false,
+  "frontend_authorized": false,
+  "actual_article_source_required_now": false,
+  "stage_clarification": "article-stage-clarification.json"
+}

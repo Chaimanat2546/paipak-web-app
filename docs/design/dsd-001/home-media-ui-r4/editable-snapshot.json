@@ -1,0 +1,2695 @@
+{
+  "version": "Home-media-ui-r4 / Home Desktop-r12 draft",
+  "variables": {
+    "variables": {
+      "brand.navy": {
+        "type": "color",
+        "value": "#072D59"
+      },
+      "brand.pink": {
+        "type": "color",
+        "value": "#FD6E88"
+      },
+      "brand.light": {
+        "type": "color",
+        "value": "#DBF2FC"
+      },
+      "surface.page": {
+        "type": "color",
+        "value": "#FFFFFF"
+      },
+      "font.primary": {
+        "type": "string",
+        "value": "Mitr"
+      },
+      "spacing.unit": {
+        "type": "number",
+        "value": 4
+      }
+    }
+  },
+  "before": {
+    "type": "frame",
+    "id": "MIdin",
+    "name": "TikTok split 3D stack · supplied reference adaptation · r3",
+    "width": "fill_container",
+    "fill": "$surface.page",
+    "gap": 48,
+    "padding": [
+      56,
+      56,
+      64,
+      56
+    ],
+    "alignItems": "center",
+    "children": [
+      {
+        "type": "frame",
+        "id": "G3aQki",
+        "x": 56,
+        "y": 279,
+        "name": "HISTORY hidden r2 · HISTORY hidden r1 · TikTok introduction and rail navigation",
+        "enabled": false,
+        "width": 256,
+        "layout": "vertical",
+        "gap": 24,
+        "children": [
+          {
+            "type": "text",
+            "id": "Qgp8C",
+            "name": "TikTok section heading",
+            "fill": "$brand.navy",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "พาชมบ้าน\nผ่าน TikTok",
+            "lineHeight": 1.4,
+            "fontFamily": "$font.primary",
+            "fontSize": 32
+          },
+          {
+            "type": "text",
+            "id": "ReLYK",
+            "name": "Curated clips introduction",
+            "fill": "$brand.navy",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "คลิปที่คัดมาให้ดู\nเผื่อเจอมุมที่อยากไปพัก",
+            "lineHeight": 1.6,
+            "fontFamily": "$font.primary",
+            "fontSize": 16
+          },
+          {
+            "type": "frame",
+            "id": "qigdz",
+            "name": "TikTok previous and next · visual rail controls",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "frame",
+                "id": "uH5Df",
+                "name": "Previous villas · disabled at start",
+                "opacity": 0.35,
+                "width": 44,
+                "height": 44,
+                "fill": "#FFFFFF",
+                "cornerRadius": 22,
+                "stroke": "#072D5940",
+                "strokeWidth": 1,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "pQPZr",
+                    "name": "Listing left arrow",
+                    "width": 22,
+                    "height": 22,
+                    "icon": "chevron-left",
+                    "library": "lucide",
+                    "fill": "#072D59"
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "jBmi8",
+                "name": "Next villas · move listing rail only",
+                "width": 44,
+                "height": 44,
+                "fill": "#FFFFFF",
+                "cornerRadius": 22,
+                "stroke": "#072D5940",
+                "strokeWidth": 1,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "bRkkp",
+                    "name": "Listing right arrow",
+                    "width": 22,
+                    "height": 22,
+                    "icon": "chevron-right",
+                    "library": "lucide",
+                    "fill": "#072D59"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "F4X6mj",
+        "x": 352,
+        "y": 72,
+        "name": "HISTORY hidden r2 · HISTORY hidden r1 · TikTok rail viewport · three full clips",
+        "enabled": false,
+        "clip": true,
+        "width": 1032,
+        "height": 648,
+        "layout": "none",
+        "children": [
+          {
+            "type": "frame",
+            "id": "qVFjS",
+            "x": 0,
+            "y": 0,
+            "name": "TikTok track · four fixture clips · manually curated",
+            "gap": 24,
+            "children": [
+              {
+                "type": "frame",
+                "id": "c7IE3X",
+                "name": "TikTok fixture 1 · idle cover and sample credit",
+                "width": 328,
+                "layout": "vertical",
+                "gap": 12,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "j85PE9",
+                    "name": "Portrait study cover 1 · not an actual TikTok thumbnail",
+                    "clip": true,
+                    "width": "fill_container",
+                    "height": 584,
+                    "fill": {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/generated-3.png",
+                      "mode": "cover"
+                    },
+                    "cornerRadius": 16,
+                    "layout": "none",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "F4Wre",
+                        "x": 136,
+                        "y": 264,
+                        "name": "Play clip 1 · 56px target · manual only",
+                        "width": 56,
+                        "height": 56,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 28,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "RaYDL",
+                            "name": "Play filled icon",
+                            "width": 22,
+                            "height": 22,
+                            "icon": "play-fill",
+                            "library": "phosphor",
+                            "fill": "$brand.navy"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "pgl0q",
+                    "name": "Clip title and creator sample",
+                    "width": "fill_container",
+                    "layout": "vertical",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "jWJpT",
+                        "name": "Sample clip title 1",
+                        "fill": "$brand.navy",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "วันพักผ่อนริมสระ",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 18,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "text",
+                        "id": "HZdrW",
+                        "name": "Placeholder creator credit 1",
+                        "fill": "#6B7280",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้สร้างคลิปตัวอย่าง 01",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "J4irV",
+                "name": "TikTok fixture 2 · idle cover and sample credit",
+                "width": 328,
+                "layout": "vertical",
+                "gap": 12,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "fQBE9",
+                    "name": "Portrait study cover 2 · not an actual TikTok thumbnail",
+                    "clip": true,
+                    "width": "fill_container",
+                    "height": 584,
+                    "fill": {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/generated-4.png",
+                      "mode": "cover"
+                    },
+                    "cornerRadius": 16,
+                    "layout": "none",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "Sdm5G",
+                        "x": 136,
+                        "y": 264,
+                        "name": "Play clip 2 · 56px target · manual only",
+                        "width": 56,
+                        "height": 56,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 28,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "H0JpiR",
+                            "name": "Play filled icon",
+                            "width": 22,
+                            "height": 22,
+                            "icon": "play-fill",
+                            "library": "phosphor",
+                            "fill": "$brand.navy"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "CMFT3",
+                    "name": "Clip title and creator sample",
+                    "width": "fill_container",
+                    "layout": "vertical",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "zppaC",
+                        "name": "Sample clip title 2",
+                        "fill": "$brand.navy",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "มุมสงบที่อยากไปพัก",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 18,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "text",
+                        "id": "mqTTp",
+                        "name": "Placeholder creator credit 2",
+                        "fill": "#6B7280",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้สร้างคลิปตัวอย่าง 02",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "spxY1",
+                "name": "TikTok fixture 3 · idle cover and sample credit",
+                "width": 328,
+                "layout": "vertical",
+                "gap": 12,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "Ht1Uq",
+                    "name": "Portrait study cover 3 · not an actual TikTok thumbnail",
+                    "clip": true,
+                    "width": "fill_container",
+                    "height": 584,
+                    "fill": {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/generated-5.png",
+                      "mode": "cover"
+                    },
+                    "cornerRadius": 16,
+                    "layout": "none",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "CDDrf",
+                        "x": 136,
+                        "y": 264,
+                        "name": "Play clip 3 · 56px target · manual only",
+                        "width": 56,
+                        "height": 56,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 28,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "B4laT",
+                            "name": "Play filled icon",
+                            "width": 22,
+                            "height": 22,
+                            "icon": "play-fill",
+                            "library": "phosphor",
+                            "fill": "$brand.navy"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "kOMck",
+                    "name": "Clip title and creator sample",
+                    "width": "fill_container",
+                    "layout": "vertical",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "bwMwk",
+                        "name": "Sample clip title 3",
+                        "fill": "$brand.navy",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "วันหยุดของแก๊งเพื่อน",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 18,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "text",
+                        "id": "Hfl4B",
+                        "name": "Placeholder creator credit 3",
+                        "fill": "#6B7280",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้สร้างคลิปตัวอย่าง 03",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "jd2AS",
+                "name": "TikTok fixture 4 · idle cover and sample credit",
+                "width": 328,
+                "layout": "vertical",
+                "gap": 12,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "D0L3n",
+                    "name": "Portrait study cover 4 · not an actual TikTok thumbnail",
+                    "clip": true,
+                    "width": "fill_container",
+                    "height": 584,
+                    "fill": {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/generated-1.png",
+                      "mode": "cover"
+                    },
+                    "cornerRadius": 16,
+                    "layout": "none",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "rWqhU",
+                        "x": 136,
+                        "y": 264,
+                        "name": "Play clip 4 · 56px target · manual only",
+                        "width": 56,
+                        "height": 56,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 28,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "tKJ4Q",
+                            "name": "Play filled icon",
+                            "width": 22,
+                            "height": 22,
+                            "icon": "play-fill",
+                            "library": "phosphor",
+                            "fill": "$brand.navy"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "ilRLN",
+                    "name": "Clip title and creator sample",
+                    "width": "fill_container",
+                    "layout": "vertical",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "Kger7",
+                        "name": "Sample clip title 4",
+                        "fill": "$brand.navy",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "บ้านหลังใหญ่ พักด้วยกัน",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 18,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "text",
+                        "id": "FJt72",
+                        "name": "Placeholder creator credit 4",
+                        "fill": "#6B7280",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้สร้างคลิปตัวอย่าง 04",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "H1yyFJ",
+        "x": 56,
+        "y": 64,
+        "name": "HISTORY hidden r2 · 3D TikTok heading and navigation",
+        "enabled": false,
+        "width": 1328,
+        "justifyContent": "space_between",
+        "alignItems": "center",
+        "children": [
+          {
+            "type": "frame",
+            "id": "F2uqu",
+            "name": "3D TikTok heading group",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 8,
+            "children": [
+              {
+                "type": "text",
+                "id": "le6KM",
+                "name": "3D TikTok section heading",
+                "fill": "$brand.navy",
+                "content": "พาชมบ้าน ผ่าน TikTok",
+                "lineHeight": 1.4,
+                "fontFamily": "$font.primary",
+                "fontSize": 32
+              },
+              {
+                "type": "text",
+                "id": "n7H4i",
+                "name": "Curated TikTok introduction",
+                "fill": "$brand.navy",
+                "content": "คลิปคัดสรร เผื่อเจอมุมที่อยากไปพัก",
+                "lineHeight": 1.6,
+                "fontFamily": "$font.primary",
+                "fontSize": 16
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "TAaXc",
+            "name": "Select previous or next TikTok clip · 44px targets",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "frame",
+                "id": "mb1OG",
+                "name": "Previous TikTok clip · enabled in middle-position preview",
+                "width": 44,
+                "height": 44,
+                "fill": "#FFFFFF",
+                "cornerRadius": 22,
+                "stroke": "#072D5940",
+                "strokeWidth": 1,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "DAK1U",
+                    "name": "Previous TikTok clip icon",
+                    "width": 22,
+                    "height": 22,
+                    "icon": "chevron-left",
+                    "library": "lucide",
+                    "fill": "#072D59"
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "YbukO",
+                "name": "Next TikTok clip · enabled in middle-position preview",
+                "width": 44,
+                "height": 44,
+                "fill": "#FFFFFF",
+                "cornerRadius": 22,
+                "stroke": "#072D5940",
+                "strokeWidth": 1,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "jObSB",
+                    "name": "Next TikTok clip icon",
+                    "width": 22,
+                    "height": 22,
+                    "icon": "chevron-right",
+                    "library": "lucide",
+                    "fill": "#072D59"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "T9AAx",
+        "x": 56,
+        "y": 167,
+        "name": "HISTORY hidden r2 · Light-blue 3D video stage · projected card planes",
+        "enabled": false,
+        "clip": true,
+        "width": 1328,
+        "height": 704,
+        "fill": "$brand.light",
+        "cornerRadius": 28,
+        "layout": "none",
+        "children": [
+          {
+            "type": "ellipse",
+            "id": "MGDEt",
+            "x": 300,
+            "y": 578,
+            "name": "Ground contact shadow beneath floating clips",
+            "fill": "#072D5924",
+            "width": 728,
+            "height": 42,
+            "effect": {
+              "type": "blur",
+              "radius": 18
+            }
+          },
+          {
+            "type": "frame",
+            "id": "b0iCe",
+            "x": 150,
+            "y": 154,
+            "name": "Far left clip · depth level 2",
+            "width": 208,
+            "height": 370,
+            "fill": "#FFFFFF",
+            "cornerRadius": 20,
+            "effect": [
+              {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D5933",
+                "offset": {
+                  "x": 0,
+                  "y": 18
+                },
+                "blur": 30
+              },
+              {
+                "type": "shader",
+                "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_angle": 1,
+                  "u_distance": 1000,
+                  "u_scale": 0.88,
+                  "u_light": 0.84
+                }
+              }
+            ],
+            "layout": "none",
+            "children": [
+              {
+                "type": "frame",
+                "id": "bssQa",
+                "x": 4,
+                "y": 4,
+                "name": "Far left clip · depth level 2 · editable generated study cover",
+                "width": 200,
+                "height": 362,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-1.png",
+                  "mode": "cover"
+                },
+                "cornerRadius": 16,
+                "layout": "none"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "ARsSj",
+            "x": 970,
+            "y": 154,
+            "name": "Far right clip · depth level 2",
+            "width": 208,
+            "height": 370,
+            "fill": "#FFFFFF",
+            "cornerRadius": 20,
+            "effect": [
+              {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D5933",
+                "offset": {
+                  "x": 0,
+                  "y": 18
+                },
+                "blur": 30
+              },
+              {
+                "type": "shader",
+                "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_angle": -1,
+                  "u_distance": 1000,
+                  "u_scale": 0.88,
+                  "u_light": 0.84
+                }
+              }
+            ],
+            "layout": "none",
+            "children": [
+              {
+                "type": "frame",
+                "id": "NMaka",
+                "x": 4,
+                "y": 4,
+                "name": "Far right clip · depth level 2 · editable generated study cover",
+                "width": 200,
+                "height": 362,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-9.png",
+                  "mode": "cover"
+                },
+                "cornerRadius": 16,
+                "layout": "none"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "w4MK15",
+            "x": 240,
+            "y": 80,
+            "name": "Near left clip · depth level 1",
+            "width": 296,
+            "height": 526,
+            "fill": "#FFFFFF",
+            "cornerRadius": 20,
+            "effect": [
+              {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D5933",
+                "offset": {
+                  "x": 0,
+                  "y": 18
+                },
+                "blur": 30
+              },
+              {
+                "type": "shader",
+                "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_angle": 0.72,
+                  "u_distance": 1000,
+                  "u_scale": 0.9,
+                  "u_light": 0.94
+                }
+              }
+            ],
+            "layout": "none",
+            "children": [
+              {
+                "type": "frame",
+                "id": "ZAlk5",
+                "x": 4,
+                "y": 4,
+                "name": "Near left clip · depth level 1 · editable generated study cover",
+                "width": 288,
+                "height": 518,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-4.png",
+                  "mode": "cover"
+                },
+                "cornerRadius": 16,
+                "layout": "none"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "Z4hNuP",
+            "x": 792,
+            "y": 80,
+            "name": "Near right clip · depth level 1",
+            "width": 296,
+            "height": 526,
+            "fill": "#FFFFFF",
+            "cornerRadius": 20,
+            "effect": [
+              {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D5933",
+                "offset": {
+                  "x": 0,
+                  "y": 18
+                },
+                "blur": 30
+              },
+              {
+                "type": "shader",
+                "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_angle": -0.72,
+                  "u_distance": 1000,
+                  "u_scale": 0.9,
+                  "u_light": 0.94
+                }
+              }
+            ],
+            "layout": "none",
+            "children": [
+              {
+                "type": "frame",
+                "id": "RITWi",
+                "x": 4,
+                "y": 4,
+                "name": "Near right clip · depth level 1 · editable generated study cover",
+                "width": 288,
+                "height": 518,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-5.png",
+                  "mode": "cover"
+                },
+                "cornerRadius": 16,
+                "layout": "none"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "egf2q",
+            "x": 500,
+            "y": 32,
+            "name": "Selected front clip · manual play · native editable cover",
+            "width": 328,
+            "layout": "vertical",
+            "gap": 12,
+            "children": [
+              {
+                "type": "frame",
+                "id": "Bd1fC",
+                "name": "Portrait study cover 1 · not an actual TikTok thumbnail",
+                "clip": true,
+                "width": "fill_container",
+                "height": 584,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-3.png",
+                  "mode": "cover"
+                },
+                "cornerRadius": 20,
+                "effect": {
+                  "type": "shadow",
+                  "shadowType": "outer",
+                  "color": "#072D5940",
+                  "offset": {
+                    "x": 0,
+                    "y": 24
+                  },
+                  "blur": 40
+                },
+                "layout": "none",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "OEjYD",
+                    "x": 136,
+                    "y": 264,
+                    "name": "Play clip 1 · 56px target · manual only",
+                    "width": 56,
+                    "height": 56,
+                    "fill": "#FFFFFF",
+                    "cornerRadius": 28,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "WfwGO",
+                        "name": "Play filled icon",
+                        "width": 22,
+                        "height": 22,
+                        "icon": "play-fill",
+                        "library": "phosphor",
+                        "fill": "$brand.navy"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "QrXtJ",
+                "name": "Clip title and creator sample",
+                "width": "fill_container",
+                "layout": "vertical",
+                "gap": 4,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "B6BMET",
+                    "name": "Sample clip title 1",
+                    "fill": "$brand.navy",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "วันพักผ่อนริมสระ",
+                    "lineHeight": 1.5,
+                    "textAlign": "center",
+                    "fontFamily": "$font.primary",
+                    "fontSize": 18,
+                    "fontWeight": "500"
+                  },
+                  {
+                    "type": "text",
+                    "id": "MMVbI",
+                    "name": "Placeholder creator credit 1",
+                    "fill": "#53657C",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "ผู้สร้างคลิปตัวอย่าง 01",
+                    "lineHeight": 1.5,
+                    "textAlign": "center",
+                    "fontFamily": "$font.primary",
+                    "fontSize": 14
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "K6yOZ",
+        "name": "TikTok left narrative and browse action",
+        "width": 448,
+        "layout": "vertical",
+        "gap": 20,
+        "children": [
+          {
+            "type": "frame",
+            "id": "MUTMq",
+            "name": "Curated source label · no customer-proof claim",
+            "height": 30,
+            "fill": "#FFF5F7",
+            "cornerRadius": 15,
+            "padding": [
+              4,
+              12
+            ],
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "id": "sImjU",
+                "name": "Curated TikTok label",
+                "fill": "$brand.navy",
+                "content": "คลิปคัดสรรจาก TikTok",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 14
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "sGPy2",
+            "name": "TikTok split headline",
+            "fill": "$brand.navy",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "พาชมพูลวิลล่า\nก่อนออกไปพักด้วยกัน",
+            "lineHeight": 1.4,
+            "fontFamily": "$font.primary",
+            "fontSize": 32
+          },
+          {
+            "type": "text",
+            "id": "r35weq",
+            "name": "TikTok split supporting copy",
+            "fill": "#53657C",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "รวมคลิปพาชมบ้านและไอเดียวันพักผ่อน\nที่เราคัดมาให้ดู ก่อนเลือกมุมที่อยากไปพัก",
+            "lineHeight": 1.65,
+            "fontFamily": "$font.primary",
+            "fontSize": 16
+          },
+          {
+            "type": "frame",
+            "id": "kKjnl",
+            "name": "Browse all villas · static proposed existing Results entry · OPEN-001",
+            "width": 200,
+            "height": 52,
+            "fill": "$brand.pink",
+            "cornerRadius": 26,
+            "justifyContent": "center",
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "id": "JwZZG",
+                "name": "Browse all villas pink-white CTA reference",
+                "fill": "#FFFFFF",
+                "content": "ดูที่พักทั้งหมด",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 17,
+                "fontWeight": "500"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "ik5pv",
+        "name": "Right-hand depth stack on white · first clip selected",
+        "clip": true,
+        "width": 832,
+        "height": 640,
+        "layout": "none",
+        "children": [
+          {
+            "type": "frame",
+            "id": "YwLGg",
+            "x": 548,
+            "y": 104,
+            "name": "Farthest next clip preview",
+            "opacity": 0.48,
+            "width": 196,
+            "height": 348,
+            "fill": "#FFFFFF",
+            "cornerRadius": 18,
+            "effect": [
+              {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D5940",
+                "offset": {
+                  "x": 0,
+                  "y": 12
+                },
+                "blur": 26
+              },
+              {
+                "type": "shader",
+                "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_angle": 0.2,
+                  "u_distance": 1000,
+                  "u_scale": 0.99,
+                  "u_light": 0.92
+                }
+              }
+            ],
+            "layout": "none",
+            "children": [
+              {
+                "type": "frame",
+                "id": "Bmu3G",
+                "x": 3,
+                "y": 3,
+                "name": "Farthest next clip preview · generated study image",
+                "width": 190,
+                "height": 342,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-9.png",
+                  "mode": "cover"
+                },
+                "cornerRadius": 15,
+                "layout": "none"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "fJdIr",
+            "x": 438,
+            "y": 72,
+            "name": "Next clip behind selected card",
+            "opacity": 0.74,
+            "width": 248,
+            "height": 440,
+            "fill": "#FFFFFF",
+            "cornerRadius": 18,
+            "effect": [
+              {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D5940",
+                "offset": {
+                  "x": 0,
+                  "y": 12
+                },
+                "blur": 26
+              },
+              {
+                "type": "shader",
+                "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_angle": 0.27,
+                  "u_distance": 1000,
+                  "u_scale": 0.99,
+                  "u_light": 0.92
+                }
+              }
+            ],
+            "layout": "none",
+            "children": [
+              {
+                "type": "frame",
+                "id": "nwIZh",
+                "x": 3,
+                "y": 3,
+                "name": "Next clip behind selected card · generated study image",
+                "width": 242,
+                "height": 434,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-4.png",
+                  "mode": "cover"
+                },
+                "cornerRadius": 15,
+                "layout": "none"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "DMI3Q",
+            "x": 224,
+            "y": 28,
+            "name": "Front selected TikTok cover · manual-play study",
+            "clip": true,
+            "width": 296,
+            "height": 526,
+            "fill": {
+              "type": "image",
+              "enabled": true,
+              "url": "images/generated-3.png",
+              "mode": "cover"
+            },
+            "cornerRadius": 22,
+            "stroke": "$brand.pink",
+            "strokeWidth": 2,
+            "strokeAlignment": "inner",
+            "effect": {
+              "type": "shadow",
+              "shadowType": "outer",
+              "color": "#072D5940",
+              "offset": {
+                "x": 0,
+                "y": 24
+              },
+              "blur": 40
+            },
+            "layout": "none",
+            "children": [
+              {
+                "type": "frame",
+                "id": "wJENW",
+                "x": 120,
+                "y": 235,
+                "name": "Play selected clip · 56px manual target",
+                "width": 56,
+                "height": 56,
+                "fill": "#FFFFFF",
+                "cornerRadius": 28,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "Z0vd8I",
+                    "name": "Selected clip play icon",
+                    "width": 22,
+                    "height": 22,
+                    "icon": "play-fill",
+                    "library": "phosphor",
+                    "fill": "$brand.navy"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "MsA8h",
+            "x": 24,
+            "y": 268,
+            "name": "Previous clip · disabled at first",
+            "opacity": 0.35,
+            "width": 48,
+            "height": 48,
+            "fill": "#FFFFFF",
+            "cornerRadius": 14,
+            "effect": {
+              "type": "shadow",
+              "shadowType": "outer",
+              "color": "#072D5926",
+              "offset": {
+                "x": 0,
+                "y": 4
+              },
+              "blur": 18
+            },
+            "justifyContent": "center",
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "icon",
+                "id": "P5RrlI",
+                "name": "Previous clip · disabled at first icon",
+                "width": 20,
+                "height": 20,
+                "icon": "chevron-left",
+                "library": "lucide",
+                "fill": "$brand.navy"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "IivcO",
+            "x": 676,
+            "y": 268,
+            "name": "Next clip · select next cover",
+            "width": 48,
+            "height": 48,
+            "fill": "#FFFFFF",
+            "cornerRadius": 14,
+            "effect": {
+              "type": "shadow",
+              "shadowType": "outer",
+              "color": "#072D5926",
+              "offset": {
+                "x": 0,
+                "y": 4
+              },
+              "blur": 18
+            },
+            "justifyContent": "center",
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "icon",
+                "id": "XR7R6",
+                "name": "Next clip · select next cover icon",
+                "width": 20,
+                "height": 20,
+                "icon": "chevron-right",
+                "library": "lucide",
+                "fill": "$brand.navy"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "cYu0s",
+            "x": 328,
+            "y": 590,
+            "name": "Passive clip position indicators · first of five",
+            "height": 8,
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "rectangle",
+                "cornerRadius": 4,
+                "id": "e4olK",
+                "name": "Active position pill · Navy for visibility",
+                "fill": "$brand.navy",
+                "width": 24,
+                "height": 8
+              },
+              {
+                "type": "rectangle",
+                "cornerRadius": 4,
+                "id": "XgK6J",
+                "name": "Inactive position 2",
+                "fill": "#6B7280",
+                "width": 8,
+                "height": 8
+              },
+              {
+                "type": "rectangle",
+                "cornerRadius": 4,
+                "id": "L5BH6r",
+                "name": "Inactive position 3",
+                "fill": "#6B7280",
+                "width": 8,
+                "height": 8
+              },
+              {
+                "type": "rectangle",
+                "cornerRadius": 4,
+                "id": "fD1kd",
+                "name": "Inactive position 4",
+                "fill": "#6B7280",
+                "width": 8,
+                "height": 8
+              },
+              {
+                "type": "rectangle",
+                "cornerRadius": 4,
+                "id": "Eg2nL",
+                "name": "Inactive position 5",
+                "fill": "#6B7280",
+                "width": 8,
+                "height": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "after": {
+    "type": "frame",
+    "id": "MIdin",
+    "name": "TikTok split 3D stack · brand Navy background · r4",
+    "width": "fill_container",
+    "fill": "$brand.navy",
+    "gap": 48,
+    "padding": [
+      56,
+      56,
+      64,
+      56
+    ],
+    "alignItems": "center",
+    "children": [
+      {
+        "type": "frame",
+        "id": "G3aQki",
+        "x": 56,
+        "y": 279,
+        "name": "HISTORY hidden r2 · HISTORY hidden r1 · TikTok introduction and rail navigation",
+        "enabled": false,
+        "width": 256,
+        "layout": "vertical",
+        "gap": 24,
+        "children": [
+          {
+            "type": "text",
+            "id": "Qgp8C",
+            "name": "TikTok section heading",
+            "fill": "$brand.navy",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "พาชมบ้าน\nผ่าน TikTok",
+            "lineHeight": 1.4,
+            "fontFamily": "$font.primary",
+            "fontSize": 32
+          },
+          {
+            "type": "text",
+            "id": "ReLYK",
+            "name": "Curated clips introduction",
+            "fill": "$brand.navy",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "คลิปที่คัดมาให้ดู\nเผื่อเจอมุมที่อยากไปพัก",
+            "lineHeight": 1.6,
+            "fontFamily": "$font.primary",
+            "fontSize": 16
+          },
+          {
+            "type": "frame",
+            "id": "qigdz",
+            "name": "TikTok previous and next · visual rail controls",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "frame",
+                "id": "uH5Df",
+                "name": "Previous villas · disabled at start",
+                "opacity": 0.35,
+                "width": 44,
+                "height": 44,
+                "fill": "#FFFFFF",
+                "cornerRadius": 22,
+                "stroke": "#072D5940",
+                "strokeWidth": 1,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "pQPZr",
+                    "name": "Listing left arrow",
+                    "width": 22,
+                    "height": 22,
+                    "icon": "chevron-left",
+                    "library": "lucide",
+                    "fill": "#072D59"
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "jBmi8",
+                "name": "Next villas · move listing rail only",
+                "width": 44,
+                "height": 44,
+                "fill": "#FFFFFF",
+                "cornerRadius": 22,
+                "stroke": "#072D5940",
+                "strokeWidth": 1,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "bRkkp",
+                    "name": "Listing right arrow",
+                    "width": 22,
+                    "height": 22,
+                    "icon": "chevron-right",
+                    "library": "lucide",
+                    "fill": "#072D59"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "F4X6mj",
+        "x": 352,
+        "y": 72,
+        "name": "HISTORY hidden r2 · HISTORY hidden r1 · TikTok rail viewport · three full clips",
+        "enabled": false,
+        "clip": true,
+        "width": 1032,
+        "height": 648,
+        "layout": "none",
+        "children": [
+          {
+            "type": "frame",
+            "id": "qVFjS",
+            "x": 0,
+            "y": 0,
+            "name": "TikTok track · four fixture clips · manually curated",
+            "gap": 24,
+            "children": [
+              {
+                "type": "frame",
+                "id": "c7IE3X",
+                "name": "TikTok fixture 1 · idle cover and sample credit",
+                "width": 328,
+                "layout": "vertical",
+                "gap": 12,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "j85PE9",
+                    "name": "Portrait study cover 1 · not an actual TikTok thumbnail",
+                    "clip": true,
+                    "width": "fill_container",
+                    "height": 584,
+                    "fill": {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/generated-3.png",
+                      "mode": "cover"
+                    },
+                    "cornerRadius": 16,
+                    "layout": "none",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "F4Wre",
+                        "x": 136,
+                        "y": 264,
+                        "name": "Play clip 1 · 56px target · manual only",
+                        "width": 56,
+                        "height": 56,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 28,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "RaYDL",
+                            "name": "Play filled icon",
+                            "width": 22,
+                            "height": 22,
+                            "icon": "play-fill",
+                            "library": "phosphor",
+                            "fill": "$brand.navy"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "pgl0q",
+                    "name": "Clip title and creator sample",
+                    "width": "fill_container",
+                    "layout": "vertical",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "jWJpT",
+                        "name": "Sample clip title 1",
+                        "fill": "$brand.navy",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "วันพักผ่อนริมสระ",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 18,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "text",
+                        "id": "HZdrW",
+                        "name": "Placeholder creator credit 1",
+                        "fill": "#6B7280",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้สร้างคลิปตัวอย่าง 01",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "J4irV",
+                "name": "TikTok fixture 2 · idle cover and sample credit",
+                "width": 328,
+                "layout": "vertical",
+                "gap": 12,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "fQBE9",
+                    "name": "Portrait study cover 2 · not an actual TikTok thumbnail",
+                    "clip": true,
+                    "width": "fill_container",
+                    "height": 584,
+                    "fill": {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/generated-4.png",
+                      "mode": "cover"
+                    },
+                    "cornerRadius": 16,
+                    "layout": "none",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "Sdm5G",
+                        "x": 136,
+                        "y": 264,
+                        "name": "Play clip 2 · 56px target · manual only",
+                        "width": 56,
+                        "height": 56,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 28,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "H0JpiR",
+                            "name": "Play filled icon",
+                            "width": 22,
+                            "height": 22,
+                            "icon": "play-fill",
+                            "library": "phosphor",
+                            "fill": "$brand.navy"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "CMFT3",
+                    "name": "Clip title and creator sample",
+                    "width": "fill_container",
+                    "layout": "vertical",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "zppaC",
+                        "name": "Sample clip title 2",
+                        "fill": "$brand.navy",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "มุมสงบที่อยากไปพัก",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 18,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "text",
+                        "id": "mqTTp",
+                        "name": "Placeholder creator credit 2",
+                        "fill": "#6B7280",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้สร้างคลิปตัวอย่าง 02",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "spxY1",
+                "name": "TikTok fixture 3 · idle cover and sample credit",
+                "width": 328,
+                "layout": "vertical",
+                "gap": 12,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "Ht1Uq",
+                    "name": "Portrait study cover 3 · not an actual TikTok thumbnail",
+                    "clip": true,
+                    "width": "fill_container",
+                    "height": 584,
+                    "fill": {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/generated-5.png",
+                      "mode": "cover"
+                    },
+                    "cornerRadius": 16,
+                    "layout": "none",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "CDDrf",
+                        "x": 136,
+                        "y": 264,
+                        "name": "Play clip 3 · 56px target · manual only",
+                        "width": 56,
+                        "height": 56,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 28,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "B4laT",
+                            "name": "Play filled icon",
+                            "width": 22,
+                            "height": 22,
+                            "icon": "play-fill",
+                            "library": "phosphor",
+                            "fill": "$brand.navy"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "kOMck",
+                    "name": "Clip title and creator sample",
+                    "width": "fill_container",
+                    "layout": "vertical",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "bwMwk",
+                        "name": "Sample clip title 3",
+                        "fill": "$brand.navy",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "วันหยุดของแก๊งเพื่อน",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 18,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "text",
+                        "id": "Hfl4B",
+                        "name": "Placeholder creator credit 3",
+                        "fill": "#6B7280",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้สร้างคลิปตัวอย่าง 03",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "jd2AS",
+                "name": "TikTok fixture 4 · idle cover and sample credit",
+                "width": 328,
+                "layout": "vertical",
+                "gap": 12,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "D0L3n",
+                    "name": "Portrait study cover 4 · not an actual TikTok thumbnail",
+                    "clip": true,
+                    "width": "fill_container",
+                    "height": 584,
+                    "fill": {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/generated-1.png",
+                      "mode": "cover"
+                    },
+                    "cornerRadius": 16,
+                    "layout": "none",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "rWqhU",
+                        "x": 136,
+                        "y": 264,
+                        "name": "Play clip 4 · 56px target · manual only",
+                        "width": 56,
+                        "height": 56,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 28,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "tKJ4Q",
+                            "name": "Play filled icon",
+                            "width": 22,
+                            "height": 22,
+                            "icon": "play-fill",
+                            "library": "phosphor",
+                            "fill": "$brand.navy"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "ilRLN",
+                    "name": "Clip title and creator sample",
+                    "width": "fill_container",
+                    "layout": "vertical",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "Kger7",
+                        "name": "Sample clip title 4",
+                        "fill": "$brand.navy",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "บ้านหลังใหญ่ พักด้วยกัน",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 18,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "text",
+                        "id": "FJt72",
+                        "name": "Placeholder creator credit 4",
+                        "fill": "#6B7280",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้สร้างคลิปตัวอย่าง 04",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "H1yyFJ",
+        "x": 56,
+        "y": 64,
+        "name": "HISTORY hidden r2 · 3D TikTok heading and navigation",
+        "enabled": false,
+        "width": 1328,
+        "justifyContent": "space_between",
+        "alignItems": "center",
+        "children": [
+          {
+            "type": "frame",
+            "id": "F2uqu",
+            "name": "3D TikTok heading group",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 8,
+            "children": [
+              {
+                "type": "text",
+                "id": "le6KM",
+                "name": "3D TikTok section heading",
+                "fill": "$brand.navy",
+                "content": "พาชมบ้าน ผ่าน TikTok",
+                "lineHeight": 1.4,
+                "fontFamily": "$font.primary",
+                "fontSize": 32
+              },
+              {
+                "type": "text",
+                "id": "n7H4i",
+                "name": "Curated TikTok introduction",
+                "fill": "$brand.navy",
+                "content": "คลิปคัดสรร เผื่อเจอมุมที่อยากไปพัก",
+                "lineHeight": 1.6,
+                "fontFamily": "$font.primary",
+                "fontSize": 16
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "TAaXc",
+            "name": "Select previous or next TikTok clip · 44px targets",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "frame",
+                "id": "mb1OG",
+                "name": "Previous TikTok clip · enabled in middle-position preview",
+                "width": 44,
+                "height": 44,
+                "fill": "#FFFFFF",
+                "cornerRadius": 22,
+                "stroke": "#072D5940",
+                "strokeWidth": 1,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "DAK1U",
+                    "name": "Previous TikTok clip icon",
+                    "width": 22,
+                    "height": 22,
+                    "icon": "chevron-left",
+                    "library": "lucide",
+                    "fill": "#072D59"
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "YbukO",
+                "name": "Next TikTok clip · enabled in middle-position preview",
+                "width": 44,
+                "height": 44,
+                "fill": "#FFFFFF",
+                "cornerRadius": 22,
+                "stroke": "#072D5940",
+                "strokeWidth": 1,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "jObSB",
+                    "name": "Next TikTok clip icon",
+                    "width": 22,
+                    "height": 22,
+                    "icon": "chevron-right",
+                    "library": "lucide",
+                    "fill": "#072D59"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "T9AAx",
+        "x": 56,
+        "y": 167,
+        "name": "HISTORY hidden r2 · Light-blue 3D video stage · projected card planes",
+        "enabled": false,
+        "clip": true,
+        "width": 1328,
+        "height": 704,
+        "fill": "$brand.light",
+        "cornerRadius": 28,
+        "layout": "none",
+        "children": [
+          {
+            "type": "ellipse",
+            "id": "MGDEt",
+            "x": 300,
+            "y": 578,
+            "name": "Ground contact shadow beneath floating clips",
+            "fill": "#072D5924",
+            "width": 728,
+            "height": 42,
+            "effect": {
+              "type": "blur",
+              "radius": 18
+            }
+          },
+          {
+            "type": "frame",
+            "id": "b0iCe",
+            "x": 150,
+            "y": 154,
+            "name": "Far left clip · depth level 2",
+            "width": 208,
+            "height": 370,
+            "fill": "#FFFFFF",
+            "cornerRadius": 20,
+            "effect": [
+              {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D5933",
+                "offset": {
+                  "x": 0,
+                  "y": 18
+                },
+                "blur": 30
+              },
+              {
+                "type": "shader",
+                "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_angle": 1,
+                  "u_distance": 1000,
+                  "u_scale": 0.88,
+                  "u_light": 0.84
+                }
+              }
+            ],
+            "layout": "none",
+            "children": [
+              {
+                "type": "frame",
+                "id": "bssQa",
+                "x": 4,
+                "y": 4,
+                "name": "Far left clip · depth level 2 · editable generated study cover",
+                "width": 200,
+                "height": 362,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-1.png",
+                  "mode": "cover"
+                },
+                "cornerRadius": 16,
+                "layout": "none"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "ARsSj",
+            "x": 970,
+            "y": 154,
+            "name": "Far right clip · depth level 2",
+            "width": 208,
+            "height": 370,
+            "fill": "#FFFFFF",
+            "cornerRadius": 20,
+            "effect": [
+              {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D5933",
+                "offset": {
+                  "x": 0,
+                  "y": 18
+                },
+                "blur": 30
+              },
+              {
+                "type": "shader",
+                "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_angle": -1,
+                  "u_distance": 1000,
+                  "u_scale": 0.88,
+                  "u_light": 0.84
+                }
+              }
+            ],
+            "layout": "none",
+            "children": [
+              {
+                "type": "frame",
+                "id": "NMaka",
+                "x": 4,
+                "y": 4,
+                "name": "Far right clip · depth level 2 · editable generated study cover",
+                "width": 200,
+                "height": 362,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-9.png",
+                  "mode": "cover"
+                },
+                "cornerRadius": 16,
+                "layout": "none"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "w4MK15",
+            "x": 240,
+            "y": 80,
+            "name": "Near left clip · depth level 1",
+            "width": 296,
+            "height": 526,
+            "fill": "#FFFFFF",
+            "cornerRadius": 20,
+            "effect": [
+              {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D5933",
+                "offset": {
+                  "x": 0,
+                  "y": 18
+                },
+                "blur": 30
+              },
+              {
+                "type": "shader",
+                "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_angle": 0.72,
+                  "u_distance": 1000,
+                  "u_scale": 0.9,
+                  "u_light": 0.94
+                }
+              }
+            ],
+            "layout": "none",
+            "children": [
+              {
+                "type": "frame",
+                "id": "ZAlk5",
+                "x": 4,
+                "y": 4,
+                "name": "Near left clip · depth level 1 · editable generated study cover",
+                "width": 288,
+                "height": 518,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-4.png",
+                  "mode": "cover"
+                },
+                "cornerRadius": 16,
+                "layout": "none"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "Z4hNuP",
+            "x": 792,
+            "y": 80,
+            "name": "Near right clip · depth level 1",
+            "width": 296,
+            "height": 526,
+            "fill": "#FFFFFF",
+            "cornerRadius": 20,
+            "effect": [
+              {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D5933",
+                "offset": {
+                  "x": 0,
+                  "y": 18
+                },
+                "blur": 30
+              },
+              {
+                "type": "shader",
+                "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_angle": -0.72,
+                  "u_distance": 1000,
+                  "u_scale": 0.9,
+                  "u_light": 0.94
+                }
+              }
+            ],
+            "layout": "none",
+            "children": [
+              {
+                "type": "frame",
+                "id": "RITWi",
+                "x": 4,
+                "y": 4,
+                "name": "Near right clip · depth level 1 · editable generated study cover",
+                "width": 288,
+                "height": 518,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-5.png",
+                  "mode": "cover"
+                },
+                "cornerRadius": 16,
+                "layout": "none"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "egf2q",
+            "x": 500,
+            "y": 32,
+            "name": "Selected front clip · manual play · native editable cover",
+            "width": 328,
+            "layout": "vertical",
+            "gap": 12,
+            "children": [
+              {
+                "type": "frame",
+                "id": "Bd1fC",
+                "name": "Portrait study cover 1 · not an actual TikTok thumbnail",
+                "clip": true,
+                "width": "fill_container",
+                "height": 584,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-3.png",
+                  "mode": "cover"
+                },
+                "cornerRadius": 20,
+                "effect": {
+                  "type": "shadow",
+                  "shadowType": "outer",
+                  "color": "#072D5940",
+                  "offset": {
+                    "x": 0,
+                    "y": 24
+                  },
+                  "blur": 40
+                },
+                "layout": "none",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "OEjYD",
+                    "x": 136,
+                    "y": 264,
+                    "name": "Play clip 1 · 56px target · manual only",
+                    "width": 56,
+                    "height": 56,
+                    "fill": "#FFFFFF",
+                    "cornerRadius": 28,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "WfwGO",
+                        "name": "Play filled icon",
+                        "width": 22,
+                        "height": 22,
+                        "icon": "play-fill",
+                        "library": "phosphor",
+                        "fill": "$brand.navy"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "QrXtJ",
+                "name": "Clip title and creator sample",
+                "width": "fill_container",
+                "layout": "vertical",
+                "gap": 4,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "B6BMET",
+                    "name": "Sample clip title 1",
+                    "fill": "$brand.navy",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "วันพักผ่อนริมสระ",
+                    "lineHeight": 1.5,
+                    "textAlign": "center",
+                    "fontFamily": "$font.primary",
+                    "fontSize": 18,
+                    "fontWeight": "500"
+                  },
+                  {
+                    "type": "text",
+                    "id": "MMVbI",
+                    "name": "Placeholder creator credit 1",
+                    "fill": "#53657C",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "ผู้สร้างคลิปตัวอย่าง 01",
+                    "lineHeight": 1.5,
+                    "textAlign": "center",
+                    "fontFamily": "$font.primary",
+                    "fontSize": 14
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "K6yOZ",
+        "name": "TikTok left narrative and browse action",
+        "width": 448,
+        "layout": "vertical",
+        "gap": 20,
+        "children": [
+          {
+            "type": "frame",
+            "id": "MUTMq",
+            "name": "Curated source label · no customer-proof claim",
+            "height": 30,
+            "fill": "#FFF5F7",
+            "cornerRadius": 15,
+            "padding": [
+              4,
+              12
+            ],
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "id": "sImjU",
+                "name": "Curated TikTok label",
+                "fill": "$brand.navy",
+                "content": "คลิปคัดสรรจาก TikTok",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 14
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "sGPy2",
+            "name": "TikTok split headline",
+            "fill": "#FFFFFF",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "พาชมพูลวิลล่า\nก่อนออกไปพักด้วยกัน",
+            "lineHeight": 1.4,
+            "fontFamily": "$font.primary",
+            "fontSize": 32
+          },
+          {
+            "type": "text",
+            "id": "r35weq",
+            "name": "TikTok split supporting copy",
+            "fill": "$brand.light",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "รวมคลิปพาชมบ้านและไอเดียวันพักผ่อน\nที่เราคัดมาให้ดู ก่อนเลือกมุมที่อยากไปพัก",
+            "lineHeight": 1.65,
+            "fontFamily": "$font.primary",
+            "fontSize": 16
+          },
+          {
+            "type": "frame",
+            "id": "kKjnl",
+            "name": "Browse all villas · static proposed existing Results entry · OPEN-001",
+            "width": 200,
+            "height": 52,
+            "fill": "$brand.pink",
+            "cornerRadius": 26,
+            "justifyContent": "center",
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "id": "JwZZG",
+                "name": "Browse all villas pink-white CTA reference",
+                "fill": "#FFFFFF",
+                "content": "ดูที่พักทั้งหมด",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 17,
+                "fontWeight": "500"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "ik5pv",
+        "name": "Right-hand depth stack on Navy · first clip selected",
+        "clip": true,
+        "width": 832,
+        "height": 640,
+        "layout": "none",
+        "children": [
+          {
+            "type": "frame",
+            "id": "YwLGg",
+            "x": 548,
+            "y": 104,
+            "name": "Farthest next clip preview",
+            "opacity": 0.48,
+            "width": 196,
+            "height": 348,
+            "fill": "#FFFFFF",
+            "cornerRadius": 18,
+            "effect": [
+              {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D5940",
+                "offset": {
+                  "x": 0,
+                  "y": 12
+                },
+                "blur": 26
+              },
+              {
+                "type": "shader",
+                "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_angle": 0.2,
+                  "u_distance": 1000,
+                  "u_scale": 0.99,
+                  "u_light": 0.92
+                }
+              }
+            ],
+            "layout": "none",
+            "children": [
+              {
+                "type": "frame",
+                "id": "Bmu3G",
+                "x": 3,
+                "y": 3,
+                "name": "Farthest next clip preview · generated study image",
+                "width": 190,
+                "height": 342,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-9.png",
+                  "mode": "cover"
+                },
+                "cornerRadius": 15,
+                "layout": "none"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "fJdIr",
+            "x": 438,
+            "y": 72,
+            "name": "Next clip behind selected card",
+            "opacity": 0.74,
+            "width": 248,
+            "height": 440,
+            "fill": "#FFFFFF",
+            "cornerRadius": 18,
+            "effect": [
+              {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#072D5940",
+                "offset": {
+                  "x": 0,
+                  "y": 12
+                },
+                "blur": 26
+              },
+              {
+                "type": "shader",
+                "url": "images/dsd-001-tiktok-depth-r2.glsl",
+                "uniforms": {
+                  "u_content": "pencil:object",
+                  "u_angle": 0.27,
+                  "u_distance": 1000,
+                  "u_scale": 0.99,
+                  "u_light": 0.92
+                }
+              }
+            ],
+            "layout": "none",
+            "children": [
+              {
+                "type": "frame",
+                "id": "nwIZh",
+                "x": 3,
+                "y": 3,
+                "name": "Next clip behind selected card · generated study image",
+                "width": 242,
+                "height": 434,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-4.png",
+                  "mode": "cover"
+                },
+                "cornerRadius": 15,
+                "layout": "none"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "DMI3Q",
+            "x": 224,
+            "y": 28,
+            "name": "Front selected TikTok cover · manual-play study",
+            "clip": true,
+            "width": 296,
+            "height": 526,
+            "fill": {
+              "type": "image",
+              "enabled": true,
+              "url": "images/generated-3.png",
+              "mode": "cover"
+            },
+            "cornerRadius": 22,
+            "stroke": "$brand.pink",
+            "strokeWidth": 2,
+            "strokeAlignment": "inner",
+            "effect": {
+              "type": "shadow",
+              "shadowType": "outer",
+              "color": "#072D5940",
+              "offset": {
+                "x": 0,
+                "y": 24
+              },
+              "blur": 40
+            },
+            "layout": "none",
+            "children": [
+              {
+                "type": "frame",
+                "id": "wJENW",
+                "x": 120,
+                "y": 235,
+                "name": "Play selected clip · 56px manual target",
+                "width": 56,
+                "height": 56,
+                "fill": "#FFFFFF",
+                "cornerRadius": 28,
+                "justifyContent": "center",
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "icon",
+                    "id": "Z0vd8I",
+                    "name": "Selected clip play icon",
+                    "width": 22,
+                    "height": 22,
+                    "icon": "play-fill",
+                    "library": "phosphor",
+                    "fill": "$brand.navy"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "MsA8h",
+            "x": 24,
+            "y": 268,
+            "name": "Previous clip · disabled at first",
+            "opacity": 0.35,
+            "width": 48,
+            "height": 48,
+            "fill": "#FFFFFF",
+            "cornerRadius": 14,
+            "effect": {
+              "type": "shadow",
+              "shadowType": "outer",
+              "color": "#072D5926",
+              "offset": {
+                "x": 0,
+                "y": 4
+              },
+              "blur": 18
+            },
+            "justifyContent": "center",
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "icon",
+                "id": "P5RrlI",
+                "name": "Previous clip · disabled at first icon",
+                "width": 20,
+                "height": 20,
+                "icon": "chevron-left",
+                "library": "lucide",
+                "fill": "$brand.navy"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "IivcO",
+            "x": 676,
+            "y": 268,
+            "name": "Next clip · select next cover",
+            "width": 48,
+            "height": 48,
+            "fill": "#FFFFFF",
+            "cornerRadius": 14,
+            "effect": {
+              "type": "shadow",
+              "shadowType": "outer",
+              "color": "#072D5926",
+              "offset": {
+                "x": 0,
+                "y": 4
+              },
+              "blur": 18
+            },
+            "justifyContent": "center",
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "icon",
+                "id": "XR7R6",
+                "name": "Next clip · select next cover icon",
+                "width": 20,
+                "height": 20,
+                "icon": "chevron-right",
+                "library": "lucide",
+                "fill": "$brand.navy"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "cYu0s",
+            "x": 328,
+            "y": 590,
+            "name": "Passive clip position indicators · first of five",
+            "height": 8,
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "rectangle",
+                "cornerRadius": 4,
+                "id": "e4olK",
+                "name": "Active position pill · Pink on Navy",
+                "fill": "$brand.pink",
+                "width": 24,
+                "height": 8
+              },
+              {
+                "type": "rectangle",
+                "cornerRadius": 4,
+                "id": "XgK6J",
+                "name": "Inactive position 2",
+                "opacity": 0.55,
+                "fill": "$brand.light",
+                "width": 8,
+                "height": 8
+              },
+              {
+                "type": "rectangle",
+                "cornerRadius": 4,
+                "id": "L5BH6r",
+                "name": "Inactive position 3",
+                "opacity": 0.55,
+                "fill": "$brand.light",
+                "width": 8,
+                "height": 8
+              },
+              {
+                "type": "rectangle",
+                "cornerRadius": 4,
+                "id": "fD1kd",
+                "name": "Inactive position 4",
+                "opacity": 0.55,
+                "fill": "$brand.light",
+                "width": 8,
+                "height": 8
+              },
+              {
+                "type": "rectangle",
+                "cornerRadius": 4,
+                "id": "Eg2nL",
+                "name": "Inactive position 5",
+                "opacity": 0.55,
+                "fill": "$brand.light",
+                "width": 8,
+                "height": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

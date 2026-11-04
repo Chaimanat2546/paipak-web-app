@@ -1,0 +1,85 @@
+{
+  "version": "TikTok-states-r3",
+  "task": "DSD-001",
+  "status": "owner_accepted_tiktok_state_design",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "owner_confirmed_changes": [
+    "Playing, Paused and Buffering use native TikTok player UI; no custom playback state controls",
+    "Exactly one previous clip appears left of the selected/playing clip in middle and last positions"
+  ],
+  "native_player_states": {
+    "playing": "TikTok-owned",
+    "paused": "TikTok-owned",
+    "buffering": "TikTok-owned"
+  },
+  "retired_custom_schematics": [
+    "y8Gp9",
+    "ZPna1",
+    "kXsfW"
+  ],
+  "source_home": "Oftfq",
+  "home_unchanged": true,
+  "variables_unchanged": true,
+  "states": [
+    {
+      "key": "middle",
+      "board": "nXylc",
+      "section": "Mc8Rp",
+      "stage": "tsoj5",
+      "front": "C1Dsh0",
+      "previous": "o0oVpd",
+      "png": "nXylc.png",
+      "section_png": "Mc8Rp.png"
+    },
+    {
+      "key": "last",
+      "board": "PUm76",
+      "section": "cadzh",
+      "stage": "O6O8L0",
+      "front": "l9lZM",
+      "previous": "NXN2N",
+      "png": "PUm76.png",
+      "section_png": "cadzh.png"
+    },
+    {
+      "key": "first",
+      "board": "hAYhj",
+      "section": "v9qG0",
+      "stage": "c76xOP",
+      "front": "rFbzY",
+      "png": "hAYhj.png",
+      "section_png": "v9qG0.png"
+    }
+  ],
+  "fixture_sequence": [
+    "images/generated-3.png",
+    "images/generated-5.png",
+    "images/generated-4.png",
+    "images/generated-1.png",
+    "images/generated-9.png"
+  ],
+  "previous_preview_count": {
+    "first": 0,
+    "middle": 1,
+    "last": 1
+  },
+  "current_selection_indices": {
+    "first": 0,
+    "middle": 2,
+    "last": 4
+  },
+  "current_native_start_node": "nXylc",
+  "unchanged_states": "Retained r2 host-state visuals included in bounded TikTok design acceptance; unreviewed proposed runtime policies remain proposed",
+  "functional_prototype": false,
+  "mobile": "paused",
+  "frontend": "not_authorized",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "whole_canvas": {
+    "nodes": 37304,
+    "roots": 137
+  },
+  "owner_acceptance": "owner-acceptance.json",
+  "owner_quote": "โอเคครบละ"
+}

@@ -1,0 +1,81 @@
+# DSD-001 — Responsive visual guidelines
+
+> สถานะล่าสุด: เจ้าของเลือก A / review-2 แทน B กฎ B hero/inset ด้านล่างเป็นร่างก่อนเปลี่ยนทิศทาง ห้ามใช้เป็น current A baseline แบบ [pencil-A-1](pencil-A-1/README.md) ใช้ panoramic photo, หัวเรื่องบนพื้นที่สว่างของภาพ, ขอบสระโค้ง และ centered search; มือถือใช้ภาพจัดองค์ประกอบใหม่และไม่มี collage inset ยังต้องทบทวน matrix และตรวจรับแยก
+
+รุ่น `foundation-1` · **PROPOSED / รอตรวจรับ** · ใช้ Direction B / review-2 ที่ผ่าน G1
+
+คู่มือนี้กำหนดภาษาภาพและขอบเขตการปรับตามพื้นที่ ไม่สร้างหรือแก้ Wireframe/interaction spec ของ UXD-002 และไม่ถือว่า review-5 ผ่าน G2 แล้ว
+
+## Frame และ density
+
+ใช้กรอบซ้าย/ขวาเท่ากันภายในแต่ละ template เสนอ marketplace content สูงสุด 1440px, detail 1200px และ reading measure 680px พื้นหลักขาว ไม่เติม background สลับ section เพื่อทำให้ดูมีจังหวะ
+
+| Width อ้างอิง | Outer gutter ต่อด้าน | Home grid | Content width โดยประมาณ |
+|---:|---:|---:|---:|
+| 320 | 16 | 1 | 288 |
+| 390 | 24 | 1 | 342 |
+| 768 | 32 | 2 | 704 |
+| 1024 | 40 | 3 | 944 |
+| 1280 | 48 | 4 | 1184 |
+| 1440 | 64 | 4 | 1312 |
+| 1536 | 64 | 4 | 1408 |
+
+ตารางเป็น target design matrix ไม่ใช่ผลทดสอบ viewport จริง ระหว่างจุดอ้างอิงให้ปรับ gutters แบบ fluid โดยไม่ลดพื้นที่กดหรือบีบ card copy
+
+Grid ใช้พื้นที่ content ที่มีจริงหลังหัก sidebar ไม่ใช้ชื่อ breakpoint อย่างเดียว เสนอ card minimum 250px เมื่อมีหลายคอลัมน์; gutter 16/20/24 ตามช่วงจอ หากใส่สี่คอลัมน์แล้วต่ำกว่านี้ให้ลดจำนวนคอลัมน์
+
+Results sidebar ที่มีอยู่ใน selected layout ใช้พื้นที่เสนอ 264px + gap 24px: ที่ viewport 1280 มีพื้นที่ grid ประมาณ 896px จึงใช้สามคอลัมน์; ที่ 1536 เหลือประมาณ 1120px จึงรองรับสี่คอลัมน์ ไม่มีการบังคับ Results ให้เป็นสี่คอลัมน์เมื่อข้อมูลถูกบีบ Sidebar/drawer behavior ยึดงาน UX ที่เกี่ยวข้อง
+
+## B hero composition
+
+### Desktop
+
+- รักษาหัวเรื่องที่มี lead/continuation และภาพ villa หลักเป็นองค์ประกอบเดียวกัน; ใช้ความไม่สมมาตรภายในกรอบที่มี outer margins เท่ากัน
+- Hero image cut ใช้ radius ขนาดใหญ่เฉพาะมุมตามทิศทาง B ภาพ inset ซ้อนภาพหลักได้ แต่ไม่ทับ headline, search, category หรือพื้นที่กด
+- ภาพ inset เป็นรายละเอียดจากชุดภาพที่สัมพันธ์กันจริง ถ้าเป็นภาพ mood หลายที่ต้องไม่สื่อว่าเป็นบ้านเดียวกัน
+- Unified search อยู่กึ่งกลางส่วนล่างของ hero ตาม selected layout พื้นผิวอ่านได้แม้รูปด้านหลังสว่าง/มืด ไม่ใช้ transparency เป็นข้ออ้างให้ contrast ตก
+- ไม่มี min-height เต็ม viewport ที่บัง discovery เป้าหมายคือเห็นชื่อ section และอย่างน้อยส่วนบนของแถวบ้านใน first viewport ปกติ ต้องตรวจจริงใน UID task
+
+### Tablet และ Mobile
+
+- จัด hero ใหม่ตามพื้นที่ ไม่ย่อทุกอย่างพร้อมกัน หัวเรื่องยังเป็นจุดเริ่มอ่านและใช้ Mitr; ภาพหลักยังนำสายตา
+- ลด inset และ overlap เมื่อพื้นที่ไม่พอ ที่ 320px อนุญาตให้ตัด inset เชิงตกแต่งออกโดยไม่ทำข้อมูลบ้านหรือ search หาย
+- Mobile search เป็น entry presentation ตาม UX ที่เกี่ยวข้อง วันที่และจำนวนคนยัง optional; ไม่ออกแบบ expanded picker/validation ใหม่ในคู่มือนี้
+- หมวดเป็น flat icon+label เจ็ดหมวดใน inventory หากนำเสนอเป็นแถบแนวนอนต้องมี affordance ว่ายังมีรายการต่อและกด/โฟกัสได้ครบ ไม่ย่อเจ็ด labels จนอ่านไม่ได้
+- Card เป็นหนึ่งคอลัมน์บนจอแคบ ภาพ ชื่อบ้าน ราคาเริ่มต้น ทำเล/ความจุ และข้อมูลจำเป็นยังเข้าถึงได้
+- การเปลี่ยน pattern ของ auth, filter drawer, sticky booking CTA, member checkout และ navigation ต้องยึด selected UX; geometry สุดท้ายให้ตรวจใน UXD-002/DSD-002/UID ที่ผู้ใช้เลือก
+
+## Imagery specification
+
+| Role | Ratio ตั้งต้น | Crop / safe area |
+|---|---|---|
+| Hero main photo B | 3:2 | มีพื้นที่สำหรับ architecture/pool; curve cut ไม่ตัดส่วนสำคัญของบ้าน |
+| Hero detail inset | 4:3 | ไม่มีข้อความ/controls ในภาพ ไม่ใช้ภาพที่ทำให้เข้าใจ property identity ผิด |
+| Property card | 3:2 | ใช้ ratio เดียวกันภายในแถว; ตรวจ crop รายภาพ ไม่ใช้ center crop กับทุกภาพโดยไม่ดู |
+| Gallery/detail | ยึด selected detail layout | ไม่บังคับนำ hero collage ไปใช้แทน gallery grid |
+
+เว้น safe area จากขอบภาพสำหรับ badge/controls อย่างน้อย 12px โดย target กดหลัก 44px ไม่บังจุดสำคัญของบ้าน Favorite และ carousel controls ต้องแยก action จากการเปิด Detail และไม่ทำให้ข้อความหรือลูกศรละลายบนภาพ
+
+ภาพไม่ครบ: ถ้าไม่มี hero detail ที่ตรวจแล้ว ใช้ main photo เดียวพร้อม rhythm ของ B; ภาพ listing ไม่พร้อมใช้ fallback ที่บอกตามจริง ไม่สร้างภาพแทน listing โดยทำให้เข้าใจว่าเป็นบ้านจริง ไม่แต่ง rating, promotion หรือ availability เพิ่ม
+
+รูปใน review-2 เป็นภาพสร้างขึ้นสำหรับศึกษาเท่านั้น ไม่ใช่ approved production library
+
+## Content และ accessibility checks
+
+| Case | Target outcome | สถานะ |
+|---|---|---|
+| Thai title ยาวสองบรรทัด | ไม่บังราคา/controls; เข้าถึงชื่อเต็มได้ | target; ยังไม่ runtime test |
+| ไม่มีราคา/ข้อมูลไม่ครบ | มี truthful fallback; ไม่เปลี่ยนเป็น 0 หรือยืนยัน availability | target |
+| 320px / 200% text zoom | ไม่มี horizontal page overflow ที่ขวางงานหลัก; overlays/ข้อความสำคัญไม่ถูกตัด | target; ยังไม่ทดสอบจริง |
+| Keyboard / focus | focus เห็นและไม่ถูก layer ซ้อนบัง; หมวด/รูป/search ใช้งานได้ | target; ทดสอบภายหลัง |
+| Reduced motion | เนื้อหาอยู่ครบ ใช้ static composition ไม่มี autoplay/travel | specification; ยังไม่ runtime test |
+| Contrast | ใช้คู่สีใน token sheet; ตรวจจริงบนภาพและทุก state | nominal pairs เท่านั้น |
+
+เป้าหมายตรวจ responsive คือ 320, 390, 768, 1024, 1280, 1440 และ 1536px พร้อม text zoom, keyboard และ content extremes ภาพ raster ไม่ใช่หลักฐานว่าทั้ง matrix ผ่านแล้ว
+
+## ขอบเขตการส่งต่อ
+
+- UXD-002 อ้างอิง **B / review-2 ผ่าน G1** ได้เมื่อผู้ใช้เลือกกลับไปทำ Task นั้น ต้องทบทวน alignment และรับรอง G2 แยก
+- DSD-002 ต้องรอ foundation specifications ที่เจ้าของอนุมัติจริงร่วมกับ UXD-002 ตาม dependency ไม่ใช่รับ G1 ไปแทน foundation completion
+- หน้า Detail/Checkout/Profile ใช้ tokens ร่วมกัน แต่ไม่ถูกบังคับใช้ collage ของ Home
+- ไม่มี application CSS, breakpoint code, components หรือ frontend runtime ถูกเปลี่ยนจากเอกสารนี้

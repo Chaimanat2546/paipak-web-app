@@ -1,0 +1,2343 @@
+{
+  "version": "Home guided review / 2B.1 / Photo-quiet-r1",
+  "status": "revised_pending_owner_review",
+  "changedNodes": [
+    {
+      "id": "buR4y",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "kQTno",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "kCwqi",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "ngr5J",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "wu9CW",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "uIhZZ",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "yALul",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "i7zASy",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "RRzWb",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "eIJS2",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "d75Xp",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "lJSk8",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "YHXi9",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "Oi4DT",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "NQDMS",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "QCg6V",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "e9DCu6",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "B2CFk",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "Snk5m",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "mcfX3",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "YfZcJ",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "QF6uL",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "JpfP5",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "x5lBZ",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "G3ppQ",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "EtFuK",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "BGsA0",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "p2nkMG",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "gHdF5",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "ApQFV",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "W7ZJg",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "Ts52n",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "nMzoq",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "gWxpz",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "TvB4P",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "cwj4A",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "o7u85A",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "qKlQv",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "bCQfz",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "n8E3L",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "jO7Gd",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "QIgsZ",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "dQISy",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "RSLYr",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "c6pAkp",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "aTugK",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "WmQvR",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "V36R6",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "ZzNIG",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "v7zDk",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "F616m",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "I3HVwE",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "a7GnjN",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "h2UNze",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "rpSWk",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "u38k4o",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "D5w06x",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "T7q9RN",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "PUVJs",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "aQWFk",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "Z3WWv",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "vNaNM",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "YBp2y",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "cqL3C",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "hQV02",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "ej9RP",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "yJ7am",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "i6Tk0",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "G2Hcc",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "S45tj3",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "RTiD7",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "tCfD7",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "vyjTl",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "vY66m",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "HyV8i",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "PLlL4",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "enfTd",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "PKFCO",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "uT6KT",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "AtWtt",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "MBYHM",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "HZ7XC",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "whBs2",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "NpUKT",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "JqoNY",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "mHcpP",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "yJ9ze",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "GbiRf",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "F2DgCr",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "tGQkS",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "pqoLL",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "t635G",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "MJkeY",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "qCA5W",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "Dv3kY",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "Z9Csr",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "G82HJ",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "ygJlm",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "TBo1J",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "Nf42A",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "DjeMr",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "RBtdQ",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "NY4xd",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "dClQS",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "d50T6E",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "Tbhxp",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "edjSt",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "z1L74",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "Rc62R",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "H0pFCG",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "JDILi",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "DU074",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "SWjvi",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "KuDPo",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "qd2lP",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "VvME3",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "FL8dC",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "fwcZl",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "N7DQX",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "ez7BV",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "xHTsY",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "ExE5j",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "xK0gp",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "yjewI",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "Gq8Xt",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "HaUAB",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "XPOcy",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "RZoZs",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "mEuCz",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "JVJDJ",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "n1xUz",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "Xi62f",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "EGHoz",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "r8lm3M",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "JUZQW",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "mgF7p",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "OVgUO",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "AdTMy",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "eaxyn",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "ccmvK",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "CFAUe",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "hmzfj",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "gHvGP",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "yifSU",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "HBEgb",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "egFOn",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "D85mE",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "LPV0X",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "IROiY",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "JBaQK",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "OQwN9",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "m9ide",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "lZgHY",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "MVLrJ",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "ePiHR",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "ZrQiK",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "pSSS9",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "ccDi5",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "p82Ez",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "l8kKh",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "zVGpe",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "AQPr9",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "RBeac",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "wZx03",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "dJDRt",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "i7f88",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "GRuZj",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "ohRvm",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "RkEX7",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "LmfD0",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "nOaq1",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "E5DJ5R",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "a851oV",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "AuxNb",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "adOy2",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "F7qnn",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "HdXTd",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "JABx8",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "z73Yz",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "n82lps",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "LCxjX",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "GwY1R",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "ESuJ3",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "To72C",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "AswZ2",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "sDqcK",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "D2iyaV",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "hjibt",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "ulZAX",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "JdiwC",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "jUcuy",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "T6vv3",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "reNWB",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "I9tSd",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "uzOs8",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "vMSCT",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "tdHOh",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "o2h9JE",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "DBvs0",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "FHpdl",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "sy05Y",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "XkhvV",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "r9X2A9",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "gHIHf",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "r7AnOF",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "SfLEs",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "krKL6",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "jWEfP",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "xXWp0",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "pKXhq",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "qLbwW",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "tV2ed",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "O2rOMY",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "MpI2d",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "Xaw2L",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "pCFIj",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "s9qg17",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "kd0JT",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "vVBLe",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "x8gTLI",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "o8evJ",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "wGFuM",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "P7BQF2",
+      "name": "Next image · reveal on card hover or keyboard focus",
+      "props": [
+        "fill",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "i6ZxV",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth",
+        "strokeAlignment"
+      ]
+    },
+    {
+      "id": "gEjOs",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "HdEIY",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "OV9CJ",
+      "name": "Previous image · disabled at first icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "t1W8r",
+      "name": "Photo arrow face · 32px within 44px target",
+      "props": [
+        "name",
+        "width",
+        "height",
+        "cornerRadius",
+        "stroke",
+        "strokeWidth"
+      ]
+    },
+    {
+      "id": "HezAr",
+      "name": "Next image icon",
+      "props": [
+        "width",
+        "height"
+      ]
+    }
+  ],
+  "onlyPhotoControlsChanged": true,
+  "allMainHomeFaces28": true,
+  "allMainHomeTargets44": true,
+  "focusTarget": {
+    "type": "frame",
+    "id": "P7BQF2",
+    "layoutPosition": "absolute",
+    "x": 262,
+    "y": 83,
+    "name": "Next image · reveal on card hover or keyboard focus",
+    "width": 44,
+    "height": 44,
+    "fill": "#FFFFFF00",
+    "cornerRadius": 24,
+    "stroke": "#FFFFFF00",
+    "strokeAlignment": "outer",
+    "gap": 16,
+    "justifyContent": "center",
+    "alignItems": "center",
+    "children": "..."
+  },
+  "focusFace": {
+    "type": "frame",
+    "id": "i6ZxV",
+    "name": "Photo arrow face · 28px within 44px target",
+    "width": 28,
+    "height": 28,
+    "fill": "#FFFFFF",
+    "cornerRadius": 14,
+    "stroke": "#072D59",
+    "strokeWidth": 2,
+    "strokeAlignment": "outer",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "children": [
+      {
+        "type": "icon",
+        "id": "gEjOs",
+        "name": "Next image icon",
+        "width": 16,
+        "height": 16,
+        "icon": "chevron-right",
+        "library": "lucide",
+        "fill": "#072D59"
+      }
+    ]
+  }
+}

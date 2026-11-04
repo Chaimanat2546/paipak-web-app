@@ -1,0 +1,21 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "โอเคฉันอนุมัติ",
+  "status": "owner_approved_footer_r4_appearance",
+  "version": "Footer-contact-column-r4",
+  "native_root": "kengy",
+  "image": "kengy.png",
+  "image_sha256": "499359dafd5e47c8559402504043ae775e69ba9e3f5d88bdd42ec8378643ad25",
+  "scope": "Displayed Footer r4 with compact right-hand contact column and fictional mock LINE/phone data",
+  "mock_data": "Not verified real business contacts; links remain unbound",
+  "main_home_integrated": false,
+  "whole_home_version_approved": false,
+  "foundation_approved": false,
+  "functional_acceptance": false,
+  "frontend_authorized": false,
+  "open_issues": [
+    "OPEN-001"
+  ]
+}

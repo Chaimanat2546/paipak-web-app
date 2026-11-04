@@ -1,0 +1,26 @@
+{
+  "hover": [
+    {
+      "id": "GqG28",
+      "name": "Pool-edge lower-corner clipping · photo may lift outside story",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "NYKjJ",
+      "name": "Featured article image · generated study cover",
+      "problem": "partially clipped"
+    }
+  ],
+  "focus": [
+    {
+      "id": "v7Q8EU",
+      "name": "Pool-edge lower-corner clipping · photo may lift outside story",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "P2IuMM",
+      "name": "Whole-story keyboard focus · decorative arrow has no separate Tab stop",
+      "problem": "partially clipped"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "version": "Article-title-r1",
+  "geometry": [
+    [
+      {
+        "name": "Featured article title fixture",
+        "x": 0,
+        "y": 0,
+        "width": 532,
+        "height": 72.8
+      },
+      {
+        "name": "Featured article short description",
+        "x": 24,
+        "y": 137.8,
+        "width": 600,
+        "height": 26
+      },
+      {
+        "name": "Supporting article title fixture 1",
+        "x": 0,
+        "y": 29,
+        "width": 344,
+        "height": 95.7
+      },
+      {
+        "name": "Supporting article summary fixture 1",
+        "x": 0,
+        "y": 132.7,
+        "width": 344,
+        "height": 44
+      },
+      {
+        "name": "Read supporting article 1 · 44px target",
+        "x": 0,
+        "y": 184.7,
+        "width": 84,
+        "height": 44
+      },
+      {
+        "name": "Read supporting article label",
+        "x": 0,
+        "y": 11.5,
+        "width": 60,
+        "height": 21
+      },
+      {
+        "name": "Supporting article title fixture 2",
+        "x": 0,
+        "y": 29,
+        "width": 344,
+        "height": 95.7
+      },
+      {
+        "name": "Supporting article summary fixture 2",
+        "x": 0,
+        "y": 132.7,
+        "width": 344,
+        "height": 44
+      },
+      {
+        "name": "Read supporting article 2 · 44px target",
+        "x": 0,
+        "y": 184.7,
+        "width": 84,
+        "height": 44
+      },
+      {
+        "name": "Read supporting article label",
+        "x": 0,
+        "y": 11.5,
+        "width": 60,
+        "height": 21
+      }
+    ],
+    [
+      {
+        "name": "Featured article title fixture",
+        "x": 0,
+        "y": 0,
+        "width": 532,
+        "height": 72.8
+      },
+      {
+        "name": "Featured article short description",
+        "x": 24,
+        "y": 137.8,
+        "width": 600,
+        "height": 26
+      },
+      {
+        "name": "Supporting article title fixture 1",
+        "x": 0,
+        "y": 29,
+        "width": 344,
+        "height": 95.7
+      },
+      {
+        "name": "Supporting article summary fixture 1",
+        "x": 0,
+        "y": 132.7,
+        "width": 344,
+        "height": 44
+      },
+      {
+        "name": "Read supporting article 1 · 44px target",
+        "x": 0,
+        "y": 184.7,
+        "width": 84,
+        "height": 44
+      },
+      {
+        "name": "Read supporting article label",
+        "x": 0,
+        "y": 11.5,
+        "width": 60,
+        "height": 21
+      },
+      {
+        "name": "Supporting article title fixture 2",
+        "x": 0,
+        "y": 29,
+        "width": 344,
+        "height": 95.7
+      },
+      {
+        "name": "Supporting article summary fixture 2",
+        "x": 0,
+        "y": 132.7,
+        "width": 344,
+        "height": 44
+      },
+      {
+        "name": "Read supporting article 2 · 44px target",
+        "x": 0,
+        "y": 184.7,
+        "width": 84,
+        "height": 44
+      },
+      {
+        "name": "Read supporting article label",
+        "x": 0,
+        "y": 11.5,
+        "width": 60,
+        "height": 21
+      }
+    ]
+  ],
+  "geometry_identical": true,
+  "home_unchanged": true,
+  "variables_unchanged": true,
+  "static_only": true,
+  "visual_review": "Native screenshots of both cases and full-resolution short-title PNG examined",
+  "functional_line_clamp_test": false
+}
+

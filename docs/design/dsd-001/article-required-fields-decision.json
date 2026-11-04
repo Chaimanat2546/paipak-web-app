@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "question_id": "home-desktop-closeout-plan-1/Q3",
+  "question": "บทความต้องมีข้อมูลอะไรครบจึงจะแสดงบน Home?",
+  "owner_quote": "1",
+  "selected_option": "รูปปก + ชื่อ + ลิงก์อ่าน; คำโปรยไม่มีก็แสดงได้ โดยยุบพื้นที่คำโปรย",
+  "status": "owner_confirmed_content_rule",
+  "scope": "Home article section; featured and supporting stories",
+  "required_fields": [
+    "cover",
+    "title",
+    "read_destination"
+  ],
+  "missing_required_field": "Exclude story from Home; apply existing ordered promotion and fallback rules",
+  "excerpt": {
+    "required": false,
+    "when_missing": "Omit excerpt and its associated spacing; use natural content height",
+    "auto_generate_from_article_body": false,
+    "when_present": "Existing maximum of two lines with ellipsis remains in force"
+  },
+  "temporary_cover_load_failure": "Separate pending decision Q4; not resolved here",
+  "missing_excerpt_native_state": "Article-body-fallback-r2 / l5kvNr; revised appearance pending owner review",
+  "data_contract_verified": false,
+  "whole_article_version_approved": false,
+  "whole_home_version_approved": false,
+  "frontend_authorized": false,
+  "excerpt_rule_status": "Original Q3 omission treatment superseded by owner body-fallback instruction during R1; required fields remain active",
+  "current_excerpt_rule": "Use article body opening when dedicated excerpt missing; maximum two lines with ellipsis",
+  "current_excerpt_evidence": "article-body-fallback-r2/owner-instruction.json"
+}

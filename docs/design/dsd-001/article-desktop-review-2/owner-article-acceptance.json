@@ -1,0 +1,20 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "1",
+  "question": "รับภาพและพฤติกรรมบทความรุ่นนี้เพื่อนำไปรวมหน้า Home ไหมครับ? 1. รับรุ่นนี้ 2. ปรับหน้าตาบางจุด 3. ปรับพฤติกรรมการกด",
+  "selected_option": "รับรุ่นนี้",
+  "status": "owner_accepted_article_desktop_review_2_visual_and_agreed_activation",
+  "version": "Article Desktop review-2",
+  "native_root": "L4FBX",
+  "image": "L4FBX.png",
+  "image_sha256": "1980a54da28cb6d71618ac30674c426d6aeb746ce1623346b30840af5944ea9c",
+  "scope": "Displayed article visual and agreed activation specification for Home integration; featured reveal+bounce, supporting bounce only, index plain immediate link without animation",
+  "custom_secondary_index_dark_focus_approved": false,
+  "application_keyboard_accessibility_certified": false,
+  "whole_home_version_approved": false,
+  "foundation_approved": false,
+  "task_complete": false,
+  "frontend_authorized": false
+}

@@ -1,0 +1,1488 @@
+{
+  "default": {
+    "type": "frame",
+    "id": "KCbCH",
+    "x": 81894,
+    "y": 23490,
+    "name": "REVIEW · Article-states-r1 · default three stories",
+    "width": 1440,
+    "fill": "$surface.page",
+    "layout": "vertical",
+    "gap": 32,
+    "padding": [
+      40,
+      56,
+      72,
+      56
+    ],
+    "children": [
+      {
+        "type": "frame",
+        "id": "wAoFH",
+        "name": "Article section heading and index link",
+        "width": "fill_container",
+        "justifyContent": "space_between",
+        "alignItems": "center",
+        "children": [
+          {
+            "type": "text",
+            "id": "l2tyU",
+            "name": "Articles section heading",
+            "fill": "$brand.navy",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "เรื่องน่าอ่าน สำหรับวันพักผ่อน",
+            "lineHeight": 1.35,
+            "fontFamily": "$font.primary",
+            "fontSize": 36
+          },
+          {
+            "type": "frame",
+            "id": "wcA42",
+            "name": "All articles link · 44px target",
+            "height": 44,
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "id": "c03nAW",
+                "name": "All articles label",
+                "fill": "$brand.navy",
+                "content": "บทความทั้งหมด",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 14
+              },
+              {
+                "type": "icon",
+                "id": "DOV2s",
+                "name": "All articles arrow",
+                "width": 16,
+                "height": 16,
+                "icon": "arrow-right",
+                "library": "lucide",
+                "fill": "$brand.navy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "rPpt8",
+        "name": "Editorial composition · lead and secondary stories",
+        "width": "fill_container",
+        "gap": 40,
+        "alignItems": "center",
+        "children": [
+          {
+            "type": "frame",
+            "id": "vBY9r",
+            "name": "Featured editorial story · photo and floating reading panel",
+            "clip": true,
+            "width": 696,
+            "height": 526.5,
+            "cornerRadius": 24,
+            "layout": "none",
+            "children": [
+              {
+                "type": "path",
+                "id": "S5b2F",
+                "layoutPosition": "absolute",
+                "x": 0,
+                "y": 248,
+                "name": "Pool-edge backing beneath featured story",
+                "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+                "viewBox": [
+                  0,
+                  0,
+                  1440,
+                  95
+                ],
+                "fill": "$brand.light",
+                "width": 696,
+                "height": 278.5
+              },
+              {
+                "type": "frame",
+                "id": "a0rnW",
+                "x": 0,
+                "y": 0,
+                "name": "Featured article image · generated study cover",
+                "clip": true,
+                "width": 696,
+                "height": 391.5,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-4.png",
+                  "mode": "contain"
+                },
+                "cornerRadius": 24,
+                "layout": "none"
+              },
+              {
+                "type": "frame",
+                "id": "H7t5Q",
+                "x": 24,
+                "y": 315.5,
+                "name": "Floating featured-article reading panel",
+                "width": 648,
+                "fill": "#FFFFFF",
+                "cornerRadius": 20,
+                "effect": {
+                  "type": "shadow",
+                  "shadowType": "outer",
+                  "color": "#072D591F",
+                  "offset": {
+                    "x": 0,
+                    "y": 8
+                  },
+                  "blur": 24
+                },
+                "layout": "vertical",
+                "gap": 10,
+                "padding": 24,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "dxEHv",
+                    "name": "Featured topic fixture",
+                    "fill": "$brand.navy",
+                    "content": "เลือกที่พัก",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 14
+                  },
+                  {
+                    "type": "frame",
+                    "id": "orP04",
+                    "name": "Featured title and reading affordance",
+                    "width": "fill_container",
+                    "gap": 24,
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "kzF3c",
+                        "name": "Featured article title fixture",
+                        "fill": "$brand.navy",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "เลือกพูลวิลล่าให้พอดี\nกับทริปของเรา",
+                        "lineHeight": 1.4,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 26
+                      },
+                      {
+                        "type": "frame",
+                        "id": "wuzkI",
+                        "name": "Read featured article · full title accessible name proposed · 44px target",
+                        "width": 44,
+                        "height": 44,
+                        "fill": "$brand.navy",
+                        "cornerRadius": 22,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "xhQrH",
+                            "name": "Read featured story arrow",
+                            "width": 18,
+                            "height": 18,
+                            "icon": "arrow-up-right",
+                            "library": "lucide",
+                            "fill": "#FFFFFF"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "CK7Gk",
+                    "name": "Featured article short description",
+                    "fill": "#53657C",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "เริ่มจากจำนวนคน บรรยากาศ และวันพักผ่อนที่อยากได้",
+                    "lineHeight": 1.6,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 16
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "J6Ovv6",
+            "name": "Curated supporting reads · borderless editorial rows",
+            "width": 592,
+            "layout": "vertical",
+            "gap": 40,
+            "children": [
+              {
+                "type": "frame",
+                "id": "GvrMG",
+                "name": "Supporting article fixture 1",
+                "width": "fill_container",
+                "gap": 24,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "iwkoi",
+                    "name": "Supporting article study cover 1",
+                    "clip": true,
+                    "width": 208,
+                    "height": 117,
+                    "fill": {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/generated-5.png",
+                      "mode": "contain"
+                    },
+                    "cornerRadius": 16,
+                    "layout": "none"
+                  },
+                  {
+                    "type": "frame",
+                    "id": "G2Qp3W",
+                    "name": "Supporting article text 1",
+                    "width": "fill_container",
+                    "layout": "vertical",
+                    "gap": 8,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "D1hx3",
+                        "name": "Supporting topic fixture 1",
+                        "fill": "$brand.navy",
+                        "content": "เที่ยวกับเพื่อน",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14
+                      },
+                      {
+                        "type": "text",
+                        "id": "opAe5",
+                        "name": "Supporting article title fixture 1",
+                        "fill": "$brand.navy",
+                        "textGrowth": "fixed-width-height",
+                        "width": "fill_container",
+                        "height": 32,
+                        "content": "ชวนแก๊งเพื่อนมาใช้วันหยุด…",
+                        "lineHeight": 1.45,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 22
+                      },
+                      {
+                        "type": "text",
+                        "id": "e3KXMY",
+                        "name": "Supporting article summary fixture 1",
+                        "fill": "#53657C",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ไอเดียจัดทริปให้มีเวลาทั้งอยู่ด้วยกัน\nและพักผ่อนในแบบที่ชอบ",
+                        "lineHeight": 1.6,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14
+                      },
+                      {
+                        "type": "frame",
+                        "id": "a5pkKf",
+                        "name": "Read supporting article 1 · 44px target",
+                        "height": 44,
+                        "gap": 8,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "QlJcx",
+                            "name": "Read supporting article label",
+                            "fill": "$brand.navy",
+                            "content": "อ่านเรื่องนี้",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 14
+                          },
+                          {
+                            "type": "icon",
+                            "id": "Q307R",
+                            "name": "Read article arrow",
+                            "width": 16,
+                            "height": 16,
+                            "icon": "arrow-up-right",
+                            "library": "lucide",
+                            "fill": "$brand.navy"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "x4YEV",
+                "name": "Supporting article fixture 2",
+                "width": "fill_container",
+                "gap": 24,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "NtkTS",
+                    "name": "Supporting article study cover 2",
+                    "clip": true,
+                    "width": 208,
+                    "height": 117,
+                    "fill": {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/generated-1.png",
+                      "mode": "contain"
+                    },
+                    "cornerRadius": 16,
+                    "layout": "none"
+                  },
+                  {
+                    "type": "frame",
+                    "id": "XMJok",
+                    "name": "Supporting article text 2",
+                    "width": "fill_container",
+                    "layout": "vertical",
+                    "gap": 8,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "jIOsY",
+                        "name": "Supporting topic fixture 2",
+                        "fill": "$brand.navy",
+                        "content": "ไอเดียวันหยุด",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14
+                      },
+                      {
+                        "type": "text",
+                        "id": "CfKNj",
+                        "name": "Supporting article title fixture 2",
+                        "fill": "$brand.navy",
+                        "textGrowth": "fixed-width-height",
+                        "width": "fill_container",
+                        "height": 32,
+                        "content": "วันพักผ่อนแบบไม่ต้องรีบ…",
+                        "lineHeight": 1.45,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 22
+                      },
+                      {
+                        "type": "text",
+                        "id": "ktWuY",
+                        "name": "Supporting article summary fixture 2",
+                        "fill": "#53657C",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "เปลี่ยนวันว่างธรรมดา ให้เป็นทริป\nที่มีเวลาให้ตัวเองมากขึ้น",
+                        "lineHeight": 1.6,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14
+                      },
+                      {
+                        "type": "frame",
+                        "id": "RbTjl",
+                        "name": "Read supporting article 2 · 44px target",
+                        "height": 44,
+                        "gap": 8,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "mFV29",
+                            "name": "Read supporting article label",
+                            "fill": "$brand.navy",
+                            "content": "อ่านเรื่องนี้",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 14
+                          },
+                          {
+                            "type": "icon",
+                            "id": "W1083",
+                            "name": "Read article arrow",
+                            "width": 16,
+                            "height": 16,
+                            "icon": "arrow-up-right",
+                            "library": "lucide",
+                            "fill": "$brand.navy"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "no_excerpt": {
+    "type": "frame",
+    "id": "l5kvNr",
+    "x": 83434,
+    "y": 23490,
+    "name": "REVIEW · Article-states-r1 · no excerpts · natural height",
+    "width": 1440,
+    "fill": "$surface.page",
+    "layout": "vertical",
+    "gap": 32,
+    "padding": [
+      40,
+      56,
+      72,
+      56
+    ],
+    "children": [
+      {
+        "type": "frame",
+        "id": "Bg8Ty",
+        "name": "Article section heading and index link",
+        "width": "fill_container",
+        "justifyContent": "space_between",
+        "alignItems": "center",
+        "children": [
+          {
+            "type": "text",
+            "id": "PGoNl",
+            "name": "Articles section heading",
+            "fill": "$brand.navy",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "เรื่องน่าอ่าน สำหรับวันพักผ่อน",
+            "lineHeight": 1.35,
+            "fontFamily": "$font.primary",
+            "fontSize": 36
+          },
+          {
+            "type": "frame",
+            "id": "A20Mtg",
+            "name": "All articles link · 44px target",
+            "height": 44,
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "id": "p3FkAD",
+                "name": "All articles label",
+                "fill": "$brand.navy",
+                "content": "บทความทั้งหมด",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 14
+              },
+              {
+                "type": "icon",
+                "id": "nrKcn",
+                "name": "All articles arrow",
+                "width": 16,
+                "height": 16,
+                "icon": "arrow-right",
+                "library": "lucide",
+                "fill": "$brand.navy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "iAq8K",
+        "name": "Editorial composition · lead and secondary stories",
+        "width": "fill_container",
+        "gap": 40,
+        "alignItems": "center",
+        "children": [
+          {
+            "type": "frame",
+            "id": "xvO7U",
+            "name": "Featured editorial story · photo and floating reading panel",
+            "clip": true,
+            "width": 696,
+            "height": 490.5,
+            "cornerRadius": 24,
+            "layout": "none",
+            "children": [
+              {
+                "type": "path",
+                "id": "RyOYJ",
+                "layoutPosition": "absolute",
+                "x": 0,
+                "y": 248,
+                "name": "Pool-edge backing beneath featured story",
+                "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+                "viewBox": [
+                  0,
+                  0,
+                  1440,
+                  95
+                ],
+                "fill": "$brand.light",
+                "width": 696,
+                "height": 242.5
+              },
+              {
+                "type": "frame",
+                "id": "Q5yXw",
+                "x": 0,
+                "y": 0,
+                "name": "Featured article image · generated study cover",
+                "clip": true,
+                "width": 696,
+                "height": 391.5,
+                "fill": {
+                  "type": "image",
+                  "enabled": true,
+                  "url": "images/generated-4.png",
+                  "mode": "contain"
+                },
+                "cornerRadius": 24,
+                "layout": "none"
+              },
+              {
+                "type": "frame",
+                "id": "MRPfT",
+                "x": 24,
+                "y": 315.5,
+                "name": "Floating featured-article reading panel",
+                "width": 648,
+                "fill": "#FFFFFF",
+                "cornerRadius": 20,
+                "effect": {
+                  "type": "shadow",
+                  "shadowType": "outer",
+                  "color": "#072D591F",
+                  "offset": {
+                    "x": 0,
+                    "y": 8
+                  },
+                  "blur": 24
+                },
+                "layout": "vertical",
+                "gap": 10,
+                "padding": 24,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "Izwh2",
+                    "name": "Featured topic fixture",
+                    "fill": "$brand.navy",
+                    "content": "เลือกที่พัก",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 14
+                  },
+                  {
+                    "type": "frame",
+                    "id": "vuJMU",
+                    "name": "Featured title and reading affordance",
+                    "width": "fill_container",
+                    "gap": 24,
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "ceE9F",
+                        "name": "Featured article title fixture",
+                        "fill": "$brand.navy",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "เลือกพูลวิลล่าให้พอดี\nกับทริปของเรา",
+                        "lineHeight": 1.4,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 26
+                      },
+                      {
+                        "type": "frame",
+                        "id": "Nd6nz",
+                        "name": "Read featured article · full title accessible name proposed · 44px target",
+                        "width": 44,
+                        "height": 44,
+                        "fill": "$brand.navy",
+                        "cornerRadius": 22,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "nFZM8",
+                            "name": "Read featured story arrow",
+                            "width": 18,
+                            "height": 18,
+                            "icon": "arrow-up-right",
+                            "library": "lucide",
+                            "fill": "#FFFFFF"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "yA3A0",
+            "name": "Curated supporting reads · borderless editorial rows",
+            "width": 592,
+            "layout": "vertical",
+            "gap": 40,
+            "children": [
+              {
+                "type": "frame",
+                "id": "gUseW",
+                "name": "Supporting article fixture 1",
+                "width": "fill_container",
+                "gap": 24,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "XLWH4",
+                    "name": "Supporting article study cover 1",
+                    "clip": true,
+                    "width": 208,
+                    "height": 117,
+                    "fill": {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/generated-5.png",
+                      "mode": "contain"
+                    },
+                    "cornerRadius": 16,
+                    "layout": "none"
+                  },
+                  {
+                    "type": "frame",
+                    "id": "y8JUli",
+                    "name": "Supporting article text 1",
+                    "width": "fill_container",
+                    "layout": "vertical",
+                    "gap": 8,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "YINZT",
+                        "name": "Supporting topic fixture 1",
+                        "fill": "$brand.navy",
+                        "content": "เที่ยวกับเพื่อน",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14
+                      },
+                      {
+                        "type": "text",
+                        "id": "th864",
+                        "name": "Supporting article title fixture 1",
+                        "fill": "$brand.navy",
+                        "textGrowth": "fixed-width-height",
+                        "width": "fill_container",
+                        "height": 32,
+                        "content": "ชวนแก๊งเพื่อนมาใช้วันหยุด…",
+                        "lineHeight": 1.45,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 22
+                      },
+                      {
+                        "type": "frame",
+                        "id": "qD6zw",
+                        "name": "Read supporting article 1 · 44px target",
+                        "height": 44,
+                        "gap": 8,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "Dne0j",
+                            "name": "Read supporting article label",
+                            "fill": "$brand.navy",
+                            "content": "อ่านเรื่องนี้",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 14
+                          },
+                          {
+                            "type": "icon",
+                            "id": "l7BgQZ",
+                            "name": "Read article arrow",
+                            "width": 16,
+                            "height": 16,
+                            "icon": "arrow-up-right",
+                            "library": "lucide",
+                            "fill": "$brand.navy"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "F2e2CW",
+                "name": "Supporting article fixture 2",
+                "width": "fill_container",
+                "gap": 24,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "y6esg",
+                    "name": "Supporting article study cover 2",
+                    "clip": true,
+                    "width": 208,
+                    "height": 117,
+                    "fill": {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/generated-1.png",
+                      "mode": "contain"
+                    },
+                    "cornerRadius": 16,
+                    "layout": "none"
+                  },
+                  {
+                    "type": "frame",
+                    "id": "qEGmF",
+                    "name": "Supporting article text 2",
+                    "width": "fill_container",
+                    "layout": "vertical",
+                    "gap": 8,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "lsoDv",
+                        "name": "Supporting topic fixture 2",
+                        "fill": "$brand.navy",
+                        "content": "ไอเดียวันหยุด",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 14
+                      },
+                      {
+                        "type": "text",
+                        "id": "gaahI",
+                        "name": "Supporting article title fixture 2",
+                        "fill": "$brand.navy",
+                        "textGrowth": "fixed-width-height",
+                        "width": "fill_container",
+                        "height": 32,
+                        "content": "วันพักผ่อนแบบไม่ต้องรีบ…",
+                        "lineHeight": 1.45,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 22
+                      },
+                      {
+                        "type": "frame",
+                        "id": "w36gqa",
+                        "name": "Read supporting article 2 · 44px target",
+                        "height": 44,
+                        "gap": 8,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "LlhVx",
+                            "name": "Read supporting article label",
+                            "fill": "$brand.navy",
+                            "content": "อ่านเรื่องนี้",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 14
+                          },
+                          {
+                            "type": "icon",
+                            "id": "gqd9Z",
+                            "name": "Read article arrow",
+                            "width": 16,
+                            "height": 16,
+                            "icon": "arrow-up-right",
+                            "library": "lucide",
+                            "fill": "$brand.navy"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "loading": {
+    "type": "frame",
+    "id": "BvlEu",
+    "x": 84974,
+    "y": 23490,
+    "name": "REVIEW · Article-states-r1 · loading skeleton · section only",
+    "width": 1440,
+    "fill": "$surface.page",
+    "layout": "vertical",
+    "gap": 32,
+    "padding": [
+      40,
+      56,
+      72,
+      56
+    ],
+    "children": [
+      {
+        "type": "frame",
+        "id": "PBEoj",
+        "name": "Article section heading and index link",
+        "width": "fill_container",
+        "justifyContent": "space_between",
+        "alignItems": "center",
+        "children": [
+          {
+            "type": "text",
+            "id": "wE7tv",
+            "name": "Articles section heading",
+            "fill": "$brand.navy",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "เรื่องน่าอ่าน สำหรับวันพักผ่อน",
+            "lineHeight": 1.35,
+            "fontFamily": "$font.primary",
+            "fontSize": 36
+          },
+          {
+            "type": "frame",
+            "id": "EeieJ",
+            "name": "All articles link · 44px target",
+            "height": 44,
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "id": "Yj8cI",
+                "name": "All articles label",
+                "fill": "$brand.navy",
+                "content": "บทความทั้งหมด",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 14
+              },
+              {
+                "type": "icon",
+                "id": "nLmT7",
+                "name": "All articles arrow",
+                "width": 16,
+                "height": 16,
+                "icon": "arrow-right",
+                "library": "lucide",
+                "fill": "$brand.navy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "oEwkt",
+        "name": "Article loading composition · reserves default geometry",
+        "metadata": {
+          "type": "design-contract",
+          "ariaBusy": true,
+          "motion": "Static reduced-motion fallback; pulse timing pending review"
+        },
+        "width": "fill_container",
+        "gap": 40,
+        "alignItems": "center",
+        "children": [
+          {
+            "type": "frame",
+            "id": "ZHsIk",
+            "name": "Featured story loading footprint",
+            "clip": true,
+            "width": 696,
+            "height": 526.5,
+            "cornerRadius": 24,
+            "layout": "none",
+            "children": [
+              {
+                "type": "path",
+                "id": "usmMV",
+                "layoutPosition": "absolute",
+                "x": 0,
+                "y": 248,
+                "name": "Featured loading pool-edge backing",
+                "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+                "viewBox": [
+                  0,
+                  0,
+                  1440,
+                  95
+                ],
+                "fill": "$brand.light",
+                "width": 696,
+                "height": 278.5
+              },
+              {
+                "type": "rectangle",
+                "cornerRadius": 24,
+                "id": "IfqOo",
+                "x": 0,
+                "y": 0,
+                "name": "Featured cover skeleton · 16:9",
+                "fill": "#EAF2F7",
+                "width": 696,
+                "height": 391.5
+              },
+              {
+                "type": "frame",
+                "id": "G5VJ7j",
+                "x": 24,
+                "y": 315.5,
+                "name": "Featured loading panel",
+                "width": 648,
+                "height": 187,
+                "fill": "#FFFFFF",
+                "cornerRadius": 20,
+                "layout": "vertical",
+                "gap": 10,
+                "padding": 24,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "SGKlP",
+                    "name": "Featured loading topic slot",
+                    "width": "fill_container",
+                    "height": 21,
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "rectangle",
+                        "cornerRadius": 6,
+                        "id": "IefiJ",
+                        "name": "Featured topic skeleton",
+                        "fill": "#DFEAF2",
+                        "width": 72,
+                        "height": 12
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "Pd1CF",
+                    "name": "Featured loading title slot",
+                    "width": "fill_container",
+                    "height": 72,
+                    "gap": 24,
+                    "justifyContent": "space_between",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "lLjkM",
+                        "name": "Featured title skeleton lines",
+                        "width": "fill_container",
+                        "layout": "vertical",
+                        "gap": 12,
+                        "children": [
+                          {
+                            "type": "rectangle",
+                            "cornerRadius": 6,
+                            "id": "uK7u3",
+                            "name": "Featured title first line skeleton",
+                            "fill": "#DFEAF2",
+                            "width": 420,
+                            "height": 20
+                          },
+                          {
+                            "type": "rectangle",
+                            "cornerRadius": 6,
+                            "id": "t8FLsX",
+                            "name": "Featured title second line skeleton",
+                            "fill": "#DFEAF2",
+                            "width": 320,
+                            "height": 20
+                          }
+                        ]
+                      },
+                      {
+                        "type": "rectangle",
+                        "cornerRadius": 22,
+                        "id": "ycbTq",
+                        "name": "Featured reading affordance skeleton",
+                        "fill": "#DFEAF2",
+                        "width": 44,
+                        "height": 44
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "pCp9B",
+                    "name": "Featured loading excerpt slot",
+                    "width": "fill_container",
+                    "height": 26,
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "rectangle",
+                        "cornerRadius": 6,
+                        "id": "FuD3P",
+                        "name": "Featured excerpt skeleton",
+                        "fill": "#DFEAF2",
+                        "width": 460,
+                        "height": 12
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "OrvhC",
+            "name": "Supporting story loading column",
+            "width": 592,
+            "layout": "vertical",
+            "gap": 40,
+            "children": [
+              {
+                "type": "frame",
+                "id": "hUPF3",
+                "name": "Supporting story loading row 1",
+                "width": "fill_container",
+                "height": 165,
+                "gap": 24,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "rectangle",
+                    "cornerRadius": 16,
+                    "id": "dEK4N",
+                    "name": "Supporting cover skeleton 1",
+                    "fill": "#EAF2F7",
+                    "width": 208,
+                    "height": 117
+                  },
+                  {
+                    "type": "frame",
+                    "id": "liMfr",
+                    "name": "Supporting loading text 1",
+                    "width": "fill_container",
+                    "layout": "vertical",
+                    "gap": 8,
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "xpo17",
+                        "name": "Supporting topic slot 1",
+                        "width": "fill_container",
+                        "height": 21,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "rectangle",
+                            "cornerRadius": 6,
+                            "id": "m1L7eY",
+                            "name": "Supporting topic skeleton 1",
+                            "fill": "#DFEAF2",
+                            "width": 80,
+                            "height": 12
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "hx1w4",
+                        "name": "Supporting title slot 1",
+                        "width": "fill_container",
+                        "height": 32,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "rectangle",
+                            "cornerRadius": 6,
+                            "id": "kaAM8",
+                            "name": "Supporting title skeleton 1",
+                            "fill": "#DFEAF2",
+                            "width": 300,
+                            "height": 18
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "v2erX",
+                        "name": "Supporting excerpt slot 1",
+                        "width": "fill_container",
+                        "height": 44,
+                        "layout": "vertical",
+                        "gap": 10,
+                        "justifyContent": "center",
+                        "children": [
+                          {
+                            "type": "rectangle",
+                            "cornerRadius": 6,
+                            "id": "OT48r",
+                            "name": "Supporting excerpt first line skeleton 1",
+                            "fill": "#DFEAF2",
+                            "width": 340,
+                            "height": 10
+                          },
+                          {
+                            "type": "rectangle",
+                            "cornerRadius": 6,
+                            "id": "PICjU",
+                            "name": "Supporting excerpt second line skeleton 1",
+                            "fill": "#DFEAF2",
+                            "width": 260,
+                            "height": 10
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "cCbGd",
+                        "name": "Supporting read slot 1",
+                        "width": "fill_container",
+                        "height": 44,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "rectangle",
+                            "cornerRadius": 6,
+                            "id": "cmSXk",
+                            "name": "Supporting read skeleton 1",
+                            "fill": "#DFEAF2",
+                            "width": 96,
+                            "height": 12
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "prmiM",
+                "name": "Supporting story loading row 2",
+                "width": "fill_container",
+                "height": 165,
+                "gap": 24,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "rectangle",
+                    "cornerRadius": 16,
+                    "id": "R3rIfK",
+                    "name": "Supporting cover skeleton 2",
+                    "fill": "#EAF2F7",
+                    "width": 208,
+                    "height": 117
+                  },
+                  {
+                    "type": "frame",
+                    "id": "u3fRtQ",
+                    "name": "Supporting loading text 2",
+                    "width": "fill_container",
+                    "layout": "vertical",
+                    "gap": 8,
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "J9bwr",
+                        "name": "Supporting topic slot 2",
+                        "width": "fill_container",
+                        "height": 21,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "rectangle",
+                            "cornerRadius": 6,
+                            "id": "hX60g",
+                            "name": "Supporting topic skeleton 2",
+                            "fill": "#DFEAF2",
+                            "width": 80,
+                            "height": 12
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "W6fSRI",
+                        "name": "Supporting title slot 2",
+                        "width": "fill_container",
+                        "height": 32,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "rectangle",
+                            "cornerRadius": 6,
+                            "id": "vy7DK",
+                            "name": "Supporting title skeleton 2",
+                            "fill": "#DFEAF2",
+                            "width": 300,
+                            "height": 18
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "z4gOAu",
+                        "name": "Supporting excerpt slot 2",
+                        "width": "fill_container",
+                        "height": 44,
+                        "layout": "vertical",
+                        "gap": 10,
+                        "justifyContent": "center",
+                        "children": [
+                          {
+                            "type": "rectangle",
+                            "cornerRadius": 6,
+                            "id": "HZv4Z",
+                            "name": "Supporting excerpt first line skeleton 2",
+                            "fill": "#DFEAF2",
+                            "width": 340,
+                            "height": 10
+                          },
+                          {
+                            "type": "rectangle",
+                            "cornerRadius": 6,
+                            "id": "O3Xa0P",
+                            "name": "Supporting excerpt second line skeleton 2",
+                            "fill": "#DFEAF2",
+                            "width": 260,
+                            "height": 10
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "CJfFr",
+                        "name": "Supporting read slot 2",
+                        "width": "fill_container",
+                        "height": 44,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "rectangle",
+                            "cornerRadius": 6,
+                            "id": "j7y6vy",
+                            "name": "Supporting read skeleton 2",
+                            "fill": "#DFEAF2",
+                            "width": 96,
+                            "height": 12
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "error": {
+    "type": "frame",
+    "id": "f6x4t",
+    "x": 86514,
+    "y": 23490,
+    "name": "REVIEW · Article-states-r1 · request error and retry",
+    "width": 1440,
+    "fill": "$surface.page",
+    "layout": "vertical",
+    "gap": 32,
+    "padding": [
+      40,
+      56,
+      72,
+      56
+    ],
+    "children": [
+      {
+        "type": "frame",
+        "id": "dRW6z",
+        "name": "Article section heading and index link",
+        "width": "fill_container",
+        "justifyContent": "space_between",
+        "alignItems": "center",
+        "children": [
+          {
+            "type": "text",
+            "id": "Q7aO02",
+            "name": "Articles section heading",
+            "fill": "$brand.navy",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "เรื่องน่าอ่าน สำหรับวันพักผ่อน",
+            "lineHeight": 1.35,
+            "fontFamily": "$font.primary",
+            "fontSize": 36
+          },
+          {
+            "type": "frame",
+            "id": "h7rQG",
+            "name": "All articles link · 44px target",
+            "height": 44,
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "id": "soUrv",
+                "name": "All articles label",
+                "fill": "$brand.navy",
+                "content": "บทความทั้งหมด",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 14
+              },
+              {
+                "type": "icon",
+                "id": "t7hZz1",
+                "name": "All articles arrow",
+                "width": 16,
+                "height": 16,
+                "icon": "arrow-right",
+                "library": "lucide",
+                "fill": "$brand.navy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "aQo7t",
+        "name": "Section-local article error · not empty catalog",
+        "width": "fill_container",
+        "height": 188,
+        "fill": "$brand.light",
+        "cornerRadius": 24,
+        "gap": 20,
+        "padding": 32,
+        "alignItems": "center",
+        "children": [
+          {
+            "type": "frame",
+            "id": "J71Fa",
+            "name": "Article error icon field",
+            "width": 48,
+            "height": 48,
+            "fill": "#FFFFFF",
+            "cornerRadius": 24,
+            "justifyContent": "center",
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "icon",
+                "id": "EzB7P",
+                "name": "Article error icon",
+                "width": 24,
+                "height": 24,
+                "icon": "circle-alert",
+                "library": "lucide",
+                "fill": "$brand.navy"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "reO9X",
+            "name": "Article error explanation",
+            "width": "fill_container",
+            "layout": "vertical",
+            "gap": 8,
+            "children": [
+              {
+                "type": "text",
+                "id": "Ih2PD",
+                "name": "Article error heading",
+                "fill": "$brand.navy",
+                "content": "โหลดบทความไม่สำเร็จ",
+                "lineHeight": 1.4,
+                "fontFamily": "$font.primary",
+                "fontSize": 22,
+                "fontWeight": "normal"
+              },
+              {
+                "type": "text",
+                "id": "DRHQG",
+                "name": "Article error supporting message",
+                "fill": "$brand.navy",
+                "content": "โปรดลองโหลดบทความอีกครั้ง",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 16,
+                "fontWeight": "normal"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "Veddi",
+            "name": "Retry article list · other sections stay usable",
+            "metadata": {
+              "type": "design-contract",
+              "action": "Retry article list request only",
+              "runtime": "Not implemented"
+            },
+            "height": 48,
+            "fill": "$brand.navy",
+            "cornerRadius": 24,
+            "gap": 8,
+            "padding": [
+              0,
+              20
+            ],
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "icon",
+                "id": "x4cnw",
+                "name": "Retry article list icon",
+                "width": 18,
+                "height": 18,
+                "icon": "rotate-cw",
+                "library": "lucide",
+                "fill": "#FFFFFF"
+              },
+              {
+                "type": "text",
+                "id": "AvuGQ",
+                "name": "Retry article list label",
+                "fill": "#FFFFFF",
+                "content": "ลองใหม่",
+                "lineHeight": 1.5,
+                "fontFamily": "$font.primary",
+                "fontSize": 16,
+                "fontWeight": "normal"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

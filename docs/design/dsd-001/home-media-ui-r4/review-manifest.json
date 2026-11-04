@@ -1,0 +1,138 @@
+{
+  "version": "Home-media-ui-r4 / Home Desktop-r12 draft",
+  "task": "DSD-001",
+  "date": "2026-11-04",
+  "owner_instruction": "เอาสีพื้น section เป็นสีน้ำเงินหลักของเรา",
+  "status": "draft_pending_owner_review",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "home_node": "eMYWM",
+  "section_node": "MIdin",
+  "changes": [
+    {
+      "id": "eMYWM",
+      "field": "name",
+      "before": "DRAFT · Home Desktop-r11 · split TikTok depth stack · DSD-001",
+      "after": "DRAFT · Home Desktop-r12 · Navy TikTok depth stack · DSD-001"
+    },
+    {
+      "id": "MIdin",
+      "field": "name",
+      "before": "TikTok split 3D stack · supplied reference adaptation · r3",
+      "after": "TikTok split 3D stack · brand Navy background · r4"
+    },
+    {
+      "id": "MIdin",
+      "field": "fill",
+      "before": "$surface.page",
+      "after": "$brand.navy"
+    },
+    {
+      "id": "sGPy2",
+      "field": "fill",
+      "before": "$brand.navy",
+      "after": "#FFFFFF"
+    },
+    {
+      "id": "r35weq",
+      "field": "fill",
+      "before": "#53657C",
+      "after": "$brand.light"
+    },
+    {
+      "id": "ik5pv",
+      "field": "name",
+      "before": "Right-hand depth stack on white · first clip selected",
+      "after": "Right-hand depth stack on Navy · first clip selected"
+    },
+    {
+      "id": "e4olK",
+      "field": "name",
+      "before": "Active position pill · Navy for visibility",
+      "after": "Active position pill · Pink on Navy"
+    },
+    {
+      "id": "e4olK",
+      "field": "fill",
+      "before": "$brand.navy",
+      "after": "$brand.pink"
+    },
+    {
+      "id": "XgK6J",
+      "field": "fill",
+      "before": "#6B7280",
+      "after": "$brand.light"
+    },
+    {
+      "id": "XgK6J",
+      "field": "opacity",
+      "after": 0.55
+    },
+    {
+      "id": "L5BH6r",
+      "field": "fill",
+      "before": "#6B7280",
+      "after": "$brand.light"
+    },
+    {
+      "id": "L5BH6r",
+      "field": "opacity",
+      "after": 0.55
+    },
+    {
+      "id": "fD1kd",
+      "field": "fill",
+      "before": "#6B7280",
+      "after": "$brand.light"
+    },
+    {
+      "id": "fD1kd",
+      "field": "opacity",
+      "after": 0.55
+    },
+    {
+      "id": "Eg2nL",
+      "field": "fill",
+      "before": "#6B7280",
+      "after": "$brand.light"
+    },
+    {
+      "id": "Eg2nL",
+      "field": "opacity",
+      "after": 0.55
+    }
+  ],
+  "checks": {
+    "only_allowed_color_and_layer_label_changes": true,
+    "layer_ids_unchanged": true,
+    "layout_and_copy_unchanged": true,
+    "articles_and_other_home_sections_unchanged": true,
+    "brand_navy": "#072D59"
+  },
+  "frames": [
+    {
+      "id": "MIdin",
+      "png": "MIdin.png",
+      "width": 1440,
+      "height": 760
+    },
+    {
+      "id": "YGt3D",
+      "png": "YGt3D.png",
+      "width": 1440,
+      "height": 1432
+    },
+    {
+      "id": "eMYWM",
+      "png": "eMYWM.png",
+      "width": 1440,
+      "height": 6010
+    }
+  ],
+  "preservation": "R3 exported images and snapshot retained; the current editable eMYWM root was revised in place. Earlier r2/r1 and accepted r8 native roots were not targeted.",
+  "approval": {
+    "foundation": "pending_owner_review",
+    "OPEN_001": "open; original pink/white CTA retained",
+    "Mobile": "paused_by_owner",
+    "frontend": "not_authorized"
+  }
+}

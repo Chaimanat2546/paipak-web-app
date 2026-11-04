@@ -1,0 +1,1987 @@
+{
+  "version": "Search-three-audit-r1",
+  "status": "review_findings_only",
+  "root": {
+    "type": "frame",
+    "id": "fGgOA",
+    "x": 4558,
+    "y": 16255,
+    "name": "REVIEW · Three search pickers audit · current states",
+    "width": 1440,
+    "height": 686,
+    "fill": "#F2FAFE",
+    "layout": "none",
+    "children": [
+      {
+        "type": "text",
+        "id": "a5c7vs",
+        "x": 32,
+        "y": 32,
+        "name": "Audit title",
+        "fill": "#072D59",
+        "content": "ตรวจทั้งสามช่อง: ยังมีจุดที่ต้องปรับให้เข้าชุด",
+        "lineHeight": 1.4,
+        "fontFamily": "$font.primary",
+        "fontSize": 26,
+        "fontWeight": "500"
+      },
+      {
+        "type": "text",
+        "id": "MfOS0",
+        "x": 32,
+        "y": 92,
+        "name": "Audit scope",
+        "fill": "#072D59",
+        "content": "ภาพสถานะปัจจุบัน · Desktop · รอบนี้ตรวจแบบ ยังไม่แก้หน้าหลัก",
+        "lineHeight": 1.4,
+        "fontFamily": "$font.primary",
+        "fontSize": 15,
+        "fontWeight": "normal"
+      },
+      {
+        "type": "frame",
+        "id": "r9esT",
+        "x": 32,
+        "y": 137,
+        "name": "Current picker evidence",
+        "width": 1376,
+        "height": 430,
+        "layout": "none",
+        "children": [
+          {
+            "type": "frame",
+            "id": "g61cD",
+            "x": 0,
+            "y": 0,
+            "name": "สถานที่ audit column",
+            "width": 444,
+            "layout": "vertical",
+            "gap": 16,
+            "children": [
+              {
+                "type": "text",
+                "id": "K3Bgwf",
+                "name": "สถานที่ audit heading",
+                "fill": "#072D59",
+                "content": "สถานที่",
+                "lineHeight": 1.4,
+                "fontFamily": "$font.primary",
+                "fontSize": 20,
+                "fontWeight": "500"
+              },
+              {
+                "type": "text",
+                "id": "RsSQi",
+                "name": "สถานที่ finding",
+                "fill": "#072D59",
+                "textGrowth": "fixed-width",
+                "width": "fill_container",
+                "content": "มีช่องพิมพ์ซ้ำกับแถบค้นหา ควรเหลือจุดพิมพ์เดียว",
+                "lineHeight": 1.4,
+                "fontFamily": "$font.primary",
+                "fontSize": 14,
+                "fontWeight": "normal"
+              },
+              {
+                "type": "frame",
+                "id": "BSluX",
+                "name": "สถานที่ current design evidence",
+                "width": 400,
+                "fill": "#FFFFFF",
+                "cornerRadius": 20,
+                "stroke": "#D6E4EE",
+                "strokeWidth": 1,
+                "layout": "vertical",
+                "gap": 8,
+                "padding": 16,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "H0I7Rl",
+                    "name": "Location panel header",
+                    "width": "fill_container",
+                    "gap": 16,
+                    "justifyContent": "space_between",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "ywTOH",
+                        "name": "Location title",
+                        "fill": "#072D59",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "สถานที่",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 18,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "frame",
+                        "id": "e7hGkA",
+                        "name": "Close location and return",
+                        "width": 44,
+                        "height": 44,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 24,
+                        "gap": 16,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "iZ6gN",
+                            "name": "Close location and return icon",
+                            "width": 24,
+                            "height": 24,
+                            "icon": "x",
+                            "library": "lucide",
+                            "fill": "#072D59"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "m2y6Et",
+                    "name": "ค้นหาสถานที่ field",
+                    "width": "fill_container",
+                    "height": 52,
+                    "fill": "#FFFFFF",
+                    "cornerRadius": 10,
+                    "stroke": "#072D59",
+                    "strokeWidth": 2,
+                    "layout": "vertical",
+                    "gap": 2,
+                    "padding": [
+                      5,
+                      12
+                    ],
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "AzV27",
+                        "name": "ค้นหาสถานที่ label",
+                        "fill": "#072D59",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ค้นหาสถานที่",
+                        "lineHeight": 1.3,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 12
+                      },
+                      {
+                        "type": "text",
+                        "id": "hDVld",
+                        "name": "ค้นหาสถานที่ value",
+                        "fill": "#072D59",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "พั",
+                        "lineHeight": 1.3,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 16,
+                        "fontWeight": "500"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "t2nqo",
+                    "name": "Suggestions heading",
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "สถานที่แนะนำ",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 14
+                  },
+                  {
+                    "type": "frame",
+                    "id": "S9sS7O",
+                    "name": "Suggestion พัทยา",
+                    "width": "fill_container",
+                    "height": 48,
+                    "gap": 12,
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "rDTJd",
+                        "name": "พัทยา pin",
+                        "width": 24,
+                        "height": 24,
+                        "icon": "map-pin",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      },
+                      {
+                        "type": "frame",
+                        "id": "WANT6",
+                        "name": "พัทยา suggestion text",
+                        "width": "fill_container",
+                        "layout": "vertical",
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "jTNaW",
+                            "name": "พัทยา name",
+                            "fill": "#072D59",
+                            "textGrowth": "fixed-width",
+                            "width": "fill_container",
+                            "content": "พัทยา",
+                            "lineHeight": 1.3,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 16,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "text",
+                            "id": "x6OcU",
+                            "name": "พัทยา region",
+                            "fill": "#6B7280",
+                            "textGrowth": "fixed-width",
+                            "width": "fill_container",
+                            "content": "ชลบุรี",
+                            "lineHeight": 1.3,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 13
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "p41k6n",
+                    "name": "Suggestion พัทยาเหนือ",
+                    "width": "fill_container",
+                    "height": 48,
+                    "gap": 12,
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "b3tDe5",
+                        "name": "พัทยาเหนือ pin",
+                        "width": 24,
+                        "height": 24,
+                        "icon": "map-pin",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      },
+                      {
+                        "type": "frame",
+                        "id": "IMJIR",
+                        "name": "พัทยาเหนือ suggestion text",
+                        "width": "fill_container",
+                        "layout": "vertical",
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "lSA2l",
+                            "name": "พัทยาเหนือ name",
+                            "fill": "#072D59",
+                            "textGrowth": "fixed-width",
+                            "width": "fill_container",
+                            "content": "พัทยาเหนือ",
+                            "lineHeight": 1.3,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 16,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "text",
+                            "id": "ahwHZ",
+                            "name": "พัทยาเหนือ region",
+                            "fill": "#6B7280",
+                            "textGrowth": "fixed-width",
+                            "width": "fill_container",
+                            "content": "ชลบุรี",
+                            "lineHeight": 1.3,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 13
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "u2Xh5Z",
+                    "name": "Suggestion พัทยาใต้",
+                    "width": "fill_container",
+                    "height": 48,
+                    "gap": 12,
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "pCrLU",
+                        "name": "พัทยาใต้ pin",
+                        "width": 24,
+                        "height": 24,
+                        "icon": "map-pin",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      },
+                      {
+                        "type": "frame",
+                        "id": "kxs8R",
+                        "name": "พัทยาใต้ suggestion text",
+                        "width": "fill_container",
+                        "layout": "vertical",
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "YKs3l",
+                            "name": "พัทยาใต้ name",
+                            "fill": "#072D59",
+                            "textGrowth": "fixed-width",
+                            "width": "fill_container",
+                            "content": "พัทยาใต้",
+                            "lineHeight": 1.3,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 16,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "text",
+                            "id": "XVS3f",
+                            "name": "พัทยาใต้ region",
+                            "fill": "#6B7280",
+                            "textGrowth": "fixed-width",
+                            "width": "fill_container",
+                            "content": "ชลบุรี",
+                            "lineHeight": 1.3,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 13
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "MEOPo",
+            "x": 466,
+            "y": 0,
+            "name": "วันเข้าพัก audit column",
+            "width": 444,
+            "layout": "vertical",
+            "gap": 16,
+            "children": [
+              {
+                "type": "text",
+                "id": "fb8xD",
+                "name": "วันเข้าพัก audit heading",
+                "fill": "#072D59",
+                "content": "วันเข้าพัก",
+                "lineHeight": 1.4,
+                "fontFamily": "$font.primary",
+                "fontSize": 20,
+                "fontWeight": "500"
+              },
+              {
+                "type": "text",
+                "id": "l8QHWF",
+                "name": "วันเข้าพัก finding",
+                "fill": "#072D59",
+                "textGrowth": "fixed-width",
+                "width": "fill_container",
+                "content": "ยังมีบันทึก ควรใช้ค้นหายืนยันหลัก และคงทางล้างวันที่",
+                "lineHeight": 1.4,
+                "fontFamily": "$font.primary",
+                "fontSize": 14,
+                "fontWeight": "normal"
+              },
+              {
+                "type": "frame",
+                "id": "P3K2KC",
+                "name": "วันเข้าพัก current design evidence",
+                "width": 440,
+                "fill": "#FFFFFF",
+                "cornerRadius": 20,
+                "stroke": "#D6E4EE",
+                "strokeWidth": 1,
+                "layout": "vertical",
+                "gap": 8,
+                "padding": 16,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "IZc5L",
+                    "name": "Date selection guidance",
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "เลือกวันเช็คอิน",
+                    "lineHeight": 1.4,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 14,
+                    "fontWeight": "normal"
+                  },
+                  {
+                    "type": "frame",
+                    "id": "lMcnK",
+                    "name": "DATE-01 open",
+                    "width": "fill_container",
+                    "layout": "vertical",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "A6klyI",
+                        "name": "Calendar month navigation",
+                        "width": "fill_container",
+                        "gap": 16,
+                        "justifyContent": "space_between",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "oazeG",
+                            "name": "Previous month",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "P0UW6",
+                                "name": "Previous month icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "chevron-left",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "id": "B2MnW",
+                            "name": "Calendar month",
+                            "fill": "#072D59",
+                            "content": "ธันวาคม 2569",
+                            "lineHeight": 1.3,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 16,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "E3BIcQ",
+                            "name": "Next month",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "VDMTo",
+                                "name": "Next month icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "chevron-right",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "SdgN9",
+                            "name": "Close date picker · return to origin",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "X6Y0Oy",
+                                "name": "Close guests and return icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "x",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "twbQU",
+                        "name": "Calendar weekday row",
+                        "width": "fill_container",
+                        "gap": 2,
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "KeAdQ",
+                            "name": "จ weekday",
+                            "width": "fill_container",
+                            "height": 20,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "N7nBNM",
+                                "name": "จ weekday label",
+                                "fill": "#6B7280",
+                                "content": "จ",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "n7z6f",
+                            "name": "อ weekday",
+                            "width": "fill_container",
+                            "height": 20,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "w0902N",
+                                "name": "อ weekday label",
+                                "fill": "#6B7280",
+                                "content": "อ",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "r2dGs9",
+                            "name": "พ weekday",
+                            "width": "fill_container",
+                            "height": 20,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "ouiu7",
+                                "name": "พ weekday label",
+                                "fill": "#6B7280",
+                                "content": "พ",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "TEVTA",
+                            "name": "พฤ weekday",
+                            "width": "fill_container",
+                            "height": 20,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "O1Osh",
+                                "name": "พฤ weekday label",
+                                "fill": "#6B7280",
+                                "content": "พฤ",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "OBcKl",
+                            "name": "ศ weekday",
+                            "width": "fill_container",
+                            "height": 20,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "WZLTB",
+                                "name": "ศ weekday label",
+                                "fill": "#6B7280",
+                                "content": "ศ",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "Rs5nY",
+                            "name": "ส weekday",
+                            "width": "fill_container",
+                            "height": 20,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "l2GNh",
+                                "name": "ส weekday label",
+                                "fill": "#6B7280",
+                                "content": "ส",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "NyJgf",
+                            "name": "อา weekday",
+                            "width": "fill_container",
+                            "height": 20,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "KLaAk",
+                                "name": "อา weekday label",
+                                "fill": "#6B7280",
+                                "content": "อา",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 13
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "npXpg",
+                        "name": "Calendar week 1",
+                        "width": "fill_container",
+                        "gap": 2,
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "D6kKl",
+                            "name": "Outside month cell 0-0",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "g0v7ht",
+                            "name": "Day 1",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "l8EaOe",
+                                "name": "Day 1 label",
+                                "fill": "#072D59",
+                                "content": "1",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "jANkz",
+                            "name": "Day 2",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "zlkzd",
+                                "name": "Day 2 label",
+                                "fill": "#072D59",
+                                "content": "2",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "h7STS",
+                            "name": "Day 3",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "Xv82x",
+                                "name": "Day 3 label",
+                                "fill": "#072D59",
+                                "content": "3",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "kMdDR",
+                            "name": "Day 4",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "sCRcG",
+                                "name": "Day 4 label",
+                                "fill": "#072D59",
+                                "content": "4",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "j4ozr",
+                            "name": "Day 5",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "q66T6",
+                                "name": "Day 5 label",
+                                "fill": "#072D59",
+                                "content": "5",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "ZqVtR",
+                            "name": "Day 6",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "sVW0j",
+                                "name": "Day 6 label",
+                                "fill": "#072D59",
+                                "content": "6",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "Jm906",
+                        "name": "Calendar week 2",
+                        "width": "fill_container",
+                        "gap": 2,
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "RQ6gt",
+                            "name": "Day 7",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "XH5aY",
+                                "name": "Day 7 label",
+                                "fill": "#072D59",
+                                "content": "7",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "HWCsW",
+                            "name": "Day 8",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "FN5kh",
+                                "name": "Day 8 label",
+                                "fill": "#072D59",
+                                "content": "8",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "qSf7w",
+                            "name": "Day 9",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "BYw40",
+                                "name": "Day 9 label",
+                                "fill": "#072D59",
+                                "content": "9",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "CW8tL",
+                            "name": "Day 10",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "Y0fz6Y",
+                                "name": "Day 10 label",
+                                "fill": "#072D59",
+                                "content": "10",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "gh36k",
+                            "name": "Day 11",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "A3975",
+                                "name": "Day 11 label",
+                                "fill": "#072D59",
+                                "content": "11",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "IqBQe",
+                            "name": "Day 12",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "tfZQl",
+                                "name": "Day 12 label",
+                                "fill": "#072D59",
+                                "content": "12",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "N7bcQw",
+                            "name": "Day 13",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "aCvl1",
+                                "name": "Day 13 label",
+                                "fill": "#072D59",
+                                "content": "13",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "fyh8T",
+                        "name": "Calendar week 3",
+                        "width": "fill_container",
+                        "gap": 2,
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "ImXnb",
+                            "name": "Day 14",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "fgTxl",
+                                "name": "Day 14 label",
+                                "fill": "#072D59",
+                                "content": "14",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "N2Ktp",
+                            "name": "Day 15",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "qGMxb",
+                                "name": "Day 15 label",
+                                "fill": "#072D59",
+                                "content": "15",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "p1ETZh",
+                            "name": "Day 16",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "x7wv4",
+                                "name": "Day 16 label",
+                                "fill": "#072D59",
+                                "content": "16",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "S5qRX",
+                            "name": "Day 17",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "qqeXk",
+                                "name": "Day 17 label",
+                                "fill": "#072D59",
+                                "content": "17",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "O2GbS9",
+                            "name": "Day 18",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "vWSja",
+                                "name": "Day 18 label",
+                                "fill": "#072D59",
+                                "content": "18",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "V0rUN",
+                            "name": "Day 19",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "w7xmk",
+                                "name": "Day 19 label",
+                                "fill": "#072D59",
+                                "content": "19",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "ibbXe",
+                            "name": "Day 20",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "ver90",
+                                "name": "Day 20 label",
+                                "fill": "#072D59",
+                                "content": "20",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "jA2Ra",
+                        "name": "Calendar week 4",
+                        "width": "fill_container",
+                        "gap": 2,
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "N0RnId",
+                            "name": "Day 21",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "JfRwR",
+                                "name": "Day 21 label",
+                                "fill": "#072D59",
+                                "content": "21",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "mzjpe",
+                            "name": "Day 22",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "xcyQh",
+                                "name": "Day 22 label",
+                                "fill": "#072D59",
+                                "content": "22",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "cn46F",
+                            "name": "Day 23",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "JplHf",
+                                "name": "Day 23 label",
+                                "fill": "#072D59",
+                                "content": "23",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "hL9Os",
+                            "name": "Day 24",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "t0Gvov",
+                                "name": "Day 24 label",
+                                "fill": "#072D59",
+                                "content": "24",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "p7CfsS",
+                            "name": "Day 25",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "J5duyU",
+                                "name": "Day 25 label",
+                                "fill": "#072D59",
+                                "content": "25",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "VF2O4",
+                            "name": "Day 26",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "R824ih",
+                                "name": "Day 26 label",
+                                "fill": "#072D59",
+                                "content": "26",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "CpMfx",
+                            "name": "Day 27",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "iT6Uq",
+                                "name": "Day 27 label",
+                                "fill": "#072D59",
+                                "content": "27",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "SOVZs",
+                        "name": "Calendar week 5",
+                        "width": "fill_container",
+                        "gap": 2,
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "BkQsx",
+                            "name": "Day 28",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "yZwJ0",
+                                "name": "Day 28 label",
+                                "fill": "#072D59",
+                                "content": "28",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "rlP40",
+                            "name": "Day 29",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "ka4PI",
+                                "name": "Day 29 label",
+                                "fill": "#072D59",
+                                "content": "29",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "JD7x7",
+                            "name": "Day 30",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "v4TToL",
+                                "name": "Day 30 label",
+                                "fill": "#072D59",
+                                "content": "30",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "W5UEN",
+                            "name": "Day 31",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "text",
+                                "id": "WeTAI",
+                                "name": "Day 31 label",
+                                "fill": "#072D59",
+                                "content": "31",
+                                "lineHeight": 1.5,
+                                "fontFamily": "$font.primary",
+                                "fontSize": 15
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "id": "hKnQg",
+                            "name": "Outside month cell 4-4",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "qIjWv",
+                            "name": "Outside month cell 4-5",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "USmv1",
+                            "name": "Outside month cell 4-6",
+                            "width": "fill_container",
+                            "height": 30,
+                            "fill": "#FFFFFF",
+                            "cornerRadius": 6,
+                            "layout": "vertical",
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "cjUsI",
+                    "name": "Date apply and clear actions",
+                    "width": "fill_container",
+                    "gap": 12,
+                    "children": [
+                      {
+                        "type": "frame",
+                        "id": "zDyTJ",
+                        "name": "Clear dates · keep other fields",
+                        "width": "fill_container",
+                        "height": 44,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 12,
+                        "stroke": "#D6E4EE",
+                        "strokeWidth": 1,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "IwyRq",
+                            "name": "Clear dates · keep other fields label",
+                            "fill": "#072D59",
+                            "content": "ไม่ระบุวัน",
+                            "lineHeight": 1.4,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 15,
+                            "fontWeight": "500"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "id": "LZpdw",
+                        "name": "Save complete range only",
+                        "width": "fill_container",
+                        "height": 44,
+                        "fill": "#F1F5F8",
+                        "cornerRadius": 12,
+                        "stroke": "#FFFFFF00",
+                        "strokeWidth": 1,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "sr5FC",
+                            "name": "Save complete range only label",
+                            "fill": "#8592A3",
+                            "content": "บันทึก",
+                            "lineHeight": 1.4,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 15,
+                            "fontWeight": "500"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "pVRKn",
+            "x": 932,
+            "y": 0,
+            "name": "ผู้เข้าพัก audit column",
+            "width": 444,
+            "layout": "vertical",
+            "gap": 16,
+            "children": [
+              {
+                "type": "text",
+                "id": "ocQhp",
+                "name": "ผู้เข้าพัก audit heading",
+                "fill": "#072D59",
+                "content": "ผู้เข้าพัก",
+                "lineHeight": 1.4,
+                "fontFamily": "$font.primary",
+                "fontSize": 20,
+                "fontWeight": "500"
+              },
+              {
+                "type": "text",
+                "id": "Pxezb",
+                "name": "ผู้เข้าพัก finding",
+                "fill": "#072D59",
+                "textGrowth": "fixed-width",
+                "width": "fill_container",
+                "content": "แบบ C ล่าสุดกระชับแล้ว แต่ Home/Results ยังเป็นรุ่นเดิม",
+                "lineHeight": 1.4,
+                "fontFamily": "$font.primary",
+                "fontSize": 14,
+                "fontWeight": "normal"
+              },
+              {
+                "type": "frame",
+                "id": "v24xs",
+                "name": "ผู้เข้าพัก current design evidence",
+                "width": 444,
+                "fill": "#FFFFFF",
+                "cornerRadius": 20,
+                "stroke": "#D6E4EE",
+                "strokeWidth": 1,
+                "layout": "vertical",
+                "gap": 8,
+                "padding": 16,
+                "children": [
+                  {
+                    "type": "frame",
+                    "id": "NCruv",
+                    "name": "Guest panel header",
+                    "width": "fill_container",
+                    "gap": 16,
+                    "justifyContent": "space_between",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "Frr2O",
+                        "name": "Guest panel title",
+                        "fill": "#072D59",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้เข้าพัก",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 18,
+                        "fontWeight": "500"
+                      },
+                      {
+                        "type": "frame",
+                        "id": "HtMjb",
+                        "name": "Close guests and return",
+                        "width": 44,
+                        "height": 44,
+                        "fill": "#FFFFFF",
+                        "cornerRadius": 24,
+                        "gap": 16,
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "id": "pTt7J",
+                            "name": "Close guests and return icon",
+                            "width": 24,
+                            "height": 24,
+                            "icon": "x",
+                            "library": "lucide",
+                            "fill": "#072D59"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "i6y1Zm",
+                    "x": 24,
+                    "y": 92,
+                    "name": "Total guest helper",
+                    "enabled": false,
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": 400,
+                    "content": "จำนวนผู้เข้าพักรวม",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 16
+                  },
+                  {
+                    "type": "frame",
+                    "id": "b31hvw",
+                    "name": "ผู้เข้าพักรวม counter",
+                    "width": "fill_container",
+                    "gap": 16,
+                    "justifyContent": "space_between",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "mAz5C",
+                        "name": "ผู้เข้าพักรวม caption",
+                        "fill": "#072D59",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "ผู้เข้าพักรวม",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 16
+                      },
+                      {
+                        "type": "frame",
+                        "id": "kRfO4",
+                        "name": "ผู้เข้าพักรวม controls",
+                        "gap": 10,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "TpDc0",
+                            "name": "ผู้เข้าพักรวม decrease",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "doY7b",
+                                "name": "ผู้เข้าพักรวม decrease icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "minus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "id": "GB4TF",
+                            "name": "ผู้เข้าพักรวม number",
+                            "fill": "#072D59",
+                            "content": "12",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 17,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "BoLS9",
+                            "name": "ผู้เข้าพักรวม increase",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "xhuTS",
+                                "name": "ผู้เข้าพักรวม increase icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "plus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "id": "wnrzw",
+                    "name": "สัตว์เลี้ยง counter",
+                    "width": "fill_container",
+                    "gap": 16,
+                    "justifyContent": "space_between",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "cnFMS",
+                        "name": "สัตว์เลี้ยง caption",
+                        "fill": "#072D59",
+                        "textGrowth": "fixed-width",
+                        "width": "fill_container",
+                        "content": "สัตว์เลี้ยง",
+                        "lineHeight": 1.5,
+                        "fontFamily": "$font.primary",
+                        "fontSize": 16
+                      },
+                      {
+                        "type": "frame",
+                        "id": "d72mH",
+                        "name": "สัตว์เลี้ยง controls",
+                        "gap": 10,
+                        "alignItems": "center",
+                        "children": [
+                          {
+                            "type": "frame",
+                            "id": "Uh9w1",
+                            "name": "สัตว์เลี้ยง decrease",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "FWjRX",
+                                "name": "สัตว์เลี้ยง decrease icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "minus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "id": "ppoei",
+                            "name": "สัตว์เลี้ยง number",
+                            "fill": "#072D59",
+                            "content": "1",
+                            "lineHeight": 1.5,
+                            "fontFamily": "$font.primary",
+                            "fontSize": 17,
+                            "fontWeight": "500"
+                          },
+                          {
+                            "type": "frame",
+                            "id": "UZBUl",
+                            "name": "สัตว์เลี้ยง increase",
+                            "width": 44,
+                            "height": 44,
+                            "fill": "#F7F7F7",
+                            "cornerRadius": 24,
+                            "gap": 16,
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "id": "aRzGj",
+                                "name": "สัตว์เลี้ยง increase icon",
+                                "width": 24,
+                                "height": 24,
+                                "icon": "plus",
+                                "library": "lucide",
+                                "fill": "#072D59"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "BPTCu",
+        "x": 32,
+        "y": 591,
+        "name": "Audit necessary guidance",
+        "fill": "#072D59",
+        "content": "คงข้อความที่ช่วยเลือกหรือแก้ข้อผิดพลาด เช่น เลือกวันเข้า/วันออกและจังหวัดของสถานที่",
+        "lineHeight": 1.4,
+        "fontFamily": "$font.primary",
+        "fontSize": 15,
+        "fontWeight": "normal"
+      },
+      {
+        "type": "text",
+        "id": "oMlGA",
+        "x": 32,
+        "y": 636,
+        "name": "Audit limitation",
+        "fill": "#53657C",
+        "content": "แบบ C ยังเป็นข้อเสนอ · ไม่ยกการแก้ครั้งนี้เป็นอนุมัติทั้งชุด · ปุ่มและคีย์บอร์ดยังไม่ได้ทดสอบจริง",
+        "lineHeight": 1.4,
+        "fontFamily": "$font.primary",
+        "fontSize": 13,
+        "fontWeight": "normal"
+      }
+    ]
+  },
+  "issues": [
+    {
+      "id": "g61cD",
+      "name": "สถานที่ audit column",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "MEOPo",
+      "name": "วันเข้าพัก audit column",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "oMlGA",
+      "name": "Audit limitation",
+      "problem": "fully clipped"
+    }
+  ],
+  "wholeCanvasRoots": 79,
+  "wholeCanvasNodes": 16702
+}

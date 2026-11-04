@@ -1,0 +1,21 @@
+{
+  "task": "DSD-001",
+  "version": "CTA-review-3",
+  "selectedOn": "2026-11-03",
+  "timezone": "Asia/Bangkok",
+  "source": "Explicit project owner message in this chat",
+  "instruction": "เอาแบบเดิมอ่ะฉันว่าสวยแล้ว",
+  "visualStatus": "owner_selected_visual_reference",
+  "background": "#FD6E88",
+  "label": "#FFFFFF",
+  "brandPinkUnchanged": "#FD6E88",
+  "darkerCandidatesSelected": false,
+  "nominalTextContrast": 2.705343217728925,
+  "normalTextAA": false,
+  "openIssue": "OPEN-001",
+  "openIssueStatus": "open",
+  "accessibilityExceptionApproved": false,
+  "foundationApproval": "pending_owner_review",
+  "implementationAcceptance": "blocked_by_OPEN-001",
+  "scope": "Visual reference selection only; no final foundation, frontend or production accessibility approval"
+}

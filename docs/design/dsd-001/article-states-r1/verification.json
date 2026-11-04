@@ -1,0 +1,86 @@
+{
+  "version": "Article-states-r1",
+  "home_unchanged": true,
+  "variables_unchanged": true,
+  "design_boundary_checks": [
+    {
+      "state": "default",
+      "stories": 3,
+      "whole_story_link_contract_labeled": true
+    },
+    {
+      "state": "hover-featured",
+      "stories": 3,
+      "whole_story_link_contract_labeled": true
+    },
+    {
+      "state": "focus-featured",
+      "stories": 3,
+      "whole_story_link_contract_labeled": true
+    },
+    {
+      "state": "hover-support",
+      "stories": 3,
+      "whole_story_link_contract_labeled": true
+    },
+    {
+      "state": "focus-support",
+      "stories": 3,
+      "whole_story_link_contract_labeled": true
+    },
+    {
+      "state": "focus-index",
+      "stories": 3,
+      "whole_story_link_contract_labeled": true
+    }
+  ],
+  "unfinished_roots": [],
+  "png_dimensions": {
+    "C8fEzt.png": [
+      1520,
+      960
+    ],
+    "HWbpT.png": [
+      1520,
+      960
+    ],
+    "HXedr.png": [
+      1520,
+      960
+    ],
+    "IZhre.png": [
+      1440,
+      729
+    ],
+    "J6N9G.png": [
+      1520,
+      960
+    ],
+    "kQOMV.png": [
+      1520,
+      960
+    ],
+    "LePae.png": [
+      1520,
+      960
+    ],
+    "ZVzQR.png": [
+      1440,
+      729
+    ]
+  },
+  "visual_checks": [
+    "Native screenshots of five Hover/Focus boards",
+    "Full-size supporting-focus section PNG"
+  ],
+  "limitations": [
+    "Custom metadata was not retained in returned native JSON; contract is documented with layer names and board annotations",
+    "No functional keyboard or screen reader test"
+  ],
+  "remaining_review": [
+    "Long title handling",
+    "Missing image/data policy",
+    "Loading/empty/error policy",
+    "Final article appearance/state acceptance"
+  ]
+}

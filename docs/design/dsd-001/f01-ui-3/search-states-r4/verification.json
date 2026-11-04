@@ -1,0 +1,140 @@
+{
+  "preserved": [
+    {
+      "id": "A1ks07",
+      "name": "F01 · WF-01 Home · Desktop · Home-Desktop-r7 seven categories",
+      "unchanged": true
+    },
+    {
+      "id": "osaIa",
+      "name": "F01 · WF-02 Results · Desktop · ui-3 · Results-upper-r3",
+      "unchanged": true
+    },
+    {
+      "id": "NmzZ4",
+      "name": "F01 · WF-02 Applied filters · Desktop · ui-3 · Results-upper-r3",
+      "unchanged": true
+    },
+    {
+      "id": "HpR7z",
+      "name": "F01 · WF-02 Pagination page 2 · Desktop · ui-3 · Results-upper-r3",
+      "unchanged": true
+    },
+    {
+      "id": "L8ev6",
+      "name": "F01 · WF-02 Results · Mobile · ui-3 · Results-r2",
+      "unchanged": true
+    },
+    {
+      "id": "YQRxl",
+      "name": "F01 · WF-02 Applied filters · Mobile · ui-3 · Results-r2",
+      "unchanged": true
+    },
+    {
+      "id": "P62IV",
+      "name": "F01 · WF-02 Pagination page 2 · Mobile · ui-3 · Results-r2",
+      "unchanged": true
+    },
+    {
+      "id": "Oyv0v",
+      "name": "F01 · WF-02A Location states · Desktop",
+      "unchanged": true
+    },
+    {
+      "id": "LoLN7",
+      "name": "F01 · WF-02P Dates and guests · Desktop",
+      "unchanged": true
+    },
+    {
+      "id": "vnCNA",
+      "name": "F01 · WF-10F Incomplete search dates · Desktop",
+      "unchanged": true
+    }
+  ],
+  "popupChecks": [
+    {
+      "key": "H-LOCATION",
+      "bounds": {
+        "x": 220,
+        "y": 532,
+        "width": 400,
+        "height": 333
+      },
+      "issues": []
+    },
+    {
+      "key": "H-DATES",
+      "bounds": {
+        "x": 499,
+        "y": 532,
+        "width": 440,
+        "height": 350
+      },
+      "issues": []
+    },
+    {
+      "key": "H-GUESTS",
+      "bounds": {
+        "x": 777,
+        "y": 532,
+        "width": 440,
+        "height": 258
+      },
+      "issues": []
+    },
+    {
+      "key": "R-LOCATION",
+      "bounds": {
+        "x": 72,
+        "y": 284,
+        "width": 400,
+        "height": 333
+      },
+      "issues": []
+    },
+    {
+      "key": "R-DATES",
+      "bounds": {
+        "x": 456,
+        "y": 284,
+        "width": 440,
+        "height": 350
+      },
+      "issues": []
+    },
+    {
+      "key": "R-GUESTS",
+      "bounds": {
+        "x": 840,
+        "y": 284,
+        "width": 440,
+        "height": 258
+      },
+      "issues": []
+    },
+    {
+      "key": "H-DATE-ERROR",
+      "bounds": {
+        "x": 499,
+        "y": 532,
+        "width": 440,
+        "height": 350
+      },
+      "issues": []
+    },
+    {
+      "key": "H-DATE-SELECTED",
+      "bounds": {
+        "x": 499,
+        "y": 532,
+        "width": 440,
+        "height": 350
+      },
+      "issues": []
+    }
+  ],
+  "overviewIssues": [],
+  "newRoots": 10,
+  "wholeCanvasRoots": 77,
+  "wholeCanvasNodes": 16425
+}

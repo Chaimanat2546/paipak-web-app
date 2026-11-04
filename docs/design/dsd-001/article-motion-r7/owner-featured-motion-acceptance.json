@@ -1,0 +1,22 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "1",
+  "question": "การเคลื่อนไหวรูปเรื่องเด่น: ใช้แบบนี้ / ลดแรงเอียงและขยาย / ปรับความเร็ว",
+  "selected_option": "ใช้การเคลื่อนไหวแบบนี้",
+  "status": "owner_accepted_featured_article_motion_r7",
+  "version": "Article-motion-r7",
+  "prototype": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-article-motion-r7.html",
+  "prototype_sha256": "f8d8454fc17c3699580559197f16b73e7be9417a16ff43c37b81a5c4cd0651c4",
+  "scope": "Displayed featured-photo hover motion and upright caption: whole photo lifts 6px, clockwise 1.5 degrees, whole-frame scale 1.035, caption lift 6px, 336ms easing as previewed; no inner-image zoom",
+  "reduced_motion": "Keep content static under reduced-motion preference or preview control",
+  "native_hover_root": "VXGI6",
+  "supporting_motion_approved": false,
+  "separate_native_focus_image_approved": false,
+  "whole_article_version_approved": false,
+  "whole_home_version_approved": false,
+  "foundation_approved": false,
+  "application_runtime_tested": false,
+  "frontend_authorized": false
+}

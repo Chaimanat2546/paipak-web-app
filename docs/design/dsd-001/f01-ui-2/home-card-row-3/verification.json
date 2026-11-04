@@ -1,0 +1,12 @@
+{
+  "main_home_unchanged": true,
+  "eight_cards_retained": true,
+  "four_full_cards_width": true,
+  "all_cards_same_width_and_height": true,
+  "title_slots_same_height": true,
+  "information_slots_same_height": true,
+  "footer_rows_same_height": true,
+  "no_count_reintroduced": true,
+  "status": "proposed_not_applied",
+  "functional_prototype": false
+}

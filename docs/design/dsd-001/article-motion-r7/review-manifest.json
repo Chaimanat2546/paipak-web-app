@@ -1,0 +1,53 @@
+{
+  "version": "Article-motion-r7",
+  "task": "DSD-001",
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_accepted_featured_motion; supporting_interaction_and_remaining_article_review_pending",
+  "static_baseline": "../article-body-fallback-r2/owner-ready-state-acceptance.json",
+  "prototype": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-article-motion-r7.html",
+  "prototype_sha256": "f8d8454fc17c3699580559197f16b73e7be9417a16ff43c37b81a5c4cd0651c4",
+  "prototype_bytes": 962974,
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_states": {
+    "hover": "VXGI6",
+    "focus_static": "ppdaN",
+    "normal": "l5kvNr"
+  },
+  "proposed_motion": {
+    "whole_photo_lift_px": 6,
+    "whole_photo_scale": 1.035,
+    "clockwise_rotation_degrees": 1.5,
+    "pencil_rotation_degrees": -1.5,
+    "caption_lift_px": 6,
+    "caption_rotation": 0,
+    "inner_image_zoom": false,
+    "duration_ms": 336,
+    "easing": "cubic-bezier(.2,.8,.2,1)"
+  },
+  "reduced_motion": "No travel, scale or rotation; content and keyboard focus remain available",
+  "qa": {
+    "native_endpoints_visually_opened": true,
+    "script_syntax_node_check": "PASS",
+    "fragment_source_and_inline_asset_checks": "PASS",
+    "browser_interaction_tested": false,
+    "font_loading_verified": false,
+    "application_runtime_tested": false,
+    "structural_bounds": "Diagnostics retained; not certified clean"
+  },
+  "supporting_interaction": "Pending next review; no inner-image zoom reinstated",
+  "real_text_cover_study": "Pending",
+  "main_home_unchanged": true,
+  "approved_footer_unchanged": true,
+  "approved_tiktok_unchanged": true,
+  "variables_unchanged": true,
+  "whole_article_approved": false,
+  "whole_home_approved": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "featured_acceptance": "owner-featured-motion-acceptance.json",
+  "focus_reference_status": "Enclosing outline in old preview is not accepted; new focus alternatives are under article-focus-r2. Accepted hover motion remains unchanged."
+}

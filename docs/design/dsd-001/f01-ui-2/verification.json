@@ -1,0 +1,133 @@
+{
+  "version": "F01-ui-2",
+  "status": "pending_owner_review",
+  "checks": {
+    "body_preserved_outside_headers_footer_brand_and_mobile_menu": true,
+    "no_old_search_label": true,
+    "no_globe_icon": true,
+    "no_profile_avatar": true,
+    "font_variable_mitr": true,
+    "all_flags_22px": true,
+    "no_geometry_placeholders": true,
+    "all_native_layers_named": true
+  },
+  "counts": {
+    "review_groups": 29,
+    "native_nodes": 3460,
+    "desktop_headers": 6,
+    "mobile_headers": 10,
+    "footer_brand_lockups": 10
+  },
+  "body_comparison": [
+    {
+      "id": "A1ks07",
+      "preserved": true
+    },
+    {
+      "id": "PiA4h",
+      "preserved": true
+    },
+    {
+      "id": "osaIa",
+      "preserved": true
+    },
+    {
+      "id": "L8ev6",
+      "preserved": true
+    },
+    {
+      "id": "qcEOf",
+      "preserved": true
+    },
+    {
+      "id": "S3VaWy",
+      "preserved": true
+    },
+    {
+      "id": "yL7bS",
+      "preserved": true
+    },
+    {
+      "id": "Oyv0v",
+      "preserved": true
+    },
+    {
+      "id": "GjoEH",
+      "preserved": true
+    },
+    {
+      "id": "LoLN7",
+      "preserved": true
+    },
+    {
+      "id": "E9JumJ",
+      "preserved": true
+    },
+    {
+      "id": "NhfIy",
+      "preserved": true
+    },
+    {
+      "id": "E3Tu4",
+      "preserved": true
+    },
+    {
+      "id": "TKJ7Z",
+      "preserved": true
+    },
+    {
+      "id": "avf6v",
+      "preserved": true
+    },
+    {
+      "id": "NmzZ4",
+      "preserved": true
+    },
+    {
+      "id": "YQRxl",
+      "preserved": true
+    },
+    {
+      "id": "JGYFJ",
+      "preserved": true
+    },
+    {
+      "id": "Qu46v",
+      "preserved": true
+    },
+    {
+      "id": "O5lUa1",
+      "preserved": true
+    },
+    {
+      "id": "vnCNA",
+      "preserved": true
+    },
+    {
+      "id": "Rg5AF",
+      "preserved": true
+    },
+    {
+      "id": "g9sYI",
+      "preserved": true
+    },
+    {
+      "id": "dbMM6",
+      "preserved": true
+    },
+    {
+      "id": "HpR7z",
+      "preserved": true
+    },
+    {
+      "id": "P62IV",
+      "preserved": true
+    },
+    {
+      "id": "uBBn2",
+      "preserved": true
+    }
+  ],
+  "OPEN_001": "open",
+  "functional_prototype": false
+}

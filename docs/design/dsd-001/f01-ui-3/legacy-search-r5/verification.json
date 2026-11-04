@@ -1,0 +1,2233 @@
+{
+  "preserved": [
+    {
+      "id": "A1ks07",
+      "name": "F01 · WF-01 Home · Desktop · Home-Desktop-r7 seven categories",
+      "unchanged": true
+    },
+    {
+      "id": "osaIa",
+      "name": "F01 · WF-02 Results · Desktop · ui-3 · Results-upper-r3",
+      "unchanged": true
+    },
+    {
+      "id": "NmzZ4",
+      "name": "F01 · WF-02 Applied filters · Desktop · ui-3 · Results-upper-r3",
+      "unchanged": true
+    },
+    {
+      "id": "HpR7z",
+      "name": "F01 · WF-02 Pagination page 2 · Desktop · ui-3 · Results-upper-r3",
+      "unchanged": true
+    },
+    {
+      "id": "L8ev6",
+      "name": "F01 · WF-02 Results · Mobile · ui-3 · Results-r2",
+      "unchanged": true
+    },
+    {
+      "id": "YQRxl",
+      "name": "F01 · WF-02 Applied filters · Mobile · ui-3 · Results-r2",
+      "unchanged": true
+    },
+    {
+      "id": "P62IV",
+      "name": "F01 · WF-02 Pagination page 2 · Mobile · ui-3 · Results-r2",
+      "unchanged": true
+    },
+    {
+      "id": "DX5Qr",
+      "name": "REVIEW · Search confirmation study · proposal only",
+      "unchanged": true
+    },
+    {
+      "id": "c9whv",
+      "name": "START HERE · Search-states-r4 · Desktop search review",
+      "unchanged": true
+    },
+    {
+      "id": "fGgOA",
+      "name": "REVIEW · Three search pickers audit · current states",
+      "unchanged": true
+    }
+  ],
+  "popupChecks": [
+    {
+      "key": "HOME-LOCATION",
+      "bounds": {
+        "x": 220,
+        "y": 532,
+        "width": 320,
+        "height": 300
+      },
+      "issues": []
+    },
+    {
+      "key": "HOME-DATES",
+      "bounds": {
+        "x": 272,
+        "y": 532,
+        "width": 720,
+        "height": 354
+      },
+      "issues": []
+    },
+    {
+      "key": "HOME-GUESTS",
+      "bounds": {
+        "x": 777,
+        "y": 532,
+        "width": 380,
+        "height": 236
+      },
+      "issues": []
+    },
+    {
+      "key": "RESULTS-LOCATION",
+      "bounds": {
+        "x": 72,
+        "y": 284,
+        "width": 400,
+        "height": 300
+      },
+      "issues": []
+    },
+    {
+      "key": "RESULTS-DATES",
+      "bounds": {
+        "x": 284,
+        "y": 284,
+        "width": 720,
+        "height": 354
+      },
+      "issues": []
+    },
+    {
+      "key": "RESULTS-GUESTS",
+      "bounds": {
+        "x": 840,
+        "y": 284,
+        "width": 380,
+        "height": 236
+      },
+      "issues": []
+    },
+    {
+      "key": "HOME-MISSING-CHECKOUT",
+      "bounds": {
+        "x": 272,
+        "y": 582,
+        "width": 720,
+        "height": 354
+      },
+      "issues": [
+        {
+          "id": "ZCdYG",
+          "name": "Legacy source · two month calendar · error",
+          "problem": "partially clipped"
+        },
+        {
+          "id": "edLiv",
+          "name": "Date picker selection prompt",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "bBV2f",
+          "name": "Previous calendar month",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "EGFBy",
+          "name": "Previous calendar month icon",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "T6qLg",
+          "name": "Next calendar month",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "LQWSr",
+          "name": "Next calendar month icon",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "Uhywp",
+          "name": "Close date picker",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "qYljr",
+          "name": "Close date picker icon",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "Qmm0V",
+          "name": "Two calendar months side by side",
+          "problem": "partially clipped"
+        },
+        {
+          "id": "z0O5Ws",
+          "name": "ธันวาคม 2569 calendar",
+          "problem": "partially clipped"
+        },
+        {
+          "id": "Oi2zO",
+          "name": "ธันวาคม 2569 month title",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "k9irqx",
+          "name": "ธันวาคม 2569 อา weekday",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "L8xaxn",
+          "name": "อา weekday label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "a4mS4Z",
+          "name": "ธันวาคม 2569 จ weekday",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "kuOlB",
+          "name": "จ weekday label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "f2dxZw",
+          "name": "ธันวาคม 2569 อ weekday",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "MkJ31",
+          "name": "อ weekday label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "EPsQt",
+          "name": "ธันวาคม 2569 พ weekday",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "hsDgJ",
+          "name": "พ weekday label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "V9ZWiI",
+          "name": "ธันวาคม 2569 พฤ weekday",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "owfJ4",
+          "name": "พฤ weekday label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "o1CttK",
+          "name": "ธันวาคม 2569 ศ weekday",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "kDXOg",
+          "name": "ศ weekday label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "TNXnB",
+          "name": "ธันวาคม 2569 ส weekday",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "mWeGN",
+          "name": "ส weekday label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "FSAq5",
+          "name": "ธันวาคม 2569 outside month 0-0",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "rNcsL",
+          "name": "ธันวาคม 2569 outside month 0-1",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "VDGK9",
+          "name": "ธันวาคม 2569 day 1",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "hdMYi",
+          "name": "ธันวาคม 2569 day 1 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "WSwsh",
+          "name": "ธันวาคม 2569 day 2",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "l5Eq7Z",
+          "name": "ธันวาคม 2569 day 2 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "B2VZrJ",
+          "name": "ธันวาคม 2569 day 3",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "vgdVy",
+          "name": "ธันวาคม 2569 day 3 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "J40Ig",
+          "name": "ธันวาคม 2569 day 4",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "fSIzH",
+          "name": "ธันวาคม 2569 day 4 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "nyUh1",
+          "name": "ธันวาคม 2569 day 5",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "qF1ML",
+          "name": "ธันวาคม 2569 day 5 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "bXjEL",
+          "name": "ธันวาคม 2569 day 6",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "GCzvA",
+          "name": "ธันวาคม 2569 day 6 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "z2MeJ",
+          "name": "ธันวาคม 2569 day 7",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "pSLbz",
+          "name": "ธันวาคม 2569 day 7 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "MNEfa",
+          "name": "ธันวาคม 2569 day 8",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "oqubQ",
+          "name": "ธันวาคม 2569 day 8 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "pbTV0",
+          "name": "ธันวาคม 2569 day 9",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "TFFYm",
+          "name": "ธันวาคม 2569 day 9 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "w0A43T",
+          "name": "ธันวาคม 2569 day 10",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "wZrRQ",
+          "name": "ธันวาคม 2569 day 10 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "hJx9T",
+          "name": "ธันวาคม 2569 day 11",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "X3EAl",
+          "name": "ธันวาคม 2569 day 11 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "HZJpr",
+          "name": "ธันวาคม 2569 day 12",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "g3Qef",
+          "name": "ธันวาคม 2569 day 12 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "fSVp6",
+          "name": "ธันวาคม 2569 day 13",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "rMtCk",
+          "name": "ธันวาคม 2569 day 13 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "mrVTk",
+          "name": "ธันวาคม 2569 day 14",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "zmM0V",
+          "name": "ธันวาคม 2569 day 14 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "bgwZI",
+          "name": "ธันวาคม 2569 day 15",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "J4EL4G",
+          "name": "ธันวาคม 2569 day 15 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "RFU5q",
+          "name": "ธันวาคม 2569 day 16",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "piM89",
+          "name": "ธันวาคม 2569 day 16 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "g2dfe",
+          "name": "ธันวาคม 2569 day 17",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "fSsON",
+          "name": "ธันวาคม 2569 day 17 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "dRYpr",
+          "name": "ธันวาคม 2569 day 18",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "l9cpV",
+          "name": "ธันวาคม 2569 day 18 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "Z3Qro",
+          "name": "ธันวาคม 2569 day 19",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "Q3isk",
+          "name": "ธันวาคม 2569 day 19 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "r57oDh",
+          "name": "ธันวาคม 2569 day 20",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "q4SN6s",
+          "name": "ธันวาคม 2569 day 20 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "vQc0j",
+          "name": "ธันวาคม 2569 day 21",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "Ur6ZF",
+          "name": "ธันวาคม 2569 day 21 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "rry0F",
+          "name": "ธันวาคม 2569 day 22",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "a4Soza",
+          "name": "ธันวาคม 2569 day 22 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "WChb9",
+          "name": "ธันวาคม 2569 day 23",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "kS7NT",
+          "name": "ธันวาคม 2569 day 23 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "VRdwm",
+          "name": "ธันวาคม 2569 day 24",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "VdXrR",
+          "name": "ธันวาคม 2569 day 24 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "cyFBn",
+          "name": "ธันวาคม 2569 day 25",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "P7PpR",
+          "name": "ธันวาคม 2569 day 25 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "AfdwE",
+          "name": "ธันวาคม 2569 day 26",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "s4qQv7",
+          "name": "ธันวาคม 2569 day 26 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "uAodO",
+          "name": "ธันวาคม 2569 week 5",
+          "problem": "partially clipped"
+        },
+        {
+          "id": "GQkeE",
+          "name": "ธันวาคม 2569 day 27",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "c0b4l",
+          "name": "ธันวาคม 2569 day 27 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "cmm02",
+          "name": "ธันวาคม 2569 day 28",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "gUDWI",
+          "name": "ธันวาคม 2569 day 28 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "h55ia",
+          "name": "ธันวาคม 2569 day 29",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "EBH5Z",
+          "name": "ธันวาคม 2569 day 29 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "iGMDu",
+          "name": "ธันวาคม 2569 day 30",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "HROnh",
+          "name": "ธันวาคม 2569 day 30 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "fgMOi",
+          "name": "ธันวาคม 2569 day 31",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "X99KFd",
+          "name": "ธันวาคม 2569 day 31 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "tJnYj",
+          "name": "ธันวาคม 2569 outside month 4-5",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "blfNn",
+          "name": "ธันวาคม 2569 outside month 4-6",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "S0U6ny",
+          "name": "ธันวาคม 2569 week 6",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "nzz8h",
+          "name": "ธันวาคม 2569 outside month 5-0",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "CMJXT",
+          "name": "ธันวาคม 2569 outside month 5-1",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "DvMZU",
+          "name": "ธันวาคม 2569 outside month 5-2",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "x4grFp",
+          "name": "ธันวาคม 2569 outside month 5-3",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "vqtSo",
+          "name": "ธันวาคม 2569 outside month 5-4",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "WciDP",
+          "name": "ธันวาคม 2569 outside month 5-5",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "YViSW",
+          "name": "ธันวาคม 2569 outside month 5-6",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "SJ5tJ",
+          "name": "มกราคม 2570 calendar",
+          "problem": "partially clipped"
+        },
+        {
+          "id": "lnHsn",
+          "name": "มกราคม 2570 month title",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "eafzo",
+          "name": "มกราคม 2570 อา weekday",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "bfHLD",
+          "name": "อา weekday label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "f1PlJt",
+          "name": "มกราคม 2570 จ weekday",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "jeonN",
+          "name": "จ weekday label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "kVrU8",
+          "name": "มกราคม 2570 อ weekday",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "KpwY3",
+          "name": "อ weekday label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "wtFLO",
+          "name": "มกราคม 2570 พ weekday",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "hhAop",
+          "name": "พ weekday label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "y1hKxP",
+          "name": "มกราคม 2570 พฤ weekday",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "xL8gl",
+          "name": "พฤ weekday label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "E5JkEa",
+          "name": "มกราคม 2570 ศ weekday",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "az53F",
+          "name": "ศ weekday label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "vGGFo",
+          "name": "มกราคม 2570 ส weekday",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "mmcsy",
+          "name": "ส weekday label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "RxZub",
+          "name": "มกราคม 2570 outside month 0-0",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "OIBMq",
+          "name": "มกราคม 2570 outside month 0-1",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "W1AVVx",
+          "name": "มกราคม 2570 outside month 0-2",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "P5onIv",
+          "name": "มกราคม 2570 outside month 0-3",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "G8YDS",
+          "name": "มกราคม 2570 outside month 0-4",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "nAU7F",
+          "name": "มกราคม 2570 day 1",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "SU0g1",
+          "name": "มกราคม 2570 day 1 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "NbgN7",
+          "name": "มกราคม 2570 day 2",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "jndoX",
+          "name": "มกราคม 2570 day 2 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "kAydT",
+          "name": "มกราคม 2570 day 3",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "IWCGD",
+          "name": "มกราคม 2570 day 3 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "G4FGh",
+          "name": "มกราคม 2570 day 4",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "SN3yO",
+          "name": "มกราคม 2570 day 4 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "S6oHnK",
+          "name": "มกราคม 2570 day 5",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "OP3lf",
+          "name": "มกราคม 2570 day 5 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "jzg5W",
+          "name": "มกราคม 2570 day 6",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "uQYZ2",
+          "name": "มกราคม 2570 day 6 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "JziJB",
+          "name": "มกราคม 2570 day 7",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "oUxvE",
+          "name": "มกราคม 2570 day 7 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "FdVJ5",
+          "name": "มกราคม 2570 day 8",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "ost1q",
+          "name": "มกราคม 2570 day 8 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "MWIho",
+          "name": "มกราคม 2570 day 9",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "gCL1k",
+          "name": "มกราคม 2570 day 9 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "y8aH1C",
+          "name": "มกราคม 2570 day 10",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "YioUu",
+          "name": "มกราคม 2570 day 10 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "X7bgKk",
+          "name": "มกราคม 2570 day 11",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "XC0GJ",
+          "name": "มกราคม 2570 day 11 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "aWExa",
+          "name": "มกราคม 2570 day 12",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "f2aEc6",
+          "name": "มกราคม 2570 day 12 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "WYqm5",
+          "name": "มกราคม 2570 day 13",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "dMGnA",
+          "name": "มกราคม 2570 day 13 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "wENlS",
+          "name": "มกราคม 2570 day 14",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "uuwV6",
+          "name": "มกราคม 2570 day 14 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "Y6YknM",
+          "name": "มกราคม 2570 day 15",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "F2bfv",
+          "name": "มกราคม 2570 day 15 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "eCf7o",
+          "name": "มกราคม 2570 day 16",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "co0MQ",
+          "name": "มกราคม 2570 day 16 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "PKXVy",
+          "name": "มกราคม 2570 day 17",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "KxfSB",
+          "name": "มกราคม 2570 day 17 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "r442Y",
+          "name": "มกราคม 2570 day 18",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "JCG5P",
+          "name": "มกราคม 2570 day 18 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "I0c1s",
+          "name": "มกราคม 2570 day 19",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "r3mYI",
+          "name": "มกราคม 2570 day 19 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "YVeFJ",
+          "name": "มกราคม 2570 day 20",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "itUCq",
+          "name": "มกราคม 2570 day 20 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "zhl5Z",
+          "name": "มกราคม 2570 day 21",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "wFvcv",
+          "name": "มกราคม 2570 day 21 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "Yx6Rn",
+          "name": "มกราคม 2570 day 22",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "flERJ",
+          "name": "มกราคม 2570 day 22 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "GOGYP",
+          "name": "มกราคม 2570 day 23",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "Bb2ia",
+          "name": "มกราคม 2570 day 23 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "M5SKa",
+          "name": "มกราคม 2570 week 5",
+          "problem": "partially clipped"
+        },
+        {
+          "id": "opUv1",
+          "name": "มกราคม 2570 day 24",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "nyYCS",
+          "name": "มกราคม 2570 day 24 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "Saz5P",
+          "name": "มกราคม 2570 day 25",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "wWNGV",
+          "name": "มกราคม 2570 day 25 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "g3quu",
+          "name": "มกราคม 2570 day 26",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "h4L8K",
+          "name": "มกราคม 2570 day 26 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "n0OyOU",
+          "name": "มกราคม 2570 day 27",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "niSBr",
+          "name": "มกราคม 2570 day 27 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "UDrJl",
+          "name": "มกราคม 2570 day 28",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "ZXhSU",
+          "name": "มกราคม 2570 day 28 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "IM3qY",
+          "name": "มกราคม 2570 day 29",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "xTVnN",
+          "name": "มกราคม 2570 day 29 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "XNulo",
+          "name": "มกราคม 2570 day 30",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "i6MwV",
+          "name": "มกราคม 2570 day 30 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "NOYBo",
+          "name": "มกราคม 2570 week 6",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "n0Tz9",
+          "name": "มกราคม 2570 day 31",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "amC82",
+          "name": "มกราคม 2570 day 31 label",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "T867t",
+          "name": "มกราคม 2570 outside month 5-1",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "j0Sg5W",
+          "name": "มกราคม 2570 outside month 5-2",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "xGgNm",
+          "name": "มกราคม 2570 outside month 5-3",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "PoUeb",
+          "name": "มกราคม 2570 outside month 5-4",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "K3bKip",
+          "name": "มกราคม 2570 outside month 5-5",
+          "problem": "fully clipped"
+        },
+        {
+          "id": "nnvnJ",
+          "name": "มกราคม 2570 outside month 5-6",
+          "problem": "fully clipped"
+        }
+      ]
+    },
+    {
+      "key": "HOME-COMPLETE-RANGE-TO-GUESTS",
+      "bounds": {
+        "x": 777,
+        "y": 532,
+        "width": 380,
+        "height": 236
+      },
+      "issues": []
+    }
+  ],
+  "overviewIssues": [
+    {
+      "id": "p4t74",
+      "name": "Legacy source · location suggestions only",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "OteIZ",
+      "name": "Location menu title",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "godBk",
+      "name": "Close location menu",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "w18Pm",
+      "name": "Close location menu icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "AISrg",
+      "name": "พัทยา map icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "G2vLx",
+      "name": "พัทยา destination label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "rAVk6",
+      "name": "หัวหิน map icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "dEYfF",
+      "name": "หัวหิน destination label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "yjwP4",
+      "name": "เขาใหญ่ map icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "zHcXR",
+      "name": "เขาใหญ่ destination label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "x9Gbuw",
+      "name": "Legacy destination เชียงใหม่",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "FguRA",
+      "name": "เชียงใหม่ map icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "U6Uu6h",
+      "name": "เชียงใหม่ destination label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "p8D7E",
+      "name": "dates source adapted review column",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "e1XoKn",
+      "name": "Legacy source · two month calendar · open",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "vHvih",
+      "name": "Date picker selection prompt",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "nplU7",
+      "name": "Previous calendar month",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "NnKDw",
+      "name": "Previous calendar month icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "YfCZs",
+      "name": "Next calendar month",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "pM1uh",
+      "name": "Next calendar month icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "NdSne",
+      "name": "Close date picker",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "c5Tbh",
+      "name": "Close date picker icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "h1vQnH",
+      "name": "Two calendar months side by side",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "PhcKA",
+      "name": "ธันวาคม 2569 calendar",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "fJVzO",
+      "name": "ธันวาคม 2569 month title",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "iQyfl",
+      "name": "ธันวาคม 2569 อา weekday",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "syEwx",
+      "name": "อา weekday label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "vopTF",
+      "name": "ธันวาคม 2569 จ weekday",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "rpnZp",
+      "name": "จ weekday label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Y1yrJ",
+      "name": "ธันวาคม 2569 อ weekday",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "z2vTi3",
+      "name": "อ weekday label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "V4Ocjd",
+      "name": "ธันวาคม 2569 พ weekday",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "On2Ci",
+      "name": "พ weekday label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "bknxw",
+      "name": "ธันวาคม 2569 พฤ weekday",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "m3opPf",
+      "name": "พฤ weekday label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "VN6fE",
+      "name": "ธันวาคม 2569 ศ weekday",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "sFHTk",
+      "name": "ศ weekday label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "C3ZGk2",
+      "name": "ธันวาคม 2569 ส weekday",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "p4OOR",
+      "name": "ส weekday label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "sEvtL",
+      "name": "ธันวาคม 2569 outside month 0-0",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "QUhRB",
+      "name": "ธันวาคม 2569 outside month 0-1",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "jISRW",
+      "name": "ธันวาคม 2569 day 1",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "X5VgV",
+      "name": "ธันวาคม 2569 day 1 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "rRSSJ",
+      "name": "ธันวาคม 2569 day 2",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "z7cx81",
+      "name": "ธันวาคม 2569 day 2 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "oMLHN",
+      "name": "ธันวาคม 2569 day 3",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "VTtcy",
+      "name": "ธันวาคม 2569 day 3 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "uMHry",
+      "name": "ธันวาคม 2569 day 4",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "WSvLh",
+      "name": "ธันวาคม 2569 day 4 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "B8cUM",
+      "name": "ธันวาคม 2569 day 5",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "a6pXed",
+      "name": "ธันวาคม 2569 day 5 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "U7wAV",
+      "name": "ธันวาคม 2569 day 6",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Lok21",
+      "name": "ธันวาคม 2569 day 6 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "wsy3s",
+      "name": "ธันวาคม 2569 day 7",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "XUKLU",
+      "name": "ธันวาคม 2569 day 7 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "KkHif",
+      "name": "ธันวาคม 2569 day 8",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "c8C0u",
+      "name": "ธันวาคม 2569 day 8 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "w42sQt",
+      "name": "ธันวาคม 2569 day 9",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "SfcPw",
+      "name": "ธันวาคม 2569 day 9 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "jw7KQ",
+      "name": "ธันวาคม 2569 day 10",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "AylsL",
+      "name": "ธันวาคม 2569 day 10 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "WIqT2",
+      "name": "ธันวาคม 2569 day 11",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "QCHIg",
+      "name": "ธันวาคม 2569 day 11 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "f6sE0",
+      "name": "ธันวาคม 2569 day 12",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Chy8I",
+      "name": "ธันวาคม 2569 day 12 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "g0n5G",
+      "name": "ธันวาคม 2569 day 13",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "CSqlL",
+      "name": "ธันวาคม 2569 day 13 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "jWNPJ",
+      "name": "ธันวาคม 2569 day 14",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "rI12j",
+      "name": "ธันวาคม 2569 day 14 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "m1dXBN",
+      "name": "ธันวาคม 2569 day 15",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "B8qKa",
+      "name": "ธันวาคม 2569 day 15 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "D1HWQZ",
+      "name": "ธันวาคม 2569 day 16",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "BlckE",
+      "name": "ธันวาคม 2569 day 16 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Cjbov",
+      "name": "ธันวาคม 2569 day 17",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "VoyFo",
+      "name": "ธันวาคม 2569 day 17 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "BmMNn",
+      "name": "ธันวาคม 2569 day 18",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "jMtK9",
+      "name": "ธันวาคม 2569 day 18 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "J9X7ls",
+      "name": "ธันวาคม 2569 day 19",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "iael8",
+      "name": "ธันวาคม 2569 day 19 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "qsLU8",
+      "name": "ธันวาคม 2569 day 20",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "VmDTX",
+      "name": "ธันวาคม 2569 day 20 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "l2ukGt",
+      "name": "ธันวาคม 2569 day 21",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "XcV9g",
+      "name": "ธันวาคม 2569 day 21 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "UqoV5",
+      "name": "ธันวาคม 2569 day 22",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Eugnq",
+      "name": "ธันวาคม 2569 day 22 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "gUSwb",
+      "name": "ธันวาคม 2569 day 23",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "qBqjD",
+      "name": "ธันวาคม 2569 day 23 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "vhBxQ",
+      "name": "ธันวาคม 2569 day 24",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "bRZCt",
+      "name": "ธันวาคม 2569 day 24 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "JGE8o",
+      "name": "ธันวาคม 2569 day 25",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "htDlS",
+      "name": "ธันวาคม 2569 day 25 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Y4LZA",
+      "name": "ธันวาคม 2569 day 26",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Ptado",
+      "name": "ธันวาคม 2569 day 26 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "nkIex",
+      "name": "ธันวาคม 2569 week 5",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "xSwe8",
+      "name": "ธันวาคม 2569 day 27",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "oIv4M",
+      "name": "ธันวาคม 2569 day 27 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "zCyLB",
+      "name": "ธันวาคม 2569 day 28",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "ZTFkq",
+      "name": "ธันวาคม 2569 day 28 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "KDonw",
+      "name": "ธันวาคม 2569 day 29",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Jifax",
+      "name": "ธันวาคม 2569 day 29 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "HrNho",
+      "name": "ธันวาคม 2569 day 30",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "v5kJR",
+      "name": "ธันวาคม 2569 day 30 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "G3gIqG",
+      "name": "ธันวาคม 2569 day 31",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "W0CiGW",
+      "name": "ธันวาคม 2569 day 31 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "fY8MN",
+      "name": "ธันวาคม 2569 outside month 4-5",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "LEzaJ",
+      "name": "ธันวาคม 2569 outside month 4-6",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "u0vma",
+      "name": "ธันวาคม 2569 week 6",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "H0wbw",
+      "name": "ธันวาคม 2569 outside month 5-0",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "c7IiJx",
+      "name": "ธันวาคม 2569 outside month 5-1",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "w9f39l",
+      "name": "ธันวาคม 2569 outside month 5-2",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "X0B1u",
+      "name": "ธันวาคม 2569 outside month 5-3",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "jaMCo",
+      "name": "ธันวาคม 2569 outside month 5-4",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "H8gqKh",
+      "name": "ธันวาคม 2569 outside month 5-5",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "R06W3",
+      "name": "ธันวาคม 2569 outside month 5-6",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "HZqTg",
+      "name": "มกราคม 2570 calendar",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "xc6oW",
+      "name": "มกราคม 2570 month title",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "WJHC9",
+      "name": "มกราคม 2570 อา weekday",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "MKZyR",
+      "name": "อา weekday label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "C8Wmq",
+      "name": "มกราคม 2570 จ weekday",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "CwUdP",
+      "name": "จ weekday label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "p9QnuQ",
+      "name": "มกราคม 2570 อ weekday",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "O9Ukg",
+      "name": "อ weekday label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "JnDAp",
+      "name": "มกราคม 2570 พ weekday",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Xjt00",
+      "name": "พ weekday label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "I7Bh3G",
+      "name": "มกราคม 2570 พฤ weekday",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "iixOH",
+      "name": "พฤ weekday label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Rd3H5",
+      "name": "มกราคม 2570 ศ weekday",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "JAVAb",
+      "name": "ศ weekday label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "dSXqs",
+      "name": "มกราคม 2570 ส weekday",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "nLe9w",
+      "name": "ส weekday label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "x0REM",
+      "name": "มกราคม 2570 outside month 0-0",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "EPKAA",
+      "name": "มกราคม 2570 outside month 0-1",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "b5kg9k",
+      "name": "มกราคม 2570 outside month 0-2",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "SDXA6",
+      "name": "มกราคม 2570 outside month 0-3",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "p5dsCH",
+      "name": "มกราคม 2570 outside month 0-4",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "XL7Du",
+      "name": "มกราคม 2570 day 1",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "sSVnD",
+      "name": "มกราคม 2570 day 1 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "d2Z2ov",
+      "name": "มกราคม 2570 day 2",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "zUoEZ",
+      "name": "มกราคม 2570 day 2 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "KYp4I",
+      "name": "มกราคม 2570 day 3",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "nLhkl",
+      "name": "มกราคม 2570 day 3 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "x335nY",
+      "name": "มกราคม 2570 day 4",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Yed72",
+      "name": "มกราคม 2570 day 4 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "XFf6G",
+      "name": "มกราคม 2570 day 5",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "g32kqS",
+      "name": "มกราคม 2570 day 5 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "w425q",
+      "name": "มกราคม 2570 day 6",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "gp85d",
+      "name": "มกราคม 2570 day 6 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "AIvJ6",
+      "name": "มกราคม 2570 day 7",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "p5Thgi",
+      "name": "มกราคม 2570 day 7 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "OSlhU",
+      "name": "มกราคม 2570 day 8",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "OpKpN",
+      "name": "มกราคม 2570 day 8 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "h7zfg",
+      "name": "มกราคม 2570 day 9",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "DzdEG",
+      "name": "มกราคม 2570 day 9 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "D7YkVA",
+      "name": "มกราคม 2570 day 10",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "la1DL",
+      "name": "มกราคม 2570 day 10 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "tYgto",
+      "name": "มกราคม 2570 day 11",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "BzNsY",
+      "name": "มกราคม 2570 day 11 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "cm1WU",
+      "name": "มกราคม 2570 day 12",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "X5QNoj",
+      "name": "มกราคม 2570 day 12 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "BExbh",
+      "name": "มกราคม 2570 day 13",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "CesUl",
+      "name": "มกราคม 2570 day 13 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "o5VA4",
+      "name": "มกราคม 2570 day 14",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "h6fZps",
+      "name": "มกราคม 2570 day 14 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "c9ruuG",
+      "name": "มกราคม 2570 day 15",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Q5KIPp",
+      "name": "มกราคม 2570 day 15 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "HGUfs",
+      "name": "มกราคม 2570 day 16",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Y2PbGM",
+      "name": "มกราคม 2570 day 16 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "z7cXUV",
+      "name": "มกราคม 2570 day 17",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "pQVws",
+      "name": "มกราคม 2570 day 17 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "caBwl",
+      "name": "มกราคม 2570 day 18",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "JttUT",
+      "name": "มกราคม 2570 day 18 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "IGqpI",
+      "name": "มกราคม 2570 day 19",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "kyAW7",
+      "name": "มกราคม 2570 day 19 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "gv9Qy",
+      "name": "มกราคม 2570 day 20",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "S7cnL",
+      "name": "มกราคม 2570 day 20 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "B1ic3",
+      "name": "มกราคม 2570 day 21",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "ZfU9M",
+      "name": "มกราคม 2570 day 21 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "E9MfMH",
+      "name": "มกราคม 2570 day 22",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "iz0BY",
+      "name": "มกราคม 2570 day 22 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "JXgnI",
+      "name": "มกราคม 2570 day 23",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "y6kg4",
+      "name": "มกราคม 2570 day 23 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "P3mZu",
+      "name": "มกราคม 2570 week 5",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "c3aLWC",
+      "name": "มกราคม 2570 day 24",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "H5sbK",
+      "name": "มกราคม 2570 day 24 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "pIbdC",
+      "name": "มกราคม 2570 day 25",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "qZwUW",
+      "name": "มกราคม 2570 day 25 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "kpFiB",
+      "name": "มกราคม 2570 day 26",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "nX4Ua",
+      "name": "มกราคม 2570 day 26 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "zSgo6",
+      "name": "มกราคม 2570 day 27",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "hYqJs",
+      "name": "มกราคม 2570 day 27 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "i3Ezf",
+      "name": "มกราคม 2570 day 28",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "w4UJnL",
+      "name": "มกราคม 2570 day 28 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "a4AyNl",
+      "name": "มกราคม 2570 day 29",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "z3jTj",
+      "name": "มกราคม 2570 day 29 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "BK5q6",
+      "name": "มกราคม 2570 day 30",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "LrKTV",
+      "name": "มกราคม 2570 day 30 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "XtwDF",
+      "name": "มกราคม 2570 week 6",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "KMbB1",
+      "name": "มกราคม 2570 day 31",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "LZDhp",
+      "name": "มกราคม 2570 day 31 label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "ytvLv",
+      "name": "มกราคม 2570 outside month 5-1",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "c8RBXc",
+      "name": "มกราคม 2570 outside month 5-2",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "d5AoMj",
+      "name": "มกราคม 2570 outside month 5-3",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "hDuQM",
+      "name": "มกราคม 2570 outside month 5-4",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Jgh0h",
+      "name": "มกราคม 2570 outside month 5-5",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "K3XEv",
+      "name": "มกราคม 2570 outside month 5-6",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Gm53N",
+      "name": "Legacy source · total guests and pets",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "PPN44",
+      "name": "Guest picker title",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "S3jCpB",
+      "name": "Close guest picker",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "sMTEa",
+      "name": "Close guest picker icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "TaclU",
+      "name": "ผู้เข้าพักรวม counter label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "rSRkW",
+      "name": "ผู้เข้าพักรวม count controls",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "vKJs6",
+      "name": "ผู้เข้าพักรวม decrease",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "io1ys",
+      "name": "ผู้เข้าพักรวม decrease icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "eTpPS",
+      "name": "ผู้เข้าพักรวม editable numeric input",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "oHnIe",
+      "name": "ผู้เข้าพักรวม count",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "NUt0V",
+      "name": "ผู้เข้าพักรวม increase",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Wm2ys",
+      "name": "ผู้เข้าพักรวม increase icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "L3z9M",
+      "name": "สัตว์เลี้ยง counter row",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "qryRY",
+      "name": "สัตว์เลี้ยง counter label",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "xt10K",
+      "name": "สัตว์เลี้ยง count controls",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "MvHQ8",
+      "name": "สัตว์เลี้ยง decrease",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "slagm",
+      "name": "สัตว์เลี้ยง decrease icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "QK366",
+      "name": "สัตว์เลี้ยง editable numeric input",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "uoWw9",
+      "name": "สัตว์เลี้ยง count",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "LBvAH",
+      "name": "สัตว์เลี้ยง increase",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "OfK3s",
+      "name": "สัตว์เลี้ยง increase icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "HyGai",
+      "name": "Source adaptation status",
+      "problem": "fully clipped"
+    }
+  ],
+  "visualChecks": "Viewed overview and all eight 1440x900 scene exports; selected counter appearance corrected and re-exported",
+  "runtimePreview": "npm run dev failed: next executable unavailable; no dependency installation or application changes",
+  "wholeCanvasRoots": 88,
+  "wholeCanvasNodes": 20566
+}

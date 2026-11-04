@@ -1,0 +1,31 @@
+{
+  "captured_on": "2026-11-04",
+  "purpose": "Preserve exact pre-alignment source text; .md.txt files are historical records, not current design instructions.",
+  "files": [
+    {
+      "source": "visual-direction.md",
+      "archive": "foundation-1/pre-a-alignment-2026-11-04/visual-direction.md.txt",
+      "sha256": "aebdb5d13ceffee6703f64f48540ca24bf780178f58a1c9a6bf0736ae9a4959b"
+    },
+    {
+      "source": "token-sheet.md",
+      "archive": "foundation-1/pre-a-alignment-2026-11-04/token-sheet.md.txt",
+      "sha256": "9ed9d0246a7a55b0afe7d7ad88d979490a64fad72a99707e80958b7ccc546965"
+    },
+    {
+      "source": "typography-spec.md",
+      "archive": "foundation-1/pre-a-alignment-2026-11-04/typography-spec.md.txt",
+      "sha256": "1fe628300efe17e33fe4a6612ddb8304b9611e0a20c880f5102b8720f6e72c1c"
+    },
+    {
+      "source": "responsive-visual-guidelines.md",
+      "archive": "foundation-1/pre-a-alignment-2026-11-04/responsive-visual-guidelines.md.txt",
+      "sha256": "089efbee59e1ae4bfdfe7efb29843f9d28fcaf985bdc017c1fd92c8a8b90fe15"
+    },
+    {
+      "source": "foundation-1/README.md",
+      "archive": "foundation-1/pre-a-alignment-2026-11-04/foundation-1-README.md.txt",
+      "sha256": "998695cfc7af61fc4d3fc1373ca9424835b08a6128ca4f17bbb6fa0bd984d0b2"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "version": "Article-motion-r5",
+  "task": "DSD-001",
+  "status": "draft_pending_owner_review",
+  "owner_instruction": "รูปปกบทความต้องเห็นครบ รวมตัวหนังสือ ไม่ซูมหรือครอป",
+  "owner_confirmed_prior_contract": "Whole image and text are one link per story",
+  "replaces_visual_proposal": "Article-states-r1 Hover/Focus not accepted",
+  "source_article": "jWUz7",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "preview_fragment": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-article-motion-r5.html",
+  "preview_type": "In-conversation interactive motion design study; not application implementation",
+  "motion": {
+    "featured_caption_translate_y_px": -6,
+    "support_copy_translate_x_px": 3,
+    "arrow_translate_px": [
+      2,
+      -2
+    ],
+    "image_duration_ms": 420,
+    "caption_duration_ms": 336,
+    "arrow_duration_ms": 273,
+    "easing": "cubic-bezier(.2,.8,.2,1)",
+    "trigger": "hover or keyboard focus; manual one-shot demonstration button",
+    "autoplay_loop": false,
+    "reduced_motion": "OS preference and local preview toggle disable travel/animation; content and underline remain",
+    "featured_image_zoom": 1,
+    "featured_image_translate_y_px": -6,
+    "featured_image_duration_ms": 336,
+    "supporting_image_zoom": 1,
+    "supporting_image_duration_ms": 420,
+    "featured_frame_scale": 1,
+    "featured_frame_rotation_degrees": 1.5,
+    "featured_frame_origin": "50% 60%",
+    "featured_caption_rotation_degrees": 0
+  },
+  "composition": "Existing one featured and two supporting stories; resized to fit the conversation preview, not a new responsive baseline",
+  "approved_title_length_policy": null,
+  "remaining_review": [
+    "Long title handling",
+    "Missing image/data policy",
+    "Loading/empty/error policy",
+    "Final motion and article version"
+  ],
+  "application_files_modified": false,
+  "frontend": "not_authorized",
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "verification": {
+    "javascript_syntax": "node --check passed",
+    "fragment_bytes": 287214,
+    "source_checks": {
+      "no_cover_crop": true,
+      "no_image_scale": true,
+      "natural_height": true,
+      "no_negative_caption_overlap": true
+    },
+    "main_home_unchanged": true,
+    "variables_unchanged": true,
+    "browser_hover_keyboard_text_in_image": "not_verified"
+  },
+  "revises": "Article-motion-r4",
+  "owner_image_reference": "C:/Users/chaym/AppData/Local/Temp/codex-clipboard-d31d2c6a-45b7-4257-aed7-2c4f46544e81.png",
+  "owner_confirmed_cover_policy": {
+    "show_complete_cover": true,
+    "crop": false,
+    "zoom": false,
+    "embedded_text_must_remain_visible": true,
+    "content_not_limited_to_villa_photography": true
+  },
+  "caption_overlap": false,
+  "cover_layout": {
+    "width": "layout width",
+    "height": "natural aspect ratio",
+    "object_fit": "contain",
+    "rounded_image_clipping": false
+  },
+  "assets": {
+    "board": "YWTf5",
+    "snapshot": "asset-snapshot.json",
+    "source_size": [
+      1408,
+      768
+    ],
+    "preview_size": [
+      704,
+      384
+    ],
+    "fixture_only": true
+  }
+}

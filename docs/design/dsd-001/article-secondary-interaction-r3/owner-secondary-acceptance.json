@@ -1,0 +1,17 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "โอเคเอาตามนี้แหละ",
+  "status": "owner_accepted_displayed_secondary_r3_plain_index_and_bounce_only_supporting",
+  "version": "Article-secondary-interaction-r3",
+  "prototype": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-article-secondary-interaction-r3.html",
+  "prototype_sha256": "a23d7d3a43fe67507994e4edb7bb4cd8552093f0d6a4989437bac327cd872247",
+  "scope": "All-articles link immediate with no animation/delay; supporting retains bounce only420ms; featured press-r4 unchanged",
+  "index_animation_design": "deferred by owner",
+  "whole_article_version_approved": false,
+  "whole_home_version_approved": false,
+  "foundation_approved": false,
+  "real_navigation_implemented": false,
+  "frontend_authorized": false
+}

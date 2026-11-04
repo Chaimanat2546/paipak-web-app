@@ -1,0 +1,15 @@
+{
+  "version": "Header-r6",
+  "status": "pending_owner_review",
+  "scope": "Home Desktop header polish only",
+  "preferred_compact_scheme_retained": true,
+  "visible_right_text_labels": 2,
+  "right_icons": 4,
+  "icon_size": 22,
+  "left_and_all_non_header_content_preserved": true,
+  "font": "Mitr via font.primary",
+  "header_height": 124,
+  "source_and_exports_verified": true,
+  "functional_prototype": false,
+  "OPEN-001": "open"
+}

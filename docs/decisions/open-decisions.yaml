@@ -1,4 +1,4 @@
-project: paipak.com
+project: papaipak.com
 status: owner_adopted_plan_with_open_verification_items
 open_decisions:
 - id: OPEN-001
@@ -10,7 +10,21 @@ open_decisions:
   - UI implementation acceptance
   - production accessibility gate
   owner_role: project_owner_or_domain_reviewer
-  resolution_status: not_yet_verified
+  resolution_status: unresolved_owner_retains_original_visual_reference
+  owner_visual_choice:
+    confirmed_on: '2026-11-03'
+    timezone: Asia/Bangkok
+    source: Explicit project owner message in DSD-001 chat after reviewing darker Pink/White candidates
+    instruction: เอาแบบเดิมอ่ะฉันว่าสวยแล้ว
+    background: '#FD6E88'
+    label: '#FFFFFF'
+    scope: Visual reference only; does not approve accessibility exception, final foundation or implementation acceptance
+    nominal_text_contrast: 2.705343217728925
+    evidence: docs/design/dsd-001/foundation-1/cta-selection.json
+    reconfirmed_on: '2026-11-04'
+    reconfirmation_instruction: '3'
+    reconfirmation_scope: Retain original pink-white visual reference and keep OPEN-001 open; no accessibility exception or implementation acceptance.
+    reconfirmation_evidence: docs/design/dsd-001/f01-ui-3/home-guided-review/cta-brand-contrast-r1/owner-choice.json
 - id: OPEN-002
   title: Original visual reference assets
   status: open

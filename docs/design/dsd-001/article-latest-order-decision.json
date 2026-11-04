@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "question_id": "home-desktop-closeout-plan-1/Q6",
+  "question": "บทความล่าสุด ให้เรียงจากวันที่ไหน?",
+  "owner_quote": "2",
+  "selected_option": "วันที่แก้ไขล่าสุด; เรื่องเก่าที่อัปเดตจะกลับขึ้นก่อน",
+  "status": "owner_confirmed_content_rule",
+  "scope": "Latest article selection for the Home article section, including the confirmed curated-empty fallback",
+  "order_by": "Last edited timestamp",
+  "direction": "Descending; most recently edited first",
+  "eligibility": "Existing cover, title and read-destination requirements remain in force",
+  "curated_order": "Preserved when displaying the curated set; this choice does not replace curated selection with latest on every visit",
+  "replaces": "Previous unapproved proposal to sort latest by publication date",
+  "actual_data_field": "Pending verification of the content data contract",
+  "timestamp_ties_or_missing_values": "Not specified by this choice; must be resolved with the actual data contract",
+  "query_implemented": false,
+  "whole_article_version_approved": false,
+  "frontend_authorized": false
+}

@@ -1,0 +1,16 @@
+{
+  "task": "DSD-001",
+  "selectedOn": "2026-11-04",
+  "timezone": "Asia/Bangkok",
+  "instruction": "3",
+  "selectedOption": "Keep original pink background and white text; retain OPEN-001",
+  "background": "#FD6E88",
+  "foreground": "#FFFFFF",
+  "nominalTextContrast": 2.705343217728925,
+  "openIssue": "OPEN-001",
+  "openIssueStatus": "open",
+  "accessibilityExceptionApproved": false,
+  "foundationApproval": "pending_owner_review",
+  "homeAppearanceApproval": "Home Desktop-r8 accepted separately; CTA appearance unchanged",
+  "nextScope": "Align existing Desktop foundation draft with Direction A and accepted Home; Mobile remains paused; no other task or frontend authorized"
+}

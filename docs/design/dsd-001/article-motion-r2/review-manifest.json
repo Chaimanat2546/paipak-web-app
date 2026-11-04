@@ -1,0 +1,58 @@
+{
+  "version": "Article-motion-r2",
+  "task": "DSD-001",
+  "status": "draft_pending_owner_review",
+  "owner_instruction": "อันใหญ่อยากได้เป็นยกรูปขึ้นด้วยไม่ใช่ zoom",
+  "owner_confirmed_prior_contract": "Whole image and text are one link per story",
+  "replaces_visual_proposal": "Article-states-r1 Hover/Focus not accepted",
+  "source_article": "jWUz7",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "preview_fragment": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-article-motion-r2.html",
+  "preview_type": "In-conversation interactive motion design study; not application implementation",
+  "motion": {
+    "featured_caption_translate_y_px": -6,
+    "support_copy_translate_x_px": 3,
+    "arrow_translate_px": [
+      2,
+      -2
+    ],
+    "image_duration_ms": 420,
+    "caption_duration_ms": 336,
+    "arrow_duration_ms": 273,
+    "easing": "cubic-bezier(.2,.8,.2,1)",
+    "trigger": "hover or keyboard focus; manual one-shot demonstration button",
+    "autoplay_loop": false,
+    "reduced_motion": "OS preference and local preview toggle disable travel/animation; content and underline remain",
+    "featured_image_zoom": 1,
+    "featured_image_translate_y_px": -6,
+    "featured_image_duration_ms": 336,
+    "supporting_image_zoom": 1.035,
+    "supporting_image_duration_ms": 420
+  },
+  "composition": "Existing one featured and two supporting stories; resized to fit the conversation preview, not a new responsive baseline",
+  "approved_title_length_policy": null,
+  "remaining_review": [
+    "Long title handling",
+    "Missing image/data policy",
+    "Loading/empty/error policy",
+    "Final motion and article version"
+  ],
+  "application_files_modified": false,
+  "frontend": "not_authorized",
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "verification": {
+    "javascript_syntax": "node --check passed",
+    "fragment_bytes": 152321,
+    "source_checks": {
+      "featured_no_zoom": true,
+      "image_and_caption_share_lift": true,
+      "reduced_motion_includes_image_container": true
+    },
+    "browser_hover_keyboard_reduced_motion": "not_verified",
+    "prior_browser_reference": "r1 only; not reused as current runtime evidence"
+  },
+  "revises": "Article-motion-r1"
+}

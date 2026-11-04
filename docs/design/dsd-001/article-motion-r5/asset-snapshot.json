@@ -1,0 +1,59 @@
+{
+  "assets": {
+    "type": "frame",
+    "id": "YWTf5",
+    "x": 61390,
+    "y": 22011,
+    "name": "ASSETS · Article-motion-r5 · complete source images · no crop",
+    "width": 704,
+    "layout": "vertical",
+    "children": [
+      {
+        "type": "frame",
+        "id": "z5szT",
+        "name": "Full article study image 1 · original 1408x768",
+        "width": 704,
+        "height": 384,
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "images/generated-4.png",
+          "mode": "contain"
+        },
+        "layout": "none"
+      },
+      {
+        "type": "frame",
+        "id": "w4jv8W",
+        "name": "Full article study image 2 · original 1408x768",
+        "width": 704,
+        "height": 384,
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "images/generated-5.png",
+          "mode": "contain"
+        },
+        "layout": "none"
+      },
+      {
+        "type": "frame",
+        "id": "KS8dd",
+        "name": "Full article study image 3 · original 1408x768",
+        "width": 704,
+        "height": 384,
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "images/generated-1.png",
+          "mode": "contain"
+        },
+        "layout": "none"
+      }
+    ]
+  },
+  "canvas": {
+    "nodes": 37551,
+    "roots": 144
+  }
+}

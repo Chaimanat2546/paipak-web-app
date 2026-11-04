@@ -1,0 +1,32 @@
+{
+  "version": "foundation-1/cta-review-2",
+  "status": "owner prefers pink/white; exact CTA shade NOT approved",
+  "brandPinkUnchanged": "#FD6E88",
+  "brandPinkWithWhiteRatio": 2.705343217728925,
+  "method": "WCAG sRGB relative luminance, unrounded comparison against 4.5 normal-text threshold",
+  "source": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+  "limits": "Solid default pairs only; not all states, opacity or runtime contexts",
+  "candidates": [
+    {
+      "option": 1,
+      "background": "#D1385B",
+      "foreground": "#FFFFFF",
+      "ratio": 4.742764362334675,
+      "normalTextAA": true
+    },
+    {
+      "option": 2,
+      "background": "#C52B50",
+      "foreground": "#FFFFFF",
+      "ratio": 5.4752353995023295,
+      "normalTextAA": true
+    },
+    {
+      "option": 3,
+      "background": "#AC244A",
+      "foreground": "#FFFFFF",
+      "ratio": 6.762491848565671,
+      "normalTextAA": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "original_open_state_board_unchanged": true,
+  "centered_dialogs": true,
+  "dialog_boxes": [
+    {
+      "id": "wkJu3",
+      "name": "B language centered modal",
+      "b": {
+        "x": 510,
+        "y": 336,
+        "width": 420,
+        "height": 228
+      }
+    },
+    {
+      "id": "a0lpB",
+      "name": "B contact centered modal",
+      "b": {
+        "x": 510,
+        "y": 320,
+        "width": 420,
+        "height": 260
+      }
+    }
+  ],
+  "default_home_unchanged": true,
+  "status": "proposed_not_selected",
+  "functional_prototype": false
+}

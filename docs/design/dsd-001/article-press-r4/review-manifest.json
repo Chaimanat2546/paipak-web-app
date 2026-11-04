@@ -1,0 +1,71 @@
+{
+  "version": "Article-press-r4",
+  "task": "DSD-001",
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_accepted_displayed_article_press_r4",
+  "owner_revision": "owner-revision-request.json",
+  "prototype": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-article-press-r4.html",
+  "prototype_sha256": "3e8adde293439c19ccba59a6b0549d96b568abcb94eec85dfbcd04be738e076d",
+  "prototype_bytes": 967751,
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_endpoint": "qV3Kf",
+  "image": "qV3Kf.png",
+  "image_sha256": "cffd9d3dedf2584d71503a7d107dde7692fa3c41b6a1bccfc57e3cc136e4aeec",
+  "image_size_px": [
+    1440,
+    746
+  ],
+  "proposal": {
+    "activation_duration_ms": 420,
+    "press_entry_ms": 140,
+    "pressed_translate_y_px": 3,
+    "rebound_translate_y_px": -4,
+    "settled_translate_y_px": 0,
+    "easing": "cubic-bezier(.22,1,.36,1)",
+    "reveal": "circle from actual click coordinates, clipped to caption; radius to farthest caption corner",
+    "keyboard_activation_origin": "caption center; selected dark keyboard focus retained",
+    "photo_color_changed": false,
+    "inner_image_zoom": false,
+    "navigation": "same-tab destination after shared 420ms activation; reduced motion or animation unsupported bypasses waiting; native modifier/new-tab behavior retained in future implementation",
+    "real_navigation_implemented": false
+  },
+  "qa": {
+    "script_syntax_node_check": "PASS",
+    "source_checks": {
+      "fragment": true,
+      "under_1mb": true,
+      "two_inline_pngs": true,
+      "no_network_apis": true,
+      "release_and_reveal_420ms": true,
+      "actual_click_coordinates": true,
+      "farthest_corner_radius": true,
+      "shared_easing": true,
+      "completion_after_both": true,
+      "travel_unchanged": true,
+      "press_entry_140": true,
+      "accepted_hover_336": true,
+      "reduced_guard": true,
+      "duplicate_visual_aria_hidden": true,
+      "no500": true,
+      "no_literal_escape_markup": true
+    },
+    "native_endpoint_screenshot_viewed": true,
+    "browser_interaction_tested": false,
+    "font_loading_verified": false,
+    "full_focus_accessibility_certified": false,
+    "intermediate_focus_color_contrast_verified": false
+  },
+  "accepted_press_r3_source_hash_unchanged": true,
+  "main_home_unchanged": true,
+  "variables_unchanged": true,
+  "revised_preview_approved": true,
+  "whole_article_approved": false,
+  "whole_home_approved": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "owner_acceptance": "owner-press-acceptance.json"
+}

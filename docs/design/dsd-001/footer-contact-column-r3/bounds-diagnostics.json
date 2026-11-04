@@ -1,0 +1,27 @@
+[
+  {
+    "id": "r9OSGT",
+    "name": "Footer navigation and contact · three columns",
+    "problem": "partially clipped"
+  },
+  {
+    "id": "JhIkG",
+    "name": "Footer contact column · visible direct channels",
+    "problem": "fully clipped"
+  },
+  {
+    "id": "v2ZSF",
+    "name": "Phone direct link · number pending",
+    "problem": "partially clipped"
+  },
+  {
+    "id": "Y8asb",
+    "name": "Phone icon alignment field · 32px",
+    "problem": "fully clipped"
+  },
+  {
+    "id": "utBql",
+    "name": "Visible phone contact text",
+    "problem": "partially clipped"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "version": "Header-r4",
+  "status": "pending_owner_choice",
+  "options": 3,
+  "source_r3_right_preserved": true,
+  "same_inventory_and_Mitr": true,
+  "button_size": [
+    136,
+    48
+  ],
+  "scope": "Home Desktop header appearance only",
+  "OPEN-001": "open",
+  "functional_prototype": false
+}

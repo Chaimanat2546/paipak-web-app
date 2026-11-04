@@ -1,0 +1,249 @@
+{
+  "version": "foundation-3-desktop",
+  "verified_on": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "status": "passed_documentation_checks",
+  "repository_validators": [
+    {
+      "command": "python scripts/validate-handoff.py",
+      "exit_code": 0,
+      "output": "PASS structure: 110 decision records; 14 design tasks; no missing refs/dependency cycles\r\nNOTE: Does not verify source provenance, approved visual baselines, test runs, or actual task readiness.\r\n"
+    }
+  ],
+  "tracked_application_diff": "",
+  "scope": "Documentation and source evidence only, not product runtime or approval",
+  "native_observations": {
+    "text_records": 447,
+    "geometry_records": 112,
+    "all_text_family_Mitr": true,
+    "native_read_only_unchanged": true,
+    "scope": "Home-r15; Header panel references retained separately from foundation-2"
+  },
+  "numeric_trace": {
+    "representative_text_checks": [
+      {
+        "id": "GTmZo",
+        "font_size": 96,
+        "weight": 600,
+        "line_height": 1.13,
+        "status": "match"
+      },
+      {
+        "id": "zh926",
+        "font_size": 96,
+        "weight": 600,
+        "line_height": 1.13,
+        "status": "match"
+      },
+      {
+        "id": "mipeq",
+        "font_size": 22,
+        "weight": 500,
+        "line_height": 1.6,
+        "status": "match"
+      },
+      {
+        "id": "A4lwQc",
+        "font_size": 32,
+        "weight": 400,
+        "line_height": 1.4,
+        "status": "match"
+      },
+      {
+        "id": "qvnmo",
+        "font_size": 18,
+        "weight": 500,
+        "line_height": 1.5,
+        "status": "match"
+      },
+      {
+        "id": "h7BOc",
+        "font_size": 22,
+        "weight": 500,
+        "line_height": 1.5,
+        "status": "match"
+      },
+      {
+        "id": "qfVMn",
+        "font_size": 22,
+        "weight": 500,
+        "line_height": "native-auto",
+        "status": "match"
+      },
+      {
+        "id": "pTBpb",
+        "font_size": 14,
+        "weight": 400,
+        "line_height": 1.5,
+        "status": "match"
+      },
+      {
+        "id": "r1PJnm",
+        "font_size": 40,
+        "weight": 400,
+        "line_height": 1.28,
+        "status": "match"
+      },
+      {
+        "id": "uRiWm",
+        "font_size": 16,
+        "weight": 400,
+        "line_height": 1.65,
+        "status": "match"
+      },
+      {
+        "id": "ZPZsg",
+        "font_size": 26,
+        "weight": 400,
+        "line_height": 1.4,
+        "status": "match"
+      },
+      {
+        "id": "Qf3zV",
+        "font_size": 22,
+        "weight": 400,
+        "line_height": 1.45,
+        "status": "match"
+      },
+      {
+        "id": "Zglil",
+        "font_size": 16,
+        "weight": 400,
+        "line_height": 1.6,
+        "status": "match"
+      },
+      {
+        "id": "MY9vl",
+        "font_size": 14,
+        "weight": 400,
+        "line_height": 1.6,
+        "status": "match"
+      },
+      {
+        "id": "k2pOX6",
+        "font_size": 16,
+        "weight": 500,
+        "line_height": 1.5,
+        "status": "match"
+      },
+      {
+        "id": "vG5WF",
+        "font_size": 14,
+        "weight": 400,
+        "line_height": 1.5,
+        "status": "match"
+      }
+    ],
+    "declared_snapshot_geometry_checks": [
+      {
+        "id": "XR14N",
+        "declared_snapshot_values": {
+          "width": 832,
+          "height": 688
+        },
+        "status": "match"
+      },
+      {
+        "id": "RzW5z",
+        "declared_snapshot_values": {
+          "width": 320,
+          "height": 568,
+          "cornerRadius": 24
+        },
+        "status": "match"
+      },
+      {
+        "id": "WqqGY",
+        "declared_snapshot_values": {
+          "width": 696,
+          "height": 552.5
+        },
+        "status": "match"
+      },
+      {
+        "id": "sOVzy",
+        "declared_snapshot_values": {
+          "width": 696,
+          "height": 391.5,
+          "cornerRadius": 24
+        },
+        "status": "match"
+      },
+      {
+        "id": "NGIUA",
+        "declared_snapshot_values": {
+          "width": 648,
+          "cornerRadius": 20,
+          "padding": 24,
+          "gap": 10
+        },
+        "status": "match"
+      },
+      {
+        "id": "OltFq",
+        "declared_snapshot_values": {
+          "width": 208,
+          "height": 117,
+          "cornerRadius": 16
+        },
+        "status": "match"
+      },
+      {
+        "id": "F7fjU",
+        "declared_snapshot_values": {
+          "width": 240,
+          "gap": 4
+        },
+        "status": "match"
+      },
+      {
+        "id": "YVQvs",
+        "declared_snapshot_values": {
+          "height": 48
+        },
+        "status": "match"
+      },
+      {
+        "id": "pQAMw",
+        "declared_snapshot_values": {
+          "height": 48
+        },
+        "status": "match"
+      }
+    ],
+    "resolved_measurement_limit": "Only explicitly declared numeric dimensions crosschecked; auto/fill bounds remain observations, not independent layout proof"
+  },
+  "archive": {
+    "files_checked": 5,
+    "all_sha256_match": true
+  },
+  "relative_links": {
+    "checked": 55,
+    "missing": []
+  },
+  "canonical_document_versions_aligned": true,
+  "motion_prototypes_hashes_unchanged": true,
+  "home_appearance": "owner accepted Home Desktop-r15",
+  "foundation_approval": "owner_approved_desktop_specification_with_open_items",
+  "task_complete": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "untested": [
+    "Application/browser runtime",
+    "Keyboard/screen reader/text zoom/full accessibility",
+    "Font loading",
+    "Other widths and Mobile",
+    "Actual navigation/provider/data behavior",
+    "Production assets and contacts"
+  ],
+  "post_approval_metadata_checks": {
+    "reviewed_files_frozen_and_hash_verified": 4,
+    "published_status_metadata_hashes_verified": 4,
+    "local_links_checked": 57,
+    "missing_links": [],
+    "scope_does_not_approve_proposals_close_issues_or_authorize_frontend": true
+  }
+}

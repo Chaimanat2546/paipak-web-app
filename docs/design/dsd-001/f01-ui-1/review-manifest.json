@@ -1,0 +1,391 @@
+{
+  "version": "F01-ui-1",
+  "status": "pending_owner_review",
+  "type": "static_native_UI_design",
+  "functional_prototype": false,
+  "native_source": "C:\\Users\\chaym\\.pencil\\documents\\5738e270-25e4-4bf2-9d22-fad4c0b58275\\papaipak-ui.pen",
+  "wireframe_reference": "docs/design/uxd-002/papaipak-wireframe.pen",
+  "review_group_count": 28,
+  "native_node_count": 3130,
+  "font_variable": {
+    "type": "string",
+    "value": "Mitr"
+  },
+  "frames": [
+    {
+      "node": "w9QeyO",
+      "name": "F01 · START HERE · A UI review-1",
+      "png": "w9QeyO.png",
+      "width": 1440,
+      "height": 426,
+      "native_node_count": 17
+    },
+    {
+      "node": "A1ks07",
+      "name": "F01 · WF-01 Home · Desktop · ui-1",
+      "png": "A1ks07.png",
+      "width": 1440,
+      "height": 1287,
+      "native_node_count": 147
+    },
+    {
+      "node": "PiA4h",
+      "name": "F01 · WF-01 Home · Mobile · ui-1",
+      "png": "PiA4h.png",
+      "width": 390,
+      "height": 2341,
+      "native_node_count": 127
+    },
+    {
+      "node": "osaIa",
+      "name": "F01 · WF-02 Results · Desktop · ui-1",
+      "png": "osaIa.png",
+      "width": 1440,
+      "height": 1747,
+      "native_node_count": 244
+    },
+    {
+      "node": "L8ev6",
+      "name": "F01 · WF-02 Results · Mobile · ui-1",
+      "png": "L8ev6.png",
+      "width": 390,
+      "height": 3860,
+      "native_node_count": 191
+    },
+    {
+      "node": "qcEOf",
+      "name": "F01 · WF-03 Detail · Desktop · ui-1",
+      "png": "qcEOf.png",
+      "width": 1440,
+      "height": 1637,
+      "native_node_count": 87
+    },
+    {
+      "node": "S3VaWy",
+      "name": "F01 · WF-03 Detail · Mobile · ui-1",
+      "png": "S3VaWy.png",
+      "width": 390,
+      "height": 2176,
+      "native_node_count": 71
+    },
+    {
+      "node": "yL7bS",
+      "name": "F01 · WF-03V Detail viewport · Mobile 390x844 · ui-1",
+      "png": "yL7bS.png",
+      "width": 390,
+      "height": 844,
+      "native_node_count": 23
+    },
+    {
+      "node": "Oyv0v",
+      "name": "F01 · WF-02A Location states · Desktop",
+      "png": "Oyv0v.png",
+      "width": 1440,
+      "height": 649,
+      "native_node_count": 57
+    },
+    {
+      "node": "GjoEH",
+      "name": "F01 · WF-02A Location states · Mobile",
+      "png": "GjoEH.png",
+      "width": 1440,
+      "height": 1022,
+      "native_node_count": 57
+    },
+    {
+      "node": "LoLN7",
+      "name": "F01 · WF-02P Dates and guests · Desktop",
+      "png": "LoLN7.png",
+      "width": 1440,
+      "height": 849,
+      "native_node_count": 254
+    },
+    {
+      "node": "E9JumJ",
+      "name": "F01 · WF-02P Dates and guests · Mobile",
+      "png": "E9JumJ.png",
+      "width": 1440,
+      "height": 1022,
+      "native_node_count": 254
+    },
+    {
+      "node": "NhfIy",
+      "name": "F01 · WF-02F Filter drawer · Mobile 390x844 · ui-1",
+      "png": "NhfIy.png",
+      "width": 390,
+      "height": 844,
+      "native_node_count": 46
+    },
+    {
+      "node": "E3Tu4",
+      "name": "F01 · WF-01N Open navigation · Mobile 390x844 · ui-1",
+      "png": "E3Tu4.png",
+      "width": 390,
+      "height": 844,
+      "native_node_count": 29
+    },
+    {
+      "node": "TKJ7Z",
+      "name": "F01 · Gallery viewer · Desktop 1440x900 · ui-1",
+      "png": "TKJ7Z.png",
+      "width": 1440,
+      "height": 900,
+      "native_node_count": 17
+    },
+    {
+      "node": "avf6v",
+      "name": "F01 · Gallery viewer · Mobile 390x844 · ui-1",
+      "png": "avf6v.png",
+      "width": 390,
+      "height": 844,
+      "native_node_count": 17
+    },
+    {
+      "node": "NmzZ4",
+      "name": "F01 · WF-02 Applied filters · Desktop · ui-1",
+      "png": "NmzZ4.png",
+      "width": 1440,
+      "height": 1506,
+      "native_node_count": 214
+    },
+    {
+      "node": "YQRxl",
+      "name": "F01 · WF-02 Applied filters · Mobile · ui-1",
+      "png": "YQRxl.png",
+      "width": 390,
+      "height": 3366,
+      "native_node_count": 165
+    },
+    {
+      "node": "JGYFJ",
+      "name": "F01 · Draft and cancel filters · Desktop",
+      "png": "JGYFJ.png",
+      "width": 1440,
+      "height": 996,
+      "native_node_count": 88
+    },
+    {
+      "node": "Qu46v",
+      "name": "F01 · WF-10 Loading empty error · Desktop",
+      "png": "Qu46v.png",
+      "width": 1440,
+      "height": 798,
+      "native_node_count": 46
+    },
+    {
+      "node": "O5lUa1",
+      "name": "F01 · WF-10 Loading empty error · Mobile",
+      "png": "O5lUa1.png",
+      "width": 1440,
+      "height": 1022,
+      "native_node_count": 67
+    },
+    {
+      "node": "vnCNA",
+      "name": "F01 · WF-10F Incomplete search dates · Desktop",
+      "png": "vnCNA.png",
+      "width": 1440,
+      "height": 842,
+      "native_node_count": 129
+    },
+    {
+      "node": "Rg5AF",
+      "name": "F01 · WF-10F Incomplete search dates · Mobile 390x844 · ui-1",
+      "png": "Rg5AF.png",
+      "width": 390,
+      "height": 844,
+      "native_node_count": 113
+    },
+    {
+      "node": "g9sYI",
+      "name": "F01 · WF-10I Carousel five states · Desktop",
+      "png": "g9sYI.png",
+      "width": 1440,
+      "height": 962,
+      "native_node_count": 103
+    },
+    {
+      "node": "dbMM6",
+      "name": "F01 · WF-10I Carousel five states · Mobile",
+      "png": "dbMM6.png",
+      "width": 1440,
+      "height": 1030,
+      "native_node_count": 103
+    },
+    {
+      "node": "HpR7z",
+      "name": "F01 · WF-02 Pagination page 2 · Desktop · ui-1",
+      "png": "HpR7z.png",
+      "width": 1440,
+      "height": 1747,
+      "native_node_count": 244
+    },
+    {
+      "node": "P62IV",
+      "name": "F01 · WF-02 Pagination page 2 · Mobile · ui-1",
+      "png": "P62IV.png",
+      "width": 390,
+      "height": 3860,
+      "native_node_count": 191
+    },
+    {
+      "node": "uBBn2",
+      "name": "F01 · Return to origin and preserved context",
+      "png": "uBBn2.png",
+      "width": 1440,
+      "height": 546,
+      "native_node_count": 29
+    }
+  ],
+  "coverage": [
+    {
+      "reference": "WF-01",
+      "covers": "Home and category/card entry",
+      "desktop": "A1ks07",
+      "mobile": "PiA4h"
+    },
+    {
+      "reference": "WF-01N",
+      "covers": "Mobile menu",
+      "desktop": null,
+      "mobile": "E3Tu4"
+    },
+    {
+      "reference": "WF-02",
+      "covers": "Default results, draft filters, suggestions, pagination",
+      "desktop": "osaIa",
+      "mobile": "L8ev6"
+    },
+    {
+      "reference": "WF-02A",
+      "covers": "Autocomplete open / selected / no suggestions",
+      "desktop": "Oyv0v",
+      "mobile": "GjoEH"
+    },
+    {
+      "reference": "WF-02P",
+      "covers": "Calendar open / range selected / total guest and pets",
+      "desktop": "LoLN7",
+      "mobile": "E9JumJ"
+    },
+    {
+      "reference": "WF-02F",
+      "covers": "Draft / Reset / close-before-Apply; mobile drawer",
+      "desktop": "JGYFJ",
+      "mobile": "NhfIy"
+    },
+    {
+      "reference": "WF-02-applied",
+      "covers": "Applied filters and six matching fixture records",
+      "desktop": "NmzZ4",
+      "mobile": "YQRxl"
+    },
+    {
+      "reference": "WF-02-page2",
+      "covers": "Page 2, records 9-16, criteria retained",
+      "desktop": "HpR7z",
+      "mobile": "P62IV"
+    },
+    {
+      "reference": "WF-03",
+      "covers": "Property detail, gallery, booking handoff",
+      "desktop": "qcEOf",
+      "mobile": "S3VaWy"
+    },
+    {
+      "reference": "WF-03V",
+      "covers": "Sticky booking bar fixed viewport evidence",
+      "desktop": null,
+      "mobile": "yL7bS"
+    },
+    {
+      "reference": "gallery",
+      "covers": "Full gallery viewer",
+      "desktop": "TKJ7Z",
+      "mobile": "avf6v"
+    },
+    {
+      "reference": "WF-10",
+      "covers": "Loading / empty / load error",
+      "desktop": "Qu46v",
+      "mobile": "O5lUa1"
+    },
+    {
+      "reference": "WF-10F",
+      "covers": "Incomplete checkout-date validation and clear recovery",
+      "desktop": "vnCNA",
+      "mobile": "Rg5AF"
+    },
+    {
+      "reference": "WF-10I",
+      "covers": "Carousel first / middle / last / single / failed",
+      "desktop": "g9sYI",
+      "mobile": "dbMM6"
+    },
+    {
+      "reference": "back",
+      "covers": "Home / Results page 2 / filter-cancel origin context",
+      "desktop": "uBBn2",
+      "mobile": "uBBn2"
+    }
+  ],
+  "images": {
+    "images/generated-9.png": {
+      "sha256": "76c7940c7865544f28e7fc357b266ee11564fd9bf62367fa0da800407976c542",
+      "role": "fictional study asset; active or retained history",
+      "production_approval": false
+    },
+    "images/generated-3.png": {
+      "sha256": "cd4d635328bee5b7f7cef310cebfc95611189b2a18c3695805212a5d955f37e9",
+      "role": "fictional study asset; active or retained history",
+      "production_approval": false
+    },
+    "images/generated-5.png": {
+      "sha256": "ed899ab08589fd44ad074619f925741337db05e0dd5d3382412afc9d71fee554",
+      "role": "fictional study asset; active or retained history",
+      "production_approval": false
+    },
+    "images/generated-1.png": {
+      "sha256": "ef6a73de139a12a10c17e4d6828a1df8159fa60361ea77077e2ffb3513fb06ec",
+      "role": "fictional study asset; active or retained history",
+      "production_approval": false
+    },
+    "images/generated-4.png": {
+      "sha256": "fd8a2ecce27f857e2fa089a5c25ce0dfaedf38269a1809d3843d91ce1f03677a",
+      "role": "fictional study asset; active or retained history",
+      "production_approval": false
+    },
+    "images/generated-8.png": {
+      "sha256": "2280bcfadb5523a961e18f088f6303757dee83998a4ab6b77659e6735eb9cdbc",
+      "role": "fictional study asset; active or retained history",
+      "production_approval": false
+    },
+    "images/generated.png": {
+      "sha256": "b9cc7072c9d5ba7a1c5794d5ba5196a1dc5c8480077d13db09af8287301e673c",
+      "role": "fictional study asset; active or retained history",
+      "production_approval": false
+    },
+    "images/villa-01.webp": {
+      "sha256": "28d4d855376b290cba724fde56ab1e8c3c9f1d95b426a83cbeb6f9a4b5de900d",
+      "role": "fictional study asset; active or retained history",
+      "production_approval": false
+    },
+    "images/villa-02.webp": {
+      "sha256": "24f7b07192f8379f2069f9279f32774361062ccc5914672383f6f6157efff3aa",
+      "role": "fictional study asset; active or retained history",
+      "production_approval": false
+    },
+    "images/villa-03.webp": {
+      "sha256": "e6943582769d7acbf887ff4e5f24ad9f69fa952a5f307cab5ad00fbc3ac44f5c",
+      "role": "fictional study asset; active or retained history",
+      "production_approval": false
+    },
+    "images/villa-04.webp": {
+      "sha256": "e5afaba0c9aae85480ba999297ef736936767df186e3acf2eb9ab5856b4a174f",
+      "role": "fictional study asset; active or retained history",
+      "production_approval": false
+    }
+  },
+  "previous_roots_preserved": true,
+  "OPEN-001": "open; original #FD6E88 / white kept"
+}

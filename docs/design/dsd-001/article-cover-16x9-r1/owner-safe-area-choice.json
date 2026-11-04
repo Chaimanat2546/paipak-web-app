@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Article-cover-16x9-r1",
+  "owner_quote": "1 ได้",
+  "preceding_clarification": "Prepare a 16:9 cover with lower background space behind the overlapping white panel; place important text/content above that band, retaining the selected layout",
+  "status": "owner_confirmed_safe_area_principle",
+  "scope": "Article cover composition rule only",
+  "numeric_safe_area_approved": false,
+  "real_cover_visibility_verified": false,
+  "final_article_version_approved": false,
+  "frontend_authorized": false
+}

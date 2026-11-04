@@ -1,0 +1,282 @@
+{
+  "purpose": "Static UI examples only; not catalog, pricing, capacity, pet policy or availability contracts",
+  "page_size": 8,
+  "date_example": {
+    "checkin": "2026-12-12",
+    "checkout": "2026-12-14",
+    "calendar_locale_label": "ธันวาคม 2569"
+  },
+  "filter_example": {
+    "price_min": 5000,
+    "price_max": 15000,
+    "bedrooms_min": 3,
+    "bedrooms_max": 5,
+    "pet_friendly": true
+  },
+  "properties": [
+    {
+      "id": 1,
+      "name": "บ้านพักตัวอย่าง 01",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": true,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 2,
+      "name": "บ้านพักตัวอย่าง 02",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": true,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 3,
+      "name": "บ้านพักตัวอย่าง 03",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": true,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 4,
+      "name": "บ้านพักตัวอย่าง 04",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": true,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 5,
+      "name": "บ้านพักตัวอย่าง 05",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": true,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 6,
+      "name": "บ้านพักตัวอย่าง 06",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": true,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 7,
+      "name": "บ้านพักตัวอย่าง 07",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 8,
+      "name": "บ้านพักตัวอย่าง 08",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 9,
+      "name": "บ้านพักตัวอย่าง 09",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 10,
+      "name": "บ้านพักตัวอย่าง 10",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 11,
+      "name": "บ้านพักตัวอย่าง 11",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 12,
+      "name": "บ้านพักตัวอย่าง 12",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 13,
+      "name": "บ้านพักตัวอย่าง 13",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 14,
+      "name": "บ้านพักตัวอย่าง 14",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 15,
+      "name": "บ้านพักตัวอย่าง 15",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 16,
+      "name": "บ้านพักตัวอย่าง 16",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 17,
+      "name": "บ้านพักตัวอย่าง 17",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 18,
+      "name": "บ้านพักตัวอย่าง 18",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 19,
+      "name": "บ้านพักตัวอย่าง 19",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 20,
+      "name": "บ้านพักตัวอย่าง 20",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 21,
+      "name": "บ้านพักตัวอย่าง 21",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 22,
+      "name": "บ้านพักตัวอย่าง 22",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 23,
+      "name": "บ้านพักตัวอย่าง 23",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    },
+    {
+      "id": 24,
+      "name": "บ้านพักตัวอย่าง 24",
+      "location": "พัทยา",
+      "guests": 12,
+      "bedrooms": 4,
+      "starting_price_per_night": 8900,
+      "pet_friendly_example": false,
+      "availability": "not_verified",
+      "gallery_is_repeated_crops_of_fictional_image": true
+    }
+  ]
+}

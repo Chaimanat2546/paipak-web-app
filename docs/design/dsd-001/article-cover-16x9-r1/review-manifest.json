@@ -1,0 +1,86 @@
+{
+  "version": "Article-cover-16x9-r1",
+  "task": "DSD-001",
+  "date": "2026-11-04",
+  "status": "draft_review_in_progress",
+  "owner_authorization": "เริ่ม",
+  "context": "Start the agreed cover 16:9 review using the selected overlapping-caption article layout",
+  "base_reference": "Article-motion-r4 / owner-selected screenshot",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "source_home": "Oftfq",
+  "source_article": "jWUz7",
+  "home_unchanged": true,
+  "variables_unchanged": true,
+  "states": [
+    {
+      "key": "default",
+      "board": "pNJ3F",
+      "section": "R1IKAn",
+      "featured": "crkWK",
+      "image": "o710g4",
+      "caption": "ykXe2",
+      "png": "pNJ3F.png"
+    },
+    {
+      "key": "overlap-guide",
+      "board": "wTGFa",
+      "section": "TfL9W",
+      "featured": "aJhvU",
+      "image": "uaZ6h",
+      "caption": "nEY4c",
+      "png": "wTGFa.png"
+    }
+  ],
+  "preview_fragment": "C:/Users/chaym/.codex/visualizations/2026/11/03/01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee/papaipak-article-16x9-r1.html",
+  "cover_frames": {
+    "featured": [
+      696,
+      391.5
+    ],
+    "supporting": [
+      224,
+      126
+    ],
+    "ratio": "16:9",
+    "fit": "contain",
+    "fixture_source_ratio": "1408:768; full images, no source crop"
+  },
+  "layout": "One featured story with overlapping white caption and two supporting rows; widths and copy preserved",
+  "overlap_issue": {
+    "native_caption_overlap_px": 76,
+    "native_image_height": 391.5,
+    "native_overlap_fraction": 0.194125159642401,
+    "important_cover_content_verified": false,
+    "proposed_safe_area": "Owner confirmed principle; numeric universal safe area and real-cover verification remain pending",
+    "preview_guide": "Checkbox measures visible cover/caption overlap in the current preview; not a production feature"
+  },
+  "motion": "Carried from selected r4 as draft; inner-image zoom removed, whole featured-frame effect retained; no separate motion acceptance",
+  "functional_prototype": false,
+  "application_files_modified": false,
+  "frontend": "not_authorized",
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "remaining_review": [
+    "Exact safe-area geometry and real text-bearing covers",
+    "Long-title policy",
+    "Missing image/data and loading/error policies",
+    "Final article visual/motion version"
+  ],
+  "whole_canvas": {
+    "nodes": 37633,
+    "roots": 146
+  },
+  "owner_safe_area_choice": "owner-safe-area-choice.json",
+  "safe_area_principle": "owner_confirmed: keep lower overlapping band as background; important cover content above",
+  "title_spec": "../article-title-spec.md",
+  "owner_title_choice": {
+    "quote": "1 แต่ความสูงมันก็จะแปลกๆไหมถ้าอันไหนมี 1 อันไหนมี 2",
+    "featured_max_lines": 2,
+    "supporting_max_lines": 3,
+    "overflow": "ellipsis",
+    "concern": "Uneven title heights for shorter titles",
+    "height_proposal": "Reserve 2 or 3 title line slots by role; top align; appearance pending"
+  }
+}

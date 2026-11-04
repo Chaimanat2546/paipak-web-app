@@ -1,0 +1,52 @@
+{
+  "version": "Home-media-ui-r4",
+  "status": "static_color_revision_verified; owner_review_pending",
+  "verified_on": "2026-11-04",
+  "scope_checks": {
+    "only_allowed_color_and_layer_label_changes": true,
+    "layer_ids_unchanged": true,
+    "layout_and_copy_unchanged": true,
+    "articles_and_other_home_sections_unchanged": true,
+    "brand_navy": "#072D59"
+  },
+  "artifact_checks": {
+    "png_dimensions": [
+      {
+        "id": "MIdin",
+        "size": [
+          1440,
+          760
+        ]
+      },
+      {
+        "id": "YGt3D",
+        "size": [
+          1440,
+          1432
+        ]
+      },
+      {
+        "id": "eMYWM",
+        "size": [
+          1440,
+          6010
+        ]
+      }
+    ],
+    "application_status": ""
+  },
+  "repository_validators": [
+    {
+      "command": "python scripts/validate-handoff.py",
+      "exit_code": 0,
+      "output": "PASS structure: 110 decision records; 14 design tasks; no missing refs/dependency cycles\r\nNOTE: Does not verify source provenance, approved visual baselines, test runs, or actual task readiness."
+    },
+    {
+      "command": "python scripts/validate-registry.py",
+      "exit_code": 0,
+      "output": "Registry records: 110; 11-section topic coverage: PASS"
+    }
+  ],
+  "visual_check": "Opened full-size MIdin.png; Navy section, white heading, Light Blue supporting text and Pink active indicator render correctly. Layout preserved.",
+  "limits": "Static design only; no playback/keyboard/responsive verification; original Pink/White CTA still has OPEN-001; final foundation/UI approval pending"
+}

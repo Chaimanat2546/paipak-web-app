@@ -1,6 +1,6 @@
-# paipak-web-app
+# papaipak
 
-Application repository สำหรับเว็บไซต์ pool villa **paipak.com** ใช้ Next.js, Tailwind CSS และ TypeScript strict เตรียมรันบน Cloudflare Workers ผ่าน OpenNext
+Application repository สำหรับเว็บไซต์ pool villa **papaipak** โดเมน **papaipak.com** ตามที่เจ้าของยืนยัน ใช้ Next.js, Tailwind CSS และ TypeScript strict เตรียมรันบน Cloudflare Workers ผ่าน OpenNext
 
 ## ขอบเขตและสถานะ
 
@@ -8,10 +8,10 @@ Repository นี้มีแอปและชุดเอกสารส่ง
 
 - ภูยืนยันเมื่อ 2 พฤศจิกายน 2026 ให้ยึดเอกสารชุดใหม่ทั้งหมดเป็นข้อสรุปล่าสุดของโครงการ แนวทางใหม่มีผลเหนือข้อกำหนดเดิมที่ขัดกัน การยืนยันนี้เป็นการรับรองทิศทางและแผนงาน ส่วนแบบหน้าจอสุดท้าย งานที่เสร็จ และการเปิดระบบจริงยังต้องมีหลักฐานและการอนุมัติตาม task
 - เป้าหมายดีไซน์ปัจจุบันคือ Pink Accent Premium: กรม `#072D59`, ฟ้าอ่อน `#DBF2FC`, ชมพู `#FD6E88`, พื้นหลักสีขาวและฟอนต์ Mitr พร้อมเมนูลัด 7 หมวดและองค์ประกอบตาม [ข้อกำหนด UX/UI](docs/design/approved-ux-ui-scope.md)
-- มีหน้าแรก paipak ด้วยข้อมูลจำลองจากแนวทางเดิมแล้ว ปัจจุบันยังเป็นน้ำเงิน–เหลืองและฟอนต์ Kanit จึงยังไม่ตรงข้อสรุปใหม่ และไม่ถือเป็นแบบหน้าจอที่ได้รับอนุมัติสำหรับทิศทางใหม่นี้
+- มีหน้าแรก papaipak ด้วยข้อมูลจำลองจากแนวทางเดิมแล้ว ปัจจุบันยังเป็นน้ำเงิน–เหลืองและฟอนต์ Kanit จึงยังไม่ตรงข้อสรุปใหม่ และไม่ถือเป็นแบบหน้าจอที่ได้รับอนุมัติสำหรับทิศทางใหม่นี้
 - ใช้ shadcn/ui (Radix) เป็นฐาน Button, Input, Label, Checkbox, Card, Dialog, Popover, Switch และ Tabs พร้อม Calendar (React DayPicker) และ Kibo UI Pill สำหรับป้ายที่พัก; source อยู่ใน `components/ui/` และ `components/kibo-ui/` พร้อมใบอนุญาตต้นฉบับ โดยจะปรับผ่าน semantic tokens ใน `app/globals.css` และ variants ตามแบบที่อนุมัติใน task ที่เกี่ยวข้อง
-- `components.json` ตั้งค่า aliases และ registry `@kibo-ui` แล้ว เพิ่ม component ตามความจำเป็นและปรับผ่าน semantic tokens/variants ของ paipak แทนการสร้าง primitive ซ้ำ
-- โค้ดหน้าแรกเดิมอ้างอิง Desktop/Tablet/Mobile ใน `paipak.pen` และ https://www.poolapoolvilla.com/ โดยใช้ชื่อ paipak และภาพสต็อกแยกจาก POOLA (ที่มาอยู่ใน `public/mock/credits.json`) ใช้เป็นประวัติการพัฒนา ไม่ใช่ข้อกำหนดทับแนวทางใหม่
+- `components.json` ตั้งค่า aliases และ registry `@kibo-ui` แล้ว เพิ่ม component ตามความจำเป็นและปรับผ่าน semantic tokens/variants ของ papaipak แทนการสร้าง primitive ซ้ำ
+- โค้ดหน้าแรกเดิมอ้างอิง Desktop/Tablet/Mobile ใน `paipak.pen` และ https://www.poolapoolvilla.com/ โดยใช้ชื่อ papaipak และภาพสต็อกแยกจาก POOLA (ที่มาอยู่ใน `public/mock/credits.json`) ใช้เป็นประวัติการพัฒนา ไม่ใช่ข้อกำหนดทับแนวทางใหม่
 - ค้นหาข้อมูลจำลองจากรายการสถานที่ที่สร้างตาม fixtures เลือกด้วยเมาส์หรือปุ่มลูกศร/Enter ได้ ปฏิทิน Desktop แสดงสองเดือน ส่วน Mobile แสดงครั้งละหนึ่งเดือนและใช้ลูกศรเปลี่ยนเดือนตามคำขอล่าสุด พิมพ์จำนวนผู้ใหญ่ เด็ก สัตว์เลี้ยง 0–50 หรือใช้ปุ่มเพิ่ม/ลดได้ การกรองความจุนับเฉพาะผู้ใหญ่และเด็ก ยังไม่ตรวจวันว่างหรือนโยบายสัตว์เลี้ยง
 - กดได้ทั้งการ์ดที่พักเพื่อเปิดรายละเอียดตัวอย่าง ส่วนหัวใจทำงานแยกกัน การล้างผลค้นหาคืนโฟกัสให้ช่องสถานที่ ฟอร์มสมัครสมาชิกตัวอย่างมีชื่อ นามสกุล อีเมล โทรศัพท์ รหัสผ่าน และยืนยันรหัสผ่าน พร้อมตรวจข้อมูลเฉพาะในหน้านี้
 - ฟอร์มค้นหาส่งต่อสถานที่ → วันเข้า–ออก → ผู้เข้าพักอัตโนมัติทั้ง Desktop/Mobile เมื่อเลือกวันที่ครบแล้วเท่านั้นจึงเปิดจำนวนคน ย้อนแก้แต่ละช่องได้โดยไม่ล้างข้อมูลเดิม และกดปุ่มค้นหาเองเพื่อกรองข้อมูลจำลอง
@@ -31,7 +31,15 @@ Repository นี้มีแอปและชุดเอกสารส่ง
 
 หลังนำเข้า ภูยืนยันให้ใช้ชุดนี้เป็นข้อกำหนดวางแผนหลักเมื่อ 2 พฤศจิกายน 2026 จึงให้ยึดเอกสารใหม่เมื่อขัดกับโค้ดหรือแนวทางเดิม โดยเก็บโค้ดเดิมไว้ปรับใน task ที่ได้รับอนุญาต ข้อมูลต้นทางย้อนหลังและภาพอ้างอิงยังต้องตรวจสอบ การยืนยันทิศทางไม่ใช่การรับรองภาพหน้าจอหรือผลทดสอบ
 
-ลำดับงานปัจจุบันยึด [task-order.md](docs/roadmap/task-order.md) แทนลำดับตรวจรับหน้าแรกเดิม: เริ่มจาก UX/IA → wireframe และ visual foundations → component/page designs → ตรวจและอนุมัติแบบที่เกี่ยวข้อง → งาน implementation ที่ภูเลือก แต่ละ task เริ่มและอนุมัติแยกกันตาม [owner-approval-policy.md](docs/roadmap/owner-approval-policy.md) โดยภูตรวจรับ [UXD-001 review-2](tasks/design/UXD-001.md#owner-acceptance) แล้วเมื่อ 2 พฤศจิกายน 2026 ส่วน [UXD-002 review-4](docs/design/uxd-002/annotations.md) มี wireframe Desktop/Mobile และ annotations แล้ว อยู่ระหว่างรอภูตรวจรับ DSD-001 และ task อื่นยังไม่ได้เริ่ม
+ลำดับงานปัจจุบันยึด [task-order.md](docs/roadmap/task-order.md) โดยปรับตามข้อสรุปวันที่ 3 พฤศจิกายน 2026: UX/IA → อนุมัติ Visual Direction ใน DSD-001 → Wireframe และ visual foundations ที่เหลือ → component/page designs → ตรวจและอนุมัติแบบที่เกี่ยวข้อง → งาน implementation ที่ภูเลือก แต่ละ task เริ่มและอนุมัติแยกกันตาม [owner-approval-policy.md](docs/roadmap/owner-approval-policy.md) โดยภูตรวจรับ [UXD-001 review-2](tasks/design/UXD-001.md#owner-acceptance) แล้วเมื่อ 2 พฤศจิกายน 2026 ส่วน [UXD-002 review-5](docs/design/uxd-002/annotations.md) มี wireframe Desktop/Mobile และ annotations แล้ว อยู่ระหว่างรอภูตรวจรับ ให้เก็บ draft เดิมและตรวจความสอดคล้องหลัง direction ได้รับอนุมัติ ภายใน Task ที่ภูเลือก ปัจจุบัน DSD-001 อยู่ระหว่างดำเนินการ ภูรับ [Home Desktop-r15](docs/design/dsd-001/home-desktop-r15/owner-home-acceptance.json) และ [foundation-3-desktop ในขอบเขต Desktop พร้อมคงข้อค้าง](docs/design/dsd-001/foundation-3-desktop/owner-foundation-acceptance.json) แล้ว ยังไม่ปิด Task หรือเริ่ม Frontend/Task อื่น
+
+## UX/UI Design Governance Kit
+
+นำเข้า [ชุดเอกสาร 9 ไฟล์](docs/design/governance/README.md) จาก `paipak-design-governance-kit.zip` เมื่อ 3 พฤศจิกายน 2026 (Asia/Bangkok) และภูอนุมัติ v1.0 เป็นมาตรฐานกลางของโปรเจกต์แล้วในวันเดียวกัน รวมข้อสรุป 3 ข้อ: ใช้ Mitr เป็นหลักและเสนอฟอนต์เสริมได้โดยต้องอนุมัติก่อนใช้; เลือก Visual Direction ก่อน Wireframe; เก็บ `07` เป็นตัวอย่างประกอบ ไม่ใช่ผลรีวิว Homepage ปัจจุบัน แบบแต่ละ Task/เวอร์ชันยังต้องให้ภูอนุมัติอย่างชัดเจนก่อนทำ Frontend ที่เกี่ยวข้อง
+
+ก่อนเริ่ม Design Task อ่าน README ของชุดและ `01` ถึง `05` แล้วใช้ `06` ร่วมกับ Task Packet เดิม คู่มือ Wireframe ฉบับใช้งานยังอยู่ที่ [wireframe-guidelines.md](docs/design/wireframe-guidelines.md) ส่วนสำเนาในชุดเก็บไว้เป็นต้นทาง การนำเข้าไม่อนุมัติแบบสุดท้ายหรือเริ่มงานออกแบบ/Frontend โดยอัตโนมัติ
+
+ภูชี้แจงเพิ่มเติมว่าต้องอนุมัติก่อนทำ UI Design ด้วย: ให้เสนอแผนและขอบเขต Task แล้วรออนุมัติ G0 ก่อนเริ่มสร้างหรือแก้ชิ้นงานออกแบบ เมื่อแบบเสร็จต้องอนุมัติแบบ/version ก่อนทำ Frontend อีกขั้น การอนุญาตเฉพาะ Task ที่มีอยู่แล้วยังใช้ได้ภายในขอบเขตเดิม
 
 ## ชุดเวอร์ชันที่ทดสอบ
 
@@ -105,7 +113,7 @@ Fixtures อยู่ใน `tests/runtime/` ส่วน helper เพิ่ม
 
 Local starter ใช้ได้โดยไม่มี `.env` หรือ credentials จริง ส่วน `.env*`, `.dev.vars*`, dependencies และ generated output ถูก ignore ไว้
 
-เมื่อได้รับอนุญาตให้เชื่อมระบบจริง ต้องใช้ Cloudflare และ Supabase ของ paipak แยกจากเว็บอื่น รวมถึงแยกข้อมูลทดสอบ/Production และเก็บ secrets ฝั่ง server เท่านั้น Beam Checkout เป็นงานระยะถัดไป
+เมื่อได้รับอนุญาตให้เชื่อมระบบจริง ต้องใช้ Cloudflare และ Supabase ของ papaipak แยกจากเว็บอื่น รวมถึงแยกข้อมูลทดสอบ/Production และเก็บ secrets ฝั่ง server เท่านั้น Beam Checkout เป็นงานระยะถัดไป
 
 ยังไม่ได้รับรอง persistent cache, ISR/revalidation, Cache Components/PPR, Cloudflare Images optimization หรือ backend จริง Local image test ใช้ static assets และ `unoptimized` เท่านั้น
 

@@ -1,0 +1,15 @@
+{
+  "version": "Article-count-r1",
+  "story_nodes": [
+    {
+      "id": "bb0xn",
+      "name": "Featured editorial story · photo and floating reading panel"
+    }
+  ],
+  "one_featured_only": true,
+  "home_unchanged": true,
+  "variables_unchanged": true,
+  "visual_review": "Native single-story section screenshot inspected",
+  "runtime_verified": false
+}
+

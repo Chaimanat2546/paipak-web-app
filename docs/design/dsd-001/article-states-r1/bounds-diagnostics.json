@@ -1,0 +1,178 @@
+{
+  "default": [],
+  "no_excerpt": [],
+  "loading": [
+    {
+      "id": "ZHsIk",
+      "name": "Featured story loading footprint",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "G5VJ7j",
+      "name": "Featured loading panel",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "IefiJ",
+      "name": "Featured topic skeleton",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "lLjkM",
+      "name": "Featured title skeleton lines",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "uK7u3",
+      "name": "Featured title first line skeleton",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "t8FLsX",
+      "name": "Featured title second line skeleton",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "ycbTq",
+      "name": "Featured reading affordance skeleton",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "pCp9B",
+      "name": "Featured loading excerpt slot",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "FuD3P",
+      "name": "Featured excerpt skeleton",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "OrvhC",
+      "name": "Supporting story loading column",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "dEK4N",
+      "name": "Supporting cover skeleton 1",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "liMfr",
+      "name": "Supporting loading text 1",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "m1L7eY",
+      "name": "Supporting topic skeleton 1",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "kaAM8",
+      "name": "Supporting title skeleton 1",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "OT48r",
+      "name": "Supporting excerpt first line skeleton 1",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "PICjU",
+      "name": "Supporting excerpt second line skeleton 1",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "cCbGd",
+      "name": "Supporting read slot 1",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "cmSXk",
+      "name": "Supporting read skeleton 1",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "prmiM",
+      "name": "Supporting story loading row 2",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "R3rIfK",
+      "name": "Supporting cover skeleton 2",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "u3fRtQ",
+      "name": "Supporting loading text 2",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "hX60g",
+      "name": "Supporting topic skeleton 2",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "vy7DK",
+      "name": "Supporting title skeleton 2",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "HZv4Z",
+      "name": "Supporting excerpt first line skeleton 2",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "O3Xa0P",
+      "name": "Supporting excerpt second line skeleton 2",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "CJfFr",
+      "name": "Supporting read slot 2",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "j7y6vy",
+      "name": "Supporting read skeleton 2",
+      "problem": "fully clipped"
+    }
+  ],
+  "error": [
+    {
+      "id": "EzB7P",
+      "name": "Article error icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "reO9X",
+      "name": "Article error explanation",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "Ih2PD",
+      "name": "Article error heading",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "DRHQG",
+      "name": "Article error supporting message",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "Veddi",
+      "name": "Retry article list · other sections stay usable",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "x4cnw",
+      "name": "Retry article list icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "AvuGQ",
+      "name": "Retry article list label",
+      "problem": "fully clipped"
+    }
+  ]
+}

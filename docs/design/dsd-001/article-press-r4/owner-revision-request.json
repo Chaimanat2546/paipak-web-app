@@ -1,0 +1,17 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "เอาให้มันพอดีกับเด้งอ่ะก่อนที่มันจะเปลี่ยนหน้าแล้วก็อยากให้มันเปลี่ยนสีจากจุดที่กด",
+  "status": "owner_requested_click_origin_color_reveal_synchronized_with_bounce_before_navigation",
+  "preserved_selected_visual": "dark information surface from focus option 3",
+  "proposed_duration_ms": 420,
+  "proposal_basis": "match accepted press-r3 release duration",
+  "replaces_proposed_focus_color_duration_ms": 500,
+  "navigation_requirement": "feedback before opening destination; supersedes previous no-wait proposal for same-tab article activation",
+  "revised_preview_approved": false,
+  "whole_article_approved": false,
+  "whole_home_approved": false,
+  "foundation_approved": false,
+  "frontend_authorized": false
+}

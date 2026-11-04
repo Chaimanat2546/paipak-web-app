@@ -1,0 +1,37 @@
+{
+  "version": "Header-icons-r4",
+  "status": "pending_owner_review",
+  "date": "2026-11-04",
+  "board": {
+    "id": "IfMTi",
+    "x": 0,
+    "y": -3088,
+    "width": 1472,
+    "height": 674
+  },
+  "english": {
+    "id": "vrlS0",
+    "source": "https://github.com/lipis/flag-icons/blob/main/flags/1x1/gb.svg",
+    "license": "MIT",
+    "size": 22,
+    "form": "circle clip with five source SVG paths"
+  },
+  "line": {
+    "id": "z5gTHw",
+    "source": "https://www.line.me/en/logo",
+    "download": "https://www.line.me/static/logo/top/LINE_Brand_icon.zip",
+    "size": 32,
+    "field_size": 44,
+    "original_color": true,
+    "asset": "images/paipak-line-official.png"
+  },
+  "main_unchanged": true,
+  "r3_unchanged": true,
+  "visual_review": "full 1472x674 export inspected after flag SVG was imported as native vectors",
+  "not_tested": [
+    "live locale change",
+    "LINE connection",
+    "keyboard",
+    "mobile"
+  ]
+}

@@ -1,0 +1,97 @@
+# DSD-001 — Visual Direction
+
+วันที่ 3 พฤศจิกายน 2026 (Asia/Bangkok) · เจ้าของเปลี่ยนจาก B เป็น `A / review-2` · Foundation specifications และแบบ Pencil ยังรออนุมัติ
+
+## Current selection — A replaces B
+
+เจ้าของระบุในแชตนี้ว่า **“ขอเปลี่ยนเป็นแบบ A”** หลังขอ “ทำ ui ใน pencil ต่อ” จึงใช้ **A · Holiday Panorama / review-2** เป็นทิศทางปัจจุบันแทน B การอนุมัติ G0 เดิมยังใช้ภายใน DSD-001 สีแบรนด์ Mitr, selected layouts, UX/business rules และ CTA ชมพูเดิม/ข้อความขาวคงเดิม
+
+จัดทำเลเยอร์ Desktop 1440 และ Mobile 390 ด้วย Pencil MCP เป็นรุ่นเสนอ [pencil-A-1](pencil-A-1/README.md) ไม่ใช่การอนุมัติ final design, foundation specifications หรือ Frontend ร่าง foundation-1 เดิมอ้าง B จึงต้องทบทวนให้ตรง A ก่อนตรวจรับทั้งชุด OPEN-001 ยังเปิด
+
+### Owner-requested F-01 extension
+
+ต่อมาเจ้าของถามความครบของ F-01 ตาม `papaipak-wireframe.pen` และสั่งให้เติมส่วนที่แจ้งว่าขาด จึงมีชุด [F01-ui-1](f01-ui-1/README.md) และการแก้เฉพาะจุดต่อเนื่อง รุ่นปัจจุบันคือ [F01-ui-3](f01-ui-3/README.md): Home, Results, Detail และ supporting states ทั้ง Desktop/Mobile ใช้ชื่อ papaipak และธงภาษา/โลโก้ LINE ตามแบบที่เจ้าของเลือก ภายในคำสั่งเฉพาะนี้ ไม่มี functional prototype หรือ Frontend ไม่แก้/อนุมัติ UXD-002 review-5 และไม่ปิด DSD-001 หรือ Task อื่นจากการมี UI เพิ่ม แบบ A/B เดิมและภาพ review-2 ยังอยู่ครบไม่ถูกเขียนทับ
+
+## Previous owner selection — G1 B (superseded)
+
+- Approved direction: **B · Villa Journal / วันพักในแบบเรา**.
+- Approved version: `review-2`, เฉพาะทิศทาง B และภาพคู่ Desktop/Mobile ที่ระบุใน [image manifest](review-2/image-manifest.json).
+- Approved on: 3 พฤศจิกายน 2026 (Asia/Bangkok).
+- Evidence: เจ้าของตอบในแชตนี้ว่า “แบบนี้แหละฉันเลือกก B” ต่อชุดสามแนวทางรุ่น review-2.
+- Scope: เลือกภาษาภาพแบบ editorial, ภาพหลักกับรายละเอียดซ้อน, ความโค้งที่สัมพันธ์กับภาพ และ hierarchy ของ B ภายใน palette, Mitr, selected layouts และ UX/business rules เดิม.
+- ขณะเลือก B นั้น A และ C เป็น alternatives; ต่อมาเจ้าของเปลี่ยนเป็น A ตามบันทึกปัจจุบันข้างต้น เก็บ B เป็นประวัติ ไม่ผสมเข้ากับ A เอง.
+- การอนุมัตินี้ไม่อนุมัติ exact raster font/color, CTA treatment, component states, final foundation version, UXD-002 review-5 หรือ frontend. OPEN-001 ยังเปิด.
+- ดำเนิน foundation specifications ต่อภายใน G0-plan-2 ที่อนุมัติไว้แล้ว โดยไม่เริ่ม Task อื่น.
+
+## Brief และหลักฐาน G0
+
+ใช้ Task Packet DSD-001 และ Governance template 06 ร่วมกัน เป้าหมายคือให้ภาพ ตัวอักษร และองค์ประกอบของ marketplace ช่วยผู้ใช้ค้นพบและเปรียบเทียบพูลวิลล่า โดยยังรักษา UX/business rules ที่อนุมัติแล้ว
+
+เจ้าของอนุมัติ `DSD-001 / G0-plan-2` ในแชตนี้เมื่อ 3 พฤศจิกายน 2026 หลังปรับจำนวนตัวอย่างเป็นสามแบบ แล้วตอบ “อนุมัติเลย” ต่อคำถามให้เริ่มงานตามแผน การอนุมัตินี้ให้สร้าง direction studies แล้วขอเลือก G1 ก่อนจัดทำ foundation specifications ที่เหลือ ไม่อนุมัติแบบล่วงหน้า โค้ด หรือ Task อื่น
+
+Dependency UXD-001 review-2 มีหลักฐานอนุมัติใน [Task Packet](../../../tasks/design/UXD-001.md), [manifest](../../../tasks/design/manifest.yaml) และ [decision registry](../../decisions/registry.yaml) ครอบคลุม journey map, IA และ edge flows เมื่อ 2 พฤศจิกายน 2026
+
+### ขอบเขต
+
+- Visual Direction และข้อกำหนด typography, colors, spacing, radii, elevation, motion และ responsive layout ในขั้นหลัง G1
+- ใช้ภาพศึกษา Desktop/Mobile เพื่อเปรียบเทียบภาษาภาพ ไม่ใช่ Final Homepage ของ UID-001
+- คง Pink Accent Premium, Navy `#072D59`, Light Blue `#DBF2FC`, Pink `#FD6E88`, white base และ Mitr เป็นหลัก ไม่มีฟอนต์เสริมที่อนุมัติ
+- คง centered optional hero search, หมวดลัดเจ็ดหมวด, image-led carousel/favorite cards, grid สี่คอลัมน์เมื่อพื้นที่พอ และ page templates เดิม
+- คง Favorites แบบ login-only, Booking Intent เฉพาะ flow ต่อเนื่อง, จำนวนผู้เข้าพักรวมและสัตว์เลี้ยงแยก, การยกเลิก Auth และการแยก booking/payment states
+- ไม่แก้ UXD-002 review-5 ไม่เริ่ม DSD-002 ไม่สร้าง frontend/CSS/backend/deployment
+
+### ลำดับที่ยังเหลือ
+
+เจ้าของเลือกและอนุมัติ Direction/version ที่ G1 → จัดทำ `token-sheet.md`, `typography-spec.md`, `responsive-visual-guidelines.md` → ส่งหลักฐานและขออนุมัติ foundation version สุดท้ายของ DSD-001 ก่อน frontend ที่เกี่ยวข้อง การผ่าน G1 ยังไม่ทำให้ทั้ง Task เสร็จ
+
+## รอบแก้จาก review-1
+
+เจ้าของเห็นว่าสามแบบเดิมคล้ายกันและเหมือนนำองค์ประกอบมาเรียงเป็นบล็อก จึงต้องสร้างแนวคิดภาพรวมใหม่ ภาพที่เจ้าของส่งใช้สื่อระดับความมีมิติและความละเอียดที่ต้องการ ต่อมาเจ้าของระบุว่าไม่ให้ใช้ร่างใดหรือ reference เป็นแม่แบบหลัก
+
+เก็บหลักฐานเดิมไว้ที่ `review-1/` เพื่อประวัติ ไม่ใช่ตัวเลือกปัจจุบัน ภาพ raster เดิมและ layer backup ไม่ใช่ approved baseline
+
+## สามแนวทางใหม่
+
+| แนวทาง | แนวคิดและ focal point | วิธีสร้างเอกลักษณ์ | Trade-off |
+|---|---|---|---|
+| A · Holiday Panorama / วันพักในภาพเดียว | ให้ผู้ใช้เห็นบรรยากาศการพักร่วมกันผ่านภาพฉากเดียว | ภาพบ้านและสระต่อเนื่องถึงพื้นที่ค้นหาและหมวด ใช้ชั้นลอยและขอบที่อ้างอิงผิวน้ำ | ขึ้นอยู่กับภาพ hero และการ crop มาก ต้องควบคุมความสูงและความอ่านง่ายบนภาพ |
+| B · Villa Journal / วันพักในแบบเรา | ให้ภาพบ้านและรายละเอียดสถาปัตยกรรมทำงานร่วมกับหัวเรื่อง | จัดภาพหลักกับภาพรายละเอียดซ้อนอย่างมีเจตนา ใช้พื้นที่ขาวและความไม่สมมาตรภายในกรอบ | ต้องมีชุดภาพที่สัมพันธ์กันจริง ภาพ inset ห้ามทำให้เข้าใจว่าเป็นบ้านเดียวกันหากไม่มีหลักฐาน |
+| C · Poolside Play / ชวนกันไปพัก | ให้รูปทรงขอบสระเป็นภาษาภาพที่จำได้ | หัวเรื่องอยู่กลาง เส้นทางสีชมพูและ photo masks เชื่อมพื้นที่ภาพกับส่วนค้นหา ไอคอน duotone เป็นทิศทางศึกษา | มีความสดใสที่สุด ต้องคุมลูกเล่นไม่แย่งภาพบ้านและงานค้นหา; mask ต้องมี fallback บนจอแคบ |
+
+ไม่มีแนวทางใดได้รับเลือกโดย Agent ภาพทั้งหมดเปิดได้จาก [review-2](review-2/README.md)
+
+## วิธีสร้างและข้อจำกัด
+
+สร้างด้วย built-in ImageGen เป็น raster direction studies แยกสามแนว ไม่ใช้ร่างเก่าเป็นภาพอ้างอิง แต่ละภาพมือถือใช้ Desktop ของแนวทางนั้นเป็น reference เพื่อรักษาบุคลิก ภาพที่พักและข้อมูลในภาพเป็นตัวอย่างที่สร้างขึ้น ไม่ใช่ inventory ราคา availability หรือคำรับรองจริง
+
+Prompt กำหนด Mitr และ palette ของ papaipak แต่ raster ไม่พิสูจน์ font family ที่ render หรือค่าสีของ semantic tokens แบบตรงตัว การยืนยันฟอนต์จริง ขนาด spacing/radii สี/contrast ทุก state และ responsive behavior ยังต้องทำใน foundation specifications และขั้นที่เกี่ยวข้อง ไม่มี supplementary font ได้รับอนุมัติจากภาพเหล่านี้
+
+ภาพมีการใช้เส้นโค้ง ชั้นภาพ เงา และเส้นนำสายตาตาม feedback ของเจ้าของ กฎทั่วไปของ Taste Skill ที่ต่างจากคำขอและ project direction ไม่ใช้ลบลูกเล่นที่มีหน้าที่ต่อ composition; selected layouts และ approved UX ยังคงเป็นข้อจำกัด
+
+ใช้ Awesome DESIGN.md / Airbnb snapshot เพื่อศึกษา photo-led marketplace และ information density เท่านั้น ไม่รับสี ฟอนต์ บริการ หรือ business rules ของ reference มาใช้ การสุ่ม reference จาก Taste Skill เคยให้ full-screen photo, split-stage และ dark-room ซึ่งขัดกับ discovery/white-base/layout constraints จึงไม่ใช้เป็นโครงหน้า
+
+## OPEN-001 และหลักฐาน contrast
+
+คำนวณ nominal solid-color pairs ด้วยสูตร sRGB relative luminance และเทียบ threshold โดยไม่ปัดเศษก่อนตัดสิน ตาม [W3C SC 1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html):
+
+| คู่สี | Ratio ประมาณ | Normal text AA |
+|---|---:|---|
+| White บน Pink | 2.705:1 | ไม่ผ่าน |
+| Navy บน Pink | 5.078:1 | ผ่านเฉพาะคู่สี solid นี้ |
+| Navy บน White | 13.738:1 | ผ่านเฉพาะคู่สี solid นี้ |
+
+ภาพเสนอ Navy label บน Pink เป็น candidate treatment เดียวกันทั้งสามแนว A มีการแก้สีราคาและ badge จากภาพแรกก่อนส่งรุ่นปัจจุบัน ต่อมาเจ้าของเลือก **ชมพูเดิม #FD6E88 / ขาว #FFFFFF** เป็น CTA visual reference และไม่เลือกเฉดเข้มที่เสนอ ผลคำนวณไม่ได้รับรองทุก pixel/state หรือปิด OPEN-001 ดู [บันทึกปัจจุบันใน token sheet](token-sheet.md), [CTA selection](foundation-1/cta-selection.json) และ [ผลคำนวณเดิม](review-2/contrast-evidence.json)
+
+## Acceptance และประเด็นค้าง
+
+- มีสามแนวทางใหม่ พร้อม Desktop/Mobile และเหตุผล/trade-off ให้เปรียบเทียบ
+- ภาพ Desktop แสดงหมวดเจ็ดรายการและการ์ดสี่คอลัมน์ Mobile แสดงแถบหมวดที่มีเนื้อหาต่อออกนอกจอและการ์ดหนึ่งคอลัมน์; ไม่ใช่ผลทดสอบ scroll หรือ responsive runtime
+- OPEN-001, OPEN-002 และ OPEN-005 ยังเปิด ไม่รับรอง source provenance หรือ final visual baseline
+- ภาพ B Mobile ยังมีลิงก์ “ดูทั้งหมด” สีชมพู และภาพ C มี favorite icon สีชมพู ต้องกำหนดคู่สี/non-text contrast ใหม่ใน specification ก่อนตรวจรับส่วนควบคุมเหล่านี้
+- ไม่ได้ทดสอบ Tablet, 320px, zoom/reflow, keyboard, screen reader, motion, carousel, sticky หรือ business flows จริง
+- Direction ปัจจุบันคือ `A / review-2` ตาม owner change; การเลือก B ก่อนหน้าเก็บเป็นประวัติ แบบ native `pencil-A-1` และ final foundation approval ยังรอแยก
+- Final foundation approval, full component states, page designs และ frontend ยังคงมี gate ของตนเอง
+
+## งานต่อภายใน DSD-001
+
+ร่าง [token-sheet.md](token-sheet.md), [typography-spec.md](typography-spec.md) และ [responsive-visual-guidelines.md](responsive-visual-guidelines.md) รุ่น `foundation-1` จัดทำตาม B ก่อนเปลี่ยนทิศทาง ต้องทบทวน typography ของ hero, imagery, curve และ responsive composition ให้ตรง A ก่อนเสนออนุมัติทั้งชุด หลักฐานสีและฟอนต์เดิมยังเก็บไว้ การเลือก A ไม่ทำให้ DSD-001 เสร็จหรือเริ่มงานอื่นโดยอัตโนมัติ

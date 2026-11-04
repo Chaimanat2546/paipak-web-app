@@ -1,0 +1,14 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "ฉันไม่ชอบแบบกรอบแบบเนี่ยหาแบบอื่นมา",
+  "status": "whole_card_outline_returned_for_revision; alternatives_requested",
+  "rejected_treatment": "Article-focus-r1 enclosing outlines around featured story, supporting story and article-index link",
+  "request": "Find and present other visible keyboard-focus treatments without the enclosing card frame",
+  "preserve": "Approved default layout, brand palette, Mitr, one whole-story link, featured and supporting hover motion",
+  "alternatives": ["แถบใต้ข้อมูล", "ไฮไลต์ชื่อ", "พื้นข้อมูลเข้ม"],
+  "alternative_approved": false,
+  "main_home_changed": false,
+  "frontend_authorized": false
+}

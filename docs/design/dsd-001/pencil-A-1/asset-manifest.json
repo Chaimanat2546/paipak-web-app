@@ -1,0 +1,108 @@
+{
+  "version": "pencil-A-1",
+  "status": "pending_owner_review",
+  "selected_direction": "A / Holiday Panorama / review-2",
+  "native_source": "C:\\Users\\chaym\\.pencil\\documents\\5738e270-25e4-4bf2-9d22-fad4c0b58275\\papaipak-ui.pen",
+  "native_source_bytes": 155443,
+  "source_check": "MCP readback and filesystem metadata only; no raw .pen parsing",
+  "font_variable": {
+    "type": "string",
+    "value": "Mitr"
+  },
+  "frames": [
+    {
+      "node": "diQ8i",
+      "name": "SELECTED · A Holiday Panorama · Desktop 1440 · pencil-A-1",
+      "node_count": 116,
+      "image_fills": [
+        {
+          "node": "R9s6iC",
+          "name": "A hero · generated architectural scene",
+          "file": "images/generated-9.png"
+        },
+        {
+          "node": "O4XVYT",
+          "name": "Villa 1 image carousel",
+          "file": "images/generated-3.png"
+        },
+        {
+          "node": "FlAuD",
+          "name": "Villa 2 image carousel",
+          "file": "images/generated-5.png"
+        },
+        {
+          "node": "lz9kp",
+          "name": "Villa 3 image carousel",
+          "file": "images/generated-1.png"
+        },
+        {
+          "node": "v2AMTg",
+          "name": "Villa 4 image carousel",
+          "file": "images/generated-4.png"
+        }
+      ]
+    },
+    {
+      "node": "vRrpq",
+      "name": "SELECTED · A Holiday Panorama · Mobile 390 · pencil-A-1",
+      "node_count": 77,
+      "image_fills": [
+        {
+          "node": "n4aOwE",
+          "name": "A Mobile villa scene · independent crop",
+          "file": "images/generated-8.png"
+        },
+        {
+          "node": "ymOGU",
+          "name": "Villa 1 image carousel",
+          "file": "images/generated-3.png"
+        },
+        {
+          "node": "aTael",
+          "name": "Villa 2 image carousel",
+          "file": "images/generated-5.png"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "images/generated-9.png": {
+      "usage": "active_A_generated_study",
+      "sha256": "76c7940c7865544f28e7fc357b266ee11564fd9bf62367fa0da800407976c542",
+      "width": 19660800,
+      "height": 4293597114
+    },
+    "images/generated-3.png": {
+      "usage": "active_A_generated_study",
+      "sha256": "cd4d635328bee5b7f7cef310cebfc95611189b2a18c3695805212a5d955f37e9",
+      "width": 19660800,
+      "height": 4293597114
+    },
+    "images/generated-5.png": {
+      "usage": "active_A_generated_study",
+      "sha256": "ed899ab08589fd44ad074619f925741337db05e0dd5d3382412afc9d71fee554",
+      "width": 19660800,
+      "height": 4293597114
+    },
+    "images/generated-1.png": {
+      "usage": "active_A_generated_study",
+      "sha256": "ef6a73de139a12a10c17e4d6828a1df8159fa60361ea77077e2ffb3513fb06ec",
+      "width": 19660800,
+      "height": 4293597114
+    },
+    "images/generated-4.png": {
+      "usage": "active_A_generated_study",
+      "sha256": "fd8a2ecce27f857e2fa089a5c25ce0dfaedf38269a1809d3843d91ce1f03677a",
+      "width": 19660800,
+      "height": 4293597114
+    },
+    "images/generated-8.png": {
+      "usage": "active_A_generated_study",
+      "sha256": "2280bcfadb5523a961e18f088f6303757dee83998a4ab6b77659e6735eb9cdbc",
+      "width": 19660800,
+      "height": 4293597114
+    }
+  },
+  "original_review_2_hashes": "all six unchanged",
+  "OPEN-001": "open; original Pink/White visual reference retained"
+}

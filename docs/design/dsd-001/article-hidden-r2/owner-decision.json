@@ -1,0 +1,25 @@
+{
+  "recorded_date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "ถ้ารายการมันโหลดไม่ได้ที่ไม่ใช่ข้อผิดพลาดของระบบก็ซ่อนเอาไว้เลยถ้ายูเซอร์อยากเห็นจริงๆเดี๋ยวยูเซอร์ไปรีหน้าเองระบบเราแค่ทำให้ประสบการณ์ผู้ใช้ดีที่สุดเพราะว่ายูสเซอร์ไม่จำเป็นต้องมาแก้ปัญหาของเราเราจะแก้ไขคือเราจะเก็บล็อกเพื่อมาปรับปรุงในอนาคต",
+  "status": "owner_confirmed_hide_unavailable_article_section_and_internal_logging_requirement",
+  "scope": "Optional Home article section unavailable as described by owner; not a new policy for system-wide application failures",
+  "decision": "Hide the article section when its list cannot be loaded in this case; other ready Home sections remain usable",
+  "hidden_elements": ["Article heading and index link", "Article content", "Section spacing", "Error notice", "Retry control", "Refresh instruction"],
+  "manual_page_refresh": "User may refresh independently; do not prompt them to troubleshoot",
+  "logging": {
+    "requirement": "Record technical failures internally for future diagnosis and improvement by the team",
+    "empty_results_are_errors": false,
+    "implementation": "Deferred; no logging provider, analytics service or backend integration selected or configured"
+  },
+  "loading_skeleton": "Previously accepted static loading appearance remains; this change governs terminal load failure",
+  "data_semantics": "Failed request remains internally distinct from a successful empty catalog, even when both hide the optional section",
+  "supersedes": "Prior Q5 user-facing article error and retry treatment only",
+  "native_context_root": "q1Q2w",
+  "retired_native_error_root": "f6x4t; disabled and marked historical",
+  "whole_article_version_approved": false,
+  "whole_home_version_approved": false,
+  "functional_acceptance": false,
+  "frontend_authorized": false
+}

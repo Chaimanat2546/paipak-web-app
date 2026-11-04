@@ -1,0 +1,1978 @@
+{
+  "type": "frame",
+  "id": "JWRJ0",
+  "x": 0,
+  "y": -2294,
+  "name": "REVIEW · Header utilities-r3 · real-site reference adaptation",
+  "width": 1472,
+  "height": 674,
+  "fill": "#F2FAFE",
+  "cornerRadius": 24,
+  "layout": "vertical",
+  "gap": 24,
+  "padding": 32,
+  "children": [
+    {
+      "type": "text",
+      "id": "Bz7Zn",
+      "name": "Review study title",
+      "fill": "#072D59",
+      "content": "ภาษาและติดต่อ · ศึกษาจากเว็บจริง",
+      "fontFamily": "$font.primary",
+      "fontSize": 28,
+      "fontWeight": "500"
+    },
+    {
+      "type": "frame",
+      "id": "AxFWw",
+      "name": "Language and contact review columns",
+      "width": "fill_container",
+      "gap": 32,
+      "children": [
+        {
+          "type": "frame",
+          "id": "EyBE0",
+          "name": "language study column",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "FGtll",
+              "name": "language heading",
+              "fill": "#072D59",
+              "content": "กดธงไทย → เลือกภาษา",
+              "fontFamily": "$font.primary",
+              "fontSize": 22,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "eGeUn",
+              "name": "language actual header context · right desktop crop",
+              "clip": true,
+              "width": "fill_container",
+              "height": 414,
+              "fill": "#FFFFFF",
+              "cornerRadius": 20,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YunQx",
+                  "x": -720,
+                  "y": 124,
+                  "name": "language hero context",
+                  "width": 1440,
+                  "height": 470,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "kniGN",
+                      "x": 0,
+                      "y": 0,
+                      "name": "A hero · generated architectural scene",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/generated-9.png",
+                        "mode": "cover"
+                      },
+                      "width": 1440,
+                      "height": 470
+                    },
+                    {
+                      "type": "frame",
+                      "id": "H1kUq",
+                      "x": 136,
+                      "y": 32,
+                      "name": "A headline and supporting copy",
+                      "width": 540,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "r43q8Y",
+                          "name": "A headline line one",
+                          "fill": "#072D59",
+                          "content": "พักด้วยกัน",
+                          "lineHeight": 1.13,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 96,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fCZZG",
+                          "name": "A headline line two",
+                          "fill": "#072D59",
+                          "content": "ให้เต็มที่",
+                          "lineHeight": 1.13,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 96,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "o1Y94",
+                          "name": "A supporting copy",
+                          "fill": "#072D59",
+                          "content": "ค้นพบพูลวิลล่าสำหรับวันดี ๆ ของคุณ",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 22,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "path",
+                      "id": "i0kWwA",
+                      "x": 470,
+                      "y": 204,
+                      "name": "A pink water signature",
+                      "geometry": "M4 23c31-23 43-20 46-10 1 16 33 9 49-8-3 18 17 18 45 3",
+                      "viewBox": [
+                        0,
+                        0,
+                        148,
+                        32
+                      ],
+                      "width": 148,
+                      "height": 32,
+                      "stroke": "#FD6E88",
+                      "strokeWidth": 5,
+                      "strokeLinecap": "round"
+                    },
+                    {
+                      "type": "path",
+                      "id": "AbYyd",
+                      "x": 0,
+                      "y": 375,
+                      "name": "White pool-edge transition",
+                      "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+                      "viewBox": [
+                        0,
+                        0,
+                        1440,
+                        95
+                      ],
+                      "fill": "#FFFFFF",
+                      "width": 1440,
+                      "height": 95
+                    },
+                    {
+                      "type": "frame",
+                      "id": "W4SZ05",
+                      "x": 200,
+                      "y": 330,
+                      "name": "A centered optional search",
+                      "width": 1040,
+                      "height": 88,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 32,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#072D5926",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 20
+                      },
+                      "gap": 12,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "GQCmn",
+                          "name": "สถานที่ optional field",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "CHfzH",
+                              "name": "สถานที่ icon",
+                              "width": 30,
+                              "height": 30,
+                              "icon": "map-pin",
+                              "library": "lucide",
+                              "fill": "#072D59"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "vkpp6",
+                              "name": "สถานที่ text",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "pyeZL",
+                                  "name": "สถานที่ label",
+                                  "fill": "#072D59",
+                                  "content": "สถานที่",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "D723h",
+                                  "name": "สถานที่ value",
+                                  "fill": "#6B7280",
+                                  "content": "อยากไปที่ไหน",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nK3vN",
+                          "name": "วันเข้าพัก optional field",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "N09ni9",
+                              "name": "วันเข้าพัก icon",
+                              "width": 30,
+                              "height": 30,
+                              "icon": "calendar-days",
+                              "library": "lucide",
+                              "fill": "#072D59"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "a4KMlx",
+                              "name": "วันเข้าพัก text",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "yfneh",
+                                  "name": "วันเข้าพัก label",
+                                  "fill": "#072D59",
+                                  "content": "วันเข้าพัก",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "SOTc9",
+                                  "name": "วันเข้าพัก value",
+                                  "fill": "#6B7280",
+                                  "content": "เลือกวันภายหลัง",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NHyyQ",
+                          "name": "ผู้เข้าพัก optional field",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "l33t6M",
+                              "name": "ผู้เข้าพัก icon",
+                              "width": 30,
+                              "height": 30,
+                              "icon": "users",
+                              "library": "lucide",
+                              "fill": "#072D59"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "sHHGY",
+                              "name": "ผู้เข้าพัก text",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "QLxEv",
+                                  "name": "ผู้เข้าพัก label",
+                                  "fill": "#072D59",
+                                  "content": "ผู้เข้าพัก",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "NBXwD",
+                                  "name": "ผู้เข้าพัก value",
+                                  "fill": "#6B7280",
+                                  "content": "คน / สัตว์เลี้ยง",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bkGQG",
+                          "name": "CTA · owner selected original pink white",
+                          "width": 164,
+                          "height": 60,
+                          "fill": "#FD6E88",
+                          "cornerRadius": 18,
+                          "gap": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "xl1Wg",
+                              "name": "Search icon white",
+                              "width": 26,
+                              "height": 26,
+                              "icon": "search",
+                              "library": "lucide",
+                              "fill": "#FFFFFF"
+                            },
+                            {
+                              "type": "text",
+                              "id": "kNRWa",
+                              "name": "ค้นหา · white label",
+                              "fill": "#FFFFFF",
+                              "content": "ค้นหา",
+                              "fontFamily": "$font.primary",
+                              "fontSize": 22,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XFltP",
+                  "x": -720,
+                  "y": 0,
+                  "name": "language approved header context",
+                  "width": 1440,
+                  "height": 124,
+                  "fill": "#FFFFFF",
+                  "gap": 24,
+                  "padding": [
+                    16,
+                    56
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "aegFf",
+                      "name": "Brand and owner display notice",
+                      "width": 480,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "o2DA8",
+                          "name": "Placeholder logo and Paipak wordmark",
+                          "height": 46,
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "gePdT",
+                              "name": "Placeholder logo · house and pool · not final brand asset",
+                              "width": 42,
+                              "height": 42,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "path",
+                                  "id": "lzilY",
+                                  "x": 1,
+                                  "y": 1,
+                                  "name": "Pink villa silhouette",
+                                  "geometry": "M4 18q0-2 2-4l12-10q2-2 4 0l12 10q2 2 2 4v15q0 3-3 3h-26q-3 0-3-3z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    40,
+                                    40
+                                  ],
+                                  "fill": "#FD6E88",
+                                  "width": 40,
+                                  "height": 40
+                                },
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "DW7Hj",
+                                  "x": 17,
+                                  "y": 20,
+                                  "name": "Villa doorway",
+                                  "fill": "#FFFFFF",
+                                  "width": 10,
+                                  "height": 15
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "gZSOF",
+                                  "x": 2,
+                                  "y": 32,
+                                  "name": "Navy pool wave",
+                                  "geometry": "M1 4q4-4 9 0 5 4 10 0 5-4 10 0 4 3 7 0",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    38,
+                                    8
+                                  ],
+                                  "fill": "#FFFFFF00",
+                                  "width": 38,
+                                  "height": 8,
+                                  "stroke": "#072D59",
+                                  "strokeWidth": 2.5,
+                                  "strokeLinecap": "round"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "iQyqm",
+                              "name": "Paipak wordmark study",
+                              "fill": "#072D59",
+                              "content": "paipak",
+                              "lineHeight": 1.2,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 38,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "bqoTA",
+                          "name": "Owner supplied display notice",
+                          "fill": "#072D59",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "กรุณาโอนเงิน ชื่อ ...... แบบบริษัท",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 14
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zB1qL",
+                      "name": "Right navigation · main links and icon utilities",
+                      "width": 760,
+                      "height": 52,
+                      "gap": 28,
+                      "justifyContent": "end",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "tdciJ",
+                          "name": "Primary navigation",
+                          "height": 48,
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "o31Pm",
+                              "name": "หน้าแรก · current page",
+                              "width": 48,
+                              "height": 48,
+                              "fill": "#FFFFFF",
+                              "cornerRadius": 16,
+                              "gap": 16,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "HIAWO",
+                                  "name": "หน้าแรก · current page icon",
+                                  "width": 22,
+                                  "height": 22,
+                                  "icon": "house",
+                                  "library": "lucide",
+                                  "fill": "#FD6E88"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hRIBU",
+                              "name": "ค้นหาที่พัก navigation target",
+                              "height": 48,
+                              "gap": 16,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "W6KP0",
+                                  "name": "ค้นหาที่พัก navigation label",
+                                  "fill": "#072D59",
+                                  "content": "ค้นหาที่พัก",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "y8Yw0",
+                              "name": "บทความ navigation target",
+                              "height": 48,
+                              "gap": 16,
+                              "padding": [
+                                0,
+                                8
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "LBVge",
+                                  "name": "บทความ navigation label",
+                                  "fill": "#072D59",
+                                  "content": "บทความ",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MzclC",
+                          "name": "Language and contact utilities",
+                          "height": 52,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 16,
+                          "gap": 4,
+                          "padding": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "a7V0J",
+                              "name": "เปลี่ยนภาษา · ไทย / English",
+                              "width": 44,
+                              "height": 44,
+                              "fill": "#DBF2FC",
+                              "cornerRadius": 12,
+                              "gap": 16,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "PhDhl",
+                                  "name": "ภาษาไทย · circular Thailand flag",
+                                  "clip": true,
+                                  "width": 22,
+                                  "height": 22,
+                                  "fill": "#FFFFFF",
+                                  "cornerRadius": 11,
+                                  "layout": "vertical",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "q8Fiyl",
+                                      "name": "Top red stripe",
+                                      "fill": "#A51931",
+                                      "width": 22,
+                                      "height": 3.6666666666666665
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "AVTGz",
+                                      "name": "Upper white stripe",
+                                      "fill": "#FFFFFF",
+                                      "width": 22,
+                                      "height": 3.6666666666666665
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "tOcsD",
+                                      "name": "Center blue stripe",
+                                      "fill": "#2D2A4A",
+                                      "width": 22,
+                                      "height": 7.333333333333333
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "WKs1h",
+                                      "name": "Lower white stripe",
+                                      "fill": "#FFFFFF",
+                                      "width": 22,
+                                      "height": 3.6666666666666665
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "NpYHB",
+                                      "name": "Bottom red stripe",
+                                      "fill": "#A51931",
+                                      "width": 22,
+                                      "height": 3.6666666666666665
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "USXm2",
+                              "name": "ติดต่อเรา · LINE OA / โทร",
+                              "width": 44,
+                              "height": 44,
+                              "fill": "#FFFFFF00",
+                              "cornerRadius": 12,
+                              "gap": 16,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "lMHaU",
+                                  "name": "ติดต่อเรา · LINE OA / โทร icon",
+                                  "width": 22,
+                                  "height": 22,
+                                  "icon": "headset",
+                                  "library": "lucide",
+                                  "fill": "#072D59"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "o2lcU",
+                          "name": "Guest · เข้าสู่ระบบ · WF-05 Login first",
+                          "width": 148,
+                          "height": 48,
+                          "fill": "#FD6E88",
+                          "cornerRadius": 16,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            20
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "l8D1O",
+                              "name": "Sign-in action icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "log-in",
+                              "library": "lucide",
+                              "fill": "#FFFFFF"
+                            },
+                            {
+                              "type": "text",
+                              "id": "stJfj",
+                              "name": "Guest sign-in label",
+                              "fill": "#FFFFFF",
+                              "content": "เข้าสู่ระบบ",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 16,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qOuoZ",
+                  "x": 172,
+                  "y": 96,
+                  "name": "language compact reference based popover",
+                  "width": 264,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#072D5926",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "j8N26c",
+                      "name": "language menu heading",
+                      "width": "fill_container",
+                      "height": 44,
+                      "padding": [
+                        0,
+                        0,
+                        0,
+                        8
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "C0yi0",
+                          "name": "language menu title",
+                          "fill": "#072D59",
+                          "content": "เลือกภาษา",
+                          "fontFamily": "$font.primary",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "YikJ9",
+                          "name": "language close target · 44px",
+                          "width": 44,
+                          "height": 44,
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "pHJ2M",
+                              "name": "language close icon",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "x",
+                              "library": "lucide",
+                              "fill": "#072D59"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XPP0O",
+                      "name": "language option 0",
+                      "width": "fill_container",
+                      "height": 56,
+                      "fill": "#DBF2FC",
+                      "cornerRadius": 12,
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "DFLN0",
+                          "name": "Thai flag · 22px",
+                          "clip": true,
+                          "width": 22,
+                          "height": 22,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 11,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "v2SpIw",
+                              "name": "Top red stripe",
+                              "fill": "#A51931",
+                              "width": 22,
+                              "height": 3.6666666666666665
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "WgOE5",
+                              "name": "Upper white stripe",
+                              "fill": "#FFFFFF",
+                              "width": 22,
+                              "height": 3.6666666666666665
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "p1U3cQ",
+                              "name": "Center blue stripe",
+                              "fill": "#2D2A4A",
+                              "width": 22,
+                              "height": 7.333333333333333
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "P38q7K",
+                              "name": "Lower white stripe",
+                              "fill": "#FFFFFF",
+                              "width": 22,
+                              "height": 3.6666666666666665
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "K8vAUZ",
+                              "name": "Bottom red stripe",
+                              "fill": "#A51931",
+                              "width": 22,
+                              "height": 3.6666666666666665
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "E0SbiC",
+                          "name": "Language option 0",
+                          "fill": "#072D59",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "ไทย",
+                          "fontFamily": "$font.primary",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "C43sr",
+                          "name": "Selected language check",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "check",
+                          "library": "lucide",
+                          "fill": "#072D59"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uaD87",
+                      "name": "language option 1",
+                      "width": "fill_container",
+                      "height": 56,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "bSEs0",
+                          "name": "English language marker · 22px",
+                          "width": 22,
+                          "height": 22,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ELnFE",
+                              "name": "English marker text",
+                              "fill": "#072D59",
+                              "content": "EN",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "tKkcQ",
+                          "name": "Language option 1",
+                          "fill": "#072D59",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "English",
+                          "fontFamily": "$font.primary",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "M0Jc4",
+              "name": "language reference rationale",
+              "fill": "#072D59",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Traveloka: เมนูใต้ Header · Booking.com: ธง + ชื่อ + check",
+              "fontFamily": "$font.primary",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "dFr0g",
+          "name": "contact study column",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "OLdCw",
+              "name": "contact heading",
+              "fill": "#072D59",
+              "content": "กดหูฟัง → ติดต่อ",
+              "fontFamily": "$font.primary",
+              "fontSize": 22,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "eUbGc",
+              "name": "contact actual header context · right desktop crop",
+              "clip": true,
+              "width": "fill_container",
+              "height": 414,
+              "fill": "#FFFFFF",
+              "cornerRadius": 20,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "G6uD2",
+                  "x": -720,
+                  "y": 124,
+                  "name": "contact hero context",
+                  "width": 1440,
+                  "height": 470,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "rtzHM",
+                      "x": 0,
+                      "y": 0,
+                      "name": "A hero · generated architectural scene",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/generated-9.png",
+                        "mode": "cover"
+                      },
+                      "width": 1440,
+                      "height": 470
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iUi02",
+                      "x": 136,
+                      "y": 32,
+                      "name": "A headline and supporting copy",
+                      "width": 540,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xkVuz",
+                          "name": "A headline line one",
+                          "fill": "#072D59",
+                          "content": "พักด้วยกัน",
+                          "lineHeight": 1.13,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 96,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "yxoxm",
+                          "name": "A headline line two",
+                          "fill": "#072D59",
+                          "content": "ให้เต็มที่",
+                          "lineHeight": 1.13,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 96,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ma8J4",
+                          "name": "A supporting copy",
+                          "fill": "#072D59",
+                          "content": "ค้นพบพูลวิลล่าสำหรับวันดี ๆ ของคุณ",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 22,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "path",
+                      "id": "gCLqH",
+                      "x": 470,
+                      "y": 204,
+                      "name": "A pink water signature",
+                      "geometry": "M4 23c31-23 43-20 46-10 1 16 33 9 49-8-3 18 17 18 45 3",
+                      "viewBox": [
+                        0,
+                        0,
+                        148,
+                        32
+                      ],
+                      "width": 148,
+                      "height": 32,
+                      "stroke": "#FD6E88",
+                      "strokeWidth": 5,
+                      "strokeLinecap": "round"
+                    },
+                    {
+                      "type": "path",
+                      "id": "jCJoU",
+                      "x": 0,
+                      "y": 375,
+                      "name": "White pool-edge transition",
+                      "geometry": "M0 95c180-85 340-87 540-67 320 46 570-7 900-28l0 95z",
+                      "viewBox": [
+                        0,
+                        0,
+                        1440,
+                        95
+                      ],
+                      "fill": "#FFFFFF",
+                      "width": 1440,
+                      "height": 95
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F6nBRm",
+                      "x": 200,
+                      "y": 330,
+                      "name": "A centered optional search",
+                      "width": 1040,
+                      "height": 88,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 32,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#072D5926",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 20
+                      },
+                      "gap": 12,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "IBdu6",
+                          "name": "สถานที่ optional field",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "rKSRT",
+                              "name": "สถานที่ icon",
+                              "width": 30,
+                              "height": 30,
+                              "icon": "map-pin",
+                              "library": "lucide",
+                              "fill": "#072D59"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "fPbEV",
+                              "name": "สถานที่ text",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "E53LF",
+                                  "name": "สถานที่ label",
+                                  "fill": "#072D59",
+                                  "content": "สถานที่",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "fMwiW",
+                                  "name": "สถานที่ value",
+                                  "fill": "#6B7280",
+                                  "content": "อยากไปที่ไหน",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "R9cB4",
+                          "name": "วันเข้าพัก optional field",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "oKv7T",
+                              "name": "วันเข้าพัก icon",
+                              "width": 30,
+                              "height": 30,
+                              "icon": "calendar-days",
+                              "library": "lucide",
+                              "fill": "#072D59"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "WcClT",
+                              "name": "วันเข้าพัก text",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "lFdle",
+                                  "name": "วันเข้าพัก label",
+                                  "fill": "#072D59",
+                                  "content": "วันเข้าพัก",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "E3pjD",
+                                  "name": "วันเข้าพัก value",
+                                  "fill": "#6B7280",
+                                  "content": "เลือกวันภายหลัง",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GfFS9",
+                          "name": "ผู้เข้าพัก optional field",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "unzBg",
+                              "name": "ผู้เข้าพัก icon",
+                              "width": 30,
+                              "height": 30,
+                              "icon": "users",
+                              "library": "lucide",
+                              "fill": "#072D59"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "v4WLw",
+                              "name": "ผู้เข้าพัก text",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "dApuv",
+                                  "name": "ผู้เข้าพัก label",
+                                  "fill": "#072D59",
+                                  "content": "ผู้เข้าพัก",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "svrO1",
+                                  "name": "ผู้เข้าพัก value",
+                                  "fill": "#6B7280",
+                                  "content": "คน / สัตว์เลี้ยง",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "eXVak",
+                          "name": "CTA · owner selected original pink white",
+                          "width": 164,
+                          "height": 60,
+                          "fill": "#FD6E88",
+                          "cornerRadius": 18,
+                          "gap": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "cd9LP",
+                              "name": "Search icon white",
+                              "width": 26,
+                              "height": 26,
+                              "icon": "search",
+                              "library": "lucide",
+                              "fill": "#FFFFFF"
+                            },
+                            {
+                              "type": "text",
+                              "id": "L2Ml3w",
+                              "name": "ค้นหา · white label",
+                              "fill": "#FFFFFF",
+                              "content": "ค้นหา",
+                              "fontFamily": "$font.primary",
+                              "fontSize": 22,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lymJr",
+                  "x": -720,
+                  "y": 0,
+                  "name": "contact approved header context",
+                  "width": 1440,
+                  "height": 124,
+                  "fill": "#FFFFFF",
+                  "gap": 24,
+                  "padding": [
+                    16,
+                    56
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fUDk4",
+                      "name": "Brand and owner display notice",
+                      "width": 480,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "h1zwg",
+                          "name": "Placeholder logo and Paipak wordmark",
+                          "height": 46,
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "EAZwv",
+                              "name": "Placeholder logo · house and pool · not final brand asset",
+                              "width": 42,
+                              "height": 42,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "path",
+                                  "id": "y0XJOm",
+                                  "x": 1,
+                                  "y": 1,
+                                  "name": "Pink villa silhouette",
+                                  "geometry": "M4 18q0-2 2-4l12-10q2-2 4 0l12 10q2 2 2 4v15q0 3-3 3h-26q-3 0-3-3z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    40,
+                                    40
+                                  ],
+                                  "fill": "#FD6E88",
+                                  "width": 40,
+                                  "height": 40
+                                },
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "zodJo",
+                                  "x": 17,
+                                  "y": 20,
+                                  "name": "Villa doorway",
+                                  "fill": "#FFFFFF",
+                                  "width": 10,
+                                  "height": 15
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "vpiC7",
+                                  "x": 2,
+                                  "y": 32,
+                                  "name": "Navy pool wave",
+                                  "geometry": "M1 4q4-4 9 0 5 4 10 0 5-4 10 0 4 3 7 0",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    38,
+                                    8
+                                  ],
+                                  "fill": "#FFFFFF00",
+                                  "width": 38,
+                                  "height": 8,
+                                  "stroke": "#072D59",
+                                  "strokeWidth": 2.5,
+                                  "strokeLinecap": "round"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "O8puT",
+                              "name": "Paipak wordmark study",
+                              "fill": "#072D59",
+                              "content": "paipak",
+                              "lineHeight": 1.2,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 38,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "JkxDe",
+                          "name": "Owner supplied display notice",
+                          "fill": "#072D59",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "กรุณาโอนเงิน ชื่อ ...... แบบบริษัท",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font.primary",
+                          "fontSize": 14
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "U6CGP",
+                      "name": "Right navigation · main links and icon utilities",
+                      "width": 760,
+                      "height": 52,
+                      "gap": 28,
+                      "justifyContent": "end",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "cc1pj",
+                          "name": "Primary navigation",
+                          "height": 48,
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "etRNF",
+                              "name": "หน้าแรก · current page",
+                              "width": 48,
+                              "height": 48,
+                              "fill": "#FFFFFF",
+                              "cornerRadius": 16,
+                              "gap": 16,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "bE9TY",
+                                  "name": "หน้าแรก · current page icon",
+                                  "width": 22,
+                                  "height": 22,
+                                  "icon": "house",
+                                  "library": "lucide",
+                                  "fill": "#FD6E88"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Y2K9P",
+                              "name": "ค้นหาที่พัก navigation target",
+                              "height": 48,
+                              "gap": 16,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "F8JSe",
+                                  "name": "ค้นหาที่พัก navigation label",
+                                  "fill": "#072D59",
+                                  "content": "ค้นหาที่พัก",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Ie5Xz",
+                              "name": "บทความ navigation target",
+                              "height": 48,
+                              "gap": 16,
+                              "padding": [
+                                0,
+                                8
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "igarZ",
+                                  "name": "บทความ navigation label",
+                                  "fill": "#072D59",
+                                  "content": "บทความ",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font.primary",
+                                  "fontSize": 17
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "y59zl",
+                          "name": "Language and contact utilities",
+                          "height": 52,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 16,
+                          "gap": 4,
+                          "padding": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "S22YH",
+                              "name": "เปลี่ยนภาษา · ไทย / English",
+                              "width": 44,
+                              "height": 44,
+                              "fill": "#FFFFFF00",
+                              "cornerRadius": 12,
+                              "gap": 16,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "He7SZ",
+                                  "name": "ภาษาไทย · circular Thailand flag",
+                                  "clip": true,
+                                  "width": 22,
+                                  "height": 22,
+                                  "fill": "#FFFFFF",
+                                  "cornerRadius": 11,
+                                  "layout": "vertical",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "Mq7dG",
+                                      "name": "Top red stripe",
+                                      "fill": "#A51931",
+                                      "width": 22,
+                                      "height": 3.6666666666666665
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "BtABO",
+                                      "name": "Upper white stripe",
+                                      "fill": "#FFFFFF",
+                                      "width": 22,
+                                      "height": 3.6666666666666665
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "vpMSA",
+                                      "name": "Center blue stripe",
+                                      "fill": "#2D2A4A",
+                                      "width": 22,
+                                      "height": 7.333333333333333
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "a395eR",
+                                      "name": "Lower white stripe",
+                                      "fill": "#FFFFFF",
+                                      "width": 22,
+                                      "height": 3.6666666666666665
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "n2f8g",
+                                      "name": "Bottom red stripe",
+                                      "fill": "#A51931",
+                                      "width": 22,
+                                      "height": 3.6666666666666665
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ptiF9",
+                              "name": "ติดต่อเรา · LINE OA / โทร",
+                              "width": 44,
+                              "height": 44,
+                              "fill": "#DBF2FC",
+                              "cornerRadius": 12,
+                              "gap": 16,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "sedVs",
+                                  "name": "ติดต่อเรา · LINE OA / โทร icon",
+                                  "width": 22,
+                                  "height": 22,
+                                  "icon": "headset",
+                                  "library": "lucide",
+                                  "fill": "#072D59"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "B7ZBaO",
+                          "name": "Guest · เข้าสู่ระบบ · WF-05 Login first",
+                          "width": 148,
+                          "height": 48,
+                          "fill": "#FD6E88",
+                          "cornerRadius": 16,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            20
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "LEzw8",
+                              "name": "Sign-in action icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "log-in",
+                              "library": "lucide",
+                              "fill": "#FFFFFF"
+                            },
+                            {
+                              "type": "text",
+                              "id": "X7ris",
+                              "name": "Guest sign-in label",
+                              "fill": "#FFFFFF",
+                              "content": "เข้าสู่ระบบ",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font.primary",
+                              "fontSize": 16,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nUb6A",
+                  "x": 148,
+                  "y": 96,
+                  "name": "contact compact reference based popover",
+                  "width": 336,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#072D5926",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "u69vz",
+                      "name": "contact menu heading",
+                      "width": "fill_container",
+                      "height": 44,
+                      "padding": [
+                        0,
+                        0,
+                        0,
+                        8
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fZHvs",
+                          "name": "contact menu title",
+                          "fill": "#072D59",
+                          "content": "ติดต่อ paipak",
+                          "fontFamily": "$font.primary",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "c3HP2",
+                          "name": "contact close target · 44px",
+                          "width": 44,
+                          "height": 44,
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "Z7ttHG",
+                              "name": "contact close icon",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "x",
+                              "library": "lucide",
+                              "fill": "#072D59"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Y1Tnt5",
+                      "name": "contact option 0",
+                      "width": "fill_container",
+                      "height": 72,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "uwyww",
+                          "name": "Contact channel icon field 0",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "#DBF2FC",
+                          "cornerRadius": 22,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "Qb14V",
+                              "name": "Contact channel icon 0",
+                              "width": 22,
+                              "height": 22,
+                              "icon": "message-circle",
+                              "library": "lucide",
+                              "fill": "#072D59"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "si2yd",
+                          "name": "Contact channel information 0",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "FmQIn",
+                              "name": "Contact channel title 0",
+                              "fill": "#072D59",
+                              "content": "LINE OA",
+                              "fontFamily": "$font.primary",
+                              "fontSize": 16,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "r63ZU9",
+                              "name": "Contact action hint 0",
+                              "fill": "#53657C",
+                              "content": "เปิดแชตใน LINE",
+                              "fontFamily": "$font.primary",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "icon",
+                          "id": "Qla08",
+                          "name": "External contact action 0",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "arrow-up-right",
+                          "library": "lucide",
+                          "fill": "#072D59"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c70KG",
+                      "name": "contact option 1",
+                      "width": "fill_container",
+                      "height": 72,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "DDmgo",
+                          "name": "Contact channel icon field 1",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "#FFF2F5",
+                          "cornerRadius": 22,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "wAbqX",
+                              "name": "Contact channel icon 1",
+                              "width": 22,
+                              "height": 22,
+                              "icon": "phone",
+                              "library": "lucide",
+                              "fill": "#072D59"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "maPZx",
+                          "name": "Contact channel information 1",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "k9uGmQ",
+                              "name": "Contact channel title 1",
+                              "fill": "#072D59",
+                              "content": "โทร",
+                              "fontFamily": "$font.primary",
+                              "fontSize": 16,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "HM2hZ",
+                              "name": "Contact action hint 1",
+                              "fill": "#53657C",
+                              "content": "เปิดหน้าจอโทรออก",
+                              "fontFamily": "$font.primary",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "icon",
+                          "id": "e7JU9",
+                          "name": "External contact action 1",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "arrow-up-right",
+                          "library": "lucide",
+                          "fill": "#072D59"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "SoOiK",
+              "name": "contact reference rationale",
+              "fill": "#072D59",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Traveloka: ไอคอน + ช่องทาง + การกระทำที่ชัดเจน",
+              "fontFamily": "$font.primary",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "h65MNB",
+      "name": "Review status and boundaries",
+      "fill": "#53657C",
+      "content": "แบบเสนอรอตรวจ · native layers แก้ไขได้ · Desktop crop 688×414 · ยังไม่เชื่อมภาษา / LINE / โทร",
+      "fontFamily": "$font.primary",
+      "fontSize": 14,
+      "fontWeight": "normal"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "version": "Article-title-r1",
+  "task": "DSD-001",
+  "status": "returned_by_owner",
+  "owner_line_limit_choice": "1 แต่ความสูงมันก็จะแปลกๆไหมถ้าอันไหนมี 1 อันไหนมี 2",
+  "owner_reserved_height_reply": "โอเค",
+  "confirmed_rule": {
+    "featured_max_lines": 2,
+    "supporting_max_lines": 3,
+    "overflow": "ellipsis",
+    "reserve_line_slots_by_role": true,
+    "vertical_align": "top",
+    "full_title_retained": true
+  },
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "base_article": "R1IKAn",
+  "states": [
+    {
+      "key": "short",
+      "board": "wqI4Q",
+      "section": "U0t9I",
+      "lead": "Z9Ecwq",
+      "supporting": [
+        "kgUJ0",
+        "ACn4n"
+      ],
+      "png": "wqI4Q.png",
+      "section_png": "U0t9I.png"
+    },
+    {
+      "key": "full-slots",
+      "board": "RFSJ4",
+      "section": "YcTLH",
+      "lead": "kuwTH",
+      "supporting": [
+        "IQumJ",
+        "e6GVx"
+      ],
+      "png": "RFSJ4.png",
+      "section_png": "YcTLH.png"
+    }
+  ],
+  "derived_native_title_heights": {
+    "featured": 72.8,
+    "supporting": 95.7,
+    "note": "Derived from existing font sizes/line heights for this draft; not universal token approval"
+  },
+  "geometry_matches_for_same_summaries": true,
+  "source_home_unchanged": true,
+  "variables_unchanged": true,
+  "fixture_note": "Shortened titles and explicit line breaks are study cases only; real source article titles unchanged",
+  "limitations": [
+    "Pencil demonstrates title slots, not functional line clamp",
+    "Summary length behavior not approved",
+    "Short titles leave intentional blank title lines; appearance still needs review"
+  ],
+  "frontend": "not_authorized",
+  "mobile": "paused",
+  "open_issues": [
+    "OPEN-001"
+  ],
+  "whole_canvas": {
+    "nodes": 37713,
+    "roots": 148
+  },
+  "owner_feedback": "ไม่สวยเลย",
+  "revised_by": "../article-title-r2/README.md"
+}

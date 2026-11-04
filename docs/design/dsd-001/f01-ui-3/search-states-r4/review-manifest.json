@@ -1,0 +1,109 @@
+{
+  "version": "F01-ui-3 / Search-states-r4",
+  "status": "pending_owner_review",
+  "functional_prototype": false,
+  "device_scope": "Desktop 1440x900; Mobile remains paused",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "overview": {
+    "node": "c9whv",
+    "png": "c9whv.png"
+  },
+  "scenes": [
+    {
+      "key": "H-LOCATION",
+      "root": "A68V1a",
+      "viewport": "A2GPL",
+      "origin": "Home",
+      "field": 0,
+      "popup": "KSeMO",
+      "png": "screens/A2GPL.png",
+      "native_node_count": 377
+    },
+    {
+      "key": "H-DATES",
+      "root": "oFsJ2",
+      "viewport": "nMQkj",
+      "origin": "Home",
+      "field": 1,
+      "popup": "zknry",
+      "png": "screens/nMQkj.png",
+      "native_node_count": 455
+    },
+    {
+      "key": "H-GUESTS",
+      "root": "PqFiC",
+      "viewport": "nGvi5",
+      "origin": "Home",
+      "field": 2,
+      "popup": "UmPHO",
+      "png": "screens/nGvi5.png",
+      "native_node_count": 381
+    },
+    {
+      "key": "R-LOCATION",
+      "root": "CQW4f",
+      "viewport": "JKflR",
+      "origin": "Results",
+      "field": 0,
+      "popup": "KPdws",
+      "png": "screens/JKflR.png",
+      "native_node_count": 404
+    },
+    {
+      "key": "R-DATES",
+      "root": "KoHUN",
+      "viewport": "kFGpj",
+      "origin": "Results",
+      "field": 1,
+      "popup": "a86Rm",
+      "png": "screens/kFGpj.png",
+      "native_node_count": 482
+    },
+    {
+      "key": "R-GUESTS",
+      "root": "j8iwM",
+      "viewport": "fmuXZ",
+      "origin": "Results",
+      "field": 2,
+      "popup": "IMwQs",
+      "png": "screens/fmuXZ.png",
+      "native_node_count": 408
+    },
+    {
+      "key": "SEARCH-EMPTY",
+      "root": "xentK",
+      "viewport": "SYKeI",
+      "origin": "Results",
+      "field": -1,
+      "popup": null,
+      "png": "screens/SYKeI.png",
+      "native_node_count": 380
+    },
+    {
+      "key": "H-DATE-ERROR",
+      "root": "S0ricW",
+      "viewport": "HEwd6",
+      "origin": "Home",
+      "field": 1,
+      "popup": "QukcY",
+      "png": "screens/HEwd6.png",
+      "native_node_count": 455
+    },
+    {
+      "key": "H-DATE-SELECTED",
+      "root": "l8wTjw",
+      "viewport": "LVh4t",
+      "origin": "Home",
+      "field": 1,
+      "popup": "V6a2O",
+      "png": "screens/LVh4t.png",
+      "native_node_count": 455
+    }
+  ],
+  "native_snapshot": "after-snapshot.json",
+  "regression": "verification.json",
+  "new_root_count": 10,
+  "new_native_node_count": 3963,
+  "whole_canvas_roots": 77,
+  "whole_canvas_nodes": 16425
+}
