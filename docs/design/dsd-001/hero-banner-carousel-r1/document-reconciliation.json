@@ -1,0 +1,34 @@
+{
+  "version": "foundation-3-desktop+hero-banner-carousel-1",
+  "date": "2026-11-05",
+  "authorization": "โอเคจัดการเลยแล้วก็จัดการตัว pencil ต่อ",
+  "status": "owner_confirmed_hero_requirements_visual_revision_pending_review",
+  "approval_record_modified": false,
+  "archive": "docs/design/dsd-001/foundation-3-desktop/pre-hero-reconciliation-2026-11-05",
+  "files": [
+    {
+      "name": "visual-direction.md",
+      "archived_sha256": "47cfe7532048751178643d65f33247c7049fe87f3ac6610a333ba1f0dbea54ad",
+      "current_sha256": "e56cbb30e082d893e3c98de54ef3aef16f81ed86304723bf506a073ba4ae2a8c"
+    },
+    {
+      "name": "token-sheet.md",
+      "archived_sha256": "abab593a5ce89bcd4b536b00c526f62a72d38ee324b757c6e9f58b16957a2b6f",
+      "current_sha256": "2c287454a797400bbe8e85544f3144d053f72a50d23dc0f2f7b7742a5b89bb51"
+    },
+    {
+      "name": "typography-spec.md",
+      "archived_sha256": "aa9c1af0473e07abd921fd32f00c4fee827e5e4e3d914139b6cc04ad795b7685",
+      "current_sha256": "da087b8ff83358bfedf17af235e4a43ce462a56ba551f765c5fdd1c5ff2ef942"
+    },
+    {
+      "name": "responsive-visual-guidelines.md",
+      "archived_sha256": "ff93e5f82e6c17bc20fca5ae5a983220d4abdd9245d5bc0147da79975f828fbe",
+      "current_sha256": "09e37c3533eebf04be00f97f5b746321520bb15cf89ed4e6f0f9b7ea07d721d1"
+    }
+  ],
+  "frontend_authorized": false,
+  "current_visual_revision": "hero-banner-carousel-r3",
+  "mutable_document_line_endings": "LF; archived approved bytes unchanged",
+  "fallback_decision": "docs/design/dsd-001/hero-banner-carousel-r3/owner-fallback-decision.json"
+}

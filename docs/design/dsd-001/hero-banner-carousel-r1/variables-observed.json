@@ -1,0 +1,28 @@
+{
+  "variables": {
+    "brand.navy": {
+      "type": "color",
+      "value": "#072D59"
+    },
+    "brand.pink": {
+      "type": "color",
+      "value": "#FD6E88"
+    },
+    "brand.light": {
+      "type": "color",
+      "value": "#DBF2FC"
+    },
+    "surface.page": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "font.primary": {
+      "type": "string",
+      "value": "Mitr"
+    },
+    "spacing.unit": {
+      "type": "number",
+      "value": 4
+    }
+  }
+}

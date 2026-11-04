@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "ในกรณีที่ไม่มีภาพก็ให้แสดงอันปัจจุบันแทนเดี๋ยวจะทำเอาไว้ในระบบเป็นมาตรฐานเอาไว้",
+  "status": "owner_confirmed_current_banner_as_standard_system_fallback",
+  "scope": "Use the current finished Hero banner as a standard website asset when no configured Hero image is available; preserve the white pool edge and fixed Search rather than the proposed compact Search-only fallback",
+  "reference_asset": "docs/design/dsd-001/hero-banner-carousel-r1/banner-assets/Y3vc2.png",
+  "superseded_proposal": "Hero carousel-r2 zero-ready compact 136px Search band",
+  "controls_appearance_approved": false,
+  "whole_hero_version_approved": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

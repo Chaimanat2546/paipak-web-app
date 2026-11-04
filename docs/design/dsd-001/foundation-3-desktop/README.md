@@ -1,5 +1,7 @@
 # DSD-001 / foundation-3-desktop
 
+> บันทึกหลังเปลี่ยน Hero: เอกสารหลักปัจจุบันมีข้อกำหนดภาพสำเร็จรูปเพิ่มเติมแล้ว การอนุมัติ foundation-3 เดิมอ้างฉบับที่ตรึงไว้ใน [archive ก่อนแก้ Hero](pre-hero-reconciliation-2026-11-05/README.md) ไม่ขยายไปอนุมัติ [ร่าง Hero-r2](../hero-banner-carousel-r2/README.md) หน้าตา/สถานะใหม่ยังรอเจ้าของตรวจ หลักฐานอนุมัติและ reviewed content เดิมไม่แก้
+
 5 พฤศจิกายน 2026 (Asia/Bangkok) · **อนุมัติสเปก Desktop พร้อมคงรายการค้างแล้ว (R3)**
 
 จัดเอกสารทั้งสี่ให้ตรงกับ A / Holiday Panorama / review-2 และ [Home Desktop-r15 ที่รับภาพรวมแล้ว](../home-desktop-r15/owner-home-acceptance.json) รอบนี้เป็นการปรับ specification ไม่มี UI ใหม่ ไม่มี CSS/tokens เข้าแอป และยังไม่อนุมัติ Frontend
@@ -8,10 +10,10 @@
 
 | Deliverable | สิ่งที่ปรับในรุ่นนี้ |
 | --- | --- |
-| [Visual Direction](../visual-direction.md) | ใช้ Home-r15 เป็นฐาน รวม TikTok/บทความ/Footer รุ่นที่รับแล้ว คงทิศทาง A |
-| [Token sheet](../token-sheet.md) | เพิ่ม roles ของสื่อ/แผงอ่าน/ช่องทาง Footer และ local motion ที่รับ แยก planning tokens ที่ยังเสนอ |
-| [Typography](../typography-spec.md) | เพิ่ม Mitr roles ของ TikTok/บทความ/ช่องทางติดต่อ อัปเดต source IDs ของ Home-r15 |
-| [Responsive guidelines](../responsive-visual-guidelines.md) | เพิ่ม geometry ของสื่อ/Footer ปัจจุบัน คงการรับเฉพาะ Desktop1440; widthอื่น/Mobileยังไม่รับรอง |
+| [Visual Direction](pre-hero-reconciliation-2026-11-05/visual-direction.md) | ใช้ Home-r15 เป็นฐาน รวม TikTok/บทความ/Footer รุ่นที่รับแล้ว คงทิศทาง A |
+| [Token sheet](pre-hero-reconciliation-2026-11-05/token-sheet.md) | เพิ่ม roles ของสื่อ/แผงอ่าน/ช่องทาง Footer และ local motion ที่รับ แยก planning tokens ที่ยังเสนอ |
+| [Typography](pre-hero-reconciliation-2026-11-05/typography-spec.md) | เพิ่ม Mitr roles ของ TikTok/บทความ/ช่องทางติดต่อ อัปเดต source IDs ของ Home-r15 |
+| [Responsive guidelines](pre-hero-reconciliation-2026-11-05/responsive-visual-guidelines.md) | เพิ่ม geometry ของสื่อ/Footer ปัจจุบัน คงการรับเฉพาะ Desktop1440; widthอื่น/Mobileยังไม่รับรอง |
 
 ## สถานะที่อ่านแยกกัน
 

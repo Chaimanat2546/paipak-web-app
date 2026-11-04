@@ -1,0 +1,394 @@
+[
+  {
+    "id": "uNu5D",
+    "name": "Hero · finished-image carousel · 7-second horizontal loop",
+    "bounds": {
+      "x": 0,
+      "y": 124,
+      "width": 1440,
+      "height": 470
+    }
+  },
+  {
+    "id": "PaxTS",
+    "name": "Hero banner · single finished raster · slide 1",
+    "parent": "uNu5D",
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 470
+    }
+  },
+  {
+    "id": "cT2iH",
+    "name": "White pool-edge transition",
+    "parent": "uNu5D",
+    "bounds": {
+      "x": 0,
+      "y": 375,
+      "width": 1440,
+      "height": 95
+    }
+  },
+  {
+    "id": "F6ntTu",
+    "name": "A centered optional search",
+    "parent": "uNu5D",
+    "bounds": {
+      "x": 200,
+      "y": 330,
+      "width": 1040,
+      "height": 88
+    }
+  },
+  {
+    "id": "hewOO",
+    "name": "สถานที่ optional field",
+    "parent": "F6ntTu",
+    "bounds": {
+      "x": 20,
+      "y": 18,
+      "width": 266.6666666666667,
+      "height": 52
+    }
+  },
+  {
+    "id": "ACYc4",
+    "name": "สถานที่ icon",
+    "parent": "hewOO",
+    "bounds": {
+      "x": 10,
+      "y": 11,
+      "width": 30,
+      "height": 30
+    }
+  },
+  {
+    "id": "L78OY",
+    "name": "สถานที่ text",
+    "parent": "hewOO",
+    "bounds": {
+      "x": 56,
+      "y": 0,
+      "width": 92,
+      "height": 52
+    }
+  },
+  {
+    "id": "wBWSs",
+    "name": "สถานที่ label",
+    "parent": "L78OY",
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 50,
+      "height": 26
+    }
+  },
+  {
+    "id": "XPP2b",
+    "name": "สถานที่ value",
+    "parent": "L78OY",
+    "bounds": {
+      "x": 0,
+      "y": 26,
+      "width": 92,
+      "height": 26
+    }
+  },
+  {
+    "id": "IvFWZ",
+    "name": "วันเข้าพัก optional field",
+    "parent": "F6ntTu",
+    "bounds": {
+      "x": 298.6666666666667,
+      "y": 18,
+      "width": 266.6666666666667,
+      "height": 52
+    }
+  },
+  {
+    "id": "z4vME6",
+    "name": "วันเข้าพัก icon",
+    "parent": "IvFWZ",
+    "bounds": {
+      "x": 10,
+      "y": 11,
+      "width": 30,
+      "height": 30
+    }
+  },
+  {
+    "id": "WrqF8",
+    "name": "วันเข้าพัก text",
+    "parent": "IvFWZ",
+    "bounds": {
+      "x": 56,
+      "y": 0,
+      "width": 116,
+      "height": 52
+    }
+  },
+  {
+    "id": "fWIWs",
+    "name": "วันเข้าพัก label",
+    "parent": "WrqF8",
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 66,
+      "height": 26
+    }
+  },
+  {
+    "id": "F95lOL",
+    "name": "วันเข้าพัก value",
+    "parent": "WrqF8",
+    "bounds": {
+      "x": 0,
+      "y": 26,
+      "width": 116,
+      "height": 26
+    }
+  },
+  {
+    "id": "g0RMFG",
+    "name": "ผู้เข้าพัก optional field",
+    "parent": "F6ntTu",
+    "bounds": {
+      "x": 577.3333333333334,
+      "y": 18,
+      "width": 266.66666666666663,
+      "height": 52
+    }
+  },
+  {
+    "id": "O8B9z",
+    "name": "ผู้เข้าพัก icon",
+    "parent": "g0RMFG",
+    "bounds": {
+      "x": 10,
+      "y": 11,
+      "width": 30,
+      "height": 30
+    }
+  },
+  {
+    "id": "tdC1t",
+    "name": "ผู้เข้าพัก text",
+    "parent": "g0RMFG",
+    "bounds": {
+      "x": 56,
+      "y": 0,
+      "width": 110,
+      "height": 52
+    }
+  },
+  {
+    "id": "NhFqn",
+    "name": "ผู้เข้าพัก label",
+    "parent": "tdC1t",
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 56,
+      "height": 26
+    }
+  },
+  {
+    "id": "GGiMv",
+    "name": "ผู้เข้าพัก value",
+    "parent": "tdC1t",
+    "bounds": {
+      "x": 0,
+      "y": 26,
+      "width": 110,
+      "height": 26
+    }
+  },
+  {
+    "id": "ulQQX",
+    "name": "CTA · owner selected original pink white",
+    "parent": "F6ntTu",
+    "bounds": {
+      "x": 856,
+      "y": 14,
+      "width": 164,
+      "height": 60
+    }
+  },
+  {
+    "id": "kQJCY",
+    "name": "Search icon white",
+    "parent": "ulQQX",
+    "bounds": {
+      "x": 38.5,
+      "y": 17,
+      "width": 26,
+      "height": 26
+    }
+  },
+  {
+    "id": "ivnZ1",
+    "name": "ค้นหา · white label",
+    "parent": "ulQQX",
+    "bounds": {
+      "x": 74.5,
+      "y": 12.5,
+      "width": 51,
+      "height": 35
+    }
+  },
+  {
+    "id": "fJWhc",
+    "name": "Hero control · Previous slide",
+    "parent": "uNu5D",
+    "bounds": {
+      "x": 56,
+      "y": 208,
+      "width": 44,
+      "height": 44
+    }
+  },
+  {
+    "id": "Ro1Ub",
+    "name": "Previous slide icon",
+    "parent": "fJWhc",
+    "bounds": {
+      "x": 11,
+      "y": 61,
+      "width": 22,
+      "height": 22
+    },
+    "problem": "fully clipped"
+  },
+  {
+    "id": "Mo4Ab",
+    "name": "Hero control · Next slide",
+    "parent": "uNu5D",
+    "bounds": {
+      "x": 1340,
+      "y": 208,
+      "width": 44,
+      "height": 44
+    }
+  },
+  {
+    "id": "sJfzE",
+    "name": "Next slide icon",
+    "parent": "Mo4Ab",
+    "bounds": {
+      "x": 11,
+      "y": 61,
+      "width": 22,
+      "height": 22
+    },
+    "problem": "fully clipped"
+  },
+  {
+    "id": "s258Au",
+    "name": "Hero slide selectors · 3 study slides",
+    "parent": "uNu5D",
+    "bounds": {
+      "x": 628,
+      "y": 472,
+      "width": 132,
+      "height": 44
+    },
+    "problem": "fully clipped"
+  },
+  {
+    "id": "TgYei",
+    "name": "Slide 1 · 44px target",
+    "parent": "s258Au",
+    "bounds": {
+      "x": 68,
+      "y": 50,
+      "width": 44,
+      "height": 44
+    },
+    "problem": "fully clipped"
+  },
+  {
+    "id": "yuPX0",
+    "name": "Select slide 1 · active",
+    "parent": "TgYei",
+    "bounds": {
+      "x": 10,
+      "y": 18,
+      "width": 24,
+      "height": 8
+    }
+  },
+  {
+    "id": "OTGms",
+    "name": "Slide 2 · 44px target",
+    "parent": "s258Au",
+    "bounds": {
+      "x": 78,
+      "y": 50,
+      "width": 44,
+      "height": 44
+    },
+    "problem": "fully clipped"
+  },
+  {
+    "id": "H3mFm",
+    "name": "Select slide 2",
+    "parent": "OTGms",
+    "bounds": {
+      "x": 18,
+      "y": 18,
+      "width": 8,
+      "height": 8
+    }
+  },
+  {
+    "id": "retYe",
+    "name": "Slide 3 · 44px target",
+    "parent": "s258Au",
+    "bounds": {
+      "x": 88,
+      "y": 50,
+      "width": 44,
+      "height": 44
+    },
+    "problem": "fully clipped"
+  },
+  {
+    "id": "gWG5r",
+    "name": "Select slide 3",
+    "parent": "retYe",
+    "bounds": {
+      "x": 18,
+      "y": 18,
+      "width": 8,
+      "height": 8
+    }
+  },
+  {
+    "id": "zHByx",
+    "name": "Hero autoplay · pause control",
+    "parent": "uNu5D",
+    "bounds": {
+      "x": 768,
+      "y": 472,
+      "width": 44,
+      "height": 44
+    },
+    "problem": "fully clipped"
+  },
+  {
+    "id": "T4BI6",
+    "name": "Pause automatic slide changes",
+    "parent": "zHByx",
+    "bounds": {
+      "x": 14,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "problem": "fully clipped"
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "unchanged": [
+    {
+      "section": "Header slot",
+      "match": true
+    },
+    {
+      "section": "A seven flat categories",
+      "match": true
+    },
+    {
+      "section": "Recommended villas · horizontal listing rail",
+      "match": true
+    },
+    {
+      "section": "Home category · พูลวิลล่าใกล้ทะเล",
+      "match": true
+    },
+    {
+      "section": "Home category · พูลวิลล่าสายปาร์ตี้",
+      "match": true
+    },
+    {
+      "section": "Home category · พูลวิลล่าราคาพิเศษ",
+      "match": true
+    },
+    {
+      "section": "Home category · พูลวิลล่า Outing",
+      "match": true
+    },
+    {
+      "section": "Home category · พูลวิลล่า Pet Friendly",
+      "match": true
+    },
+    {
+      "section": "Home category · พูลวิลล่า Luxury",
+      "match": true
+    },
+    {
+      "section": "Home media and editorial · split TikTok r3",
+      "match": true
+    },
+    {
+      "section": "Integrated Footer-contact-column-r4 · owner approved",
+      "match": true
+    }
+  ],
+  "retained": [
+    {
+      "name": "A centered optional search",
+      "match": true
+    },
+    {
+      "name": "White pool-edge transition",
+      "match": true
+    }
+  ],
+  "heroTextNodes": [
+    "สถานที่ label",
+    "สถานที่ value",
+    "วันเข้าพัก label",
+    "วันเข้าพัก value",
+    "ผู้เข้าพัก label",
+    "ผู้เข้าพัก value",
+    "ค้นหา · white label"
+  ],
+  "variables": {
+    "variables": {
+      "brand.navy": {
+        "type": "color",
+        "value": "#072D59"
+      },
+      "brand.pink": {
+        "type": "color",
+        "value": "#FD6E88"
+      },
+      "brand.light": {
+        "type": "color",
+        "value": "#DBF2FC"
+      },
+      "surface.page": {
+        "type": "color",
+        "value": "#FFFFFF"
+      },
+      "font.primary": {
+        "type": "string",
+        "value": "Mitr"
+      },
+      "spacing.unit": {
+        "type": "number",
+        "value": 4
+      }
+    }
+  },
+  "problems": [
+    {
+      "id": "Ro1Ub",
+      "name": "Previous slide icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "sJfzE",
+      "name": "Next slide icon",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "s258Au",
+      "name": "Hero slide selectors · 3 study slides",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "TgYei",
+      "name": "Slide 1 · 44px target",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "OTGms",
+      "name": "Slide 2 · 44px target",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "retYe",
+      "name": "Slide 3 · 44px target",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "zHByx",
+      "name": "Hero autoplay · pause control",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "T4BI6",
+      "name": "Pause automatic slide changes",
+      "problem": "fully clipped"
+    },
+    {
+      "id": "X6v5E",
+      "name": "Listing rail track · eight fixture villas",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "EbrQk",
+      "name": "Category listing track · พูลวิลล่าใกล้ทะเล",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "w26tPp",
+      "name": "Category listing track · พูลวิลล่าสายปาร์ตี้",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "pRypQ",
+      "name": "Category listing track · พูลวิลล่าราคาพิเศษ",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "yf3pj",
+      "name": "Category listing track · พูลวิลล่า Outing",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "cta74",
+      "name": "Category listing track · พูลวิลล่า Pet Friendly",
+      "problem": "partially clipped"
+    },
+    {
+      "id": "pEshh",
+      "name": "Category listing track · พูลวิลล่า Luxury",
+      "problem": "partially clipped"
+    }
+  ]
+}

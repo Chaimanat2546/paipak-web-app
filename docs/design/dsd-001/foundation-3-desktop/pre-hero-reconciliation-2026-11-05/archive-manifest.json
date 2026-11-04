@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-05",
+  "files": [
+    {
+      "name": "visual-direction.md",
+      "sha256": "47cfe7532048751178643d65f33247c7049fe87f3ac6610a333ba1f0dbea54ad",
+      "bytes": 16152
+    },
+    {
+      "name": "token-sheet.md",
+      "sha256": "abab593a5ce89bcd4b536b00c526f62a72d38ee324b757c6e9f58b16957a2b6f",
+      "bytes": 18299
+    },
+    {
+      "name": "typography-spec.md",
+      "sha256": "aa9c1af0473e07abd921fd32f00c4fee827e5e4e3d914139b6cc04ad795b7685",
+      "bytes": 13408
+    },
+    {
+      "name": "responsive-visual-guidelines.md",
+      "sha256": "ff93e5f82e6c17bc20fca5ae5a983220d4abdd9245d5bc0147da79975f828fbe",
+      "bytes": 17401
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Hero carousel-r3 / standard current-banner fallback",
+  "owner_quote": "โอเคตกลงแบบนี้แหละ",
+  "status": "owner_approved_displayed_fallback_appearance",
+  "scope": "Displayed zero-configured-image fallback: current finished banner, original white pool edge, 470px Hero at Desktop1440, fixed Search, no carousel controls for this single fallback image",
+  "native_state": "HZP8R",
+  "native_hero": "GHufD",
+  "evidence": [
+    {
+      "path": "HZP8R.png",
+      "sha256": "9627acb2b899b474d37a008268b56e6353bd96917ce50380d7f4874e3e7701e1"
+    },
+    {
+      "path": "fallback-snapshot.json",
+      "sha256": "79b093df87e74cce78a8395ae45bd242ee57509c17bc733ff392138375290cf7"
+    },
+    {
+      "path": "../hero-banner-carousel-r1/banner-assets/Y3vc2.png",
+      "sha256": "bdc8fb0ab138b1bc0a35a4031497d9a037fb416d75faa921a8e75b1cf82f3c4b"
+    }
+  ],
+  "multi_slide_controls_approved_by_this_acceptance": false,
+  "initial_loading_policy_approved_by_this_acceptance": false,
+  "whole_home_version_approved_by_this_acceptance": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

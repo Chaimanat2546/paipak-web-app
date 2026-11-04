@@ -1,0 +1,191 @@
+{
+  "preservation": [
+    {
+      "section": "Header slot",
+      "match": true
+    },
+    {
+      "section": "A seven flat categories",
+      "match": true
+    },
+    {
+      "section": "Recommended villas · horizontal listing rail",
+      "match": true
+    },
+    {
+      "section": "Home category · พูลวิลล่าใกล้ทะเล",
+      "match": true
+    },
+    {
+      "section": "Home category · พูลวิลล่าสายปาร์ตี้",
+      "match": true
+    },
+    {
+      "section": "Home category · พูลวิลล่าราคาพิเศษ",
+      "match": true
+    },
+    {
+      "section": "Home category · พูลวิลล่า Outing",
+      "match": true
+    },
+    {
+      "section": "Home category · พูลวิลล่า Pet Friendly",
+      "match": true
+    },
+    {
+      "section": "Home category · พูลวิลล่า Luxury",
+      "match": true
+    },
+    {
+      "section": "Home media and editorial · split TikTok r3",
+      "match": true
+    },
+    {
+      "section": "Integrated Footer-contact-column-r4 · owner approved",
+      "match": true
+    }
+  ],
+  "states": [
+    {
+      "id": "G1nPut",
+      "heroId": "zEHm9",
+      "name": "REVIEW · Hero carousel-r1 · first slide",
+      "liveHeroTextOutsideSearch": [],
+      "selectors": 3,
+      "arrowCount": 2,
+      "hasPause": true,
+      "heroHeight": 470
+    },
+    {
+      "id": "G5hBgA",
+      "heroId": "Sap8c",
+      "name": "REVIEW · Hero carousel-r1 · second slide",
+      "liveHeroTextOutsideSearch": [],
+      "selectors": 3,
+      "arrowCount": 2,
+      "hasPause": true,
+      "heroHeight": 470
+    },
+    {
+      "id": "hVgSo",
+      "heroId": "gkvcA",
+      "name": "REVIEW · Hero carousel-r1 · last slide",
+      "liveHeroTextOutsideSearch": [],
+      "selectors": 3,
+      "arrowCount": 2,
+      "hasPause": true,
+      "heroHeight": 470
+    },
+    {
+      "id": "cdMTy",
+      "heroId": "r66vHR",
+      "name": "REVIEW · Hero carousel-r1 · paused",
+      "liveHeroTextOutsideSearch": [],
+      "selectors": 3,
+      "arrowCount": 2,
+      "hasPause": true,
+      "heroHeight": 470
+    },
+    {
+      "id": "x9SVU",
+      "heroId": "Z52vd",
+      "name": "REVIEW · Hero carousel-r1 · horizontal transition midpoint",
+      "liveHeroTextOutsideSearch": [],
+      "selectors": 3,
+      "arrowCount": 2,
+      "hasPause": true,
+      "heroHeight": 470
+    },
+    {
+      "id": "zQbBj",
+      "heroId": "ARtAQ",
+      "name": "PROPOSAL · Hero carousel-r2 · one ready image",
+      "liveHeroTextOutsideSearch": [],
+      "selectors": 0,
+      "arrowCount": 0,
+      "hasPause": false,
+      "heroHeight": 470
+    },
+    {
+      "id": "HZP8R",
+      "heroId": "RWknA",
+      "name": "PROPOSAL · Hero carousel-r2 · no ready images · search first",
+      "liveHeroTextOutsideSearch": [],
+      "selectors": 0,
+      "arrowCount": 0,
+      "hasPause": false,
+      "heroHeight": 136
+    },
+    {
+      "id": "QHSWV",
+      "heroId": "J1tWF",
+      "name": "PROPOSAL · Hero carousel-r2 · initial image loading",
+      "liveHeroTextOutsideSearch": [],
+      "selectors": 0,
+      "arrowCount": 0,
+      "hasPause": false,
+      "heroHeight": 470
+    },
+    {
+      "id": "LnbWh",
+      "heroId": "p4t0S",
+      "name": "PROPOSAL · Hero carousel-r2 · skip failed image · two ready",
+      "liveHeroTextOutsideSearch": [],
+      "selectors": 2,
+      "arrowCount": 2,
+      "hasPause": true,
+      "heroHeight": 470
+    },
+    {
+      "id": "caugb",
+      "heroId": "t4so7L",
+      "name": "REVIEW · Hero carousel-r2 · search open · rotation paused",
+      "liveHeroTextOutsideSearch": [],
+      "selectors": 3,
+      "arrowCount": 2,
+      "hasPause": true,
+      "heroHeight": 470
+    },
+    {
+      "id": "z3mDJ2",
+      "heroId": "ZTcRF",
+      "name": "PROPOSAL · Hero carousel-r2 · next arrow hover",
+      "liveHeroTextOutsideSearch": [],
+      "selectors": 3,
+      "arrowCount": 2,
+      "hasPause": true,
+      "heroHeight": 470
+    }
+  ],
+  "searchPanelContentsMatch": true,
+  "variables": {
+    "variables": {
+      "brand.navy": {
+        "type": "color",
+        "value": "#072D59"
+      },
+      "brand.pink": {
+        "type": "color",
+        "value": "#FD6E88"
+      },
+      "brand.light": {
+        "type": "color",
+        "value": "#DBF2FC"
+      },
+      "surface.page": {
+        "type": "color",
+        "value": "#FFFFFF"
+      },
+      "font.primary": {
+        "type": "string",
+        "value": "Mitr"
+      },
+      "spacing.unit": {
+        "type": "number",
+        "value": 4
+      }
+    }
+  },
+  "approvalStatus": "pending_owner_review",
+  "runtimeTested": false
+}

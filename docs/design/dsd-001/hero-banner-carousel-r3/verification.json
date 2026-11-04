@@ -1,0 +1,23 @@
+{
+  "root": "HZP8R",
+  "heroHeight": 470,
+  "raster": {
+    "type": "image",
+    "enabled": true,
+    "url": "images/hero-banner-carousel-r1/Y3vc2.png",
+    "mode": "contain"
+  },
+  "searchMatches": true,
+  "whiteEdgeMatches": true,
+  "texts": [
+    "สถานที่ label",
+    "สถานที่ value",
+    "วันเข้าพัก label",
+    "วันเข้าพัก value",
+    "ผู้เข้าพัก label",
+    "ผู้เข้าพัก value",
+    "ค้นหา · white label"
+  ],
+  "controls": 0,
+  "runtimeTested": false
+}

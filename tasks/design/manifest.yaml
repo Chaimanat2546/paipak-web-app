@@ -155,6 +155,18 @@ tasks:
   plan_approval_source: Explicit project owner answer in this chat's voice session after selecting three direction studies
   plan_approval_instruction: อนุมัติเลย
   current_gate: foundation_review
+  hero_supplement_version: hero-banner-carousel-1
+  hero_supplement_status: authorized_native_ui_draft_pending_owner_review
+  hero_supplement_spec: docs/design/dsd-001/hero-banner-carousel-spec.md
+  hero_supplement_artifact: docs/design/dsd-001/hero-banner-carousel-r3/README.md
+  hero_supplement_ui_revision: hero-banner-carousel-r3
+  hero_fallback_policy: owner_confirmed_current_banner_as_standard_system_asset
+  hero_fallback_decision: docs/design/dsd-001/hero-banner-carousel-r3/owner-fallback-decision.json
+  hero_fallback_appearance_status: owner_approved_displayed_r3_fallback_only
+  hero_fallback_appearance_acceptance: docs/design/dsd-001/hero-banner-carousel-r3/owner-fallback-appearance-acceptance.json
+  hero_document_revision: foundation-3-desktop+hero-banner-carousel-1
+  hero_prior_approved_document_archive: docs/design/dsd-001/foundation-3-desktop/pre-hero-reconciliation-2026-11-05/archive-manifest.json
+  hero_supplement_native_home: Home Desktop-r16 / f7ZIg
   native_home_approval_record: "docs/design/dsd-001/home-desktop-r15/owner-home-acceptance.json"
   native_home_previous_consolidated_source_node: "iQ3YE"
   native_home_previous_consolidated_version: "Home Desktop-r8"

@@ -1,0 +1,455 @@
+{
+  "type": "frame",
+  "id": "uNu5D",
+  "name": "Hero · finished-image carousel · 7-second horizontal loop",
+  "context": "Static default slide 1 of 3 study fixtures. Autoplay and manual navigation specified, not functional in this canvas. Pause on hover/Search; banner has no destination.",
+  "width": "fill_container",
+  "height": 470,
+  "layout": "none",
+  "children": [
+    {
+      "type": "rectangle",
+      "id": "PaxTS",
+      "x": 0,
+      "y": 0,
+      "name": "Hero banner · single finished raster · slide 1",
+      "context": "2880×940 flattened study image. Includes background and lettering. No link; no live Hero text overlay.",
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/hero-banner-carousel-r1/Y3vc2.png",
+        "mode": "contain"
+      },
+      "width": 1440,
+      "height": 470
+    },
+    {
+      "type": "path",
+      "id": "cT2iH",
+      "x": 0,
+      "y": 375,
+      "name": "White pool-edge transition",
+      "geometry": "...",
+      "viewBox": [
+        0,
+        0,
+        1440,
+        95
+      ],
+      "fill": "#FFFFFF",
+      "width": 1440,
+      "height": 95
+    },
+    {
+      "type": "frame",
+      "id": "F6ntTu",
+      "x": 200,
+      "y": 330,
+      "name": "A centered optional search",
+      "width": 1040,
+      "height": 88,
+      "fill": "#FFFFFF",
+      "cornerRadius": 32,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#072D5926",
+        "offset": {
+          "x": 0,
+          "y": 6
+        },
+        "blur": 20
+      },
+      "gap": 12,
+      "padding": [
+        12,
+        20
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "hewOO",
+          "name": "สถานที่ optional field",
+          "width": "fill_container",
+          "gap": 16,
+          "padding": [
+            0,
+            10
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "ACYc4",
+              "name": "สถานที่ icon",
+              "width": 30,
+              "height": 30,
+              "icon": "map-pin",
+              "library": "lucide",
+              "fill": "#072D59"
+            },
+            {
+              "type": "frame",
+              "id": "L78OY",
+              "name": "สถานที่ text",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wBWSs",
+                  "name": "สถานที่ label",
+                  "fill": "#072D59",
+                  "content": "สถานที่",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 17,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "XPP2b",
+                  "name": "สถานที่ value",
+                  "fill": "#6B7280",
+                  "content": "อยากไปที่ไหน",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IvFWZ",
+          "name": "วันเข้าพัก optional field",
+          "width": "fill_container",
+          "gap": 16,
+          "padding": [
+            0,
+            10
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "z4vME6",
+              "name": "วันเข้าพัก icon",
+              "width": 30,
+              "height": 30,
+              "icon": "calendar-days",
+              "library": "lucide",
+              "fill": "#072D59"
+            },
+            {
+              "type": "frame",
+              "id": "WrqF8",
+              "name": "วันเข้าพัก text",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fWIWs",
+                  "name": "วันเข้าพัก label",
+                  "fill": "#072D59",
+                  "content": "วันเข้าพัก",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 17,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "F95lOL",
+                  "name": "วันเข้าพัก value",
+                  "fill": "#6B7280",
+                  "content": "เลือกวันภายหลัง",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "g0RMFG",
+          "name": "ผู้เข้าพัก optional field",
+          "width": "fill_container",
+          "gap": 16,
+          "padding": [
+            0,
+            10
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "O8B9z",
+              "name": "ผู้เข้าพัก icon",
+              "width": 30,
+              "height": 30,
+              "icon": "users",
+              "library": "lucide",
+              "fill": "#072D59"
+            },
+            {
+              "type": "frame",
+              "id": "tdC1t",
+              "name": "ผู้เข้าพัก text",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NhFqn",
+                  "name": "ผู้เข้าพัก label",
+                  "fill": "#072D59",
+                  "content": "ผู้เข้าพัก",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 17,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "GGiMv",
+                  "name": "ผู้เข้าพัก value",
+                  "fill": "#6B7280",
+                  "content": "คน / สัตว์เลี้ยง",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font.primary",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ulQQX",
+          "name": "CTA · owner selected original pink white",
+          "width": 164,
+          "height": 60,
+          "fill": "#FD6E88",
+          "cornerRadius": 18,
+          "gap": 10,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "kQJCY",
+              "name": "Search icon white",
+              "width": 26,
+              "height": 26,
+              "icon": "search",
+              "library": "lucide",
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "text",
+              "id": "ivnZ1",
+              "name": "ค้นหา · white label",
+              "fill": "#FFFFFF",
+              "content": "ค้นหา",
+              "fontFamily": "$font.primary",
+              "fontSize": 22,
+              "fontWeight": "500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "fJWhc",
+      "x": 56,
+      "y": 158,
+      "name": "Hero control · Previous slide",
+      "metadata": {
+        "type": "design-intent",
+        "accessibleLabel": "ภาพก่อนหน้า",
+        "targetSize": 44
+      },
+      "width": 44,
+      "height": 44,
+      "fill": "#FFFFFFE6",
+      "cornerRadius": 22,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "icon",
+          "id": "Ro1Ub",
+          "name": "Previous slide icon",
+          "width": 22,
+          "height": 22,
+          "icon": "chevron-left",
+          "library": "lucide",
+          "fill": "#072D59"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Mo4Ab",
+      "x": 1340,
+      "y": 158,
+      "name": "Hero control · Next slide",
+      "metadata": {
+        "type": "design-intent",
+        "accessibleLabel": "ภาพถัดไป",
+        "targetSize": 44
+      },
+      "width": 44,
+      "height": 44,
+      "fill": "#FFFFFFE6",
+      "cornerRadius": 22,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "icon",
+          "id": "sJfzE",
+          "name": "Next slide icon",
+          "width": 22,
+          "height": 22,
+          "icon": "chevron-right",
+          "library": "lucide",
+          "fill": "#072D59"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "s258Au",
+      "x": 628,
+      "y": 422,
+      "name": "Hero slide selectors · 3 study slides",
+      "width": 132,
+      "height": 44,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "TgYei",
+          "name": "Slide 1 · 44px target",
+          "metadata": {
+            "type": "design-intent",
+            "accessibleLabel": "แสดงภาพที่ 1",
+            "selected": true
+          },
+          "width": 44,
+          "height": 44,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "yuPX0",
+              "name": "Select slide 1 · active",
+              "metadata": {
+                "type": "design-intent",
+                "accessibleLabel": "แสดงภาพที่ 1"
+              },
+              "width": 24,
+              "height": 8,
+              "fill": "#072D59",
+              "cornerRadius": 4
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OTGms",
+          "name": "Slide 2 · 44px target",
+          "metadata": {
+            "type": "design-intent",
+            "accessibleLabel": "แสดงภาพที่ 2",
+            "selected": false
+          },
+          "width": 44,
+          "height": 44,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "H3mFm",
+              "name": "Select slide 2",
+              "metadata": {
+                "type": "design-intent",
+                "accessibleLabel": "แสดงภาพที่ 2"
+              },
+              "width": 8,
+              "height": 8,
+              "fill": "#B8C9D6",
+              "cornerRadius": 4
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "retYe",
+          "name": "Slide 3 · 44px target",
+          "metadata": {
+            "type": "design-intent",
+            "accessibleLabel": "แสดงภาพที่ 3",
+            "selected": false
+          },
+          "width": 44,
+          "height": 44,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "gWG5r",
+              "name": "Select slide 3",
+              "metadata": {
+                "type": "design-intent",
+                "accessibleLabel": "แสดงภาพที่ 3"
+              },
+              "width": 8,
+              "height": 8,
+              "fill": "#B8C9D6",
+              "cornerRadius": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zHByx",
+      "x": 768,
+      "y": 422,
+      "name": "Hero autoplay · pause control",
+      "context": "Proposed visible pause control for auto-rotation; specific look/behavior pending owner review.",
+      "width": 44,
+      "height": 44,
+      "fill": "#FFFFFF",
+      "cornerRadius": 22,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "icon",
+          "id": "T4BI6",
+          "name": "Pause automatic slide changes",
+          "width": 16,
+          "height": 16,
+          "icon": "pause",
+          "library": "lucide",
+          "fill": "#072D59"
+        }
+      ]
+    }
+  ]
+}
