@@ -1,0 +1,1417 @@
+project: papaipak.com
+brand_name_confirmation:
+  display_name: papaipak
+  previous_display_name: paipak
+  confirmed_on: '2026-11-04'
+  timezone: Asia/Bangkok
+  source: Explicit project owner message in this repository chat
+  instruction: โอเค เอาไอคอนแบบนี้ไปปรับให้ครบทุกจุดที่มีภาษาและ LINE เลย แล้วเว็บชื่อ papaipak ปรับทุกจัดด้วยรวมถึงเอกสาร
+  domain: papaipak.com
+  domain_status: owner_confirmed_for_project_documents
+  domain_confirmed_on: '2026-11-04'
+  domain_confirmation_instruction: papaipak.com — เปลี่ยนให้ตรงชื่อเว็บ
+  icon_selection: Header-icons-r4 / Thai and UK circular flags with official LINE brand icon
+  scope: Display-name correction in Pencil and current document prose; selected icon rollout in existing F-01 UI. Preserve real paths, technical identifiers, source URLs and historical evidence files.
+  full_design_approval: pending_owner_review
+  frontend_authorization: not_granted
+registry_status: owner_adopted_planning_direction_pending_source_and_visual_verification
+note: All 110 records are adopted as the current planning direction. This does not certify historical source
+  provenance, approve final visual artifacts, resolve open decisions or complete implementation tasks.
+owner_adoption:
+  date: '2026-11-02'
+  timezone: Asia/Bangkok
+  source: Explicit project owner instruction in this repository chat
+  instruction: ยึดตามเอกสารใหม่ทั้งหมดเพราะพึ่งได้ข้อสรุปใหม่วันนี้
+  scope: Entire imported handoff pack; supersedes conflicting earlier project directions
+  final_visual_approval: pending
+  task_execution: not_authorized_by_adoption_alone
+governance_approval:
+  status: approved
+  version: '1.0'
+  approved_on: '2026-11-03'
+  timezone: Asia/Bangkok
+  approver_role: project_owner
+  source: Explicit project owner instruction in this repository chat
+  instruction: อนุมัติ Design Governance Kit v1.0 เป็นมาตรฐานกลางของโปรเจกต์ โดยแบบแต่ละ Task ยังต้องให้ฉันอนุมัติก่อนทำ Frontend
+  artifact: docs/design/governance/README.md
+  scope: Integrated kit v1.0 with the three confirmed clarifications; project-wide design principles, governance rules, review standards and task template. Document 07 remains illustrative and the archived wireframe copy defers to the maintained authoring guide.
+  task_design_approval: explicit_owner_approval_per_task_and_version_required_before_frontend
+  task_start_approval: explicit_owner_approval_of_task_plan_and_scope_required_before_ui_design
+  execution_clarification:
+    confirmed_on: '2026-11-03'
+    timezone: Asia/Bangkok
+    source: Explicit project owner clarification in this repository chat
+    instruction: ก่อนทำรวมถึง ui design ด้วย
+    summary: Owner must approve the selected task plan and scope before creating or revising UI Design artifacts; owner approval of the resulting design/version is still required before related frontend implementation. Governance approval alone authorizes neither stage. Existing task-specific authorizations remain valid within their approved scope.
+  final_visual_approval: not_granted_by_governance_approval
+  task_execution: not_started_by_governance_approval
+governance_clarifications:
+  confirmed_on: '2026-11-03'
+  timezone: Asia/Bangkok
+  source: Explicit owner choices 2, 3, 1 in this repository chat, followed by instruction to apply the changes
+  kit_path: docs/design/governance/README.md
+  kit_version: '1.0'
+  kit_status: approved_project_standard
+  final_visual_approval: not_granted_by_this_change
+  task_execution: not_started_by_document_integration
+  decisions:
+  - topic: typography
+    selected_option: 2
+    status: owner_confirmed
+    summary: Keep Mitr primary; supplementary fonts may be proposed but require owner approval of name and usage before use. No supplementary font is approved here.
+  - topic: workflow_order
+    selected_option: 3
+    status: owner_confirmed
+    summary: Visual Direction precedes Wireframe. DSD-001 provides the owner-approved G1 direction/version for UXD-002 before new wireframe revisions and G2 acceptance; preserve approved UX/business rules and existing draft evidence.
+  - topic: homepage_review_example
+    selected_option: 1
+    status: owner_confirmed
+    summary: Keep document 07 illustrative only; it is not a review of the current Homepage or an approved visual baseline.
+task_clarifications:
+- task_id: UXD-001
+  confirmed_on: '2026-11-02'
+  timezone: Asia/Bangkok
+  source: Explicit project owner answers to Q-01 through Q-05 in this repository chat
+  final_deliverable_approval: approved
+  approved_version: review-2
+  approved_on: '2026-11-02'
+  approval_source: Explicit project owner message in this repository chat
+  approval_instruction: อนุมัติ UXD-001 review-2
+  decisions:
+  - id: Q-01
+    status: owner_confirmed
+    summary: Favorites requires login; no temporary Guest favorites or Guest-to-member merge.
+  - id: Q-02
+    status: owner_confirmed
+    summary: Cancel authentication back to booking-origin Detail with active selections, or to the originating page for Header authentication, subject to Q-03.
+  - id: Q-03
+    status: owner_confirmed
+    summary: Keep Booking Intent only within an uninterrupted active flow; do not recover it after reload, tab close or intent/session expiry. Results URL state and existing booking/payment records are separate.
+  - id: Q-04
+    status: owner_confirmed
+    summary: Retain supporting Footer links as inventory for separate content scope; no listing-owner portal added to the ten templates.
+  - id: Q-05
+    status: owner_confirmed
+    summary: One total guest count without adult/child separation, plus pets separately; domain limits and incomplete member-contact details remain for later relevant tasks.
+owner_search_location_clarification:
+  empty_location_reconfirmation:
+    confirmed_on: '2026-11-05'
+    instruction: ค้นหาได้หากไม่ใส่
+    evidence: docs/design/dsd-001/search-location-match-home-r20-r2/owner-empty-search-confirmation.json
+    summary: Empty location is valid; retain entered date/guest/pet criteria. All-empty Search remains allowed by the existing optional-fields contract. Name-selection rule applies only to nonempty location text.
+  confirmed_on: '2026-11-05'
+  timezone: Asia/Bangkok
+  source: Explicit owner option3 in DSD-001 C1.5-Q1
+  decision_ref: UX-001
+  evidence: docs/design/dsd-001/search-location-match-home-r20-r1/owner-location-rule.json
+  summary: A typed recognized area name may submit without a suggestion click; otherwise require explicit suggestion selection. Empty location stays optional. Do not silently pick the first suggestion.
+  unresolved: Supported names, aliases, normalization, ambiguous names, zero suggestions and actual query/ranking contract
+  revised_visual_approval: pending_owner_review
+  frontend_authorization: not_granted
+owner_search_date_clarification:
+  confirmed_on: '2026-11-05'
+  timezone: Asia/Bangkok
+  source: Explicit owner instruction during DSD-001 C1.4 review
+  instruction: เอาแค่วันเข้าก็ค้นหาได้
+  decision_ref: UX-001
+  evidence: docs/design/dsd-001/search-checkin-only-home-r20-r1/owner-rule-change.json
+  summary: Search accepts check-in only; checkout is optional for Search. Do not infer checkout/nights. Preserve other criteria. Booking still requires complete valid dates and revalidation.
+  supersedes: Search rejection in UXD-001 E-02 and legacy missing-checkout target references; does not alter booking rules or historical source evidence
+  wireframe_review_5: Preserve pending-review evidence; reconcile only in the selected authorized wireframe task
+  revised_visual_approval: owner_accepted_C1_4_checkin_only_scene_not_full_Search
+  visual_approval_evidence: docs/design/dsd-001/search-checkin-only-home-r20-r1/owner-visual-acceptance.json
+  frontend_authorization: not_granted
+decisions:
+- id: PRIN-001
+  title: Trust First
+  status: approved
+  summary: Professional, friendly, reliable property details and honest pricing
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: PRINCIPLES
+  section: PRINCIPLES
+  topic_number: 1
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PRIN-002
+  title: Effortless Discovery
+  status: approved
+  summary: Show villas without mandatory dates; browsing stays easy
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: PRINCIPLES
+  section: PRINCIPLES
+  topic_number: 2
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PRIN-003
+  title: Clarity over Complexity
+  status: approved
+  summary: Balanced cards with photo, name, starting price, location, capacity and limited attributes
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: PRINCIPLES
+  section: PRINCIPLES
+  topic_number: 3
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PRIN-004
+  title: Consistency Builds Trust
+  status: approved
+  summary: Clean and friendly common design system
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: PRINCIPLES
+  section: PRINCIPLES
+  topic_number: 4
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PRIN-005
+  title: Confidence Before Commitment
+  status: approved
+  summary: Balance imagery with clear booking information
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: PRINCIPLES
+  section: PRINCIPLES
+  topic_number: 5
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PRIN-006
+  title: Adaptive Experience
+  status: approved
+  summary: Desktop and mobile patterns tailored to capabilities
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: PRINCIPLES
+  section: PRINCIPLES
+  topic_number: 6
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PRIN-007
+  title: Honest & Transparent
+  status: approved
+  summary: Instant Booking only when actual availability and pricing are confirmed
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: PRINCIPLES
+  section: PRINCIPLES
+  topic_number: 7
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PRIN-008
+  title: Feedback & Reassurance
+  status: approved
+  summary: Delightful yet truthful feedback states
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: PRINCIPLES
+  section: PRINCIPLES
+  topic_number: 8
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PRIN-009
+  title: Inclusive Design
+  status: approved
+  summary: WCAG 2.2 AA as minimum; inclusive beyond compliance
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: PRINCIPLES
+  section: PRINCIPLES
+  topic_number: 9
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PRIN-010
+  title: Performance
+  status: approved
+  summary: Visual experience first with real-world speed safeguards
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: PRINCIPLES
+  section: PRINCIPLES
+  topic_number: 10
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UXF-001
+  title: General Marketplace Audience
+  status: approved
+  summary: Serve different traveler groups
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: UX_FOUNDATION
+  section: UX_FOUNDATION
+  topic_number: 1
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UX-001
+  title: Browse without dates
+  status: approved
+  summary: Visitors see pool villas before choosing dates.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: DESIGN
+  section: UX_FOUNDATION
+  topic_number: 2
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UXF-003
+  title: Full Booking Marketplace IA
+  status: approved
+  summary: Home, results, detail, checkout, confirmation, bookings, favorites
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: UX_FOUNDATION
+  section: UX_FOUNDATION
+  topic_number: 3
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UXF-004
+  title: Flexible Booking Journey
+  status: approved
+  summary: Dates and guests can change without losing state within an active uninterrupted flow; no Booking Intent recovery after reload, tab close or intent/session expiry.
+  clarification_refs:
+  - UXD-001/Q-03
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: UX_FOUNDATION
+  section: UX_FOUNDATION
+  topic_number: 4
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UX-003
+  title: Traditional navigation and category browse
+  status: approved
+  summary: Main header, hero search, category shortcuts and property sections.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: DESIGN
+  section: UX_FOUNDATION
+  topic_number: 5
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UX-002
+  title: Seven villa categories
+  status: approved
+  summary: Recommended; near sea; party; special price; outing; pet friendly; luxury.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: DESIGN
+  section: UX_FOUNDATION
+  topic_number: 6
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UXF-007
+  title: Hybrid Filter Discovery
+  status: approved
+  summary: Sidebar and advanced drawer
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: UX_FOUNDATION
+  section: UX_FOUNDATION
+  topic_number: 7
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UXF-008
+  title: Classic Booking Property Detail
+  status: approved
+  summary: Gallery above with details left, booking panel right
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: UX_FOUNDATION
+  section: UX_FOUNDATION
+  topic_number: 8
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UXF-009
+  title: Hybrid Checkout
+  status: approved
+  summary: Booking review/edit separated from payment step
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: UX_FOUNDATION
+  section: UX_FOUNDATION
+  topic_number: 9
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UX-004
+  title: Account required for booking
+  status: approved
+  summary: Guests may browse before login, must authenticate for booking.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: DESIGN
+  section: UX_FOUNDATION
+  topic_number: 10
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: WIRE-001
+  title: Immersive Hero Search
+  status: approved
+  summary: Cinematic homepage hero
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: WIREFRAME
+  section: WIREFRAME
+  topic_number: 1
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: WIRE-002
+  title: Centered Overlay Search
+  status: approved
+  summary: Frosted search on hero
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: WIREFRAME
+  section: WIREFRAME
+  topic_number: 2
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: WIRE-003
+  title: Seven Flat Category Shortcuts
+  status: approved
+  summary: Replace destination shortcuts with seven villa categories
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: WIREFRAME
+  section: WIREFRAME
+  topic_number: 3
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: WIRE-004
+  title: Responsive Dense Grid
+  status: approved
+  summary: Four columns on sufficiently wide desktop, fewer when constrained
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: WIREFRAME
+  section: WIREFRAME
+  topic_number: 4
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: WIRE-005
+  title: Overlay Property Card
+  status: approved
+  summary: Image-first photo, pink badge and favorite
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: WIREFRAME
+  section: WIREFRAME
+  topic_number: 5
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: WIRE-006
+  title: Image Carousel per Property
+  status: approved
+  summary: Carousel arrows/dots, swipe and keyboard
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: WIREFRAME
+  section: WIREFRAME
+  topic_number: 6
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: WIRE-007
+  title: Category Sections
+  status: approved
+  summary: Heading and view-all navigation
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: WIREFRAME
+  section: WIREFRAME
+  topic_number: 7
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: WIRE-008
+  title: Traditional Pagination
+  status: approved
+  summary: Suggested 16/page; preserve filters and page in URL
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: WIREFRAME
+  section: WIREFRAME
+  topic_number: 8
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: WIRE-009
+  title: Results Grid + Filter Sidebar
+  status: approved
+  summary: Sidebar desktop; adaptive grid and mobile drawer
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: WIREFRAME
+  section: WIREFRAME
+  topic_number: 9
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: WIRE-010
+  title: Apply Filters Interaction
+  status: approved
+  summary: Explicit apply rather than fetching with each change
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: WIREFRAME
+  section: WIREFRAME
+  topic_number: 10
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VIS-001
+  title: Modern & Vibrant
+  status: approved
+  summary: Modern lively consumer travel appearance
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VISUAL
+  section: VISUAL
+  topic_number: 1
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VIS-002
+  title: Rounded Thai Loopless Sans
+  status: approved
+  summary: Soft Thai typographic feeling
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VISUAL
+  section: VISUAL
+  topic_number: 2
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VIS-003
+  title: Subtle Rounded
+  status: approved
+  summary: Rounded but not exaggerated
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VISUAL
+  section: VISUAL
+  topic_number: 3
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VIS-004
+  title: Cinematic & Luxury Photography
+  status: approved
+  summary: Villa imagery leads
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VISUAL
+  section: VISUAL
+  topic_number: 4
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VIS-005
+  title: Filled/Duotone Category Icons
+  status: approved
+  summary: Distinct category icon treatment
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VISUAL
+  section: VISUAL
+  topic_number: 5
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VIS-006
+  title: Layered & Expressive Surfaces
+  status: approved
+  summary: Depth on purposeful surfaces
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VISUAL
+  section: VISUAL
+  topic_number: 6
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VIS-007
+  title: Balanced Spacing
+  status: approved
+  summary: Comfortable rhythm and whitespace
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VISUAL
+  section: VISUAL
+  topic_number: 7
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VIS-008
+  title: Expressive Motion
+  status: approved
+  summary: Respect prefers-reduced-motion
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VISUAL
+  section: VISUAL
+  topic_number: 8
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VIS-009
+  title: Unified White Background
+  status: approved
+  summary: Avoid alternating decorative section fills
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VISUAL
+  section: VISUAL
+  topic_number: 9
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VIS-010
+  title: Dual Accent + Support
+  status: approved
+  summary: Navy, pink, light blue unified brand direction
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VISUAL
+  section: VISUAL
+  topic_number: 10
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: BRAND-001
+  title: Pink Accent Premium palette
+  status: approved
+  summary: 'Navy #072D59, Light Blue #DBF2FC, Pink #FD6E88; white neutral base.'
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: DESIGN
+  section: TOKENS
+  topic_number: 1
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: TOK-002
+  title: Pure Neutral Foundation
+  status: approved
+  summary: 'White #FFFFFF; surface #F7F7F7; border #E5E7EB; muted #6B7280; text #202124'
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: TOKENS
+  section: TOKENS
+  topic_number: 2
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: TOK-003
+  title: Bold Semantic Colors
+  status: approved
+  summary: 'Success #15803D, error #B91C1C; meaningful icon+label'
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: TOKENS
+  section: TOKENS
+  topic_number: 3
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: TOK-004
+  title: Elevated Interactions
+  status: approved
+  summary: Hover, pressed and focus states visibly distinct
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: TOKENS
+  section: TOKENS
+  topic_number: 4
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: BRAND-002
+  title: Mitr typography
+  status: approved
+  summary: 'Thai and Latin font: Mitr.'
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: DESIGN
+  section: TOKENS
+  topic_number: 5
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: TOK-006
+  title: Expressive Responsive Typography
+  status: approved
+  summary: Hero approx 56px desktop; section 32; body 16; adapt responsively
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: TOKENS
+  section: TOKENS
+  topic_number: 6
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: TOK-007
+  title: Fluid Spacing
+  status: approved
+  summary: Responsive clamp-based sizing; mobile/tablet/desktop rhythm
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: TOKENS
+  section: TOKENS
+  topic_number: 7
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: TOK-008
+  title: Progressive Border Radius
+  status: approved
+  summary: Badges 6, inputs 8, cards 12, panels 16px; search bar can be pill
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: TOKENS
+  section: TOKENS
+  topic_number: 8
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: TOK-009
+  title: Dramatic Selective Elevation
+  status: approved
+  summary: Expressive but restrained shadows
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: TOKENS
+  section: TOKENS
+  topic_number: 9
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: TOK-010
+  title: Contextual Borders
+  status: approved
+  summary: 1px default; selected, error and focus contextual
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: TOKENS
+  section: TOKENS
+  topic_number: 10
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UI-001
+  title: Reference-matched primary buttons
+  status: approved
+  summary: 'Pink #FD6E88 with white label as visual reference; accessibility contrast unresolved.'
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: COMPONENTS
+  section: COMPONENTS
+  topic_number: 1
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UI-002
+  title: Unified hero search
+  status: approved
+  summary: White translucent pill; location, dates and guests optional when browsing.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: COMPONENTS
+  section: COMPONENTS
+  topic_number: 2
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UIC-003
+  title: Floating Label Inputs
+  status: approved
+  summary: Persistent floating labels, focus and invalid states
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: COMPONENTS
+  section: COMPONENTS
+  topic_number: 3
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UI-003
+  title: Property card
+  status: approved
+  summary: Image-led overlay badge and favorite; carousel; location, capacity and starting price.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: COMPONENTS
+  section: COMPONENTS
+  topic_number: 4
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UIC-005
+  title: Minimal Overlay Image Carousel
+  status: approved
+  summary: Pale arrow overlays, dots, mobile swipe and accessible controls
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: COMPONENTS
+  section: COMPONENTS
+  topic_number: 5
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UI-004
+  title: Flat category navigation
+  status: approved
+  summary: Seven icon plus label shortcuts without enclosing cards.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: COMPONENTS
+  section: COMPONENTS
+  topic_number: 6
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UI-005
+  title: Contained filter sidebar
+  status: approved
+  summary: Desktop sidebar, mobile drawer, Apply Filters action.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: COMPONENTS
+  section: COMPONENTS
+  topic_number: 7
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UIC-008
+  title: Classic Date & Guest Popover
+  status: approved
+  summary: Anchored popovers; date optional for browsing, validated before booking
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: COMPONENTS
+  section: COMPONENTS
+  topic_number: 8
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UI-006
+  title: Adaptive modal and drawer
+  status: approved
+  summary: Desktop centered modal, mobile bottom/fullscreen as appropriate.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: COMPONENTS
+  section: COMPONENTS
+  topic_number: 9
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: UIC-010
+  title: Hybrid Delightful Feedback
+  status: approved
+  summary: Inline errors, favorite toast and truthful booking confirmation
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: COMPONENTS
+  section: COMPONENTS
+  topic_number: 10
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PAGE-001
+  title: Premium Marketplace homepage
+  status: approved
+  summary: Cinematic hero, centered search and villa sections.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: PAGES
+  section: PAGES
+  topic_number: 1
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PAGE-002
+  title: Modern Marketplace search results
+  status: approved
+  summary: Suggested Search Chips rather than active-filter chips in designated position; sidebar, pagination.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: PAGES
+  section: PAGES
+  topic_number: 2
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PAGE-003
+  title: Premium Booking Focus property detail
+  status: approved
+  summary: Gallery grid, left detail, right booking panel.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: PAGES
+  section: PAGES
+  topic_number: 3
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PAGE-004
+  title: Premium Member Checkout
+  status: approved
+  summary: Use profile contact data automatically; separate review and payment.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: PAGES
+  section: PAGES
+  topic_number: 4
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PAGE-005
+  title: Adaptive Authentication
+  status: approved
+  summary: Desktop modal/mobile fullscreen; return to active booking during uninterrupted authentication. Cancel back to origin; no intent recovery after reload, tab close or intent/session expiry.
+  clarification_refs:
+  - UXD-001/Q-02
+  - UXD-001/Q-03
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: PAGES
+  section: PAGES
+  topic_number: 5
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PAGE-006
+  title: Tabbed Booking List
+  status: approved
+  summary: Upcoming, past, cancelled; booking/payment states separate.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: PAGES
+  section: PAGES
+  topic_number: 6
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PAGE-007
+  title: Hybrid Booking Confirmation
+  status: approved
+  summary: Truthful verified booking/payment status and booking details.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: PAGES
+  section: PAGES
+  topic_number: 7
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PAGE-008
+  title: Favorites Grid
+  status: approved
+  summary: Login required to view or manage Favorites; no temporary Guest favorites or Guest-to-member merge; no collections or comparison.
+  clarification_refs:
+  - UXD-001/Q-01
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: PAGES
+  section: PAGES
+  topic_number: 8
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PAGE-009
+  title: Modern Split Profile
+  status: approved
+  summary: Navigation left, account details right; explicitly not SaaS dashboard.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: PAGES
+  section: PAGES
+  topic_number: 9
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: PAGE-010
+  title: Contextual Premium States
+  status: approved
+  summary: Context-specific empty/loading/error, skeletons and safe retry.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: PAGES
+  section: PAGES
+  topic_number: 10
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VAL-001
+  title: Component & Page Audit
+  status: approved
+  summary: Shared tokens/components and page consistency
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VALIDATION
+  section: VALIDATION
+  topic_number: 1
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VAL-002
+  title: Comprehensive Responsive Testing
+  status: approved
+  summary: Widths, orientations, zoom, touch and keyboard
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VALIDATION
+  section: VALIDATION
+  topic_number: 2
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VAL-003
+  title: Comprehensive Usability Testing
+  status: approved
+  summary: Expert review, users, measures, retest
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VALIDATION
+  section: VALIDATION
+  topic_number: 3
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VAL-004
+  title: Comprehensive Accessibility Validation
+  status: approved
+  summary: Automated, manual, inclusive user validation
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VALIDATION
+  section: VALIDATION
+  topic_number: 4
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VAL-005
+  title: Comprehensive Performance Testing
+  status: approved
+  summary: Core Web Vitals, visual, APIs and RUM
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VALIDATION
+  section: VALIDATION
+  topic_number: 5
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VAL-006
+  title: End-to-End Booking Validation
+  status: approved
+  summary: Concurrency, payment, webhook recovery
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VALIDATION
+  section: VALIDATION
+  topic_number: 6
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VAL-007
+  title: Comprehensive Cross-Browser Testing
+  status: approved
+  summary: Playwright, physical Safari/mobile, in-app browsers
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VALIDATION
+  section: VALIDATION
+  topic_number: 7
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VAL-008
+  title: Comprehensive Security Validation
+  status: approved
+  summary: ASVS, Auth/RLS, payment, privacy and security review
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VALIDATION
+  section: VALIDATION
+  topic_number: 8
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VAL-009
+  title: Hybrid Data Quality Assurance
+  status: approved
+  summary: Automated checks + human verification + monitoring
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VALIDATION
+  section: VALIDATION
+  topic_number: 9
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: VAL-010
+  title: Controlled Launch & Release Readiness
+  status: approved
+  summary: Quality gates, staging, pilot, monitoring and rollback
+  source: User-confirmed selections in paipak.com planning conversation (current conversation); full original visual
+    assets not yet audited
+  version: planning-1
+  category: VALIDATION
+  section: VALIDATION
+  topic_number: 10
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: ARCH-001
+  title: Modular Feature + Shared Design System
+  status: approved
+  summary: One Next.js project; shared components and domain modules.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: IMPLEMENTATION
+  section: IMPLEMENTATION
+  topic_number: 1
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: ARCH-002
+  title: Design System First + Component Workshop
+  status: approved
+  summary: Headless primitives as appropriate, Storybook, visual baselines.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: IMPLEMENTATION
+  section: IMPLEMENTATION
+  topic_number: 2
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: ARCH-003
+  title: Controlled AI Development Pipeline
+  status: approved
+  summary: Spec, plan, bounded coding, review, quality gates, approval.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: IMPLEMENTATION
+  section: IMPLEMENTATION
+  topic_number: 3
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: ARCH-004
+  title: Foundation + Vertical Slices
+  status: approved
+  summary: Foundation; discover; property; member; booking/payment; release.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: IMPLEMENTATION
+  section: IMPLEMENTATION
+  topic_number: 4
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: ARCH-005
+  title: Preview-Driven CI/CD
+  status: approved
+  summary: Local, PR preview, isolated staging, isolated production.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: IMPLEMENTATION
+  section: IMPLEMENTATION
+  topic_number: 5
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: ARCH-006
+  title: Domain-Oriented Schema + Controlled Migrations
+  status: approved
+  summary: PostgreSQL constraints, RLS, transaction safety, versioned migrations.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: IMPLEMENTATION
+  section: IMPLEMENTATION
+  topic_number: 6
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: ARCH-007
+  title: Hybrid BFF + Domain Services
+  status: approved
+  summary: RSC for server reads, Route Handlers for API/webhooks, server-only business logic.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: IMPLEMENTATION
+  section: IMPLEMENTATION
+  topic_number: 7
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: ARCH-008
+  title: Multi-Layer Quality Gates
+  status: approved
+  summary: Unit, integration, component, visual, accessibility, E2E.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: IMPLEMENTATION
+  section: IMPLEMENTATION
+  topic_number: 8
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: ARCH-009
+  title: Full-Stack + Business Monitoring
+  status: approved
+  summary: Infrastructure/app and booking/payment monitoring; recovery.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: IMPLEMENTATION
+  section: IMPLEMENTATION
+  topic_number: 9
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: ARCH-010
+  title: Implementation Blueprint + AI-Ready Handoff
+  status: approved
+  summary: Docs, task packets, AGENTS.md, evidence and approvals.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: IMPLEMENTATION
+  section: IMPLEMENTATION
+  topic_number: 10
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: EXEC-001
+  title: Versioned Specifications + Decision Registry
+  status: approved
+  summary: Approved/proposed/open/superseded states.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BACKLOG
+  section: EXECUTION
+  topic_number: 1
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: EXEC-002
+  title: Dependency-Aware Execution Graph
+  status: approved
+  summary: Task ids and dependency correctness.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BACKLOG
+  section: EXECUTION
+  topic_number: 2
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: EXEC-003
+  title: Risk-Based Contract + Evidence Approval
+  status: approved
+  summary: DoR, AC, DoD, risk-based evidence.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BACKLOG
+  section: EXECUTION
+  topic_number: 3
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: EXEC-004
+  title: Dependency-Gated Foundation
+  status: approved
+  summary: Parallel design/data/devops with readiness gates.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BACKLOG
+  section: EXECUTION
+  topic_number: 4
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: EXEC-005
+  title: Contract-First Parallel Discover Slices
+  status: approved
+  summary: UI/data tracks and visual gate.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BACKLOG
+  section: EXECUTION
+  topic_number: 5
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: EXEC-006
+  title: Contract-Driven Property + Dual Gates
+  status: approved
+  summary: Availability/quote and visual/data gates.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BACKLOG
+  section: EXECUTION
+  topic_number: 6
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: EXEC-007
+  title: Identity-First + Journey Gates
+  status: approved
+  summary: Return active intent across uninterrupted login; no intent recovery after reload, tab close or intent/session expiry.
+  clarification_refs:
+  - UXD-001/Q-03
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BACKLOG
+  section: EXECUTION
+  topic_number: 7
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: EXEC-008
+  title: Contract-Driven Transaction Slices
+  status: approved
+  summary: Dual payment/security and visual approvals.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BACKLOG
+  section: EXECUTION
+  topic_number: 8
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: EXEC-009
+  title: Evidence-Gated Progressive Release
+  status: approved
+  summary: Controlled pilot and rollback/recovery.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BACKLOG
+  section: EXECUTION
+  topic_number: 9
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: EXEC-010
+  title: Executable Blueprint + Controlled Agent Handoff
+  status: approved
+  summary: Task packets, manifest, approval governance.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BACKLOG
+  section: EXECUTION
+  topic_number: 10
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: MAT-001
+  title: Validated Registry + Conflict Resolution
+  status: approved
+  summary: Validate source, status, overlap and unresolved issues.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BLUEPRINT
+  section: MATERIALIZATION
+  topic_number: 1
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: MAT-002
+  title: Design Contract + Visual Baseline Registry
+  status: approved
+  summary: Approved original images are distinct from illustrative images.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BLUEPRINT
+  section: MATERIALIZATION
+  topic_number: 2
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: MAT-003
+  title: Verified Domain Contracts + Transaction Invariants
+  status: approved
+  summary: Schema/OpenAPI plus actual business integrity tests.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BLUEPRINT
+  section: MATERIALIZATION
+  topic_number: 3
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: MAT-004
+  title: Policy-as-Code + Task-Scoped Agent Contracts
+  status: approved
+  summary: Agent instructions plus enforceable CI checks.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BLUEPRINT
+  section: MATERIALIZATION
+  topic_number: 4
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: MAT-005
+  title: Dependency-Validated Manifest + Task Packets
+  status: approved
+  summary: Check cycles/references/ownership and readiness.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BLUEPRINT
+  section: MATERIALIZATION
+  topic_number: 5
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: MAT-006
+  title: Traceable Evidence Registry + Risk-Based Approval
+  status: approved
+  summary: Evidence references commit, CI run and reviewer.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BLUEPRINT
+  section: MATERIALIZATION
+  topic_number: 6
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: MAT-007
+  title: Environment Contract + Secret Isolation
+  status: approved
+  summary: Preview/staging no prod credentials; deployment gates.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BLUEPRINT
+  section: MATERIALIZATION
+  topic_number: 7
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: MAT-008
+  title: Incident-as-Code + Tested Recovery
+  status: approved
+  summary: Alert-linked runbooks and staging drills.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BLUEPRINT
+  section: MATERIALIZATION
+  topic_number: 8
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: MAT-009
+  title: Multi-Layer Documentation Audit
+  status: approved
+  summary: Automated structural + semantic review and traceability.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BLUEPRINT
+  section: MATERIALIZATION
+  topic_number: 9
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+- id: MAT-010
+  title: Baseline Release + Controlled Change Management
+  status: approved
+  summary: Lock approved scope, track opens and approvals.
+  source: User-selected paipak.com planning conversation
+  version: planning-1
+  category: BLUEPRINT
+  section: MATERIALIZATION
+  topic_number: 10
+  source_type: user_selected_or_confirmed
+  review_status: reconstructed_from_available_conversation
+version: candidate-step2-001
+record_count: 110
+audit_scope: 110 selections reconstructed from context and adopted by the owner as current planning direction on
+  2026-11-02; reference image identity, source-level provenance and final visual approval remain outstanding
+sections:
+- PRINCIPLES
+- UX_FOUNDATION
+- WIREFRAME
+- VISUAL
+- TOKENS
+- COMPONENTS
+- PAGES
+- VALIDATION
+- IMPLEMENTATION
+- EXECUTION
+- MATERIALIZATION

@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Google G2-r17 / cancelled and failed return",
+  "status": "owner_accepted_Login_cancellation_old_failure_superseded_by_accepted_r18_whole_G2_pending",
+  "authorization": "../home-auth-g0-approval.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "qBGNr",
+  "native_comparison": "Nnfb4",
+  "native_cancelled": "EjvEz",
+  "native_failed": "lDH8c",
+  "source_entry_reference": "../home-auth-login-g2-r6/review-manifest.json",
+  "images": [
+    {
+      "native_id": "qBGNr",
+      "image": "qBGNr.png",
+      "sha256": "f0f4107cd8f98fa7bf02102ab83be54aada5731f931d3d037239682c2feca0e7"
+    },
+    {
+      "native_id": "Nnfb4",
+      "image": "Nnfb4.png",
+      "sha256": "d07aa715c93ee09cb0dae13b3a5a8e29745ccc48f4f8e3688e63cec287b95f19"
+    },
+    {
+      "native_id": "EjvEz",
+      "image": "EjvEz.png",
+      "sha256": "9b96591b84af8be9d19c8b38485a71a42422c7ccabca018b29e51ded71e9b356"
+    },
+    {
+      "native_id": "lDH8c",
+      "image": "lDH8c.png",
+      "sha256": "e717bf43a8b0f54ef931936a0ee6bbb6bf6ebe479431a8f3c5b161480313170b"
+    }
+  ],
+  "review_scope": "Two papaipak Login return states only; not a Google provider screen or approval of complete Login/Auth G2.",
+  "proposed_behavior": {
+    "cancelled": "return to original Login modal with still-active email/phone draft retained; no error/notification or automatic OTP request",
+    "failed": "generic feedback near Google control with explicit Google retry; retain active draft and other Login/Register alternatives; no automatic retry",
+    "Home_origin": "Auth stays open, Home selections retained and Hero remains paused under existing modal contract; closing Auth returns to origin",
+    "continuity": "only uninterrupted active flow; no intent/draft recovery across reload/close/expiry",
+    "account_privacy": "do not reveal account existence or raw OAuth error; no authentication claim without verified result"
+  },
+  "fixture_identifier": "tawan@example.com; no actual account or credentials",
+  "remaining_scope": [
+    "Google success/origin integration and Register return annotations",
+    "Google-related pending/loading and required Login states",
+    "email verification reminder and signup validation states",
+    "whole Auth G2 consolidation/acceptance",
+    "keyboard/focus/runtime and provider contracts"
+  ],
+  "Google_popup_or_redirect_selected": false,
+  "official_Google_icon": "text-only low-fi; official asset review required before High-Fi",
+  "verification": {
+    "native_screenshot_inspected": "Nnfb4",
+    "observation": "Two consistent Login modals retain email fixture; cancellation has no error; failure feedback appears adjacent to Google retry; no visible clipping.",
+    "execute_warnings": []
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "state_library_count_unchanged": 54,
+  "main_Home_changed": false,
+  "UXD_002_changed": false,
+  "latest_owner_revision": "../home-auth-google-g2-r18/owner-error-position-request.json",
+  "revised_failure_review": "../home-auth-google-g2-r18/review-manifest.json",
+  "owner_cancellation_acceptance": "owner-Google-cancellation-acceptance.json"
+}

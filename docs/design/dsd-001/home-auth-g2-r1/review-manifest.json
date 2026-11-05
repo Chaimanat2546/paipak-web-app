@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth G2-r1",
+  "gate": "G2 draft",
+  "status": "pending_owner_Login_structure_review_only",
+  "authorization": "../home-auth-g0-approval.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "OgKpW",
+  "flow": "Df2ip",
+  "login_scene": "Sljji",
+  "login_modal": "VAqjR",
+  "viewport": {
+    "width": 1440,
+    "height": 960
+  },
+  "images": [
+    {
+      "native_id": "OgKpW",
+      "image": "OgKpW.png",
+      "sha256": "82eeb47611742dfd9ccf0ccf13b6f391fd638a4aa9350e08276de625fbc0cd2e"
+    },
+    {
+      "native_id": "Df2ip",
+      "image": "Df2ip.png",
+      "sha256": "2e9f24b180d7a257b759d657638548c13a66f217b64f9f9e5ddbb8c6c7e646a1"
+    },
+    {
+      "native_id": "Sljji",
+      "image": "Sljji.png",
+      "sha256": "966ed737fe097c0e29b395f9ddb38bd4771173540052516b8daf700870b02b13"
+    },
+    {
+      "native_id": "VAqjR",
+      "image": "VAqjR.png",
+      "sha256": "7eb69ca6465b6ece9b0685564df02f51c46b630e2b2f42b958b7213c41914907"
+    }
+  ],
+  "next_review_scope": "Login anatomy and ordering only; not complete G2 flow acceptance or High-Fi",
+  "question": "โครง Login นี้โอเคไหมครับ? 1. รับโครงนี้ แล้วดู Register ต่อ 2. ปรับโครง Login 3. ดูแผนผังรวมก่อน",
+  "state_library_rollout": false,
+  "main_home_changed": false,
+  "UXD_002_file_changed": false,
+  "UID_005_started": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "unapproved_proposals": [
+    "Successful reset returns to Login; no automatic login selected",
+    "Google cancellation/failure detailed state and email reminder appearance",
+    "Login dimensions/spacing shown as low-fi proposals, not final tokens"
+  ],
+  "open_contracts": [
+    "Username charset/length",
+    "Phone validation/verification",
+    "Password non-length constraints/provider enforcement",
+    "Reset token lifetime, rate limits and actual mail delivery",
+    "Keyboard/focus and Hero pause runtime behavior"
+  ],
+  "verification": {
+    "login_visible_text_checked": true,
+    "modal_width": 520,
+    "modal_height": 541,
+    "centered_at": {
+      "x": 460,
+      "y": 209.5
+    },
+    "wireflow_lanes": 3,
+    "live_arrow_frames": 9,
+    "main_home_section_count": 13,
+    "native_warnings_note": "Replacement operation transiently reported sizing warnings for retired connector IDs. Read confirmed old ID absent; patched follow-up verifies live frames and exports current scene.",
+    "runtime_tested": false
+  }
+}

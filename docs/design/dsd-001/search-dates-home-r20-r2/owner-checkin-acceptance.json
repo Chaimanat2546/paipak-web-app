@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "checklist_item": "C1.2 / check-in selected, checkout pending",
+  "version": "Search dates Home-r20-r2",
+  "owner_quote": "1",
+  "question": "ใช้สถานะนี้ไหมครับ? 1. รับภาพนี้ แล้วดูตอนเลือกช่วงวันครบ 2. ปรับเครื่องหมายวันเลือกหรือข้อความ 3. ดูการล้างวันที่ก่อน แล้วค่อยตัดสินใจ",
+  "status": "owner_accepted_checkin_only_appearance",
+  "native_screen": "w7JOD",
+  "native_popup": "aM6In",
+  "image": "w7JOD.png",
+  "image_sha256": "746ff8cddaa1aef4133a2ae184dd0aad6d88a1c48e656013c396df991eabd9ff",
+  "scope": "Check-in12Dec fixture selected in Navy/White, pending checkout prompt, date field12Dec-to-ellipsis and visible32px clear target; pre-submit state with other criteria retained",
+  "complete_range_or_clear_state_approved": false,
+  "whole_C1_2_complete": false,
+  "whole_search_version_approved": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

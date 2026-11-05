@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "โครงและทางไปต่อ/ย้อนกลับชุดนี้ใช้ได้ไหมครับ? 1. ใช้ตามนี้ — รับโครง Login ชุดนี้ 2. ปรับช่องแรก — การกรอกและเลือกวิธีเข้าใช้ 3. ปรับหน้าถัดไป — หน้า OTP หรือรหัสผ่าน",
+  "status": "owner_accepted_displayed_current_Login_structure_and_routes",
+  "version": "Home Auth Current Login Structure G2-r30",
+  "reviewed_image": "LnXw4.png",
+  "reviewed_image_sha256": "b779bee6cd47032b4f5c951927d84965ca148c20ae3f91f15c1c03e1c06b8f2f",
+  "native_comparison": "LnXw4",
+  "native_modals": [
+    "dFI8d",
+    "bFCHU",
+    "mmSkV",
+    "q6GNt"
+  ],
+  "accepted_scope": {
+    "entry": "Displayed shared email/phone identifier, Continue, explicit password entry, Google entry and Register link.",
+    "email_OTP": "Displayed active six-slot normal entry with auto verification at six digits, consolidated instruction and countdown-only inactive resend button.",
+    "email_password": "Displayed explicit email/password alternative and switch to email OTP.",
+    "phone_password": "Displayed phone/password branch without email/SMS OTP action; Forgot still enters accepted email-link recovery.",
+    "navigation": "Continue routes according to current identifier/method; Back/Edit returns to identifier in the active flow. Merely going back/editing does not request OTP.",
+    "methods": "Retain previously selected email OTP primary, explicit email password, phone password and Google.",
+    "boundary": "Four displayed structures/routes only; accepted error/return states remain separate and whole G2 is not approved."
+  },
+  "00_45_is_static_fixture_not_selected_duration": true,
+  "Google_Register_return_layouts_approved_by_this_reply": false,
+  "modal_outside_click_policy_selected": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "provider_or_API_contract_selected": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

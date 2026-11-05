@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Login G2-r4 / two-step",
+  "status": "revision_required_OTP_primary_password_only_on_explicit_choice",
+  "authorization": "../home-auth-two-step-login-decision.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "UXSzw",
+  "native_first_step_scene": "Gptse",
+  "native_first_step_modal": "TxO8X",
+  "native_comparison": "TBu2c",
+  "native_password_step": "y9BBA",
+  "native_password_error_C": "o9jws",
+  "images": [
+    {
+      "native_id": "UXSzw",
+      "image": "UXSzw.png",
+      "sha256": "037851086aa71476bef8c345a84df08cb14e5efcc5944eb835f777fec1c98344"
+    },
+    {
+      "native_id": "Gptse",
+      "image": "Gptse.png",
+      "sha256": "18efac43a6a11b40e08b2a78527bfaca56bf84231299d6c2f9faacd814a6f0ac"
+    },
+    {
+      "native_id": "TxO8X",
+      "image": "TxO8X.png",
+      "sha256": "1021cf05afd8f2d32b17825a7a1de70e9658848227e4935ea8186abbcc3ad516"
+    },
+    {
+      "native_id": "TBu2c",
+      "image": "TBu2c.png",
+      "sha256": "77668f986602bf1aa5b4c92b83080e61dd54a9467a33bc95940d0dfa874bf617"
+    },
+    {
+      "native_id": "y9BBA",
+      "image": "y9BBA.png",
+      "sha256": "789ff2de8526522c8d9d19d25e01ae3b54296bf023af21d285e069dd57d1a7e3"
+    },
+    {
+      "native_id": "o9jws",
+      "image": "o9jws.png",
+      "sha256": "88b5fb0802dd0492173cc323c0104ec4dfb38b61d843624e7e9e1f3019f4e6e2"
+    }
+  ],
+  "current_review_scope": "Two default Login steps, back/edit navigation and availability of Google/Register on first step; error mock is a carried C-placement proposal, remaining states not accepted.",
+  "proposals": [
+    "Continue changes to password stage without revealing whether an account exists",
+    "Back/edit returns to identifier stage with entered value retained",
+    "Google and Register entry on initial stage; password stage uses back to access them",
+    "Login return from accepted Register/Reset opens initial stage"
+  ],
+  "fixture_identifier": "tawan@example.com",
+  "no_actual_auth_or_secret_fixture": true,
+  "state_library_count_unchanged": 54,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "UXD_002_file_changed": false,
+  "proposed_question": "โครงLoginสองขั้นนี้โอเคไหมครับ? 1. รับโครงสองขั้นนี้ แล้วปรับstatesให้เข้ากันต่อ 2. ปรับโครงก่อน 3. ดูกรณีกรอกผิดก่อนตัดสินใจ",
+  "latest_flow_amendment": "../home-auth-otp-primary-amendment.json",
+  "OTP_delivery_pending": true,
+  "working_usage": "historical_password_first_flow; source reference for explicit-password alternative only",
+  "current_error_candidates": "../home-auth-error-audit-r26/review-manifest.json"
+}

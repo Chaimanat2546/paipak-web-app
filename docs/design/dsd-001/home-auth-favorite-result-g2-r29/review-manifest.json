@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Favorite Result G2-r29",
+  "status": "owner_rejected_both_proposals_as_unnecessary_native_review_hidden",
+  "previous_acceptance": "../home-auth-favorite-return-g2-r28/owner-favorite-return-states-acceptance.json",
+  "continuation_decision": "../home-auth-favorite-return-decision.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "K0Jdw",
+  "native_comparison": "N1kDoM",
+  "copied_source": "e65FIF",
+  "items": [
+    {
+      "key": "confirmed_not_saved",
+      "viewport": "AbNuN",
+      "feedback": "rCVmf",
+      "favorite_target": "SEx9z",
+      "marker": "aiVIy",
+      "action": "zYJv2"
+    },
+    {
+      "key": "unknown_result",
+      "viewport": "w83ixQ",
+      "feedback": "X0Z3Ib",
+      "favorite_target": "jqS8N",
+      "marker": "yUJyT",
+      "action": "VDvXd"
+    }
+  ],
+  "proposed_behavior": {
+    "confirmed_not_saved": {
+      "condition": "Known connectivity problem prevented a save request, or an authoritative result confirms that no save was applied. Never use this example for a possible but unconfirmed write.",
+      "marker": "Normal white outline heart, no circular face,22px inside existing44px target.",
+      "feedback": "บันทึกบ้านไม่ได้ / การเชื่อมต่อขัดข้อง, only when that cause is known.",
+      "action": "ลองอีกครั้ง: user initiates a save request only when safe; no automatic retry loop."
+    },
+    "unknown_result": {
+      "condition": "Connection lost after a save may have reached the system. Neither saved nor unsaved is established.",
+      "marker": "Temporary white question marker inside existing44px target; new save/toggle inactive.",
+      "feedback": "ยังไม่ทราบผลบันทึก / การเชื่อมต่อขาดหาย.",
+      "action": "ตรวจสอบ: status read/reconciliation only, not another save. If confirmed saved, use accepted saved-r28; if confirmed not saved, offer explicit retry; if unresolved, retain unknown."
+    },
+    "origin": "Home position, selected villa/rail/photo and authenticated state remain under the active-flow contract; no extra Login solely for save connection failure.",
+    "other_causes": "Do not describe all save failures as connectivity. Unavailable villa, changed auth/session and other causes need their own verified handling; not all are designed or accepted here.",
+    "boundary": "Local cropped-card proposals only; no actual API/reconciliation/session/lifetime/whole-page toast policy implemented or selected."
+  },
+  "images": [
+    {
+      "native_id": "K0Jdw",
+      "image": "K0Jdw.png",
+      "width": 896,
+      "height": 765,
+      "sha256": "1d5cff714e064642969b73e42d007ef0bc36a8dcf55d913ddb555b6bc440b784"
+    },
+    {
+      "native_id": "N1kDoM",
+      "image": "N1kDoM.png",
+      "width": 832,
+      "height": 552,
+      "sha256": "87d5c8223ac0c350586de64cf27c6c209474c68f98dd127bc99dc328497a0316"
+    },
+    {
+      "native_id": "AbNuN",
+      "image": "AbNuN.png",
+      "width": 400,
+      "height": 512,
+      "sha256": "3f2727d4f7543c8dda2876147141c9976794c05de26edac61b4176bb8f7733b1"
+    },
+    {
+      "native_id": "w83ixQ",
+      "image": "w83ixQ.png",
+      "width": 400,
+      "height": 512,
+      "sha256": "7641bf5eb280f49c93028b181dae68e5fb41aac2d8d83447a8f3d3d8f504ef10"
+    }
+  ],
+  "question": "ใช้สองกรณีนี้ได้ไหมครับ? 1. ใช้ทั้งคู่ 2. ปรับกรณีบันทึกไม่ได้ 3. ปรับกรณียังไม่ทราบผล",
+  "verification": {
+    "full_size_comparison_inspected": true,
+    "final_root_screenshot_inspected": true,
+    "native_copy_and_action_text_verified": true,
+    "retry_and_check_targets": "92x44px each; check reads status, not save creation",
+    "source_r28_PNG_hashes_unchanged": 4,
+    "observation": "Both feedback messages/actions visible; underlying villa card content remains intact; no visible clipping in exported comparison/root. Static design only.",
+    "execute_warnings": [],
+    "main_Home_or_state_library_mutated": false
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "contrast_or_keyboard_certified": false,
+  "provider_or_API_contract_selected": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "state_library_count_unchanged": 54,
+  "UXD_002_changed": false,
+  "owner_rejection": "owner-not-needed-rejection.json",
+  "native_review_hidden": true,
+  "active_approved_source": "../home-auth-favorite-return-g2-r28/review-manifest.json"
+}

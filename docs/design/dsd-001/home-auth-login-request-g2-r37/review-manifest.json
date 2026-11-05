@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Current Login Request States G2-r37",
+  "status": "owner_accepted_four_current_Login_request_states_whole_G2_pending",
+  "phone_input_decision": "../home-auth-phone-input-decision.json",
+  "accepted_current_Login": "../home-auth-login-country-g2-r34/owner-Login-country-acceptance.json",
+  "source_pending_pattern": "../home-auth-register-request-review-r27/owner-request-states-acceptance.json",
+  "source_form_feedback_pattern": "../home-auth-google-g2-r18/owner-Google-error-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "uuYAg",
+  "native_comparison": "PNaVg",
+  "items": [
+    {
+      "key": "OTP_request_pending",
+      "source": "Nlwvr",
+      "modal": "wp6Gt"
+    },
+    {
+      "key": "OTP_request_known_connection_failure",
+      "source": "Nlwvr",
+      "modal": "TYi9y",
+      "feedback": "pdA40"
+    },
+    {
+      "key": "password_submit_pending",
+      "source": "yzbLX",
+      "modal": "fS0KD",
+      "also_applies_to": "explicit email/password branch with its appropriate identifier"
+    },
+    {
+      "key": "password_known_connection_failure",
+      "source": "yzbLX",
+      "modal": "F5y0ir",
+      "feedback": "XH6au",
+      "also_applies_to": "explicit email/password branch with its appropriate identifier"
+    }
+  ],
+  "proposed_behavior": {
+    "OTP_pending": "Initial Login-purpose code request from email Continue, before OTP entry. Inactive primary with spinner; temporarily inactive field/password alternative/Google/Register. Close remains available. No delivery/authentication guarantee.",
+    "OTP_failure": "Known connection cause only: เชื่อมต่อระบบขอรหัสไม่ได้ / กรุณาลองอีกครั้ง before primary; retained email and restored alternatives, explicit retry only.",
+    "password_pending": "Same pattern for phone/password and explicit email/password. Retain current identifier and masked draft; pause field/edit/forgot/submit. Close/back may leave without promising server rollback.",
+    "password_failure": "Known connection cause only: เชื่อมต่อระบบเข้าสู่ระบบไม่ได้ / กรุณาลองอีกครั้ง before primary; no invalid-field marker, retain values for explicit retry.",
+    "credential_rejection": "Accepted credential-pair error-r26 stays separate; do not turn every error into a connection cause.",
+    "Login_password": "Eight dots are fixture only; no new minimum8 rule on existing Login.",
+    "continuity": "Accepted modal dismissal/clear-all/Home origin rules retained; no recovery of cancelled favorite intent.",
+    "timing_provider": "No timeout/quota/provider/session/inbox guarantee or automatic retry selected."
+  },
+  "images": [
+    {
+      "native_id": "uuYAg",
+      "image": "uuYAg.png",
+      "width": 1136,
+      "height": 1404,
+      "sha256": "7386210d8f70baf7d05b41a93896831c4034a41610fe31c4984142de2d2d66c9"
+    },
+    {
+      "native_id": "PNaVg",
+      "image": "PNaVg.png",
+      "width": 1072,
+      "height": 1104,
+      "sha256": "aa43ab43dfd1b5e172528f95180f8b17bbb033e44ed738b5dea8840600f2398f"
+    },
+    {
+      "native_id": "wp6Gt",
+      "image": "wp6Gt.png",
+      "width": 520,
+      "height": 494,
+      "sha256": "bb607eab7590dbd4932d334a21c3dcd216445ae7a076ca76a434062d470a4de2"
+    },
+    {
+      "native_id": "TYi9y",
+      "image": "TYi9y.png",
+      "width": 520,
+      "height": 576,
+      "sha256": "deddb212d68bd74ae0d010d1d5c834677f394ecd93366b82f71aea9d0d3a2ce4"
+    },
+    {
+      "native_id": "fS0KD",
+      "image": "fS0KD.png",
+      "width": 520,
+      "height": 334,
+      "sha256": "5039b9d67df3409f39d2ae0f0bacf22907a2861c54775ed9f4b4803f55c2063f"
+    },
+    {
+      "native_id": "F5y0ir",
+      "image": "F5y0ir.png",
+      "width": 520,
+      "height": 416,
+      "sha256": "eb5bc6a010980938243f603460687cc6a43edde3ef0146518650a9f9acf81b2e"
+    }
+  ],
+  "question": "ใช้4สถานะส่งคำขอLoginตามภาพนี้ได้ไหมครับ? 1. ใช้ทั้ง4 2. ปรับตอนกำลังส่ง 3. ปรับตอนเชื่อมต่อไม่ได้",
+  "verification": {
+    "full_size_comparison_inspected": true,
+    "all_four_full_modal_screenshots_inspected": true,
+    "known_connection_feedback_before_primary_order_verified": true,
+    "source_PNG_hashes_verified_unchanged": 12,
+    "execute_warnings": [],
+    "observation": "Current forms render fully; spinner distinct from form-level known connection feedback, no false invalid field, phone/country retained and password masked. Static design only."
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_changed": false,
+  "state_library_count_unchanged": 54,
+  "UXD_002_changed": false,
+  "owner_acceptance": "owner-Login-request-states-acceptance.json"
+}

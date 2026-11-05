@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "ไปทบทวนอันเก่าด้วย",
+  "status": "owner_requested_retrospective_Auth_error_consistency_review",
+  "scope_interpretation": "Earlier Home Auth Desktop designs in this ongoing task, using newest field-local error clarification. Review historical studies without restoring superseded default flows.",
+  "placement_rule": "../home-auth-register-input-errors-g2-r25/owner-input-placement-clarification.json",
+  "cause_rule": "../home-auth-register-reasons-g2-r24/owner-cause-clarification.json",
+  "new_r26_visuals_or_r25_approved_by_request": false,
+  "whole_G2_approved": false,
+  "frontend_or_backend_authorized": false
+}

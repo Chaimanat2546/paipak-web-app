@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth OTP G2-r14 / countdown only",
+  "status": "owner_accepted_countdown_only_visual_remaining_contracts_pending",
+  "owner_revision_request": "owner-revision-request.json",
+  "previous_draft": "../home-auth-otp-button-countdown-g2-r13/review-manifest.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "ug3fC",
+  "native_countdown_modal": "E3yBs",
+  "images": [
+    {
+      "native_id": "ug3fC",
+      "image": "ug3fC.png",
+      "sha256": "5510153234a1a372c9278142c1aeb9271f0781427914131493ebe91d461f8e05"
+    },
+    {
+      "native_id": "E3yBs",
+      "image": "E3yBs.png",
+      "sha256": "e1645ab563ce633878b4841e8ced6e526654238a3c9eea546091674d8234c8dc"
+    }
+  ],
+  "change": "removed separate wait feedback box; countdown remains in disabled button",
+  "fixture_display": "00:45, static fixture not actual wait duration",
+  "proposed_zero_behavior": "enable request button when authoritative restriction permits; no automatic send",
+  "verification": {
+    "separate_feedback_node_count": 0,
+    "screenshot_inspected": "E3yBs",
+    "observation": "No separate feedback box; six equal slots and countdown label fit without visible clipping.",
+    "execute_warnings": []
+  },
+  "actual_wait_duration_quota_provider_release_contract": "pending",
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_and_state_library_changed": false,
+  "UXD_002_changed": false,
+  "owner_countdown_only_acceptance": "owner-countdown-only-acceptance.json"
+}

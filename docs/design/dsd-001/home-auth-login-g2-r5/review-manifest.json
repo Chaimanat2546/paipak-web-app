@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Login G2-r5 / email OTP primary",
+  "status": "historical_source_current_Login_structure_accepted_in_r30_not_retroactive_r5_acceptance",
+  "policy_evidence": [
+    "../home-auth-otp-primary-amendment.json",
+    "../home-auth-email-otp-scope-decision.json",
+    "../home-auth-signup-password-retained-decision.json"
+  ],
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "JuAvP",
+  "native_first_step_scene": "iPF08",
+  "native_first_step_modal": "h3kJsC",
+  "native_comparison": "xjlMq",
+  "native_email_OTP": "JZ7qm",
+  "native_email_password_alternative": "mswk5",
+  "images": [
+    {
+      "native_id": "JuAvP",
+      "image": "JuAvP.png",
+      "sha256": "3466d1db5cda228bf76fdc97644dd73c8d9cfdb41adebb61f2165b4a79570dd1"
+    },
+    {
+      "native_id": "iPF08",
+      "image": "iPF08.png",
+      "sha256": "b245087c3f74d17c03918e76990eb17efb5e03720d5ec7673c1bc585d9b4d3c0"
+    },
+    {
+      "native_id": "h3kJsC",
+      "image": "h3kJsC.png",
+      "sha256": "ac286fe1d04959a1d29ca1056e2adddce0e6bca0baee8afa022ba3214d7a6788"
+    },
+    {
+      "native_id": "xjlMq",
+      "image": "xjlMq.png",
+      "sha256": "9bfeb56624ce7decf739ad39dd709b7b7f5969cfaba14334301d1fd901f8cfa4"
+    },
+    {
+      "native_id": "JZ7qm",
+      "image": "JZ7qm.png",
+      "sha256": "400965428432c76fe59af5d3fd36fa3cf8d4cd6d0addc6c496a81fdcafb56d95"
+    },
+    {
+      "native_id": "mswk5",
+      "image": "mswk5.png",
+      "sha256": "c7dfacd9e249c6ca6b39e77ce423dd876eda953d915811b6d512314d3e725501"
+    }
+  ],
+  "fixture_identifier": "tawan@example.com",
+  "review_scope": "Entry and email OTP core structure; password alternative provided for inspection. Remaining states and whole G2 pending.",
+  "phone_branch": "phone/password retained; no phone OTP or silent email resolution",
+  "code_length_expiry_resend_limits": "not selected; no fixed values depicted",
+  "verification": {
+    "screenshots_visually_inspected": [
+      "xjlMq.png",
+      "mswk5.png"
+    ],
+    "visual_observation": "No visible clipping or overflow in inspected modal screenshots.",
+    "native_geometry_diagnostic": "ctx.problems reports clipping for some auto-layout children despite complete rendered content; geometric diagnostic remains inconclusive and is not claimed clean."
+  },
+  "state_library_count_unchanged": 54,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "UXD_002_file_changed": false,
+  "retrospective_error_consistency_review": "../home-auth-error-audit-r26/review-manifest.json",
+  "later_field_placement_rule": "../home-auth-register-input-errors-g2-r25/owner-input-placement-clarification.json",
+  "current_structure_acceptance": "../home-auth-login-flow-g2-r30/owner-Login-structure-acceptance.json"
+}

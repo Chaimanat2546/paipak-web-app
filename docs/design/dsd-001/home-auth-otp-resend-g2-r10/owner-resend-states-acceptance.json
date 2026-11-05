@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "สองสถานะนี้โอเคไหมครับ? 1. รับทั้งคู่ แล้วตรวจกรณีส่งคำขอไม่สำเร็จต่อ 2. ปรับสถานะกำลังส่งคำขอ 3. ปรับสถานะพร้อมกรอกรหัสใหม่",
+  "status": "owner_accepted_resend_pending_and_ready_states",
+  "version": "Home Auth OTP G2-r10",
+  "reviewed_image": "Q3RKu.png",
+  "reviewed_image_sha256": "95e7585858f86a71ef98bdd8b5800c85b75421042f3b842975ce5cd0b5ab2f67",
+  "native_pending": "LRyGj",
+  "native_ready": "TiPIP",
+  "accepted_scope": {
+    "pending": "inline loading; digit slots/resend/password switch inactive during request; cancel/back/edit retained",
+    "ready": "clear six slots; focus first; await six-digit completion for automatic verification",
+    "acknowledgement": "ส่งคำขอแล้ว กรุณาตรวจสอบอีเมล",
+    "acknowledgement_scope": "generic request acceptance, not confirmed inbox delivery or account existence",
+    "acknowledgement_clear": "restore auto-verification helper when new entry begins",
+    "stale_requests": "ignore results after origin/cancel/edit has changed",
+    "no_automatic_resend": true
+  },
+  "expiry_resend_values_provider_approved": false,
+  "failure_states_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

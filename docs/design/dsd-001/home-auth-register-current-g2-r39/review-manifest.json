@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Current Register States G2-r39",
+  "status": "owner_accepted_four_displayed_current_Register_state_presentations",
+  "previous_acceptance": "../home-auth-recovery-request-g2-r38/owner-Recovery-request-states-acceptance.json",
+  "current_form_source": {
+    "native_id": "l93v3",
+    "acceptance": "../home-auth-register-country-labels-g2-r33/owner-country-labels-acceptance.json"
+  },
+  "pattern_acceptances": [
+    "../home-auth-register-input-errors-g2-r25/owner-register-inline-acceptance.json",
+    "../home-auth-register-request-review-r27/owner-request-states-acceptance.json",
+    "../home-auth-register-username-g2-r31/owner-Username-states-acceptance.json"
+  ],
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "sBLUo",
+  "native_overview": "k6ruuh",
+  "native_full_forms": "maO1J",
+  "items": [
+    {
+      "key": "submitting",
+      "modal": "vLCXH",
+      "crop": "ZxWNv"
+    },
+    {
+      "key": "known_connection_failure",
+      "modal": "NKyzd",
+      "crop": "ZZRKy",
+      "feedback": "dMUPg"
+    },
+    {
+      "key": "required_Username_and_phone",
+      "modal": "EoViL",
+      "crop": "sngij"
+    },
+    {
+      "key": "short_password_and_mismatch",
+      "modal": "VVLL4",
+      "crop": "D3KwV7"
+    }
+  ],
+  "presentation_notes": [
+    "Overview deliberately shows excerpts of relevant groups/actions; four full forms remain in the native details area and separate PNGs. Excerpts are not a new form layout.",
+    "Current Username English/digits helper and +66 country trigger reuse the accepted r33 form and approved flag asset. National phone fixture is illustrative, not parser/length policy.",
+    "Pending pauses fields, country selection, show-hide, Google and switch-to-Login; close remains available.",
+    "Connection cause is form-level before primary, retains current draft and offers explicit retry only when permitted; no false invalid input, account-creation or rollback assertion.",
+    "Required Username error replaces helper and phone error sits under the phone group. Password min8/mismatch errors sit under their inputs; no duplicate summary. Google remains independent of local signup field completeness.",
+    "Existing r31 character/min/max Username field examples remain references; no availability or unique-name validation added."
+  ],
+  "images": [
+    {
+      "native_id": "k6ruuh",
+      "image": "k6ruuh.png",
+      "width": 1136,
+      "height": 1279,
+      "sha256": "075459367be7bd1e9de6c8f566cbb2d5f19ef5633f686b13b62b430d0c795e6d"
+    },
+    {
+      "native_id": "vLCXH",
+      "image": "vLCXH.png",
+      "width": 520,
+      "height": 818,
+      "sha256": "5179d82090377ca9fbbeba5194281854d49ce94778307183fe2ab13e49dba0b3"
+    },
+    {
+      "native_id": "NKyzd",
+      "image": "NKyzd.png",
+      "width": 520,
+      "height": 900,
+      "sha256": "98e982c732ddbfe5c58061f0e8d6944847a626635a35ac00cb503400ca8b598d"
+    },
+    {
+      "native_id": "EoViL",
+      "image": "EoViL.png",
+      "width": 520,
+      "height": 845,
+      "sha256": "518f80201248ca1fe1b89743175990ede0c6486f956b04463619155491b301aa"
+    },
+    {
+      "native_id": "VVLL4",
+      "image": "VVLL4.png",
+      "width": 520,
+      "height": 872,
+      "sha256": "d3ef2571c61735739cc741433126f5e36718b7df0f0113435f050788d7a22fb8"
+    }
+  ],
+  "verification": {
+    "all_four_full_modal_screenshots_inspected": true,
+    "full_size_overview_inspected": true,
+    "current_fields_and_inline_placement_verified": true,
+    "old_Auth_PNG_hashes_verified_unchanged": 172,
+    "execute_warnings": [],
+    "limitation": "Static low-fi renders only, no runtime/keyboard/accessibility/contrast test."
+  },
+  "next_review_question": "ใช้ชุดสมัครสมาชิกนี้ได้ไหมครับ? 1. ใช้ทั้ง4สถานะ 2. ปรับกำลังสมัคร/เชื่อมต่อไม่ได้ 3. ปรับข้อความใต้ช่องกรอก",
+  "interaction_contract": "../home-auth-interaction-contract.md",
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_changed": false,
+  "state_library_count_unchanged": 54,
+  "UXD_002_changed": false,
+  "commit_push_or_deploy_authorized": false,
+  "owner_acceptance": "owner-Register-current-states-acceptance.json"
+}

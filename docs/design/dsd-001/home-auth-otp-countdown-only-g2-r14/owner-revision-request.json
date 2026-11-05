@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "3",
+  "question": "ต้องการแบบไหนครับ? 1. รับแบบนี้ 2. เปลี่ยนรูปแบบเวลาเป็น อีก45วินาที 3. เอากล่องแจ้งเตือนด้านบนออก เหลือเวลาในปุ่มอย่างเดียว",
+  "status": "owner_requested_removing_separate_wait_notice",
+  "selected_scope": "Remove separate wait feedback; retain countdown inside disabled resend button",
+  "actual_wait_duration_selected": false,
+  "fixture_only": "00:45 static illustration",
+  "revised_visual_approved": false,
+  "whole_G2_approved": false,
+  "frontend_or_backend_authorized": false
+}

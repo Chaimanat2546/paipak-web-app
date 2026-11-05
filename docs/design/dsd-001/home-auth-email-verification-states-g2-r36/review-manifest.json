@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Signup Email Verification States G2-r36",
+  "status": "owner_accepted_six_verification_purpose_state_adaptations_whole_G2_pending",
+  "previous_acceptance": "../home-auth-register-google-g2-r35/owner-Register-Google-return-acceptance.json",
+  "accepted_verification_entry_success": "../home-auth-email-verification-otp-g2-r20/owner-verification-screens-acceptance.json",
+  "accepted_invalid_reference": "../home-auth-error-audit-r26/owner-error-audit-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "OCQ2x",
+  "native_overview": "mrPVu",
+  "native_full_details": "eMKtx",
+  "items": [
+    {
+      "key": "checking",
+      "source": "PmCdx",
+      "modal": "nQ4yF",
+      "preview": "jNiwB"
+    },
+    {
+      "key": "expired",
+      "source": "iLmVt",
+      "modal": "s0dZ8",
+      "preview": "T4aFWG"
+    },
+    {
+      "key": "resend_pending",
+      "source": "LRyGj",
+      "modal": "lNeof",
+      "preview": "SUOUI"
+    },
+    {
+      "key": "resend_wait",
+      "source": "bFCHU",
+      "modal": "CsOgQ",
+      "preview": "NlG1Q"
+    },
+    {
+      "key": "resend_failed",
+      "source": "cZWL1",
+      "modal": "n8M20",
+      "preview": "CA57C"
+    },
+    {
+      "key": "verify_failed",
+      "source": "d0PtEH",
+      "modal": "LsUq3",
+      "preview": "wUuQS"
+    }
+  ],
+  "images": [
+    {
+      "native_id": "mrPVu",
+      "image": "mrPVu.png",
+      "width": 1136,
+      "height": 1389,
+      "sha256": "2a8a15eddf85742ad9a75fe7784eceb06b23346512651e5fbd3b0b9f54e5ccda"
+    },
+    {
+      "native_id": "nQ4yF",
+      "image": "nQ4yF.png",
+      "width": 520,
+      "height": 478,
+      "sha256": "b79a0db6c6b6ae203919a08c5d719cb9ec1d9934bc29d00f7150768b990668a7"
+    },
+    {
+      "native_id": "s0dZ8",
+      "image": "s0dZ8.png",
+      "width": 520,
+      "height": 453,
+      "sha256": "f3bc39f99ab88184a254ea0f1f16747e4ab1d3903958468b8b8e95295cbc85e9"
+    },
+    {
+      "native_id": "lNeof",
+      "image": "lNeof.png",
+      "width": 520,
+      "height": 490,
+      "sha256": "2f5dd24b9e06296986625a4d8d96a1cb84319c21d9dca943d4104ed4a134dd9a"
+    },
+    {
+      "native_id": "CsOgQ",
+      "image": "CsOgQ.png",
+      "width": 520,
+      "height": 450,
+      "sha256": "862c0f10640b9c81a473c18eb8b55d55c283f4d2ca30c87efab8d2e53ac04bfb"
+    },
+    {
+      "native_id": "n8M20",
+      "image": "n8M20.png",
+      "width": 520,
+      "height": 490,
+      "sha256": "f8501421157d6761745dbd2710c9ed22dcdf1fb272513daa340b31cdfc87f3d5"
+    },
+    {
+      "native_id": "LsUq3",
+      "image": "LsUq3.png",
+      "width": 520,
+      "height": 566,
+      "sha256": "c1fa030354fa868500b9a4767917ec24690d74699eb88ac1269f3b59bbbdf149"
+    }
+  ],
+  "proposed_behavior": {
+    "purpose": "Only local-signup email verification for the current account/email; no change-email, password alternative or additional Google verification.",
+    "shared_input": "Retain selected six slots, auto advance/check at completion, paste/extraction/quiet-ignore and Backspace behavior. Six-digit completion alone is not verified success.",
+    "checking": "Temporarily inactive code/resend during check, spinner/status; use-first/back/close remain exit paths without promising server rollback.",
+    "expired": "Clear/inactivate code, expiry reason inline at code group, explicit request-new action; no invented expiry duration.",
+    "resend_pending": "Temporary request-pending slots/action and progress status; no duplicate sends or delivery guarantee.",
+    "resend_wait": "Current accepted-code input active; disabled resend countdown inside button only, no separate wait notice. 00:45 is fixture, not an approved wait duration.",
+    "resend_failed": "Request-new attempt after no usable current code fails: slots remain inactive, form-level send failure and explicit send retry. Do not mark email/OTP invalid without that cause.",
+    "verify_failed": "Indeterminate/service check failure retains code, form-level message and explicit check retry; not a confirmed wrong-code error and no automatic retry loop.",
+    "use_first": "Visible/available in every displayed state, returns to active Home origin without the action itself marking email verified; actual operation outcome remains authoritative.",
+    "references_not_reapproved": "Entry/success-r20 and inline invalid-r26 already accepted; not reopened or silently altered.",
+    "timing_provider_boundary": "No new cooldown/lifetime/quota/provider/cancellation/session policy selected. Google accounts bypass local verification as already decided."
+  },
+  "question": "ใช้6สถานะยืนยันอีเมลตามภาพนี้ได้ไหมครับ? 1. ใช้ทั้ง6สถานะ 2. ปรับข้อความแจ้งสถานะ 3. ปรับปุ่มหรือทางใช้งานก่อน",
+  "verification": {
+    "overview_full_size_inspected": true,
+    "all_six_full_modal_screenshots_inspected": true,
+    "purpose_titles_and_use_first_count": "Each full modal has one ยืนยันอีเมล title and one ใช้งานก่อน action.",
+    "forbidden_Login_edit_password_copy_count": 0,
+    "source_png_hashes_verified_unchanged": 35,
+    "execute_warnings": [],
+    "observation": "Six adapted modals and grouped crops render completely, current email retained without edit, use-first visible, expiry inline and request/check service failures form-level. Static design, not runtime/keyboard/contrast certification."
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_changed": false,
+  "state_library_count_unchanged": 54,
+  "UXD_002_changed": false,
+  "owner_acceptance": "owner-verification-states-acceptance.json"
+}

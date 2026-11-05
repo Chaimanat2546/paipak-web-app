@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Register Input Errors G2-r25",
+  "status": "owner_accepted_both_displayed_inline_only_register_validation_examples_whole_G2_pending",
+  "owner_placement_amendment": "owner-input-placement-clarification.json",
+  "retained_rules_acceptance": "../home-auth-register-validation-g2-r21/owner-register-validation-acceptance.json",
+  "previous_cause_request": "../home-auth-register-reasons-g2-r24/owner-cause-clarification.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "m4q4G",
+  "native_comparison": "lFRIn",
+  "native_required": "RBIcZ",
+  "native_password": "NmXhR",
+  "images": [
+    {
+      "native_id": "m4q4G",
+      "image": "m4q4G.png",
+      "sha256": "79340e804b3846ab9e4abcc1f550cbecb05470b7a927698f9507f2218fc0756c"
+    },
+    {
+      "native_id": "lFRIn",
+      "image": "lFRIn.png",
+      "sha256": "b8ee7d4a1464c066dc9a0f279a3b218e51a5562c753cf7441e7c2484addb6349"
+    },
+    {
+      "native_id": "RBIcZ",
+      "image": "RBIcZ.png",
+      "sha256": "b37aa3341c2c1b0da29dcc8587798730d75df5c8e9fc53cbccd40d6d4b155917"
+    },
+    {
+      "native_id": "NmXhR",
+      "image": "NmXhR.png",
+      "sha256": "6ff2b4e1e70f12226f28f86a75fd3418f3981345c35ca0d4b310951effaf1f9b"
+    }
+  ],
+  "change": "Remove duplicate pre-submit summaries from required/password examples. Retain specific reason immediately under each affected input.",
+  "retained_inline_messages": [
+    "กรุณากรอก Username",
+    "กรุณากรอกเบอร์โทรศัพท์",
+    "รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร",
+    "รหัสผ่านไม่ตรงกัน"
+  ],
+  "other_content": "All fields/fixtures/actions/business rules unchanged from r21 copies",
+  "verification": {
+    "native_summary_banners_remaining": 0,
+    "native_inline_messages_verified": true,
+    "screenshot_inspected": "lFRIn",
+    "observation": "Only field-specific inline errors remain; no separate field-error box before primary. Both modals fit without visible clipping.",
+    "execute_warnings": []
+  },
+  "r24_connection_state_approved": false,
+  "r23_submitting_state_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "state_library_count_unchanged": 54,
+  "main_Home_changed_by_this_revision": false,
+  "UXD_002_changed": false,
+  "owner_acceptance": "owner-register-inline-acceptance.json"
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "gate": "G0",
+  "plan_version": "Home Auth Desktop G0 plan-1",
+  "owner_quote": "1",
+  "question": "อนุมัติแผนนี้ไหมครับ? 1. อนุมัติ G0 รุ่น1 — เพิ่มขอบเขตตามนี้ แล้วเริ่มตกลงรายละเอียดฟอร์ม 2. ปรับแผนก่อน — แก้ขอบเขตหรือลำดับงาน 3. พัก Auth ไว้ก่อน — กลับไปตรวจข้ออื่นของ Home",
+  "status": "owner_approved_G0_plan_1_bounded_Home_Auth_Desktop_supplement",
+  "reviewed_plan_archive": "home-auth-g0-plan-1-reviewed.md.txt",
+  "reviewed_plan_sha256": "062afd6a6697b1acfc31b228472c40950bcb54cf50e0de5aeba8ba8f8f2c497c",
+  "scope": [
+    "Home Desktop1440 modal from Header login and Guest heart",
+    "Email/password and Google",
+    "Login, register and forgot/reset password flows",
+    "Relevant states, flow/field/interaction specification and version review"
+  ],
+  "task_scope_addendum_approved": true,
+  "next_step": "Discuss registration data and other listed UX decisions one at a time before form layout; then G2 and G3 per approved plan",
+  "approved_direction": "A / Holiday Panorama / review-2; current Home branding preserved",
+  "unresolved_design_decisions": [
+    "Registration fields and which are required",
+    "Password/email verification policies affecting UI",
+    "Email reset-link flow details",
+    "Google return/cancel/failure presentation",
+    "Focus/keyboard/Hero pause and provider system contracts"
+  ],
+  "UID_005_started": false,
+  "UXD_002_review_5_approved_or_modified": false,
+  "DSD_002_started": false,
+  "final_visual_approval": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "mobile_authorized": false,
+  "commit_push_authorized": false,
+  "task_complete": false
+}

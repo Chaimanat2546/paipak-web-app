@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "task": "DSD-001",
+  "owner_quote": "ปกติเขาไว้แบบนี้หรอ",
+  "status": "owner_asked_about_placement_not_an_approval_or_explicit_rejection",
+  "previous_draft": "../home-auth-login-states-g2-r1/W6UVRW.png",
+  "primary_source": "https://www.w3.org/WAI/tutorials/forms/notifications/",
+  "read_via": "Live Firecrawl targeted retrieval",
+  "source_guidance": "Overall feedback can be listed prominently before the form; inline feedback at or near specific controls. Tutorial does not mandate one position for Login credentials errors.",
+  "design_inference": "Offer above-fields form-level feedback as A; not a claim that WAI mandates it for all Login screens.",
+  "current_position_not_declared_unusual_or_prohibited": true,
+  "actual_websites_frequency_not_measured": true,
+  "owner_selected_placement": null
+}

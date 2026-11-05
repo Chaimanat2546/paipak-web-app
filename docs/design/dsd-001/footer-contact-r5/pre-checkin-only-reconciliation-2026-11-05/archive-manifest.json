@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-05",
+  "reason": "Owner Search check-in-only rule amendment; freeze prior Home-r20 published document bytes",
+  "approval_record": "../owner-home-acceptance.json",
+  "files": [
+    {
+      "source": "docs/design/dsd-001/visual-direction.md",
+      "archive": "visual-direction.md.txt",
+      "sha256": "8d9e46bd71184ff947afea5e2b34eb1c353ffacde367bf03697b39b9b42e17f3",
+      "bytes": 18982
+    },
+    {
+      "source": "docs/design/dsd-001/token-sheet.md",
+      "archive": "token-sheet.md.txt",
+      "sha256": "f8b219fffaa810cc1a2908704df6d853b883b228022fcca1978c9729c745d1f6",
+      "bytes": 23201
+    },
+    {
+      "source": "docs/design/dsd-001/typography-spec.md",
+      "archive": "typography-spec.md.txt",
+      "sha256": "776092de329dde10b239766ab4362414da66915c7178232dd346ea33a8768ef6",
+      "bytes": 17447
+    },
+    {
+      "source": "docs/design/dsd-001/responsive-visual-guidelines.md",
+      "archive": "responsive-visual-guidelines.md.txt",
+      "sha256": "e3336476b44e0e25a24a0e4dbabfac4179c9617eb80387fbc934521efbeebbcc",
+      "bytes": 21600
+    },
+    {
+      "source": "docs/design/dsd-001/hero-banner-carousel-spec.md",
+      "archive": "hero-banner-carousel-spec.md.txt",
+      "sha256": "1d39a37b165523087f49458525b46d6a8955b5f1905d4067f2426a0ac6896ef7",
+      "bytes": 17262
+    },
+    {
+      "source": "docs/design/dsd-001/footer-contact-r5/README.md",
+      "archive": "README.md.txt",
+      "sha256": "2144e3214846060a9b4d4ae80508d71881a5b688209d0896eec1656fedaef6ee",
+      "bytes": 5440
+    }
+  ]
+}

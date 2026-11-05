@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "version": "Owner assets-r1.3 / Header actual recipient, bank and account number",
+  "status": "pending_owner_visual_version_review_content_already_confirmed",
+  "authorization": "owner-content-confirmation.json",
+  "specification": "brand-and-transfer-spec.md",
+  "asset_manifest": "asset-manifest.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "WHN8T",
+  "native_Home": "Wgw2h",
+  "native_Header": "KEBjP",
+  "native_Footer": "L3Fop2",
+  "native_logo_variants": "w1bhDv",
+  "native_transfer_module": "yIVr1",
+  "previous_accepted_Home_retained": "a8kei",
+  "images": [
+    {
+      "native_id": "KEBjP",
+      "image": "KEBjP.png",
+      "sha256": "6a42319fab05b2a5c844c4e96bf179f10973bd5c90788adc1a01b1ff798f30ab"
+    },
+    {
+      "native_id": "L3Fop2",
+      "image": "L3Fop2.png",
+      "sha256": "11d2e7b9b1e4869307547e6cc70bc696a0557fda6f430c1cfa40d4801c847a1e"
+    },
+    {
+      "native_id": "w1bhDv",
+      "image": "w1bhDv.png",
+      "sha256": "cc6b758f299b84266377c3cb36803ae4227755f9599609572bfc0cbfbfbe1c8e"
+    },
+    {
+      "native_id": "yIVr1",
+      "image": "yIVr1.png",
+      "sha256": "39019df9e257b8b89bc4f523d12bedd1f7540479afb6274278991765d9a7cc20"
+    },
+    {
+      "native_id": "Wgw2h",
+      "image": "Wgw2h.png",
+      "sha256": "e1ce6d20c01ad1d2639df133d44fea64f53d32259034ccc61bcd8484fb4ffd4c"
+    }
+  ],
+  "verification": {
+    "source_and_new_Home_section_count": 13,
+    "unchanged_non_Header_Footer_sections": 11,
+    "comparison": "Normalized native schema equality, ignoring node IDs only",
+    "header_height_px": 128,
+    "old_placeholder_transfer_notice_removed": false,
+    "bank_texts_checked_against_owner_image": true,
+    "original_asset_bytes_retained": true,
+    "screenshots_inspected": [
+      "KEBjP",
+      "L3Fop2",
+      "w1bhDv",
+      "yIVr1"
+    ],
+    "native_execute_warnings": [],
+    "original_header_notice_restored": true,
+    "header_logo_display_px": [
+      72,
+      64
+    ],
+    "restored_notice_native_id": "bjmyt",
+    "actual_recipient_filled_in_header": true,
+    "header_notice_contains_placeholder_dots": false,
+    "actual_bank_name_and_number_in_header": true,
+    "native_bank_line": "R9bDQ"
+  },
+  "approved_old_images_or_acceptance_records_modified": false,
+  "Auth_work_modified": false,
+  "state_library_modified": false,
+  "UXD_002_modified": false,
+  "full_checkout_design_started": false,
+  "whole_DSD_001_complete": false,
+  "new_visual_approved": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "runtime_verified": false,
+  "header_notice_correction": "header-notice-correction.json",
+  "latest_header_data_correction": "header-bank-details-addition.json",
+  "header_preview_alias": "header-bank-details.png"
+}

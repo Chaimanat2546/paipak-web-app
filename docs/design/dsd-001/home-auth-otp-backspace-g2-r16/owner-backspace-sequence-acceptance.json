@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "ลำดับนี้ตรงไหมครับ? 1. ตรงตามนี้ ไปข้อต่อไป 2. การถอยตอนลบยังไม่ตรง 3. ตำแหน่งพิมพ์ต่อยังไม่ตรง",
+  "status": "owner_accepted_displayed_backspace_then_type_sequence",
+  "version": "Home Auth OTP Input G2-r16",
+  "reviewed_image": "Im1AA.png",
+  "reviewed_image_sha256": "ca9db172f5290a4227a42127936bcfdb71c71a756601cd6143e5ed0ef3c6fe6d",
+  "accepted_state_sequence": [
+    {
+      "digits": [
+        "1",
+        "2",
+        "3",
+        "",
+        "",
+        ""
+      ],
+      "focus_slot": 3
+    },
+    {
+      "digits": [
+        "1",
+        "2",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "focus_slot": 2,
+      "next_typing_target": 3
+    },
+    {
+      "digits": [
+        "1",
+        "2",
+        "7",
+        "",
+        "",
+        ""
+      ],
+      "focus_slot": 4
+    }
+  ],
+  "scope": "Static sequence showing filled-slot deletion, back movement, then next typed digit in cleared slot and forward advance.",
+  "Delete_navigation_autofill_malformed_paste_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

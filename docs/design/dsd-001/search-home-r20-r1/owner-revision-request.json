@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "checklist_item": "C1.1",
+  "version": "Search Home-r20-r1 / location open",
+  "owner_quote": "2",
+  "question": "รับภาพเปิดช่องสถานที่นี้ไหมครับ? 1. รับภาพนี้ แล้วตรวจช่องวันที่ต่อ 2. ปรับหน้าตาหรือตำแหน่งแผง ให้อ่านและใช้ง่ายขึ้น 3. ดูตอนพิมพ์/เลือกสถานที่ก่อน แล้วค่อยตัดสินใจ",
+  "selected_option": "ปรับหน้าตาหรือตำแหน่งแผง",
+  "status": "returned_for_local_visual_revision_not_accepted",
+  "specific_new_style_selected": false,
+  "scope": "Revise C1.1 location panel presentation within existing Home/brand/search UX; compare local visual alternatives before owner choice",
+  "next_item_authorized_by_answer": false,
+  "frontend_authorized": false
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-05",
+  "task": "DSD-001",
+  "version": "Home Auth acknowledgement G2-r2",
+  "status": "owner_accepted_with_requested_action_removed",
+  "owner_acceptance": "owner-acknowledgement-acceptance.json",
+  "native_modal": "IvrCQ",
+  "native_holder": "z2czjz",
+  "current_native_board": "n2gWyS",
+  "image": "IvrCQ.png",
+  "image_sha256": "83bb2d2f27eac1cf581dffc03eb56e50d0e9c9509e2a3b814d5743d5cf7832cc",
+  "old_native_modal_retained_in_archive": "z5EJtN",
+  "next_review": "../home-auth-recovery-g2-r1/ZsOMo.png",
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

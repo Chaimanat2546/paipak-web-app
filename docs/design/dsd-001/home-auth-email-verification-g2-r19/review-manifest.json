@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth G2-r19 / dismissible email verification reminder",
+  "status": "owner_accepted_email_signup_reminder_visual_method_and_whole_G2_pending",
+  "authorization": "../home-auth-g0-approval.json",
+  "owner_policy_evidence": "../home-auth-email-verification-decision.json",
+  "previous_review_acceptance": "../home-auth-google-g2-r18/owner-Google-error-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "zZbIa",
+  "native_reminder": "vDPf8",
+  "images": [
+    {
+      "native_id": "zZbIa",
+      "image": "zZbIa.png",
+      "sha256": "e09873f5aae996f62d57ad5da490e3e95f56df6e4932dd6b1773ac3762e84d4c"
+    },
+    {
+      "native_id": "vDPf8",
+      "image": "vDPf8.png",
+      "sha256": "cc27374f3f361f272dc1d45f81579c4ad9a0afa56c925986dcb4d0f0d239bd3f"
+    }
+  ],
+  "review_scope": "Dismissible prompt after local email signup only; not the verification method/provider or Google/OTP Login verification policy.",
+  "proposed_behavior": {
+    "title": "สมัครสมาชิกสำเร็จ",
+    "verify_now": "Owner selected email OTP six digits; next OTP/success screens pending in r20",
+    "later_or_close": "dismiss and return to active Home origin without blocking account entry",
+    "verification_flag": "remains unverified after dismissal; request/dismissal not proof of verified email",
+    "later_entry_handoff": "Account area must offer user-initiated email verification; current text is handoff requirement, not an authored Account page/route",
+    "repeat_schedule": "not selected; no forced recurring modal inferred",
+    "origin": "preserve still-active Home selections within uninterrupted flow only"
+  },
+  "verification_method_selected": true,
+  "mail_send_timing_provider_session_or_delivery_verified": false,
+  "Google_or_OTP_Login_policy_changed": false,
+  "Booking_verification_gate_changed": false,
+  "fixture_identifier": "tawan@example.com, no real account",
+  "verification": {
+    "previous_reviewed_png_hashes_match": true,
+    "screenshot_inspected": "vDPf8",
+    "observation": "Consistent520px Auth modal with success title, email fixture, verify-now and use-first actions plus close; no visible clipping.",
+    "execute_warnings": []
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "Profile_Account_task_started": false,
+  "state_library_count_unchanged": 54,
+  "main_Home_changed_by_this_revision": false,
+  "UXD_002_changed": false,
+  "Google_exclusion_owner_clarification": "../home-auth-google-no-extra-email-verification.json",
+  "prompt_applies_only_to": "local email/password signup",
+  "prompt_excludes": [
+    "Google signup",
+    "Google Login"
+  ],
+  "native_scope_note": "tmk7i",
+  "owner_reminder_acceptance": "owner-reminder-acceptance.json",
+  "verification_method": "email_OTP_six_digits",
+  "verification_method_decision": "../home-auth-email-verification-otp-decision.json",
+  "next_screen_review": "../home-auth-email-verification-otp-g2-r20/review-manifest.json"
+}

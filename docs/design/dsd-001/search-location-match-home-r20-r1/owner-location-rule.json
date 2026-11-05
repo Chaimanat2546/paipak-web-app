@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "checklist_item": "C1.5-Q1",
+  "owner_quote": "3",
+  "question": "ถ้าพิมพ์ พั แต่ไม่เลือกพัทยาจากคำแนะนำ แล้วกดค้นหา ให้ทำอย่างไรครับ? 1. ใช้ข้อความที่พิมพ์ค้นหาต่อ ไม่บังคับเลือกคำแนะนำ 2. ต้องเลือกจากคำแนะนำก่อน เพื่อระบุพื้นที่ให้ชัด 3. ชื่อตรงพื้นที่ใช้ได้เลย ถ้าไม่ตรงให้เลือกคำแนะนำก่อน",
+  "selected_option": "Recognized matching area name may submit without another suggestion click; otherwise require an explicit suggestion selection",
+  "status": "owner_confirmed_location_name_resolution_rule",
+  "scope": "Nonempty Search location text only. Empty location stays optional. Category shortcuts retain category-only behavior",
+  "recognized_name_can_submit_without_suggestion_click": true,
+  "unrecognized_or_partial_text_requires_selection": true,
+  "choose_first_suggestion_automatically": false,
+  "unrestricted_free_text_search_approved": false,
+  "other_criteria_preserved": true,
+  "remaining_data_contracts": ["authoritative supported-area names", "aliases and normalization", "duplicate or ambiguous names", "zero suggestions", "actual query keys and ranking"],
+  "presented_context_image": "../search-handoff-home-r20-r1/RhfPI.png",
+  "presented_context_sha256": "44d399837692b663ab582cb1dd1aeb9948e8d5649df82d820b8b6fcf68b0b056",
+  "diagram_or_revised_visual_approved_by_this_choice": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

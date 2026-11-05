@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Current Login Structure G2-r30",
+  "status": "owner_accepted_current_Login_structure_and_routes_whole_G2_pending",
+  "scope": "Current Login entry/Email OTP/explicit email password/phone password structure and navigation only, retaining selected methods; not whole G2.",
+  "owner_continue_quote": "โอเค ไปข้อต่อไป",
+  "rejected_favorite_error_UI_remains_withdrawn": "../home-auth-favorite-result-g2-r29/owner-not-needed-rejection.json",
+  "method_decisions": [
+    "../home-auth-otp-primary-amendment.json",
+    "../home-auth-email-otp-scope-decision.json",
+    "../home-auth-phone-login-amendment.json"
+  ],
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "g43q8y",
+  "native_comparison": "LnXw4",
+  "items": [
+    {
+      "key": "entry",
+      "modal": "dFI8d",
+      "source": "d0mD4f"
+    },
+    {
+      "key": "email_OTP",
+      "modal": "bFCHU",
+      "source": "ynlC3",
+      "countdown_control_source": "hmU0L",
+      "countdown_copy": "k9yw9"
+    },
+    {
+      "key": "explicit_email_password",
+      "modal": "mmSkV",
+      "source": "mswk5"
+    },
+    {
+      "key": "phone_password",
+      "modal": "q6GNt",
+      "source": "mswk5"
+    }
+  ],
+  "reconciliation": {
+    "entry": "Email/phone single identifier and Google retained. Continue routes email to OTP and phone to password. Explicit password choice routes to the applicable password branch.",
+    "OTP": "Normal active six-slot entry from r7, auto verification at six digits. Put behavioral instruction with the entry text, remove separate instruction/status row; copy accepted countdown-only resend control, not the inactive expired-slot state of r14. 00:45 is a design fixture.",
+    "email_password": "Existing explicit email/password alternative retained, including switch to email OTP.",
+    "phone_password": "Phone fixture substituted in password branch and email-OTP switch removed; no SMS/phone OTP. Forgot action follows accepted email-link recovery, not a new phone recovery flow.",
+    "back_edit": "Back/edit returns to identifier entry with current identifier in active flow; no OTP request merely by going back or editing. Method-specific input belongs to the appropriate active form, not recovered after reload.",
+    "Google": "Entry from first modal; accepted Login cancellation-r17 and failure-r18 retained. Register return layouts are not approved by this structure review.",
+    "success": "Preserve existing Home origin and accepted favorite continuation only where applicable; no save-success claim solely from Auth success."
+  },
+  "images": [
+    {
+      "native_id": "g43q8y",
+      "image": "g43q8y.png",
+      "width": 1136,
+      "height": 1277,
+      "sha256": "c8f9cdefab41bbdd9d7e325768e59901b265531166d50eeb475b1b77c0bdfd0a"
+    },
+    {
+      "native_id": "LnXw4",
+      "image": "LnXw4.png",
+      "width": 1072,
+      "height": 992,
+      "sha256": "b779bee6cd47032b4f5c951927d84965ca148c20ae3f91f15c1c03e1c06b8f2f"
+    },
+    {
+      "native_id": "dFI8d",
+      "image": "dFI8d.png",
+      "width": 520,
+      "height": 494,
+      "sha256": "ac286fe1d04959a1d29ca1056e2adddce0e6bca0baee8afa022ba3214d7a6788"
+    },
+    {
+      "native_id": "bFCHU",
+      "image": "bFCHU.png",
+      "width": 520,
+      "height": 450,
+      "sha256": "29785811f5ea0172003782c4cc249e75b83195fcb5910c1b2b570d477db3206a"
+    },
+    {
+      "native_id": "mmSkV",
+      "image": "mmSkV.png",
+      "width": 520,
+      "height": 386,
+      "sha256": "c7dfacd9e249c6ca6b39e77ce423dd876eda953d915811b6d512314d3e725501"
+    },
+    {
+      "native_id": "q6GNt",
+      "image": "q6GNt.png",
+      "width": 520,
+      "height": 334,
+      "sha256": "d8fe6232711aa40b4d81bf7582390345363b9acbd4ab047be42a615dce1e3cde"
+    }
+  ],
+  "question": "โครงและทางไปต่อ/ย้อนกลับชุดนี้ใช้ได้ไหมครับ? 1. ใช้ตามนี้ 2. ปรับช่องแรก 3. ปรับหน้า OTP หรือรหัสผ่าน",
+  "verification": {
+    "full_size_comparison_inspected": true,
+    "final_root_screenshot_inspected": true,
+    "OTP_slots_active_reference_verified": 6,
+    "OTP_confirmation_button": false,
+    "phone_branch_email_OTP_action_count": 0,
+    "countdown_separate_wait_notice": false,
+    "source_export_hashes_verified_unchanged": 16,
+    "source_export_images": [
+      "home-auth-login-g2-r5/JuAvP.png",
+      "home-auth-login-g2-r5/iPF08.png",
+      "home-auth-login-g2-r5/h3kJsC.png",
+      "home-auth-login-g2-r5/xjlMq.png",
+      "home-auth-login-g2-r5/JZ7qm.png",
+      "home-auth-login-g2-r5/mswk5.png",
+      "home-auth-login-g2-r6/Cnd8Z.png",
+      "home-auth-login-g2-r6/CqdcY.png",
+      "home-auth-login-g2-r6/d0mD4f.png",
+      "home-auth-login-g2-r6/IRBZ2.png",
+      "home-auth-otp-auto-g2-r7/wCZid.png",
+      "home-auth-otp-auto-g2-r7/hkVe5.png",
+      "home-auth-otp-auto-g2-r7/ynlC3.png",
+      "home-auth-otp-auto-g2-r7/PmCdx.png",
+      "home-auth-otp-countdown-only-g2-r14/ug3fC.png",
+      "home-auth-otp-countdown-only-g2-r14/E3yBs.png"
+    ],
+    "execute_warnings": [],
+    "observation": "Four complete forms visible, no visible clipped copy; normal OTP slots retained and phone branch has no email-OTP switch. Static design only."
+  },
+  "OTP_wait_duration_or_provider_selected": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "state_library_count_unchanged": 54,
+  "main_Home_changed": false,
+  "UXD_002_changed": false,
+  "owner_acceptance": "owner-Login-structure-acceptance.json"
+}

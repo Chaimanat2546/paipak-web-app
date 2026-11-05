@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "แล้วไม่เอาไว้ที่เดียวกับอีกอัน",
+  "status": "owner_requested_consistent_Auth_error_location",
+  "request": "Place Google failure feedback in the same place as the other Auth error",
+  "agent_interpretation": "Use the previously selected C pattern: below current form fields, before the primary action. In this entry form, after identifier field group and before Continue.",
+  "pattern_evidence": "../home-auth-login-error-placement-g2-r2/owner-C-selection.json",
+  "scope": "Google Login failure placement only; not a silent global rollout to every form/state",
+  "revised_visual_approved": false,
+  "Google_cancelled_state_approved": false,
+  "whole_G2_approved": false,
+  "frontend_or_backend_authorized": false
+}

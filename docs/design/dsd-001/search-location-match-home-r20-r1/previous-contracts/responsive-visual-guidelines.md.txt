@@ -1,0 +1,126 @@
+# DSD-001 — Responsive visual guidelines
+
+> ข้อเปลี่ยนSearchวันที่5พฤศจิกายน2026: [เจ้าของยืนยันวันเข้าอย่างเดียวค้นหาได้](search-checkin-only-home-r20-r1/owner-rule-change.json) ไม่ใช้missing-checkout validationเพื่อขวางSearch ไม่เติมวันออก/จำนวนคืนเอง กฎวันจองยังเดิม [รับภาพเฉพาะC1.4แล้ว](search-checkin-only-home-r20-r1/owner-visual-acceptance.json) ไม่รับSearchรวม [published documents Home-r20ก่อนแก้](footer-contact-r5/pre-checkin-only-reconciliation-2026-11-05/README.md) เก็บhashเดิมครบ ไม่เปลี่ยนการรับรุ่นเก่าย้อนหลัง
+
+> เจ้าของรับHome Desktop-r20พร้อมFooter-contact-r5และFAQ-r4ในขอบเขตDesktopพร้อมข้อค้างเดิมแล้ว ดู [หลักฐาน](footer-contact-r5/owner-home-acceptance.json) บัญชีFB/TikTokยังเป็นfixturesไม่มีURLจริง ฉบับHome-r19ก่อนเพิ่มช่องทางเก็บใน [archive](home-faq-r4/pre-social-footer-reconciliation-2026-11-05/README.md) ไม่ปิดDSD-001ทั้งTaskหรืออนุญาตFrontend/backend/runtime/จออื่น
+
+
+รุ่น foundation-3-desktop + Home-r20 supplements · 5 พฤศจิกายน 2026 · A / Holiday Panorama / review-2
+
+**ฐานDesktop1440pxอ้าง Home-r15ที่รับแล้ว; Heroภาพสำเร็จรูปในHome-r16รับพร้อมข้อค้างแล้ว; widthอื่นยังไม่รับรอง** เจ้าของพักMobileเพื่อโฟกัสDesktop จึงไม่สร้างหรือปรับMobile/Tablet screensใหม่ และไม่ใช้matrixหรือcompositionของBเป็นcurrent A approval
+
+## ขอบเขตการรับรอง
+
+| พื้นที่ | สถานะ |
+| --- | --- |
+| Home1440×6091 | รับappearanceรวม Home-r15; ความสูงมาจากเนื้อหาตัวอย่าง ไม่ใช่fixed page height |
+| แผงภาษา/ติดต่อใน1440×900 | ใช้panelที่รับแล้วในบริบทDesktopเดียวกัน |
+| Desktop1280/1536และจอระหว่างค่า | แนวทาง/การคำนวณเพื่อเตรียมตรวจ ไม่ใช่ภาพที่เจ้าของอนุมัติ |
+| Tablet/Mobileและภาพเก่า390px | อยู่นอกการตรวจDesktopรอบนี้; Mobileพักไว้ ไม่อนุมัติเพิ่ม |
+| UXD-002 review-5 | คงร่างเดิมรอตรวจ ไม่แก้จากเอกสารนี้ |
+
+## Frameและdensityปัจจุบัน
+
+ที่1440px Headerสูง124pxและHero470px ตามด้วยcategory strip94px เนื้อหาแถวบ้านมีขอบซ้ายขวา56px =1328px การ์ด314px/gap24px แสดงเต็ม4ใบในแต่ละviewportแนวนอน แถวหนึ่งไม่wrapเป็นหลายแถวเพียงเพราะtrackมีหลายใบ
+
+เจ็ดหมวดคงเดิม: แนะนำ ใกล้ทะเล สายปาร์ตี้ ราคาพิเศษ Outing Pet Friendly Luxury แถวPet Friendlyมี6fixtures ส่วนแถวอื่น8fixturesเพื่อศึกษา ไม่ใช่จำนวนcatalogจริง
+
+แนวทางสำหรับDesktopอื่นคือหาจำนวนการ์ดที่อ่านได้จากพื้นที่จริง ไม่ย่อชื่อ/ราคา/targetเพื่อฝืน4ใบ สูตรศึกษา: C=W−2G และ card=(C−(n−1)×24)/n ค่าmin250pxยังเป็นข้อเสนอจากfoundationเดิม ไม่ใช่การรับรองทุกจอ
+
+| Viewport | Gutterต่อด้าน | พื้นที่C | จำนวนเห็นเต็ม | cardโดยคำนวณ | สถานะ |
+| ---: | ---: | ---: | ---: | ---: | --- |
+| 1280 | 48 | 1184 | 4 | 278 | Proposed ไม่มีภาพตรวจ |
+| 1440 | 56 | 1328 | 4 | 314 | Native Home-r15ที่รับ |
+| 1536 | 64 | 1408 | 4 | 334 | Proposed ไม่มีภาพตรวจ |
+
+ถ้าCต่ำกว่า1072pxซึ่งใส่4ใบขั้นต่ำ250pxกับgap24ไม่พอ ให้ทบทวนจำนวนที่เห็นเต็มโดยคงtrackและข้อมูล ไม่ถือว่าสูตรนี้อนุมัติbreakpoint/hamburgerหรือMobilepatternใหม่ Resultsที่มีsidebarต้องหักsidebar/gapก่อนคำนวณ เป็นอีกtemplate ไม่เอาHome railไปแทนResults grid
+
+## A heroและHeader
+
+- ใช้ภาพสำเร็จรูปรวมพื้นหลังและตัวหนังสือต่อสไลด์ ไม่มีหัวเรื่อง/คำโปรยเป็นข้อความเว็บทับภาพ ขอบสระและSearchอยู่คงที่ตามA ไม่มีB inset/collage/rotation
+- ร่างHero1440×470คงSearch1040×88ที่x200/y330 ภาพตัวอย่าง1440:470แสดงแบบcontainและเตรียมexport2880×940; นี่เป็นgeometryของร่าง ไม่ใช่สัดส่วน/ขนาดไฟล์ขั้นต่ำที่เจ้าของอนุมัติ ค่าHero96/600และsupporting22/500เป็นประวัติHome-r15เท่านั้น ดู [typography-spec](typography-spec.md)
+- Headerใช้outer gutter56pxและกลุ่มbrand/navigationตามภาพ1440 ขนาดคงที่ของกลุ่มในnativeไม่พิสูจน์ว่าHeaderจะพอดี1280 ต้องตรวจพื้นที่กลุ่ม/notice/ภาษา/ติดต่อ/ปุ่มก่อนรับจออื่น ไม่ลดfont/พื้นที่กดเพื่อแก้ล้นเงียบ ๆ
+- Category stripที่1440มีpaddingแนวนอน200pxซึ่งต่างจากlisting gutter56px เป็นการจัดจังหวะเฉพาะA ห้ามใช้200pxเป็นglobalouter gutterทุกviewport
+- หากwidthแคบลง ต้องตรวจสัดส่วนภาพสำเร็จรูปและสาระสำคัญที่รวมอยู่ในไฟล์กับพื้นที่Search/controlsก่อนรับ ไม่cropหรือย่อจนตัวหนังสือในภาพอ่านไม่ได้โดยไม่ตรวจ ไม่สร้างMobileจากการย่อDesktop และไม่ย้ายSearchหรือทำวัน/loginเป็นเงื่อนไขเพื่อให้layoutพอดี
+
+Heroเลื่อนแนวนอนอัตโนมัติวนทุก7วินาที มีลูกศร/จุดเลือก พักเมื่อhoverหรือใช้งานSearch และภาพไม่เป็นลิงก์; Searchไม่เลื่อนหรือล้างค่าเมื่อเปลี่ยนภาพ ดู [ข้อกำหนด](hero-banner-carousel-spec.md) และ [static states](hero-banner-carousel-r1/README.md) กรณีไม่มีภาพยืนยันแล้วให้ใช้ภาพปัจจุบันเป็นfallbackมาตรฐาน คงHero470px/ขอบโค้งขาว/Search ไม่ยุบเป็น136px controls defaultหลายสไลด์ที่แสดงรับแล้ว; ภาพเดียว/initial-loadingรับในHome-r16แล้ว; hoverที่เสนอแยกยังไม่รับ; รูปเสียบางส่วนข้ามแล้วใช้รูปพร้อมตามนโยบายที่รับ ไม่ถือว่าทดสอบruntimeแล้ว ดู [r3](hero-banner-carousel-r3/README.md)
+
+## Listing rail, cardและcontent extremes
+
+| เรื่อง | ข้อสรุปที่ใช้ |
+| --- | --- |
+| Cardที่1440 | 314×362px รูป210px ข้อมูล152px radius16; cropประมาณ3:2 |
+| เลื่อนแถว | ทีละ2หลัง; ที่referenceเท่ากับ676px;ท้ายtrackclampพอดี ไม่loop/autoplay |
+| จำนวนไม่ลงตัว | ตัวอย่าง7หลังจบที่บ้าน4–7; ระยะสุดท้ายอาจน้อยกว่า2หลังเพื่อไม่เว้นช่องว่าง |
+| Photo carousel | ทำงานเฉพาะใบ ไม่เปิดDetailตาม ปุ่มซ่อนdefault/เปิดเมื่อhoverหรือfocus;รูปเดียวซ่อนลูกศร/dots |
+| รูปเสียบางรูป | ข้ามและใช้รูปที่ดูได้ ไม่มีภาพปลอมแทนบ้านจริง |
+| ไม่มีรูป/ข้อมูลไม่ครบ | Homeไม่แสดงการ์ด แต่ยังค้นหาเจอ;Resultsfallbackยังต้องตรวจของหน้านั้น |
+| ชื่อยาว | หนึ่งบรรทัดย่อด้วย…;ชื่อเต็มต้องเข้าถึงได้ ไม่กลับไปใช้ข้อเสนอสองบรรทัดของB |
+| หมวดว่างหลังโหลดสำเร็จ | ซ่อนทั้งsection ให้ส่วนถัดไปเลื่อนขึ้น แต่ทางลัด7หมวดยังอยู่ |
+| Initial loading | ใช้skeleton4ใบตามreference ไม่เป็นข้อมูลจริง/ไม่มีinteraction |
+| โหลดหมวดล้มเหลว | ซ่อนsectionตามคำตอบล่าสุด;ไม่ใช้error panelที่เสนอแล้วไม่ได้เลือก |
+
+ที่text zoomต้องตรวจราคา/metadata/ภาษาไทยไม่ถูกตัด เสนอปรับreflow/จำนวนที่เห็นก่อนลดตัวอักษรหรือเปลี่ยนกฎการ์ด การรับstatic normal zoomไม่ใช่ผลทดสอบ200% หากทุกหมวดโหลดล้มเหลวหรือbackground refreshยังต้องสรุปrecoveryแยก ไม่สร้างretry/timeout/cachepolicyเอง
+
+## Overlaysและการนำทาง
+
+แผงภาษา224×152pxและติดต่อ280×176pxอยู่ใต้triggerและรักษาขอบจอ ปุ่มปิด44px/ธง22pxคงเดิม เมื่อresizeต้องตรวจตำแหน่งไม่บังcontrolsและเปิดทีละแผง ไม่เปลี่ยนlocale/currencyหรือเชื่อมLINE/โทรจากการทำlayoutนี้
+
+Search expanded statesอ้าง [Legacy-search-r5/Month-nav-r6](f01-ui-3/legacy-search-r5/README.md) สำหรับโครงแผงเท่านั้น: สถานที่ใช้inputบนแถบ ปฏิทินสองเดือนมีลูกศรครอบทั้งคู่ ผู้เข้าพักเป็นคนรวมกับpetsแยก ไม่มีบันทึก/ล้างจำนวน กฎล่าสุดให้ค้นหาด้วยวันเข้าอย่างเดียวได้และเก็บวันออกเป็นunset ไม่ใช้missing-checkout errorเดิม ไม่เติมจำนวนคืนหรือเปลี่ยนข้อกำหนดวันจอง
+
+LoginDesktopเป็นmodalทับหน้าต้นทาง ไม่เปลี่ยนหน้า;ปิดแล้วรักษาcontextที่ยังใช้ได้ ไม่เพิ่มการกู้Booking Intentหลังreload/ปิดแท็บ/หมดอายุ ทางลัดหมวดส่งเฉพาะหมวด ส่วนHeaderค้นหาที่พักเริ่มที่พักทั้งหมด รายละเอียดปลายทางและBackดู [guided review](f01-ui-3/home-guided-review/README.md)
+
+## TikTok และบทความที่1440px
+
+| ส่วน | Reference ของ Home-r15 |
+| --- | --- |
+| TikTok section | สูง816px padding48/56/80; narrative448px +gap48 +stage832×688 |
+| คลิปหลัก | 320×568 radius24; กรอบหลักคงตำแหน่งเมื่อเลือกคลิป |
+| ลำดับ deck | แรกไม่มีภาพก่อนหน้า กลาง/สุดท้ายมีหนึ่งใบก่อนหน้าซ้าย ท้ายไม่มีภาพถัดไปและnext disabled |
+| Article composition | content1328px; featured696px +gap40 +supporting592px |
+| ภาพเด่น/แผงอ่าน | ภาพ696×391.5 (16:9), caption648px ที่y315.5 ซ้อน76pxในfixtureนี้ |
+| เรื่องรอง | รูป208×117 (16:9), gap24,ข้อความ360px,ระหว่างแถว40px |
+| จำนวนเรื่อง | 3ใช้compositionปัจจุบัน;2เด่นกับรองหนึ่ง;1คงเด่น696pxกึ่งกลาง;0ซ่อนsection/spacing |
+
+Desktopอื่นต้องทดสอบพื้นที่อ่าน/การจัดคอลัมน์ก่อนรับ ไม่บีบข้อความหรือcrop/zoomรูปเพื่อฝืนสองคอลัมน์ ตัวเลขซ้อน76px/~19.4%ไม่ใช่safe areaหรือbreakpointสากล Mobile/Tabletยังพัก ไม่อนุมัติการstack/ย้ายpanelใหม่จากเอกสารนี้
+
+ปก16:9เป็นภาพสำเร็จรวมตัวหนังสือจากภายนอกแสดงเป็นภาพเดียว ชื่อ/เนื้อหานอกภาพใช้ typography spec ภาพที่สัดส่วนไม่ตรงต้องพิจารณาการเตรียม/containรายภาพตามข้อสรุปเดิม ไม่ตัดสาระสำคัญอัตโนมัติ ไม่มีการกำหนดฟอนต์ในปกด้วยเว็บ และตัวอย่างจัดปกที่ถอนแล้วไม่เป็นเกณฑ์รับ
+
+TikTokเล่น/หยุด/bufferingใช้ provider UI การเลือกคลิปไม่เท่ากับautoplay บทความใช้motionที่รับ: เด่นแผ่สี+เด้ง420ms รองเด้งอย่างเดียว indexไม่มีanimation/delay; reduced motionไม่มีการขยับหรือรอเทียม อ้าง [token sheet](token-sheet.md)
+
+โหลดรายการบทความครั้งแรกใช้section-local skeleton ไม่มีเรื่องพร้อมหรือoptional listล้มเหลวซ่อนsectionทั้งหมด ไม่มีretry/errorให้ผู้ใช้แก้ เก็บrequirement internal loggingสำหรับงานภายหลัง รูปเสียข้ามเรื่อง/ส่งเรื่องพร้อมขึ้นแทน คัดก่อนเติมจากวันที่แก้ไขล่าสุดไม่ซ้ำ ไม่แปลงผลล้มเหลวเป็นempty catalogในข้อมูลภายใน
+
+## Footerและภาพประกอบ
+
+ใช้Footer-contact-r5ที่รับแล้ว รวมสูง392pxที่1440px (r4เดิม299pxเก็บเป็นประวัติ) ขอบโค้ง48px พื้นLight Blue padding24×56 gap20 คงแบรนด์ เมนู/ลูกศรและกลับขึ้นด้านบน เมนู/ติดต่อสามคอลัมน์240px gap40รวม800px ช่องทางติดต่อสี่แถวสูง48px gap4 แสดงLINE/Facebook Page/TikTok/เบอร์โทรโดยตรง ไม่ใช้ปุ่มติดต่อเดียวที่ต้องกดเพื่ออ่านข้อมูล
+
+LINE icon24pxในพื้นที่32px และphone20pxในพื้นที่32pxตามreference แยกจาก Header contact popup280×176ที่คงเดิม @papaipak-demo/02-000-0000เป็นmock ไม่เชื่อมLINE/โทรจริง ลิงก์เนื้อหาเปิดแท็บเดิม ไม่รับรองระบบ/หน้าเนื้อหาจริงจากappearanceนี้
+
+Hero/card/footerภาพที่มีอยู่เป็นstudy assetsและโลโก้สมมติ การเลือกcropต้องตรวจรายภาพ ไม่สร้างrating/review/availabilityหรืออ้างว่าเป็นบ้านจริงจากภาพที่สร้างขึ้น ดูOPEN-002/005และreference inventory
+
+## ตารางตรวจรับและข้อค้าง
+
+| รายการ | หลักฐาน/สถานะ |
+| --- | --- |
+| กรอบ1440/4ใบ/7หมวด/TikTok/บทความ/Footer | Native ZfZvJ+PNG Home-r15 และsource comparison; [หลักฐานรับภาพรวม](home-desktop-r15/owner-home-acceptance.json) |
+| Language/contact compact | Snapshotขนาดตรง;appearanceรับแล้ว ไม่มีclick test |
+| Focus/long title/loading/edges | มีstatic state samplesที่รับเฉพาะจุด ไม่ใช่keyboard/runtime pass |
+| ContrastCTA | 2.705343:1 ตามสีเดิมที่คงไว้ OPEN-001เปิดต่อ ไม่ผ่านเกณฑ์ที่เกี่ยวข้อง |
+| Widthอื่น, zoom, reduced motion, screen reader | ยังไม่ทดสอบ |
+| Mobile | พักตามคำสั่งเจ้าของ;ไม่ถือว่าครบresponsiveทั้งหมด |
+| Motion durations | บทความ336/140/420msรับในตัวอย่างเฉพาะ;generic/railsยังเสนอ ไม่อ้างภาพนิ่งว่าruntimeผ่าน |
+| Finalfoundation/frontend | ต้องรับversionแยกและจัดการblockerก่อนผ่านgateที่เกี่ยวข้อง |
+
+เอกสารนี้สรุปdesign specificationของDSD-001 ไม่แก้CSS/breakpointsจริง ไม่เริ่มDSD-002/UID/UXD-002 ไม่เปลี่ยนselectedlayoutsของDetail/Checkout/Profile และไม่รับรองTaskเสร็จจากการมีreferenceDesktop
+
+Heroใช้การเลื่อน800msตามตัวอย่างที่รับ และเริ่มค้าง7วินาทีใหม่หลังเลือกภาพเอง/เอาเมาส์ออก/ปิดSearchเมื่อไม่มีเหตุพักค้าง การพักเองรอPlay ไม่เปลี่ยนภาพทันทีจากtimerที่หมดอายุ ดู [นโยบาย](hero-motion-review-r1/owner-restart-policy-decision.json) Background-tab/keyboard/reduced-motionยังแยกตรวจ
+
+
+## Home-r19 FAQที่1440px
+
+เพิ่มFAQ-r4หลังบทความก่อนFooter หัวข้อบนรายการเต็มแนว กรอบcontent1328px/Whitepanel1280px/inset24px คำตอบmeasure904px default594/open636/long846pxเป็นผลจากfixtures ไม่กำหนดsectionheightคงที่ ข้อความยาวต้องขยายแผง/พื้นที่backingตามเนื้อหา ไม่มีFAQพร้อมให้ซ่อนทั้งsectionและspacingตามแผนที่รับ
+
+[Home-r19ที่รับ](home-faq-r4/owner-home-acceptance.json) รักษาอีก12ส่วนของHome-r16 จออื่น/Mobile/backend/runtimeยังไม่รับรอง ไม่มีการเลือกbreakpointใหม่จากการเพิ่มFAQ
+
+
+Footer-r5เพิ่มสองrowในคอลัมน์ติดต่อโดยไม่เปลี่ยนอีก12ส่วนของHome-r19 Header/Hero/FAQและส่วนอื่นคงเดิม Height392pxเป็นreferenceตามfixtures ไม่ใช้fixedheightทุกจอ เมื่อได้ชื่อ/URLจริงต้องตรวจการwrap/targetอีกครั้ง ยังไม่รับรองปลายทางหรือMobile ดู [Home-r20](footer-contact-r5/owner-home-acceptance.json)

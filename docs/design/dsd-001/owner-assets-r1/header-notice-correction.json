@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "หายไปไหน",
+  "source": "assets/header-notice-owner-reference.png",
+  "source_sha256": "9d5b9bfabf8bf0b347724eb1a203b7aae7ebfa1e45edd51a77ea3dbc3d06e05b",
+  "issue": "Agent removed the existing Header notice while substituting the real logo; owner had not requested removal.",
+  "correction": "Restore original text under logo, retaining the real logo and bank content separately.",
+  "restored_text": "กรุณาโอนเงิน ชื่อ ...... แบบบริษัท",
+  "native_Header": "KEBjP",
+  "native_notice": "bjmyt",
+  "header_height_px": 124,
+  "logo_display_px": [
+    72,
+    64
+  ],
+  "unspecified_company_name": "retain original dots; do not invent a company name or reinterpret bank ownership",
+  "new_visual_approved": false,
+  "Auth_or_backend_or_frontend_changed": false
+}

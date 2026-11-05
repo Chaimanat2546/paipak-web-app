@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "แบบนี้โอเคไหมครับ? 1. รับแบบนี้ แล้วตรวจกรณีต้องรอก่อนส่งซ้ำ 2. ปรับข้อความแจ้งเตือน 3. ปรับปุ่มลองส่งอีกครั้ง",
+  "status": "owner_accepted_resend_failure_with_explicit_retry",
+  "version": "Home Auth OTP G2-r11",
+  "reviewed_image": "cZWL1.png",
+  "reviewed_image_sha256": "8d7b9ef57d5437e887eec68e0f16a739bfac295cabb3357807fecddcc0314121",
+  "scenario": "replacement request fails after earlier code already expired; not an assumption that any resend failure invalidates a usable old code",
+  "accepted_scope": {
+    "message": "ขอรหัสใหม่ไม่สำเร็จ กรุณาลองอีกครั้ง",
+    "primary": "ลองส่งอีกครั้ง",
+    "identifier": "retained",
+    "slots": "inactive because this illustrated origin has no usable unexpired code",
+    "retry": "explicit click returns to accepted pending state if allowed; no automatic loop or implied unlimited retries",
+    "password_back_edit_close": "available",
+    "account_or_delivery_disclosure": "do not reveal account existence or claim definitive non-delivery from an ambiguous failure"
+  },
+  "rate_limit_or_unlimited_retry_policy_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

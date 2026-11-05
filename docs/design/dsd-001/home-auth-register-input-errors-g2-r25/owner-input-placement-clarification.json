@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "มันก็ต้องไว้ตรง input สิ่",
+  "status": "owner_required_field_errors_at_corresponding_inputs",
+  "scope": "Signup input validation: specific error at affected input, no duplicate summary banner before submit for those field errors.",
+  "amends": "Earlier shared-summary presentation for field errors in r21/r24; existing required/minimum8/confirmation rules remain approved.",
+  "form_wide_errors": "Connection/provider error with no affected input is a separate case; prior Google form-error placement is not silently moved to email input.",
+  "revised_r25_visual_approved": false,
+  "r24_connection_or_r23_submitting_approved": false,
+  "whole_G2_approved": false,
+  "frontend_or_backend_authorized": false
+}

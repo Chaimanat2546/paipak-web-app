@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth OTP G2-r12 / resend wait",
+  "status": "revision_requested_countdown_in_button",
+  "accepted_previous_state": "../home-auth-otp-resend-failure-g2-r11/owner-resend-failure-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "T2uTL",
+  "native_resend_wait": "Q3S76",
+  "images": [
+    {
+      "native_id": "T2uTL",
+      "image": "T2uTL.png",
+      "sha256": "128a2311fd852ec90ca635694c330b9e18fd1ee8d00e557d4d6c93dce3599f33"
+    },
+    {
+      "native_id": "Q3S76",
+      "image": "Q3S76.png",
+      "sha256": "b8516a196a22a3f7e21835f5024be385f957c519f85669d035788c598caa2546"
+    }
+  ],
+  "scenario": "authoritative response temporarily disallows resend, illustrated after prior code expired; does not invalidate a usable code in another flow",
+  "proposed_behavior": {
+    "message": "ยังขอรหัสใหม่ไม่ได้ กรุณารอสักครู่",
+    "resend": "visible disabled primary; no spinner or countdown",
+    "identity": "retain selected email",
+    "alternatives": "password/back/edit/close remain available",
+    "restriction_release": "enable request action only when permitted by authoritative contract; no automatic resend",
+    "digits": "inactive in this expired-code scenario only"
+  },
+  "not_selected": [
+    "cooldown duration, quota, OTP lifetime or provider",
+    "restriction release/retry-after contract",
+    "verification service failure",
+    "paste/autofill/backspace details"
+  ],
+  "verification": {
+    "previous_reviewed_png_hashes_match": true,
+    "screenshot_inspected": "Q3S76",
+    "observation": "Six inactive slots, wait feedback with clock icon, disabled request button and password alternative; no visible clipping.",
+    "execute_warnings": []
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_and_state_library_changed": false,
+  "UXD_002_changed": false,
+  "owner_revision_request": "../home-auth-otp-button-countdown-decision.json",
+  "replacement_review": "../home-auth-otp-button-countdown-g2-r13/review-manifest.json"
+}

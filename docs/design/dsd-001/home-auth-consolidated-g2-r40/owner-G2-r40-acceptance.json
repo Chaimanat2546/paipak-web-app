@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "รับชุดนี้ไหมครับ? 1. รับ G2-r40 พร้อมกติกา — ไปทำแบบหน้าตาจริงต่อ 2. ตรวจ Flow อีกครั้ง — ทบทวนเส้นทางก่อน 3. ปรับกติกาการใช้งาน — แก้ส่วนที่ยังไม่ตรงใจ",
+  "status": "owner_accepted_composed_Home_Auth_Desktop_G2_r40_and_interaction_draft_1",
+  "version": "Home Auth Desktop G2-r40",
+  "reviewed_images": [
+    {
+      "native_id": "v0fodR",
+      "image": "v0fodR.png",
+      "width": 1440,
+      "height": 1426,
+      "sha256": "389898144894c2f82feb60543fee60f07404d152720dc405386274e8b74d7fcf"
+    },
+    {
+      "native_id": "geey5",
+      "image": "geey5.png",
+      "width": 1408,
+      "height": 1025,
+      "sha256": "b47af72cd5430b677a488fb40783cf6f264902f0f3d0acc7e7f5bef31bde0ef2"
+    }
+  ],
+  "reviewed_contract": {
+    "path": "interaction-contract.reviewed.md.txt",
+    "sha256": "5874b40fca91df5aab128fc49e2e2b376a1b5136f31f81509c718bcf99422361"
+  },
+  "reviewed_spec": {
+    "path": "auth-spec.reviewed.md.txt",
+    "sha256": "e3f72f0bd135d8d10265e1f962f42fedfbc9eda94333d37702d5cf54f52111bd"
+  },
+  "inventory": "inventory.json",
+  "inventory_sha256": "0e732b6ac1a2b427d259f07f8fe20b2bfcb3af85c59934209e7cdfa71a858511",
+  "accepted_scope": [
+    "Composed low-fi Home Auth Desktop baseline: Login/email OTP/explicit email password/phone password/Google, local registration and optional email verification, email-link password recovery and active favorite return.",
+    "Current forms and accepted field/request/OTP/provider/error/success patterns listed in inventory, with old examples explicitly bounded as reusable patterns rather than current whole forms.",
+    "Proposed interaction-contract draft-1: focus/Tab, Escape/pointer dismissal hierarchy, Enter/OTP, focus return, pending/show-hide, small-viewport scrolling, Auth-Hero pause/resume and reduced-motion/assistive-feedback requirements."
+  ],
+  "deferred": [
+    "G3 visual focus/hover/show-hide/detail/viewport prototypes and full-page favorite feedback positioning/lifetime",
+    "Actual phone country inventory/parser/normalization, account matching/session/provider and verification-delivery policy",
+    "OTP expiry/resend duration/limits; 00:45 remains fixture",
+    "Keyboard/screen-reader/scroll/reduced-motion runtime tests; no implementation created",
+    "OPEN-001 white normal text on pink remains open before final CTA approval",
+    "Mobile paused; UXD-002 review-5 unchanged and pending"
+  ],
+  "whole_Home_Auth_Desktop_G2_approved": true,
+  "G3_High_Fi_continuation_authorized_in_existing_scope": true,
+  "final_design_or_G4_approved": false,
+  "DSD_001_complete": false,
+  "UID_005_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

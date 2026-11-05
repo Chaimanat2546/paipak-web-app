@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Login G2-r6 / six separate OTP slots",
+  "status": "owner_accepted_OTP_slot_layout_only_remaining_interaction_review_pending",
+  "owner_policy_evidence": "../home-auth-otp-six-digit-decision.json",
+  "previous_draft": "../home-auth-login-g2-r5/review-manifest.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "Cnd8Z",
+  "native_comparison": "CqdcY",
+  "native_first_step_modal": "d0mD4f",
+  "native_email_OTP": "IRBZ2",
+  "native_six_slot_row": "F331yz",
+  "password_alternative_reference": "../home-auth-login-g2-r5/mswk5.png",
+  "images": [
+    {
+      "native_id": "Cnd8Z",
+      "image": "Cnd8Z.png",
+      "sha256": "8bb25e6e8dc3516211bfebc4088f8c188adb2d3c7f311ef074455e871e6bfae6"
+    },
+    {
+      "native_id": "CqdcY",
+      "image": "CqdcY.png",
+      "sha256": "6a10cfa242fb221dc6a9861d8153b6b8640503d0bafe56f03e16dc1e981e78ab"
+    },
+    {
+      "native_id": "d0mD4f",
+      "image": "d0mD4f.png",
+      "sha256": "ac286fe1d04959a1d29ca1056e2adddce0e6bca0baee8afa022ba3214d7a6788"
+    },
+    {
+      "native_id": "IRBZ2",
+      "image": "IRBZ2.png",
+      "sha256": "3365fd23830c30005d6e7a723e088a6a1177166ba93bf57feeab24fdf9e5131f"
+    }
+  ],
+  "verification": {
+    "six_native_slots": true,
+    "slot_size_px": 56,
+    "slot_gap_px": 12,
+    "screenshot_review": "IRBZ2 inspected; six equal slots visible, no visible clipping/overflow",
+    "final_execute_warnings": []
+  },
+  "expiry_resend_provider_pending": true,
+  "input_interaction_states_pending": true,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_and_state_library_changed": false,
+  "UXD_002_changed": false,
+  "owner_OTP_layout_acceptance": "owner-otp-layout-acceptance.json"
+}

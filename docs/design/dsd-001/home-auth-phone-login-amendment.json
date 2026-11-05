@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1 ขอแก้ login พิ่มสามารถ login ด้วยเบอร์ได้ รหัสผ่านได้",
+  "status": "owner_requested_phone_plus_password_Login_addition",
+  "new_channel": "phone_plus_password",
+  "retained_channels": [
+    "email_plus_password",
+    "Google"
+  ],
+  "identifier_control": "One field accepting email or phone in proposed Login-r3",
+  "username_role_unchanged": "Nonunique display name, not login identifier",
+  "OTP_or_SMS_login_added": false,
+  "forgot_password_method_unchanged": "email reset link",
+  "registration_structure_acceptance": "home-auth-register-g2-r1/owner-register-structure-acceptance.json",
+  "G0_scope_amendment": "Owner explicitly adds phone/password to existing bounded Home Auth Desktop design scope; original reviewed G0 bytes unchanged",
+  "open_phone_contracts": [
+    "Normalization/country code/format",
+    "Unique and unambiguous account matching",
+    "Phone verification and linking",
+    "Phone access for Google-only accounts without a local password"
+  ],
+  "native_visual_revision": "home-auth-login-g2-r3/review-manifest.json",
+  "new_Login_visual_approved_by_request": false,
+  "UID_005_started": false,
+  "backend_authorized": false,
+  "frontend_authorized": false
+}

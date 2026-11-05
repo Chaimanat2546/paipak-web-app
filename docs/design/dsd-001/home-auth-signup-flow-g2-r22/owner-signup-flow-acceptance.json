@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "ลำดับนี้ตรงไหมครับ? 1. ตรงตามนี้ ค่อยกลับไปตรวจสถานะ 2. ปรับflowสมัครด้วยอีเมล 3. ปรับflowGoogle",
+  "status": "owner_accepted_displayed_signup_flow_r22_only",
+  "version": "Home Auth Signup Flow G2-r22",
+  "reviewed_image": "wnFtn.png",
+  "reviewed_image_sha256": "4b6ddb784394c436f2ffcd03e2538719da0c501e9785101582889399465ff586",
+  "accepted_scope": "Displayed signup sequence and return branches: Home/Login/Register, local required fields and request result, optional OTP email verification/use-first return, Google success and cancelled/failed return to Register. Flow-level acceptance only.",
+  "Register_validation_r21_approved": false,
+  "unshown_or_existing_state_visuals_approved_by_this_reply": false,
+  "Google_Register_return_state_visuals_approved": false,
+  "verification_error_layout_adaptations_approved": false,
+  "actual_provider_OTP_timing_quota_session_selected": false,
+  "Guest_favorite_automatically_saved_by_this_flow": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

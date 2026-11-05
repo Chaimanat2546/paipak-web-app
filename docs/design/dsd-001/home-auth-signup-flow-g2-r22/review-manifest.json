@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Signup Flow G2-r22",
+  "status": "owner_accepted_signup_flow_only_state_visuals_and_whole_G2_pending",
+  "owner_request": "owner-flow-review-request.json",
+  "scope": "Home Desktop signup flow before accepting validation-r21; not all Auth flows or full G2",
+  "evidence": [
+    "../home-auth-g0-approval.json",
+    "../home-auth-username-amendment.json",
+    "../home-auth-username-role-decision.json",
+    "../home-auth-password-minimum-decision.json",
+    "../home-auth-password-confirmation-decision.json",
+    "../home-auth-google-profile-decision.json",
+    "../home-auth-google-no-extra-email-verification.json",
+    "../home-auth-email-verification-decision.json",
+    "../home-auth-email-verification-g2-r19/owner-reminder-acceptance.json",
+    "../home-auth-email-verification-otp-g2-r20/owner-verification-screens-acceptance.json"
+  ],
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "wnFtn",
+  "native_diagram": "l3YDNm",
+  "native_key_nodes": {
+    "local_fields": "TGW4D",
+    "validation": "Si9hG",
+    "signup_request": "o1DWrG",
+    "Google_Register_return_proposal": "W4DcU"
+  },
+  "images": [
+    {
+      "native_id": "wnFtn",
+      "image": "wnFtn.png",
+      "sha256": "4b6ddb784394c436f2ffcd03e2538719da0c501e9785101582889399465ff586"
+    },
+    {
+      "native_id": "l3YDNm",
+      "image": "l3YDNm.png",
+      "sha256": "d1ee22ca0368a4fcf8703840012bf98a742650ac040f4b3abcef7cde9e7be5b9"
+    }
+  ],
+  "existing_confirmed_rules": "required local fields; password minimum8+matching confirmation; optional verification using email OTP6; use first/close allowed; Google no forced profile completion/password/extra email verification; continuous origin preservation only",
+  "proposed_or_pending_edges": [
+    "registration submission failure returns to form; exact response/provider/duplicate-account contract not selected",
+    "Google cancelled/failed return to originating Register and generic shared feedback adaptation",
+    "verification OTP error/resend adaptations beyond displayed accepted entry/success",
+    "Guest-heart post-Auth continuation must follow existing contract; graph does not assert a favorite was saved"
+  ],
+  "verification": {
+    "native_screenshot_inspected": "wnFtn",
+    "observation": "Entry path and distinct email/Google lanes show optional verification, request failure and proposed Google return; no visible clipping.",
+    "execute_warnings": []
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "state_library_count_unchanged": 54,
+  "main_Home_changed_by_this_revision": false,
+  "UXD_002_changed": false,
+  "owner_signup_flow_acceptance": "owner-signup-flow-acceptance.json",
+  "accepted_flow_edges": [
+    "registration request success/failure sequence and correction return",
+    "Google cancelled/failed return to originating Register, Google success bypass of extra fields/password/email verification",
+    "optional verification or use-first return and shown invalid/expired verification retry branch"
+  ],
+  "remaining_contracts": [
+    "Register validation/submitting/failure state visuals",
+    "Google Register cancellation/failure layout adaptation",
+    "unshown verification error/resend layout adaptations and service failure contract",
+    "actual provider/duplicate-account/OTP lifetime/quota/session contracts",
+    "Guest-heart continuation under existing contract; no implicit save asserted",
+    "whole Auth G2 acceptance"
+  ],
+  "Register_validation_r21_approved_by_r22_reply": false,
+  "Register_validation_r21_later_acceptance": "../home-auth-register-validation-g2-r21/owner-register-validation-acceptance.json"
+}

@@ -1,0 +1,335 @@
+# Home Auth Desktop · ข้อกำหนดระหว่างหารือ
+
+5 พฤศจิกายน2026 · DSD-001 / C2 · **G0รับแล้ว; G2ตรวจรายส่วน; Authทบทวนr26รับเฉพาะ8ตัวอย่างที่แสดงแล้ว; input error-r25รับสองกรณีแล้ว; G2รวมยังไม่รับ**
+
+ขอบเขตอ้าง [G0 plan-1](home-auth-g0-approval.json): Login/Register/Forgot-reset บนHome Desktop1440px, [อีเมลหรือเบอร์โทร + รหัสผ่าน และ Google](home-auth-phone-login-amendment.json) ตามข้อแก้ไขล่าสุด ไม่รวมLINE/Profile/Mobileหรือระบบจริง
+
+## ข้อมูลสมัครด้วยอีเมล — ข้อสรุปล่าสุด
+
+เจ้าของเปลี่ยนชื่อ/นามสกุลเป็น **username** ตาม [หลักฐานแก้ไข](home-auth-username-amendment.json) คงการบังคับกรอกและข้อมูลอื่นตามข้อสรุปก่อนหน้า:
+
+| ข้อมูล | ข้อกำหนดปัจจุบัน |
+|---|---|
+| Username | บังคับกรอกแทนชื่อ/นามสกุล ใช้เป็นชื่อที่แสดง ซ้ำได้; อังกฤษ/ตัวเลขเท่านั้นตาม [คำตัดสิน](home-auth-username-format-decision.json); ความยาว3–20ตัวตาม [คำตัดสิน](home-auth-username-length-decision.json) |
+| เบอร์โทรศัพท์ | บังคับกรอก; ไทย/ต่างประเทศพร้อมเลือกcodeตาม [คำตัดสิน](home-auth-phone-format-decision.json); normalization/validation/verificationยังไม่สรุป |
+| อีเมล | บังคับกรอก ใช้สำหรับบัญชี email/password |
+| รหัสผ่าน | บังคับกรอก สมัครและตั้งรหัสใหม่ขั้นต่ำ8ตัวอักษร; รายละเอียดรูปแบบอื่นยังไม่สรุป |
+| ยืนยันรหัสผ่าน | บังคับกรอกและต้องตรงกัน เป็นinputตรวจซ้ำ ไม่ใช่ข้อมูลสมาชิกอีกชนิดหนึ่ง |
+
+ไม่เก็บชื่อ/นามสกุลในฟอร์มสมัครรุ่นปัจจุบัน การเปลี่ยนนี้ไม่ลบข้อกำหนดข้อมูลของBooking/ProfileในTaskอื่น และไม่เพิ่มusernameเป็นวิธีlogin; เจ้าของเพิ่มเบอร์โทร+รหัสผ่านภายหลังตาม [คำตัดสินล่าสุด](home-auth-phone-login-amendment.json) โดยคงอีเมล/รหัสผ่านและGoogle ไม่มีการอนุมัติOTPจากการมีช่องโทรศัพท์ ไม่ยกpatternโทร9–10หลักหรือรหัสผ่าน8ตัวจากเดโมมาใช้เอง
+
+## ยืนยันรหัสผ่าน — ยืนยันแล้ว
+
+ตาม [คำตอบ1](home-auth-password-confirmation-decision.json) ฟอร์มสมัครด้วยอีเมลและตั้งรหัสใหม่มีช่องยืนยันบังคับ ต้องตรงกับรหัสผ่าน ไม่เพิ่มช่องยืนยันในLogin ปุ่มแสดง/ซ่อนอยู่ในขอบเขตG0; ภาพจริงและนโยบายรหัสผ่าน/ยืนยันอีเมลยังไม่รับ
+
+## หลักฐานการเปลี่ยนข้อมูล
+
+- เดิมเลือกชื่อ/นามสกุล/เบอร์โทร/อีเมล/รหัสผ่านตาม [A1.1](home-auth-registration-fields-decision.json) และบังคับครบตาม [A1.2](home-auth-registration-required-decision.json)
+- ข้อแก้ไขusernameแทนเฉพาะส่วนชื่อ/นามสกุล คงphone/email/passwordและการยืนยันรหัสผ่าน หลักฐานเดิมเป็นประวัติ ไม่แก้ย้อนหลัง
+- [Specก่อนแก้username](home-auth-pre-username-spec.md.txt) เก็บbytesเดิม
+
+## สิ่งที่ยังต้องตกลงก่อนโครงฟอร์ม
+
+- [x] Google: เจ้าของเลือก3ให้เติมusername/เบอร์โทรที่ขาดในบัญชีภายหลัง ตาม [หลักฐาน](home-auth-google-profile-decision.json) ไม่แทรกฟอร์มในขั้นสมัคร; UIบัญชียังอยู่นอกขอบเขตนี้
+- Username: ใช้ชื่อแสดงซ้ำได้ตาม [หลักฐาน](home-auth-username-role-decision.json) ชุดอักขระเป็นอังกฤษ/ตัวเลขตาม [คำตัดสินล่าสุด](home-auth-username-format-decision.json) ความยาว3–20ตัวตาม [คำตัดสิน](home-auth-username-length-decision.json) แล้ว ไม่ตรวจชื่อถูกใช้แล้วหรือเติมsuffixให้ชื่อไม่ซ้ำ
+- รหัสผ่าน: ขั้นต่ำ8ตัวสำหรับสมัคร/ตั้งใหม่รับแล้วตาม [หลักฐาน](home-auth-password-minimum-decision.json); รูปแบบอื่นและการยืนยันอีเมลยังค้าง
+- Forgot/reset: เส้นทางผ่านลิงก์ ตั้งรหัสใหม่ ยกเลิก/ใช้ลิงก์ไม่ได้ โดยไม่กำหนดอายุ/providerเอง
+- Googleกลับมา/ยกเลิก/ไม่สำเร็จ, การปิด/ย้อนกลับ/คงค่า, focusและHero pauseตามสัญญาHome
+
+เมื่อพร้อมจึงทำโครง/flowสำหรับG2 แล้วHigh-FiหลังรับG2 ไม่มีAuth UIใหม่จากการแก้ข้อมูลนี้ ยังไม่รับแบบสุดท้ายหรืออนุญาตcode/Backend/Frontend
+
+## A1.4 · ข้อมูลที่ขาดหลังสมัครผ่าน Google — ยืนยันแล้ว
+
+เจ้าของเลือก3ให้สมัครผ่านGoogleโดยไม่แทรกฟอร์มเติมusername/เบอร์โทรและไม่บังคับข้อมูลเหล่านี้ก่อนจบสมัคร ผู้ใช้ไปเติมในบัญชีภายหลัง เป็นจุดส่งต่อข้อกำหนดให้งานAccount/Profile ไม่ได้เริ่มออกแบบหน้าบัญชีจากคำตอบนี้
+
+กฎสมัครด้วยอีเมลยังบังคับusername/โทร/อีเมล/รหัสผ่านและconfirmationตามเดิม ไม่ยกกฎemail signupไปขวางGoogle ไม่เพิ่มการตั้งรหัสผ่านเว็บให้ผู้ใช้Googleเอง และไม่สร้างusername/ข้อมูลที่ขาดแทนผู้ใช้โดยไม่มีคำตัดสิน การกลับมาต้นทาง/ยกเลิกและQ-03ยังเดิม
+
+ข้อกำหนดวิธีแสดงบัญชีที่ยังไม่มีusernameยังต้องตกลง ส่วนusernameซ้ำได้และชุดอักขระอังกฤษ/ตัวเลขสรุปตามหลักฐานล่าสุดแล้ว ไม่อ้างว่าproviderส่งข้อมูลชนิดใดแน่นอนหรือAuthจริงทำงานแล้วจากmock
+
+## Username · ชื่อที่แสดงซ้ำได้ — ยืนยันแล้ว
+
+เจ้าของเลือก1ให้usernameเป็นชื่อที่แสดงและซ้ำกับผู้อื่นได้ ไม่สร้างstateชื่อถูกใช้แล้ว/เสนอชื่อว่าง/เติมเลขท้ายเพราะชื่อซ้ำ ช่องทางloginใช้อีเมลหรือเบอร์โทร/รหัสผ่านและGoogleตามข้อแก้ไขล่าสุด การสมัครด้วยอีเมลยังบังคับusername ส่วนผู้สมัครผ่านGoogleที่ยังไม่มีให้เติมในบัญชีภายหลังตามเดิม ไม่ยกชื่อที่แสดงเป็นตัวระบุบัญชีหรือเงื่อนไขอนุญาตข้อมูล ล่าสุดเลือกอังกฤษ/ตัวเลขตาม [บันทึก](home-auth-username-format-decision.json) แล้ว ส่วนความยาวเลือก3–20ตัวตาม [บันทึก](home-auth-username-length-decision.json) แล้ว
+
+## ข้อเสนอรหัสผ่านเดิม · ขั้นต่ำถูกแก้แล้ว
+
+[ข้อเสนอ password-policy-r1](home-auth-password-policy-proposal.md) เป็นประวัติที่เสนอ15ตัว ต่อมาเจ้าของเลือก8ตัวตาม [คำตัดสินล่าสุด](home-auth-password-minimum-decision.json) ส่วนข้อเสนออื่นยังไม่ได้อนุมัติจากคำตอบนี้ ไม่รับรองระบบจริงหรือNIST compliance
+
+## รหัสผ่านขั้นต่ำ · ข้อสรุปล่าสุด
+
+เจ้าของกำหนดให้สมัครด้วยอีเมลและตั้งรหัสใหม่มีรหัสผ่านขั้นต่ำ **8ตัวอักษร** คงconfirmationบังคับและต้องตรงกัน กฎนี้ใช้ตอนตั้งรหัส ไม่เพิ่มการปฏิเสธLoginเพราะข้อจำกัดตั้งรหัสใหม่ ข้อเสนอ15ตัวเดิมถูกแทนเฉพาะส่วนความยาวขั้นต่ำ คำตอบนี้ไม่อนุมัติกฎcomposition/เพดาน/paste/blocklistทั้งหมดที่อยู่ในข้อเสนอเดิม และไม่อ้างว่าขั้นต่ำ8ตรงกับNISTสำหรับsingle-factor ภาพข้อความจะใช้ “อย่างน้อย8ตัวอักษร” ตามข้อกำหนดเจ้าของ โดยรายละเอียดการนับและproviderต้องตรวจในงานระบบภายหลัง
+
+## ยืนยันอีเมล · ข้อสรุปล่าสุด
+
+เจ้าของเลือก2พร้อมชี้แจงว่าปฏิเสธได้และกลับมายืนยันภายหลัง ตาม [หลักฐาน](home-auth-email-verification-decision.json):
+
+- สมัครด้วยอีเมลแล้วเข้าสู่บัญชีได้ก่อนยืนยันอีเมล
+- ข้อความชวนยืนยันปิด/ข้ามได้ การปิดไม่ขวางการเข้าใช้บัญชีในบริบทHome และไม่ถือว่าอีเมลได้รับการยืนยัน
+- ผู้ใช้เริ่มยืนยันเองภายหลังได้ ต้องระบุทางเข้าในแบบ/จุดส่งต่อให้ชัดโดยไม่เริ่มProfile Task
+- ยังไม่ได้กำหนดความถี่การแสดงซ้ำหรือเวลาส่งอีเมล จึงไม่เพิ่มpopupบังคับซ้ำทุกครั้งเอง
+- ไม่ยกคำตอบนี้เป็นนโยบายสิทธิ์Booking/Taskอื่น หรือเปลี่ยนการยืนยันของGoogle และไม่อ้างว่ามีการส่งอีเมล/sessionจริง
+
+สิ่งที่ต้องเห็นในG2/G3คือทางดำเนินต่อหลังsignup, แจ้งเตือนที่ข้ามได้, สถานะยังไม่ยืนยัน และทางกลับมายืนยันเอง โดยappearanceยังไม่ตรวจรับ
+
+## ลืมรหัสผ่าน · ยืนยันวิธีแล้ว
+
+เจ้าของเลือก1ตาม [หลักฐาน](home-auth-reset-link-decision.json): กรอกอีเมลเพื่อรับลิงก์เปิดฟอร์มตั้งรหัสใหม่ รหัสใหม่ขั้นต่ำ8ตัวและconfirmationต้องตรงกัน ไม่ใช้OTPอีเมล เสนอหลังตั้งสำเร็จกลับLoginในร่างG2 ยังไม่ถือว่ารับการกลับปลายทางหรือauto-login และไม่กำหนดอายุลิงก์/ระบบส่งอีเมลจริง
+
+## ความพร้อมทำG2
+
+รายละเอียดหลักของflowและข้อมูลสำหรับร่างแรกพร้อมเสนอแล้ว: ฟอร์มสมัครปัจจุบัน, ชื่อแสดงซ้ำได้, Googleไม่แทรกcompletion form, แจ้งยืนยันอีเมลข้ามได้ และforgotผ่านลิงก์ ส่วนcharset/ความยาวชื่อ/รูปแบบโทร/ข้อจำกัดproviderและpasswordรายละเอียดอื่นเก็บเป็นcontractsที่ยังเปิด ไม่ใส่เงื่อนไขที่แต่งขึ้นในภาพ เริ่มจากแผนผังและโครงLogin แล้วตรวจRegister/Forgot-reset/สถานะต่อเป็นส่วนๆ ไม่ถือว่าG2ผ่านทั้งหมดหรือเริ่มHigh-Fi
+
+## ร่างG2ปัจจุบัน
+
+เจ้าของส่งLogin-r1กลับเรื่องการจัดวาง จึงตรวจofficial entry orderingและทำ [G2-r2](home-auth-g2-r2/README.md) ฟอร์มหลักก่อนGoogle ลืมรหัสข้างlabelและลิงก์สมัครชัดขึ้น รอรับเฉพาะLogin ไม่รับG2รวม/High-Fiและไม่เปลี่ยนbusiness rulesจากการเปลี่ยนลำดับ
+
+## ความคืบหน้าG2
+
+เจ้าของเลือก1รับ [Login-r2เฉพาะโครง](home-auth-g2-r2/owner-login-structure-acceptance.json) แล้ว ต่อ [Register-r1](home-auth-register-g2-r1/README.md) หน้าต่างสีเทากับห้าช่องตามข้อมูลล่าสุด รอรับเฉพาะRegister ไม่ขยายเป็นG2รวม/High-FiหรือAuthจริง
+
+## Phone Login · ข้อแก้ไขล่าสุด
+
+เจ้าของให้Loginด้วยเบอร์โทรคู่รหัสผ่านเพิ่มจากอีเมล/รหัสผ่านและGoogle ตาม [หลักฐาน](home-auth-phone-login-amendment.json) ใช้ช่องidentifierเดียวใน [Login-r3](home-auth-login-g2-r3/README.md) รอตรวจภาพ ข้อความก่อนหน้านี้ที่บอกไม่เพิ่มphone loginเป็นบริบทก่อนคำแก้ไขนี้ Usernameยังชื่อแสดงซ้ำได้ ไม่ใช่Login ไม่มีOTP/SMSเพิ่ม Forgotยังemail link ข้อมูลเบอร์และaccount matchingยังเป็นcontractก่อนimplementation
+
+Register-r1รับเฉพาะโครงแล้วตาม [หลักฐาน](home-auth-register-g2-r1/owner-register-structure-acceptance.json) ไม่เพิ่มหรือแก้signupfieldsจากการเพิ่มPhone Login ไม่รับG2ทั้งชุด/High-Fi
+
+## ความคืบหน้าRecovery G2
+
+เจ้าของเลือก1รับ [Login-r3เฉพาะโครง](home-auth-login-g2-r3/owner-login-structure-acceptance.json) แล้ว ทำ [Recovery-r1](home-auth-recovery-g2-r1/README.md) ห้าร่างตามลิงก์อีเมล เริ่มขอรับเฉพาะฟอร์มขอรับลิงก์ ส่วนack/reset/success/link-errorยังรอตรวจ ไม่มีauto-loginหรืออายุลิงก์ที่อนุมัติจากการมีภาพ
+
+เจ้าของเลือก1รับ [Forgot request-r1เฉพาะโครง](home-auth-recovery-g2-r1/owner-forgot-request-acceptance.json) แล้ว ต่อ [หน้าหลังรับคำขอ](home-auth-recovery-g2-r1/z5EJtN.png) ที่รอตรวจ Resend/Change-emailเป็นข้อเสนอในหน้านี้ ยังไม่กำหนดcooldownหรืออ้างผลส่งจริง Reset/success/unusableยังไม่รับ
+
+## หลังรับคำขอreset · รับพร้อมถอนเปลี่ยนอีเมล
+
+เจ้าของเลือก1และให้เอา “เปลี่ยนอีเมล” ออกตาม [หลักฐานAck-r2](home-auth-recovery-g2-r2/owner-acknowledgement-acceptance.json) คงกลับLogin/ส่งซ้ำ/ปิด ไม่มีปุ่มเปลี่ยนอีเมลในหน้าหลังรับคำขอ ไม่เอาemailinputออกจากrequest ไม่กำหนดcooldown/จำนวนครั้งหรือรับรองส่งจริง จากนี้ตรวจReset `ZsOMo` ซึ่งยังไม่รับพร้อมsuccess/unusableและG2รวม
+
+เจ้าของเลือก1รับ [Reset form `ZsOMo` เฉพาะโครง](home-auth-recovery-g2-r1/owner-reset-form-acceptance.json) แล้ว ต่อ [หน้าตั้งสำเร็จ](home-auth-recovery-g2-r1/MKMGi.png) พร้อมข้อเสนอกดกลับLoginซึ่งยังต้องตรวจ ไม่อนุมัติauto-login/รหัสเปลี่ยนจริง/error statesหรือG2รวมจากคำตอบรับฟอร์ม
+
+## Resetสำเร็จ · ข้อสรุปล่าสุด
+
+เจ้าของเลือก1รับ [หน้าสำเร็จและปุ่มเปิดLogin](home-auth-recovery-g2-r1/owner-reset-success-acceptance.json) แล้ว หลังตั้งรหัสให้ผู้ใช้กดเข้าสู่ระบบเพื่อเปิดLoginและใช้รหัสใหม่ ไม่มีauto-loginจากการตั้งรหัสอย่างเดียว แทนสถานะเสนอ/รอตัดสินใจเรื่องปลายทางในข้อความก่อนหน้านี้ ต่อunusable-link `l0YcM` ซึ่งยังไม่รับ พร้อมremaining statesและG2รวม
+
+## สถานะปัจจุบัน G2 states
+
+โครงLogin-r3/Register-r1/Recovery coreรับรายจุดแล้ว รวม [ลิงก์ใช้ไม่ได้และทางขอใหม่](home-auth-recovery-g2-r1/owner-unusable-link-acceptance.json) แต่ยังไม่รับG2รวม ต่อ [Login states-r1](home-auth-login-states-g2-r1/README.md) เริ่มตรวจgenericcredentials errorก่อน required/loading ร่างอื่นและGoogle/email-verification/focus/runtimeยังค้าง ไม่เริ่มHigh-Fiจากการรับโครงหลัก
+
+Login credentials-errorยังไม่รับ: เจ้าของถามตำแหน่งปกติ จึงอ่านWAIและทำ [placement-r2](home-auth-login-error-placement-g2-r2/README.md) Aเหนือfields/Bunboxedใต้password/Cboxedก่อนsubmit โดยคงcopyเดียวกัน เอเจนต์เสนอAไม่ใช่ข้อบังคับสากล รอเจ้าของเลือกก่อนสรุปerrorนี้
+
+## หารือflowอ้างอิงAirbnb
+
+เจ้าของเลือก [error C](home-auth-login-error-placement-g2-r2/owner-C-selection.json) แล้วถามเปรียบเทียบAirbnb จึงอ่านแหล่งทางการและทำ [บันทึกหารือ](home-auth-airbnb-flow-discussion.md) ยังไม่อนุมัติเปลี่ยนflow/เพิ่มOTPหรือรื้อแบบที่รับก่อนหน้า รอเลือกว่าจะยืมแบบแบ่งขั้น/เปลี่ยนวิธียืนยัน/คงเดิม
+
+## Current Login · แบ่งสองขั้น
+
+เจ้าของเลือก1ให้แบ่งอีเมล/โทรกับรหัสผ่านเป็นคนละขั้นแต่คงGoogle ตาม [คำตัดสิน](home-auth-two-step-login-decision.json) ทำ [G2-r4](home-auth-login-g2-r4/README.md) รอตรวจ ข้อเสนอให้Google/Signupอยู่ขั้นแรก ย้อนกลับแก้identifierได้ และerrorCอยู่ก่อนLoginในขั้นรหัสผ่าน โครงหน้าเดียวที่เคยรับเป็นประวัติ ไม่เลือกOTPหรือรื้อRegister/Recoveryเดิม การเลือกแนวคิดยังไม่รับภาพใหม่/High-Fi/G2รวม
+
+## Current Login ล่าสุด · OTPหลัก / รหัสผ่านเลือกเอง
+
+เจ้าของชี้แจงให้OTPเป็นค่าเริ่มต้น ถ้าเลือกLoginด้วยรหัสผ่านเองจึงเปิดรหัสผ่าน ตาม [หลักฐาน](home-auth-otp-primary-amendment.json) แทนdefaultpasswordในร่างr4 Googleยังอยู่ ยังไม่เลือกรับOTPผ่านอีเมล/SMSครอบคลุมแบบใด และยังไม่อนุมัติจำนวนหลัก/เวลา/ระบบจริง ดู [หารือขั้นถัดไป](home-auth-otp-primary-discussion.md) ต้องทบทวนrequiredpasswordในSignupให้ตรงOTPก่อนสรุป ไม่บังคับหรือทิ้งRegisterเดิมเอง G2รวม/High-Fiยังไม่รับ
+
+## Current Auth channels · ข้อสรุปล่าสุด
+
+ตาม [คำตอบ2](home-auth-email-otp-scope-decision.json): Emailใช้OTPเป็นหลักและมีpasswordเมื่อผู้ใช้เลือกเอง; Phoneยังคู่password; Googleคงเดิม ไม่เลือกSMS/phoneOTP จำนวนหลัก/expiry/resendยังไม่กำหนด ฟอร์มRegisterเดิมที่มีpasswordบังคับต้องหารือว่าจะปรับหรือคงไว้ ไม่ถือว่าคำตอบช่องทางLoginรับSignupแบบใหม่แล้ว และไม่สร้างpasswordให้บัญชีOTP/Googleเอง
+
+## ข้อสรุปล่าสุด: สมัครอีเมลยังตั้งรหัสผ่าน / Login-r5
+
+เจ้าของเลือก3ตาม [หลักฐาน](home-auth-signup-password-retained-decision.json) ให้สมัครด้วยอีเมลยังบังคับรหัสผ่านและconfirmationตรงกัน ขั้นต่ำ8ตัว พร้อมusername/โทร/อีเมลตามเดิม ข้อหารือSignupที่ระบุว่าค้างในบันทึกก่อนหน้าจบเฉพาะประเด็นนี้ Email LoginยังOTPเป็นค่าเริ่มต้น รหัสผ่านเมื่อเลือกเอง Phoneยังpassword Googleคงเดิมและไม่บังคับlocal password ไม่เพิ่มOTPบังคับตอนสมัครหรือเปลี่ยนแจ้งเตือนยืนยันอีเมลที่ข้ามได้
+
+[Login G2-r5](home-auth-login-g2-r5/README.md) เสนอขั้นแรกและOTP พร้อมทางเลือกรหัสผ่าน รอรับเฉพาะโครงใหม่ ไม่รับG2รวม/High-Fi จำนวนหลัก/expiry/resendและproviderยังเปิด ไม่รวมSMS/Frontend/backend
+
+## OTPแยก6ช่อง · ข้อสรุปล่าสุด
+
+เจ้าของขอแยกช่องและเลือก6หลักตาม [หลักฐาน](home-auth-otp-six-digit-decision.json) จึงทำ [Login G2-r6](home-auth-login-g2-r6/README.md) รอตรวจเฉพาะโครงใหม่ แทนช่องเดียวของr5เฉพาะส่วนOTP ข้อความเก่าที่ระบุว่ายังไม่กำหนดจำนวนหลักเป็นประวัติก่อนคำตอบนี้ อายุรหัส/ส่งซ้ำ/providerและพฤติกรรมกรอก/วาง/autofillยังค้าง ไม่รับG2รวม/High-Fiหรือระบบจริง
+
+## รับรูปแบบ OTP 6 ช่อง
+
+เจ้าของเลือก1รับเฉพาะรูปแบบและระยะช่องที่แสดงใน [Login-r6 `IRBZ2`](home-auth-login-g2-r6/owner-otp-layout-acceptance.json) ภาพเดิมคงbytes/hash ยังไม่เลือกรูปแบบเลื่อนช่อง/วางรหัส/autofill/ลบหรือsubmit ต่อหารือพฤติกรรมการกรอกก่อนstates ไม่รับLoginทั้งชุด/G2รวม/High-Fiหรือระบบจริง
+
+## OTPตรวจอัตโนมัติเมื่อครบ6หลัก
+
+เจ้าของเลือก2ให้พิมพ์แล้วเลื่อนช่องอัตโนมัติและเริ่มตรวจทันทีเมื่อครบ6หลักตาม [หลักฐาน](home-auth-otp-auto-verification-decision.json) ไม่ต้องกดปุ่มยืนยัน ทำ [OTP-r7](home-auth-otp-auto-g2-r7/README.md) สถานะระหว่างกรอกและกำลังตรวจ รอรับภาพloading/การพักcontrolsแยกจากการรับแนวคิด กฎpaste/autofill/backspace/error-retryยังไม่สรุป ไม่กำหนดexpiry/resend/providerหรืออ้างว่าทำงานจริง คงsignup/passwordและช่องทางAuthเดิม
+
+## รับสถานะกำลังตรวจ / ต่อกรณีรหัสผิด
+
+เจ้าของเลือก1รับ [OTP-r7 checking state](home-auth-otp-auto-g2-r7/owner-checking-state-acceptance.json) แล้ว ทำ [OTP-r8](home-auth-otp-invalid-g2-r8/README.md) เสนอเมื่อรหัสผิดให้ล้าง6ช่องและโฟกัสช่องแรก คงอีเมล คืนactionsและรอกรอกใหม่ครบก่อนตรวจอีกครั้ง ไม่ตรวจวนหรือส่งใหม่เอง ข้อเสนอรหัสผิดยังรอตรวจ ไม่รับexpired/resend/providerหรือG2รวมจากการรับloading
+
+## รับรหัสผิด / ต่อรหัสหมดอายุ
+
+เจ้าของเลือก1รับ [รหัสผิดr8แบบล้าง6ช่องและเริ่มช่องแรก](home-auth-otp-invalid-g2-r8/owner-invalid-code-acceptance.json) แล้ว ต่อ [รหัสหมดอายุr9](home-auth-otp-expired-g2-r9/README.md) เสนอล้าง/พักช่อง คงอีเมลและให้กดส่งรหัสใหม่เอง ยังรอตรวจ ไม่กำหนดอายุรหัส/เวลา/จำนวนส่งซ้ำหรือproviderจากภาพนี้ ไม่รับG2รวม/High-Fiหรือระบบจริง
+
+## รับรหัสหมดอายุ / ต่อขอรหัสใหม่
+
+เจ้าของเลือก1รับ [expired-r9](home-auth-otp-expired-g2-r9/owner-expired-code-acceptance.json) แล้ว ต่อ [resend-r10](home-auth-otp-resend-g2-r10/README.md) เสนอสถานะpending/ready โดยพักcontrolsระหว่างrequest เปิดช่องแรกเมื่อรับคำขอ และใช้ข้อความทั่วไป “ส่งคำขอแล้ว กรุณาตรวจสอบอีเมล” ไม่รับรองinbox deliveryหรือเปิดเผยบัญชี ภาพและพฤติกรรมสองสถานะใหม่นี้รอตรวจ ยังไม่เลือกexpiry/resend/provider/old-code invalidationหรือรับG2รวม
+
+## รับขอรหัสใหม่ / ต่อคำขอไม่สำเร็จ
+
+เจ้าของเลือก1รับ [resend-r10 pending/ready](home-auth-otp-resend-g2-r10/owner-resend-states-acceptance.json) ทั้งคู่แล้ว ต่อ [resend-failure-r11](home-auth-otp-resend-failure-g2-r11/README.md) เสนอคงอีเมลและปุ่มลองส่งเองในกรณีขอใหม่หลังรหัสเดิมหมดอายุ ไม่ยกไปinvalidateรหัสที่ยังใช้ได้ในบริบทอื่น ไม่retryวนหรือรับunlimited retries ร่างfailure/rate-limit/verify failureและinputรายละเอียดอื่นยังรอตรวจ ไม่รับG2รวม/High-Fiหรือระบบจริง
+
+## รับคำขอไม่สำเร็จ / ต่อรอก่อนส่งซ้ำ
+
+เจ้าของเลือก1รับ [request-failure-r11](home-auth-otp-resend-failure-g2-r11/owner-resend-failure-acceptance.json) แล้ว ต่อ [resend-wait-r12](home-auth-otp-resend-wait-g2-r12/README.md) เสนอพักปุ่มตามผลระบบโดยไม่ใส่นับถอยหลังหรือเวลาเอง คงอีเมล/ทางเลือกและเปิดปุ่มเมื่อระบบอนุญาตโดยไม่ส่งให้เอง ร่างรอส่งซ้ำยังรอตรวจ ไม่เลือกquota/cooldown/provider/contractปลดพักหรือรับG2รวม
+
+## แก้รอส่งซ้ำเป็นนับในปุ่ม
+
+เจ้าของขอ “นับในปุ่มแทน” ตาม [หลักฐาน](home-auth-otp-button-countdown-decision.json) ทำ [countdown-r13](home-auth-otp-button-countdown-g2-r13/README.md) แทนr12ที่ยังไม่รับ แสดงเวลาในปุ่มพัก ตัวเลข00:45เป็นfixtureภาพนิ่ง ไม่ใช่ค่าcooldown เมื่อครบและระบบอนุญาตเสนอให้เปิดปุ่มโดยไม่ส่งเอง ยังรอตรวจภาพ และค่ารอจริง/quota/provider/release contractยังเปิด ไม่รับG2รวมหรือระบบจริง
+
+## รอส่งซ้ำ: เหลือเวลาในปุ่ม
+
+เจ้าของเลือก3ให้ถอนกล่องแจ้งรอ ตาม [คำแก้ไขr14](home-auth-otp-countdown-only-g2-r14/owner-revision-request.json) ทำ [ภาพใหม่](home-auth-otp-countdown-only-g2-r14/README.md) เหลือเวลาในปุ่มอย่างเดียว รอตรวจภาพ ค่า00:45ยังเป็นfixture ไม่ใช่เวลาที่รับ และไม่รับG2รวมหรือระบบจริง
+
+## รับเวลาในปุ่ม / ต่อระบบตรวจขัดข้อง
+
+เจ้าของเลือก1รับ [countdown-only-r14](home-auth-otp-countdown-only-g2-r14/owner-countdown-only-acceptance.json) เฉพาะรูปแบบ ไม่เลือก00:45เป็นเวลาจริง ต่อ [verify-failure-r15](home-auth-otp-verify-failure-g2-r15/README.md) เสนอคงอีเมล/รหัสในflowและให้กดลองตรวจเองเมื่อผลไม่แน่ชัด ไม่แจ้งว่ารหัสผิด/หมดอายุหรือauthenticated ไม่ตรวจวนรหัสเดิม ร่างใหม่ยังรอตรวจ ไม่รับG2รวมหรือระบบจริง
+
+## รับระบบตรวจขัดข้อง / หารือinput
+
+เจ้าของเลือก1รับ [verify-failure-r15](home-auth-otp-verify-failure-g2-r15/owner-verification-failure-acceptance.json) คงรหัสในflowและให้ลองตรวจเองเมื่อระบบขัดข้อง ไม่รับกฎpaste/autofill/backspaceจากคำตอบนี้ ต่อ [หารือการวางก่อนการลบ](home-auth-otp-input-discussion.md) โดยคงตรวจอัตโนมัติเมื่อครบ6หลักตามเดิม G2รวม/High-Fiและระบบจริงยังไม่รับ
+
+## รับวางครบ6หลักจากช่องไหนก็ได้
+
+เจ้าของเลือก1ตาม [คำตัดสิน](home-auth-otp-paste-decision.json) ให้วางรหัสครบ6หลักในช่องใดก็ได้ แทนที่ครบทั้ง6ช่องแล้วตรวจอัตโนมัติตามเดิม ไม่ยกคำตอบนี้เป็นการเลือกการวางบางส่วน/เกิน/ผิดรูปแบบ/autofill ต่อ [Backspaceที่ช่องว่าง](home-auth-otp-input-discussion.md) ยังไม่รับG2รวมหรือระบบจริง
+
+## Backspaceที่ช่องว่าง
+
+เจ้าของเลือก1ตาม [คำตัดสิน](home-auth-otp-empty-backspace-decision.json): ถ้าโฟกัสช่องว่าง กดBackspaceแล้วถอยไปลบตัวก่อนหน้าทันที พร้อมโฟกัสช่องนั้น ไม่แก้ช่องอื่นและไม่ตรวจรหัสที่ยังไม่ครบ ส่วนBackspaceช่องมีเลข/Delete/autofill/การวางผิดรูปแบบยังรอระบุ ไม่รับG2รวมหรือระบบจริง
+
+## Backspaceช่องมีเลขและเลขที่พิมพ์ต่อ
+
+เจ้าของเลือก2พร้อมชี้แจงให้พิมพ์ลงช่อง3 ตาม [คำตัดสิน](home-auth-otp-filled-backspace-decision.json) จึงลบเลขช่อง3แล้วถอยตำแหน่งมาช่อง2 แต่เลขที่พิมพ์ต่อเติมช่อง3ที่เพิ่งลบ ไม่ทับเลข2 แล้วadvanceช่อง4 ทำ [ภาพลำดับr16](home-auth-otp-backspace-g2-r16/README.md) รอตรวจ ยังไม่เลือกclick/arrow override/Delete/autofill/วางผิดรูปแบบหรือรับG2รวม
+
+## รับภาพลำดับBackspace / หารือข้อมูลที่วาง
+
+เจ้าของเลือก1รับ [ภาพลำดับr16](home-auth-otp-backspace-g2-r16/owner-backspace-sequence-acceptance.json) แล้วเฉพาะส่วนลบถอยและพิมพ์ช่องที่เพิ่งลบ ต่อ [การวางมีตัวคั่น/ข้อความอื่น](home-auth-otp-input-discussion.md) ซึ่งยังไม่เลือก normalization/extraction หรือpartial/overlong/autofill/Delete/navigation ไม่รับG2รวมหรือruntimeจากภาพนิ่ง
+
+## ดึงรหัส6หลักจากข้อความ
+
+เจ้าของเลือก2ตาม [คำตัดสิน](home-auth-otp-text-extraction-decision.json) ให้ดึงรหัส6หลักจากข้อความที่วางเมื่อพบเพียงชุดเดียว เติมครบและตรวจอัตโนมัติตามเดิม ไม่เดาชุดแรกหรือตัดเลขยาวให้เหลือ6หลัก การวางที่reject/กำกวมและการรวมเลขมีตัวคั่นยังต้องระบุ ต่อ [rejected paste](home-auth-otp-input-discussion.md) ไม่รับG2รวมหรือระบบจริง
+
+## Paste: รับได้ใส่ รับไม่ได้ไม่ใส่
+
+[คำชี้แจงล่าสุด](home-auth-otp-quiet-paste-clarification.json) จบคำถามrejected paste: รับเฉพาะรหัสตัวเลขที่ใช้ได้ตามกฎเดิม ถ้าวางไม่ได้ไม่ใส่ ไม่ล้างค่าเดิม ไม่ส่งตรวจ ไม่เพิ่มwarning/selectorหรือขั้นตอนfocus ไม่ถอนstateรหัสผิด/หมดอายุ/ระบบตรวจขัดข้องจริง เพิ่มโน้ตPencil `GGu0r` โดยไม่แก้ภาพที่รับไว้ ไม่ถามmicro-detailนี้ต่อเป็นเงื่อนไขก่อนเดินหน้าตรวจG2รวม ยังไม่รับG2รวมหรือระบบจริง
+
+## Google: ยกเลิกและไม่สำเร็จ
+
+เจ้าของให้ไปข้อต่อไปหลังปิดpaste ทำ [Google-r17](home-auth-google-g2-r17/README.md) เสนอLogin cancellationกลับฟอร์มเดิมแบบเงียบและคงidentifierในflowต่อเนื่อง; failureแจ้งเฉพาะใกล้Google พร้อมกดลองใหม่เองและคงทางเลือกอื่น สองภาพใหม่นี้รอตรวจ ไม่ออกแบบหน้าGoogle/เลือกpopupหรือredirect/อ้างว่าOAuthจริงทำงานแล้ว Google success/Register returnและstatesอื่นยังต้องรวมตรวจ ไม่รับG2รวมหรือHigh-Fi
+
+## Google error: ใช้ตำแหน่งเดียวกับerrorฟอร์ม
+
+เจ้าของขอ [ตำแหน่งเดียวกับอีกerror](home-auth-google-g2-r18/owner-error-position-request.json) ทำ [Google-r18](home-auth-google-g2-r18/README.md) ย้ายfeedbackมาใต้identifier ก่อนดำเนินการต่อ อ้างpatternCที่เลือกไว้ คงข้อความGoogle/ปุ่มretryและไม่ทำให้identifierเป็นinvalid กรณียกเลิกยังใช้r17และยังรอตรวจทั้งคู่ ไม่รับG2รวม
+
+## รับGoogle failure / ต่อreminderยืนยันอีเมล
+
+เจ้าของตอบได้ รับเฉพาะ [Google error-r18ที่แสดง](home-auth-google-g2-r18/owner-Google-error-acceptance.json) ไม่รวมcancel-r17ที่ไม่ได้แสดงในคำตอบล่าสุด ต่อ [reminder-r19](home-auth-email-verification-g2-r19/README.md) หลังสมัครอีเมล เสนอยืนยันตอนนี้/ใช้งานก่อน/ปิดได้ ตามpolicyเดิม ภาพใหม่นี้รอตรวจ ยังไม่เลือกวิธียืนยันหรือสัญญาmail/session/provider ไม่เริ่มAccount/Profileและไม่รับG2รวม
+
+## Googleไม่ต้องยืนยันอีเมลเพิ่ม
+
+เจ้าของชี้แจง [Googleไม่ต้องยืนยัน](home-auth-google-no-extra-email-verification.json) ทั้งGoogle signup/Login ไม่แสดงreminder-r19หรือขั้นยืนยันอีเมลของเว็บเพิ่ม ส่วนสมัครด้วยอีเมล/รหัสผ่านคงpolicyเดิมที่ข้ามได้และภาพr19ยังรอตรวจ ไม่ถือว่าคำตอบนี้รับหน้าต่าง/วิธียืนยัน/G2รวม เพิ่มโน้ตPencil `tmk7i` ไม่ตั้งverifiedจากUIหรือเริ่มprovider/session/account-linkingจริง
+
+## รับreminderสำหรับสมัครอีเมล
+
+เจ้าของยืนยัน [ใช้หน้าต่างr19สำหรับสมัครด้วยอีเมล](home-auth-email-verification-g2-r19/owner-reminder-acceptance.json) แล้ว ข้าม/ปิดได้ Googleไม่แสดงหน้าต่างนี้ตามเดิม ต่อ [เลือกวิธียืนยัน](home-auth-email-verification-method-discussion.md) หลังปุ่มยืนยันตอนนี้ ยังไม่เลือกlink/OTP/providerหรือรับG2รวม/High-Fiจากการรับreminder
+
+## ยืนยันอีเมลด้วยOTP6หลัก
+
+เจ้าของเลือก1ตาม [คำตัดสิน](home-auth-email-verification-otp-decision.json) ให้ยืนยันหลังlocal signupด้วยOTPอีเมล6หลัก ทำ [r20](home-auth-email-verification-otp-g2-r20/README.md) กรอกและสำเร็จ รอตรวจ ใช้รูปแบบinputเดิมเป็นข้อเสนอadaptation ไม่มีเปลี่ยนอีเมลหรือใช้รหัสผ่านแทน ข้ามได้ตามเดิมและGoogleไม่ผ่านขั้นนี้ สำเร็จต้องผลยืนยันตรงอีเมล/บัญชี ไม่ใช่พิมพ์ครบเอง ยังไม่เลือกprovider/เวลา/quotaหรือรับG2รวม
+
+## รับยืนยันอีเมลr20 / ต่อRegister validation
+
+เจ้าของเลือก1รับ [OTPยืนยันอีเมลและสำเร็จr20](home-auth-email-verification-otp-g2-r20/owner-verification-screens-acceptance.json) เฉพาะภาพที่แสดง ต่อ [Register-r21](home-auth-register-validation-g2-r21/README.md) สองตัวอย่างข้อมูลไม่ครบกับรหัสขั้นต่ำ8/confirmationไม่ตรง เสนอinlineชี้ช่องและsummaryก่อนprimary คงค่าที่กรอก ไม่เพิ่มกฎusername/โทรหรือรับsubmitting/provider errorจากภาพนี้ ทั้งสองstatesใหม่รอตรวจและG2รวมยังไม่รับ
+
+## ตรวจflowสมัครก่อนรับvalidation
+
+เจ้าของขอเช็คflowก่อน จึงจัด [Signup-r22](home-auth-signup-flow-g2-r22/README.md) อีเมล/Googleพร้อมทางกลับและoptional verification โดยพักการรับสองstatesr21ไว้ กฎที่รับเดิมยังใช้ ทางส่งคำขอไม่สำเร็จ/GoogleกลับRegisterและOTP error adaptationsที่ระบุเสนอรอตรวจ ไม่ถือว่าr21หรือG2รวมผ่าน
+
+## รับflowสมัครr22 / กลับตรวจstates
+
+เจ้าของเลือก1รับ [flowสมัครr22](home-auth-signup-flow-g2-r22/owner-signup-flow-acceptance.json) เฉพาะลำดับและทางกลับที่แสดง กลับมาตรวจ [Register validation-r21](home-auth-register-validation-g2-r21/README.md) สองภาพเดิม ไม่ถือว่ารับstatesหรือG2รวมจากการรับflow provider/เวลา/quotaและlayoutadaptationอื่นยังค้าง
+
+## รับRegister validation / ต่อช่วงส่งคำขอ
+
+เจ้าของเลือก1รับ [validation-r21ทั้งคู่](home-auth-register-validation-g2-r21/owner-register-validation-acceptance.json) หลังรับflowแล้ว ต่อ [request-r23](home-auth-register-request-g2-r23/README.md) เสนอพักcontrolsระหว่างรอ และคงค่าพร้อมretryเองเมื่อผลไม่สำเร็จที่ยืนยันได้ ไม่อ้างว่าcloseundoบัญชีหรือblind retryเมื่อผลกำกวม สองstatesใหม่นี้รอตรวจ ไม่รับG2รวมหรือproviderจริง
+
+## ข้อผิดพลาดสมัครต้องระบุสาเหตุ
+
+เจ้าของชี้แจง [ต้องบอกว่าอะไรไม่ถูก](home-auth-register-reasons-g2-r24/owner-cause-clarification.json) ไม่รับgeneric failure-r23 ทำ [r24](home-auth-register-reasons-g2-r24/README.md) แยกยืนยันรหัสผ่านไม่ตรงพร้อมชี้ช่อง/วิธีแก้ กับเชื่อมต่อระบบไม่ได้เฉพาะเมื่อรู้สาเหตุ ไม่เหมารวมข้อมูลผู้ใช้ผิดหรือแต่งduplicate-account policy สองภาพใหม่และกำลังสมัคร-r23ยังรอตรวจ ไม่รับG2รวม
+
+## Field errorต้องอยู่ใต้input
+
+[คำชี้แจงล่าสุด](home-auth-register-input-errors-g2-r25/owner-input-placement-clarification.json) ให้บอกเหตุผลที่inputที่ผิดโดยตรง ไม่เพิ่มกล่องสรุปซ้ำก่อนปุ่ม ทำ [r25](home-auth-register-input-errors-g2-r25/README.md) successorของการแสดงfield validation-r21/r24 คงกฎเดิมและเก็บภาพที่รับเดิมเป็นประวัติ ไม่มีการย้ายGoogle/connection form errorไปชี้ช่องอีเมล เจ้าของรับ [r25ทั้งสองกรณี](home-auth-register-input-errors-g2-r25/owner-register-inline-acceptance.json) แล้วด้วยคำตอบ1 ต่อมาเจ้าของรับconnection-r24/submitting-r23ผ่าน [r27](home-auth-register-request-review-r27/owner-request-states-acceptance.json) แล้ว ไม่รับG2รวม
+
+## ทบทวนAuthเดิมตามกฎinput
+
+เจ้าของให้ทบทวนแบบเก่าด้วย ทำ [audit-r26](home-auth-error-audit-r26/README.md) metadataทุกรุ่นและnativeข้อผิดพลาดที่เกี่ยวข้อง ปรับ/เติม8ตัวอย่างLogin/OTP/Forgot/Reset/ยืนยันอีเมลและpair rejection โดยคงGoogle/การเชื่อมต่อ/ลิงก์ใช้ไม่ได้ในระดับฟอร์มเมื่อไม่มีinputผิดที่ยืนยันได้ ไม่คืนflowหน้าเดียว/password defaultเก่า และไม่สร้างminimum8ให้Loginเอง ตรวจภาพAuthเดิม100ไฟล์hashไม่เปลี่ยน เจ้าของรับ [8ตัวอย่างr26ที่แสดง](home-auth-error-audit-r26/owner-error-audit-acceptance.json) แล้วตามคำตอบ “โอเค แบบนี้ได้ ไปข้อต่อไป” ต่อมาเจ้าของรับr25ทั้งสองกรณีแยกแล้วตามบันทึกข้างต้น ไม่รับG2รวมหรือระบบจริง
+
+## ตรวจสองสถานะคำขอสมัครสมาชิก
+
+หลังรับr25ทั้งคู่ นำ [request-review-r27](home-auth-register-request-review-r27/README.md) มาเทียบ: กำลังสมัคร `Y5Zok` คัดลอกจากr23 และเชื่อมต่อไม่ได้ `a0qxh` คัดลอกจากr24 คงกฎและเนื้อหาเดิม เจ้าของเลือก1รับ [ทั้งสองสถานะที่แสดง](home-auth-register-request-review-r27/owner-request-states-acceptance.json) แล้ว เป็นตัวอย่างknown connection failure ไม่ใช่ผลสร้างบัญชีกำกวมหรือการเลือกprovider ไม่รับG2รวมหรือระบบจริง
+
+## จุดตรวจถัดไป: ยกเลิก Google Login
+
+Google failure-r18รับแล้ว และเจ้าของเลือก1รับ [cancellation-r17](home-auth-google-g2-r17/owner-Google-cancellation-acceptance.json) ตามภาพ `EjvEz` แยกแล้ว: คงค่าidentifierและกลับฟอร์มLoginโดยไม่แจ้งerror/toastหรือส่งOTPเอง ไม่เลือกGoogle popup/redirect ไม่ถือว่าGoogle Register returnหรือG2รวมผ่าน
+
+## คำถามถัดไป: กลับจากAuthที่เปิดด้วยหัวใจ
+
+เจ้าของเลือก1ให้ [ทำรายการบันทึกบ้านที่กดไว้ต่อหลังLoginสำเร็จ](home-auth-favorite-return-decision.json) ไม่ต้องกดซ้ำ กฎเดิมยังต้องLogin/ไม่มีGuest favorites ยกเลิกไม่เปลี่ยนรายการ คงต้นทางเฉพาะflowต่อเนื่อง ไม่เดาผลบันทึกจากAuthสำเร็จ หากมีบันทึกอยู่แล้วคงsavedไม่สลับลบ ทำ [r28](home-auth-favorite-return-g2-r28/README.md) เสนอภาพกำลังบันทึกกับสำเร็จและข้อความยืนยัน เจ้าของเลือก1รับ [สองภาพr28](home-auth-favorite-return-g2-r28/owner-favorite-return-states-acceptance.json) แล้ว ส่วนกรณีไม่สำเร็จยังรอตรวจ ไม่รับG2รวม
+
+## ข้อเสนอเมื่อบันทึกบ้านมีปัญหาหลังAuth
+
+หลังรับr28 ทำ [r29](home-auth-favorite-result-g2-r29/README.md) เคยเสนอสองกรณี: ยืนยันว่าบันทึกไม่ได้กับยังไม่ทราบผล เจ้าของระบุ [“ไม่เอาไม่จำเป็น”](home-auth-favorite-result-g2-r29/owner-not-needed-rejection.json) จึงไม่ใช้UIสองกรณีและปุ่ม/ข้อความชุดนี้ ซ่อนบอร์ดร29คงหลักฐานเดิม แบบปัจจุบันคงr28ที่รับแล้ว ไม่เดาsavedจากAuthสำเร็จ การไม่ใช้UIนี้ไม่เลือกAPI/provider/error-reconciliation policyหรือรับG2รวม
+
+## จุดตรวจปัจจุบัน: โครงLoginและทางไปต่อ/ย้อนกลับ
+
+เจ้าของให้ไปข้อต่อไปหลังไม่ใช้Favorite-r29 ทำ [Current Login-r30](home-auth-login-flow-g2-r30/README.md) รวมentry/OTP/emailpassword/phonepasswordตามวิธีที่รับเดิม เจ้าของเลือก1รับ [สี่โครงและทางต่อ/กลับร30](home-auth-login-flow-g2-r30/owner-Login-structure-acceptance.json) แล้ว การกรอกOTPใช้slotsที่กรอกได้ ไม่ใช้inactive slotsของร่างresend-expired; countdownในปุ่ม00:45ยังเป็นfixture เบอร์ไม่มีemailOTP action และForgotยังemail link ไม่คืนr29หรือรับGoogle Register-return/wholeG2จากการรวมภาพนี้
+
+## พื้นที่มืดนอกAuth: คลิกนอกปิดได้
+
+เจ้าของเลือก2ตาม [บันทึก](home-auth-modal-dismissal-decision.json) คลิกพื้นที่มืดนอกAuthแล้วปิดได้ ไม่จำกัดเฉพาะฟอร์มว่าง ไม่เพิ่มpopupยืนยัน คงการยกเลิกกลับต้นทางและไม่ถือว่าปิดหน้าต่างเท่ากับย้อนคำขอserver ต่อมาเจ้าของเลือกให้ล้างข้อมูลAuthทั้งหมดเมื่อปิดตามบันทึกข้างล่าง ไม่รับG2รวมหรือimplementation
+
+## ปิดแล้วเปิดAuthใหม่: ล้างข้อมูลทั้งหมด
+
+เจ้าของเลือก2ตาม [บันทึก](home-auth-reopen-draft-decision.json) ให้ล้างข้อมูลฟอร์มAuthทั้งหมดเมื่อปิด เปิดใหม่เป็นฟอร์มว่าง รวมUsername/เบอร์/อีเมล/password/confirmation/OTP แยกจากค่าSearch/ตำแหน่งHomeที่ยังคงตามเดิม ไม่เพิ่มpersistence ไม่กู้เจตนาบันทึกบ้านที่ยกเลิกหรือส่งOTPเองเพราะเปิดใหม่ การล้างinputไม่ใช่rollbackคำขอserver/ลบบัญชี/logoutหรือยกเลิกรหัสที่ส่งแล้ว
+
+## Username: อังกฤษและตัวเลขเท่านั้น
+
+เจ้าของระบุ “อังกฤษ ตัวเลข” ตาม [บันทึก](home-auth-username-format-decision.json) จึงใช้A-Z/a-z/0-9เท่านั้น ไม่รวมภาษาไทย เว้นวรรค จุด ขีดล่าง อีโมจิหรือสัญลักษณ์ ไม่เพิ่มกฎว่าต้องมีทั้งตัวอักษรและตัวเลข คงชื่อแสดงซ้ำได้/requiredตามเดิม ไม่เพิ่มUsername Loginหรือเช็กชื่อถูกใช้แล้ว ความยาวเลือก3–20ตัวตาม [บันทึก](home-auth-username-length-decision.json) แล้ว
+
+## Username: ความยาว3–20 / ตัวอย่างเดิม
+
+เจ้าของเลือก1ให้ [3–20ตัว](home-auth-username-length-decision.json) ตัวอย่างUsernameภาษาไทยในภาพเก่าเป็นประวัติของlayout ไม่ใช่ค่าที่ผ่านกฎใหม่ ทำ [Register-r31](home-auth-register-username-g2-r31/README.md) รวมhelper/fixtureอังกฤษและข้อความinvalid-character/สั้น/ยาวไว้ใต้input โดยเก็บภาพอนุมัติเดิม เจ้าของเลือก1รับ [ร31ที่แสดง](home-auth-register-username-g2-r31/owner-Username-states-acceptance.json) แล้ว ไม่ยกการรับเฉพาะชุดUsernameเป็นการรับG2รวม
+
+## เบอร์โทร: ไทยและต่างประเทศพร้อมเลือกรหัสประเทศ
+
+เจ้าของเลือก2ตาม [บันทึก](home-auth-phone-format-decision.json) ไทยและต่างประเทศพร้อมเลือกcodeในช่องโทรสมัคร คงLoginอีเมล/โทรช่องเดียวและเบอร์ใช้password ทำ [Register-r32](home-auth-register-phone-g2-r32/README.md) เสนอช่อง/เมนู/ค้นหา/เปลี่ยนcodeและเริ่มไทย+66 ต่อมาเจ้าของเลือกชุด1พร้อมข้อแก้ [ชื่อไทยใช้ไทย ประเทศอื่นใช้English](home-auth-country-label-language-decision.json) ทำ [ร33](home-auth-register-country-labels-g2-r33/README.md) ปรับชื่อแล้วโดยคงโครง/เริ่มไทย+66เดิม ต่อมาเจ้าของตอบโอเครับ [ภาพชื่อประเทศร33ที่แสดง](home-auth-register-country-labels-g2-r33/owner-country-labels-acceptance.json) แยกแล้ว ไม่ถือว่าG2รวมผ่าน รายการประเทศจริง/normalization/verification/account matchingยังไม่เลือก ไม่เพิ่มSMSหรือรับG2รวม
+
+## Loginเบอร์ต่างประเทศ: รอตรวจpresentation
+
+หลังรับร33 ทำ [ร34](home-auth-login-country-g2-r34/README.md) เสนอcountry triggerเฉพาะphone-entryในidentifierช่องเดิม อีเมลไม่มีselector และส่งcountry+numberที่แสดงไปขั้นpasswordโดยคงdraftเมื่อย้อนแก้ไข เจ้าของเลือก1รับ [presentationร34ที่แสดง](home-auth-login-country-g2-r34/owner-Login-country-acceptance.json) แล้ว ไม่ยกการแสดงผลเป็นเลือกกฎparse/normalization/detection/providerหรือAuthทำงานจริง อีเมลOTPเดิมไม่ถูกเปลี่ยน
+
+## GoogleกลับRegister: รอตรวจlayout
+
+[ร35](home-auth-register-google-g2-r35/README.md) adaptflowร22และLogin patternsที่รับแล้วเป็นสองRegister layouts: ยกเลิกกลับเงียบคงdraftขณะAuthยังเปิด และGoogle failureระดับฟอร์มก่อนprimaryพร้อมretryGoogle ไม่แจ้งช่องข้อมูลผิดเอง ไม่บังคับlocal required/verification/profileให้Google เจ้าของเลือก1รับ [สองภาพร35](home-auth-register-google-g2-r35/owner-Register-Google-return-acceptance.json) แล้ว ไม่รับproviderจริงหรือG2รวม
+
+## OTPยืนยันอีเมลหลังสมัคร: รอตรวจ6adaptations
+
+[ร36](home-auth-email-verification-states-g2-r36/README.md) รวมchecking/expired/resend-pending/countdown-only/send-failure/check-failureเป็นverification purpose ใช้กฎเดิมและมีใช้งานก่อนทุกสถานะ ไม่เพิ่มแก้อีเมล/passwordหรือGoogle verification ภาพnormal/successร20และinvalidร26รับแล้วคงเดิม เจ้าของเลือก1รับ [6สถานะร36ที่แสดง](home-auth-email-verification-states-g2-r36/owner-verification-states-acceptance.json) แล้ว ไม่เลือกOTPเวลา/providerหรือรับG2รวม
+
+## ก่อนรับG2รวม
+
+[Readiness review](home-auth-g2-readiness.md) แยกฐานที่รับรายส่วนกับข้อค้างจริง ไม่ใช้approvalรายจุดปิดG2อัตโนมัติ เริ่ม [รูปแบบเบอร์ที่ผู้ใช้กรอกได้](home-auth-phone-input-discussion.md) ซึ่งยังเปิด แล้วเทียบrequest-state coverageกับcurrent flow/รวมinteraction contractและcurrent inventoryก่อนเสนอรับเวอร์ชันG2 ไม่เริ่มHigh-Fiหรือimplementationจากผลตรวจนี้
+
+## Phone inputแบบยืดหยุ่น / Current Login request states
+
+เจ้าของเลือก1รับ [เบอร์ปกติและ+code รวมเว้นวรรค/ขีดแล้วจัดรูปแบบให้](home-auth-phone-input-decision.json) โดยไม่เลือกประเทศผิดหรือตัดเลขเงียบๆ Actual parsing/country lengths/providerยังแยกไว้ ไม่ส่งAuthจากการformat ทำ [Login request-r37](home-auth-login-request-g2-r37/README.md) ส่งOTPก่อนกรอกcodeกับpassword submitแบบbusy/known connection failureตามcurrent templates เจ้าของเลือก1รับ [4statesร37ที่แสดง](home-auth-login-request-g2-r37/owner-Login-request-states-acceptance.json) แล้ว ไม่ใช้source single-pageเก่าหรือminimum8ใหม่กับLogin ไม่รับG2รวม
+
+## Recovery request states: รอตรวจ
+
+[ร38](home-auth-recovery-request-g2-r38/README.md) เพิ่มForgot request/reset saveแบบbusyและknown connection failureบนฟอร์มที่รับเดิม คงdraftขณะAuthเปิด พักส่งซ้ำ แจ้งconnectionระดับฟอร์มและretryเองเมื่อทำได้ ไม่ทำfield/linkผิดเอง Ack/unusable-link/successเดิมคงไว้ ไม่อ้างdelivery/บัญชี/auto-login เจ้าของตอบ1รับ4statesที่แสดงแล้ว ดู [หลักฐาน](home-auth-recovery-request-g2-r38/owner-Recovery-request-states-acceptance.json) ไม่รับproviderหรือG2รวม
+
+## Register current-state reconciliation-r39 และร่างinteractionรวม
+
+[ร39](home-auth-register-current-g2-r39/README.md) ใช้Register-r33ปัจจุบันรวมpatternsที่รับr25/r27: กำลังสมัคร/known connection failure/required Username+phone/passwordขั้นต่ำ8+confirmationไม่ตรง ตัวอย่างEnglish Usernameและcountry+66ครบ ไม่มีsummaryerrorซ้ำ Googleยังเป็นทางเลือกอิสระ เจ้าของตอบ1รับ4statesที่แสดงแล้ว ดู [หลักฐาน](home-auth-register-current-g2-r39/owner-Register-current-states-acceptance.json) ไม่รับG2รวม
+
+[Interaction contract draft-1](home-auth-interaction-contract.md) แยกคำตัดสินเดิมกับข้อเสนอfocus/Tab/Escape/Enter/viewport/Auth-Hero pause-resume/reduced-motionสำหรับตรวจพร้อมรุ่นG2รวม เตรียมเอกสารไม่ใช่อนุมัติข้อเสนอหรือผลทดสอบจริง ยังต้องannotated inventoryและเจ้าของรับG2ก่อนHigh-Fi
+
+## รุ่นรวมสำหรับตรวจ G2-r40
+
+[แพ็กG2-r40](home-auth-consolidated-g2-r40/README.md) รวมcurrent forms/state patterns57native referencesที่รับรายส่วน แผนผังรวมและinteraction draft-1พร้อมเกณฑ์ตรวจ/ขอบเขตG3และระบบจริง ภาพRegister-r39รับแล้ว แต่G2-r40รวมและข้อเสนอkeyboard/focus/Auth-Heroยังรอเจ้าของรับ ไม่เปลี่ยนsourcePNGเดิม ไม่เริ่มHigh-Fiจากการเตรียมแพ็ก

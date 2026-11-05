@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "checklist_item": "C1.2 / open calendar appearance",
+  "version": "Search dates Home-r20-r1",
+  "owner_quote": "1",
+  "question": "ภาพเปิดปฏิทินนี้โอเคไหมครับ? 1. รับภาพนี้ แล้วตรวจตอนเลือกช่วงวันต่อ 2. ปรับหน้าตาหรือตำแหน่งแผง 3. ขอดูตอนเลื่อนคู่เดือนก่อน แล้วค่อยตัดสินใจ",
+  "status": "owner_accepted_open_calendar_appearance_only",
+  "native_screen": "cDYPs",
+  "native_popup": "CnwHT",
+  "image": "cDYPs.png",
+  "image_sha256": "84d1e6c05e261fb067ff978820b3a087f5e21bbb55560fa599c665662e77899b",
+  "scope": "Open two-month calendar on Home-r20 Desktop1440; retain Month-nav-r6 interior and paired month arrows; panel720x356 atx272/y550, radius20 and agreed surface treatment",
+  "range_and_clear_states_approved": false,
+  "whole_C1_2_complete": false,
+  "whole_search_version_approved": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

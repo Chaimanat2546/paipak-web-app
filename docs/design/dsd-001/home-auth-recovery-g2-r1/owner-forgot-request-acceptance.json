@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Recovery G2-r1 / Forgot request only",
+  "owner_quote": "1",
+  "question": "โครงนี้โอเคไหมครับ? 1. รับโครงนี้ — ดูหน้าหลังส่งคำขอต่อ 2. ปรับฟอร์มนี้ — แก้ก่อน 3. ดูขั้นตอนทั้งหมดก่อน — เทียบ flow รวม",
+  "status": "owner_accepted_Forgot_request_structure_only",
+  "native_modal": "tJxL1",
+  "native_scene": "W2GLH",
+  "image": "tJxL1.png",
+  "image_sha256": "0d42136c9f14f3fef262cc43622f4c14bc29e1968027e8016c666fafc0521877",
+  "scope": "Email input, request-link action, Login return and close; low-fi structure only",
+  "other_Recovery_states_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_approved": false,
+  "runtime_verified": false,
+  "backend_authorized": false,
+  "frontend_authorized": false
+}

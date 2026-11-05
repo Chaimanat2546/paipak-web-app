@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Favorite Return G2-r28",
+  "status": "owner_accepted_displayed_saving_and_confirmed_saved_samples_whole_G2_pending",
+  "accepted_continuation": "../home-auth-favorite-return-decision.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "oADPo",
+  "native_comparison": "yZwwg",
+  "source_card": "X8ifq",
+  "items": [
+    {
+      "key": "saving",
+      "viewport": "xB6Hu",
+      "card": "ITEzN",
+      "marker": "lSDSl"
+    },
+    {
+      "key": "confirmed_saved",
+      "viewport": "e65FIF",
+      "card": "r8YoO5",
+      "marker": "ilPfc",
+      "feedback": "J26Wlw"
+    }
+  ],
+  "retained_appearance": "Copy existing314x362 Home card, photo and content. Retain44px transparent favorite target. Saved sample uses22px pink #FD6E88 filled heart without circle; no change to source or prior focus study.",
+  "proposed_behavior": {
+    "saving": "After confirmed Auth, resume explicit save intent without another click. Return to active Home origin; show a static-design spinner in favorite target while pending and suppress repeats. No saved announcement yet.",
+    "confirmed_saved": "Only after confirmed favorite result show filled pink heart and proposed check/text confirmation: บันทึกบ้านแล้ว. If already saved, preserve saved; no toggle removal.",
+    "failed_or_ambiguous": "Not designed or accepted in this review; do not claim successful save from successful Auth alone or automatically retry unknown outcome.",
+    "origin": "Cropped-card study only, not a new Home layout/member Header. Original Home/row/photo position contract retained.",
+    "toast": "Local confirmation proposal; no View Favorites or Undo action added. Whole-page position, lifetime and actual announcement/focus/motion implementation remain pending."
+  },
+  "images": [
+    {
+      "native_id": "oADPo",
+      "image": "oADPo.png",
+      "width": 896,
+      "height": 765,
+      "sha256": "fb2163990bc2b1386f9e4a53d95778427d07190488e80301f477b7d16aebb3ca"
+    },
+    {
+      "native_id": "yZwwg",
+      "image": "yZwwg.png",
+      "width": 832,
+      "height": 552,
+      "sha256": "f065ca8763843e82294fbd0a9555a7088d8838c40fc541e2c6b66d54f35301e0"
+    },
+    {
+      "native_id": "xB6Hu",
+      "image": "xB6Hu.png",
+      "width": 400,
+      "height": 512,
+      "sha256": "470d2a918a0db2bceae40fc2a57f983dae9892db3ce8973354fce821a8a56c30"
+    },
+    {
+      "native_id": "e65FIF",
+      "image": "e65FIF.png",
+      "width": 400,
+      "height": 512,
+      "sha256": "8f5926a8f98f835dd598634a007b6d6b87b2105844803db828cb710dd7e66587"
+    }
+  ],
+  "question": "ใช้สองสถานะนี้ได้ไหมครับ? 1. ใช้ทั้งคู่ 2. ปรับตอนกำลังบันทึก 3. ปรับตอนบันทึกสำเร็จ",
+  "verification": {
+    "comparison_full_size_image_inspected": true,
+    "final_root_screenshot_inspected": true,
+    "markers_verified": "Current copy IDs checked: lSDSl lucide loader-circle white22px; ilPfc phosphor heart-fill pink22px; targets remain44px transparent.",
+    "observation": "Card content/photo preserved; pending/saved visually distinct, check/text visible, no visible clipping in final screenshots. Static spinner is not a runtime animation test.",
+    "ctx_geometry_flags": "Coordinate visitor flagged multiple children despite complete exported visuals; not reported as a clean geometry result.",
+    "execute_warnings": [],
+    "main_Home_or_state_library_mutated": false
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "contrast_or_keyboard_certified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "state_library_count_unchanged": 54,
+  "UXD_002_changed": false,
+  "owner_acceptance": "owner-favorite-return-states-acceptance.json"
+}

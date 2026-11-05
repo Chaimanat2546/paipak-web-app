@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "decision": "Forgot-password recovery channel",
+  "owner_quote": "1",
+  "question": "ลืมรหัสผ่าน อยากใช้อีเมลแบบไหนครับ? 1. ส่งลิงก์ตั้งรหัสใหม่ 2. ส่งรหัส OTP ทางอีเมล 3. ดูตัวอย่างทั้งสองแบบก่อน",
+  "status": "owner_selected_email_reset_link",
+  "recovery_method": "email_link_to_new_password_form",
+  "email_OTP_selected": false,
+  "new_password_minimum_characters": 8,
+  "password_confirmation_required_and_must_match": true,
+  "reset_link_validity_minutes": "not_defined",
+  "automatic_login_after_reset": "not_approved; propose return to Login in G2",
+  "scope": "Design flow only. Email delivery, token/session verification, rate limits and provider contracts remain for separately authorized Auth implementation.",
+  "visual_approval": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

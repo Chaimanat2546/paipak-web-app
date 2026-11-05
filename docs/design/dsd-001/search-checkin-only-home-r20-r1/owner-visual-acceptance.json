@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "checklist_item": "C1.4",
+  "version": "Search check-in-only Home-r20-r1",
+  "owner_quote": "1",
+  "question": "ตรวจเฉพาะหน้าตาภาพใหม่นี้ครับ: 1. รับภาพนี้ แล้วตรวจปุ่มค้นหา/ทางลัดหมวดต่อ 2. ปรับข้อความหรือหน้าตา 3. ดูตอนปิดปฏิทินก่อน แล้วค่อยตัดสินใจ",
+  "status": "owner_accepted_checkin_only_search_appearance",
+  "native_screen": "fLKGL",
+  "native_popup": "SLLhR",
+  "image": "fLKGL.png",
+  "image_sha256": "a41d3a11910fd1fc258e15ded259a3659bb4a55a0ec095dbaac5b60e6fbb236a",
+  "rule_record": "owner-rule-change.json",
+  "scope": "Date field12Dec with checkout unset, optional-checkout prompt, normal non-error styling and retained other criteria. No missing-checkout Search rejection and no inferred nights",
+  "booking_date_requirements_changed": false,
+  "whole_search_version_approved": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

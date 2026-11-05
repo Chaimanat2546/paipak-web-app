@@ -5,6 +5,10 @@ Thai pool-villa booking marketplace papaipak.com. Browse/search all homes withou
 
 ### Owner-confirmed UXD-001 clarifications — 2 November 2026
 
+**Search location correction, 5 November 2026:** Owner correction, 5 November 2026: in the last partial/unresolved typed-location case, not selecting a suggestion means no location criterion; Search remains allowed using other entered criteria. Do not send the unresolved draft as a location query, silently choose a suggestion, or clear the Home draft from this rule. The prior recognized exact-name rule remains outside this correction. Owner accepted Search Desktop-r2 visual/specification package and State library rollout; runtime/data/accessibility and Frontend/backend remain separate. See [owner correction](dsd-001/search-desktop-review-r2/owner-location-correction.json).
+
+**Latest Search amendment, 5 November 2026:** the owner explicitly confirmed “เอาแค่วันเข้าก็ค้นหาได้”. Search may submit a check-in date with no checkout, as well as no dates. Do not reject it as an incomplete stay or infer a checkout date/number of nights. Preserve other selected criteria. Booking still requires complete valid dates and revalidation; availability/pricing/query semantics are not invented by this clarification. See [owner record](dsd-001/search-checkin-only-home-r20-r1/owner-rule-change.json). Older Search missing-checkout error references are superseded; historical approvals and UXD-002 review-5 remain preserved.
+
 - **Q-01:** Viewing or managing Favorites requires login. Do not save temporary Guest favorites or merge Guest lists into an account. Browsing properties remains public.
 - **Q-02:** Cancelling authentication returns to the Property Detail and selected values when booking initiated the flow; Header-initiated authentication returns to its originating page, subject to Q-03.
 - **Q-03:** Preserve Booking Intent only during the uninterrupted navigation/authentication flow. Do not retain or recover it after reload, tab close, or intent/session expiry; restart booking inputs. Results URL state and existing booking/payment records are separate and are not deleted by clearing draft intent.
@@ -49,3 +53,7 @@ WCAG 2.2 AA minimum; pink `#FD6E88` with white normal text fails contrast. Do no
 User manually starts each `UXD-*`, `DSD-*`, or `UID-*` task with Design Agent; task-local discussion and final owner design approval; only then unblock corresponding frontend coding work. Existing screenshots in planning are not approved regression baselines.
 
 Owner order amendment on 3 November 2026: approve Visual Direction/version in DSD-001 before Wireframe revisions and G2 acceptance in UXD-002, while preserving approved UX/business rules. Existing review-5 remains draft evidence awaiting owner review; do not regenerate or approve it from this amendment. The owner subsequently approved [Design Governance Kit v1.0](governance/README.md) as the project-wide standard on the same date. Its Homepage example remains illustrative only. Each task's design/version still requires explicit owner approval before related frontend implementation.
+
+## ข้อมูลจริงจากเจ้าของ · 5 พฤศจิกายน 2026
+
+เจ้าของยืนยันโลโก้จริงและภาพบัญชีกสิกรไทย พร้อมสั่งใส่สเปค/UI ตาม [หลักฐาน](dsd-001/owner-assets-r1/owner-content-confirmation.json) ใช้ข้อมูลบัญชีและเงื่อนไขจากภาพตาม [สเปค](dsd-001/owner-assets-r1/brand-and-transfer-spec.md) ไม่ถือเป็นfixtureอีกต่อไปเฉพาะข้อมูลชุดนี้ เงื่อนไขหลังโอนห้ามยกเลิก/เปลี่ยนบ้าน/เปลี่ยนวันตามภาพ ไม่เพิ่มข้อกำหนดไม่คืนเงินหรือค่าปรับที่ไม่มีในต้นฉบับ โลโก้และtransfer-contentในPencilรอตรวจเวอร์ชัน ไม่มีFrontend/backendหรือCheckoutทั้งหน้าจากการแก้ครั้งนี้

@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "checklist_item": "C1.5/C1.6",
+  "owner_quote": "อันสุดท้ายท้าไม่เลือก = ไม่ใส่มันก็ต้องค้นหาได้สิ่",
+  "status": "owner_corrected_unselected_partial_location_search_allowed",
+  "scope": "Last presented case: partial/unresolved typed location without explicit suggestion selection is treated as unset for Search. Submit remains allowed with other entered criteria.",
+  "unselected_unresolved_location_is_unset": true,
+  "search_submission_blocked": false,
+  "send_unresolved_text_as_location_query": false,
+  "auto_select_first_suggestion": false,
+  "other_criteria_preserved": true,
+  "home_draft_clearing_prescribed": false,
+  "previous_evidence": "../search-location-match-home-r20-r1/owner-location-rule.json",
+  "supersedes": "Only the previous requirement to choose a suggestion before submitting unresolved/partial location text",
+  "recognized_exact_name_rule": "Earlier explicitly accepted recognized-name resolution rule is unchanged outside this last-case correction",
+  "visual_version": "Search Desktop-r2",
+  "visual_approval": "pending_owner_review",
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

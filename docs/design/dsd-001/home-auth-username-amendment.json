@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "decision": "Replace real-name registration fields with username",
+  "owner_quote": "เปลี่ยนใจละ ชื่อนามสกุลยังไม่ต้อง ใช้ username แทน",
+  "status": "owner_replaced_first_and_last_name_with_username",
+  "current_email_registration_fields": [
+    "username",
+    "phone",
+    "email",
+    "password"
+  ],
+  "required_fields": [
+    "username",
+    "phone",
+    "email",
+    "password"
+  ],
+  "required_basis": "Replace previously required first_name/last_name with username; retain previous all-required decision for remaining email-registration data",
+  "removed_from_current_signup": [
+    "first_name",
+    "last_name"
+  ],
+  "password_confirmation_required_on_registration_and_reset": true,
+  "password_confirmation_added_to_login": false,
+  "login_channels_unchanged": [
+    "email_password",
+    "google"
+  ],
+  "username_login_authorized_by_this_change": false,
+  "phone_login_or_OTP_authorized": false,
+  "username_format_uniqueness_and_availability": "pending_contract",
+  "google_profile_completion": "pending_owner_decision; update missing-data question to username/phone",
+  "supersedes": [
+    "home-auth-registration-fields-decision.json: first/last name inventory only",
+    "home-auth-registration-required-decision.json: required first/last name fields only"
+  ],
+  "retained": [
+    "Other email registration fields remain required",
+    "Password confirmation on registration/reset",
+    "Other adopted Home/Auth UX rules"
+  ],
+  "previous_spec_archive": "home-auth-pre-username-spec.md.txt",
+  "previous_spec_sha256": "af7d3e5028e26be86bd32a4c34b9fd0302a647fce29298e4e23ac4298a99cebc",
+  "visual_approval": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

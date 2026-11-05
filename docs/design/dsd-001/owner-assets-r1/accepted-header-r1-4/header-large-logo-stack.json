@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "เอาโลโก้ใหญ่แทนแล้วชื่อกับข้อมูลบัญชีไวซ้อนกัน",
+  "change": "Enlarge actual logo to112x100 at left. Stack website name, actual recipient and bank/account line at right.",
+  "native_Header": "KEBjP",
+  "native_logo": "uvcHr",
+  "native_text_stack": "KnXwN",
+  "native_recipient": "bjmyt",
+  "native_bank_line": "R9bDQ",
+  "header_height_px": 128,
+  "logo_display_px": [
+    112,
+    100
+  ],
+  "brand_block_width_px": 480,
+  "logo_text_gap_px": 16,
+  "actual_bank_data_unchanged": true,
+  "new_visual_approved": false,
+  "Auth_or_backend_or_frontend_changed": false
+}

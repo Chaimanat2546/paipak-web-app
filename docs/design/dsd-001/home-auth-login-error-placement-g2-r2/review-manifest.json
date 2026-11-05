@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-05",
+  "task": "DSD-001",
+  "version": "Home Auth Login error placement G2-r2",
+  "status": "C_selected_then_two_step_password_flow_selected",
+  "native_root": "u0aE4E",
+  "choices": [
+    {
+      "choice": "A",
+      "numeric_option": 1,
+      "native_modal": "W7bxCs",
+      "presentation": "Boxed overall feedback below title, above fields",
+      "recommended_by_agent": true
+    },
+    {
+      "choice": "B",
+      "numeric_option": 2,
+      "native_modal": "Tc3zT",
+      "presentation": "Same error wording unboxed below password, before submit"
+    },
+    {
+      "choice": "C",
+      "numeric_option": 3,
+      "native_modal": "C8pW5",
+      "presentation": "Same boxed feedback below password as initial draft"
+    }
+  ],
+  "images": [
+    {
+      "native_id": "u0aE4E",
+      "image": "u0aE4E.png",
+      "sha256": "7593401badf1fb1c23127cdbb0611982e09d8971548d61148221082aa8fbef3e"
+    },
+    {
+      "native_id": "W7bxCs",
+      "image": "W7bxCs.png",
+      "sha256": "7d8ed7da6a935406ddf6860d15675d27f2dee750ad35c8d30fac8c7b7252a333"
+    },
+    {
+      "native_id": "Tc3zT",
+      "image": "Tc3zT.png",
+      "sha256": "14a1518fb9bf987c4a0f3e3f4fd542f0aaf067467dde7102fd0e1de69e9550c7"
+    },
+    {
+      "native_id": "C8pW5",
+      "image": "C8pW5.png",
+      "sha256": "a10e5d3489fd5adc004674f22ac854579651d5d9ccddaea361550ea3bdde5a28"
+    }
+  ],
+  "source": "reference-and-owner-question.json",
+  "same_error_copy_in_all_choices": true,
+  "other_auth_rules_changed": false,
+  "required_loading_states_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "proposed_question": "เลือกตำแหน่งแบบไหนครับ? 1. A เหนือช่องกรอก 2. B ข้อความล้วนใต้รหัสผ่าน 3. C กล่องก่อนปุ่มแบบร่างเดิม",
+  "owner_choice": "C",
+  "owner_selection": "owner-C-selection.json",
+  "subsequent_flow_discussion": "../home-auth-airbnb-flow-discussion.md",
+  "subsequent_flow_selection": "../home-auth-two-step-login-decision.json",
+  "current_Login_revision": "../home-auth-login-g2-r4/review-manifest.json"
+}

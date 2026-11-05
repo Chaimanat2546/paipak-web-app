@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "version": "Owner assets-r1 / Home Desktop-r21 logo update + transfer content module",
+  "status": "pending_owner_visual_version_review_content_already_confirmed",
+  "authorization": "owner-content-confirmation.json",
+  "specification": "brand-and-transfer-spec.md",
+  "asset_manifest": "asset-manifest.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "WHN8T",
+  "native_Home": "Wgw2h",
+  "native_Header": "KEBjP",
+  "native_Footer": "L3Fop2",
+  "native_logo_variants": "w1bhDv",
+  "native_transfer_module": "yIVr1",
+  "previous_accepted_Home_retained": "a8kei",
+  "images": [
+    {
+      "native_id": "KEBjP",
+      "image": "KEBjP.png",
+      "sha256": "f6fe5512a9db34e6f5fa78f840bf3bd0293f37c3c09b52d40f4438fbb4b2cdbb"
+    },
+    {
+      "native_id": "L3Fop2",
+      "image": "L3Fop2.png",
+      "sha256": "11d2e7b9b1e4869307547e6cc70bc696a0557fda6f430c1cfa40d4801c847a1e"
+    },
+    {
+      "native_id": "w1bhDv",
+      "image": "w1bhDv.png",
+      "sha256": "cc6b758f299b84266377c3cb36803ae4227755f9599609572bfc0cbfbfbe1c8e"
+    },
+    {
+      "native_id": "yIVr1",
+      "image": "yIVr1.png",
+      "sha256": "39019df9e257b8b89bc4f523d12bedd1f7540479afb6274278991765d9a7cc20"
+    },
+    {
+      "native_id": "Wgw2h",
+      "image": "Wgw2h.png",
+      "sha256": "cd3218c89cedc2a5fdee83a4a0cc3b40b17df0db65013b2bd90fce9c555568b8"
+    }
+  ],
+  "verification": {
+    "source_and_new_Home_section_count": 13,
+    "unchanged_non_Header_Footer_sections": 11,
+    "comparison": "Normalized native schema equality, ignoring node IDs only",
+    "header_height_px": 124,
+    "old_placeholder_transfer_notice_removed": true,
+    "bank_texts_checked_against_owner_image": true,
+    "original_asset_bytes_retained": true,
+    "screenshots_inspected": [
+      "KEBjP",
+      "L3Fop2",
+      "w1bhDv",
+      "yIVr1"
+    ],
+    "native_execute_warnings": []
+  },
+  "approved_old_images_or_acceptance_records_modified": false,
+  "Auth_work_modified": false,
+  "state_library_modified": false,
+  "UXD_002_modified": false,
+  "full_checkout_design_started": false,
+  "whole_DSD_001_complete": false,
+  "new_visual_approved": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "runtime_verified": false
+}

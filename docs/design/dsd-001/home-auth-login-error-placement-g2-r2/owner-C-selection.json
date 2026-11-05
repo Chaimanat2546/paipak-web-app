@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "C",
+  "status": "owner_selected_C_boxed_error_before_Login",
+  "native_selected_modal": "C8pW5",
+  "selected_image": "C8pW5.png",
+  "scope": "Error placement/presentation choice only. Immediately followed by separate Airbnb flow discussion; no new flow authorized by that question.",
+  "subsequent_owner_question": "หรือจะใช้ flow ของ airbnb",
+  "new_Auth_flow_approved": false,
+  "whole_G2_or_High_Fi_approved": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

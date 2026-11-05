@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "provenance": "Direct owner attachments, confirmed real and explicitly authorized for specifications and UI in this side conversation",
+  "original_pixels_preserved": true,
+  "files": [
+    {
+      "role": "color",
+      "original_filename": "เดี๋ยวพาไปพัก_LOGO_color-03 (1).png",
+      "file": "assets/logo-color-original.png",
+      "bytes": 1823060,
+      "sha256": "89364219729806ef0180c475e6b1b124c27a8b815dbc8dd007ba360bf59ea29a",
+      "pencil_url": "./images/owner-assets-r1/logo-color-original.png"
+    },
+    {
+      "role": "white",
+      "original_filename": "เดี๋ยวพาไปพัก_LOGO_white.png",
+      "file": "assets/logo-white-original.png",
+      "bytes": 1440085,
+      "sha256": "fe4138b8422f278dad760bec172b7f6d5cf4d31443f788a7cf2c1574db4b35ef",
+      "pencil_url": "./images/owner-assets-r1/logo-white-original.png"
+    },
+    {
+      "role": "outline",
+      "original_filename": "เดี๋ยวพาไปพัก_LOGO_color+shadow (1).png",
+      "file": "assets/logo-outline-original.png",
+      "bytes": 2788439,
+      "sha256": "02f17a4aa8b8d74acd00aeef59bb96e3d46d45edfd6edc62653a0243c9ae1a33",
+      "pencil_url": "./images/owner-assets-r1/logo-outline-original.png"
+    },
+    {
+      "role": "bank_reference",
+      "original_filename": "codex-clipboard-2388b72a-f1b2-4740-9af6-d91761139aed.png",
+      "file": "assets/bank-account-source.png",
+      "bytes": 531822,
+      "sha256": "fba27296ac8d2843852f57fdf5d5360db5cc1a0d8dfb7589578981ab3d3bff4e",
+      "pencil_url": "./images/owner-assets-r1/bank-account-source.png"
+    }
+  ]
+}

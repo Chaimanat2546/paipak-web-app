@@ -1,0 +1,20 @@
+{
+  "purpose": "Freeze review-time README/manifest and current specification bytes before acceptance status reconciliation. Approval scope is Search Desktop-r2 only, not the entire responsive guideline.",
+  "files": [
+    {
+      "source": "docs\\design\\dsd-001\\search-desktop-review-r2\\README.md",
+      "archive": "README.md.txt",
+      "sha256": "3d6ac4789dc62df8ac625582e0de734117a9d2320be2634c88b793d4cd2292df"
+    },
+    {
+      "source": "docs\\design\\dsd-001\\search-desktop-review-r2\\review-manifest.json",
+      "archive": "review-manifest.json.txt",
+      "sha256": "6544af123a94b81774be6027974cb9969f5f1fc92d340eded89d53eefee8e207"
+    },
+    {
+      "source": "docs\\design\\dsd-001\\responsive-visual-guidelines.md",
+      "archive": "responsive-visual-guidelines.md.txt",
+      "sha256": "1a7fcb06ca7ce1586162ef88078ce3796d7f5fee1361cdbb93b776cb8c394219"
+    }
+  ]
+}

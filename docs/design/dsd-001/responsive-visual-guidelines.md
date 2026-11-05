@@ -1,5 +1,11 @@
 # DSD-001 — Responsive visual guidelines
 
+> รับ Search Desktop-r2 ทั้งชุดและปรับ State library แล้วตาม [หลักฐาน](search-desktop-review-r2/owner-search-acceptance.json) เฉพาะภาพและสเป็กDesktop1440px ไม่รับรองruntime/keyboard/dataหรือปิดOPEN-001 รายละเอียดภาพขณะตรวจเก็บbytesเดิมใน [archive](search-desktop-review-r2/accepted-review-bytes/manifest.json)
+
+> ข้อแก้ไขล่าสุดC1.5/C1.6วันที่5พฤศจิกายน2026: กรณีท้ายที่พิมพ์สถานที่ไม่ครบแต่ไม่เลือกคำแนะนำ ให้ถือว่ายังไม่ระบุสถานที่และค้นหาได้ด้วยเงื่อนไขอื่น ไม่ส่งข้อความที่ยังไม่ยืนยันเป็นสถานที่ ไม่เลือกคำแนะนำแทน และไม่สั่งล้างฟอร์ม Home จากข้อนี้ กติกาชื่อตรงเดิมคงไว้ในส่วนที่ไม่ใช่กรณีแก้ไขนี้ ภาพ Search Desktop-r2 รับรวมแล้วพร้อมข้อค้าง ดู [หลักฐานแก้ไข](search-desktop-review-r2/owner-location-correction.json) และ [สำเนาก่อนแก้](search-desktop-review-r2/previous-contracts/manifest.json) คงประวัติและการรับรุ่นเก่า ไม่รับรองจออื่น
+
+> ข้อเปลี่ยนSearchวันที่5พฤศจิกายน2026: [เจ้าของยืนยันวันเข้าอย่างเดียวค้นหาได้](search-checkin-only-home-r20-r1/owner-rule-change.json) ไม่ใช้missing-checkout validationเพื่อขวางSearch ไม่เติมวันออก/จำนวนคืนเอง กฎวันจองยังเดิม [รับภาพเฉพาะC1.4แล้ว](search-checkin-only-home-r20-r1/owner-visual-acceptance.json) ไม่รับSearchรวม [published documents Home-r20ก่อนแก้](footer-contact-r5/pre-checkin-only-reconciliation-2026-11-05/README.md) เก็บhashเดิมครบ ไม่เปลี่ยนการรับรุ่นเก่าย้อนหลัง
+
 > เจ้าของรับHome Desktop-r20พร้อมFooter-contact-r5และFAQ-r4ในขอบเขตDesktopพร้อมข้อค้างเดิมแล้ว ดู [หลักฐาน](footer-contact-r5/owner-home-acceptance.json) บัญชีFB/TikTokยังเป็นfixturesไม่มีURLจริง ฉบับHome-r19ก่อนเพิ่มช่องทางเก็บใน [archive](home-faq-r4/pre-social-footer-reconciliation-2026-11-05/README.md) ไม่ปิดDSD-001ทั้งTaskหรืออนุญาตFrontend/backend/runtime/จออื่น
 
 
@@ -64,7 +70,7 @@ Heroเลื่อนแนวนอนอัตโนมัติวนทุ�
 
 แผงภาษา224×152pxและติดต่อ280×176pxอยู่ใต้triggerและรักษาขอบจอ ปุ่มปิด44px/ธง22pxคงเดิม เมื่อresizeต้องตรวจตำแหน่งไม่บังcontrolsและเปิดทีละแผง ไม่เปลี่ยนlocale/currencyหรือเชื่อมLINE/โทรจากการทำlayoutนี้
 
-Search expanded statesอ้าง [Legacy-search-r5/Month-nav-r6](f01-ui-3/legacy-search-r5/README.md): สถานที่ใช้inputบนแถบ ปฏิทินสองเดือนมีลูกศรครอบทั้งคู่ ผู้เข้าพักเป็นคนรวมกับpetsแยก ไม่มีปุ่มบันทึก/ล้างจำนวนที่ไม่ได้เลือก และmissing-checkoutต้องแสดงvalidationตามflowเดิม
+Search expanded statesอ้าง [Legacy-search-r5/Month-nav-r6](f01-ui-3/legacy-search-r5/README.md) สำหรับโครงแผงเท่านั้น: สถานที่ใช้inputบนแถบ ปฏิทินสองเดือนมีลูกศรครอบทั้งคู่ ผู้เข้าพักเป็นคนรวมกับpetsแยก ไม่มีบันทึก/ล้างจำนวน กฎล่าสุดให้ค้นหาด้วยวันเข้าอย่างเดียวได้และเก็บวันออกเป็นunset ไม่ใช้missing-checkout errorเดิม ไม่เติมจำนวนคืนหรือเปลี่ยนข้อกำหนดวันจอง
 
 LoginDesktopเป็นmodalทับหน้าต้นทาง ไม่เปลี่ยนหน้า;ปิดแล้วรักษาcontextที่ยังใช้ได้ ไม่เพิ่มการกู้Booking Intentหลังreload/ปิดแท็บ/หมดอายุ ทางลัดหมวดส่งเฉพาะหมวด ส่วนHeaderค้นหาที่พักเริ่มที่พักทั้งหมด รายละเอียดปลายทางและBackดู [guided review](f01-ui-3/home-guided-review/README.md)
 
@@ -122,3 +128,7 @@ Heroใช้การเลื่อน800msตามตัวอย่าง�
 
 
 Footer-r5เพิ่มสองrowในคอลัมน์ติดต่อโดยไม่เปลี่ยนอีก12ส่วนของHome-r19 Header/Hero/FAQและส่วนอื่นคงเดิม Height392pxเป็นreferenceตามfixtures ไม่ใช้fixedheightทุกจอ เมื่อได้ชื่อ/URLจริงต้องตรวจการwrap/targetอีกครั้ง ยังไม่รับรองปลายทางหรือMobile ดู [Home-r20](footer-contact-r5/owner-home-acceptance.json)
+
+## Owner-assets-r1 · โลโก้และข้อมูลจริง
+
+Owner-assets-r1แก้Desktop1440ในสำเนาHome-r21 ใช้logoจริงHeader112×100pxด้านซ้าย พร้อมชื่อเว็บ/ชื่อผู้รับ/ธนาคารและเลขบัญชีซ้อนกันด้านขวา และFooter80×72px Headerสูง128pxเพื่อรองรับข้อมูลสองบรรทัด มี13sectionsเท่าเดิมและ11sectionsกลางไม่เปลี่ยน ไม่claimMobile/จออื่นผ่าน โลโก้PNGใช้containและtrimเฉพาะtransparent margins ดู [สเปคและขอบเขต](owner-assets-r1/brand-and-transfer-spec.md) และ [ภาพPencil/hash](owner-assets-r1/review-manifest.json) ข้อมูลจริงยืนยันแล้ว และ [Header Desktop-r1.4รับแล้ว](owner-assets-r1/owner-header-r1-4-acceptance.json) เฉพาะHeader ส่วนแบบแก้อื่นยังรอตรวจ

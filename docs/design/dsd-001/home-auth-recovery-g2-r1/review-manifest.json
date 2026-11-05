@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Recovery G2-r1",
+  "gate": "G2 draft",
+  "status": "Recovery_core_structures_individually_accepted_remaining_Auth_states_and_whole_G2_pending",
+  "authorization": "../home-auth-g0-approval.json",
+  "reset_method": "../home-auth-reset-link-decision.json",
+  "base_Login": "../home-auth-login-g2-r3/owner-login-structure-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "n2gWyS",
+  "native_context": "W2GLH",
+  "viewport": {
+    "width": 1440,
+    "height": 960
+  },
+  "states": [
+    {
+      "native_id": "tJxL1",
+      "name": "Forgot email request",
+      "status": "owner_accepted_structure_only"
+    },
+    {
+      "native_id": "z5EJtN",
+      "name": "Request acknowledgement",
+      "status": "superseded_by_accepted_R2_without_change_email",
+      "replacement": "../home-auth-recovery-g2-r2/review-manifest.json"
+    },
+    {
+      "native_id": "ZsOMo",
+      "name": "Set new password",
+      "status": "owner_accepted_structure_only"
+    },
+    {
+      "native_id": "MKMGi",
+      "name": "Reset success",
+      "status": "owner_accepted_structure_and_Login_return"
+    },
+    {
+      "native_id": "l0YcM",
+      "name": "Unusable link",
+      "status": "owner_accepted_structure_and_request_new_path"
+    }
+  ],
+  "images": [
+    {
+      "native_id": "n2gWyS",
+      "image": "n2gWyS.png",
+      "sha256": "b8a12a6ccd6b8d08f2f083306a5292212a608124bcc912d7c51afea8445a9675"
+    },
+    {
+      "native_id": "W2GLH",
+      "image": "W2GLH.png",
+      "sha256": "65a5a563055585ef834e80a1e3aa41e22b7e6ef5e009c510f77657c81f2cb046"
+    },
+    {
+      "native_id": "tJxL1",
+      "image": "tJxL1.png",
+      "sha256": "0d42136c9f14f3fef262cc43622f4c14bc29e1968027e8016c666fafc0521877"
+    },
+    {
+      "native_id": "z5EJtN",
+      "image": "z5EJtN.png",
+      "sha256": "f790d61f378b77cc406921e293fb8ef02aa6145c786247cca930ea94143c0030"
+    },
+    {
+      "native_id": "ZsOMo",
+      "image": "ZsOMo.png",
+      "sha256": "9fa09608b97b0dfb17c2eb37793e7db78779bba72344dfd0f9ed1f1ff5111986"
+    },
+    {
+      "native_id": "MKMGi",
+      "image": "MKMGi.png",
+      "sha256": "fb08dd543ee7250bda836c4c29d72fa0b59f5efedbfb54740c955c37baecb664"
+    },
+    {
+      "native_id": "l0YcM",
+      "image": "l0YcM.png",
+      "sha256": "7c6774c3dda0a8df45b5d3c54fe97ee779716a88fc1f4822c4dbd73f77da3603"
+    }
+  ],
+  "next_question_scope": "See ../home-auth-login-states-g2-r1/review-manifest.json for current Login-error review",
+  "proposed_question": "หน้าลิงก์ใช้ไม่ได้นี้โอเคไหมครับ? 1. รับหน้านี้ แล้วตรวจstatesฟอร์มต่อ 2. ปรับข้อความหรือปุ่ม 3. ดูคู่กับฟอร์มขอลิงก์ใหม่",
+  "not_approved_proposals": [
+    "Resend action without invented cooldown or rate count",
+    "Detailed unusable-link and cancellation state presentation"
+  ],
+  "other_open_states": [
+    "Validation and request failure",
+    "Submitting/disabled controls",
+    "Google cancel/failure",
+    "Dismissible email verification reminder",
+    "Focus/keyboard/Hero pause interactions"
+  ],
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "state_library_changed": false,
+  "main_Home_changed": false,
+  "UXD_002_file_changed": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "forgot_request_acceptance": "owner-forgot-request-acceptance.json",
+  "acknowledgement_acceptance": "../home-auth-recovery-g2-r2/owner-acknowledgement-acceptance.json",
+  "current_acknowledgement_native": "IvrCQ",
+  "reset_form_acceptance": "owner-reset-form-acceptance.json",
+  "reset_success_acceptance": "owner-reset-success-acceptance.json",
+  "unusable_link_acceptance": "owner-unusable-link-acceptance.json",
+  "retrospective_error_consistency_review": "../home-auth-error-audit-r26/review-manifest.json",
+  "later_field_placement_rule": "../home-auth-register-input-errors-g2-r25/owner-input-placement-clarification.json"
+}

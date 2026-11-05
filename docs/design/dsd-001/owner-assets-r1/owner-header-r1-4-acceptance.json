@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "โอเคแบบนี้เลย",
+  "status": "owner_accepted_Header_Desktop_visual_r1_4_only",
+  "version": "Owner assets Header-r1.4 / Home Desktop-r21 Header",
+  "scope": "Desktop1440 Header: actual logo112x100 at left, papaipak name and actual recipient/bank/account vertically stacked at right; Header128px.",
+  "native_Header": "KEBjP",
+  "native_Home_context": "Wgw2h",
+  "reviewed_image": "header-large-logo-stacked.png",
+  "reviewed_image_sha256": "9f9069df2abc209351851e4ae0ab37ef489f16237272922972d39c5480edbb20",
+  "frozen_review_image": "accepted-header-r1-4/header-large-logo-stacked.png",
+  "Footer_or_transfer_module_visual_accepted_by_this_reply": false,
+  "whole_Home_r21_or_DSD_001_approved_by_this_reply": false,
+  "state_library_rollout_approved_by_this_reply": false,
+  "OPEN_001_resolved": false,
+  "Mobile_or_other_widths_approved": false,
+  "frontend_or_backend_authorized": false,
+  "Auth_work_changed": false
+}

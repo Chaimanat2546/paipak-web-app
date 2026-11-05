@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "checklist_item": "C1.5",
+  "version": "Search empty examples Home-r20-r2",
+  "owner_quote": "1",
+  "question": "ภาพสองกรณีนี้โอเคไหมครับ? 1. โอเค — ไปตรวจชุด Search รวมต่อ 2. ปรับภาพหรือข้อความ — แก้จุดที่ยังไม่ลงตัว 3. ดูกรณีไม่มีคำแนะนำก่อน — ตรวจอีกกรณีก่อนรวบรวม",
+  "status": "owner_accepted_two_empty_search_examples",
+  "image": "mMr0L.png",
+  "image_sha256": "5a553ba76b6657feedae510390038735cc160311724b411f173bd03c5bf4c8b4",
+  "native_comparison": "mMr0L",
+  "native_cases": [
+    "E3f0t",
+    "bFjcq"
+  ],
+  "scope": "Blank location retains entered check-in/guest/pet criteria; all fields empty shows placeholders with normal Search action. Authorizes consolidated Search review.",
+  "matching_and_unresolved_name_visuals_approved": false,
+  "whole_search_version_approved": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

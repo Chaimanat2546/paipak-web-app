@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "ได้",
+  "reviewed_prompt": "ย้ายในPencilแล้ว กล่องแจ้งเตือนGoogleอยู่ใต้ช่องกรอก ก่อนปุ่มดำเนินการต่อ ตำแหน่งเดียวกับข้อผิดพลาดอีกแบบ",
+  "status": "owner_accepted_displayed_Google_failure_r18",
+  "version": "Home Auth Google G2-r18",
+  "reviewed_image": "sbCLw.png",
+  "reviewed_image_sha256": "5b97f18ced156a10e9e8cce4b803d1070264302ad157a3e3ef5c64aa044340b3",
+  "accepted_scope": "Displayed Google failure feedback placement/presentation below identifier and before primary, with Google-specific message and existing controls.",
+  "Google_cancellation_r17_approved_by_this_reply": false,
+  "whole_Google_flow_or_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

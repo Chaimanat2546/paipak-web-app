@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "checklist_item": "C1.5",
+  "owner_quote": "ค้นหาได้หากไม่ใส่",
+  "status": "owner_reconfirmed_search_without_location_allowed",
+  "context": "Clarification after the recognized-name/nonmatching-name Search presentation",
+  "empty_location_search_allowed": true,
+  "other_entered_criteria_preserved": true,
+  "all_fields_empty_search_allowed": true,
+  "all_empty_basis": "Retained UX-001 and existing optional date/guest browsing/search contract, not a new provider query contract",
+  "name_selection_rule_applies_only_when_location_text_nonempty": true,
+  "nonmatching_nonempty_text_rule_changed": false,
+  "prior_location_rule": "../search-location-match-home-r20-r1/owner-location-rule.json",
+  "revised_visual_approval": "pending_owner_review",
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

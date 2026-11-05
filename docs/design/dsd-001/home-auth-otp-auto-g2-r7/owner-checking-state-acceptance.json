@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "สถานะระหว่างตรวจแบบนี้โอเคไหมครับ? 1. รับแบบนี้ แล้วดูกรณีรหัสผิดต่อ 2. ปรับข้อความหรือการจัดวางก่อน 3. ใช้ข้อความอย่างเดียว เอาวงโหลดออก",
+  "status": "owner_accepted_displayed_OTP_checking_state",
+  "version": "Home Auth OTP G2-r7",
+  "reviewed_comparison": "hkVe5.png",
+  "reviewed_comparison_sha256": "00668ceab787491bf5f20c52a6252f3cd5461576d7dba3728965ee3b108e0330",
+  "checking_modal": "PmCdx",
+  "checking_modal_sha256": "731be4b6c6edafced175ba6f9b46eeeeca5652ad40e9cca3d492c26637f51420",
+  "accepted_scope": "Displayed inline spinner/loading text after six digits, no manual confirmation button, temporarily inactive slots/resend/password switch during request, cancellation paths retained as proposed.",
+  "invalid_expired_retry_policy_approved": false,
+  "expiry_resend_timing_approved": false,
+  "runtime_verified": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "frontend_or_backend_authorized": false
+}

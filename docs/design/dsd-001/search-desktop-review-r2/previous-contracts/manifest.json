@@ -1,0 +1,45 @@
+{
+  "reason": "Exact bytes before owner correction of unresolved/unselected location blocking Search",
+  "files": [
+    {
+      "source": "AGENTS.md",
+      "archive": "1-AGENTS.md.txt",
+      "sha256": "373f9b3f77f7f1305cf9b9bd249874f241fb3d121d3112ef7bef7eb4faea29a1"
+    },
+    {
+      "source": "docs/decisions/registry.yaml",
+      "archive": "2-registry.yaml.txt",
+      "sha256": "fb094915a69d0d6314227a04d2e35833f7af53c4193eaee953c859d20c52d7b8"
+    },
+    {
+      "source": "docs/design/approved-ux-ui-scope.md",
+      "archive": "3-approved-ux-ui-scope.md.txt",
+      "sha256": "55eb5c5a6f717f88d100d9a4da001a21a52db1e12c76094801285642158afda1"
+    },
+    {
+      "source": "docs/design/dsd-001/responsive-visual-guidelines.md",
+      "archive": "4-responsive-visual-guidelines.md.txt",
+      "sha256": "c651463f2d8c0337e22729d0d75ef7e2a69551b51d71db9d083e70a49518b982"
+    },
+    {
+      "source": "docs/design/dsd-001/f01-ui-3/legacy-search-r5/README.md",
+      "archive": "5-README.md.txt",
+      "sha256": "179297c4815010d89b447c9515c27a7096eb9dd357f54dbf9ace93ee38c8b904"
+    },
+    {
+      "source": "tasks/design/DSD-001.md",
+      "archive": "6-DSD-001.md.txt",
+      "sha256": "ed7091e464e09f7e8660195f60e8050d76909cec17845614b1b07de114a7c229"
+    },
+    {
+      "source": "tasks/design/manifest.yaml",
+      "archive": "7-manifest.yaml.txt",
+      "sha256": "88b0b000ba3b12dd7d8ba7f42b6830e65cbf39a700ada54b3d721b75a7ae80a2"
+    },
+    {
+      "source": "docs/design/dsd-001/hero-banner-carousel-r1/document-reconciliation.json",
+      "archive": "8-document-reconciliation.json.txt",
+      "sha256": "095a03d86e509334d81ec65d80ccc829f509992b89b0c00e9295899273b181f5"
+    }
+  ]
+}

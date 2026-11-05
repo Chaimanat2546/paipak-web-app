@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-05",
+  "task": "DSD-001",
+  "version": "Home Auth G2-r2",
+  "status": "owner_accepted_Login_structure_only_whole_G2_pending",
+  "gate": "G2 draft",
+  "native_root": "yh2Wm",
+  "native_scene": "f2TAg",
+  "native_modal": "Pu3jT",
+  "native_flow": "K1esRE",
+  "images": [
+    {
+      "native_id": "yh2Wm",
+      "image": "yh2Wm.png",
+      "sha256": "e845e876574e5cf1a531e8840a0d1ca75cee60144453cd6cb75f4d603c8a7d5c"
+    },
+    {
+      "native_id": "f2TAg",
+      "image": "f2TAg.png",
+      "sha256": "2a118bdd272e6f442720bbdf6424462634d12b3c5953edfdf6fb2ec910741df9"
+    },
+    {
+      "native_id": "Pu3jT",
+      "image": "Pu3jT.png",
+      "sha256": "355537053df0199dcc3bb3481be7f960a60ba17c0efdf5c59e2b6439278e9ceb"
+    }
+  ],
+  "previous": "../home-auth-g2-r1/owner-revision-request.json",
+  "references": "reference-research.json",
+  "changes": [
+    "Email/password grouped with primary Login action",
+    "Forgot link placed beside password label",
+    "Google secondary option below primary form",
+    "Centered title and explicit underlined Register link"
+  ],
+  "auth_methods_or_business_rules_changed": false,
+  "low_fidelity_only": true,
+  "G2_whole_package_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "UXD_002_file_changed": false,
+  "state_library_changed": false,
+  "proposed_question": "โครงใหม่นี้ตรงขึ้นไหมครับ? 1. รับโครงนี้ แล้วดูสมัครสมาชิกต่อ 2. ยังไม่ตรง ขอปรับอีก 3. ดูตัวอย่างจริงก่อนเลือก",
+  "owner_acceptance": "owner-login-structure-acceptance.json"
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "2",
+  "question": "อยากให้กรอกรหัสแบบไหนครับ? 1. เลื่อนช่องอัตโนมัติ แล้วกดยืนยันเอง วางรหัสทั้ง6หลักได้ครั้งเดียวและตรวจทานก่อนส่ง 2. เลื่อนช่องอัตโนมัติ กรอกครบแล้วตรวจรหัสทันที ลดการกดหนึ่งครั้ง 3. เลือกช่องเอง แล้วกดยืนยัน ผู้ใช้ควบคุมตำแหน่งกรอกเองทั้งหมด",
+  "status": "owner_selected_auto_advance_and_auto_verify_at_six_digits",
+  "auto_advance_on_digit_entry": true,
+  "verify_trigger": "completion_of_six_digits",
+  "separate_confirm_button_required": false,
+  "paste_autofill_backspace_error_retry_details": "not_selected_by_this_answer; discuss or review separately",
+  "channel": "email_OTP_only",
+  "expiry_resend_provider": "unchanged_pending",
+  "checking_visual_and_disabled_controls": "r7 proposal pending review",
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "frontend_or_backend_authorized": false
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-05",
+  "task": "DSD-001",
+  "version": "Home Auth G2-r1 / Login structure",
+  "owner_quote": "ปกติไม่น่ามีใครจัดวางแบบนี้นะ",
+  "status": "returned_for_layout_reference_review",
+  "scope": "Login ordering/grouping challenged; no approval of R1 or whole G2",
+  "reviewed_image": "VAqjR.png",
+  "reviewed_image_sha256": "7eb69ca6465b6ece9b0685564df02f51c46b630e2b2f42b958b7213c41914907",
+  "next_revision": "../home-auth-g2-r2/README.md",
+  "original_native_root": "OgKpW",
+  "retained_in_archive": true
+}

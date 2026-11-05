@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "ใช้แบบนี้ได้ไหมครับ? 1. ใช้ชุดนี้ — ช่องเดียวรองรับทั้งอีเมลและเบอร์ 2. ปรับช่อง Login — การแสดงรหัสประเทศ 3. ปรับขั้นรหัสผ่าน — การแสดงเบอร์ที่เลือกไว้",
+  "status": "owner_accepted_displayed_shared_Login_country_phone_presentation",
+  "version": "Home Auth Shared Login Country G2-r34",
+  "reviewed_image": "j5Nwm.png",
+  "reviewed_image_sha256": "169060a3f3f4f3ae671d70b439817311aaaa5600767d55839b2480b967ca9286",
+  "native_phone_entry": "w5F1PX",
+  "native_phone_password": "yzbLX",
+  "accepted_scope": {
+    "identifier": "Retain one shared email-or-phone input; country selector shown in phone presentation, absent for email.",
+    "country": "Reuse Register country picker and accepted country-name languages.",
+    "continuation": "Carry displayed country+number into phone/password step; Edit returns to active input draft.",
+    "email_methods": "Email OTP/default/password alternative and Google retained; no SMS/phone OTP."
+  },
+  "exact_detection_or_number_normalization_policy_selected": false,
+  "supported_country_list_or_provider_selected": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

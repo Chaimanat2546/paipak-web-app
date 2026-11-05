@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "สองสถานะนี้ใช้ตามภาพได้ไหมครับ? 1. ใช้ทั้งคู่ — ไปตรวจส่วนถัดไป 2. ปรับฝั่งซ้าย — ตอนกำลังสมัคร 3. ปรับฝั่งขวา — ตอนเชื่อมต่อไม่ได้",
+  "status": "owner_accepted_both_displayed_register_request_states",
+  "version": "Home Auth Register Request Review G2-r27",
+  "reviewed_image": "SWUdD.png",
+  "reviewed_image_sha256": "f41e9dd5cb8e7f1f8b174d6c45bc13770dd8ae06110f7be71a8d3de15b102b16",
+  "native_comparison": "SWUdD",
+  "native_submitting": "Y5Zok",
+  "native_connection_failure": "a0qxh",
+  "accepted_scope": {
+    "submitting": "Displayed submitting form with spinner in primary, temporarily inactive inputs/show-password/submit/Google/Login switch, preventing repeat submission.",
+    "close": "Modal close remains available; leaving does not promise reversal/cancellation of an actual server operation.",
+    "known_connection_failure": "Displayed known-cause form-level message, retained current-flow values and explicit retry; no field is marked wrong merely because connection failed.",
+    "retry_boundary": "Retry only when permitted. Unknown prior creation result needs reconciliation; this visual does not approve a provider/retry/account-existence policy.",
+    "retained_success": "Accepted signup flow/reminder unchanged."
+  },
+  "obsolete_blanket_failure_r23_approved": false,
+  "new_provider_or_timeout_policy_approved": false,
+  "Google_cancellation_r17_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "state_library_rollout_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

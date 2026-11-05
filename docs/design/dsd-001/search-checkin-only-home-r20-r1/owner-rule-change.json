@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "checklist_item": "C1.4",
+  "owner_quote": "เอาแค่วันเข้าก็ค้นหาได้",
+  "status": "owner_confirmed_search_checkin_only_allowed",
+  "scope": "Browsing/search only: a selected check-in date with no checkout is a valid Search input and may be submitted",
+  "checkin_only_search_allowed": true,
+  "no_dates_search_still_allowed": true,
+  "checkout_required_for_search": false,
+  "infer_checkout_or_nights": false,
+  "preserve_other_search_criteria": true,
+  "booking_date_requirements_changed": false,
+  "availability_pricing_and_query_contract_defined": false,
+  "supersedes": [
+    "UXD-001 edge E-02 Search rejection of a missing checkout (Search portion only)",
+    "Legacy-search-r5 missing-checkout submit error as the target Search rule",
+    "search-validation-home-r20-r1 proposal LFTu8/qslTI"
+  ],
+  "retained": ["booking still needs complete valid stay dates and revalidation", "approved visual/brand direction", "Mobile paused", "UXD-002 review-5 remains historical pending review"],
+  "revised_visual_approval": "pending_owner_review",
+  "application_code_changed": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

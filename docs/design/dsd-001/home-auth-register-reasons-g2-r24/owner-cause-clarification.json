@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "คือต้องบอกว่าอะไรไม่ถูกต่างหาก",
+  "status": "owner_requested_actionable_specific_error_cause",
+  "scope": "Current signup feedback must identify what is wrong when the cause is known, rather than blanket signup-failed wording.",
+  "design_interpretation": {
+    "field_issue": "name affected field and specific reason, with correction guidance; preserve unaffected values",
+    "connection_issue": "describe known connection problem separately, do not label user data invalid",
+    "unknown_cause": "do not invent a field error or provider cause merely to sound specific",
+    "account_policies": "no new duplicate-email/phone/username policy or account-existence disclosure inferred"
+  },
+  "r23_submitting_or_generic_failure_approved": false,
+  "new_r24_visual_approved": false,
+  "whole_G2_approved": false,
+  "frontend_or_backend_authorized": false
+}

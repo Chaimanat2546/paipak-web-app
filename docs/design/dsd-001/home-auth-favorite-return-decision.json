@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "ผู้ใช้กดหัวใจตอนยังไม่ Login → Login สำเร็จ ควรทำอย่างไรต่อครับ? 1. บันทึกบ้านที่กดไว้ให้เลย (แนะนำ) — ไม่ต้องกดซ้ำ โดยบันทึกหลัง Login สำเร็จเท่านั้น 2. กลับจุดเดิมให้กดหัวใจอีกครั้ง — ผู้ใช้เป็นคนกดบันทึกหลังเข้าใช้ 3. ถามยืนยันก่อนบันทึก — ชัดเจนขึ้น แต่เพิ่มอีกหนึ่งขั้นตอน",
+  "status": "owner_selected_resume_requested_Home_favorite_action_after_successful_Auth",
+  "discussion": "home-auth-favorite-return-discussion.md",
+  "accepted_behavior": {
+    "trigger": "Guest explicitly clicks the heart on a Home villa card and successfully completes Auth in the still-active uninterrupted flow.",
+    "continuation": "Proceed with saving that selected villa after successful authentication without a second heart click or confirmation dialog.",
+    "Guest_boundary": "No Guest favorite is created before successful Auth. Carry only the active intent to save the selected villa.",
+    "return": "Return to the same active Home origin, vertical position, listing rail position and selected photo under existing origin contract.",
+    "saved_boundary": "Authentication success alone is not save success; show saved only after the favorite result is confirmed.",
+    "set_not_toggle": "The intended action is to save this villa. If already saved for the member, retain saved; do not invert into removal.",
+    "cancel_or_expiry": "Cancellation does not save; do not recover this continuation after reload, tab close or expired flow."
+  },
+  "unresolved": [
+    "Saving/saved/failed feedback visuals",
+    "Unknown-outcome handling and actual provider/API/session contract"
+  ],
+  "visual_states_approved_by_this_reply": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "Favorites_page_or_other_task_started": false,
+  "commit_push_or_deploy_authorized": false
+}

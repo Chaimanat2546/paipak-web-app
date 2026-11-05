@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "2",
+  "question": "คลิกพื้นที่มืดนอกหน้าต่าง Login/สมัครสมาชิก ควรปิดหน้าต่างไหมครับ? 1. ไม่ปิด ใช้ X หรือ Esc เท่านั้น (แนะนำ) — ป้องกันเผลอปิดระหว่างกรอก 2. คลิกนอกแล้วปิดได้เลย — ออกจากหน้าต่างได้เร็ว 3. ปิดได้เฉพาะตอนยังไม่กรอก — เริ่มกรอกแล้วต้องใช้ X หรือ Esc",
+  "status": "owner_selected_outside_click_dismissal_without_empty_form_restriction",
+  "discussion": "home-auth-modal-dismissal-discussion.md",
+  "accepted_behavior": {
+    "outside_click": "Click on the dimmed area outside the Home Auth modal dismisses it; no empty-form-only restriction.",
+    "no_confirmation": "Do not add a new confirmation popup to this close action.",
+    "origin": "Return to the active Home origin and keep Home search/scroll/rail/photo selections under existing contracts.",
+    "Guest_favorite": "Cancelling Auth does not save a Guest favorite or continue a cancelled save intent.",
+    "pending_operation": "Closing UI does not assert rollback/cancellation of an already sent server operation.",
+    "other_controls": "Retain the presented X/Escape closing conventions; keyboard/focus implementation remains untested."
+  },
+  "Auth_form_reopen_draft_policy_selected": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

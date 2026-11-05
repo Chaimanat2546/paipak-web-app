@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth OTP G2-r13 / button countdown",
+  "status": "revision_requested_remove_separate_wait_notice",
+  "owner_revision_request": "../home-auth-otp-button-countdown-decision.json",
+  "previous_draft": "../home-auth-otp-resend-wait-g2-r12/review-manifest.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "NTs5t",
+  "native_countdown_modal": "QsMQ8",
+  "images": [
+    {
+      "native_id": "NTs5t",
+      "image": "NTs5t.png",
+      "sha256": "825299b1046fa562c33a6507a351540a03c764fb2e6fc9b581a39dfbfcfb6bc1"
+    },
+    {
+      "native_id": "QsMQ8",
+      "image": "QsMQ8.png",
+      "sha256": "76f00953437a880110914c434d4ad449358c20efb674293b4813f58bd472b861"
+    }
+  ],
+  "display": "ส่งรหัสใหม่ใน 00:45",
+  "fixture_remaining_time": "00:45 is a static visual fixture, not approved duration or live timer",
+  "proposed_behavior": {
+    "countdown": "inside disabled request button, based on remaining time supplied by authoritative restriction",
+    "zero": "restore ส่งรหัสใหม่ and enable if permitted; no automatic resend",
+    "origin": "same expired-code resend-wait scenario; selected email and alternatives retained",
+    "reload": "do not create a fresh arbitrary cooldown merely because view reopens/reloads"
+  },
+  "not_selected": [
+    "actual wait duration/quota/OTP lifetime/provider/release contract",
+    "verification service failure",
+    "paste/autofill/backspace details"
+  ],
+  "verification": {
+    "screenshot_inspected": "QsMQ8",
+    "observation": "Countdown label fits within disabled button; six equal slots and retained feedback visible without clipping.",
+    "execute_warnings": []
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_and_state_library_changed": false,
+  "UXD_002_changed": false,
+  "owner_revision_request_latest": "../home-auth-otp-countdown-only-g2-r14/owner-revision-request.json",
+  "replacement_review": "../home-auth-otp-countdown-only-g2-r14/review-manifest.json"
+}

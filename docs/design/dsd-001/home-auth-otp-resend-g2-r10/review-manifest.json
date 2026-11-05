@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth OTP G2-r10 / resend pending and ready",
+  "status": "owner_accepted_resend_pending_ready_only_remaining_states_pending",
+  "accepted_previous_state": "../home-auth-otp-expired-g2-r9/owner-expired-code-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "sNcqa",
+  "native_comparison": "Q3RKu",
+  "native_request_pending": "LRyGj",
+  "native_request_ready": "TiPIP",
+  "images": [
+    {
+      "native_id": "sNcqa",
+      "image": "sNcqa.png",
+      "sha256": "0e028c9369ffea517cf35781cb69709915d5fc8d3d62528385d71b6068759335"
+    },
+    {
+      "native_id": "Q3RKu",
+      "image": "Q3RKu.png",
+      "sha256": "95e7585858f86a71ef98bdd8b5800c85b75421042f3b842975ce5cd0b5ab2f67"
+    },
+    {
+      "native_id": "LRyGj",
+      "image": "LRyGj.png",
+      "sha256": "ef5d41bd817d541f7bff80ecb2412a515148ace989d35ab2bfbbf38975dae79a"
+    },
+    {
+      "native_id": "TiPIP",
+      "image": "TiPIP.png",
+      "sha256": "7d58f7af1e37e14e41e7a466545e74d85a61e4bcb412641202a6ea0601568faf"
+    }
+  ],
+  "proposed_behavior": {
+    "pending": "inline loading; digit slots/resend/password switch inactive during request; cancel/back/edit retained",
+    "ready": "clear six slots; focus first; await six-digit completion for automatic verification",
+    "acknowledgement": "ส่งคำขอแล้ว กรุณาตรวจสอบอีเมล",
+    "acknowledgement_scope": "generic request acceptance, not confirmed inbox delivery or account existence",
+    "acknowledgement_clear": "restore auto-verification helper when new entry begins",
+    "stale_requests": "ignore results after origin/cancel/edit has changed",
+    "no_automatic_resend": true
+  },
+  "not_selected": [
+    "expiry/cooldown/quotas/attempt limits",
+    "provider old-code invalidation contract",
+    "paste/autofill/backspace details",
+    "resend request failure/retry and server retry-after states"
+  ],
+  "verification": {
+    "previous_reviewed_png_hashes_match": true,
+    "native_screenshots_inspected": [
+      "Q3RKu"
+    ],
+    "observation": "Pending and ready panels keep six equal slots and alignment; no visible clipping.",
+    "execute_warnings": []
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_and_state_library_changed": false,
+  "UXD_002_changed": false,
+  "owner_resend_states_acceptance": "owner-resend-states-acceptance.json"
+}

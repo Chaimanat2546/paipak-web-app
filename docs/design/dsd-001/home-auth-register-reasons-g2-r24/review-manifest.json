@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Register Reasons G2-r24",
+  "status": "connection_accepted_in_r27_field_presentation_superseded_by_accepted_r25",
+  "owner_request": "owner-cause-clarification.json",
+  "previous_draft": "../home-auth-register-request-g2-r23/review-manifest.json",
+  "confirmed_password_rule": "../home-auth-password-confirmation-decision.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "KkkJa",
+  "native_comparison": "ju8mL",
+  "native_field_cause": "ZhY9o",
+  "native_connection_cause": "Wi5mP",
+  "images": [
+    {
+      "native_id": "KkkJa",
+      "image": "KkkJa.png",
+      "sha256": "895efbfdeaaf4d7cc0f1e2f0cc75278d112a0adaaaa50f75b6972034a28b77ef"
+    },
+    {
+      "native_id": "ju8mL",
+      "image": "ju8mL.png",
+      "sha256": "f185b58f5f65c2f7580fb3758101843b1a38dae1fdbe824764aff000bfea9210"
+    },
+    {
+      "native_id": "ZhY9o",
+      "image": "ZhY9o.png",
+      "sha256": "0b65e153e77009467ebc423315b1cebc60be1d8f831cd1c753047986b12e830b"
+    },
+    {
+      "native_id": "Wi5mP",
+      "image": "Wi5mP.png",
+      "sha256": "ddf516f60e960fe680428d72fb505e00ec0b720b064f3eb7039666ee924ea6de"
+    }
+  ],
+  "proposed_examples": {
+    "field_cause": {
+      "summary": "ยืนยันรหัสผ่านไม่ตรงกัน",
+      "field_hint": "กรอกให้ตรงกับช่องรหัสผ่าน",
+      "marker": "confirmation only; other fields preserved",
+      "action": "correct field then submit; no invalid-form network retry"
+    },
+    "connection_cause": {
+      "summary": "เชื่อมต่อระบบสมัครสมาชิกไม่ได้ / กรุณาลองอีกครั้ง",
+      "condition": "show only when this is the actual known cause, not a blanket explanation",
+      "field_markers": "none",
+      "action": "explicit retry only when permitted and prior creation outcome is reconciled if ambiguous"
+    }
+  },
+  "unchanged": "Existing local fields, duplicate-allowed username, minimum8 and matching confirmation, Google-independent signup and no extra Google verification",
+  "not_selected": [
+    "provider raw error mapping or account-existence/duplicate-account policy",
+    "new username/phone validation",
+    "ambiguous-result reconciliation implementation",
+    "r23 pending-state acceptance or whole G2"
+  ],
+  "verification": {
+    "screenshot_inspected": "ju8mL",
+    "observation": "Specific mismatch reason and correction hint target confirmation field; connection message leaves fields unmarked. Both retain shared pre-primary feedback position and no visible clipping.",
+    "execute_warnings": []
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "state_library_count_unchanged": 54,
+  "main_Home_changed_by_this_revision": false,
+  "UXD_002_changed": false,
+  "latest_field_error_placement_amendment": "../home-auth-register-input-errors-g2-r25/owner-input-placement-clarification.json",
+  "current_field_validation_review": "../home-auth-register-input-errors-g2-r25/review-manifest.json",
+  "current_request_state_pair_review": "../home-auth-register-request-review-r27/review-manifest.json",
+  "connection_example_acceptance_in_successor": "../home-auth-register-request-review-r27/owner-request-states-acceptance.json"
+}

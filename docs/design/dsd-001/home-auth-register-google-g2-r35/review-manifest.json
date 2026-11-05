@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Register Google Return G2-r35",
+  "status": "owner_accepted_Register_Google_cancelled_and_failed_layouts_whole_G2_pending",
+  "accepted_flow": "../home-auth-signup-flow-g2-r22/owner-signup-flow-acceptance.json",
+  "accepted_Login_cancel_pattern": "../home-auth-google-g2-r17/owner-Google-cancellation-acceptance.json",
+  "accepted_Login_failure_pattern": "../home-auth-google-g2-r18/owner-Google-error-acceptance.json",
+  "accepted_Login_country": "../home-auth-login-country-g2-r34/owner-Login-country-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "uX6Cc",
+  "native_comparison": "h7jRHX",
+  "source_Register": "l93v3",
+  "source_Google_feedback": "O8qX1q",
+  "items": [
+    {
+      "key": "cancelled",
+      "modal": "fbdV2"
+    },
+    {
+      "key": "failed",
+      "modal": "HR7KI",
+      "feedback": "CfplU"
+    }
+  ],
+  "proposed_behavior": {
+    "cancelled": "Return to the original Register form without error/toast/local-field validation or automatic OTP. Preserve appropriate draft only while Auth remains open and active.",
+    "failed": "For verified Google Auth failure, form-level Google message below local fields before primary; explicit Google retry and local alternative retained. Do not falsely mark email/phone/Username/password invalid.",
+    "message": "ดำเนินการด้วย Google ไม่สำเร็จ / ลองอีกครั้ง หรือใช้ช่องทางอื่น",
+    "independence": "Local email-signup required fields do not gate the Google action. No local signup request merely from Google cancellation/failure.",
+    "close": "Separate from Google cancellation: dismissing Auth clears all form draft under the accepted rule and returns to Home origin.",
+    "success": "Existing accepted Google signup flow only; no extra local email verification or forced Username/phone/password completion. Actual account/session/provider identity remains unimplemented.",
+    "provider_boundary": "No popup/redirect policy, raw provider errors, account-existence claim, account creation rollback or automatic retry selected."
+  },
+  "images": [
+    {
+      "native_id": "uX6Cc",
+      "image": "uX6Cc.png",
+      "width": 1136,
+      "height": 1174,
+      "sha256": "dedf995094e1c4efb19fcaafac9476fbdbad0570cbe7d89f09d056121e7d1dd2"
+    },
+    {
+      "native_id": "h7jRHX",
+      "image": "h7jRHX.png",
+      "width": 1072,
+      "height": 940,
+      "sha256": "68a252a7a46b2e276c2e8b9cd53bcd76c6dbac333d6df08b5e52969e9cf76cac"
+    },
+    {
+      "native_id": "fbdV2",
+      "image": "fbdV2.png",
+      "width": 520,
+      "height": 818,
+      "sha256": "487b7521eda03e3843f315cdb9c59cf76da5bd236343d9c5d323a26e0ecd8be3"
+    },
+    {
+      "native_id": "HR7KI",
+      "image": "HR7KI.png",
+      "width": 520,
+      "height": 900,
+      "sha256": "d6039f4aab145cc0c723e1eff37ef53c10ec10884a78d39ab3f95d90b8f22305"
+    }
+  ],
+  "question": "ใช้สองสถานะกลับฟอร์มสมัครนี้ได้ไหมครับ? 1. ใช้ทั้งคู่ 2. ปรับตอนยกเลิก 3. ปรับตอน Google ไม่สำเร็จ",
+  "verification": {
+    "full_size_comparison_inspected": true,
+    "final_root_screenshot_inspected": true,
+    "form_feedback_order_verified": "After Username/phone/email/password/confirmation, before primary; one Google-specific form-level region.",
+    "cancelled_form_byte_identical_to_current_Register": true,
+    "previous_Register_Google_Login_PNG_hashes_unchanged": 13,
+    "execute_warnings": [],
+    "observation": "Two complete forms visible, retained draft/fields, Google-only feedback before primary and retry near provider control; no visible clipping. Static design only."
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_changed": false,
+  "state_library_count_unchanged": 54,
+  "UXD_002_changed": false,
+  "owner_acceptance": "owner-Register-Google-return-acceptance.json"
+}

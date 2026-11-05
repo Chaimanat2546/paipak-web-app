@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-05",
+  "version": "owner-assets-r1",
+  "previous_current_specs": [
+    {
+      "file": "visual-direction.md",
+      "archive": "previous-contracts/visual-direction.md.txt",
+      "archived_sha256": "8d9e46bd71184ff947afea5e2b34eb1c353ffacde367bf03697b39b9b42e17f3",
+      "current_sha256": "69429d3a07d52b1f39b95fc1a20148c51fc119ab16c55d61b1f6b1e85902b6a4"
+    },
+    {
+      "file": "token-sheet.md",
+      "archive": "previous-contracts/token-sheet.md.txt",
+      "archived_sha256": "f8b219fffaa810cc1a2908704df6d853b883b228022fcca1978c9729c745d1f6",
+      "current_sha256": "860e7b8d484259cd946838f34627935c5d7fb2849c54cfcf136dbdca19832102"
+    },
+    {
+      "file": "typography-spec.md",
+      "archive": "previous-contracts/typography-spec.md.txt",
+      "archived_sha256": "776092de329dde10b239766ab4362414da66915c7178232dd346ea33a8768ef6",
+      "current_sha256": "25bbf63eec3ecdb85697eb9bb152b96d7369d339f4cc67b230ced6bdd65ebfeb"
+    },
+    {
+      "file": "responsive-visual-guidelines.md",
+      "archive": "previous-contracts/responsive-visual-guidelines.md.txt",
+      "archived_sha256": "411009a1adfac73020c21920595775a524d014e5ac3d1d47c226e33963295dc2",
+      "current_sha256": "b843cedf0fa9b6b04e792799faf23add0f70d5f58664e539f9e7e826c3f16389"
+    }
+  ],
+  "accepted_historical_bytes_changed": false,
+  "existing_Auth_files_changed": false,
+  "new_visual_approval": "pending",
+  "header_notice_correction": "header-notice-correction.json",
+  "latest_header_data_correction": "header-bank-details-addition.json",
+  "latest_header_layout": "header-large-logo-stack.json",
+  "Header_acceptance": "owner-header-r1-4-acceptance.json"
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "decision": "Email registration data fields",
+  "owner_quote": "3",
+  "question": "สมัครสมาชิกด้วยอีเมล ให้กรอกข้อมูลอะไรบ้าง? 1. อีเมล + รหัสผ่าน 2. เพิ่มชื่อที่แสดง 3. เพิ่มชื่อ–นามสกุล และเบอร์โทร",
+  "status": "owner_selected_registration_field_inventory_only",
+  "fields": [
+    "first_name",
+    "last_name",
+    "phone",
+    "email",
+    "password"
+  ],
+  "labels": [
+    "ชื่อ",
+    "นามสกุล",
+    "เบอร์โทรศัพท์",
+    "อีเมล",
+    "รหัสผ่าน"
+  ],
+  "required_personal_fields": "pending_owner_decision",
+  "password_confirmation": "pending_separate_decision",
+  "phone_as_login_identifier": false,
+  "phone_otp_verification_approved": false,
+  "google_missing_profile_data_policy": "pending_owner_decision",
+  "validation_rules_from_legacy_demo_adopted": false,
+  "visual_approval": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

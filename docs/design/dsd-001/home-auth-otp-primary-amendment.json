@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "ไม่จำเป็นต้องใช้รหัสแล้วถ้าเขาไม่เลือก login ด้วยรหัส ใช้ otp แทน",
+  "status": "owner_requested_OTP_primary_password_explicit_alternative_delivery_pending",
+  "default_Login_method": "one_time_code",
+  "password_Login": "Only when the user explicitly selects password login",
+  "Google_retained": true,
+  "identifier_types_retained": [
+    "email",
+    "phone"
+  ],
+  "OTP_delivery_coverage": "pending_owner_choice; do not assume SMS or automatic email lookup",
+  "OTP_length_expiry_resend_limits": "not_defined",
+  "new_password_minimum_when_setting_password": 8,
+  "password_confirmation_rule_retained_when_setting_password": true,
+  "Register_password_requirement_for_OTP_accounts": "needs_reconciliation_with_owner; do not silently force mandatory local password into OTP flow or delete historical accepted Register evidence",
+  "forgot_reset_link_for_password_branch": "retained unless owner changes; do not replace with OTP recovery implicitly",
+  "email_verification_and_Google_profile_rules": "Do not infer that all OTP channels prove email ownership or change Google missing-profile policy",
+  "supersedes": "Default password stage in home-auth-login-g2-r4 proposal, which was not owner accepted",
+  "password_screen_draft_retained": "home-auth-login-g2-r4/README.md for optional password branch subject to revised G2 review",
+  "new_OTP_visual_or_whole_G2_approved": false,
+  "actual_OTP_SMS_email_delivery_authorized": false,
+  "UID_005_started": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

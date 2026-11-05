@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "สองหน้านี้โอเคไหมครับ? 1. รับทั้งสองหน้า แล้วไปข้อต่อไป 2. ปรับหน้ากรอกOTP 3. ปรับหน้ายืนยันสำเร็จ",
+  "status": "owner_accepted_displayed_email_verification_OTP_and_success",
+  "version": "Home Auth Email Verification OTP G2-r20",
+  "reviewed_image": "eT8Bq.png",
+  "reviewed_image_sha256": "9e626a26c2ae98884d89a4a23a1a45774e0b1dba79f29cc454e7bdd1d6ec43a8",
+  "native_OTP": "RukQJ",
+  "native_success": "ip2bA",
+  "accepted_scope": "Displayed six-slot email-verification entry with skip/close/back/resend and success/return action. Google excluded. Verification success requires authoritative result, not code completion alone.",
+  "unshown_adapted_error_states_approved": false,
+  "expiry_quota_provider_session_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

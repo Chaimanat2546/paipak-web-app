@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "ไทยใช้ไทย อื่นๆให้ภาษา en",
+  "context": {
+    "initial_reply": "1 แต่ภาษาที่ติด",
+    "clarified_location_reply": "1",
+    "clarified_location": "Country names in the menu, not unrelated UI/notes or site locale."
+  },
+  "status": "owner_selected_country_label_language_and_requested_bounded_copy_revision",
+  "reviewed_base": "home-auth-register-phone-g2-r32/review-manifest.json",
+  "selected_base_option": "Use the set with proposed initial Thailand +66, subject to the country-label naming amendment.",
+  "country_label_rule": {
+    "TH": "ไทย",
+    "all_other_countries": "English country name",
+    "GB_example": "United Kingdom"
+  },
+  "scope": "Country-name labels in the Auth phone country selector only. This does not change general site/UI language, locale inventory, flag assets or country support.",
+  "revised_visual_separate_review": "Not yet displayed at the time of this instruction; final task/version acceptance remains separate.",
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

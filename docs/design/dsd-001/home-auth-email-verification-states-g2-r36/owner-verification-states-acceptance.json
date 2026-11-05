@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "ใช้ชุดนี้ได้ไหมครับ? 1. ใช้ทั้ง 6 สถานะ — ตามภาพ 2. ปรับข้อความแจ้งสถานะ — ให้ชัดขึ้น 3. ปรับปุ่มหรือทางใช้งานก่อน — เปลี่ยนการจัดการแต่ละกรณี",
+  "status": "owner_accepted_six_displayed_email_verification_state_adaptations",
+  "version": "Home Auth Signup Email Verification States G2-r36",
+  "reviewed_image": "mrPVu.png",
+  "reviewed_image_sha256": "2a8a15eddf85742ad9a75fe7784eceb06b23346512651e5fbd3b0b9f54e5ccda",
+  "native_overview": "mrPVu",
+  "native_state_modals": [
+    "nQ4yF",
+    "s0dZ8",
+    "lNeof",
+    "CsOgQ",
+    "n8M20",
+    "LsUq3"
+  ],
+  "accepted_scope": [
+    "Six displayed local-signup email-verification code/action state adaptations: checking, expired, resend pending, resend countdown, request failure and check failure.",
+    "Keep selected OTP input behavior, purpose-specific current account email and use-first in all six. No password substitution or account-email edit.",
+    "Expiry reason inline at code group; service/send failures form-level without inventing invalid code/email.",
+    "Check failure retains code for explicit retry. Countdown is inside disabled resend button only."
+  ],
+  "already_accepted_references": "Entry/success-r20 and invalid-inline-r26 retained, not re-approved as new states.",
+  "00_45_is_fixture_not_approved_duration": true,
+  "provider_expiry_cooldown_limits_selected": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

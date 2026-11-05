@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "ใส่ ธนาคาร และเลขด้วย",
+  "change": "Add bank name and account number below existing actual recipient Header notice.",
+  "bank_line": "ธนาคารกสิกรไทย · เลขบัญชี 227-2-93697-0",
+  "source": "owner-content-confirmation.json / bank",
+  "native_Header": "KEBjP",
+  "native_recipient": "bjmyt",
+  "native_bank_line": "R9bDQ",
+  "header_height_px": 128,
+  "previous_header_height_px": 124,
+  "layout": "two lines of14px Mitr, line-height1.5,3px vertical gaps; existing72x64 logo retained",
+  "Auth_or_backend_or_frontend_changed": false,
+  "new_visual_approved": false
+}

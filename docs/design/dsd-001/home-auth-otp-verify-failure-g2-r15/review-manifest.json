@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth OTP G2-r15 / verification service failure",
+  "status": "owner_accepted_verification_failure_only_input_details_and_whole_G2_pending",
+  "accepted_previous_state": "../home-auth-otp-countdown-only-g2-r14/owner-countdown-only-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "CdSeA",
+  "native_verification_failure": "d0PtEH",
+  "images": [
+    {
+      "native_id": "CdSeA",
+      "image": "CdSeA.png",
+      "sha256": "cb2633e316e736017e2475528aee30978df60e9b06416d530d934844ae0abd84"
+    },
+    {
+      "native_id": "d0PtEH",
+      "image": "d0PtEH.png",
+      "sha256": "8efec901ae59536e322c6ffc7f38f147e6199f2146669ec0cbb7e93275d7d1b4"
+    }
+  ],
+  "scenario": "indeterminate verification failure, not authoritative invalid/expired response",
+  "proposed_behavior": {
+    "message": "ตรวจรหัสไม่สำเร็จ กรุณาลองอีกครั้ง",
+    "primary": "ลองตรวจอีกครั้ง",
+    "email_and_digits": "retain in current uninterrupted flow; editable",
+    "retry_unchanged_code": "explicit user click only, if allowed; no automatic resubmission loop",
+    "changed_code": "six-digit completion follows selected automatic verification rule",
+    "alternatives": "resend/password/back/edit/close available subject to applicable restrictions",
+    "session": "do not infer authenticated state from ambiguous result; provider/session reconciliation remains future implementation contract",
+    "persistence": "no cross-reload recovery of entered OTP"
+  },
+  "fixture_digits": "123456, demonstration only",
+  "not_selected": [
+    "actual wait duration/quotas/provider/release contract",
+    "paste/autofill/backspace details",
+    "whole Auth G2 and final design approval"
+  ],
+  "verification": {
+    "previous_reviewed_png_hashes_match": true,
+    "screenshot_inspected": "d0PtEH",
+    "observation": "Six retained fixture digits, generic verification failure, explicit retry and restored alternatives; no visible clipping.",
+    "execute_warnings": []
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_and_state_library_changed": false,
+  "UXD_002_changed": false,
+  "owner_verification_failure_acceptance": "owner-verification-failure-acceptance.json"
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth OTP G2-r11 / resend request failure",
+  "status": "owner_accepted_resend_failure_only_remaining_states_pending",
+  "accepted_previous_state": "../home-auth-otp-resend-g2-r10/owner-resend-states-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "ziEPO",
+  "native_request_failure": "cZWL1",
+  "images": [
+    {
+      "native_id": "ziEPO",
+      "image": "ziEPO.png",
+      "sha256": "ebd2906b632fb6484f02f07524280b0db3e8a1d84876016e68713330feff08e3"
+    },
+    {
+      "native_id": "cZWL1",
+      "image": "cZWL1.png",
+      "sha256": "8d7b9ef57d5437e887eec68e0f16a739bfac295cabb3357807fecddcc0314121"
+    }
+  ],
+  "scenario": "replacement request fails after earlier code already expired; not an assumption that any resend failure invalidates a usable old code",
+  "proposed_behavior": {
+    "message": "ขอรหัสใหม่ไม่สำเร็จ กรุณาลองอีกครั้ง",
+    "primary": "ลองส่งอีกครั้ง",
+    "identifier": "retained",
+    "slots": "inactive because this illustrated origin has no usable unexpired code",
+    "retry": "explicit click returns to accepted pending state if allowed; no automatic loop or implied unlimited retries",
+    "password_back_edit_close": "available",
+    "account_or_delivery_disclosure": "do not reveal account existence or claim definitive non-delivery from an ambiguous failure"
+  },
+  "not_selected": [
+    "rate-limit/retry-after response and exact policy",
+    "expiry/quotas/provider",
+    "failure while verifying code",
+    "paste/autofill/backspace details"
+  ],
+  "verification": {
+    "previous_reviewed_png_hashes_match": true,
+    "screenshot_inspected": "cZWL1",
+    "observation": "Six inactive slots, failure feedback, explicit retry and password alternative; no visible clipping.",
+    "execute_warnings": []
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_and_state_library_changed": false,
+  "UXD_002_changed": false,
+  "owner_resend_failure_acceptance": "owner-resend-failure-acceptance.json"
+}

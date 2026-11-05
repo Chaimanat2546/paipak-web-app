@@ -117,3 +117,7 @@ Mitrทั้งหมด คำถาม/คำตอบwrapตามเนื�
 ## Footer-contact-r5 · Home-r20
 
 Facebook Page/TikTokใช้labelMitr16/500/line-height1.5และdisplay name14/400/1.5ตามLINE/phoneเดิม ไม่มีtypography familyหรือweightใหม่ ชื่อบัญชีpapaipakเป็นfixtureไม่ใช่URLที่ยืนยัน ดู [รุ่นที่รับ](footer-contact-r5/owner-home-acceptance.json)
+
+## Owner-assets-r1 · โลโก้และข้อมูลจริง
+
+ข้อความชื่อเดี๋ยวพาไปพักในโลโก้เป็นpixelsในไฟล์จริง ไม่เพิ่มฟอนต์ใหม่ ส่วนชื่อเว็บ/บัญชี/เลขบัญชี/เงื่อนไขเป็นMitrตามเดิม โลโก้ไม่ใช่wordmark-studyสมมติอีกต่อไปในรุ่นowner-assets-r1 ดู [สเปคและขอบเขต](owner-assets-r1/brand-and-transfer-spec.md) และ [ภาพPencil/hash](owner-assets-r1/review-manifest.json) ข้อมูลจริงยืนยันแล้ว และ [Header Desktop-r1.4รับแล้ว](owner-assets-r1/owner-header-r1-4-acceptance.json) เฉพาะHeader ส่วนแบบแก้อื่นยังรอตรวจ

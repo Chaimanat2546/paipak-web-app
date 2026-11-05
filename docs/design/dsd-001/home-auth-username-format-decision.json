@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "อังกฤษ ตัวเลข",
+  "status": "owner_selected_English_letters_and_digits_only_for_display_Username",
+  "discussion": "home-auth-username-format-discussion.md",
+  "selected_character_set": "A-Z, a-z, 0-9",
+  "disallowed_character_groups": [
+    "Thai letters",
+    "spaces",
+    "punctuation including dot and underscore",
+    "emoji and other symbols"
+  ],
+  "composition": "The permitted set does not require a mixture of letters and digits; no such composition rule was requested.",
+  "retained_rules": {
+    "role": "display_name_only",
+    "duplicates_allowed": true,
+    "required_for_local_email_signup": true,
+    "Username_Login": false,
+    "Google_missing_username": "Complete later in Account per existing decision; no new signup gate."
+  },
+  "length": "not_selected; next discussion",
+  "existing_fixture_boundary": "Previously approved Thai Username fixture values are historical examples of layout, not evidence of a valid Username under the new character rule. Use English/digit fixtures in the next consolidated Register revision without changing old acceptance images.",
+  "new_visuals_approved_by_this_reply": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

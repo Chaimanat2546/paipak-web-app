@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "2",
+  "question": "ถ้าคัดลอกมาเป็น123 456หรือรหัสของคุณคือ123456 ให้เว็บจัดการอย่างไรครับ? 1. ลบช่องว่างและขีดคั่น ถ้าเหลือเลข6หลักจึงรับ รองรับรหัสที่แบ่งกลุ่ม 2. ดึงเลข6หลักจากข้อความถ้าพบเพียงชุดเดียว คัดลอกทั้งประโยคได้ 3. รับเฉพาะเลข6หลักตรงๆ ให้คัดลอกเฉพาะรหัส",
+  "status": "owner_selected_extract_single_six_digit_code_from_pasted_text",
+  "accepted_scope": {
+    "source": "pasted text may contain surrounding words",
+    "accept": "extract one unambiguous complete six-digit code group",
+    "populate": "replace all six slots from any focused slot, preserve leading zero",
+    "verification": "follow selected automatic verification once after complete accepted paste",
+    "ambiguity": "do not silently choose first candidate when multiple code groups exist",
+    "overlong_numbers": "do not truncate a longer number into an apparent six-digit code"
+  },
+  "grouped_digits_spaces_hyphens_normalization": "not separately selected by option2; exact grouping rules remain to specify",
+  "no_candidate_multiple_candidates_rejected_paste_UI": "pending next choice",
+  "autofill_Delete_navigation_remaining_details": "pending",
+  "new_visual_or_whole_G2_approved": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

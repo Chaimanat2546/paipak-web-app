@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "decision": "Email verification after email/password registration",
+  "owner_quote": "2 แต่ปฏิเสธได้ ค่อยไปยืนยันเองทีหลังได้",
+  "status": "owner_allows_login_before_email_verification_with_dismissible_reminder",
+  "login_before_email_verification_allowed": true,
+  "email_verification_prompt_dismissible": true,
+  "dismissal_blocks_Home_account_entry": false,
+  "later_user_initiated_verification_allowed": true,
+  "dismissal_means_email_verified": false,
+  "prompt_repeat_timing": "not_decided; do not infer a mandatory repeated popup",
+  "later_verification_entry_point": "to specify in design or Account handoff; Account/Profile task not started",
+  "booking_or_other_task_verification_gate_changed": false,
+  "scope": "Home email/password signup/login UX only. Keep verification status accurate after dismissal. Does not set provider session, mail-delivery or authorization policies.",
+  "google_verification_policy_changed": false,
+  "visual_appearance_or_version_approved": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

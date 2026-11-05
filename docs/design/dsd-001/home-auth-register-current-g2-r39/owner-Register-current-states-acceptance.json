@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "ใช้ชุดนี้ได้ไหมครับ? 1. ใช้ทั้ง4สถานะ — ไปตรวจการใช้งานรวมต่อ 2. ปรับกำลังสมัคร/เชื่อมต่อไม่ได้ — สองภาพด้านบน 3. ปรับข้อความใต้ช่องกรอก — สองภาพด้านล่าง",
+  "status": "owner_accepted_four_displayed_current_Register_state_presentations",
+  "version": "Home Auth Current Register States G2-r39",
+  "reviewed_image": "k6ruuh.png",
+  "reviewed_image_sha256": "075459367be7bd1e9de6c8f566cbb2d5f19ef5633f686b13b62b430d0c795e6d",
+  "native_modals": [
+    "vLCXH",
+    "NKyzd",
+    "EoViL",
+    "VVLL4"
+  ],
+  "accepted_scope": [
+    "Current Register-r33 Username/country form reconciled with accepted r25/r27 patterns in the four displayed examples.",
+    "Submitting with paused fields/country/show-hide/Google/Login switching, close available.",
+    "Known connection feedback before primary, retained active draft and explicit permitted retry.",
+    "Required Username/phone inline errors and new-password minimum8/mismatching confirmation inline errors, without duplicate summary."
+  ],
+  "interaction_contract_new_proposals_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

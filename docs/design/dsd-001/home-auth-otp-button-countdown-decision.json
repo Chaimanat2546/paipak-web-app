@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "นับในปุ่มแทน",
+  "status": "owner_requested_countdown_inside_resend_button",
+  "supersedes": "r12 no-countdown visual proposal only; r12 was not accepted",
+  "countdown_location": "disabled resend button",
+  "actual_wait_duration_selected": false,
+  "fixture_display": "00:45, static illustration only, not a chosen cooldown",
+  "remaining_time_source": "authoritative restriction contract; exact provider/release contract pending",
+  "zero_behavior_proposal": "enable request button when permitted, never auto-send",
+  "new_r13_visual_approved": false,
+  "whole_G2_approved": false,
+  "frontend_or_backend_authorized": false
+}

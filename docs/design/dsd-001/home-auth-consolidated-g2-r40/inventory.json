@@ -1,0 +1,535 @@
+{
+  "version": "Home Auth Desktop G2-r40",
+  "status": "pending_owner_whole_G2_review",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "interpretation": "A composed low-fi baseline: current forms plus accepted field/state patterns. Not a claim that every method/error/input combination has a separate rendered screen or runtime implementation.",
+  "items": [
+    {
+      "category": "Login",
+      "key": "email_entry",
+      "native_id": "Nlwvr",
+      "use": "current_modal",
+      "source_folder": "../home-auth-login-country-g2-r34",
+      "owner_acceptance": "../home-auth-login-country-g2-r34/owner-Login-country-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Login",
+      "key": "phone_entry",
+      "native_id": "w5F1PX",
+      "use": "current_modal",
+      "source_folder": "../home-auth-login-country-g2-r34",
+      "owner_acceptance": "../home-auth-login-country-g2-r34/owner-Login-country-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Login",
+      "key": "email_OTP_entry",
+      "native_id": "ASYeh",
+      "use": "current_modal",
+      "source_folder": "../home-auth-login-country-g2-r34",
+      "owner_acceptance": "../home-auth-login-country-g2-r34/owner-Login-country-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Login",
+      "key": "phone_password",
+      "native_id": "yzbLX",
+      "use": "current_modal",
+      "source_folder": "../home-auth-login-country-g2-r34",
+      "owner_acceptance": "../home-auth-login-country-g2-r34/owner-Login-country-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Login",
+      "key": "email_password_alternative",
+      "native_id": "mmSkV",
+      "use": "current_modal",
+      "source_folder": "../home-auth-login-flow-g2-r30",
+      "owner_acceptance": "../home-auth-login-flow-g2-r30/owner-Login-structure-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Login requests",
+      "key": "OTP_initial_request_pending",
+      "native_id": "wp6Gt",
+      "use": "current_modal",
+      "source_folder": "../home-auth-login-request-g2-r37",
+      "owner_acceptance": "../home-auth-login-request-g2-r37/owner-Login-request-states-acceptance.json",
+      "annotation": "Password request samples use phone; explicit email/password uses this accepted pattern, not a separate rendered cross-product."
+    },
+    {
+      "category": "Login requests",
+      "key": "OTP_initial_request_connection",
+      "native_id": "TYi9y",
+      "use": "current_modal",
+      "source_folder": "../home-auth-login-request-g2-r37",
+      "owner_acceptance": "../home-auth-login-request-g2-r37/owner-Login-request-states-acceptance.json",
+      "annotation": "Password request samples use phone; explicit email/password uses this accepted pattern, not a separate rendered cross-product."
+    },
+    {
+      "category": "Login requests",
+      "key": "password_pending",
+      "native_id": "fS0KD",
+      "use": "current_modal",
+      "source_folder": "../home-auth-login-request-g2-r37",
+      "owner_acceptance": "../home-auth-login-request-g2-r37/owner-Login-request-states-acceptance.json",
+      "annotation": "Password request samples use phone; explicit email/password uses this accepted pattern, not a separate rendered cross-product."
+    },
+    {
+      "category": "Login requests",
+      "key": "password_connection",
+      "native_id": "F5y0ir",
+      "use": "current_modal",
+      "source_folder": "../home-auth-login-request-g2-r37",
+      "owner_acceptance": "../home-auth-login-request-g2-r37/owner-Login-request-states-acceptance.json",
+      "annotation": "Password request samples use phone; explicit email/password uses this accepted pattern, not a separate rendered cross-product."
+    },
+    {
+      "category": "Login field and credential errors",
+      "key": "identifier_required",
+      "native_id": "JfzOo",
+      "use": "accepted_field_or_form_feedback_pattern",
+      "source_folder": "../home-auth-error-audit-r26",
+      "owner_acceptance": "../home-auth-error-audit-r26/owner-error-audit-acceptance.json",
+      "annotation": "Compose the accepted input-local or pre-primary feedback with current r30/r34 form. Earlier whole modal not substituted for current country/identifier layout; not every combination rendered."
+    },
+    {
+      "category": "Login field and credential errors",
+      "key": "password_required",
+      "native_id": "M8MQzW",
+      "use": "accepted_field_or_form_feedback_pattern",
+      "source_folder": "../home-auth-error-audit-r26",
+      "owner_acceptance": "../home-auth-error-audit-r26/owner-error-audit-acceptance.json",
+      "annotation": "Compose the accepted input-local or pre-primary feedback with current r30/r34 form. Earlier whole modal not substituted for current country/identifier layout; not every combination rendered."
+    },
+    {
+      "category": "Login field and credential errors",
+      "key": "credential_pair_rejected",
+      "native_id": "WOc19",
+      "use": "accepted_field_or_form_feedback_pattern",
+      "source_folder": "../home-auth-error-audit-r26",
+      "owner_acceptance": "../home-auth-error-audit-r26/owner-error-audit-acceptance.json",
+      "annotation": "Compose the accepted input-local or pre-primary feedback with current r30/r34 form. Earlier whole modal not substituted for current country/identifier layout; not every combination rendered."
+    },
+    {
+      "category": "Login OTP",
+      "key": "checking",
+      "native_id": "PmCdx",
+      "use": "accepted_OTP_state_pattern",
+      "source_folder": "../home-auth-otp-auto-g2-r7",
+      "owner_acceptance": "../home-auth-otp-auto-g2-r7/owner-checking-state-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Login OTP",
+      "key": "invalid_inline",
+      "native_id": "wxEwE",
+      "use": "accepted_OTP_state_pattern",
+      "source_folder": "../home-auth-error-audit-r26",
+      "owner_acceptance": "../home-auth-error-audit-r26/owner-error-audit-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Login OTP",
+      "key": "expired_inline",
+      "native_id": "iLmVt",
+      "use": "accepted_OTP_state_pattern",
+      "source_folder": "../home-auth-error-audit-r26",
+      "owner_acceptance": "../home-auth-error-audit-r26/owner-error-audit-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Login OTP",
+      "key": "resend_pending",
+      "native_id": "LRyGj",
+      "use": "accepted_OTP_state_pattern",
+      "source_folder": "../home-auth-otp-resend-g2-r10",
+      "owner_acceptance": "../home-auth-otp-resend-g2-r10/owner-resend-states-acceptance.json",
+      "annotation": "Ready countdown appearance uses r14, not obsolete r10 wait notice."
+    },
+    {
+      "category": "Login OTP",
+      "key": "resend_failed",
+      "native_id": "cZWL1",
+      "use": "accepted_OTP_state_pattern",
+      "source_folder": "../home-auth-otp-resend-failure-g2-r11",
+      "owner_acceptance": "../home-auth-otp-resend-failure-g2-r11/owner-resend-failure-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Login OTP",
+      "key": "countdown_only",
+      "native_id": "E3yBs",
+      "use": "accepted_OTP_state_pattern",
+      "source_folder": "../home-auth-otp-countdown-only-g2-r14",
+      "owner_acceptance": "../home-auth-otp-countdown-only-g2-r14/owner-countdown-only-acceptance.json",
+      "annotation": "00:45 is a fixture, not selected cooldown or expiry."
+    },
+    {
+      "category": "Login OTP",
+      "key": "verification_service_failure",
+      "native_id": "d0PtEH",
+      "use": "accepted_OTP_state_pattern",
+      "source_folder": "../home-auth-otp-verify-failure-g2-r15",
+      "owner_acceptance": "../home-auth-otp-verify-failure-g2-r15/owner-verification-failure-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Login OTP",
+      "key": "backspace_sequence",
+      "native_id": "Im1AA",
+      "use": "accepted_input_sequence",
+      "source_folder": "../home-auth-otp-backspace-g2-r16",
+      "owner_acceptance": "../home-auth-otp-backspace-g2-r16/owner-backspace-sequence-acceptance.json",
+      "annotation": "Use with subsequent paste/quiet-ignore decisions and selected immediate-six-digit verification; not actual keyboard testing."
+    },
+    {
+      "category": "Google Login",
+      "key": "cancelled_return",
+      "native_id": "EjvEz",
+      "use": "accepted_return_pattern",
+      "source_folder": "../home-auth-google-g2-r17",
+      "owner_acceptance": "../home-auth-google-g2-r17/owner-Google-cancellation-acceptance.json",
+      "annotation": "Current identity presentation is r34; cancellation keeps active draft and does not request OTP."
+    },
+    {
+      "category": "Google Login",
+      "key": "provider_failure",
+      "native_id": "O8qX1q",
+      "use": "accepted_form_feedback_pattern",
+      "source_folder": "../home-auth-google-g2-r18",
+      "owner_acceptance": "../home-auth-google-g2-r18/owner-Google-error-acceptance.json",
+      "annotation": "Before primary, below identifier fields; no invented wrong input."
+    },
+    {
+      "category": "Register",
+      "key": "normal",
+      "native_id": "l93v3",
+      "use": "current_modal",
+      "source_folder": "../home-auth-register-country-labels-g2-r33",
+      "owner_acceptance": "../home-auth-register-country-labels-g2-r33/owner-country-labels-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Register",
+      "key": "country_picker",
+      "native_id": "ZWbVr",
+      "use": "current_modal",
+      "source_folder": "../home-auth-register-country-labels-g2-r33",
+      "owner_acceptance": "../home-auth-register-country-labels-g2-r33/owner-country-labels-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Register",
+      "key": "foreign_country",
+      "native_id": "MOl8x",
+      "use": "current_modal",
+      "source_folder": "../home-auth-register-country-labels-g2-r33",
+      "owner_acceptance": "../home-auth-register-country-labels-g2-r33/owner-country-labels-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Register Username",
+      "key": "characters",
+      "native_id": "oLTL6",
+      "use": "accepted_field_pattern",
+      "source_folder": "../home-auth-register-username-g2-r31",
+      "owner_acceptance": "../home-auth-register-username-g2-r31/owner-Username-states-acceptance.json",
+      "annotation": "Current Register form is r33. Username display-only, nonunique, English letters/digits 3–20. Do not restore obsolete Thai fixture."
+    },
+    {
+      "category": "Register Username",
+      "key": "minimum",
+      "native_id": "XQeCZ",
+      "use": "accepted_field_pattern",
+      "source_folder": "../home-auth-register-username-g2-r31",
+      "owner_acceptance": "../home-auth-register-username-g2-r31/owner-Username-states-acceptance.json",
+      "annotation": "Current Register form is r33. Username display-only, nonunique, English letters/digits 3–20. Do not restore obsolete Thai fixture."
+    },
+    {
+      "category": "Register Username",
+      "key": "maximum",
+      "native_id": "uU39o",
+      "use": "accepted_field_pattern",
+      "source_folder": "../home-auth-register-username-g2-r31",
+      "owner_acceptance": "../home-auth-register-username-g2-r31/owner-Username-states-acceptance.json",
+      "annotation": "Current Register form is r33. Username display-only, nonunique, English letters/digits 3–20. Do not restore obsolete Thai fixture."
+    },
+    {
+      "category": "Register current states",
+      "key": "submitting",
+      "native_id": "vLCXH",
+      "use": "current_modal",
+      "source_folder": "../home-auth-register-current-g2-r39",
+      "owner_acceptance": "../home-auth-register-current-g2-r39/owner-Register-current-states-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Register current states",
+      "key": "known_connection",
+      "native_id": "NKyzd",
+      "use": "current_modal",
+      "source_folder": "../home-auth-register-current-g2-r39",
+      "owner_acceptance": "../home-auth-register-current-g2-r39/owner-Register-current-states-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Register current states",
+      "key": "required_Username_phone",
+      "native_id": "EoViL",
+      "use": "current_modal",
+      "source_folder": "../home-auth-register-current-g2-r39",
+      "owner_acceptance": "../home-auth-register-current-g2-r39/owner-Register-current-states-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Register current states",
+      "key": "password_minimum_mismatch",
+      "native_id": "VVLL4",
+      "use": "current_modal",
+      "source_folder": "../home-auth-register-current-g2-r39",
+      "owner_acceptance": "../home-auth-register-current-g2-r39/owner-Register-current-states-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Google Register",
+      "key": "cancelled",
+      "native_id": "fbdV2",
+      "use": "current_modal",
+      "source_folder": "../home-auth-register-google-g2-r35",
+      "owner_acceptance": "../home-auth-register-google-g2-r35/owner-Register-Google-return-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Google Register",
+      "key": "failed",
+      "native_id": "HR7KI",
+      "use": "current_modal",
+      "source_folder": "../home-auth-register-google-g2-r35",
+      "owner_acceptance": "../home-auth-register-google-g2-r35/owner-Register-Google-return-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Local email verification",
+      "key": "dismissible_reminder",
+      "native_id": "vDPf8",
+      "use": "accepted_local_signup_state",
+      "source_folder": "../home-auth-email-verification-g2-r19",
+      "owner_acceptance": "../home-auth-email-verification-g2-r19/owner-reminder-acceptance.json",
+      "annotation": "Google excluded. Dismiss/use first remains possible without declaring email verified."
+    },
+    {
+      "category": "Local email verification",
+      "key": "OTP_entry",
+      "native_id": "RukQJ",
+      "use": "current_modal",
+      "source_folder": "../home-auth-email-verification-otp-g2-r20",
+      "owner_acceptance": "../home-auth-email-verification-otp-g2-r20/owner-verification-screens-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Local email verification",
+      "key": "success",
+      "native_id": "ip2bA",
+      "use": "current_modal",
+      "source_folder": "../home-auth-email-verification-otp-g2-r20",
+      "owner_acceptance": "../home-auth-email-verification-otp-g2-r20/owner-verification-screens-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Local email verification",
+      "key": "invalid_inline",
+      "native_id": "Cb1DW",
+      "use": "current_modal",
+      "source_folder": "../home-auth-error-audit-r26",
+      "owner_acceptance": "../home-auth-error-audit-r26/owner-error-audit-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Local email verification",
+      "key": "checking",
+      "native_id": "nQ4yF",
+      "use": "current_modal",
+      "source_folder": "../home-auth-email-verification-states-g2-r36",
+      "owner_acceptance": "../home-auth-email-verification-states-g2-r36/owner-verification-states-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Local email verification",
+      "key": "expired",
+      "native_id": "s0dZ8",
+      "use": "current_modal",
+      "source_folder": "../home-auth-email-verification-states-g2-r36",
+      "owner_acceptance": "../home-auth-email-verification-states-g2-r36/owner-verification-states-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Local email verification",
+      "key": "resend_pending",
+      "native_id": "lNeof",
+      "use": "current_modal",
+      "source_folder": "../home-auth-email-verification-states-g2-r36",
+      "owner_acceptance": "../home-auth-email-verification-states-g2-r36/owner-verification-states-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Local email verification",
+      "key": "countdown",
+      "native_id": "CsOgQ",
+      "use": "current_modal",
+      "source_folder": "../home-auth-email-verification-states-g2-r36",
+      "owner_acceptance": "../home-auth-email-verification-states-g2-r36/owner-verification-states-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Local email verification",
+      "key": "resend_failed",
+      "native_id": "n8M20",
+      "use": "current_modal",
+      "source_folder": "../home-auth-email-verification-states-g2-r36",
+      "owner_acceptance": "../home-auth-email-verification-states-g2-r36/owner-verification-states-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Local email verification",
+      "key": "verify_failed",
+      "native_id": "LsUq3",
+      "use": "current_modal",
+      "source_folder": "../home-auth-email-verification-states-g2-r36",
+      "owner_acceptance": "../home-auth-email-verification-states-g2-r36/owner-verification-states-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Recovery",
+      "key": "forgot_request",
+      "native_id": "tJxL1",
+      "use": "current_modal",
+      "source_folder": "../home-auth-recovery-g2-r1",
+      "owner_acceptance": "../home-auth-recovery-g2-r1/owner-forgot-request-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Recovery",
+      "key": "generic_ack",
+      "native_id": "IvrCQ",
+      "use": "current_modal",
+      "source_folder": "../home-auth-recovery-g2-r2",
+      "owner_acceptance": "../home-auth-recovery-g2-r2/owner-acknowledgement-acceptance.json",
+      "annotation": "No Change email, no account existence or inbox delivery proof."
+    },
+    {
+      "category": "Recovery",
+      "key": "reset_form",
+      "native_id": "ZsOMo",
+      "use": "current_modal",
+      "source_folder": "../home-auth-recovery-g2-r1",
+      "owner_acceptance": "../home-auth-recovery-g2-r1/owner-reset-form-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Recovery",
+      "key": "reset_success",
+      "native_id": "MKMGi",
+      "use": "current_modal",
+      "source_folder": "../home-auth-recovery-g2-r1",
+      "owner_acceptance": "../home-auth-recovery-g2-r1/owner-reset-success-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Recovery",
+      "key": "unusable_link",
+      "native_id": "l0YcM",
+      "use": "current_modal",
+      "source_folder": "../home-auth-recovery-g2-r1",
+      "owner_acceptance": "../home-auth-recovery-g2-r1/owner-unusable-link-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Recovery errors",
+      "key": "forgot_required",
+      "native_id": "a2w6D",
+      "use": "current_modal",
+      "source_folder": "../home-auth-error-audit-r26",
+      "owner_acceptance": "../home-auth-error-audit-r26/owner-error-audit-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Recovery errors",
+      "key": "reset_short_mismatch",
+      "native_id": "WAeyG",
+      "use": "current_modal",
+      "source_folder": "../home-auth-error-audit-r26",
+      "owner_acceptance": "../home-auth-error-audit-r26/owner-error-audit-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Recovery requests",
+      "key": "forgot_pending",
+      "native_id": "e90Mg",
+      "use": "current_modal",
+      "source_folder": "../home-auth-recovery-request-g2-r38",
+      "owner_acceptance": "../home-auth-recovery-request-g2-r38/owner-Recovery-request-states-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Recovery requests",
+      "key": "forgot_connection",
+      "native_id": "wmhoz",
+      "use": "current_modal",
+      "source_folder": "../home-auth-recovery-request-g2-r38",
+      "owner_acceptance": "../home-auth-recovery-request-g2-r38/owner-Recovery-request-states-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Recovery requests",
+      "key": "reset_pending",
+      "native_id": "WQbH9",
+      "use": "current_modal",
+      "source_folder": "../home-auth-recovery-request-g2-r38",
+      "owner_acceptance": "../home-auth-recovery-request-g2-r38/owner-Recovery-request-states-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Recovery requests",
+      "key": "reset_connection",
+      "native_id": "rhTqa",
+      "use": "current_modal",
+      "source_folder": "../home-auth-recovery-request-g2-r38",
+      "owner_acceptance": "../home-auth-recovery-request-g2-r38/owner-Recovery-request-states-acceptance.json",
+      "annotation": ""
+    },
+    {
+      "category": "Favorite return",
+      "key": "pending",
+      "native_id": "xB6Hu",
+      "use": "accepted_cropped_feedback_pattern",
+      "source_folder": "../home-auth-favorite-return-g2-r28",
+      "owner_acceptance": "../home-auth-favorite-return-g2-r28/owner-favorite-return-states-acceptance.json",
+      "annotation": "Only active save intent. Full-page toast placement/lifetime belongs to G3 review. Reject r29 failure/unknown-result controls; no false saved state."
+    },
+    {
+      "category": "Favorite return",
+      "key": "saved",
+      "native_id": "e65FIF",
+      "use": "accepted_cropped_feedback_pattern",
+      "source_folder": "../home-auth-favorite-return-g2-r28",
+      "owner_acceptance": "../home-auth-favorite-return-g2-r28/owner-favorite-return-states-acceptance.json",
+      "annotation": "Only active save intent. Full-page toast placement/lifetime belongs to G3 review. Reject r29 failure/unknown-result controls; no false saved state."
+    }
+  ],
+  "excluded_native_roots": [
+    {
+      "native_id": "K0Jdw",
+      "reason": "Owner rejected r29 favorite failure/unknown-result UI; remains hidden."
+    }
+  ],
+  "excluded_obsolete_layouts": [
+    "Password-first Login",
+    "Name/surname Register instead of Username",
+    "Thai Username fixtures as current data",
+    "Recovery ack with Change email",
+    "Separate resend wait notice superseded by r14",
+    "Register form without country selector as current form"
+  ]
+}

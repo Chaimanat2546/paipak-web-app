@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "ใช้สองสถานะนี้ได้ไหมครับ? 1. ใช้ทั้งคู่ — ตามรูปแบบที่รับไว้ใน Login 2. ปรับตอนยกเลิก — ฝั่งซ้าย 3. ปรับตอน Google ไม่สำเร็จ — ฝั่งขวา",
+  "status": "owner_accepted_displayed_Register_Google_cancelled_and_failed_return_layouts",
+  "version": "Home Auth Register Google Return G2-r35",
+  "reviewed_image": "h7jRHX.png",
+  "reviewed_image_sha256": "68a252a7a46b2e276c2e8b9cd53bcd76c6dbac333d6df08b5e52969e9cf76cac",
+  "native_cancelled": "fbdV2",
+  "native_failed": "HR7KI",
+  "accepted_scope": {
+    "cancelled": "Return to Register silently and retain appropriate active form draft while Auth remains open; no automatic OTP/local signup.",
+    "failed": "Displayed Google-specific form feedback before primary and explicit Google retry, with local alternative retained; no false invalid field.",
+    "retained": "Google path independent from local required fields, no forced local email verification/Username/phone completion. Auth dismissal still clears all form draft under existing rule."
+  },
+  "actual_provider_or_account_state_selected": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

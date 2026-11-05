@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Register Country Phone G2-r32",
+  "status": "owner_selected_structure_initial_TH_with_country_label_amendment_applied_in_r33",
+  "accepted_coverage": "../home-auth-phone-format-decision.json",
+  "accepted_Username": "../home-auth-register-username-g2-r31/owner-Username-states-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "iKwNj",
+  "native_comparison": "gR7CL",
+  "native_Register_form": "pdQA1",
+  "source_form": "DLW0h",
+  "native_phone_group": "DffUb",
+  "native_trigger": "L3PM3Q",
+  "native_open_picker": "wpvex",
+  "native_foreign_selected": "Zvph7",
+  "native_country_popover": "eqSB4",
+  "native_country_search": "Zrxnn",
+  "proposed_behavior": {
+    "initial_country": "Propose Thailand +66 as fixed initial UI choice, not location inference; not approved by the coverage decision alone.",
+    "control": "Dial-code trigger108x44 with existing22px circular flag and chevron; phone-number input alongside inside existing phone field.",
+    "picker": "Open anchored country list with search by country/name/code and current-country check; TH +66 and GB +44 are illustrative rows, not an exhaustive or approved production country inventory.",
+    "selection": "Selecting a country updates its flag/code and closes the picker, returning to the phone field. This does not define normalization/number validity or silently clear/replace an entered number.",
+    "dismissal": "Click within Auth outside the country list dismisses only the list; click Home dimmed area outside Auth dismisses Auth under the accepted rule. Nested Escape handling remains a keyboard contract to verify, not a runtime claim.",
+    "form_reset": "When Auth is dismissed, clear entered phone/other form drafts per accepted clear-all rule; on reopen use the proposed initial country if subsequently accepted.",
+    "Login": "Shared email/phone Login entry remains unchanged in this revision; its international-phone presentation still needs alignment without a country selector on an email value.",
+    "other_fields": "Retain English/digit Username3–20, email/password/confirmation and Google path; no SMS, verification or phone recovery added."
+  },
+  "asset_sources": {
+    "TH_native": "p1lFo existing approved Header flag reused; no emoji/new artwork",
+    "GB_native": "vrlS0 existing approved source SVG vector from Header-icons-r4 reused",
+    "provenance": "../f01-ui-2/header-icons-r4/README.md"
+  },
+  "images": [
+    {
+      "native_id": "iKwNj",
+      "image": "iKwNj.png",
+      "width": 1136,
+      "height": 1071,
+      "sha256": "6e448151f7248eea93798b2a50c6f9631e5858c4b019a537e9bac99c4b793356"
+    },
+    {
+      "native_id": "gR7CL",
+      "image": "gR7CL.png",
+      "width": 1072,
+      "height": 858,
+      "sha256": "c6b8bf5d67e1b8967e7273bef504a536f1a0a3d5116f604be1b28d0119ad662e"
+    },
+    {
+      "native_id": "pdQA1",
+      "image": "pdQA1.png",
+      "width": 520,
+      "height": 818,
+      "sha256": "487b7521eda03e3843f315cdb9c59cf76da5bd236343d9c5d323a26e0ecd8be3"
+    },
+    {
+      "native_id": "wpvex",
+      "image": "wpvex.png",
+      "width": 520,
+      "height": 374,
+      "sha256": "d2bc3024c1b7c1920a83da44099bc7dcaedbd69e1833e4a0ad579b11ca0311d6"
+    },
+    {
+      "native_id": "Zvph7",
+      "image": "Zvph7.png",
+      "width": 520,
+      "height": 182,
+      "sha256": "6f5ceccad94b138d0d06f5800e85f484d881e6876e96117441b315420b863557"
+    }
+  ],
+  "question": "ใช้ช่องเบอร์และเมนูประเทศชุดนี้ได้ไหมครับ? 1. ใช้ทั้งชุด โดยเริ่มที่ไทย +66 2. ปรับช่องเบอร์ 3. ปรับเมนูเลือกประเทศ",
+  "verification": {
+    "full_size_comparison_inspected": true,
+    "final_root_screenshot_inspected": true,
+    "native_target_and_flag_verified": "108x44 trigger,22px flag; row/search48px; existing native flags copied without changing originals",
+    "country_row_examples": [
+      "TH +66",
+      "GB +44"
+    ],
+    "no_phone_number_validity_claim": true,
+    "source_r31_PNGs_verified_unchanged": 6,
+    "execute_warnings": [],
+    "observation": "Full Register and open/selected-country examples visible, number input blank avoids implying normalization; no visible clipping in exported views. Static design only."
+  },
+  "supported_country_inventory_selected": false,
+  "phone_normalization_or_provider_selected": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "state_library_count_unchanged": 54,
+  "main_Home_changed": false,
+  "UXD_002_changed": false,
+  "owner_naming_amendment": "../home-auth-country-label-language-decision.json",
+  "revised_country_labels": "../home-auth-register-country-labels-g2-r33/review-manifest.json"
+}

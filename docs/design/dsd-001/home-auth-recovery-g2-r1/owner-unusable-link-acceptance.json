@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Recovery G2-r1 / Unusable link",
+  "owner_quote": "1",
+  "question": "หน้านี้โอเคไหมครับ? 1. รับหน้านี้ — ตรวจสถานะของฟอร์มต่อ 2. ปรับข้อความหรือปุ่ม — แก้ก่อน 3. ดูคู่กับฟอร์มขอลิงก์ใหม่ — ตรวจทางไปต่อ",
+  "status": "owner_accepted_Unusable_link_structure_and_request_new_path",
+  "native_modal": "l0YcM",
+  "image": "l0YcM.png",
+  "image_sha256": "7c6774c3dda0a8df45b5d3c54fe97ee779716a88fc1f4822c4dbd73f77da3603",
+  "scope": "Unusable-link copy, request-new opens the accepted email request form, Login return and close. No token expiry lifetime or real provider semantics prescribed.",
+  "whole_Auth_G2_or_High_Fi_approved": false,
+  "remaining_error_loading_Google_verification_states_approved": false,
+  "runtime_verified": false,
+  "backend_authorized": false,
+  "frontend_authorized": false
+}

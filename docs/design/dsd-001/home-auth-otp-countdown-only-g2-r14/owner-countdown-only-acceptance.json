@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "แบบนี้โอเคไหมครับ? 1. รับแบบนี้ แล้วตรวจกรณีระบบตรวจรหัสขัดข้องต่อ 2. ปรับข้อความในปุ่มให้สั้นลง 3. ปรับระยะห่างให้กระชับขึ้น",
+  "status": "owner_accepted_countdown_only_wait_visual",
+  "version": "Home Auth OTP G2-r14",
+  "reviewed_image": "E3yBs.png",
+  "reviewed_image_sha256": "e1645ab563ce633878b4841e8ced6e526654238a3c9eea546091674d8234c8dc",
+  "accepted_scope": "Wait countdown inside disabled resend button only, no separate wait feedback box; enable when permitted without automatic resend.",
+  "fixture_only": "00:45 static design fixture, not approved actual duration",
+  "actual_wait_duration_quota_provider_release_contract_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "เมื่อกดยืนยันอีเมลตอนนี้ ต้องการใช้วิธีไหนครับ? 1. OTP6หลักทางอีเมล ใช้รูปแบบ6ช่องให้เข้าชุดกับLogin 2. ลิงก์ยืนยันในอีเมล กดลิงก์แทนการกรอกรหัส 3. ให้เลือกทั้งสองวิธี สะดวกเพิ่มแต่มีขั้นตอนมากขึ้น",
+  "status": "owner_selected_email_OTP_six_digits_for_local_signup_verification",
+  "verification_method": "email_OTP",
+  "digits": 6,
+  "scope": "Email verification after local email/password signup, initiated from accepted reminder or later Account handoff; Google excluded.",
+  "email_link_or_method_picker_selected": false,
+  "verification_purpose": "email ownership confirmation; not implicit permission to treat any Login OTP as verification or select a provider API",
+  "optional_verification_retained": true,
+  "new_r20_visual_or_state_reuse_approved": false,
+  "expiry_resend_provider_session_selected": false,
+  "whole_G2_approved": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

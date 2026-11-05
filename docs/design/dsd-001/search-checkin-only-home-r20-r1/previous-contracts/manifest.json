@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "reason": "Pre-amendment maintained UX contracts and reconciliation metadata",
+  "files": [
+    {
+      "file": "edge-flows.md.txt",
+      "sha256": "60bef034f8c02060234b8741350334bba85211a1d200dea113dd97de0618208b",
+      "bytes": 26089
+    },
+    {
+      "file": "journey-map.md.txt",
+      "sha256": "5995cac8a8d74fe73736a6abd72db2dc31e1be68ca8ea1e553feb21236bcbf5c",
+      "bytes": 23421
+    },
+    {
+      "file": "hero-document-reconciliation.json.txt",
+      "sha256": "62d0b3cc4dd046cb6ec709764ef9e578aa5ee70738d211f59719f22f730ed12f",
+      "bytes": 2384
+    }
+  ]
+}

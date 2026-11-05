@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-05",
+  "status": "rolled_out_owner_accepted_search_r2",
+  "library_root": "RhDcQ",
+  "search_group": "LwfMs",
+  "search_reference_count": 9,
+  "total_state_references": 54,
+  "total_note_panels": 54,
+  "previous_total": 50,
+  "retired_bucket": "s8KxPW",
+  "retired_images_preserved": 4,
+  "accepted_checkin_copy_retained": "NlbMq",
+  "rows": [
+    {
+      "source": "XaOgB",
+      "copy": "pLefM",
+      "note": "lNRUU",
+      "row": "rerwp",
+      "retired_copy": "d8neqa"
+    },
+    {
+      "source": "cDYPs",
+      "copy": "jSQTS",
+      "note": "SSVBS",
+      "row": "iPnuS",
+      "retired_copy": "XxSN8"
+    },
+    {
+      "source": "XogVz",
+      "copy": "d021cq",
+      "note": "s7vUj",
+      "row": "YVATa",
+      "retired_copy": "ueoGP"
+    },
+    {
+      "source": "fLKGL",
+      "copy": "NlbMq",
+      "note": "FcFok",
+      "row": "TOtHn",
+      "retired_copy": null
+    },
+    {
+      "source": "jlt1S",
+      "copy": "YKxm0",
+      "note": "KlGuy",
+      "row": "AywEO",
+      "retired_copy": "a7X38"
+    },
+    {
+      "source": "KlZFQ",
+      "copy": "nDnDZ",
+      "note": "C9VkW",
+      "row": "NwuHB",
+      "retired_copy": null
+    },
+    {
+      "source": "CAmWZ",
+      "copy": "DMhmg",
+      "note": "WSwp5",
+      "row": "GrKr8",
+      "retired_copy": null
+    },
+    {
+      "source": "VwDp7",
+      "copy": "oHPFE",
+      "note": "Mvo4j",
+      "row": "pmgpJ",
+      "retired_copy": null
+    },
+    {
+      "source": "B1MrSa",
+      "copy": "zBYxn",
+      "note": "uxuMd",
+      "row": "qp3XI",
+      "retired_copy": null
+    }
+  ],
+  "evidence_images": [
+    {
+      "image": "library-rollout/rerwp.png",
+      "sha256": "10b85e677dc906ce9ab7aecff45126f78344e602dd1d7e0bf2ccf2294bc7a83d"
+    },
+    {
+      "image": "library-rollout/pmgpJ.png",
+      "sha256": "e0acebcbfb5ee99d20b5668db5b95b383982a2ff17e12d9ac5e971b712028e76"
+    }
+  ],
+  "approval": "owner-search-acceptance.json",
+  "other_home_sections_changed": false,
+  "application_code_changed": false
+}

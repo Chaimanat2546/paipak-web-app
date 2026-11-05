@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "โอเค สมัครด้วยอีเมลใช้หน้าต่างนี้ได้ ไปข้อต่อไป",
+  "status": "owner_accepted_local_email_signup_reminder_modal_r19",
+  "version": "Home Auth G2-r19",
+  "reviewed_image": "vDPf8.png",
+  "reviewed_image_sha256": "cc27374f3f361f272dc1d45f81579c4ad9a0afa56c925986dcb4d0f0d239bd3f",
+  "accepted_scope": "Displayed dismissible reminder after email/password signup, verify-now/use-first/close choices and later Account handoff hint. Use-first/close does not block Home account entry or mark email verified.",
+  "Google_excluded": true,
+  "verification_method_selected": false,
+  "Account_Profile_page_or_route_approved": false,
+  "repeat_schedule_or_mail_provider_selected": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

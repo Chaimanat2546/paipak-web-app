@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Register G2-r1",
+  "status": "owner_accepted_Register_structure_only_whole_G2_pending",
+  "authorization": "../home-auth-g0-approval.json",
+  "base_accepted_Login": "../home-auth-g2-r2/owner-login-structure-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "jfNA7",
+  "native_scene": "T8ZNE0",
+  "native_modal": "V9XgD",
+  "modal_dimensions": {
+    "width": 520,
+    "height": 791
+  },
+  "viewport": {
+    "width": 1440,
+    "height": 960
+  },
+  "images": [
+    {
+      "native_id": "jfNA7",
+      "image": "jfNA7.png",
+      "sha256": "a80b6685b92c2970fe6693ad2674c1ef996749662247bfc2105c826449f9be73"
+    },
+    {
+      "native_id": "T8ZNE0",
+      "image": "T8ZNE0.png",
+      "sha256": "f6cc4cac90d4e6a719e3800c98f9342c9ac7ed12a830f787e3fa6cc2743b8fbd"
+    },
+    {
+      "native_id": "V9XgD",
+      "image": "V9XgD.png",
+      "sha256": "638a3a00af33d92f291f2b5d53915de1efcc47f6faefb09262c3f901fb914db7"
+    }
+  ],
+  "account_data_fields": [
+    "username",
+    "phone",
+    "email",
+    "password"
+  ],
+  "additional_required_control": "password_confirmation",
+  "all_email_registration_controls_required": true,
+  "username_duplicates_allowed": true,
+  "password_minimum": 8,
+  "Google_profile_completion_interstitial": false,
+  "no_first_last_name_fields": true,
+  "legal_consent_policy_invented": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "state_library_changed": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "UXD_002_file_changed": false,
+  "proposed_question": "โครงสมัครสมาชิกนี้โอเคไหมครับ? 1. รับโครงนี้ แล้วดู Forgot/Reset ต่อ 2. ปรับโครงสมัครสมาชิก 3. ดูบนHomeก่อนตัดสินใจ",
+  "owner_acceptance": "owner-register-structure-acceptance.json"
+}

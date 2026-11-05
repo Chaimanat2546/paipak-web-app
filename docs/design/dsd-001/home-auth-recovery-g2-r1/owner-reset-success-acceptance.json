@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Recovery G2-r1 / Reset success",
+  "owner_quote": "1",
+  "question": "หน้านี้และทางไปต่อโอเคไหมครับ? 1. รับหน้านี้และกลับ Login — ดูกรณีลิงก์ใช้ไม่ได้ต่อ 2. ปรับข้อความหรือปุ่ม — แก้ก่อน 3. ดู flow ตั้งรหัสใหม่รวมก่อน — ตรวจเส้นทางทั้งหมด",
+  "status": "owner_accepted_Reset_success_and_button_opening_Login",
+  "native_modal": "MKMGi",
+  "image": "MKMGi.png",
+  "image_sha256": "fb08dd543ee7250bda836c4c29d72fa0b59f5efedbfb54740c955c37baecb664",
+  "scope": "Success title/copy and explicit Login action after setting password. Login button opens the accepted Login form for user authentication.",
+  "automatic_login_after_reset": false,
+  "does_not_claim_authenticated_from_password_reset_alone": true,
+  "Unusable_link_or_other_states_approved": false,
+  "whole_G2_or_High_Fi_approved": false,
+  "runtime_verified": false,
+  "backend_authorized": false,
+  "frontend_authorized": false
+}

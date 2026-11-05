@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "gate": "G3 partial visual study; whole G3 not accepted",
+  "version": "Home Auth Login G3-r1",
+  "status": "set_aside_unapproved_UI_owner_stopped_at_wireframe",
+  "authorization": "../home-auth-consolidated-g2-r40/owner-G2-r40-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "kqfiW",
+  "native_context": "dPzQ6",
+  "native_context_modal": "q22n6v",
+  "source_form": "Nlwvr",
+  "source_home": "a8kei",
+  "source_home_scope": "Accepted Home-r20 copied as a cropped 1440×960 static backdrop. Main Home unchanged. The separately pending owner-assets/Home-r21 supplement is not overwritten, approved or rolled into this context.",
+  "items": [
+    {
+      "key": "empty",
+      "modal": "iDgCH"
+    },
+    {
+      "key": "filled_email",
+      "modal": "CZKPp"
+    },
+    {
+      "key": "focused_empty",
+      "modal": "I6T8j"
+    }
+  ],
+  "visual_proposal": {
+    "modal": "520px width, 32px padding, 16px vertical gaps, white,24px radius; proposed local Auth geometry, not shared token approval",
+    "heading": "Mitr26/400, navy; same G2 centered heading/close arrangement",
+    "fields": "52px tall, radius12, white; default border #8093A8/1px, focused #072D59/2px with static caret",
+    "primary": "52px height, radius16, locked Pink #FD6E88 with retained white label; OPEN-001 remains blocker for final CTA accessibility acceptance",
+    "secondary": "Navy text links and explicit password alternative, divider, outlined Google action and registration link stay in G2 order",
+    "google": "Original official Google asset, central G crop in native image fill with aspect/colors preserved; site label Mitr, no supplementary font. Official asset source record attached; not a provider compliance or integration claim.",
+    "backdrop": "Navy alpha66 (102/255 = 40%); proposed Auth dimmer, no live interaction or pause implementation"
+  },
+  "nominal_contrast": [
+    {
+      "foreground": "#8093A8",
+      "background": "#FFFFFF",
+      "ratio": 3.1546893450713696,
+      "scope": "default field/button boundary color pair only"
+    },
+    {
+      "foreground": "#53657C",
+      "background": "#FFFFFF",
+      "ratio": 5.96536787335489,
+      "scope": "helper/body text color pair only"
+    },
+    {
+      "foreground": "#072D59",
+      "background": "#FFFFFF",
+      "ratio": 13.737680109134693,
+      "scope": "navy text/focus on white color pair only"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#FD6E88",
+      "ratio": 2.705343217728925,
+      "scope": "owner-retained primary reference fails 4.5 and3; OPEN-001 remains open"
+    }
+  ],
+  "assets": "assets/source-record.json",
+  "images": [
+    {
+      "native_id": "dPzQ6",
+      "image": "dPzQ6.png",
+      "width": 1440,
+      "height": 960,
+      "sha256": "9ffe4d2a12bae28ba645650a177a24e5fb205e9a39ea1ee59cfab1243efe01cf"
+    },
+    {
+      "native_id": "kqfiW",
+      "image": "kqfiW.png",
+      "width": 1776,
+      "height": 836,
+      "sha256": "5aa15539d2d545953679abdc5b4adf0077884557319825403dab56257034e48f"
+    },
+    {
+      "native_id": "iDgCH",
+      "image": "iDgCH.png",
+      "width": 592,
+      "height": 581,
+      "sha256": "dccb7fd4259b128273936852c7c12e46764dc17ea89dd0ad1eb515a9e2149266"
+    },
+    {
+      "native_id": "CZKPp",
+      "image": "CZKPp.png",
+      "width": 592,
+      "height": 581,
+      "sha256": "23c6e9b0ab06350d615aff17a33de73372876557059d7313b2e4777ad647ffdf"
+    },
+    {
+      "native_id": "I6T8j",
+      "image": "I6T8j.png",
+      "width": 592,
+      "height": 581,
+      "sha256": "85c5ef955ef2aafac1451862a90e877036cffc6178ed98210b9f6f94c22d3ccf"
+    }
+  ],
+  "review_scope": "Only the shown Login entry/default-filled-focus appearance and Home overlay context. Not OTP/password/phone/country/error/pending/Register/Recovery states, whole G3, G4 or contrast exception.",
+  "remaining": [
+    "Apply accepted appearance to email OTP/email password/phone password and country picker, validation/provider/request states",
+    "Register/local verification/Recovery and success/error states in G3",
+    "Small-height Desktop/keyboard/assistive/motion behavior and full-page favorite feedback visual review",
+    "OPEN-001 final CTA treatment and Google custom-button/provider compliance before final G4",
+    "Final version approval before Frontend"
+  ],
+  "question": "หน้าตา Login ชุดนี้ใช้ต่อได้ไหมครับ? 1. ใช้หน้าตานี้ — ทำ OTP/รหัสผ่านต่อ 2. ปรับช่องกรอกหรือปุ่ม 3. ปรับกรอบหน้าต่างและพื้นที่ว่าง",
+  "verification": {
+    "context_and_three_modal_screenshots_inspected": true,
+    "full_size_context_and_default_focus_exports_inspected": true,
+    "official_G_asset_visible": true,
+    "text_order_and_approved_methods_preserved": true,
+    "final_execute_warnings": [],
+    "geometry_probe": "Not used as a clean-layout claim due earlier documented +50px coordinate discrepancies. Export renders inspected; context intentionally clips long Home copy to viewport.",
+    "document_checks": {
+      "validate_handoff": "PASS110records14tasks; structure only",
+      "validate_registry": "PASS110records11sections",
+      "git_diff_check": "exit0; existing CRLF warnings",
+      "source_integrity": "G2 accepted snapshots/inventory,26 acceptance sources,100 source PNGs unchanged",
+      "G3_integrity": "five PNG hashes,official asset hash and new Markdown links verified"
+    }
+  },
+  "G2_approved": true,
+  "High_Fi_started": true,
+  "whole_G3_approved": false,
+  "G4_or_final_design_approved": false,
+  "DSD_001_complete": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_changed": false,
+  "UXD_002_changed": false,
+  "commit_push_or_deploy_authorized": false,
+  "owner_scope_correction": "../home-auth-wireframe-only-stop-decision.json",
+  "active_review": false,
+  "native_roots_hidden": true,
+  "G3_work_continuation_authorized_now": false
+}

@@ -1,0 +1,597 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Desktop G2-r40",
+  "status": "owner_accepted_composed_Home_Auth_Desktop_G2_r40_and_interaction_draft_1",
+  "previous_acceptance": "../home-auth-register-current-g2-r39/owner-Register-current-states-acceptance.json",
+  "native_root": "xqrsT",
+  "native_flow_overview": "v0fodR",
+  "native_interaction_overview": "geey5",
+  "inventory": "inventory.json",
+  "inventory_native_reference_count": 57,
+  "review_scope": [
+    "Composed low-fi Home Auth Desktop baseline: Login/email OTP/explicit email password/phone password/Google, local registration and optional email verification, email-link password recovery and active favorite return.",
+    "Current forms and accepted field/request/OTP/provider/error/success patterns listed in inventory, with old examples explicitly bounded as reusable patterns rather than current whole forms.",
+    "Proposed interaction-contract draft-1: focus/Tab, Escape/pointer dismissal hierarchy, Enter/OTP, focus return, pending/show-hide, small-viewport scrolling, Auth-Hero pause/resume and reduced-motion/assistive-feedback requirements."
+  ],
+  "reviewed_contract": {
+    "path": "interaction-contract.reviewed.md.txt",
+    "sha256": "5874b40fca91df5aab128fc49e2e2b376a1b5136f31f81509c718bcf99422361"
+  },
+  "reviewed_spec": {
+    "path": "auth-spec.reviewed.md.txt",
+    "sha256": "e3f72f0bd135d8d10265e1f962f42fedfbc9eda94333d37702d5cf54f52111bd"
+  },
+  "inventory_sha256": "0e732b6ac1a2b427d259f07f8fe20b2bfcb3af85c59934209e7cdfa71a858511",
+  "images": [
+    {
+      "native_id": "v0fodR",
+      "image": "v0fodR.png",
+      "width": 1440,
+      "height": 1426,
+      "sha256": "389898144894c2f82feb60543fee60f07404d152720dc405386274e8b74d7fcf"
+    },
+    {
+      "native_id": "geey5",
+      "image": "geey5.png",
+      "width": 1408,
+      "height": 1025,
+      "sha256": "b47af72cd5430b677a488fb40783cf6f264902f0f3d0acc7e7f5bef31bde0ef2"
+    }
+  ],
+  "source_owner_acceptances": [
+    {
+      "path": "../home-auth-email-verification-g2-r19/owner-reminder-acceptance.json",
+      "sha256": "e92c4a9c06944e52f8baabe1834a1d8b0202799cb6ea9c0d9189b22245c3ad36"
+    },
+    {
+      "path": "../home-auth-email-verification-otp-g2-r20/owner-verification-screens-acceptance.json",
+      "sha256": "8e29b0310edbb04be86a99b5544d4712f32ace63782770548579562c7ae854c9"
+    },
+    {
+      "path": "../home-auth-email-verification-states-g2-r36/owner-verification-states-acceptance.json",
+      "sha256": "d806466a47cd1f8113725897ecca2baa66c97fa6db996dbc21bf05d7f314a3b4"
+    },
+    {
+      "path": "../home-auth-error-audit-r26/owner-error-audit-acceptance.json",
+      "sha256": "1c7f5a504fb1605a0bcb942f8c109e01f94b41a2ec95a332adf55e82b343703e"
+    },
+    {
+      "path": "../home-auth-favorite-return-g2-r28/owner-favorite-return-states-acceptance.json",
+      "sha256": "e05abeec6f88b9174bbdc2d817df7403f93f3f84cc6a4b86c90cd84eaf78d3b2"
+    },
+    {
+      "path": "../home-auth-google-g2-r17/owner-Google-cancellation-acceptance.json",
+      "sha256": "cefe0bace07123872b0c8515043d457cb1929e6e940570ac0be1b834fb4cfb64"
+    },
+    {
+      "path": "../home-auth-google-g2-r18/owner-Google-error-acceptance.json",
+      "sha256": "e1445f586fdd311ea822ede152869d5843244b80018e7d385ab2945a985c2bb2"
+    },
+    {
+      "path": "../home-auth-login-country-g2-r34/owner-Login-country-acceptance.json",
+      "sha256": "a1dbf55e7b8cf46425acf07b14a55b8e7efe0120ff00ef8675d23b18984dfe3e"
+    },
+    {
+      "path": "../home-auth-login-flow-g2-r30/owner-Login-structure-acceptance.json",
+      "sha256": "2b5081235f306f65a763df5b3f0fd6cb088f36dc995d23f6d8ec720805499738"
+    },
+    {
+      "path": "../home-auth-login-request-g2-r37/owner-Login-request-states-acceptance.json",
+      "sha256": "041d94cc2b47c7188206042e89903942a325f575ddc23b3afbafb06db25bbe88"
+    },
+    {
+      "path": "../home-auth-otp-auto-g2-r7/owner-checking-state-acceptance.json",
+      "sha256": "f6124f6fa9333d06c51bbe03152d1cafce7f419542225e2eaf8f02ea95c8d813"
+    },
+    {
+      "path": "../home-auth-otp-backspace-g2-r16/owner-backspace-sequence-acceptance.json",
+      "sha256": "53f2852612ae056d3aca84dcc019ce3a62a623415db1f454b5b4d64ac0166045"
+    },
+    {
+      "path": "../home-auth-otp-countdown-only-g2-r14/owner-countdown-only-acceptance.json",
+      "sha256": "d97913f6f231a334d7f110b533e29c9b6685bc46e44cce869f578bcd4b357423"
+    },
+    {
+      "path": "../home-auth-otp-resend-failure-g2-r11/owner-resend-failure-acceptance.json",
+      "sha256": "0624628f56dd491db71f223e8112eed97301f78709e37f195f1b2083c2e1e7ba"
+    },
+    {
+      "path": "../home-auth-otp-resend-g2-r10/owner-resend-states-acceptance.json",
+      "sha256": "a6e32e2f82deff1e30aa8aa6d5d60525bfe605912e0a0350ed640ce613b50ac3"
+    },
+    {
+      "path": "../home-auth-otp-verify-failure-g2-r15/owner-verification-failure-acceptance.json",
+      "sha256": "09eed44ed071e46bb089c724bf23c0bf6f8a0f9489737d8c137c8632d16e3611"
+    },
+    {
+      "path": "../home-auth-recovery-g2-r1/owner-forgot-request-acceptance.json",
+      "sha256": "6d21a348d142d98f5aebb9f9f688d1c503287ab954573acbe83114b82a9a5daf"
+    },
+    {
+      "path": "../home-auth-recovery-g2-r1/owner-reset-form-acceptance.json",
+      "sha256": "1ff032f6eda94a8dae02e86ca69439efad7476cb4ab384986583fb420b8d9b41"
+    },
+    {
+      "path": "../home-auth-recovery-g2-r1/owner-reset-success-acceptance.json",
+      "sha256": "1a687def68d6f48c790e3affb197e5053ef741ce038ec3ab5cf581ef5471f3e5"
+    },
+    {
+      "path": "../home-auth-recovery-g2-r1/owner-unusable-link-acceptance.json",
+      "sha256": "500bcb502ea5aecab94ab175fb86d12d04d5d23f5de04a20f3ae6353b63d097c"
+    },
+    {
+      "path": "../home-auth-recovery-g2-r2/owner-acknowledgement-acceptance.json",
+      "sha256": "a37a44b92fab66579bf111ccb4b786b26ffbafb7586337705fad867919e08326"
+    },
+    {
+      "path": "../home-auth-recovery-request-g2-r38/owner-Recovery-request-states-acceptance.json",
+      "sha256": "ecc502a2bc27939aacafc91c52bef82d1eb2e41d251cd19cf076c4bf9c3c19dc"
+    },
+    {
+      "path": "../home-auth-register-country-labels-g2-r33/owner-country-labels-acceptance.json",
+      "sha256": "e1745917c522d009f5302b1d8b50c390050cec7ddfd84accf73157218a2864c5"
+    },
+    {
+      "path": "../home-auth-register-current-g2-r39/owner-Register-current-states-acceptance.json",
+      "sha256": "8220d9df5250ea150563869114c0fb84fa944d1c955e4be43720d2012984e6ea"
+    },
+    {
+      "path": "../home-auth-register-google-g2-r35/owner-Register-Google-return-acceptance.json",
+      "sha256": "63f38b3504e6b01b3721bf58bcaec9af7d949b0153daa84fb9be25e46e643745"
+    },
+    {
+      "path": "../home-auth-register-username-g2-r31/owner-Username-states-acceptance.json",
+      "sha256": "e882cdddd2267b2fde239ceaa87f7ceb5adc6697738f3ce2920903ae82f2fa22"
+    }
+  ],
+  "source_PNGs": [
+    {
+      "path": "../home-auth-email-verification-g2-r19/vDPf8.png",
+      "sha256": "cc27374f3f361f272dc1d45f81579c4ad9a0afa56c925986dcb4d0f0d239bd3f"
+    },
+    {
+      "path": "../home-auth-email-verification-g2-r19/zZbIa.png",
+      "sha256": "e09873f5aae996f62d57ad5da490e3e95f56df6e4932dd6b1773ac3762e84d4c"
+    },
+    {
+      "path": "../home-auth-email-verification-otp-g2-r20/eT8Bq.png",
+      "sha256": "9e626a26c2ae98884d89a4a23a1a45774e0b1dba79f29cc454e7bdd1d6ec43a8"
+    },
+    {
+      "path": "../home-auth-email-verification-otp-g2-r20/ip2bA.png",
+      "sha256": "f65d59b3234d0b4df84021a2f5035604db2b57c0849e0262d52e34e1ff4bbbea"
+    },
+    {
+      "path": "../home-auth-email-verification-otp-g2-r20/q0ilP.png",
+      "sha256": "987728914784af57024fd4a0187dbf095614f6927f00be5404b806b4e1d35e0c"
+    },
+    {
+      "path": "../home-auth-email-verification-otp-g2-r20/RukQJ.png",
+      "sha256": "d18982bccb2d426a24857dbb7c19e05903e52de3c9fa640dde96f2122ed12957"
+    },
+    {
+      "path": "../home-auth-email-verification-states-g2-r36/CsOgQ.png",
+      "sha256": "862c0f10640b9c81a473c18eb8b55d55c283f4d2ca30c87efab8d2e53ac04bfb"
+    },
+    {
+      "path": "../home-auth-email-verification-states-g2-r36/lNeof.png",
+      "sha256": "2f5dd24b9e06296986625a4d8d96a1cb84319c21d9dca943d4104ed4a134dd9a"
+    },
+    {
+      "path": "../home-auth-email-verification-states-g2-r36/LsUq3.png",
+      "sha256": "c1fa030354fa868500b9a4767917ec24690d74699eb88ac1269f3b59bbbdf149"
+    },
+    {
+      "path": "../home-auth-email-verification-states-g2-r36/mrPVu.png",
+      "sha256": "2a8a15eddf85742ad9a75fe7784eceb06b23346512651e5fbd3b0b9f54e5ccda"
+    },
+    {
+      "path": "../home-auth-email-verification-states-g2-r36/n8M20.png",
+      "sha256": "f8501421157d6761745dbd2710c9ed22dcdf1fb272513daa340b31cdfc87f3d5"
+    },
+    {
+      "path": "../home-auth-email-verification-states-g2-r36/nQ4yF.png",
+      "sha256": "b79a0db6c6b6ae203919a08c5d719cb9ec1d9934bc29d00f7150768b990668a7"
+    },
+    {
+      "path": "../home-auth-email-verification-states-g2-r36/s0dZ8.png",
+      "sha256": "f3bc39f99ab88184a254ea0f1f16747e4ab1d3903958468b8b8e95295cbc85e9"
+    },
+    {
+      "path": "../home-auth-error-audit-r26/a2w6D.png",
+      "sha256": "e220e26953fa94d1a1ce1d6edca82fd01d591ec578700abb2aecf68fee318cb4"
+    },
+    {
+      "path": "../home-auth-error-audit-r26/Cb1DW.png",
+      "sha256": "a812f999232e449e9bf377c103334a8ebb16b7f38b01319a5afeafa2b5728c6e"
+    },
+    {
+      "path": "../home-auth-error-audit-r26/e5s61.png",
+      "sha256": "b98e68333a1675ace3950be413d746830c3c59d62822e7551fc24b33fce6248c"
+    },
+    {
+      "path": "../home-auth-error-audit-r26/iLmVt.png",
+      "sha256": "d7689bac5b486232e4a01710c75ce31373b4fb158b3eb47b1b9aa1089321f7af"
+    },
+    {
+      "path": "../home-auth-error-audit-r26/omNK0.png",
+      "sha256": "e4eebc9558efe1d672dbfcc203489c9985ace6b3918150dc91521f89609fe6e7"
+    },
+    {
+      "path": "../home-auth-error-audit-r26/qNVoN.png",
+      "sha256": "f3002171314f1c9671caca4bc4a9bc57db1e2ac5953d3445243fa9df2a61b37f"
+    },
+    {
+      "path": "../home-auth-error-audit-r26/WAeyG.png",
+      "sha256": "6b2ac8ec39c7788aa8fbf2aaaf81d23be0bd9359da27b2a36477cb5398607041"
+    },
+    {
+      "path": "../home-auth-error-audit-r26/wxEwE.png",
+      "sha256": "aa51694dc3097c786e627ad5ce2de7c62e1edd40aa415db487a27865e9ba6f60"
+    },
+    {
+      "path": "../home-auth-error-audit-r26/zA7HA.png",
+      "sha256": "e5f87e0e14c8a443d1f2e227c8a959c8ac6555b648c1ef13e9139fa1a2216759"
+    },
+    {
+      "path": "../home-auth-favorite-return-g2-r28/e65FIF.png",
+      "sha256": "8f5926a8f98f835dd598634a007b6d6b87b2105844803db828cb710dd7e66587"
+    },
+    {
+      "path": "../home-auth-favorite-return-g2-r28/oADPo.png",
+      "sha256": "fb2163990bc2b1386f9e4a53d95778427d07190488e80301f477b7d16aebb3ca"
+    },
+    {
+      "path": "../home-auth-favorite-return-g2-r28/xB6Hu.png",
+      "sha256": "470d2a918a0db2bceae40fc2a57f983dae9892db3ce8973354fce821a8a56c30"
+    },
+    {
+      "path": "../home-auth-favorite-return-g2-r28/yZwwg.png",
+      "sha256": "f065ca8763843e82294fbd0a9555a7088d8838c40fc541e2c6b66d54f35301e0"
+    },
+    {
+      "path": "../home-auth-google-g2-r17/EjvEz.png",
+      "sha256": "9b96591b84af8be9d19c8b38485a71a42422c7ccabca018b29e51ded71e9b356"
+    },
+    {
+      "path": "../home-auth-google-g2-r17/lDH8c.png",
+      "sha256": "e717bf43a8b0f54ef931936a0ee6bbb6bf6ebe479431a8f3c5b161480313170b"
+    },
+    {
+      "path": "../home-auth-google-g2-r17/Nnfb4.png",
+      "sha256": "d07aa715c93ee09cb0dae13b3a5a8e29745ccc48f4f8e3688e63cec287b95f19"
+    },
+    {
+      "path": "../home-auth-google-g2-r17/qBGNr.png",
+      "sha256": "f0f4107cd8f98fa7bf02102ab83be54aada5731f931d3d037239682c2feca0e7"
+    },
+    {
+      "path": "../home-auth-google-g2-r18/HPFZT.png",
+      "sha256": "cb0fb0753f2535a401f34d5b1636adf2acd52742a92edf99076fcfb945c18539"
+    },
+    {
+      "path": "../home-auth-google-g2-r18/sbCLw.png",
+      "sha256": "5b97f18ced156a10e9e8cce4b803d1070264302ad157a3e3ef5c64aa044340b3"
+    },
+    {
+      "path": "../home-auth-login-country-g2-r34/ASYeh.png",
+      "sha256": "29785811f5ea0172003782c4cc249e75b83195fcb5910c1b2b570d477db3206a"
+    },
+    {
+      "path": "../home-auth-login-country-g2-r34/j5Nwm.png",
+      "sha256": "169060a3f3f4f3ae671d70b439817311aaaa5600767d55839b2480b967ca9286"
+    },
+    {
+      "path": "../home-auth-login-country-g2-r34/NHg9c.png",
+      "sha256": "b9af7b6bb9178dcfd320a5cf5c26ff3640626577b6b1e090f39d4b7a909229d4"
+    },
+    {
+      "path": "../home-auth-login-country-g2-r34/Nlwvr.png",
+      "sha256": "9b96591b84af8be9d19c8b38485a71a42422c7ccabca018b29e51ded71e9b356"
+    },
+    {
+      "path": "../home-auth-login-country-g2-r34/w5F1PX.png",
+      "sha256": "67dc92d3f18c4ca5a09ce310b30020a0e6247840b77df16e3ee2b6b46d5a342b"
+    },
+    {
+      "path": "../home-auth-login-country-g2-r34/yzbLX.png",
+      "sha256": "f935df512b1569e6564ed1d598b0188db34f7fb85332056e1f7bb1936b60f177"
+    },
+    {
+      "path": "../home-auth-login-flow-g2-r30/bFCHU.png",
+      "sha256": "29785811f5ea0172003782c4cc249e75b83195fcb5910c1b2b570d477db3206a"
+    },
+    {
+      "path": "../home-auth-login-flow-g2-r30/dFI8d.png",
+      "sha256": "ac286fe1d04959a1d29ca1056e2adddce0e6bca0baee8afa022ba3214d7a6788"
+    },
+    {
+      "path": "../home-auth-login-flow-g2-r30/g43q8y.png",
+      "sha256": "c8f9cdefab41bbdd9d7e325768e59901b265531166d50eeb475b1b77c0bdfd0a"
+    },
+    {
+      "path": "../home-auth-login-flow-g2-r30/LnXw4.png",
+      "sha256": "b779bee6cd47032b4f5c951927d84965ca148c20ae3f91f15c1c03e1c06b8f2f"
+    },
+    {
+      "path": "../home-auth-login-flow-g2-r30/mmSkV.png",
+      "sha256": "c7dfacd9e249c6ca6b39e77ce423dd876eda953d915811b6d512314d3e725501"
+    },
+    {
+      "path": "../home-auth-login-flow-g2-r30/q6GNt.png",
+      "sha256": "d8fe6232711aa40b4d81bf7582390345363b9acbd4ab047be42a615dce1e3cde"
+    },
+    {
+      "path": "../home-auth-login-request-g2-r37/F5y0ir.png",
+      "sha256": "eb5bc6a010980938243f603460687cc6a43edde3ef0146518650a9f9acf81b2e"
+    },
+    {
+      "path": "../home-auth-login-request-g2-r37/fS0KD.png",
+      "sha256": "5039b9d67df3409f39d2ae0f0bacf22907a2861c54775ed9f4b4803f55c2063f"
+    },
+    {
+      "path": "../home-auth-login-request-g2-r37/PNaVg.png",
+      "sha256": "aa43ab43dfd1b5e172528f95180f8b17bbb033e44ed738b5dea8840600f2398f"
+    },
+    {
+      "path": "../home-auth-login-request-g2-r37/TYi9y.png",
+      "sha256": "deddb212d68bd74ae0d010d1d5c834677f394ecd93366b82f71aea9d0d3a2ce4"
+    },
+    {
+      "path": "../home-auth-login-request-g2-r37/uuYAg.png",
+      "sha256": "7386210d8f70baf7d05b41a93896831c4034a41610fe31c4984142de2d2d66c9"
+    },
+    {
+      "path": "../home-auth-login-request-g2-r37/wp6Gt.png",
+      "sha256": "bb607eab7590dbd4932d334a21c3dcd216445ae7a076ca76a434062d470a4de2"
+    },
+    {
+      "path": "../home-auth-otp-auto-g2-r7/hkVe5.png",
+      "sha256": "00668ceab787491bf5f20c52a6252f3cd5461576d7dba3728965ee3b108e0330"
+    },
+    {
+      "path": "../home-auth-otp-auto-g2-r7/PmCdx.png",
+      "sha256": "731be4b6c6edafced175ba6f9b46eeeeca5652ad40e9cca3d492c26637f51420"
+    },
+    {
+      "path": "../home-auth-otp-auto-g2-r7/wCZid.png",
+      "sha256": "0a6335f5f54d40baa3b1d076bc3fcd959ce3ec1667b0c8bdd5c7218038d44d31"
+    },
+    {
+      "path": "../home-auth-otp-auto-g2-r7/ynlC3.png",
+      "sha256": "9ddf9bf029def1c1fee2e7a94333cc6fc7a1ef16d695efc688005edf49570022"
+    },
+    {
+      "path": "../home-auth-otp-backspace-g2-r16/fLEJd.png",
+      "sha256": "8a1f6a0c53dec4825e71ba20fc85dc9d1008881849fa8cca1041c7223cfeb28f"
+    },
+    {
+      "path": "../home-auth-otp-backspace-g2-r16/Im1AA.png",
+      "sha256": "ca9db172f5290a4227a42127936bcfdb71c71a756601cd6143e5ed0ef3c6fe6d"
+    },
+    {
+      "path": "../home-auth-otp-countdown-only-g2-r14/E3yBs.png",
+      "sha256": "e1645ab563ce633878b4841e8ced6e526654238a3c9eea546091674d8234c8dc"
+    },
+    {
+      "path": "../home-auth-otp-countdown-only-g2-r14/ug3fC.png",
+      "sha256": "5510153234a1a372c9278142c1aeb9271f0781427914131493ebe91d461f8e05"
+    },
+    {
+      "path": "../home-auth-otp-resend-failure-g2-r11/cZWL1.png",
+      "sha256": "8d7b9ef57d5437e887eec68e0f16a739bfac295cabb3357807fecddcc0314121"
+    },
+    {
+      "path": "../home-auth-otp-resend-failure-g2-r11/ziEPO.png",
+      "sha256": "ebd2906b632fb6484f02f07524280b0db3e8a1d84876016e68713330feff08e3"
+    },
+    {
+      "path": "../home-auth-otp-resend-g2-r10/LRyGj.png",
+      "sha256": "ef5d41bd817d541f7bff80ecb2412a515148ace989d35ab2bfbbf38975dae79a"
+    },
+    {
+      "path": "../home-auth-otp-resend-g2-r10/Q3RKu.png",
+      "sha256": "95e7585858f86a71ef98bdd8b5800c85b75421042f3b842975ce5cd0b5ab2f67"
+    },
+    {
+      "path": "../home-auth-otp-resend-g2-r10/sNcqa.png",
+      "sha256": "0e028c9369ffea517cf35781cb69709915d5fc8d3d62528385d71b6068759335"
+    },
+    {
+      "path": "../home-auth-otp-resend-g2-r10/TiPIP.png",
+      "sha256": "7d58f7af1e37e14e41e7a466545e74d85a61e4bcb412641202a6ea0601568faf"
+    },
+    {
+      "path": "../home-auth-otp-verify-failure-g2-r15/CdSeA.png",
+      "sha256": "cb2633e316e736017e2475528aee30978df60e9b06416d530d934844ae0abd84"
+    },
+    {
+      "path": "../home-auth-otp-verify-failure-g2-r15/d0PtEH.png",
+      "sha256": "8efec901ae59536e322c6ffc7f38f147e6199f2146669ec0cbb7e93275d7d1b4"
+    },
+    {
+      "path": "../home-auth-recovery-g2-r1/l0YcM.png",
+      "sha256": "7c6774c3dda0a8df45b5d3c54fe97ee779716a88fc1f4822c4dbd73f77da3603"
+    },
+    {
+      "path": "../home-auth-recovery-g2-r1/MKMGi.png",
+      "sha256": "fb08dd543ee7250bda836c4c29d72fa0b59f5efedbfb54740c955c37baecb664"
+    },
+    {
+      "path": "../home-auth-recovery-g2-r1/n2gWyS.png",
+      "sha256": "b8a12a6ccd6b8d08f2f083306a5292212a608124bcc912d7c51afea8445a9675"
+    },
+    {
+      "path": "../home-auth-recovery-g2-r1/tJxL1.png",
+      "sha256": "0d42136c9f14f3fef262cc43622f4c14bc29e1968027e8016c666fafc0521877"
+    },
+    {
+      "path": "../home-auth-recovery-g2-r1/W2GLH.png",
+      "sha256": "65a5a563055585ef834e80a1e3aa41e22b7e6ef5e009c510f77657c81f2cb046"
+    },
+    {
+      "path": "../home-auth-recovery-g2-r1/z5EJtN.png",
+      "sha256": "f790d61f378b77cc406921e293fb8ef02aa6145c786247cca930ea94143c0030"
+    },
+    {
+      "path": "../home-auth-recovery-g2-r1/ZsOMo.png",
+      "sha256": "9fa09608b97b0dfb17c2eb37793e7db78779bba72344dfd0f9ed1f1ff5111986"
+    },
+    {
+      "path": "../home-auth-recovery-g2-r2/IvrCQ.png",
+      "sha256": "83bb2d2f27eac1cf581dffc03eb56e50d0e9c9509e2a3b814d5743d5cf7832cc"
+    },
+    {
+      "path": "../home-auth-recovery-request-g2-r38/e90Mg.png",
+      "sha256": "952591bef367a7e5e4eea18e5ca3568bd0e46e50f30a199479c223b22fc0bddd"
+    },
+    {
+      "path": "../home-auth-recovery-request-g2-r38/q2EE0Y.png",
+      "sha256": "52416d2fe6bc6e9855e1035b57635914cee779bcd2938d99e5227c3480498305"
+    },
+    {
+      "path": "../home-auth-recovery-request-g2-r38/rhTqa.png",
+      "sha256": "4552c078a0da10607aff2d778eaf1bc7d91caf97f8c3815b4a63d0053e7751fd"
+    },
+    {
+      "path": "../home-auth-recovery-request-g2-r38/VYEnh.png",
+      "sha256": "7fbc802bf36aeab8d985f6802cf428e4c9ef3be228a23696a1003bf7e3298855"
+    },
+    {
+      "path": "../home-auth-recovery-request-g2-r38/wmhoz.png",
+      "sha256": "3c7caea3ea293a9a0a7b56b058996fce34eb5294329a70d8aea83fa6da5f1328"
+    },
+    {
+      "path": "../home-auth-recovery-request-g2-r38/WQbH9.png",
+      "sha256": "32333a748b1e3b7a987cdde05aee529d9877a8bf9e9e4379dd1007c0559fa772"
+    },
+    {
+      "path": "../home-auth-register-country-labels-g2-r33/JZe1C.png",
+      "sha256": "f00735b56380a52bcf8068c0fbfe9acccf07eb832f52eda3c0b239a7e76d984b"
+    },
+    {
+      "path": "../home-auth-register-country-labels-g2-r33/l93v3.png",
+      "sha256": "487b7521eda03e3843f315cdb9c59cf76da5bd236343d9c5d323a26e0ecd8be3"
+    },
+    {
+      "path": "../home-auth-register-country-labels-g2-r33/MOl8x.png",
+      "sha256": "6f5ceccad94b138d0d06f5800e85f484d881e6876e96117441b315420b863557"
+    },
+    {
+      "path": "../home-auth-register-country-labels-g2-r33/U9o7hd.png",
+      "sha256": "2756aa1a40291023d60a7e740118a6ef396740cde74e9fa447625736296fbded"
+    },
+    {
+      "path": "../home-auth-register-country-labels-g2-r33/ZWbVr.png",
+      "sha256": "c09d4893da6fb6e1f322af4c4a1744560ba48cf05c6eba851e2c40433e9143e3"
+    },
+    {
+      "path": "../home-auth-register-current-g2-r39/EoViL.png",
+      "sha256": "518f80201248ca1fe1b89743175990ede0c6486f956b04463619155491b301aa"
+    },
+    {
+      "path": "../home-auth-register-current-g2-r39/k6ruuh.png",
+      "sha256": "075459367be7bd1e9de6c8f566cbb2d5f19ef5633f686b13b62b430d0c795e6d"
+    },
+    {
+      "path": "../home-auth-register-current-g2-r39/NKyzd.png",
+      "sha256": "98e982c732ddbfe5c58061f0e8d6944847a626635a35ac00cb503400ca8b598d"
+    },
+    {
+      "path": "../home-auth-register-current-g2-r39/vLCXH.png",
+      "sha256": "5179d82090377ca9fbbeba5194281854d49ce94778307183fe2ab13e49dba0b3"
+    },
+    {
+      "path": "../home-auth-register-current-g2-r39/VVLL4.png",
+      "sha256": "d3ef2571c61735739cc741433126f5e36718b7df0f0113435f050788d7a22fb8"
+    },
+    {
+      "path": "../home-auth-register-google-g2-r35/fbdV2.png",
+      "sha256": "487b7521eda03e3843f315cdb9c59cf76da5bd236343d9c5d323a26e0ecd8be3"
+    },
+    {
+      "path": "../home-auth-register-google-g2-r35/h7jRHX.png",
+      "sha256": "68a252a7a46b2e276c2e8b9cd53bcd76c6dbac333d6df08b5e52969e9cf76cac"
+    },
+    {
+      "path": "../home-auth-register-google-g2-r35/HR7KI.png",
+      "sha256": "d6039f4aab145cc0c723e1eff37ef53c10ec10884a78d39ab3f95d90b8f22305"
+    },
+    {
+      "path": "../home-auth-register-google-g2-r35/uX6Cc.png",
+      "sha256": "dedf995094e1c4efb19fcaafac9476fbdbad0570cbe7d89f09d056121e7d1dd2"
+    },
+    {
+      "path": "../home-auth-register-username-g2-r31/CVIgO.png",
+      "sha256": "798019d13aa5ff60a99529d72f9ae623b27f05b5fe7a587e484f3ae349bda8fb"
+    },
+    {
+      "path": "../home-auth-register-username-g2-r31/DLW0h.png",
+      "sha256": "c380cac2b96750cfcf2dbdd2c4ea005c8a58d0f219d1d7ca3803a0b7a8ef548a"
+    },
+    {
+      "path": "../home-auth-register-username-g2-r31/IVcGY.png",
+      "sha256": "315bec625ecb8b781e52c122a9d6a70eb253a6089a448b4b772cabae0b97a139"
+    },
+    {
+      "path": "../home-auth-register-username-g2-r31/Ru1ej.png",
+      "sha256": "4847a320d8651b7b179fc6156ff13d1b6bff410ad15d2b0ccafa0352f2bb12de"
+    },
+    {
+      "path": "../home-auth-register-username-g2-r31/SdQkH.png",
+      "sha256": "7afea8acc5db6c2449df053a50ab0fc81878e4c6115ff850761feb0cc44a2ded"
+    },
+    {
+      "path": "../home-auth-register-username-g2-r31/sUNzO.png",
+      "sha256": "511357375552931e3c8e4350aed6744a29003b9467dfd47ff733fe78b223f117"
+    }
+  ],
+  "deferred": [
+    "G3 visual focus/hover/show-hide/detail/viewport prototypes and full-page favorite feedback positioning/lifetime",
+    "Actual phone country inventory/parser/normalization, account matching/session/provider and verification-delivery policy",
+    "OTP expiry/resend duration/limits; 00:45 remains fixture",
+    "Keyboard/screen-reader/scroll/reduced-motion runtime tests; no implementation created",
+    "OPEN-001 white normal text on pink remains open before final CTA approval",
+    "Mobile paused; UXD-002 review-5 unchanged and pending"
+  ],
+  "acceptance_criteria": {
+    "AC01": "Current entry and local/Google/recovery/favorite navigation are traceable, with no Guest favorites or forced local-email verification on Google.",
+    "AC02": "Required Username/phone/email/password/confirmation, Username3–20 English/digits display-only, new passwords8+, Login password not newly restricted.",
+    "AC03": "Purpose-specific OTP, inline known-field errors, pre-primary form errors, pending/retry/success and acknowledgement references cover the scoped flow at specification level.",
+    "AC04": "Interaction draft and viewport/accessibility/motion requirements are explicit for owner review; no claim of functional verification.",
+    "AC05": "Sources, current/pattern/history boundaries and exclusions are documented and checkable; final visual/G4 and backend/runtime remain separate."
+  },
+  "whole_G2_approved": true,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_changed": false,
+  "state_library_count_unchanged": 54,
+  "UXD_002_changed": false,
+  "commit_push_or_deploy_authorized": false,
+  "verification": {
+    "native_inventory_check": {
+      "references_exist_and_visible": 57,
+      "rejected_r29_hidden": true
+    },
+    "full_size_exports_inspected": true,
+    "old_source_hashes": "Verified all 26 acceptance sources and 100 source PNGs; separately preserved 172 earlier Auth PNGs and 5 r39 PNGs.",
+    "geometry_probe": "Reported systematic +50px vertical offsets and clipping that disagree with complete screenshots/exports; not used as a clean-layout claim.",
+    "execute_warnings": [],
+    "document_checks": {
+      "validate_handoff": "PASS: 110 records / 14 tasks; structure only",
+      "validate_registry": "PASS: 110 records / 11 sections",
+      "git_diff_check": "exit0; existing LF/CRLF warnings",
+      "new_Markdown_links": "all targets exist",
+      "snapshot_and_inventory_hashes": "match"
+    }
+  },
+  "next_review_question": "รับ G2-r40 รวมโครง สถานะ และกติกาการใช้งานที่เสนอนี้ไหมครับ? 1. รับ G2-r40 ทั้งชุดพร้อมกติกา 2. ตรวจ flow อีกครั้ง 3. ปรับกติกาการใช้งานก่อน",
+  "owner_acceptance": "owner-G2-r40-acceptance.json",
+  "latest_owner_scope_correction": "../home-auth-wireframe-only-stop-decision.json",
+  "current_checkpoint": "G2-r40 accepted; stop at wireframe today; no active UI review"
+}

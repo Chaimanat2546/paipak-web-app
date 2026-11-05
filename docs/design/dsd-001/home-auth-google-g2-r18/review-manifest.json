@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Google G2-r18 / shared form feedback location",
+  "status": "owner_accepted_Google_Login_failure_r18_cancellation_r17_accepted_separately_whole_G2_pending",
+  "owner_revision_request": "owner-error-position-request.json",
+  "previous_draft": "../home-auth-google-g2-r17/review-manifest.json",
+  "paired_cancellation_proposal": "../home-auth-google-g2-r17/EjvEz.png",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "HPFZT",
+  "native_failed": "sbCLw",
+  "native_cancelled_reference": "EjvEz",
+  "images": [
+    {
+      "native_id": "HPFZT",
+      "image": "HPFZT.png",
+      "sha256": "cb0fb0753f2535a401f34d5b1636adf2acd52742a92edf99076fcfb945c18539"
+    },
+    {
+      "native_id": "sbCLw",
+      "image": "sbCLw.png",
+      "sha256": "5b97f18ced156a10e9e8cce4b803d1070264302ad157a3e3ef5c64aa044340b3"
+    }
+  ],
+  "change": "Move Google feedback from provider-control region to below identifier field group and above Continue, following selected C placement pattern.",
+  "unchanged": "Google-specific message, explicit retry, other channels, cancellation proposal, retention/continuity/privacy rules from r17",
+  "identifier_marked_invalid": false,
+  "verification": {
+    "screenshot_inspected": "sbCLw",
+    "native_child_order_verified": [
+      "Login title and close",
+      "Email or phone identifier field group",
+      "Google failure shared form feedback region",
+      "Login primary submit",
+      "Explicit password Login entry",
+      "Email alternative separator",
+      "Retry with Google control",
+      "Account registration footer"
+    ],
+    "observation": "Feedback is below identifier and before main action; retained email and other controls fit, no visible clipping.",
+    "execute_warnings": []
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "state_library_count_unchanged": 54,
+  "main_Home_changed_by_this_revision": false,
+  "UXD_002_changed": false,
+  "owner_Google_error_acceptance": "owner-Google-error-acceptance.json",
+  "separate_cancellation_acceptance": "../home-auth-google-g2-r17/owner-Google-cancellation-acceptance.json"
+}

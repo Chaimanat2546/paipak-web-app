@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Recovery G2-r1 / Reset form only",
+  "owner_quote": "1",
+  "question": "โครงนี้โอเคไหมครับ? 1. รับฟอร์มนี้ — ดูหน้าสำเร็จต่อ 2. ปรับฟอร์มนี้ — แก้ก่อน 3. ดูกรณีรหัสผ่านไม่ตรงกันก่อน — ตรวจข้อความผิดพลาด",
+  "status": "owner_accepted_Reset_form_structure_only",
+  "native_modal": "ZsOMo",
+  "image": "ZsOMo.png",
+  "image_sha256": "9fa09608b97b0dfb17c2eb37793e7db78779bba72344dfd0f9ed1f1ff5111986",
+  "scope": "New password and required matching confirmation, minimum8 copy, show/hide controls, save and close in low-fi",
+  "success_or_Login_return_approved": false,
+  "error_and_other_states_approved": false,
+  "whole_G2_or_High_Fi_approved": false,
+  "runtime_verified": false,
+  "backend_authorized": false,
+  "frontend_authorized": false
+}

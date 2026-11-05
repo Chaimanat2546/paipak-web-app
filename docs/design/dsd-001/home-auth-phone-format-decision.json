@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "2",
+  "question": "ช่องเบอร์โทรต้องการรองรับแบบไหนครับ? 1. เบอร์ไทยก่อน (แนะนำ) — ช่องกรอกเรียบง่าย ไม่มีตัวเลือกประเทศ 2. ไทยและต่างประเทศ พร้อมเลือกรหัสประเทศ — ผู้ใช้ไม่ต้องจำรหัสประเทศเอง 3. ไทยและต่างประเทศ กรอก +รหัสประเทศ เอง — ไม่มีตัวเลือกประเทศแยก เบอร์โทรยังใช้ Login ด้วยรหัสผ่านตามเดิม",
+  "status": "owner_selected_Thai_and_international_phone_with_country_dial_code_selector",
+  "discussion": "home-auth-phone-format-discussion.md",
+  "accepted_scope": {
+    "coverage": "Design for Thai and international phone entries.",
+    "entry": "Country/dial-code selector in local Register phone field.",
+    "retained_methods": "Phone/password, email OTP primary with explicit password alternative, Google unchanged; no SMS/phone OTP.",
+    "Login_identifier": "Retain one email-or-phone Login field. Reconcile international phone entry presentation without showing a country picker for email input.",
+    "required": "Phone remains required for local email signup; no new Google completion gate."
+  },
+  "not_selected": [
+    "Exact supported country list/provider support",
+    "Default country or geolocation inference",
+    "Phone normalization/validation and account matching/uniqueness",
+    "Phone verification or SMS",
+    "New country-picker/Login visuals and whole G2"
+  ],
+  "new_visuals_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

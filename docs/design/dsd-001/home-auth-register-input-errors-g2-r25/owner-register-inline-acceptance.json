@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "สองกรณีนี้ใช้ตามภาพได้ไหมครับ? 1. ใช้ทั้งคู่ — ข้อความชี้ช่องที่ต้องแก้ชัดแล้ว 2. ปรับฝั่งซ้าย — กรณีข้อมูลไม่ครบ 3. ปรับฝั่งขวา — กรณีรหัสผ่านผิด",
+  "status": "owner_accepted_both_displayed_inline_only_register_validation_examples",
+  "version": "Home Auth Register Input Errors G2-r25",
+  "reviewed_image": "lFRIn.png",
+  "reviewed_image_sha256": "b8ee7d4a1464c066dc9a0f279a3b218e51a5562c753cf7441e7c2484addb6349",
+  "native_comparison": "lFRIn",
+  "native_required": "RBIcZ",
+  "native_password": "NmXhR",
+  "accepted_scope": {
+    "required_example": "Username and phone empty; specific required message under each input; other values retained.",
+    "password_example": "New password below minimum8 and confirmation mismatch; specific message under each affected input.",
+    "placement": "Field validation only under the affected input; remove duplicate pre-submit field-error summary from r21 presentation.",
+    "retained_rules": "Keep accepted r21 requirements, minimum8/matching new passwords, duplicate-allowed Username and independent Google alternative.",
+    "form_level_errors": "No change to error location for provider/service/connection errors without an identified invalid field."
+  },
+  "new_username_phone_or_provider_rules_approved": false,
+  "register_submitting_r23_approved": false,
+  "connection_error_r24_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "state_library_rollout_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

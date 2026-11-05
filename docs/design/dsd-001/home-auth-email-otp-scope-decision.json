@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "2",
+  "question": "ให้ OTP ครอบคลุมช่องทางไหนก่อนครับ? 1. ตามข้อมูลที่กรอก — อีเมลรับทางอีเมล เบอร์โทรรับทาง SMS 2. OTP เฉพาะอีเมลก่อน — เบอร์โทรยังใช้รหัสผ่าน 3. OTP เฉพาะเบอร์โทรก่อน — อีเมลยังใช้รหัสผ่าน",
+  "status": "owner_selected_email_OTP_only_phone_password_retained",
+  "email_Login_default": "email_OTP",
+  "email_Login_alternative": "password only on explicit password-login selection",
+  "phone_Login": "phone_plus_password",
+  "Google_retained": true,
+  "SMS_or_phone_OTP_selected": false,
+  "OTP_digit_count_expiry_resend_limits": "not_defined",
+  "email_registration_password_requirement": "pending_reconciliation; current accepted Register password rules are not silently removed by a Login channel choice",
+  "phone_password_for_accounts_without_password": "needs specification; do not invent automatic password creation",
+  "forgot_reset_email_link": "retained for password branch unless owner changes",
+  "Google_profile_completion_policy_unchanged": true,
+  "new_OTP_visual_or_G2_approved": false,
+  "actual_mail_OTP_provider_or_backend_authorized": false,
+  "frontend_authorized": false,
+  "UID_005_started": false
+}

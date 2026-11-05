@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "เบอร์ที่ผู้ใช้กรอกหรือคัดลอกมา ควรรับรูปแบบไหนครับ? 1. รับทั้งเบอร์ปกติและ +รหัสประเทศ (แนะนำ) — รวมเว้นวรรค/ขีด แล้วจัดรูปแบบให้ 2. รับเบอร์ปกติตามประเทศที่เลือก — เว้นวรรค/ขีดได้ แต่ไม่ใส่ +รหัสประเทศ ซ้ำ 3. รับเฉพาะตัวเลข — ไม่รับเว้นวรรค ขีด หรือ + ตัวอย่าง1รับ081…และ+66…",
+  "status": "owner_selected_flexible_national_and_international_phone_input",
+  "discussion": "home-auth-phone-input-discussion.md",
+  "accepted_scope": {
+    "fields": "Register phone and phone-state of shared Login; email input semantics unchanged.",
+    "formats": "Accept national/local form and explicit +country-code form, including formatting spaces and hyphens; format code/number without requiring users to manually remove formatting.",
+    "retained": "Country selector, current country naming, phone/password and noSMS remain unchanged; formatting alone sends no Auth/OTP request.",
+    "safety_boundary": "Do not silently lose/truncate digits or choose the wrong country. Explicit prefix parsing and ambiguous shared calling codes need a valid country context/confirmed selection rather than guessing.",
+    "not_guaranteed": "Permitted input style is not confirmation of valid ownership, account existence or a valid number for every country."
+  },
+  "country_inventory_or_number_lengths_selected": false,
+  "actual_normalization_library_or_provider_selected": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

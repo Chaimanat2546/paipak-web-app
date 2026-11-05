@@ -1,0 +1,63 @@
+# Home Auth Desktop: interaction contract สำหรับตรวจ G2 รวม
+
+DSD-001/C2 · draft-1 · 5 พฤศจิกายน 2026 · ร่างสำหรับตรวจรวม ยังไม่รับG2หรือพฤติกรรมที่เสนอเพิ่ม
+
+เอกสารนี้รวมข้อกำหนดใน [G0 plan-1](home-auth-g0-brief.md) เข้ากับคำตัดสินที่รับรายส่วน แยกสิ่งที่เจ้าของรับแล้วออกจากข้อเสนอkeyboard/focus การมีร่างนี้หรือการรับภาพRegister-r39ไม่ถือว่ารับรายละเอียดใหม่ ต้องผูกกับรุ่นG2รวมที่เจ้าของตรวจภายหลัง
+
+## ข้อสรุปที่รับแล้วและต้องรักษา
+
+| เรื่อง | สัญญา | หลักฐาน |
+|---|---|---|
+| ปิดAuth | กดพื้นที่มืดนอกmodalปิดได้แม้กรอกข้อมูลแล้ว ไม่เพิ่มpopupถามซ้ำ | [dismissal](home-auth-modal-dismissal-decision.json) |
+| เปิดใหม่ | ล้างapp-managed Auth draftsทั้งหมดเมื่อปิด เปิดใหม่ช่องว่าง ไม่ล้างHome search/scroll/rail/photoจากกฎนี้ | [draft decision](home-auth-reopen-draft-decision.json) |
+| ผลคำขอ | ปิดUIไม่ยกเลิกบัญชี/sign out/ย้อนคำขอserver/ทำลายcodeหรือลิงก์ที่ส่งแล้ว | [draft decision](home-auth-reopen-draft-decision.json) |
+| เส้นทางAuth | Email OTPเป็นหลัก, email/passwordเมื่อเลือกเอง, phone/password, Google; Usernameเป็นชื่อแสดงซ้ำได้ ไม่ใช้Login ไม่มีSMS | [Login-r30](home-auth-login-flow-g2-r30/owner-Login-structure-acceptance.json), [country-r34](home-auth-login-country-g2-r34/owner-Login-country-acceptance.json) |
+| Country | ไทยใช้ไทย ประเทศอื่นEnglish เลือกประเทศพร้อมหมายเลขในphone path; email entryไม่มีcountry picker | [labels-r33](home-auth-register-country-labels-g2-r33/owner-country-labels-acceptance.json), [Login-r34](home-auth-login-country-g2-r34/owner-Login-country-acceptance.json) |
+| Phone entry | รับเบอร์ปกติและ+country codeพร้อมช่องว่าง/ขีด ไม่ตัดเลขหรือเดาประเทศเมื่อกำกวม | [input decision](home-auth-phone-input-decision.json) |
+| Local signup | Username/phone/email/password/confirmationบังคับ; UsernameEnglish/digits3–20; new passwordขั้นต่ำ8และconfirmationตรงกัน | [Username-r31](home-auth-register-username-g2-r31/owner-Username-states-acceptance.json), [password](home-auth-password-minimum-decision.json) |
+| Google | ยกเลิกกลับเงียบพร้อมdraftที่ยังactive, provider errorระดับฟอร์ม ไม่มีsite email verificationเพิ่มหรือProfile gate | [Login-r17](home-auth-google-g2-r17/owner-Google-cancellation-acceptance.json), [Register-r35](home-auth-register-google-g2-r35/owner-Register-Google-return-acceptance.json), [no-extra-verification](home-auth-google-no-extra-email-verification.json) |
+| Local verification | สมัครlocalเข้าใช้ก่อนได้และปิดชวนยืนยันได้ ใช้email OTP6กับอีเมลบัญชีปัจจุบัน; Googleไม่เข้าขั้นนี้ | [r19](home-auth-email-verification-g2-r19/owner-reminder-acceptance.json), [r20](home-auth-email-verification-otp-g2-r20/owner-verification-screens-acceptance.json), [r36](home-auth-email-verification-states-g2-r36/owner-verification-states-acceptance.json) |
+| Recovery | ลิงก์อีเมลและgeneric ack, ไม่มีChange email, resetสำเร็จกดเปิดLoginเอง ไม่auto-login; expired/unusable linkแยก | [ack-r2](home-auth-recovery-g2-r2/owner-acknowledgement-acceptance.json), [Recovery-r38](home-auth-recovery-request-g2-r38/owner-Recovery-request-states-acceptance.json) |
+| Errors | ทราบช่องผิดให้ข้อความใต้ช่อง ไม่มีsummaryซ้ำ; credential pair/provider/known connectionที่ชี้ช่องไม่ได้ให้feedbackระดับฟอร์มก่อนprimary | [inline-r25](home-auth-register-input-errors-g2-r25/owner-register-inline-acceptance.json), [audit-r26](home-auth-error-audit-r26/owner-error-audit-acceptance.json) |
+| Favorite return | หลังAuthสำเร็จต่อsave intentที่ยังactiveโดยไม่กดซ้ำ บ้านที่savedอยู่แล้วไม่toggleออก; Authสำเร็จไม่เท่ากับsaveสำเร็จ | [decision](home-auth-favorite-return-decision.json), [r28](home-auth-favorite-return-g2-r28/owner-favorite-return-states-acceptance.json) |
+| Favorite UIที่ตัด | ไม่คืนข้อความfailure/unknown-result/check/retryของr29เข้าแบบปัจจุบัน | [rejection](home-auth-favorite-result-g2-r29/owner-not-needed-rejection.json) |
+
+## OTP input: ข้อสรุปที่รับแล้ว
+
+- แยก6ช่อง เลื่อนช่องอัตโนมัติ ตรวจทันทีเมื่อครบ6 ไม่มีปุ่มยืนยันเพิ่ม
+- รหัสผิดล้างและกลับช่องแรก; หมดอายุแยกขอใหม่; ตรวจระบบไม่ได้คงเลขและให้ลองเองตามstateที่รับ ไม่ตัดสินว่ารหัสผิด
+- นับรอในปุ่มส่งอีกครั้งอย่างเดียว ครบเวลาไม่ส่งเอง `00:45`เป็นfixture ไม่ใช่ระยะเวลาที่เลือก
+- วางเลข6หลักจากช่องใดก็แทนทั้งชุดและรักษาเลข0นำหน้า; ข้อความวางที่มีรหัสเดียวชัดเจนใช้รหัสนั้น วางใช้ไม่ได้ไม่ใส่และคงเลขเดิม ไม่เพิ่มwarning/selector/focus workflow
+- Backspaceช่องว่างถอยและลบตัวก่อนหน้า; ช่องที่มีเลขลบช่องนั้นแล้วถอย แต่เลขพิมพ์ถัดไปเติมช่องที่เพิ่งลบ
+
+อ้าง [input discussionและdecision links](home-auth-otp-input-discussion.md), [auto verification](home-auth-otp-auto-verification-decision.json), [quiet paste](home-auth-otp-quiet-paste-clarification.json) และหลักฐานr6–r16ตามspecหลัก ไม่ใช้เอกสารนี้แก้พฤติกรรมเหล่านั้น
+
+## ข้อเสนอสำหรับรับพร้อม G2 รวม
+
+ข้อด้านล่างเป็นข้อเสนอที่เตรียมไว้ ไม่ใช่คำตอบใหม่ของเจ้าของ
+
+| เรื่อง | ข้อเสนอและสิ่งที่ต้องตรวจจริงภายหลัง |
+|---|---|
+| Focus scope | มีAuth modalที่ใช้งานหนึ่งชุด ย้ายfocusเข้าช่องแรกที่ใช้ได้; OTPเข้าช่องแรกตามstate ปิดbackgroundจากการกด/Tabระหว่างเปิด modal |
+| Tab/Shift+Tab | วนภายในmodalตามลำดับภาพ ข้ามcontrolที่inactive เปิดcountry pickerให้focusอยู่ในpickerตามหน้าที่แล้วคืนtriggerเมื่อปิด ไม่สร้างfocusableสำเนาช่องเลข |
+| Escape | ปิดcountry popoverก่อนเมื่อเปิดอยู่ กดEscapeเมื่อเหลือAuthmodalจึงปิดAuthตามclear-all/origin contract; ปุ่มXใช้ผลเดียวกัน |
+| Pointerนอกpicker | กดภายในAuthแต่นอกcountry pickerปิดเฉพาะpicker กดพื้นที่มืดนอกAuthปิดAuthตามคำตัดสินเดิม |
+| Enter | ในformเรียกprimaryตามขั้นเมื่อพร้อม; ในcountry searchเลือกตัวเลือกที่highlightedโดยไม่ส่งRegister; OTPครบ6ใช้auto-checkเดิม ไม่สร้างsubmitซ้ำ |
+| Back/สลับวิธี | ภายในAuthที่ยังเปิดรักษาข้อมูลที่เกี่ยวข้องตามflowที่รับ ไม่ล้างHome เมื่อdismissใช้clear-allเดิม Googlecancelรักษาidentifierและไม่ขอOTPเอง |
+| Return focus | เมื่อปิดกลับtriggerเดิมถ้ายังอยู่ เช่นHeader Loginหรือหัวใจ ถ้าtriggerหายให้จุดควบคุมที่เกี่ยวข้องใกล้ที่สุดที่ยังใช้ได้ การสำเร็จ/เปลี่ยนหน้ารับfocusตามปลายทาง ไม่ดึงกลับHomeซ้ำ |
+| Pending | พักการส่งซ้ำ/ช่องที่เปลี่ยนผลคำขอและmethod switchingตามภาพaccepted Closeใช้ได้ การretryต้องเหมาะกับผลคำขอจริง ไม่ถือnetwork errorว่าปลอดภัยให้ส่งซ้ำเสมอ |
+| Show/hide password | สลับการมองเห็นอย่างเดียว ไม่ล้างค่า; labelและaccessible nameบอกผลปัจจุบัน ไม่เพิ่มpolicyการพิมพ์/วางหรือmaximumเอง |
+| Feedback | ผูกerrorกับinput, อ่านstatus/error/successให้assistive technologyโดยไม่ประกาศซ้ำทุกkeypress Form-level errorไม่ทำช่องที่ไม่ทราบสาเหตุเป็นinvalid |
+| Viewport/scroll | Modalยาวเลื่อนอ่านและเข้าถึงปุ่มสุดท้าย/ปิดได้ในDesktopที่สูงน้อยกว่าfixture โดยไม่ให้Homeด้านหลังเลื่อนแทน ต้องตรวจfocusไม่หลุดหรือถูกบังในต้นแบบจริง |
+| Heroระหว่างAuth | พักHeroอัตโนมัติขณะAuthเปิด เมื่อปิดและไม่มีเหตุพักอื่นเสนอเริ่มนับ7วินาทีใหม่หลังภาพพร้อม; ถ้าผู้ใช้กดพักเองยังพักต่อ ไม่ยกเลิกเหตุพักอื่นหรือเปลี่ยนภาพทันที |
+| Reduced motion | รักษาข้อมูล/การเลือก/สถานะทั้งหมด ลดการเคลื่อนไหวตกแต่งและแสดงbusyอย่างอ่านรู้เรื่อง ไม่กำหนดระยะเวลาanimationใหม่จากภาพนิ่ง; รูปแบบfocusจริงรอG3 |
+
+Heroพื้นฐานที่รับแล้วคือค้าง7วินาที เลื่อน800msด้วย`cubic-bezier(.4,0,.2,1)` และเริ่มนับใหม่หลังเลื่อนเอง/ออกจากhover/ปิดSearch โดยmanual pauseมีผลต่อ อ้าง [Hero spec](hero-banner-carousel-spec.md) การเพิ่มAuth pause/resumeข้างบนเป็นข้อเสนอในขอบเขตG0นี้ ไม่แก้policybackground tab/keyboardของHeroทั้งระบบโดยอัตโนมัติ
+
+## สถานะและขอบเขตการตรวจ
+
+รอผูกcurrent frame/state inventoryและversionที่เสนอรับG2รวม พร้อมให้เจ้าของตรวจข้อเสนอด้านบน ไม่มีการทดสอบTab/Escape/IME/screen reader/scroll/motionจริงในภาพPencil จึงยังไม่ลงผลpassด้านaccessibility/runtime
+
+ประเทศที่รองรับจริง/normalization/credential matching/provider/session/OTP expiry/cooldown/quotaและdeliveryคงแยกเป็นงานสัญญาระบบ ข้อเสนอkeyboardไม่เลือกค่าเหล่านี้ Favorite toastตำแหน่งเต็มหน้า/ระยะเวลาและG3 visualยังต้องตรวจ ไม่ใช้r28cropped sampleรับแทน
+
+G2รวมยังไม่รับ High-Fiยังไม่เริ่ม OPEN-001ยังเปิด Mobileพัก ไม่มีFrontend/backend/SDK/deploy/commit/pushหรือTaskใหม่

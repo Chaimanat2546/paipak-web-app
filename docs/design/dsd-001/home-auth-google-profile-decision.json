@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "decision": "A1.4 missing username/phone on Google signup",
+  "owner_quote": "3",
+  "question": "ถ้าสมัครผ่าน Google แล้วยังไม่มี Username หรือเบอร์โทร ให้ทำอย่างไรครับ? 1. เติมข้อมูลที่ขาดก่อนสมัครเสร็จ 2. เสนอให้เติม แต่ข้ามได้ 3. ให้เติมในบัญชีภายหลัง",
+  "status": "owner_deferred_missing_Google_profile_fields_to_account_later",
+  "google_signup_profile_completion_interstitial": false,
+  "google_signup_requires_username_or_phone_before_completion": false,
+  "missing_fields": [
+    "username",
+    "phone"
+  ],
+  "completion_destination": "Account later; Account/Profile UI remains outside this supplement",
+  "email_password_registration_required_fields_changed": false,
+  "email_registration_rule": "username/phone/email/password and confirmation remain required",
+  "google_user_must_create_local_password": false,
+  "local_password_requirement_note": "Not introduced by this choice; do not add email-password signup form to the Google flow",
+  "auto_generate_or_assign_username_approved": false,
+  "missing_profile_display_fallback": "pending_design_decision; do not invent filled personal data",
+  "username_uniqueness_or_format": "pending_owner_decision",
+  "real_provider_auth_verified": false,
+  "Profile_task_started": false,
+  "visual_approval": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

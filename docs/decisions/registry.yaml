@@ -17,6 +17,18 @@ brand_name_confirmation:
 registry_status: owner_adopted_planning_direction_pending_source_and_visual_verification
 note: All 110 records are adopted as the current planning direction. This does not certify historical source
   provenance, approve final visual artifacts, resolve open decisions or complete implementation tasks.
+owner_actual_assets_and_bank_content:
+  confirmed_on: '2026-11-05'
+  timezone: Asia/Bangkok
+  instruction: ก็ของจริงก็คือสรุปเอาไปใส่ในสเปคและทำใน ui ด้วย
+  evidence: docs/design/dsd-001/owner-assets-r1/owner-content-confirmation.json
+  specification: docs/design/dsd-001/owner-assets-r1/brand-and-transfer-spec.md
+  visual_review: docs/design/dsd-001/owner-assets-r1/review-manifest.json
+  content_status: owner_confirmed_real_logos_bank_account_and_image_terms
+  visual_status: Header_Desktop_r1_4_accepted_only_Footer_transfer_module_pending
+  Header_acceptance: docs/design/dsd-001/owner-assets-r1/owner-header-r1-4-acceptance.json
+  source_images_preserved: true
+  Auth_or_backend_or_frontend_changed: false
 owner_adoption:
   date: '2026-11-02'
   timezone: Asia/Bangkok
@@ -93,6 +105,143 @@ task_clarifications:
   - id: Q-05
     status: owner_confirmed
     summary: One total guest count without adult/child separation, plus pets separately; domain limits and incomplete member-contact details remain for later relevant tasks.
+owner_home_auth_scope_supplement:
+  approved_on: '2026-11-05'
+  timezone: Asia/Bangkok
+  task: DSD-001
+  gate: G0
+  plan_version: Home Auth Desktop plan-1
+  evidence: docs/design/dsd-001/home-auth-g0-approval.json
+  current_form_spec: docs/design/dsd-001/home-auth-desktop-spec.md
+  email_OTP_scope_decision: docs/design/dsd-001/home-auth-email-otp-scope-decision.json
+  latest_OTP_primary_amendment: docs/design/dsd-001/home-auth-otp-primary-amendment.json
+  OTP_delivery_discussion: docs/design/dsd-001/home-auth-otp-primary-discussion.md
+  login_two_step_decision: docs/design/dsd-001/home-auth-two-step-login-decision.json
+  signup_password_retained_decision: docs/design/dsd-001/home-auth-signup-password-retained-decision.json
+  OTP_six_digit_decision: docs/design/dsd-001/home-auth-otp-six-digit-decision.json
+  OTP_slot_layout_acceptance: docs/design/dsd-001/home-auth-login-g2-r6/owner-otp-layout-acceptance.json
+  OTP_auto_verification_decision: docs/design/dsd-001/home-auth-otp-auto-verification-decision.json
+  OTP_checking_state_acceptance: docs/design/dsd-001/home-auth-otp-auto-g2-r7/owner-checking-state-acceptance.json
+  OTP_invalid_code_acceptance: docs/design/dsd-001/home-auth-otp-invalid-g2-r8/owner-invalid-code-acceptance.json
+  OTP_expired_code_acceptance: docs/design/dsd-001/home-auth-otp-expired-g2-r9/owner-expired-code-acceptance.json
+  OTP_resend_states_acceptance: docs/design/dsd-001/home-auth-otp-resend-g2-r10/owner-resend-states-acceptance.json
+  OTP_resend_failure_acceptance: docs/design/dsd-001/home-auth-otp-resend-failure-g2-r11/owner-resend-failure-acceptance.json
+  OTP_button_countdown_decision: docs/design/dsd-001/home-auth-otp-button-countdown-decision.json
+  OTP_countdown_only_revision: docs/design/dsd-001/home-auth-otp-countdown-only-g2-r14/owner-revision-request.json
+  OTP_countdown_only_acceptance: docs/design/dsd-001/home-auth-otp-countdown-only-g2-r14/owner-countdown-only-acceptance.json
+  OTP_verification_failure_acceptance: docs/design/dsd-001/home-auth-otp-verify-failure-g2-r15/owner-verification-failure-acceptance.json
+  OTP_paste_decision: docs/design/dsd-001/home-auth-otp-paste-decision.json
+  OTP_text_extraction_decision: docs/design/dsd-001/home-auth-otp-text-extraction-decision.json
+  OTP_quiet_paste_clarification: docs/design/dsd-001/home-auth-otp-quiet-paste-clarification.json
+  OTP_empty_slot_backspace_decision: docs/design/dsd-001/home-auth-otp-empty-backspace-decision.json
+  OTP_filled_slot_backspace_decision: docs/design/dsd-001/home-auth-otp-filled-backspace-decision.json
+  OTP_input_sequence_review: docs/design/dsd-001/home-auth-otp-backspace-g2-r16/review-manifest.json
+  OTP_backspace_sequence_acceptance: docs/design/dsd-001/home-auth-otp-backspace-g2-r16/owner-backspace-sequence-acceptance.json
+  OTP_input_discussion: docs/design/dsd-001/home-auth-otp-input-discussion.md
+  Google_error_position_request: docs/design/dsd-001/home-auth-google-g2-r18/owner-error-position-request.json
+  current_Google_wireframe_review: docs/design/dsd-001/home-auth-google-g2-r18/review-manifest.json
+  Google_error_r18_acceptance: docs/design/dsd-001/home-auth-google-g2-r18/owner-Google-error-acceptance.json
+  current_email_verification_reminder_review: docs/design/dsd-001/home-auth-email-verification-g2-r19/review-manifest.json
+  email_verification_reminder_acceptance: docs/design/dsd-001/home-auth-email-verification-g2-r19/owner-reminder-acceptance.json
+  email_verification_method_discussion: docs/design/dsd-001/home-auth-email-verification-method-discussion.md
+  email_verification_OTP_decision: docs/design/dsd-001/home-auth-email-verification-otp-decision.json
+  current_email_verification_OTP_review: docs/design/dsd-001/home-auth-email-verification-otp-g2-r20/review-manifest.json
+  email_verification_OTP_screens_acceptance: docs/design/dsd-001/home-auth-email-verification-otp-g2-r20/owner-verification-screens-acceptance.json
+  register_input_error_placement_amendment: docs/design/dsd-001/home-auth-register-input-errors-g2-r25/owner-input-placement-clarification.json
+  current_register_validation_review: docs/design/dsd-001/home-auth-register-input-errors-g2-r25/review-manifest.json
+  register_inline_validation_acceptance: docs/design/dsd-001/home-auth-register-input-errors-g2-r25/owner-register-inline-acceptance.json
+  Auth_retrospective_error_review_request: docs/design/dsd-001/home-auth-error-audit-r26/owner-review-request.json
+  current_Auth_error_audit_review: docs/design/dsd-001/home-auth-error-audit-r26/review-manifest.json
+  Auth_error_audit_acceptance: docs/design/dsd-001/home-auth-error-audit-r26/owner-error-audit-acceptance.json
+  register_validation_acceptance: docs/design/dsd-001/home-auth-register-validation-g2-r21/owner-register-validation-acceptance.json
+  current_register_request_review: docs/design/dsd-001/home-auth-register-request-review-r27/review-manifest.json
+  register_request_states_acceptance: docs/design/dsd-001/home-auth-register-request-review-r27/owner-request-states-acceptance.json
+  Google_Login_cancellation_acceptance: docs/design/dsd-001/home-auth-google-g2-r17/owner-Google-cancellation-acceptance.json
+  Home_heart_Auth_return_discussion: docs/design/dsd-001/home-auth-favorite-return-discussion.md
+  Home_heart_Auth_continuation_decision: docs/design/dsd-001/home-auth-favorite-return-decision.json
+  current_Home_heart_Auth_return_review: docs/design/dsd-001/home-auth-favorite-return-g2-r28/review-manifest.json
+  Home_heart_unneeded_error_UI_rejection: docs/design/dsd-001/home-auth-favorite-result-g2-r29/owner-not-needed-rejection.json
+  Home_heart_Auth_return_states_acceptance: docs/design/dsd-001/home-auth-favorite-return-g2-r28/owner-favorite-return-states-acceptance.json
+  register_specific_cause_clarification: docs/design/dsd-001/home-auth-register-reasons-g2-r24/owner-cause-clarification.json
+  current_register_failure_review: docs/design/dsd-001/home-auth-register-reasons-g2-r24/review-manifest.json
+  signup_flow_review_request: docs/design/dsd-001/home-auth-signup-flow-g2-r22/owner-flow-review-request.json
+  current_signup_flow_review: docs/design/dsd-001/home-auth-signup-flow-g2-r22/review-manifest.json
+  signup_flow_acceptance: docs/design/dsd-001/home-auth-signup-flow-g2-r22/owner-signup-flow-acceptance.json
+  current_Login_wireframe_review: docs/design/dsd-001/home-auth-login-flow-g2-r30/review-manifest.json
+  current_Login_structure_acceptance: docs/design/dsd-001/home-auth-login-flow-g2-r30/owner-Login-structure-acceptance.json
+  Auth_outside_click_discussion: docs/design/dsd-001/home-auth-modal-dismissal-discussion.md
+  Auth_outside_click_decision: docs/design/dsd-001/home-auth-modal-dismissal-decision.json
+  Auth_reopen_draft_discussion: docs/design/dsd-001/home-auth-reopen-draft-discussion.md
+  Auth_reopen_draft_decision: docs/design/dsd-001/home-auth-reopen-draft-decision.json
+  Auth_Username_format_discussion: docs/design/dsd-001/home-auth-username-format-discussion.md
+  Auth_Username_format_decision: docs/design/dsd-001/home-auth-username-format-decision.json
+  Auth_Username_length_discussion: docs/design/dsd-001/home-auth-username-length-discussion.md
+  Auth_Username_length_decision: docs/design/dsd-001/home-auth-username-length-decision.json
+  current_Register_Username_review: docs/design/dsd-001/home-auth-register-username-g2-r31/review-manifest.json
+  Register_Username_states_acceptance: docs/design/dsd-001/home-auth-register-username-g2-r31/owner-Username-states-acceptance.json
+  Auth_phone_format_discussion: docs/design/dsd-001/home-auth-phone-format-discussion.md
+  Auth_phone_format_decision: docs/design/dsd-001/home-auth-phone-format-decision.json
+  current_Register_phone_review: docs/design/dsd-001/home-auth-register-country-labels-g2-r33/review-manifest.json
+  Auth_country_label_language_decision: docs/design/dsd-001/home-auth-country-label-language-decision.json
+  Auth_country_labels_acceptance: docs/design/dsd-001/home-auth-register-country-labels-g2-r33/owner-country-labels-acceptance.json
+  current_shared_Login_country_review: docs/design/dsd-001/home-auth-login-country-g2-r34/review-manifest.json
+  shared_Login_country_acceptance: docs/design/dsd-001/home-auth-login-country-g2-r34/owner-Login-country-acceptance.json
+  current_Register_Google_return_review: docs/design/dsd-001/home-auth-register-google-g2-r35/review-manifest.json
+  Register_Google_return_acceptance: docs/design/dsd-001/home-auth-register-google-g2-r35/owner-Register-Google-return-acceptance.json
+  current_signup_email_verification_states_review: docs/design/dsd-001/home-auth-email-verification-states-g2-r36/review-manifest.json
+  signup_email_verification_states_acceptance: docs/design/dsd-001/home-auth-email-verification-states-g2-r36/owner-verification-states-acceptance.json
+  Home_Auth_G2_readiness: docs/design/dsd-001/home-auth-g2-readiness.md
+  Auth_phone_input_discussion: docs/design/dsd-001/home-auth-phone-input-discussion.md
+  Auth_phone_input_decision: docs/design/dsd-001/home-auth-phone-input-decision.json
+  current_Login_request_states_review: docs/design/dsd-001/home-auth-login-request-g2-r37/review-manifest.json
+  Login_request_states_acceptance: docs/design/dsd-001/home-auth-login-request-g2-r37/owner-Login-request-states-acceptance.json
+  current_Recovery_request_states_review: docs/design/dsd-001/home-auth-recovery-request-g2-r38/review-manifest.json
+  Recovery_request_states_acceptance: docs/design/dsd-001/home-auth-recovery-request-g2-r38/owner-Recovery-request-states-acceptance.json
+  current_Register_states_review: docs/design/dsd-001/home-auth-register-current-g2-r39/review-manifest.json
+  Register_current_states_acceptance: docs/design/dsd-001/home-auth-register-current-g2-r39/owner-Register-current-states-acceptance.json
+  consolidated_Auth_G2_review: docs/design/dsd-001/home-auth-consolidated-g2-r40/review-manifest.json
+  consolidated_Auth_G2_acceptance: docs/design/dsd-001/home-auth-consolidated-g2-r40/owner-G2-r40-acceptance.json
+  set_aside_unapproved_Auth_G3_Login_draft: docs/design/dsd-001/home-auth-login-g3-r1/review-manifest.json
+  Auth_wireframe_only_owner_correction: docs/design/dsd-001/home-auth-wireframe-only-stop-decision.json
+  Auth_interaction_contract_draft: docs/design/dsd-001/home-auth-interaction-contract.md
+  phone_password_login_amendment: docs/design/dsd-001/home-auth-phone-login-amendment.json
+  email_verification_decision: docs/design/dsd-001/home-auth-email-verification-decision.json
+  Google_no_extra_email_verification: docs/design/dsd-001/home-auth-google-no-extra-email-verification.json
+  google_profile_completion_decision: docs/design/dsd-001/home-auth-google-profile-decision.json
+  latest_registration_field_amendment: docs/design/dsd-001/home-auth-username-amendment.json
+  scope: Home Desktop modal from Header or Guest heart; login/register/forgot-reset; latest owner selected email OTP primary, phone/password retained, email/password explicitly selectable and Google retained; Email registration retains mandatory password/confirmation with minimum8; Six-slot OTP layout, auto advance/verify, checking/invalid/expired states accepted within recorded scope; resend-r10 accepted for pending/ready visuals and proposed transitions; resend-failure-r11 accepted for the scoped explicit retry case; owner requested button countdown instead of r12; owner selected removing separate wait notice; countdown-only-r14 visual accepted without actual timing/provider values; verify-failure-r15 accepted with retained code and explicit retry; full six-digit paste from any slot selected; empty-slot Backspace moves back and deletes the preceding digit; filled-slot Backspace clears then moves back while next digit fills the cleared slot; sequence-r16 visual accepted; owner selected extracting one unambiguous six-digit code from pasted text. Owner clarified unusable paste is ignored without clearing existing digits or extra warning/selector. Autofill/Delete/navigation details, remaining Login review and whole G2/G3 pending.
+  UID_005_started: false
+  mobile_profile_backend_frontend_authorized: false
+  final_visual_approval: not_granted_by_G0
+owner_search_location_clarification:
+  confirmed_on: '2026-11-05'
+  timezone: Asia/Bangkok
+  source: Explicit owner correction during Search Desktop-r1 last-case review
+  decision_ref: UX-001
+  evidence: docs/design/dsd-001/search-desktop-review-r2/owner-location-correction.json
+  previous_evidence: docs/design/dsd-001/search-location-match-home-r20-r1/owner-location-rule.json
+  summary: Unselected partial or unresolved location text means location unset for Search. Allow submission with other entered criteria; do not send unresolved text as location, pick a suggestion silently or prescribe clearing the Home draft. Earlier recognized exact-name resolution remains outside this last-case correction. Empty and all-empty Search remain allowed.
+  supersedes: Previous requirement to choose a suggestion before submitting unresolved or partial location text
+  empty_visual_acceptance: docs/design/dsd-001/search-location-match-home-r20-r2/owner-empty-visual-acceptance.json
+  unresolved: Supported names, aliases, normalization, ambiguous names, zero suggestions and actual query/ranking contract
+  revised_visual_approval: owner_accepted_Search_Desktop_r2_visual_and_specification
+  consolidated_acceptance: docs/design/dsd-001/search-desktop-review-r2/owner-search-acceptance.json
+  library_rollout: docs/design/dsd-001/search-desktop-review-r2/library-rollout.json
+  unselected_visual_acceptance: docs/design/dsd-001/search-desktop-review-r2/owner-unselected-visual-acceptance.json
+  frontend_authorization: not_granted
+owner_search_date_clarification:
+  confirmed_on: '2026-11-05'
+  timezone: Asia/Bangkok
+  source: Explicit owner instruction during DSD-001 C1.4 review
+  instruction: เอาแค่วันเข้าก็ค้นหาได้
+  decision_ref: UX-001
+  evidence: docs/design/dsd-001/search-checkin-only-home-r20-r1/owner-rule-change.json
+  summary: Search accepts check-in only; checkout is optional for Search. Do not infer checkout/nights. Preserve other criteria. Booking still requires complete valid dates and revalidation.
+  supersedes: Search rejection in UXD-001 E-02 and legacy missing-checkout target references; does not alter booking rules or historical source evidence
+  wireframe_review_5: Preserve pending-review evidence; reconcile only in the selected authorized wireframe task
+  revised_visual_approval: owner_accepted_C1_4_checkin_only_scene_not_full_Search
+  visual_approval_evidence: docs/design/dsd-001/search-checkin-only-home-r20-r1/owner-visual-acceptance.json
+  frontend_authorization: not_granted
 decisions:
 - id: PRIN-001
   title: Trust First

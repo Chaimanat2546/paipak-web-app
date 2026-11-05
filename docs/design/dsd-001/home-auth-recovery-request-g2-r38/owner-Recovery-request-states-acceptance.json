@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "ใช้4สถานะกู้รหัสผ่านตามภาพนี้ได้ไหมครับ? 1. ใช้ทั้ง4 2. ปรับตอนกำลังส่ง 3. ปรับตอนเชื่อมต่อไม่ได้",
+  "status": "owner_accepted_four_displayed_Recovery_request_states",
+  "version": "Home Auth Recovery Request States G2-r38",
+  "reviewed_image": "VYEnh.png",
+  "reviewed_image_sha256": "7fbc802bf36aeab8d985f6802cf428e4c9ef3be228a23696a1003bf7e3298855",
+  "native_modals": [
+    "e90Mg",
+    "wmhoz",
+    "WQbH9",
+    "rhTqa"
+  ],
+  "accepted_scope": [
+    "Forgot request pending and known connection failure.",
+    "Reset submit pending and known connection failure.",
+    "Shown paused controls and available close, retained drafts on known connection failure, form feedback before primary and explicit permitted retry.",
+    "Existing generic acknowledgement, unusable reset-link, new-password rules, success-to-Login and close/clear/origin contracts remain."
+  ],
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "provider_or_timing_policy_selected": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

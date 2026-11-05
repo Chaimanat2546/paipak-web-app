@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Country Label Language G2-r33",
+  "status": "owner_accepted_displayed_country_name_revision_whole_G2_pending",
+  "owner_naming_decision": "../home-auth-country-label-language-decision.json",
+  "source_review": "../home-auth-register-phone-g2-r32/review-manifest.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "U9o7hd",
+  "native_comparison": "JZe1C",
+  "native_Register_form": "l93v3",
+  "native_open_picker": "ZWbVr",
+  "native_foreign_selected": "MOl8x",
+  "country_labels": [
+    {
+      "native_id": "yjgwU",
+      "region": "TH",
+      "label": "ไทย"
+    },
+    {
+      "native_id": "n56LY",
+      "region": "GB",
+      "label": "United Kingdom"
+    }
+  ],
+  "applied_rule": "Thailand country name is ไทย; all other country labels use English. No bilingual duplication or global UI-language/locale change.",
+  "change": "Country-name copy and review annotations only; existing Register form/flags/codes/selection structure and initial TH+66 unchanged. Open-preview surface fill matches its review background for legible standalone export.",
+  "base_selection": "Owner selected r32 option1 with country-label amendment; record that conditional selection, not unqualified acceptance of the old Thai GB label.",
+  "images": [
+    {
+      "native_id": "U9o7hd",
+      "image": "U9o7hd.png",
+      "width": 1136,
+      "height": 1071,
+      "sha256": "2756aa1a40291023d60a7e740118a6ef396740cde74e9fa447625736296fbded"
+    },
+    {
+      "native_id": "JZe1C",
+      "image": "JZe1C.png",
+      "width": 1072,
+      "height": 858,
+      "sha256": "f00735b56380a52bcf8068c0fbfe9acccf07eb832f52eda3c0b239a7e76d984b"
+    },
+    {
+      "native_id": "l93v3",
+      "image": "l93v3.png",
+      "width": 520,
+      "height": 818,
+      "sha256": "487b7521eda03e3843f315cdb9c59cf76da5bd236343d9c5d323a26e0ecd8be3"
+    },
+    {
+      "native_id": "ZWbVr",
+      "image": "ZWbVr.png",
+      "width": 520,
+      "height": 374,
+      "sha256": "c09d4893da6fb6e1f322af4c4a1744560ba48cf05c6eba851e2c40433e9143e3"
+    },
+    {
+      "native_id": "MOl8x",
+      "image": "MOl8x.png",
+      "width": 520,
+      "height": 182,
+      "sha256": "6f5ceccad94b138d0d06f5800e85f484d881e6876e96117441b315420b863557"
+    }
+  ],
+  "verification": {
+    "full_size_comparison_inspected": true,
+    "final_open_picker_screenshot_inspected": true,
+    "country_label_values_verified": true,
+    "r32_PNG_hashes_preserved": 5,
+    "Register_form_export_byte_identical_to_r32": true,
+    "foreign_selected_export_byte_identical_to_r32": true,
+    "execute_warnings": [],
+    "observation": "ไทย and United Kingdom are visible in their rows without clipping; flag/code/control form unchanged. Static design only."
+  },
+  "revised_visual_separately_owner_reviewed": true,
+  "supported_country_inventory_selected": false,
+  "phone_normalization_or_provider_selected": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_changed": false,
+  "state_library_count_unchanged": 54,
+  "UXD_002_changed": false,
+  "remaining": "International phone presentation in the shared email/phone Login control, actual supported country list/number contracts, other remaining Auth review and final version approval remain separate.",
+  "owner_acceptance": "owner-country-labels-acceptance.json"
+}

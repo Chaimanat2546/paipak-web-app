@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Email Verification OTP G2-r20",
+  "status": "owner_accepted_displayed_OTP_success_only_remaining_Auth_G2_pending",
+  "owner_method_evidence": "../home-auth-email-verification-otp-decision.json",
+  "accepted_reminder": "../home-auth-email-verification-g2-r19/owner-reminder-acceptance.json",
+  "Google_exclusion": "../home-auth-google-no-extra-email-verification.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "q0ilP",
+  "native_comparison": "eT8Bq",
+  "native_OTP": "RukQJ",
+  "native_success": "ip2bA",
+  "images": [
+    {
+      "native_id": "q0ilP",
+      "image": "q0ilP.png",
+      "sha256": "987728914784af57024fd4a0187dbf095614f6927f00be5404b806b4e1d35e0c"
+    },
+    {
+      "native_id": "eT8Bq",
+      "image": "eT8Bq.png",
+      "sha256": "9e626a26c2ae98884d89a4a23a1a45774e0b1dba79f29cc454e7bdd1d6ec43a8"
+    },
+    {
+      "native_id": "RukQJ",
+      "image": "RukQJ.png",
+      "sha256": "d18982bccb2d426a24857dbb7c19e05903e52de3c9fa640dde96f2122ed12957"
+    },
+    {
+      "native_id": "ip2bA",
+      "image": "ip2bA.png",
+      "sha256": "f65d59b3234d0b4df84021a2f5035604db2b57c0849e0262d52e34e1ff4bbbea"
+    }
+  ],
+  "proposed_behavior": {
+    "verify_now_request": "initiate verification-purpose code request; open ready-entry state after request acceptance, without delivery guarantee",
+    "OTP": "six separate slots; reuse selected auto advance/complete verification/paste/backspace and status patterns as a proposed consistent adaptation for this purpose",
+    "destination": "current account email fixture, no account-email edit action added",
+    "back": "accepted signup reminder",
+    "use_first_or_close": "return to active Home origin without completing email verification; no new password Login required",
+    "success_trigger": "authoritative verification result for current account and email, not six-digit completion alone",
+    "success_action": "explicit เริ่มใช้งาน or close resumes origin, no forced timer/extra Login",
+    "state_adaptation": "checking/invalid/expiry/resend/failure patterns to be integrated for this purpose; method choice alone does not approve every adapted screen"
+  },
+  "scope_exclusions": [
+    "Google signup/Login",
+    "Profile/Account page authoring",
+    "account email change",
+    "cross-reload intent/OTP recovery",
+    "provider integration or actual email delivery"
+  ],
+  "verification": {
+    "native_screenshot_inspected": "eT8Bq",
+    "native_OTP_child_order_checked": true,
+    "observation": "Six-slot verification-purpose form with no email-edit/password substitute, use-first action and distinct success screen; no visible clipping.",
+    "execute_warnings": []
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "actual_wait_duration_quota_provider": "pending",
+  "state_library_count_unchanged": 54,
+  "main_Home_changed_by_this_revision": false,
+  "UXD_002_changed": false,
+  "owner_verification_screens_acceptance": "owner-verification-screens-acceptance.json"
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "scope": "Search-r2 state library rollout only",
+  "source_copy_schema_equal": true,
+  "source_copy_pairs_verified": 9,
+  "note_blocks_per_reference": 4,
+  "search_rows": 9,
+  "state_reference_count": 54,
+  "note_panel_count": 54,
+  "retired_old_images_preserved": 4,
+  "accepted_checkin_copy_retained": true,
+  "native_screenshots_inspected": [
+    "rerwp",
+    "iPnuS",
+    "YVATa",
+    "pmgpJ"
+  ],
+  "layout_warning_fix": "Four image slots use absolute positioning with x40 and matching scene height; final execute returned no warnings.",
+  "runtime_tested": false,
+  "application_code_changed": false
+}

@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Shared Login Country G2-r34",
+  "status": "owner_accepted_shared_Login_country_phone_presentation_whole_G2_pending",
+  "accepted_country_labels": "../home-auth-register-country-labels-g2-r33/owner-country-labels-acceptance.json",
+  "base_Login_structure_acceptance": "../home-auth-login-flow-g2-r30/owner-Login-structure-acceptance.json",
+  "phone_coverage": "../home-auth-phone-format-decision.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "NHg9c",
+  "native_comparison": "j5Nwm",
+  "items": [
+    {
+      "key": "email_entry_reference",
+      "source": "dFI8d",
+      "modal": "Nlwvr"
+    },
+    {
+      "key": "phone_entry",
+      "source": "dFI8d",
+      "modal": "w5F1PX",
+      "country_trigger": "nCt8c"
+    },
+    {
+      "key": "email_OTP_reference",
+      "source": "bFCHU",
+      "modal": "ASYeh"
+    },
+    {
+      "key": "phone_password",
+      "source": "q6GNt",
+      "modal": "yzbLX"
+    }
+  ],
+  "proposed_behavior": {
+    "shared_identifier": "One email-or-phone text input retained. Show the reused country trigger in the phone-entry presentation; no country trigger in email presentation.",
+    "country_selection": "Reuse accepted country selector/naming: ไทย for TH, English for other country labels. The illustrated +44 is an explicit selected country, not inferred from the national-number fixture.",
+    "phone_continue": "Country+number remain represented at the password step, e.g. synthetic +44 7700 900123. Edit returns to the shared phone input with active country/number draft.",
+    "email": "Email OTP default and explicit email-password alternative retained; no SMS/phone OTP added.",
+    "requests": "Changing country, editing or identifying a draft as phone does not itself request Auth/OTP or claim an account exists.",
+    "classification_boundary": "This review proposes the visible email/phone states. Exact transition timing, input parsing, international paste, normalization and validity need implementation contracts; fixture digits are not a validated number.",
+    "close": "Apply accepted close/clear-all rule; no restoration across dismissed flow/reload/expiry.",
+    "OTP_reference": "Accepted OTP presentation included for branch context; byte-identical to r30 source. 00:45 remains static fixture."
+  },
+  "images": [
+    {
+      "native_id": "NHg9c",
+      "image": "NHg9c.png",
+      "width": 1136,
+      "height": 1362,
+      "sha256": "b9af7b6bb9178dcfd320a5cf5c26ff3640626577b6b1e090f39d4b7a909229d4"
+    },
+    {
+      "native_id": "j5Nwm",
+      "image": "j5Nwm.png",
+      "width": 1072,
+      "height": 1056,
+      "sha256": "169060a3f3f4f3ae671d70b439817311aaaa5600767d55839b2480b967ca9286"
+    },
+    {
+      "native_id": "Nlwvr",
+      "image": "Nlwvr.png",
+      "width": 520,
+      "height": 494,
+      "sha256": "9b96591b84af8be9d19c8b38485a71a42422c7ccabca018b29e51ded71e9b356"
+    },
+    {
+      "native_id": "w5F1PX",
+      "image": "w5F1PX.png",
+      "width": 520,
+      "height": 494,
+      "sha256": "67dc92d3f18c4ca5a09ce310b30020a0e6247840b77df16e3ee2b6b46d5a342b"
+    },
+    {
+      "native_id": "ASYeh",
+      "image": "ASYeh.png",
+      "width": 520,
+      "height": 450,
+      "sha256": "29785811f5ea0172003782c4cc249e75b83195fcb5910c1b2b570d477db3206a"
+    },
+    {
+      "native_id": "yzbLX",
+      "image": "yzbLX.png",
+      "width": 520,
+      "height": 334,
+      "sha256": "f935df512b1569e6564ed1d598b0188db34f7fb85332056e1f7bb1936b60f177"
+    }
+  ],
+  "question": "การแสดงรหัสประเทศใน Login แบบนี้ใช้ได้ไหมครับ? 1. ใช้ชุดนี้ 2. ปรับช่อง Login 3. ปรับขั้นใส่รหัสผ่าน",
+  "verification": {
+    "full_size_comparison_inspected": true,
+    "final_root_screenshot_inspected": true,
+    "country_trigger_in_email_sample": 0,
+    "country_trigger_in_phone_sample": 1,
+    "country_trigger_size": "108x44",
+    "phone_password_fixture_verified": "+44 7700 900123",
+    "email_OTP_export_byte_identical_to_r30": true,
+    "previous_Login_and_country_PNG_hashes_verified_unchanged": 11,
+    "execute_warnings": [],
+    "observation": "Email sample has no country selector; phone sample has selected-code affix and password step retains complete displayed identifier. All four forms visible without clipping in exports. Static design only."
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "country_inventory_or_number_policy_selected": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_changed": false,
+  "state_library_count_unchanged": 54,
+  "UXD_002_changed": false,
+  "owner_acceptance": "owner-Login-country-acceptance.json"
+}

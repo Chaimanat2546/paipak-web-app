@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-05",
+  "task": "DSD-001",
+  "version": "Home Auth Login G2-r3",
+  "status": "owner_accepted_Login_r3_structure_only_whole_G2_pending",
+  "authorization": "../home-auth-phone-login-amendment.json",
+  "base_Login": "../home-auth-g2-r2/owner-login-structure-acceptance.json",
+  "images": [
+    {
+      "image": "C2V7pa.png",
+      "sha256": "28aa28ec153746d17f48b12c047a0ed38a794ee6aa844d281bdb78f1b78824ea",
+      "native_id": "C2V7pa"
+    },
+    {
+      "image": "r5hMgj.png",
+      "sha256": "3baf75d0302a1ec42706a328ec984fc4b50ac02fd18e7655089d906e6b17f920",
+      "native_id": "r5hMgj"
+    },
+    {
+      "image": "VD0Hr.png",
+      "sha256": "b0316f954123f553168ad4301e12c79a1d90401617c384f408f3c2f49dca5cf4",
+      "native_id": "VD0Hr"
+    }
+  ],
+  "changed": "Identifier label/placeholder now accepts email or phone; password and all other Login anatomy unchanged",
+  "same_field_email_phone": true,
+  "Google_retained": true,
+  "username_Login_added": false,
+  "OTP_added": false,
+  "forgot_password_email_link_retained": true,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "proposed_question": "Loginฉบับเพิ่มเบอร์โทรนี้โอเคไหมครับ? 1. รับLoginล่าสุด แล้วดูForgot/Resetต่อ 2. ขอปรับอีก 3. ดูบนHomeก่อน",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "VD0Hr",
+  "native_scene": "C2V7pa",
+  "native_modal": "r5hMgj",
+  "viewport": {
+    "width": 1440,
+    "height": 960
+  },
+  "owner_acceptance": "owner-login-structure-acceptance.json"
+}

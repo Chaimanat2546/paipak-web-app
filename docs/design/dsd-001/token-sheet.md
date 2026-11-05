@@ -192,3 +192,7 @@ Homeซ่อนการ์ดข้อมูล/รูปไม่ครบแ
 ## Social Footer icons · Home-r20
 
 Facebook Pageใช้Phosphor `facebook-logo-fill`24px/#0866FF;TikTokใช้ `tiktok-logo`24px/Black ทั้งคู่ในfieldWhite32pxตามclear-space patternเดิม สีโลโก้เป็นlocal branded-asset treatment ไม่ใช่การเปลี่ยนbrand paletteของpapaipak Row/label/valueใช้Footer rolesเดิม ไม่กำหนดข้อมูลบัญชีจริงจากfixtures ดู [sourceและการรับ](footer-contact-r5/README.md)
+
+## Owner-assets-r1 · โลโก้และข้อมูลจริง
+
+โลโก้จริงเก็บสีตามไฟล์ต้นฉบับ ไม่recolorหรือแปลงสีในภาพเป็นglobal token PaletteและOPEN-001เดิมคงอยู่ ข้อมูลบัญชีและเงื่อนไขใช้roleตัวอักษร/พื้นผิวเดิม ไม่เพิ่มpayment integration ดู [สเปคและขอบเขต](owner-assets-r1/brand-and-transfer-spec.md) และ [ภาพPencil/hash](owner-assets-r1/review-manifest.json) ข้อมูลจริงยืนยันแล้ว และ [Header Desktop-r1.4รับแล้ว](owner-assets-r1/owner-header-r1-4-acceptance.json) เฉพาะHeader ส่วนแบบแก้อื่นยังรอตรวจ

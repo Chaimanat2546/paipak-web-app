@@ -1,5 +1,7 @@
 # UXD-001 — แผนผังเส้นทางผู้ใช้
 
+> เจ้าของเปลี่ยนกฎSearchเมื่อ5พฤศจิกายน2026: [วันเข้าอย่างเดียวก็ค้นหาได้](../dsd-001/search-checkin-only-home-r20-r1/owner-rule-change.json) ไม่เติมวันออก/จำนวนคืนเอง กฎวันจองและข้ออื่นของreview-2คงเดิม แผนผังsourceเดิมในข้อ2เป็นประวัติการสำรวจ ไม่ใช้ขั้นrejectวันที่เป็นtargetล่าสุด [สำเนาก่อนข้อเปลี่ยน](../dsd-001/search-checkin-only-home-r20-r1/previous-contracts/journey-map.md.txt) เก็บไว้ ไม่เริ่มTaskหรือแก้Wireframeจากการปรับเอกสารข้อสรุปนี้
+
 วันที่จัดทำ/ปรับปรุง: 2 พฤศจิกายน 2026 · เขตเวลา Asia/Bangkok · รุ่น: review-2
 
 สถานะ: ภูอนุมัติ UXD-001 review-2 แล้วเมื่อ 2 พฤศจิกายน 2026 (Asia/Bangkok) ตามข้อความ “อนุมัติ UXD-001 review-2” ดู [บันทึกตรวจรับ](../../../tasks/design/UXD-001.md#owner-acceptance) เอกสารนี้ยังไม่ใช่แบบหน้าจอที่อนุมัติ และไม่อนุญาตให้เริ่ม task ถัดไป
@@ -21,7 +23,7 @@ review-2 บันทึกคำตอบ Q-01 ถึง Q-05 จากภู: 
 
 ไม่รวม wireframe, high-fidelity UI, tokens/CSS, การเขียนโค้ด, schema, API, การเชื่อม Auth/Database/Payment หรือ deployment
 
-## 2. เส้นทางปัจจุบัน
+## 2. เส้นทางของโค้ดเดิมที่สำรวจ (ประวัติ)
 
 อ้างอิง source commit `b5c65e2` และ local Next.js dev ที่ `http://127.0.0.1:3000/` การสำรวจครั้งนี้ไม่ได้ทดสอบ Workers หรือระบบธุรกิจจริง
 

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "สมมติกรอก [1][2][3][ ][ ][ ] และอยู่ช่อง4ที่ว่าง กดBackspaceแล้วให้ทำอย่างไรครับ? 1. ถอยไปช่อง3และลบเลข3ทันที ไม่ต้องกดซ้ำ 2. ถอยไปช่อง3แต่ยังไม่ลบ กดอีกครั้งจึงลบ 3. อยู่ช่องเดิม ให้เลือกช่องที่จะลบเอง",
+  "status": "owner_selected_empty_slot_backspace_moves_back_and_deletes_previous_digit",
+  "accepted_scope": {
+    "condition": "focused OTP slot is empty and has a preceding slot",
+    "action": "move focus to preceding slot and clear its digit in one Backspace press",
+    "other_slots": "unchanged",
+    "example_before": "[1][2][3][ ][ ][ ], focus4",
+    "example_after": "[1][2][ ][ ][ ][ ], focus3",
+    "verification": "incomplete code does not trigger automatic verification; request-state input locks unchanged"
+  },
+  "filled_slot_backspace_Delete_autofill_malformed_paste": "pending",
+  "whole_G2_approved": false,
+  "new_visual_approved": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

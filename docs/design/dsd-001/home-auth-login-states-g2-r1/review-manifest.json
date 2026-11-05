@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Login states G2-r1",
+  "status": "historical_single_page_state_study_not_current_OTP_default_flow",
+  "authorization": "../home-auth-g0-approval.json",
+  "base_Login": "../home-auth-login-g2-r3/owner-login-structure-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "XWgqE",
+  "native_scene": "j2lvK",
+  "states": [
+    {
+      "id": "W6UVRW",
+      "state": "Generic rejected Login",
+      "status": "pending_current_review"
+    },
+    {
+      "id": "b9XFG",
+      "state": "Required fields after submit",
+      "status": "draft_next_review"
+    },
+    {
+      "id": "f7pjh2",
+      "state": "Submitting and alternate method unavailable",
+      "status": "draft_next_review"
+    }
+  ],
+  "images": [
+    {
+      "native_id": "XWgqE",
+      "image": "XWgqE.png",
+      "sha256": "cf9352e88e786bb573e9c3ebf0c40d643d021054f8fc23934062e0b50f49342f"
+    },
+    {
+      "native_id": "j2lvK",
+      "image": "j2lvK.png",
+      "sha256": "ca372a8bca9e532be910eafc49e48318fdaf4c1ab7eff89f564c5af63db2b3de"
+    },
+    {
+      "native_id": "W6UVRW",
+      "image": "W6UVRW.png",
+      "sha256": "a10e5d3489fd5adc004674f22ac854579651d5d9ccddaea361550ea3bdde5a28"
+    },
+    {
+      "native_id": "b9XFG",
+      "image": "b9XFG.png",
+      "sha256": "8f62ac9b6f2b61e0e6067cc72dbcc7ebad1df19de25e70865071bd54c2348b58"
+    },
+    {
+      "native_id": "f7pjh2",
+      "image": "f7pjh2.png",
+      "sha256": "7f016ee9fb33c2f6da2db6aab0666b4ab686a702d4a32126c79bf4280bc78b75"
+    }
+  ],
+  "fixture_identifier": "tawan@example.com",
+  "fixture_password": "Masked bullets only, no real password value or credentials",
+  "current_review_proposals": [
+    "Generic credential-error wording without account existence disclosure",
+    "Retain identifier and masked input representation for correction; no password in intent/storage",
+    "Feedback below password before primary submit"
+  ],
+  "next_question_scope": "W6UVRW credentials error presentation only, not required/loading or real authentication",
+  "proposed_question": "สถานะข้อมูลเข้าสู่ระบบไม่ถูกต้องนี้โอเคไหมครับ? 1. รับสถานะนี้ แล้วดูกรณีเว้นช่องว่าง 2. ปรับข้อความหรือตำแหน่ง 3. ดูเทียบกับกรณีติดต่อระบบไม่ได้",
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "state_library_changed": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "UXD_002_file_changed": false,
+  "historical_status_before_audit": "pending_owner_generic_credentials_error_only",
+  "current_error_candidates": "../home-auth-error-audit-r26/review-manifest.json",
+  "prior_C_pattern_selection_retained": true
+}

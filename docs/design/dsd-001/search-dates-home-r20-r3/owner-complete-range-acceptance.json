@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "checklist_item": "C1.2 / complete range and guest-open scene",
+  "version": "Search dates Home-r20-r3",
+  "owner_quote": "1",
+  "question": "ใช้ภาพนี้ไหมครับ? 1. รับภาพนี้ แล้วตรวจการล้างวันต่อ 2. ปรับหน้าตาหรือตำแหน่งแผง 3. ดูตอนกลับมาแก้ช่วงวันก่อน แล้วค่อยตัดสินใจ",
+  "status": "owner_accepted_complete_range_and_guest_open_scene",
+  "native_screen": "jlt1S",
+  "native_popup": "lut4c",
+  "image": "jlt1S.png",
+  "image_sha256": "b66f4d008cba8169c4b06679ee87fd6c9bcac608d55d09d9a159fb7859350eb0",
+  "scope": "Completed12–14Dec fixture remains in date field with clear control; calendar closes and guest picker opens under existing flow; other criteria remain unset and counter0/0 retained",
+  "clear_dates_state_approved": false,
+  "all_guest_counter_states_approved": false,
+  "whole_C1_2_complete": false,
+  "whole_search_version_approved": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

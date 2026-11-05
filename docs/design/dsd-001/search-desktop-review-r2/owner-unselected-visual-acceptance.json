@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "checklist_item": "C1.5 corrected unselected-location appearance",
+  "version": "Search Desktop-r2 / unselected-location case only",
+  "owner_quote": "1",
+  "question": "ภาพกรณีนี้ตรงแล้วไหมครับ? 1. ตรงแล้ว — รับภาพแก้ไขนี้ 2. ปรับหน้าตาอีก — แก้ภาพต่อ 3. ดูชุดรวม r2 — ตรวจรวมก่อนรับ",
+  "status": "owner_accepted_unselected_location_appearance",
+  "image": "PsGZV.png",
+  "image_sha256": "290395781143032751c83476a50622c44025b7a7fccf3230fe62437c8bdc16ab",
+  "native_scene": "sdNaQ",
+  "native_viewport": "PsGZV",
+  "scope": "Unselected partial location retains its typed draft visually; normal field/no blocking popup; Search uses location unset and retains other criteria. No automatic suggestion selection.",
+  "whole_search_version_approved": false,
+  "recognized_name_visual_approved_by_this_choice": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

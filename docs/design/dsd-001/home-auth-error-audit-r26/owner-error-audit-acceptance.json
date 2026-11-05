@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "โอเค แบบนี้ได้ ไปข้อต่อไป",
+  "status": "owner_accepted_displayed_eight_error_examples",
+  "version": "Home Auth Error Consistency Audit G2-r26",
+  "reviewed_image": "e5s61.png",
+  "reviewed_image_sha256": "b98e68333a1675ace3950be413d746830c3c59d62822e7551fc24b33fce6248c",
+  "native_overview": "e5s61",
+  "related_full_modal_board": "c7WrJm",
+  "accepted_examples": [
+    {
+      "key": "login_identifier",
+      "native_modal": "qNVoN",
+      "change": "Current progressive identifier-required state, inline message before method hint; replaces obsolete combined-form state usage."
+    },
+    {
+      "key": "login_password",
+      "native_modal": "omNK0",
+      "change": "Required password in explicit email/password alternative; no new-password minimum enforced on Login."
+    },
+    {
+      "key": "otp_invalid",
+      "native_modal": "wxEwE",
+      "change": "Move rejected-code reason into six-slot field group; remove separate box, retain clearing/focus policy."
+    },
+    {
+      "key": "otp_expired",
+      "native_modal": "iLmVt",
+      "change": "Inline expiry status at code field, retain disabled slots/explicit request-new; no invented expiry duration."
+    },
+    {
+      "key": "forgot_email",
+      "native_modal": "a2w6D",
+      "change": "Fill missing email-required visual with error at recovery email input; neutral account acknowledgement unchanged."
+    },
+    {
+      "key": "reset_password",
+      "native_modal": "WAeyG",
+      "change": "Fill short-new-password and confirmation-mismatch visual using accepted minimum8/matching rules, no summary box."
+    },
+    {
+      "key": "verify_email_otp",
+      "native_modal": "Cb1DW",
+      "change": "Adapt invalid OTP to signup email-verification purpose with inline reason and retained use-first action; Google excluded."
+    },
+    {
+      "key": "credentials_rejected",
+      "native_modal": "zA7HA",
+      "change": "Carry selected C form-level position to current password alternative and state pair rejection clearly; do not falsely target email/password individually."
+    }
+  ],
+  "accepted_scope": [
+    "The eight error examples shown in the audit overview: current Login identifier/password, invalid/expired Login OTP, required recovery email, short/mismatched new password, invalid signup-verification OTP and rejected credential pair.",
+    "Known field errors identify the cause under the affected input or six-slot OTP group; no duplicate field-error summary before the primary action.",
+    "A rejected credential pair uses the existing form-level C position without falsely identifying a specific wrong field; known provider/service failures remain separate.",
+    "Retain previously accepted behavior, current progressive method choices and all historical evidence."
+  ],
+  "review_boundary": "Acceptance is for the displayed audit examples, not blanket acceptance of all related full-form anatomy, Auth states or whole G2.",
+  "signup_inline_r25_approved_by_this_reply": false,
+  "register_submitting_r23_approved": false,
+  "connection_error_r24_approved": false,
+  "Google_cancellation_r17_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "state_library_rollout_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

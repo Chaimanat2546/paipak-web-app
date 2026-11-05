@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Register Request G2-r23",
+  "status": "submitting_accepted_in_r27_obsolete_blanket_failure_not_accepted",
+  "accepted_validation": "../home-auth-register-validation-g2-r21/owner-register-validation-acceptance.json",
+  "accepted_flow": "../home-auth-signup-flow-g2-r22/owner-signup-flow-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "O5RmV",
+  "native_comparison": "w5RC8",
+  "native_submitting": "sv8oc",
+  "native_failure": "AUaUi",
+  "images": [
+    {
+      "native_id": "O5RmV",
+      "image": "O5RmV.png",
+      "sha256": "feeeae399e6c3b6bdc95a447abe3ec9484213b34f8695c0e0451a773c2db346b"
+    },
+    {
+      "native_id": "w5RC8",
+      "image": "w5RC8.png",
+      "sha256": "db182240f83c80e39eae260d1e368c9aa4f5a1cfcbf5da9538c8def0cd412665"
+    },
+    {
+      "native_id": "sv8oc",
+      "image": "sv8oc.png",
+      "sha256": "e4d597440923d40766079f2365bce0260f2c628dbbd002e0711aaa1ea1f22b7e"
+    },
+    {
+      "native_id": "AUaUi",
+      "image": "AUaUi.png",
+      "sha256": "5671b83bb973e0979ea061feb1b5dfe1c20a898f25a46dc7c11b11515cc9ab2d"
+    }
+  ],
+  "proposed_behavior": {
+    "submitting": "inactive fields/show-password/submit/Google/switch-to-Login; inline button spinner and no duplicate submission",
+    "close_while_pending": "may dismiss to active origin, without asserting rollback or cancellation of an actual server operation",
+    "confirmed_failure": "stop loading, preserve current-flow data, no invalid marker on otherwise unaffected fields; generic feedback before primary and explicit retry",
+    "ambiguous_response": "must reconcile provider outcome before a duplicate creation request; do not claim no account exists or was created",
+    "retry": "user initiated when permitted, no automatic loop",
+    "success": "accepted signup reminder-r19, optional verification; no new success gate"
+  },
+  "fixture_data": "Synthetic name/phone/example.com email and masked password drawings only; no real credentials or account request",
+  "not_selected": [
+    "actual provider/session/account-linking/duplicate-account reconciliation",
+    "new username or phone validation rules",
+    "request timeouts/retry quotas/rate-limit values",
+    "whole Auth G2 and final style/accessibility"
+  ],
+  "verification": {
+    "previous_reviewed_r21_hashes_match": true,
+    "screenshot_inspected": "w5RC8",
+    "observation": "Pending form visibly inactive with button loading marker; failure retains values and shared feedback/explicit retry; no visible clipping.",
+    "execute_warnings": []
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "state_library_count_unchanged": 54,
+  "main_Home_changed_by_this_revision": false,
+  "UXD_002_changed": false,
+  "owner_failure_revision": "../home-auth-register-reasons-g2-r24/owner-cause-clarification.json",
+  "revised_failure_review": "../home-auth-register-reasons-g2-r24/review-manifest.json",
+  "current_request_state_pair_review": "../home-auth-register-request-review-r27/review-manifest.json",
+  "submitting_acceptance_in_successor": "../home-auth-register-request-review-r27/owner-request-states-acceptance.json"
+}

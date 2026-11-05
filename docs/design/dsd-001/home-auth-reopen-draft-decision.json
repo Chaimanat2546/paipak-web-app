@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "2",
+  "question": "ปิดแล้วเปิด Auth ใหม่ในหน้า Home เดิม ควรจำข้อมูลแค่ไหนครับ? 1. จำข้อมูลทั่วไป ล้างรหัสผ่านและ OTP (แนะนำ) — เก็บ Username/เบอร์/อีเมลไว้ ไม่ต้องพิมพ์ซ้ำ 2. ล้างทั้งหมด — เปิดใหม่เป็นฟอร์มว่าง 3. จำเฉพาะอีเมลหรือเบอร์ที่ใช้ Login — ฟอร์มสมัครสมาชิกเริ่มใหม่ ทั้งหมดนี้เฉพาะการใช้หน้าเดิมต่อเนื่อง ไม่จำข้ามรีโหลดหรือปิดแท็บ",
+  "status": "owner_selected_clear_all_Auth_form_draft_on_close",
+  "discussion": "home-auth-reopen-draft-discussion.md",
+  "accepted_behavior": {
+    "close": "Clear app-managed Auth form inputs when Auth is dismissed through the supported close actions.",
+    "cleared_fields": [
+      "Username",
+      "phone",
+      "email_or_phone_identifier",
+      "email",
+      "password",
+      "password_confirmation",
+      "OTP_digits"
+    ],
+    "reopen": "Open Auth with blank form inputs; do not restore the dismissed form draft or automatically request OTP/login/save merely from reopening.",
+    "Home": "Keep the separate active Home search/scroll/rail/photo selections according to the existing origin contract.",
+    "favorite": "Do not resume the explicitly cancelled favorite intent on a later Auth opening.",
+    "within_open_modal": "This close-and-reopen rule does not remove the accepted behavior of editing/back navigation in an Auth modal that remains open.",
+    "system_boundary": "Input clearing is not account deletion, sign-out, rollback of a sent request or invalidation of an email code/reset link. Pending actual session/provider outcomes remain separate."
+  },
+  "persistent_Auth_draft_authorized": false,
+  "browser_autofill_policy_selected": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

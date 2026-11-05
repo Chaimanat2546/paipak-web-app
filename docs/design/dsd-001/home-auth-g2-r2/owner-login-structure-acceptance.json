@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Login G2-r2",
+  "owner_quote": "1",
+  "question": "โครงใหม่นี้ตรงขึ้นไหมครับ? 1. รับโครง Login นี้ — ดูสมัครสมาชิกต่อ 2. ยังไม่ตรง — ปรับอีก 3. ดูตัวอย่างเว็บจริงก่อน — เทียบก่อนเลือก",
+  "status": "owner_accepted_Login_G2_r2_structure_only",
+  "image": "Pu3jT.png",
+  "image_sha256": "355537053df0199dcc3bb3481be7f960a60ba17c0efdf5c59e2b6439278e9ceb",
+  "native_scene": "f2TAg",
+  "native_modal": "Pu3jT",
+  "scope": "Centered heading; email/password and primary action grouped first; forgot beside password label; Google secondary below form; explicit Register link",
+  "whole_Auth_G2_approved": false,
+  "Register_or_Reset_structure_approved": false,
+  "final_visual_or_High_Fi_approved": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

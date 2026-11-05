@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Recovery Request States G2-r38",
+  "status": "owner_accepted_four_displayed_Recovery_request_states",
+  "previous_acceptance": "../home-auth-login-request-g2-r37/owner-Login-request-states-acceptance.json",
+  "accepted_forgot_structure": "../home-auth-recovery-g2-r1/owner-forgot-request-acceptance.json",
+  "accepted_reset_structure": "../home-auth-recovery-g2-r1/owner-reset-form-acceptance.json",
+  "accepted_ack": "../home-auth-recovery-g2-r2/owner-acknowledgement-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "q2EE0Y",
+  "native_comparison": "VYEnh",
+  "items": [
+    {
+      "key": "forgot_request_pending",
+      "source": "tJxL1",
+      "modal": "e90Mg"
+    },
+    {
+      "key": "forgot_known_connection_failure",
+      "source": "tJxL1",
+      "modal": "wmhoz",
+      "feedback": "NBpFL"
+    },
+    {
+      "key": "reset_submit_pending",
+      "source": "ZsOMo",
+      "modal": "WQbH9"
+    },
+    {
+      "key": "reset_known_connection_failure",
+      "source": "ZsOMo",
+      "modal": "rhTqa",
+      "feedback": "umlFQ"
+    }
+  ],
+  "proposed_behavior": {
+    "forgot_pending": "Temporarily inactive email/send/back-to-Login, spinner in primary, close available. No duplicate sends or assertion of inbox delivery/account existence.",
+    "forgot_failure": "Known connection cause only: เชื่อมต่อระบบส่งลิงก์ไม่ได้ / กรุณาลองอีกครั้ง before primary, email retained without invalid marker and explicit retry.",
+    "forgot_ack": "Use accepted generic acknowledgement-IvrCQ after request acceptance, no Change email action restored or existence disclosure.",
+    "reset_precondition": "Reset form belongs to a current permitted reset-link flow; static example is not validation of a real token. Existing unusable/expired-link view remains distinct.",
+    "reset_pending": "Temporarily inactive new password/confirmation/show-hide/save, spinner in primary; close available without server rollback guarantee.",
+    "reset_failure": "Known connection cause only: เชื่อมต่อระบบตั้งรหัสผ่านไม่ได้ / กรุณาลองอีกครั้ง before save, masked draft retained for explicit retry only when permitted and link/context valid. Do not blindly repeat an ambiguous previous change.",
+    "reset_success": "Retain accepted success view with user action opening Login; no automatic Login.",
+    "rules": "Minimum8/matching confirmation for new password retained, fixtures only. Close clears Auth draft and returns to active Home origin; no rollback promise.",
+    "provider": "No timeout/expiry/quota/provider or real send/password operation selected."
+  },
+  "images": [
+    {
+      "native_id": "q2EE0Y",
+      "image": "q2EE0Y.png",
+      "width": 1136,
+      "height": 1334,
+      "sha256": "52416d2fe6bc6e9855e1035b57635914cee779bcd2938d99e5227c3480498305"
+    },
+    {
+      "native_id": "VYEnh",
+      "image": "VYEnh.png",
+      "width": 1072,
+      "height": 1034,
+      "sha256": "7fbc802bf36aeab8d985f6802cf428e4c9ef3be228a23696a1003bf7e3298855"
+    },
+    {
+      "native_id": "e90Mg",
+      "image": "e90Mg.png",
+      "width": 520,
+      "height": 358,
+      "sha256": "952591bef367a7e5e4eea18e5ca3568bd0e46e50f30a199479c223b22fc0bddd"
+    },
+    {
+      "native_id": "wmhoz",
+      "image": "wmhoz.png",
+      "width": 520,
+      "height": 440,
+      "sha256": "3c7caea3ea293a9a0a7b56b058996fce34eb5294329a70d8aea83fa6da5f1328"
+    },
+    {
+      "native_id": "WQbH9",
+      "image": "WQbH9.png",
+      "width": 520,
+      "height": 400,
+      "sha256": "32333a748b1e3b7a987cdde05aee529d9877a8bf9e9e4379dd1007c0559fa772"
+    },
+    {
+      "native_id": "rhTqa",
+      "image": "rhTqa.png",
+      "width": 520,
+      "height": 482,
+      "sha256": "4552c078a0da10607aff2d778eaf1bc7d91caf97f8c3815b4a63d0053e7751fd"
+    }
+  ],
+  "question": "ใช้4สถานะกู้รหัสผ่านตามภาพนี้ได้ไหมครับ? 1. ใช้ทั้ง4 2. ปรับตอนกำลังส่ง 3. ปรับตอนเชื่อมต่อไม่ได้",
+  "verification": {
+    "full_size_comparison_inspected": true,
+    "all_four_full_modal_screenshots_inspected": true,
+    "feedback_before_primary_order_verified": true,
+    "email_and_masked_matching_password_fixtures_verified": true,
+    "source_PNG_hashes_verified_unchanged": 13,
+    "execute_warnings": [],
+    "observation": "Four forms fully visible, pending controls distinct, known connection feedback at form level without false field/link errors, drafts retained and new passwords masked. Static design only."
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_changed": false,
+  "state_library_count_unchanged": 54,
+  "UXD_002_changed": false,
+  "owner_acceptance": "owner-Recovery-request-states-acceptance.json"
+}

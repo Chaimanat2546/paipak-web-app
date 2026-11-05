@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "Google ไม่ต้องยืนยัน",
+  "status": "owner_excluded_Google_from_additional_site_email_verification",
+  "scope": {
+    "Google_signup": "no additional papaipak email verification step/reminder",
+    "Google_Login": "no additional papaipak email verification step/reminder",
+    "local_email_password_signup": "existing dismissible email-verification policy retained; r19 appearance/method still pending",
+    "Google_Profile_completion": "unchanged, no forced missing-username/phone completion"
+  },
+  "provider_claims_session_account_linking": "not implemented or selected by this UX clarification; do not assign verified status merely from UI/email string",
+  "Google_provider_own_UI": "not designed or modified",
+  "r19_visual_approved_by_this_reply": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "pencil_scope_note": {
+    "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+    "node": "tmk7i",
+    "screenshot_inspected": true,
+    "execute_warnings": []
+  }
+}

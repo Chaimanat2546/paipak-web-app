@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "ใช้ชุดนี้ได้ไหมครับ? 1. ใช้ทั้งหมด — ตรงตามกฎที่ตกลง 2. ปรับฟอร์มปกติ — ฝั่งซ้าย 3. ปรับข้อความแจ้งผิด — ฝั่งขวา",
+  "status": "owner_accepted_displayed_Register_Username_helper_fixture_and_three_inline_errors",
+  "version": "Home Auth Register Username G2-r31",
+  "reviewed_image": "IVcGY.png",
+  "reviewed_image_sha256": "315bec625ecb8b781e52c122a9d6a70eb253a6089a448b4b772cabae0b97a139",
+  "native_comparison": "IVcGY",
+  "native_form": "DLW0h",
+  "native_error_groups": [
+    "oLTL6",
+    "XQeCZ",
+    "uU39o"
+  ],
+  "accepted_scope": {
+    "normal": "Displayed tawan01 fixture and Username helper ภาษาอังกฤษและตัวเลข 3–20 ตัว in Register form.",
+    "characters": "Displayed tawan_01 error: ใช้ภาษาอังกฤษและตัวเลขเท่านั้น directly under input.",
+    "too_short": "Displayed ab error: Username ต้องมีอย่างน้อย 3 ตัวอักษร directly under input.",
+    "too_long": "Displayed21-character fixture error: Username ต้องไม่เกิน 20 ตัวอักษร directly under input.",
+    "retained": "Username remains duplicate-allowed display-only; no mixed-character composition or availability requirement; earlier required/password/Google rules unchanged.",
+    "historical": "Old approved Thai Username fixtures remain historical layout evidence, not valid examples under current rule."
+  },
+  "phone_format_or_provider_policy_selected": false,
+  "input_truncation_or_paste_policy_selected": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "state_library_rollout_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "2 แต่ถ้าพิมพ์ก็พิมพ์ไปช่อง 3",
+  "question": "ถ้าเลือกช่อง3ที่มีเลขอยู่แล้วกดBackspace ต้องการแบบไหนครับ? 1. ลบเลขแล้วอยู่ช่อง3 พร้อมพิมพ์เลขแทนทันที 2. ลบเลขแล้วถอยไปช่อง2 เหมาะกับลบย้อนต่อเนื่อง 3. ล้างทั้ง6ช่องแล้วกลับช่องแรกเพื่อกรอกใหม่",
+  "status": "owner_selected_filled_slot_backspace_with_next_digit_in_cleared_slot",
+  "accepted_scope": {
+    "delete": "clear filled slot3 and move deletion/focus position to slot2",
+    "next_typed_digit": "place next digit into cleared slot3, not overwrite slot2",
+    "after_next_digit": "follow accepted forward-advance rule to slot4",
+    "unchanged_slots": "retain other digits",
+    "example": "[1][2][3][ ][ ][ ] focus3 -> Backspace -> [1][2][ ][ ][ ][ ] position2 -> type7 -> [1][2][7][ ][ ][ ] focus4",
+    "incomplete_code": "no verification until all six digits are complete"
+  },
+  "empty_slot_rule": "home-auth-otp-empty-backspace-decision.json unchanged",
+  "explicit_click_arrow_navigation_after_delete_Delete_autofill_malformed_paste": "pending",
+  "new_sequence_visual_approved": false,
+  "whole_G2_approved": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "ใช้แบบนี้ได้ไหมครับ? 1. ใช้ตามนี้ (แนะนำ) — เลือกวิธีเข้าใช้อื่นต่อได้ทันที 2. เพิ่มข้อความว่ายกเลิกแล้ว — ให้รู้ว่ากลับมาจาก Google 3. ปรับทางกลับ — คุยจุดที่ควรกลับมาก่อน",
+  "status": "owner_accepted_displayed_Google_Login_cancellation_return",
+  "version": "Home Auth Google Login cancellation G2-r17",
+  "reviewed_image": "EjvEz.png",
+  "reviewed_image_sha256": "9b96591b84af8be9d19c8b38485a71a42422c7ccabca018b29e51ded71e9b356",
+  "native_modal": "EjvEz",
+  "accepted_scope": {
+    "return": "Return to original papaipak Login modal after the user cancels Google Login.",
+    "draft": "Retain still-active email/phone draft in uninterrupted flow; no recovery after reload/tab-close/expiry.",
+    "feedback": "No error, toast or cancellation notice; user can choose another Login method or retry Google.",
+    "requests": "No automatic email OTP request or authentication-success claim after cancellation.",
+    "origin": "Home modal origin/active selections remain under the existing contract; closing Auth returns to that origin."
+  },
+  "obsolete_Google_failure_r17_approved": false,
+  "Google_Register_return_layouts_approved": false,
+  "Guest_favorite_auto_save_policy_selected": false,
+  "Google_popup_or_redirect_selected": false,
+  "whole_Google_flow_or_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

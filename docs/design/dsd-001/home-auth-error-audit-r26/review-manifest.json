@@ -1,0 +1,186 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Error Consistency Audit G2-r26",
+  "status": "owner_accepted_displayed_eight_error_examples_whole_G2_pending",
+  "owner_request": "owner-review-request.json",
+  "source_inventory": "source-inventory.json",
+  "historical_image_verification": "historical-image-verification.json",
+  "source_manifest_inventory_count": 30,
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "LKPA7",
+  "native_overview": "e5s61",
+  "native_details": "c7WrJm",
+  "items": [
+    {
+      "key": "login_identifier",
+      "source": "d0mD4f",
+      "modal": "qNVoN",
+      "groups": [
+        "JfzOo"
+      ],
+      "preview": "E936A",
+      "change": "Current progressive identifier-required state, inline message before method hint; replaces obsolete combined-form state usage."
+    },
+    {
+      "key": "login_password",
+      "source": "mswk5",
+      "modal": "omNK0",
+      "groups": [
+        "M8MQzW"
+      ],
+      "preview": "tqlj5",
+      "change": "Required password in explicit email/password alternative; no new-password minimum enforced on Login."
+    },
+    {
+      "key": "otp_invalid",
+      "source": "yA4C7",
+      "modal": "wxEwE",
+      "groups": [
+        "S6bSW"
+      ],
+      "preview": "XnF5M",
+      "change": "Move rejected-code reason into six-slot field group; remove separate box, retain clearing/focus policy."
+    },
+    {
+      "key": "otp_expired",
+      "source": "t8JxU",
+      "modal": "iLmVt",
+      "groups": [
+        "YsUM0"
+      ],
+      "preview": "XJW0g",
+      "change": "Inline expiry status at code field, retain disabled slots/explicit request-new; no invented expiry duration."
+    },
+    {
+      "key": "forgot_email",
+      "source": "tJxL1",
+      "modal": "a2w6D",
+      "groups": [
+        "LJYG2"
+      ],
+      "preview": "EQ8TJ",
+      "change": "Fill missing email-required visual with error at recovery email input; neutral account acknowledgement unchanged."
+    },
+    {
+      "key": "reset_password",
+      "source": "ZsOMo",
+      "modal": "WAeyG",
+      "groups": [
+        "CpuVA",
+        "HQP18"
+      ],
+      "preview": "ghwCF",
+      "change": "Fill short-new-password and confirmation-mismatch visual using accepted minimum8/matching rules, no summary box."
+    },
+    {
+      "key": "verify_email_otp",
+      "source": "RukQJ",
+      "modal": "Cb1DW",
+      "groups": [
+        "qLkKb"
+      ],
+      "preview": "fFKkh",
+      "change": "Adapt invalid OTP to signup email-verification purpose with inline reason and retained use-first action; Google excluded."
+    },
+    {
+      "key": "credentials_rejected",
+      "source": "mswk5",
+      "modal": "zA7HA",
+      "groups": [
+        "jAQyB",
+        "mG7dS",
+        "WOc19"
+      ],
+      "preview": "UL3z1",
+      "change": "Carry selected C form-level position to current password alternative and state pair rejection clearly; do not falsely target email/password individually."
+    }
+  ],
+  "images": [
+    {
+      "native_id": "e5s61",
+      "image": "e5s61.png",
+      "sha256": "b98e68333a1675ace3950be413d746830c3c59d62822e7551fc24b33fce6248c"
+    },
+    {
+      "native_id": "qNVoN",
+      "image": "qNVoN.png",
+      "sha256": "f3002171314f1c9671caca4bc4a9bc57db1e2ac5953d3445243fa9df2a61b37f"
+    },
+    {
+      "native_id": "omNK0",
+      "image": "omNK0.png",
+      "sha256": "e4eebc9558efe1d672dbfcc203489c9985ace6b3918150dc91521f89609fe6e7"
+    },
+    {
+      "native_id": "wxEwE",
+      "image": "wxEwE.png",
+      "sha256": "aa51694dc3097c786e627ad5ce2de7c62e1edd40aa415db487a27865e9ba6f60"
+    },
+    {
+      "native_id": "iLmVt",
+      "image": "iLmVt.png",
+      "sha256": "d7689bac5b486232e4a01710c75ce31373b4fb158b3eb47b1b9aa1089321f7af"
+    },
+    {
+      "native_id": "a2w6D",
+      "image": "a2w6D.png",
+      "sha256": "e220e26953fa94d1a1ce1d6edca82fd01d591ec578700abb2aecf68fee318cb4"
+    },
+    {
+      "native_id": "WAeyG",
+      "image": "WAeyG.png",
+      "sha256": "6b2ac8ec39c7788aa8fbf2aaaf81d23be0bd9359da27b2a36477cb5398607041"
+    },
+    {
+      "native_id": "Cb1DW",
+      "image": "Cb1DW.png",
+      "sha256": "a812f999232e449e9bf377c103334a8ebb16b7f38b01319a5afeafa2b5728c6e"
+    },
+    {
+      "native_id": "zA7HA",
+      "image": "zA7HA.png",
+      "sha256": "e5f87e0e14c8a443d1f2e227c8a959c8ac6555b648c1ef13e9139fa1a2216759"
+    }
+  ],
+  "unchanged_after_review": {
+    "Signup_inline_validation": "r25 already follows newest rule; still pending visual acceptance",
+    "Google_failure": "r18 form-level error retained; identifier not falsely invalid",
+    "service_or_send_failure": "r11/r15/r24 connection and provider failures remain form-level if no known wrong input",
+    "resend_wait": "r14 countdown-only button preserved;00:45 remains fixture",
+    "recovery_acknowledgement": "IvrCQ generic acknowledgement and no Change email action retained",
+    "unusable_link": "l0YcM form-level link condition/no expiry lifetime invented",
+    "historic_one_page_or_password_default": "retained as evidence only, not active flow"
+  },
+  "verification": {
+    "full_modal_screenshots_inspected": [
+      "qNVoN",
+      "omNK0",
+      "wxEwE",
+      "iLmVt",
+      "a2w6D",
+      "WAeyG",
+      "Cb1DW",
+      "zA7HA"
+    ],
+    "overview_screenshot_inspected": "e5s61",
+    "inline_error_parent_groups_verified": true,
+    "inline_messages_in_seven_field_variants": 8,
+    "credentials_pair_feedback": "one form-level group, chosen C position; no per-field cause invented",
+    "execute_warnings": [],
+    "existing_Auth_PNGs_verified_unchanged": 100,
+    "observation": "Eight full revisions inspected, field errors at their groups, no duplicate field-error banners and no visible clipping."
+  },
+  "new_business_rules_added": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "state_library_count_unchanged": 54,
+  "main_Home_changed_by_this_revision": false,
+  "UXD_002_changed": false,
+  "owner_acceptance": "owner-error-audit-acceptance.json",
+  "acceptance_boundary": "Displayed audit examples only; r25, other unreviewed states and whole G2 remain pending."
+}

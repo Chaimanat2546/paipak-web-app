@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "รูปแบบช่องนี้โอเคไหมครับ? 1. รับแบบนี้ แล้วตรวจพฤติกรรมการกรอกต่อ 2. ลดขนาดช่อง ให้กระชับขึ้น 3. เพิ่มระยะห่าง ให้ช่องแยกชัดขึ้น",
+  "status": "owner_accepted_six_slot_OTP_layout_only",
+  "version": "Home Auth Login G2-r6",
+  "native_modal": "IRBZ2",
+  "reviewed_image": "IRBZ2.png",
+  "reviewed_image_sha256": "3365fd23830c30005d6e7a723e088a6a1177166ba93bf57feeab24fdf9e5131f",
+  "accepted_scope": "Six separate OTP visual slots at displayed size and spacing in the reviewed email OTP modal.",
+  "input_behaviors_approved": false,
+  "expiry_resend_policy_approved": false,
+  "whole_Login_package_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "frontend_or_backend_authorized": false,
+  "next_review": "OTP input behavior, followed by remaining states"
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "ไม่เอาไม่จำเป็น",
+  "status": "owner_rejected_both_proposed_favorite_failure_and_unknown_result_interfaces_as_unnecessary",
+  "version": "Home Auth Favorite Result G2-r29",
+  "reviewed_image": "N1kDoM.png",
+  "reviewed_image_sha256": "87d5c8223ac0c350586de64cf27c6c209474c68f98dd127bc99dc328497a0316",
+  "rejected_scope": [
+    "The two displayed r29 error/unknown-result interfaces",
+    "Their new messages, question marker, retry and status-check controls"
+  ],
+  "native_action": {
+    "root": "K0Jdw",
+    "enabled": false,
+    "name": "ARCHIVE · ไม่ใช้ · Favorite result G2-r29",
+    "history": "Retain nodes/exports; do not roll out rejected interfaces."
+  },
+  "retained_acceptance": "../home-auth-favorite-return-g2-r28/owner-favorite-return-states-acceptance.json",
+  "retained_rules": [
+    "Resume explicit save intent only after successful Auth",
+    "Show saved only after confirmed save result; Login success alone is not save success",
+    "No Guest favorites or recovery of intent across reload/tab close/expiry"
+  ],
+  "boundary": "This rejects the proposed UI. It does not authorize faking save success, specify all backend failure/reconciliation behavior or approve whole G2.",
+  "whole_G2_approved": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

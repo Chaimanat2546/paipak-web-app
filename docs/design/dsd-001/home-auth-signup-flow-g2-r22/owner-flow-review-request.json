@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "ขอเช็ค flow ก่อน",
+  "status": "owner_requested_flow_review_before_registration_state_acceptance",
+  "scope_interpretation": "Start with signup flow currently under review: local email/password and Google, entry/return and optional email verification. Not a redesign of all Login/Forgot/Profile flows.",
+  "Register_validation_r21_approved": false,
+  "flow_r22_approved": false,
+  "whole_G2_approved": false,
+  "frontend_or_backend_authorized": false
+}

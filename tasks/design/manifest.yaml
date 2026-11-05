@@ -3,6 +3,15 @@ status: owner_adopted_plan_in_progress
 owner_adopted_on: '2026-11-02'
 execution_mode: manual_user_initiated
 notes:
+- 'Latest Home Auth channel choice: email OTP only; phone/password retained, email/password explicit alternative, Google retained. Evidence: docs/design/dsd-001/home-auth-email-otp-scope-decision.json. Signup/password reconciliation and new G2 pending. No SMS/phoneOTP/provider/backend/Frontend authorized.'
+- 'Latest Home Auth owner correction: OTP primary, password on explicit password-login selection, Google retained. Evidence: docs/design/dsd-001/home-auth-otp-primary-amendment.json. Delivery coverage and Signup/password reconciliation pending; prior password-first-r4 not current. No actual OTP/SMS/provider/backend/Frontend or revised G2 approval.'
+- 'Owner selected identifier-then-password Login with Google retained under Home Auth DSD-001/C2: docs/design/dsd-001/home-auth-two-step-login-decision.json. Login G2-r4 screens pending owner review; no OTP or whole-G2/High-Fi/Frontend approval. Register/Recovery structures retained.'
+- 'Latest Home Auth owner amendment: phone/password Login added beside email/password and Google; Register G2-r1 structure accepted. Evidence: docs/design/dsd-001/home-auth-phone-login-amendment.json. Login G2-r3 revised identifier visual pending. No OTP/SMS/username-login/backend/fullG2/High-Fi approval.'
+- 'Owner approved Home Auth Desktop G0 plan-1 bounded supplement under DSD-001/C2 on2026-11-05: docs/design/dsd-001/home-auth-g0-approval.json. Email/password plus Google; Login/Register/Forgot-reset; discuss fields before G2/G3. UID-005/DSD-002/UXD-002 statuses unchanged. No Mobile/backend/Frontend or final visual approval.'
+- 'Owner accepted Search Desktop-r2 visual/specification package on2026-11-05: docs/design/dsd-001/search-desktop-review-r2/owner-search-acceptance.json. State library rollout has9 Search references and54 total annotated references. C1.5/C1.6 visual scope closed; no runtime/Frontend/Mobile/task-completion approval.'
+- 'Owner correction, 5 November 2026: in the last partial/unresolved typed-location case, not selecting a suggestion means no location criterion; Search remains allowed using other entered criteria. Do not send the unresolved draft as a location query, silently choose a suggestion, or clear the Home draft from this rule. The prior recognized exact-name rule remains outside this correction. Owner accepted Search Desktop-r2 visual/specification package and authorized State library rollout; runtime/data/accessibility and Frontend/backend remain separate. Evidence: docs/design/dsd-001/search-desktop-review-r2/owner-location-correction.json.'
+- 'Owner accepted the revised C1.4 check-in-only Search scene with option1 on2026-11-05; full Search/C1.6, runtime and Frontend remain pending. Evidence: docs/design/dsd-001/search-checkin-only-home-r20-r1/owner-visual-acceptance.json.'
+- 'Owner Search amendment 2026-11-05: check-in only is valid for Search; no inferred checkout/nights; booking date requirements unchanged. Evidence: docs/design/dsd-001/search-checkin-only-home-r20-r1/owner-rule-change.json. Legacy missing-checkout error targets are superseded; preserve pending UXD-002 review-5 and prior approval evidence.'
 - Owner adopted the entire handoff pack as the latest direction on 2026-11-02; task execution and final visual approval are separate.
 - Design tasks are for AI Design Agent; human approves before related frontend implementation.
 - Task readiness requires approved dependent design outputs, not merely preselected UX direction.
@@ -11,6 +20,7 @@ notes:
 - 'Owner amendment 2026-11-03: approve Visual Direction in DSD-001 before Wireframe revisions and G2 acceptance in UXD-002; preserve review-5 as existing pending-review evidence.'
 - 'Owner approved Design Governance Kit v1.0 as the project-wide standard on 2026-11-03; each task design/version still requires explicit owner approval before related frontend implementation. No task status changes follow from governance approval; see docs/design/governance/README.md and registry governance_approval.'
 - 'Owner clarification 2026-11-03: explicit task plan/scope approval at G0 is required before creating or revising UI Design artifacts; final design/version approval is separately required before Frontend. Existing task authorizations remain valid within their approved scope; governance approval or Task ID selection alone does not start design work.'
+- 'Owner signup choice3 on2026-11-05 retains required password/confirmation minimum8 on email registration; email Login OTP primary and phone/password remain. Revised Login G2-r5 pending structure review, not whole G2/High-Fi/Frontend approval. Evidence: docs/design/dsd-001/home-auth-signup-password-retained-decision.json.'
 tasks:
 - id: UXD-001
   title: User journeys and IA audit
@@ -155,6 +165,38 @@ tasks:
   plan_approval_source: Explicit project owner answer in this chat's voice session after selecting three direction studies
   plan_approval_instruction: อนุมัติเลย
   current_gate: foundation_review
+  home_auth_error_audit_acceptance: docs/design/dsd-001/home-auth-error-audit-r26/owner-error-audit-acceptance.json
+  home_auth_register_inline_acceptance: docs/design/dsd-001/home-auth-register-input-errors-g2-r25/owner-register-inline-acceptance.json
+  home_auth_register_request_acceptance: docs/design/dsd-001/home-auth-register-request-review-r27/owner-request-states-acceptance.json
+  home_auth_Google_cancellation_acceptance: docs/design/dsd-001/home-auth-google-g2-r17/owner-Google-cancellation-acceptance.json
+  home_auth_favorite_continuation_decision: docs/design/dsd-001/home-auth-favorite-return-decision.json
+  home_auth_favorite_return_states_acceptance: docs/design/dsd-001/home-auth-favorite-return-g2-r28/owner-favorite-return-states-acceptance.json
+  home_auth_favorite_error_study_status: owner_rejected_as_unnecessary; native hidden, history retained
+  home_auth_favorite_error_study_rejection: docs/design/dsd-001/home-auth-favorite-result-g2-r29/owner-not-needed-rejection.json
+  home_auth_current_favorite_feedback: docs/design/dsd-001/home-auth-favorite-return-g2-r28/review-manifest.json
+  home_auth_Login_structure_acceptance: docs/design/dsd-001/home-auth-login-flow-g2-r30/owner-Login-structure-acceptance.json
+  home_auth_modal_dismissal_decision: docs/design/dsd-001/home-auth-modal-dismissal-decision.json
+  home_auth_reopen_draft_decision: docs/design/dsd-001/home-auth-reopen-draft-decision.json
+  home_auth_Username_format_decision: docs/design/dsd-001/home-auth-username-format-decision.json
+  home_auth_Username_length_decision: docs/design/dsd-001/home-auth-username-length-decision.json
+  home_auth_Username_states_acceptance: docs/design/dsd-001/home-auth-register-username-g2-r31/owner-Username-states-acceptance.json
+  home_auth_phone_format_decision: docs/design/dsd-001/home-auth-phone-format-decision.json
+  home_auth_country_label_language_decision: docs/design/dsd-001/home-auth-country-label-language-decision.json
+  home_auth_country_labels_acceptance: docs/design/dsd-001/home-auth-register-country-labels-g2-r33/owner-country-labels-acceptance.json
+  home_auth_Login_country_acceptance: docs/design/dsd-001/home-auth-login-country-g2-r34/owner-Login-country-acceptance.json
+  home_auth_Register_Google_acceptance: docs/design/dsd-001/home-auth-register-google-g2-r35/owner-Register-Google-return-acceptance.json
+  home_auth_verification_states_acceptance: docs/design/dsd-001/home-auth-email-verification-states-g2-r36/owner-verification-states-acceptance.json
+  home_auth_G2_readiness: docs/design/dsd-001/home-auth-g2-readiness.md
+  home_auth_phone_input_decision: docs/design/dsd-001/home-auth-phone-input-decision.json
+  home_auth_Login_request_acceptance: docs/design/dsd-001/home-auth-login-request-g2-r37/owner-Login-request-states-acceptance.json
+  home_auth_Recovery_request_acceptance: docs/design/dsd-001/home-auth-recovery-request-g2-r38/owner-Recovery-request-states-acceptance.json
+  home_auth_interaction_contract_draft: docs/design/dsd-001/home-auth-interaction-contract.md
+  home_auth_Register_current_acceptance: docs/design/dsd-001/home-auth-register-current-g2-r39/owner-Register-current-states-acceptance.json
+  home_auth_G2_acceptance: docs/design/dsd-001/home-auth-consolidated-g2-r40/owner-G2-r40-acceptance.json
+  home_auth_current_gate: Home Auth Desktop Wireframe G2-r40 accepted; owner stops today at wireframe; no active UI review
+  home_auth_owner_scope_correction: docs/design/dsd-001/home-auth-wireframe-only-stop-decision.json
+  home_auth_next_review: null
+  home_auth_next_review_scope: none; wait for explicit owner instruction before UI or High-Fi
   hero_supplement_version: hero-banner-carousel-1
   hero_supplement_status: owner_accepted_in_bounded_Home_Desktop_r16_closeout_with_open_items
   hero_supplement_spec: docs/design/dsd-001/hero-banner-carousel-spec.md
@@ -396,6 +438,8 @@ tasks:
   previous_draft_version: review-1
   revision_summary: Owner found review-1 too similar and block-like; create three fresh compositions with stronger visual identity. Supplied screenshot is a quality reference, not a selected direction or production asset.
   artifact_links:
+  - docs/design/dsd-001/owner-assets-r1/brand-and-transfer-spec.md
+  - docs/design/dsd-001/owner-assets-r1/review-manifest.json
   - docs/design/dsd-001/visual-direction.md
   - docs/design/dsd-001/token-sheet.md
   - docs/design/dsd-001/typography-spec.md

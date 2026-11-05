@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "purpose": "Primary-source Auth ordering reference before revising Login layout",
+  "sources": [
+    {
+      "name": "Booking.com sign-in",
+      "url": "https://account.booking.com/sign-in",
+      "retrieval": "Live Firecrawl scrape; official page markdown read",
+      "observed_order": [
+        "Account heading and context",
+        "Email field",
+        "Continue with email",
+        "Separated alternate providers including Google"
+      ],
+      "used_for": "Primary form/action grouped before alternate sign-in",
+      "not_copied": [
+        "Two-step email-first identity flow",
+        "Other providers",
+        "Brand/font/assets"
+      ],
+      "screenshot_inspected": false
+    },
+    {
+      "name": "Airbnb login",
+      "url": "https://www.airbnb.com/login",
+      "retrieval": "Loaded in Pencil browser; screenshot timed out60s. Firecrawl public initial page text read separately.",
+      "observed_order": [
+        "Phone or email entry",
+        "Continue",
+        "Alternative separator"
+      ],
+      "limitations": "Cannot verify password or Google placement from retrieved text; not used as evidence for that detail",
+      "screenshot_inspected": false
+    }
+  ],
+  "no_forms_submitted": true,
+  "no_reference_tokens_or_signed_media_urls_stored": true
+}

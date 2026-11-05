@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-05",
+  "official_guidance": "https://developers.google.com/identity/branding-guidelines",
+  "official_archive": "https://developers.google.com/static/identity/images/signin-assets.zip",
+  "archive_entry": "Android + Web/PNG @4x/Light/Theme=Light, Show text=No, Shape=Square, Platform=Android+Web@4x.png",
+  "asset": "google-icon-button-source@4x.png",
+  "sha256": "2bc2ae8e4c67de66d74bf1deed12cd8f22981270266a487576b671b0b4df361c",
+  "use": "Unmodified official asset in a square native image fill; crop to the central G only, preserve its standard gradient colors and aspect ratio. White button surface, explicit Google action text.",
+  "font": "Site label remains Mitr; no supplementary font installed or approved. Full custom-button/provider compliance and live rendering remain separate review, not certified by mock."
+}

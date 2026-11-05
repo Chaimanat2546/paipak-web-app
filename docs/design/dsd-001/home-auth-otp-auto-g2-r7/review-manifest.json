@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth OTP G2-r7 / automatic verification",
+  "status": "owner_accepted_checking_state_only_remaining_states_pending",
+  "owner_behavior_evidence": "../home-auth-otp-auto-verification-decision.json",
+  "accepted_slot_layout": "../home-auth-login-g2-r6/owner-otp-layout-acceptance.json",
+  "previous_review": "../home-auth-login-g2-r6/review-manifest.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "wCZid",
+  "native_comparison": "hkVe5",
+  "native_entry_state": "ynlC3",
+  "native_checking_state": "PmCdx",
+  "Login_initial_entry_reference": "../home-auth-login-g2-r6/d0mD4f.png",
+  "email_password_alternative_reference": "../home-auth-login-g2-r5/mswk5.png",
+  "images": [
+    {
+      "native_id": "wCZid",
+      "image": "wCZid.png",
+      "sha256": "0a6335f5f54d40baa3b1d076bc3fcd959ce3ec1667b0c8bdd5c7218038d44d31"
+    },
+    {
+      "native_id": "hkVe5",
+      "image": "hkVe5.png",
+      "sha256": "00668ceab787491bf5f20c52a6252f3cd5461576d7dba3728965ee3b108e0330"
+    },
+    {
+      "native_id": "ynlC3",
+      "image": "ynlC3.png",
+      "sha256": "9ddf9bf029def1c1fee2e7a94333cc6fc7a1ef16d695efc688005edf49570022"
+    },
+    {
+      "native_id": "PmCdx",
+      "image": "PmCdx.png",
+      "sha256": "731be4b6c6edafced175ba6f9b46eeeeca5652ad40e9cca3d492c26637f51420"
+    }
+  ],
+  "accepted_behavior": "auto advance and immediate verification when six digits are complete",
+  "checking_state_proposal": {
+    "status": "spinner and กำลังตรวจรหัส… in place of confirm action",
+    "digit_slots": "temporarily locked during request",
+    "resend_and_switch_password": "temporarily disabled during request; no new cooldown value",
+    "cancel_back_edit": "remain available; cancel current attempt; stale response must not navigate or apply a session to a departed flow",
+    "repeated_submissions": "prevent concurrent duplicate attempts; no background repeated verification loop"
+  },
+  "fixture_code": "123456; demonstration only, no real request or secret",
+  "remaining_contracts": [
+    "paste/autofill/backspace behavior",
+    "invalid or expired code and retry trigger",
+    "resend policy/expiry/provider",
+    "success origin and cancellation integration"
+  ],
+  "verification": {
+    "six_fixture_slots_verified": true,
+    "screenshots_inspected": [
+      "hkVe5",
+      "PmCdx"
+    ],
+    "visual_observation": "Six equal slots, no manual confirmation action, inline loading marker and message, no visible overflow.",
+    "final_execute_warnings": []
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_and_state_library_changed": false,
+  "UXD_002_changed": false,
+  "owner_checking_state_acceptance": "owner-checking-state-acceptance.json"
+}

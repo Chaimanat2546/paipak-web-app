@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth OTP Input G2-r16 / Backspace then type",
+  "status": "owner_accepted_backspace_sequence_only_remaining_input_contracts_pending",
+  "owner_behavior_evidence": "../home-auth-otp-filled-backspace-decision.json",
+  "empty_slot_evidence": "../home-auth-otp-empty-backspace-decision.json",
+  "paste_evidence": "../home-auth-otp-paste-decision.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "fLEJd",
+  "native_sequence": "Im1AA",
+  "native_states": [
+    "CvY0d",
+    "J06PvU",
+    "mTsI6"
+  ],
+  "images": [
+    {
+      "native_id": "fLEJd",
+      "image": "fLEJd.png",
+      "sha256": "8a1f6a0c53dec4825e71ba20fc85dc9d1008881849fa8cca1041c7223cfeb28f"
+    },
+    {
+      "native_id": "Im1AA",
+      "image": "Im1AA.png",
+      "sha256": "ca9db172f5290a4227a42127936bcfdb71c71a756601cd6143e5ed0ef3c6fe6d"
+    }
+  ],
+  "state_sequence": [
+    {
+      "digits": [
+        "1",
+        "2",
+        "3",
+        "",
+        "",
+        ""
+      ],
+      "focus_slot": 3
+    },
+    {
+      "digits": [
+        "1",
+        "2",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "focus_slot": 2,
+      "next_typing_target": 3
+    },
+    {
+      "digits": [
+        "1",
+        "2",
+        "7",
+        "",
+        "",
+        ""
+      ],
+      "focus_slot": 4
+    }
+  ],
+  "fixture_only": true,
+  "verification": {
+    "screenshot_inspected": "Im1AA",
+    "observation": "Three static examples show delete3, preserved2, then new7 in slot3 with next focus4; slot rows align and no visible clipping.",
+    "execute_warnings": []
+  },
+  "remaining_contracts": [
+    "explicit click/arrow selection override after deletion",
+    "Delete key and first-slot boundary details",
+    "malformed/partial paste",
+    "autofill",
+    "actual wait duration/limits/provider",
+    "whole Auth G2 acceptance"
+  ],
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_and_state_library_changed": false,
+  "UXD_002_changed": false,
+  "owner_backspace_sequence_acceptance": "owner-backspace-sequence-acceptance.json"
+}

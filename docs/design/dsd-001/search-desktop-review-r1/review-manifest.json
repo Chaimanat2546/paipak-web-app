@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Search Desktop-r1",
+  "status": "pending_owner_consolidated_visual_review",
+  "native_root": "vOXl6",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "base": "Home Desktop-r20",
+  "viewport": 1440,
+  "images": [
+    {
+      "native_id": "q8XTl",
+      "role": "open_fields",
+      "image": "q8XTl.png",
+      "sha256": "46c179c69cde8a63f4f6f2a9cfe0ec1b6bb378c6a5ca33ee6a5dbea896d9b001"
+    },
+    {
+      "native_id": "KNJWD",
+      "role": "change_and_clear",
+      "image": "KNJWD.png",
+      "sha256": "155caea034d2f465f7c43c0c6dc7453a9479abdde883fa74de95407c8572b08c"
+    },
+    {
+      "native_id": "EmhJ7",
+      "role": "submit_and_category_handoff",
+      "image": "EmhJ7.png",
+      "sha256": "f5cc026b3e6d20c0778446376c9eee42c640da4c74e2ae1eaa6f5483665dab71"
+    },
+    {
+      "native_id": "IUAch",
+      "role": "four_submit_cases",
+      "image": "IUAch.png",
+      "sha256": "bdb3878ba30bd650373b9c7fa71099d96435ce7c276d5962dee765d468a2e22d"
+    },
+    {
+      "native_id": "vOXl6",
+      "role": "whole_review_board",
+      "image": "vOXl6.png",
+      "sha256": "06520b81742601c8aedb54ce60db178eb3983e4094393bf8066a77a2dc769c63"
+    }
+  ],
+  "accepted_local_evidence": [
+    "../search-home-r20-r2/owner-location-acceptance.json",
+    "../search-dates-home-r20-r1/owner-open-acceptance.json",
+    "../search-dates-home-r20-r3/owner-complete-range-acceptance.json",
+    "../search-dates-home-r20-r4/owner-clear-acceptance.json",
+    "../search-guests-home-r20-r1/owner-normal-count-acceptance.json",
+    "../search-checkin-only-home-r20-r1/owner-visual-acceptance.json",
+    "../search-location-match-home-r20-r2/owner-empty-visual-acceptance.json"
+  ],
+  "pending_visuals": [
+    "Recognized typed area name can submit without repeated selection",
+    "Unresolved nonempty text after submit requires explicit suggestion selection",
+    "Consolidated Search version and handoff presentation"
+  ],
+  "library_rollout": "pending_consolidated_acceptance",
+  "confirmed_home_modified": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "mobile": "paused",
+  "task_complete": false,
+  "open_items": [
+    "C3 keyboard, focus, reduced motion and actual interaction",
+    "C5 supported areas, aliases, normalization, ambiguous/zero suggestions",
+    "C5 numeric validation and capacity contract",
+    "C5 check-in-only availability/query/pricing contract",
+    "OPEN-001 pink/white contrast"
+  ]
+}

@@ -96,3 +96,7 @@ FAQ-r4อยู่หลังบทความก่อนFooter หัวข�
 ## Footer-contact-r5ในHome-r20ที่รับแล้ว
 
 เพิ่มFacebook PageและTikTokในคอลัมน์ติดต่อเรา ใช้brand glyphsPhosphor24px คงLINEและโทรศัพท์เดิม ลำดับLINE → Facebook Page → TikTok → โทรศัพท์ Footer1440pxสูง392pxตามเนื้อหาตัวอย่าง ขอบสระ เมนู โลโก้และกลับบนสุดคงเดิม ข้อมูลชื่อบัญชีpapaipakยังเป็นfixture/ไม่มีURLที่ยืนยัน ดู [รุ่นที่รับ](footer-contact-r5/owner-home-acceptance.json)
+
+## Owner-assets-r1 · โลโก้และข้อมูลจริง
+
+โลโก้จริง3แบบและข้อมูลบัญชี/เงื่อนไขได้รับยืนยันจากเจ้าของแล้ว ใช้แทนสถานะโลโก้สมมติเฉพาะชุดที่ส่งครั้งนี้ ภาพบ้านและข้อมูลติดต่ออื่นคงสถานะเดิม Home-r21และpayment-content moduleในPencilรอตรวจเวอร์ชัน ไม่รับCheckoutทั้งหน้าหรือFrontend ดู [สเปคและขอบเขต](owner-assets-r1/brand-and-transfer-spec.md) และ [ภาพPencil/hash](owner-assets-r1/review-manifest.json) ข้อมูลจริงยืนยันแล้ว และ [Header Desktop-r1.4รับแล้ว](owner-assets-r1/owner-header-r1-4-acceptance.json) เฉพาะHeader ส่วนแบบแก้อื่นยังรอตรวจ

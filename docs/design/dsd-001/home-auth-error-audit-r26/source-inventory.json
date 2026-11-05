@@ -1,0 +1,284 @@
+[
+  {
+    "folder": "home-auth-email-verification-g2-r19",
+    "status_before_audit": "owner_accepted_email_signup_reminder_visual_method_and_whole_G2_pending",
+    "native_nodes": {
+      "native_root": "zZbIa",
+      "native_reminder": "vDPf8",
+      "native_scope_note": "tmk7i"
+    }
+  },
+  {
+    "folder": "home-auth-email-verification-otp-g2-r20",
+    "status_before_audit": "owner_accepted_displayed_OTP_success_only_remaining_Auth_G2_pending",
+    "native_nodes": {
+      "native_root": "q0ilP",
+      "native_comparison": "eT8Bq",
+      "native_OTP": "RukQJ",
+      "native_success": "ip2bA"
+    }
+  },
+  {
+    "folder": "home-auth-g2-r1",
+    "status_before_audit": "pending_owner_Login_structure_review_only",
+    "native_nodes": {
+      "native_root": "OgKpW"
+    }
+  },
+  {
+    "folder": "home-auth-g2-r2",
+    "status_before_audit": "owner_accepted_Login_structure_only_whole_G2_pending",
+    "native_nodes": {
+      "native_root": "yh2Wm",
+      "native_scene": "f2TAg",
+      "native_modal": "Pu3jT",
+      "native_flow": "K1esRE"
+    }
+  },
+  {
+    "folder": "home-auth-google-g2-r17",
+    "status_before_audit": "Google_failure_position_revision_requested_cancellation_still_pending",
+    "native_nodes": {
+      "native_root": "qBGNr",
+      "native_comparison": "Nnfb4",
+      "native_cancelled": "EjvEz",
+      "native_failed": "lDH8c"
+    }
+  },
+  {
+    "folder": "home-auth-google-g2-r18",
+    "status_before_audit": "owner_accepted_displayed_Google_failure_r18_only_cancellation_and_whole_G2_pending",
+    "native_nodes": {
+      "native_root": "HPFZT",
+      "native_failed": "sbCLw",
+      "native_cancelled_reference": "EjvEz"
+    }
+  },
+  {
+    "folder": "home-auth-login-error-placement-g2-r2",
+    "status_before_audit": "C_selected_then_two_step_password_flow_selected",
+    "native_nodes": {
+      "native_root": "u0aE4E"
+    }
+  },
+  {
+    "folder": "home-auth-login-g2-r3",
+    "status_before_audit": "owner_accepted_Login_r3_structure_only_whole_G2_pending",
+    "native_nodes": {
+      "native_root": "VD0Hr",
+      "native_scene": "C2V7pa",
+      "native_modal": "r5hMgj"
+    }
+  },
+  {
+    "folder": "home-auth-login-g2-r4",
+    "status_before_audit": "revision_required_OTP_primary_password_only_on_explicit_choice",
+    "native_nodes": {
+      "native_root": "UXSzw",
+      "native_first_step_scene": "Gptse",
+      "native_first_step_modal": "TxO8X",
+      "native_comparison": "TBu2c",
+      "native_password_step": "y9BBA",
+      "native_password_error_C": "o9jws"
+    }
+  },
+  {
+    "folder": "home-auth-login-g2-r5",
+    "status_before_audit": "pending_owner_structure_review",
+    "native_nodes": {
+      "native_root": "JuAvP",
+      "native_first_step_scene": "iPF08",
+      "native_first_step_modal": "h3kJsC",
+      "native_comparison": "xjlMq",
+      "native_email_OTP": "JZ7qm",
+      "native_email_password_alternative": "mswk5"
+    }
+  },
+  {
+    "folder": "home-auth-login-g2-r6",
+    "status_before_audit": "owner_accepted_OTP_slot_layout_only_remaining_interaction_review_pending",
+    "native_nodes": {
+      "native_root": "Cnd8Z",
+      "native_comparison": "CqdcY",
+      "native_first_step_modal": "d0mD4f",
+      "native_email_OTP": "IRBZ2",
+      "native_six_slot_row": "F331yz"
+    }
+  },
+  {
+    "folder": "home-auth-login-states-g2-r1",
+    "status_before_audit": "pending_owner_generic_credentials_error_only",
+    "native_nodes": {
+      "native_root": "XWgqE",
+      "native_scene": "j2lvK"
+    }
+  },
+  {
+    "folder": "home-auth-otp-auto-g2-r7",
+    "status_before_audit": "owner_accepted_checking_state_only_remaining_states_pending",
+    "native_nodes": {
+      "native_root": "wCZid",
+      "native_comparison": "hkVe5",
+      "native_entry_state": "ynlC3",
+      "native_checking_state": "PmCdx"
+    }
+  },
+  {
+    "folder": "home-auth-otp-backspace-g2-r16",
+    "status_before_audit": "owner_accepted_backspace_sequence_only_remaining_input_contracts_pending",
+    "native_nodes": {
+      "native_root": "fLEJd",
+      "native_sequence": "Im1AA",
+      "native_states": [
+        "CvY0d",
+        "J06PvU",
+        "mTsI6"
+      ]
+    }
+  },
+  {
+    "folder": "home-auth-otp-button-countdown-g2-r13",
+    "status_before_audit": "revision_requested_remove_separate_wait_notice",
+    "native_nodes": {
+      "native_root": "NTs5t",
+      "native_countdown_modal": "QsMQ8"
+    }
+  },
+  {
+    "folder": "home-auth-otp-countdown-only-g2-r14",
+    "status_before_audit": "owner_accepted_countdown_only_visual_remaining_contracts_pending",
+    "native_nodes": {
+      "native_root": "ug3fC",
+      "native_countdown_modal": "E3yBs"
+    }
+  },
+  {
+    "folder": "home-auth-otp-expired-g2-r9",
+    "status_before_audit": "owner_accepted_expired_code_state_only_remaining_states_pending",
+    "native_nodes": {
+      "native_root": "l0oAd8",
+      "native_expired_modal": "t8JxU"
+    }
+  },
+  {
+    "folder": "home-auth-otp-invalid-g2-r8",
+    "status_before_audit": "owner_accepted_invalid_code_state_only_remaining_states_pending",
+    "native_nodes": {
+      "native_root": "b5e3O",
+      "native_invalid_modal": "yA4C7"
+    }
+  },
+  {
+    "folder": "home-auth-otp-resend-failure-g2-r11",
+    "status_before_audit": "owner_accepted_resend_failure_only_remaining_states_pending",
+    "native_nodes": {
+      "native_root": "ziEPO",
+      "native_request_failure": "cZWL1"
+    }
+  },
+  {
+    "folder": "home-auth-otp-resend-g2-r10",
+    "status_before_audit": "owner_accepted_resend_pending_ready_only_remaining_states_pending",
+    "native_nodes": {
+      "native_root": "sNcqa",
+      "native_comparison": "Q3RKu",
+      "native_request_pending": "LRyGj",
+      "native_request_ready": "TiPIP"
+    }
+  },
+  {
+    "folder": "home-auth-otp-resend-wait-g2-r12",
+    "status_before_audit": "revision_requested_countdown_in_button",
+    "native_nodes": {
+      "native_root": "T2uTL",
+      "native_resend_wait": "Q3S76"
+    }
+  },
+  {
+    "folder": "home-auth-otp-verify-failure-g2-r15",
+    "status_before_audit": "owner_accepted_verification_failure_only_input_details_and_whole_G2_pending",
+    "native_nodes": {
+      "native_root": "CdSeA",
+      "native_verification_failure": "d0PtEH"
+    }
+  },
+  {
+    "folder": "home-auth-recovery-g2-r1",
+    "status_before_audit": "Recovery_core_structures_individually_accepted_remaining_Auth_states_and_whole_G2_pending",
+    "native_nodes": {
+      "native_root": "n2gWyS",
+      "native_context": "W2GLH"
+    }
+  },
+  {
+    "folder": "home-auth-recovery-g2-r2",
+    "status_before_audit": "owner_accepted_with_requested_action_removed",
+    "native_nodes": {
+      "native_modal": "IvrCQ",
+      "native_holder": "z2czjz"
+    }
+  },
+  {
+    "folder": "home-auth-register-g2-r1",
+    "status_before_audit": "owner_accepted_Register_structure_only_whole_G2_pending",
+    "native_nodes": {
+      "native_root": "jfNA7",
+      "native_scene": "T8ZNE0",
+      "native_modal": "V9XgD"
+    }
+  },
+  {
+    "folder": "home-auth-register-input-errors-g2-r25",
+    "status_before_audit": "pending_owner_inline_only_validation_visual_review",
+    "native_nodes": {
+      "native_root": "m4q4G",
+      "native_comparison": "lFRIn",
+      "native_required": "RBIcZ",
+      "native_password": "NmXhR"
+    }
+  },
+  {
+    "folder": "home-auth-register-reasons-g2-r24",
+    "status_before_audit": "field_banner_revision_requested_connection_example_still_pending",
+    "native_nodes": {
+      "native_root": "KkkJa",
+      "native_comparison": "ju8mL",
+      "native_field_cause": "ZhY9o",
+      "native_connection_cause": "Wi5mP"
+    }
+  },
+  {
+    "folder": "home-auth-register-request-g2-r23",
+    "status_before_audit": "failure_revision_requested_specific_cause_submitting_still_pending",
+    "native_nodes": {
+      "native_root": "O5RmV",
+      "native_comparison": "w5RC8",
+      "native_submitting": "sv8oc",
+      "native_failure": "AUaUi"
+    }
+  },
+  {
+    "folder": "home-auth-register-validation-g2-r21",
+    "status_before_audit": "owner_accepted_displayed_registration_validation_states_only",
+    "native_nodes": {
+      "native_root": "zxwLB",
+      "native_comparison": "LhNUV",
+      "native_required": "l5oguz",
+      "native_password_rules": "JuD5C"
+    }
+  },
+  {
+    "folder": "home-auth-signup-flow-g2-r22",
+    "status_before_audit": "owner_accepted_signup_flow_only_state_visuals_and_whole_G2_pending",
+    "native_nodes": {
+      "native_root": "wnFtn",
+      "native_diagram": "l3YDNm",
+      "native_key_nodes": {
+        "local_fields": "TGW4D",
+        "validation": "Si9hG",
+        "signup_request": "o1DWrG",
+        "Google_Register_return_proposal": "W4DcU"
+      }
+    }
+  }
+]

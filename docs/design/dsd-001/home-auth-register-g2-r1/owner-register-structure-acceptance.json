@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Register G2-r1",
+  "owner_quote": "1 ขอแก้ login พิ่มสามารถ login ด้วยเบอร์ได้ รหัสผ่านได้",
+  "question": "โครงสมัครสมาชิกนี้โอเคไหมครับ? 1. รับโครงนี้ — ดูลืม/ตั้งรหัสผ่านต่อ 2. ปรับโครงสมัครสมาชิก — แก้ก่อน 3. ดูบนหน้า Home ก่อน — ตรวจขนาดและตำแหน่ง modal",
+  "status": "owner_accepted_Register_structure_only",
+  "native_modal": "V9XgD",
+  "native_scene": "T8ZNE0",
+  "image": "V9XgD.png",
+  "image_sha256": "638a3a00af33d92f291f2b5d53915de1efcc47f6faefb09262c3f901fb914db7",
+  "scope": "Register field inventory/order, primary action, secondary Google and Login return; low-fi anatomy only",
+  "separate_requested_change": "../home-auth-phone-login-amendment.json",
+  "whole_G2_or_High_Fi_approved": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

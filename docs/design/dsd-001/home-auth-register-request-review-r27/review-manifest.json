@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Register Request Review G2-r27",
+  "status": "owner_accepted_both_displayed_register_request_states_whole_G2_pending",
+  "previous_owner_reply": "1 accepts both r25 inline-only validation examples; does not approve the two request states in this review.",
+  "previous_acceptance": "../home-auth-register-input-errors-g2-r25/owner-register-inline-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "oOnjR",
+  "native_comparison": "SWUdD",
+  "items": [
+    {
+      "key": "submitting",
+      "source": "sv8oc",
+      "source_manifest": "../home-auth-register-request-g2-r23/review-manifest.json",
+      "modal": "Y5Zok"
+    },
+    {
+      "key": "known_connection_failure",
+      "source": "Wi5mP",
+      "source_manifest": "../home-auth-register-reasons-g2-r24/review-manifest.json",
+      "modal": "a0qxh"
+    }
+  ],
+  "change": "Assemble copies of the two existing pending request states side by side for review; no changes to their fields, controls, wording or source nodes.",
+  "proposed_behavior": {
+    "submitting": "Temporarily inactive fields/show-password/primary/Google/switch-to-Login, spinner in submit button and no duplicate submission.",
+    "close": "Close remains available to return to active origin. Dismissal does not assert rollback of a server operation.",
+    "known_connection_failure": "Only use this copy when connection failure is the known cause. Stop loading, retain current-flow values, mark no input invalid, show form-level cause and explicit user retry.",
+    "ambiguous_result": "This example is not an unknown-outcome state. Do not assume account creation failed or repeat it blindly; provider contract/reconciliation remains unresolved.",
+    "success": "Retain accepted r22 flow and r19 local-signup reminder; no new verification gate."
+  },
+  "question": "สองสถานะนี้ใช้ตามภาพได้ไหมครับ? 1. ใช้ทั้งคู่ 2. ปรับตอนกำลังสมัคร 3. ปรับตอนเชื่อมต่อไม่ได้",
+  "images": [
+    {
+      "native_id": "oOnjR",
+      "image": "oOnjR.png",
+      "width": 1136,
+      "height": 1129,
+      "sha256": "a49468b8af5ecbcfab4512902288a79ff1d5bdc76fa8fc9bd4a8cea842775cca"
+    },
+    {
+      "native_id": "SWUdD",
+      "image": "SWUdD.png",
+      "width": 1072,
+      "height": 916,
+      "sha256": "f41e9dd5cb8e7f1f8b174d6c45bc13770dd8ae06110f7be71a8d3de15b102b16"
+    },
+    {
+      "native_id": "Y5Zok",
+      "image": "Y5Zok.png",
+      "width": 520,
+      "height": 791,
+      "sha256": "e4d597440923d40766079f2365bce0260f2c628dbbd002e0711aaa1ea1f22b7e"
+    },
+    {
+      "native_id": "a0qxh",
+      "image": "a0qxh.png",
+      "width": 520,
+      "height": 873,
+      "sha256": "ddf516f60e960fe680428d72fb505e00ec0b720b064f3eb7039666ee924ea6de"
+    }
+  ],
+  "verification": {
+    "comparison_and_full_board_exports_inspected": true,
+    "observation": "Both complete forms, close controls, loading label and known-cause feedback visible; no visible clipping in exported comparison/full board.",
+    "ctx_geometry_flags": "Two partly-clipped flags on right panel/notes; full PNGs inspected and rendered contents complete. Geometry visitor alone is not treated as proof.",
+    "execute_warnings": [],
+    "previous_r23_r24_r25_PNGs_verified_unchanged": 12,
+    "historical_images": [
+      {
+        "image": "home-auth-register-request-g2-r23/O5RmV.png",
+        "sha256": "feeeae399e6c3b6bdc95a447abe3ec9484213b34f8695c0e0451a773c2db346b"
+      },
+      {
+        "image": "home-auth-register-request-g2-r23/w5RC8.png",
+        "sha256": "db182240f83c80e39eae260d1e368c9aa4f5a1cfcbf5da9538c8def0cd412665"
+      },
+      {
+        "image": "home-auth-register-request-g2-r23/sv8oc.png",
+        "sha256": "e4d597440923d40766079f2365bce0260f2c628dbbd002e0711aaa1ea1f22b7e"
+      },
+      {
+        "image": "home-auth-register-request-g2-r23/AUaUi.png",
+        "sha256": "5671b83bb973e0979ea061feb1b5dfe1c20a898f25a46dc7c11b11515cc9ab2d"
+      },
+      {
+        "image": "home-auth-register-reasons-g2-r24/KkkJa.png",
+        "sha256": "895efbfdeaaf4d7cc0f1e2f0cc75278d112a0adaaaa50f75b6972034a28b77ef"
+      },
+      {
+        "image": "home-auth-register-reasons-g2-r24/ju8mL.png",
+        "sha256": "f185b58f5f65c2f7580fb3758101843b1a38dae1fdbe824764aff000bfea9210"
+      },
+      {
+        "image": "home-auth-register-reasons-g2-r24/ZhY9o.png",
+        "sha256": "0b65e153e77009467ebc423315b1cebc60be1d8f831cd1c753047986b12e830b"
+      },
+      {
+        "image": "home-auth-register-reasons-g2-r24/Wi5mP.png",
+        "sha256": "ddf516f60e960fe680428d72fb505e00ec0b720b064f3eb7039666ee924ea6de"
+      },
+      {
+        "image": "home-auth-register-input-errors-g2-r25/m4q4G.png",
+        "sha256": "79340e804b3846ab9e4abcc1f550cbecb05470b7a927698f9507f2218fc0756c"
+      },
+      {
+        "image": "home-auth-register-input-errors-g2-r25/lFRIn.png",
+        "sha256": "b8ee7d4a1464c066dc9a0f279a3b218e51a5562c753cf7441e7c2484addb6349"
+      },
+      {
+        "image": "home-auth-register-input-errors-g2-r25/RBIcZ.png",
+        "sha256": "b37aa3341c2c1b0da29dcc8587798730d75df5c8e9fc53cbccd40d6d4b155917"
+      },
+      {
+        "image": "home-auth-register-input-errors-g2-r25/NmXhR.png",
+        "sha256": "6ff2b4e1e70f12226f28f86a75fd3418f3981345c35ca0d4b310951effaf1f9b"
+      }
+    ],
+    "main_Home_or_state_library_mutated": false
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "provider_policy_selected": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "state_library_count_unchanged": 54,
+  "UXD_002_changed": false,
+  "owner_acceptance": "owner-request-states-acceptance.json"
+}

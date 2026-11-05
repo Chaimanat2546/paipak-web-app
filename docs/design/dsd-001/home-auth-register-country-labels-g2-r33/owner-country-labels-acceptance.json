@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "โอเค",
+  "reviewed_prompt": "ปรับใน Pencil และบันทึกสเป็กแล้วครับ ไทยใช้ “ไทย” ส่วนประเทศอื่นใช้ชื่อภาษาอังกฤษ เช่น United Kingdom",
+  "status": "owner_accepted_displayed_country_name_revision",
+  "version": "Home Auth Country Label Language G2-r33",
+  "reviewed_image": "ZWbVr.png",
+  "reviewed_image_sha256": "c09d4893da6fb6e1f322af4c4a1744560ba48cf05c6eba851e2c40433e9143e3",
+  "native_open_picker": "ZWbVr",
+  "accepted_scope": "Displayed country picker naming: ไทย for Thailand; English names for all other countries, demonstrated by United Kingdom. Resolves naming condition on prior r32 set/initial-TH selection without changing the form/flags/codes.",
+  "full_country_inventory_or_normalization_selected": false,
+  "shared_Login_phone_alignment_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

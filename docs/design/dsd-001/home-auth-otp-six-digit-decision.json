@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_layout_request": "อยากได้ otp แบบแยกช่อง",
+  "question": "ต้องการ OTP กี่หลักครับ?",
+  "owner_answer": "6 หลัก (แนะนำ) — แยก 6 ช่อง อ่านและกรอกได้ง่าย",
+  "status": "owner_selected_six_digits_in_six_visual_slots",
+  "OTP_digits": 6,
+  "visual_slots": 6,
+  "channel": "email_only",
+  "phone_Login": "password_retained",
+  "expiry_resend_limits_provider": "not_defined_by_this_choice",
+  "paste_autofill_auto_advance_backspace_autosubmit": "interaction specification pending review; not approved by slot-count choice",
+  "Login_default_email_OTP": true,
+  "registration_password_rule": "unchanged_required_minimum8_and_matching_confirmation",
+  "revised_visual_approved": false,
+  "whole_G2_approved": false,
+  "frontend_or_backend_authorized": false
+}

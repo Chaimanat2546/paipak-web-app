@@ -1,6 +1,20 @@
 project: papaipak.com
 status: provisional_mapping_requires_original_asset_review
 superseded_concepts:
+- id: SUPER-006
+  previous: Blocking Search until a suggestion is chosen for unresolved or partial location text in DSD-001 C1.5
+  replaced_by: UX-001
+  current: Treat the unselected partial or unresolved location as unset and allow Search with other entered criteria. No silent suggestion selection or unresolved-text location query.
+  reason: Owner corrected the final example during Search Desktop-r1 review on 2026-11-05
+  evidence: docs/design/dsd-001/search-desktop-review-r2/owner-location-correction.json
+  scope: Last unresolved-location Search case only; historical records and the earlier recognized exact-name rule retained
+- id: SUPER-005
+  previous: Rejecting Search when check-in is selected without checkout, including the Search portion of UXD-001 E-02 and legacy missing-checkout error references
+  replaced_by: UX-001
+  current: Search with check-in only is allowed; never infer checkout/nights. Booking still requires complete valid stay dates.
+  reason: Owner explicitly instructed เอาแค่วันเข้าก็ค้นหาได้ on 2026-11-05 during DSD-001 C1.4
+  evidence: docs/design/dsd-001/search-checkin-only-home-r20-r1/owner-rule-change.json
+  scope: Search only; preserve historical approved versions and pending UXD-002 review-5 evidence
 - id: SUPER-001
   previous: SaaS-like profile form / tabbed profile / account hub early drafts
   replaced_by: PAGE-009

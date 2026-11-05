@@ -33,6 +33,8 @@ open_decisions:
   - visual baseline approval
   owner_role: project_owner_or_domain_reviewer
   resolution_status: not_yet_verified
+  partial_owner_asset_evidence: docs/design/dsd-001/owner-assets-r1/asset-manifest.json
+  partial_scope: Owner real logo files collected and confirmed; original property/reference assets and final revised visual baseline remain pending.
 - id: OPEN-003
   title: BeamCheckout provider contract
   status: open

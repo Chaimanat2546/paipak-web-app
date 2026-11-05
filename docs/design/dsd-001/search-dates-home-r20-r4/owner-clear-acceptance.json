@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "checklist_item": "C1.2 / clear dates before-and-after",
+  "version": "Search dates Home-r20-r4",
+  "owner_quote": "1",
+  "question": "ใช้แบบนี้ไหมครับ? 1. รับภาพนี้ แล้วตรวจผู้เข้าพักต่อ 2. ปรับหน้าตาหรือข้อความหลังล้าง 3. ดูกรณีล้างหลังเลือกแค่วันเข้าก่อน",
+  "status": "owner_accepted_clear_date_comparison_and_bounded_C1_2_design_images",
+  "native_comparison": "KlZFQ",
+  "native_before": "Qb5fQ",
+  "native_after": "MWWBP",
+  "image": "KlZFQ.png",
+  "image_sha256": "716e63b334faed7843ae9586db31d98cc759f5c2a7097ef9568f8bb86078f45c",
+  "scope": "Clearing12–14Dec restores date placeholder/removes clear icon while Pattaya,12 guests,1 pet are retained in the explicitly prefilled closed-panel fixture",
+  "bounded_C1_2_design_images_complete": true,
+  "retained_C1_2_approvals": [
+    "../search-dates-home-r20-r1/owner-open-acceptance.json",
+    "../search-dates-home-r20-r2/owner-checkin-acceptance.json",
+    "../search-dates-home-r20-r3/owner-complete-range-acceptance.json"
+  ],
+  "validation_C1_4_approved": false,
+  "whole_search_version_approved": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

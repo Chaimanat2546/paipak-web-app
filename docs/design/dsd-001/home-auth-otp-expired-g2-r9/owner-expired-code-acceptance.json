@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "แบบนี้โอเคไหมครับ? 1. รับแบบนี้ ปุ่มส่งรหัสใหม่เด่นชัด 2. ใช้ลิงก์ส่งรหัสใหม่ขนาดเล็กเหมือนเดิม 3. ปรับข้อความหรือการจัดวางก่อน",
+  "status": "owner_accepted_expired_code_state_with_explicit_primary_request",
+  "version": "Home Auth OTP G2-r9",
+  "reviewed_image": "t8JxU.png",
+  "reviewed_image_sha256": "a5a5caf0d02795da02fcb73f0b13d55bf3c58dc1ae37bbe8937a841a31bc171b",
+  "accepted_scope": {
+    "trigger": "authoritative verification result reports expired code; not inferred from an invented client timer",
+    "message": "รหัสหมดอายุ กรุณาขอรหัสใหม่",
+    "digits": "clear six slots, inactive until a new request is accepted",
+    "email": "retain selected email",
+    "primary_action": "ส่งรหัสใหม่; user initiated",
+    "automatic_resend": false,
+    "old_code_retry": false,
+    "request_action_followup": "show request pending; allow fresh entry after successful request, without asserting delivery to inbox",
+    "password_back_edit_close": "remain available"
+  },
+  "request_pending_ready_visuals_approved": false,
+  "expiry_resend_values_provider_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

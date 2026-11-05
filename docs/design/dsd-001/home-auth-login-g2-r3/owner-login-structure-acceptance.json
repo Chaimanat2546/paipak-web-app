@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth Login G2-r3",
+  "owner_quote": "1",
+  "question": "โครง Login รุ่นนี้โอเคไหมครับ? 1. รับรุ่นนี้ — ดูลืม/ตั้งรหัสผ่านต่อ 2. ขอปรับอีก — แก้ก่อน 3. ดูบน Home — ตรวจในบริบทหน้าเว็บ",
+  "status": "owner_accepted_Login_G2_r3_structure_only",
+  "native_modal": "r5hMgj",
+  "native_scene": "C2V7pa",
+  "image": "r5hMgj.png",
+  "image_sha256": "3baf75d0302a1ec42706a328ec984fc4b50ac02fd18e7655089d906e6b17f920",
+  "scope": "Email-or-phone plus password in one identifier field, Google and existing Login ordering; low-fi anatomy only",
+  "whole_Auth_G2_approved": false,
+  "Recovery_states_approved": false,
+  "High_Fi_approved": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

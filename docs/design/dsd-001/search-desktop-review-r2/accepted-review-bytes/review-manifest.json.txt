@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-05",
+  "task": "DSD-001",
+  "version": "Search Desktop-r2",
+  "status": "owner_accepted_unselected_case_pending_consolidated_version_review",
+  "native_root": "WjXRA",
+  "images": [
+    {
+      "native_id": "WjXRA",
+      "image": "WjXRA.png",
+      "sha256": "6ec9b957bbc7fedb06f66569acd90d92ee7469a6384607bfa274f05c8bc78129"
+    },
+    {
+      "native_id": "FZqEv",
+      "image": "FZqEv.png",
+      "sha256": "46c179c69cde8a63f4f6f2a9cfe0ec1b6bb378c6a5ca33ee6a5dbea896d9b001"
+    },
+    {
+      "native_id": "eK99U",
+      "image": "eK99U.png",
+      "sha256": "155caea034d2f465f7c43c0c6dc7453a9479abdde883fa74de95407c8572b08c"
+    },
+    {
+      "native_id": "NLy42",
+      "image": "NLy42.png",
+      "sha256": "02578f29a6dfb30f8cd004f5a9910519871a366d592302cce0afc1fa79c9671f"
+    },
+    {
+      "native_id": "VwDp7",
+      "image": "VwDp7.png",
+      "sha256": "f43496d22702c3233818d24cc47e26491efbd7b05aecba4986b799f1407a5f1f"
+    },
+    {
+      "native_id": "PsGZV",
+      "image": "PsGZV.png",
+      "sha256": "290395781143032751c83476a50622c44025b7a7fccf3230fe62437c8bdc16ab",
+      "approval_scope": "owner_accepted_this_viewport_only"
+    }
+  ],
+  "source": "../search-desktop-review-r1/review-manifest.json",
+  "owner_rule": "owner-location-correction.json",
+  "changed": "Last unselected partial-location case: normal Search field, no error or required-selection popup; submission allowed with location unset. Updated associated notes. Other Search states copied unchanged.",
+  "library_rollout": "pending_consolidated_acceptance",
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "task_complete": false,
+  "local_unselected_visual_acceptance": "owner-unselected-visual-acceptance.json"
+}

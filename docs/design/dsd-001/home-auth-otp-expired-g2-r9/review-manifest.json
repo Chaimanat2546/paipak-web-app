@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth OTP G2-r9 / expired code",
+  "status": "owner_accepted_expired_code_state_only_remaining_states_pending",
+  "accepted_previous_state": "../home-auth-otp-invalid-g2-r8/owner-invalid-code-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "l0oAd8",
+  "native_expired_modal": "t8JxU",
+  "images": [
+    {
+      "native_id": "l0oAd8",
+      "image": "l0oAd8.png",
+      "sha256": "cef8d5d5b62a39bb60a7a18bb46fa72ed683bedc532ca8fe54cd3fd8c674b787"
+    },
+    {
+      "native_id": "t8JxU",
+      "image": "t8JxU.png",
+      "sha256": "a5a5caf0d02795da02fcb73f0b13d55bf3c58dc1ae37bbe8937a841a31bc171b"
+    }
+  ],
+  "expired_state_proposal": {
+    "trigger": "authoritative verification result reports expired code; not inferred from an invented client timer",
+    "message": "รหัสหมดอายุ กรุณาขอรหัสใหม่",
+    "digits": "clear six slots, inactive until a new request is accepted",
+    "email": "retain selected email",
+    "primary_action": "ส่งรหัสใหม่; user initiated",
+    "automatic_resend": false,
+    "old_code_retry": false,
+    "request_action_followup": "show request pending; allow fresh entry after successful request, without asserting delivery to inbox",
+    "password_back_edit_close": "remain available"
+  },
+  "expiry_duration_resend_limits_attempt_limits_provider": "not_selected",
+  "verification": {
+    "reviewed_r8_png_hashes_match": true,
+    "screenshot_inspected": "t8JxU",
+    "observation": "Six inactive slots, expiry feedback, one request-new-code primary and password alternative; no visible clipping.",
+    "execute_warnings": []
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_and_state_library_changed": false,
+  "UXD_002_changed": false,
+  "owner_expired_code_acceptance": "owner-expired-code-acceptance.json",
+  "retrospective_error_consistency_review": "../home-auth-error-audit-r26/review-manifest.json",
+  "later_field_placement_rule": "../home-auth-register-input-errors-g2-r25/owner-input-placement-clarification.json"
+}

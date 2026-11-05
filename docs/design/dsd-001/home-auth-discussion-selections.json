@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "checklist_item": "C2 scope discussion",
+  "status": "flow_and_channel_choices_confirmed_G0_subsequently_approved",
+  "flow_scope_choice": {
+    "owner_quote": "3",
+    "selected": "Login, register and forgot-password flows"
+  },
+  "channels_choice": {
+    "owner_quote": "2",
+    "selected": "Email/password and Google"
+  },
+  "plan": "home-auth-g0-brief.md",
+  "plan_version": "Home Auth Desktop G0 plan-1",
+  "proposed_task_scope_addendum": "Home Desktop Auth modal only under DSD-001, explicitly pending G0 approval",
+  "UID_005_started": false,
+  "ui_design_authorized_by_these_choices": false,
+  "frontend_authorized": false,
+  "task_complete": false,
+  "G0_approval": "home-auth-g0-approval.json",
+  "historical_scope_note": "Original choices alone did not authorize UI; subsequent explicit G0 approval authorizes bounded scope per approval record"
+}

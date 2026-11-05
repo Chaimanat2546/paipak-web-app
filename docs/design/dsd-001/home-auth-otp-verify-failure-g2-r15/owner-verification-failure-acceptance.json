@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "แบบนี้โอเคไหมครับ? 1. รับแบบนี้ แล้วตรวจการวางรหัสและการลบต่อ 2. ล้างรหัส ให้กรอกใหม่แทน 3. ปรับข้อความหรือการจัดวางก่อน",
+  "status": "owner_accepted_verification_failure_retained_code_explicit_retry",
+  "version": "Home Auth OTP G2-r15",
+  "reviewed_image": "d0PtEH.png",
+  "reviewed_image_sha256": "8efec901ae59536e322c6ffc7f38f147e6199f2146669ec0cbb7e93275d7d1b4",
+  "scenario": "indeterminate verification failure, not authoritative invalid/expired response",
+  "accepted_scope": {
+    "message": "ตรวจรหัสไม่สำเร็จ กรุณาลองอีกครั้ง",
+    "primary": "ลองตรวจอีกครั้ง",
+    "email_and_digits": "retain in current uninterrupted flow; editable",
+    "retry_unchanged_code": "explicit user click only, if allowed; no automatic resubmission loop",
+    "changed_code": "six-digit completion follows selected automatic verification rule",
+    "alternatives": "resend/password/back/edit/close available subject to applicable restrictions",
+    "session": "do not infer authenticated state from ambiguous result; provider/session reconciliation remains future implementation contract",
+    "persistence": "no cross-reload recovery of entered OTP"
+  },
+  "paste_autofill_backspace_approved": false,
+  "actual_wait_duration_quota_provider_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

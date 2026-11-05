@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "decision": "A1.2 email registration required fields",
+  "owner_quote": "1",
+  "question": "ช่องไหนต้องบังคับกรอกตอนสมัคร? 1. ทุกช่อง 2. เบอร์โทรไม่บังคับ ที่เหลือบังคับ 3. บังคับแค่อีเมลกับรหัสผ่าน",
+  "status": "owner_confirmed_all_five_email_registration_fields_required",
+  "required_fields": [
+    "first_name",
+    "last_name",
+    "phone",
+    "email",
+    "password"
+  ],
+  "field_inventory": "home-auth-registration-fields-decision.json",
+  "scope": "Email/password registration only. Required-field presence does not define detailed input validation, phone verification or Google profile completion.",
+  "password_confirmation": "pending_separate_decision",
+  "password_policy": "pending_owner_decision",
+  "phone_format_and_verification": "pending_contract; no legacy pattern or OTP adopted",
+  "google_missing_profile_data_policy": "pending_owner_decision",
+  "ui_layout_or_final_version_approved": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

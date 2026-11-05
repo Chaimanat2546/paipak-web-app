@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "ใช้สองสถานะนี้ได้ไหมครับ? 1. ใช้ทั้งคู่ — ไปตรวจกรณีบันทึกไม่สำเร็จ 2. ปรับตอนกำลังบันทึก — ฝั่งซ้าย 3. ปรับตอนบันทึกสำเร็จ — ฝั่งขวา",
+  "status": "owner_accepted_displayed_saving_and_confirmed_saved_samples",
+  "version": "Home Auth Favorite Return G2-r28",
+  "reviewed_image": "yZwwg.png",
+  "reviewed_image_sha256": "f065ca8763843e82294fbd0a9555a7088d8838c40fc541e2c6b66d54f35301e0",
+  "native_comparison": "yZwwg",
+  "native_saving": "xB6Hu",
+  "native_saved": "e65FIF",
+  "accepted_scope": {
+    "saving": "Displayed loading marker at the existing favorite target after successful Auth while the save result is pending; suppress repeat action and do not show saved yet.",
+    "confirmed_saved": "Displayed22px pink filled heart without circle and check/message บันทึกบ้านแล้ว after the favorite result is confirmed.",
+    "origin": "Keep Home origin, vertical/row/photo position under the existing active-flow contract; no second heart click required.",
+    "boundary": "Cropped-card feedback appearance/behavior only; not a new Home layout/member Header or approval of failed/ambiguous states."
+  },
+  "toast_whole_page_position_or_lifetime_selected": false,
+  "failure_or_ambiguous_result_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "contrast_or_keyboard_certified": false,
+  "frontend_or_backend_authorized": false,
+  "state_library_rollout_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

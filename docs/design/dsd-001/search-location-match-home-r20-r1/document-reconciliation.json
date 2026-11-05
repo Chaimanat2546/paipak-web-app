@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-05",
+  "status": "owner_confirmed_location_rule_visual_pending",
+  "owner_record": "owner-location-rule.json",
+  "previous_responsive_spec": "previous-contracts/manifest.json",
+  "prior_approval_records_modified": false,
+  "canonical_files": [
+    {
+      "name": "visual-direction.md",
+      "current_sha256": "8d9e46bd71184ff947afea5e2b34eb1c353ffacde367bf03697b39b9b42e17f3"
+    },
+    {
+      "name": "token-sheet.md",
+      "current_sha256": "f8b219fffaa810cc1a2908704df6d853b883b228022fcca1978c9729c745d1f6"
+    },
+    {
+      "name": "typography-spec.md",
+      "current_sha256": "776092de329dde10b239766ab4362414da66915c7178232dd346ea33a8768ef6"
+    },
+    {
+      "name": "responsive-visual-guidelines.md",
+      "current_sha256": "c651463f2d8c0337e22729d0d75ef7e2a69551b51d71db9d083e70a49518b982"
+    }
+  ],
+  "application_code_changed": false,
+  "uxd002_review5_modified": false
+}

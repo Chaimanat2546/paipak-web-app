@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "ต้องการแบบไหนครับ? 1. รับแบบนี้ ล้างรหัสแล้วเริ่มใหม่ 2. เก็บรหัสเดิมไว้ ให้แก้เฉพาะตัวที่ต้องการ 3. ปรับข้อความหรือหน้าตาการแจ้งเตือนก่อน",
+  "status": "owner_accepted_invalid_code_state_clear_all_six",
+  "version": "Home Auth OTP G2-r8",
+  "reviewed_image": "yA4C7.png",
+  "reviewed_image_sha256": "bf450a5ad4f9bfc5d2127142c79036b50c7162d1be1f3b5e7738956edde2f5e1",
+  "accepted_scope": {
+    "message": "รหัสไม่ถูกต้อง กรุณากรอกใหม่",
+    "digits": "clear all six rejected digits",
+    "focus": "return to first slot; dark stroke is low-fi structural cue, not final focus-system approval",
+    "verification": "wait for new six-digit completion, no repeated submission of unchanged rejected code",
+    "error_clear": "when user starts a new entry",
+    "identifier": "retain current email",
+    "resend_and_password_switch": "available again after request finishes, subject to later policy",
+    "automatic_resend": false
+  },
+  "expired_code_or_resend_policy_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

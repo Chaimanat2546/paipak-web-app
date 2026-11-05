@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "เวลาวางรหัส6หลัก ต้องการให้เติมช่องแบบไหนครับ? 1. วางจากช่องไหนก็ได้ เติมครบทั้ง6ช่อง ไม่ต้องกลับช่องแรก 2. วางครบได้เฉพาะช่องแรก กำหนดจุดเริ่มชัดเจน 3. วางเริ่มจากช่องที่เลือก เช่นเลือกช่อง3ก็เติมตั้งแต่ช่อง3 เหมาะกับวางบางส่วน",
+  "status": "owner_selected_full_six_digit_paste_from_any_slot",
+  "accepted_scope": {
+    "paste": "a complete six-digit code pasted into any slot replaces all six positions",
+    "verification": "follow accepted auto-verification at six digits once per completed paste; no duplicate request loop",
+    "leading_zero": "retain all six digit characters including any leading zero"
+  },
+  "incomplete_overlong_nondigit_whitespace_paste": "pending; no silent truncation or invented normalization selected",
+  "backspace_delete_autofill_details": "pending",
+  "new_visual_or_whole_G2_approved": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

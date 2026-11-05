@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth OTP G2-r8 / invalid code",
+  "status": "owner_accepted_invalid_code_state_only_remaining_states_pending",
+  "accepted_previous_state": "../home-auth-otp-auto-g2-r7/owner-checking-state-acceptance.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "b5e3O",
+  "native_invalid_modal": "yA4C7",
+  "images": [
+    {
+      "native_id": "b5e3O",
+      "image": "b5e3O.png",
+      "sha256": "c053da03444179c9af0d032ed799ac4f6d735855a6894e09fc614fe9e8ecd310"
+    },
+    {
+      "native_id": "yA4C7",
+      "image": "yA4C7.png",
+      "sha256": "bf450a5ad4f9bfc5d2127142c79036b50c7162d1be1f3b5e7738956edde2f5e1"
+    }
+  ],
+  "invalid_state_proposal": {
+    "message": "รหัสไม่ถูกต้อง กรุณากรอกใหม่",
+    "digits": "clear all six rejected digits",
+    "focus": "return to first slot; dark stroke is low-fi structural cue, not final focus-system approval",
+    "verification": "wait for new six-digit completion, no repeated submission of unchanged rejected code",
+    "error_clear": "when user starts a new entry",
+    "identifier": "retain current email",
+    "resend_and_password_switch": "available again after request finishes, subject to later policy",
+    "automatic_resend": false
+  },
+  "not_selected": [
+    "expiry/resend/attempt limits/provider",
+    "paste/autofill/backspace behavior",
+    "expired code and network/provider failure states"
+  ],
+  "verification": {
+    "screenshot_inspected": "yA4C7",
+    "observation": "Six equal empty slots, first-slot focus cue, feedback below fields and restored actions; no visible overflow.",
+    "reviewed_r7_png_hashes_match": true
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "main_Home_and_state_library_changed": false,
+  "UXD_002_changed": false,
+  "owner_invalid_code_acceptance": "owner-invalid-code-acceptance.json",
+  "retrospective_error_consistency_review": "../home-auth-error-audit-r26/review-manifest.json",
+  "later_field_placement_rule": "../home-auth-register-input-errors-g2-r25/owner-input-placement-clarification.json"
+}

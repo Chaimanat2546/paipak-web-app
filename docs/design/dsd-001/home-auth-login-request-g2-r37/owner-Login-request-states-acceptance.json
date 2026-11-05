@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "ใช้ชุดนี้ได้ไหมครับ? 1. ใช้ทั้ง4สถานะ 2. ปรับตอนกำลังส่ง — ฝั่งซ้าย 3. ปรับตอนเชื่อมต่อไม่ได้ — ฝั่งขวา",
+  "status": "owner_accepted_four_displayed_current_Login_request_states",
+  "version": "Home Auth Current Login Request States G2-r37",
+  "reviewed_image": "PNaVg.png",
+  "reviewed_image_sha256": "aa43ab43dfd1b5e172528f95180f8b17bbb033e44ed738b5dea8840600f2398f",
+  "native_modals": [
+    "wp6Gt",
+    "TYi9y",
+    "fS0KD",
+    "F5y0ir"
+  ],
+  "accepted_scope": [
+    "Initial Login OTP request pending and known connection failure before code entry.",
+    "Password Login pending and known connection failure, using the shown phone sample and same pattern for explicit email/password.",
+    "Pending spinner/pause controls, retained active form values, form-level known-cause feedback and user-initiated retry.",
+    "Retain separate credential-pair rejection and accepted close/clear-all/origin rules."
+  ],
+  "new_Login_password_minimum_selected": false,
+  "timeout_provider_or_delivery_policy_selected": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false,
+  "commit_push_or_deploy_authorized": false
+}

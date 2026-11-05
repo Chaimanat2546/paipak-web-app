@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "ก็วางๆไปเราไม่จำเป็นต้อง focus แต่ถ้าวางไม่ได้ก็ไม่ต้องใส่เพราะรับแค่เลข",
+  "status": "owner_clarified_simple_paste_ignore_unusable_input",
+  "rule": {
+    "accepted_input": "usable numeric six-digit OTP under existing accepted paste/extraction rules",
+    "usable_paste": "populate all six slots and follow selected automatic verification",
+    "unusable_paste": "do not insert or alter existing digits; do not submit a verification request",
+    "additional_UI": "no new warning, code selector or extra paste workflow",
+    "focus": "do not infer a new technical focus-management rule from the owner saying not to focus on this detail; retain selected input navigation behavior"
+  },
+  "supersedes": "pending three-way rejected/ambiguous-paste UI question; owner did not choose any numbered option",
+  "existing_text_extraction_rule": "retained for one unambiguous complete six-digit numeric code; no arbitrary choice or truncation",
+  "grouping_normalization": "no added normalization behavior selected; unusable input follows ignore rule without another design blocker",
+  "actual_verification_error_states": "retained; this clarification applies only to pasted input acceptance",
+  "pencil_annotation": {
+    "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+    "note": "GGu0r",
+    "screenshot_inspected": true,
+    "execute_warnings": []
+  },
+  "accepted_form_visuals_changed": false,
+  "whole_G2_approved": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

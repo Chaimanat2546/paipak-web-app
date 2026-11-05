@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-05",
+  "reason": "Before owner location exact-name rule reconciliation",
+  "files": [
+    {
+      "source": "docs/design/dsd-001/responsive-visual-guidelines.md",
+      "archive": "responsive-visual-guidelines.md.txt",
+      "sha256": "7c82e43841d3a4e8b971199a9266943a1c5e5c3be0f0976f7e9c4b74aacdf840",
+      "bytes": 22746
+    }
+  ]
+}

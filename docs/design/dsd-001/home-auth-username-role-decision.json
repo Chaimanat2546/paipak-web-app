@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "decision": "Username role and duplicate names",
+  "owner_quote": "1",
+  "question": "Username ซ้ำกับคนอื่นได้ไหมครับ? 1. ซ้ำได้ ใช้เป็นชื่อที่แสดง 2. ห้ามซ้ำ ให้ผู้ใช้เปลี่ยนเอง 3. ห้ามซ้ำ แต่เสนอชื่อว่างให้เลือก",
+  "status": "owner_confirmed_nonunique_display_username",
+  "username_role": "display_name",
+  "duplicate_values_allowed": true,
+  "uniqueness_or_availability_check_required": false,
+  "auto_suffix_or_unique_suggestions_required": false,
+  "login_channels_unchanged": [
+    "email_password",
+    "google"
+  ],
+  "username_login_authorized": false,
+  "email_registration_username_required": true,
+  "google_missing_username": "Fill in account later per home-auth-google-profile-decision.json",
+  "username_character_and_length_constraints": "pending_contract; do not infer uniqueness",
+  "visual_approval": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

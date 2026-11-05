@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "supplement": "Owner real logo and transfer-content update",
+  "owner_quote": "ก็ของจริงก็คือสรุปเอาไปใส่ในสเปคและทำใน ui ด้วย",
+  "status": "owner_confirmed_actual_assets_and_content_authorized_specification_and_UI_update",
+  "display_site_name": "papaipak",
+  "domain": "papaipak.com",
+  "logo_artwork_name": "เดี๋ยวพาไปพัก",
+  "logo_variants": [
+    "color",
+    "white",
+    "color_with_blue_outline"
+  ],
+  "bank": {
+    "bank_name": "ธนาคารกสิกรไทย",
+    "account_holder": "น.ส. อรปรียา ทัศนาเวช",
+    "account_number_display": "227-2-93697-0",
+    "account_number_digits": "2272936970",
+    "source": "assets/bank-account-source.png",
+    "account_type": "not_supplied"
+  },
+  "booking_terms": {
+    "source_instruction": "กรุณาอ่านกฎการจองบ้านก่อนโอนเงินทุกครั้ง",
+    "source_post_transfer_restriction": "เมื่อโอนเงินแล้วจะไม่สามารถยกเลิก เปลี่ยนบ้านที่เข้าพักหรือเปลี่ยนแปลงวันเข้าพักได้",
+    "UI_instruction": "อ่านกฎการจองบ้านก่อนโอนเงินทุกครั้ง",
+    "UI_post_transfer_restriction": "เมื่อโอนเงินแล้วจะไม่สามารถยกเลิก เปลี่ยนบ้านที่เข้าพัก หรือเปลี่ยนแปลงวันเข้าพักได้",
+    "authority": "Owner explicitly confirmed supplied image as real and directed specification/UI use",
+    "refund_or_exception_policy": "not stated in source; do not infer no-refund, cancellation fees or legal conclusions"
+  },
+  "authorized_scope": "Preserve supplied logo pixels; add real content to specs and bounded Pencil Header/Footer and transfer-content module. Preserve existing approved sources and active Auth work.",
+  "new_full_checkout_or_payment_backend_started": false,
+  "new_visual_version_approved": false,
+  "frontend_or_deploy_authorized": false
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Auth acknowledgement G2-r2",
+  "owner_quote": "1 ไม่มีเปลี่ยนอีเมลใหม่",
+  "question": "โครงหน้านี้และปุ่มต่าง ๆ โอเคไหมครับ? 1. รับหน้านี้ — ดูตั้งรหัสใหม่ต่อ 2. ปรับข้อความหรือปุ่ม — แก้ก่อน 3. ดูคู่กับหน้ากรอกอีเมล — เทียบสองขั้นตอน",
+  "status": "owner_accepted_acknowledgement_with_explicit_Change_email_removal",
+  "approval_basis": "Owner accepted presented acknowledgement conditional on removing Change email. Only the requested action is removed; remaining copy/Login return/resend/close preserved.",
+  "presented_original_image": "../home-auth-recovery-g2-r1/z5EJtN.png",
+  "presented_original_sha256": "f790d61f378b77cc406921e293fb8ef02aa6145c786247cca930ea94143c0030",
+  "revised_native_modal": "IvrCQ",
+  "revised_image": "IvrCQ.png",
+  "revised_image_sha256": "83bb2d2f27eac1cf581dffc03eb56e50d0e9c9509e2a3b814d5743d5cf7832cc",
+  "removed_action": "Change recovery email on acknowledgement only",
+  "retained_actions": [
+    "Back to Login",
+    "Resend reset link",
+    "Close Auth"
+  ],
+  "original_recovery_email_input_approved_to_remove": false,
+  "resend_cooldown_or_quota_defined": false,
+  "actual_email_delivery_verified": false,
+  "other_Recovery_states_or_whole_G2_approved": false,
+  "High_Fi_approved": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

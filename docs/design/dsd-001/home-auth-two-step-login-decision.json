@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "คุณอยากไปทางไหนครับ? 1. แบ่งเป็นขั้น แต่คงวิธีเดิม: อีเมล/เบอร์ → รหัสผ่าน และยังมี Google 2. ใช้แนวรหัสยืนยันใกล้ Airbnb 3. คง flow ปัจจุบัน",
+  "status": "owner_selected_two_step_Login_retaining_password_and_Google",
+  "flow_concept": [
+    "Email or phone identifier",
+    "Continue to password stage",
+    "Authenticate using password or use Google from initial step"
+  ],
+  "auth_methods_unchanged": [
+    "email_password",
+    "phone_password",
+    "Google"
+  ],
+  "OTP_SMS_or_new_provider_added": false,
+  "signup_field_rules_unchanged": true,
+  "forgot_reset_email_link_unchanged": true,
+  "username_nonunique_display_role_unchanged": true,
+  "error_C_placement_retained_for_password_stage": true,
+  "one_page_Login_structure_superseded_for_current_flow": true,
+  "previous_approval_evidence_retained": "home-auth-login-g2-r3/owner-login-structure-acceptance.json",
+  "stage1_account_existence_disclosure_authorized": false,
+  "design_revision_authorized_within_existing_G0": true,
+  "new_screens_or_whole_G2_approved": false,
+  "new_visual_revision": "home-auth-login-g2-r4/review-manifest.json",
+  "UID_005_started": false,
+  "High_Fi_started": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

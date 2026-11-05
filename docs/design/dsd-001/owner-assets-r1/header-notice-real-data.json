@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "แล้วไม่ใส่ข้อมูลอ่ะ",
+  "correction": "Fill restored Header notice with confirmed account holder; do not leave dots.",
+  "supersedes": "header-notice-correction.json only for literal unfilled placeholder wording; preserve under-logo location.",
+  "header_notice": "กรุณาโอนเงินเข้าบัญชีชื่อ น.ส. อรปรียา ทัศนาเวช",
+  "account_holder_source": "owner-content-confirmation.json / bank.account_holder",
+  "company_phrase": "Replaced legacy placeholder phrase with supplied actual recipient; no company name or account type invented.",
+  "native_notice": "bjmyt",
+  "new_visual_approved": false,
+  "Auth_or_backend_or_frontend_changed": false
+}

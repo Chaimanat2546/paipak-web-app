@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Register Username G2-r31",
+  "status": "owner_accepted_Username_helper_fixture_and_specific_inline_errors_whole_G2_pending",
+  "accepted_character_rule": "../home-auth-username-format-decision.json",
+  "accepted_length_rule": "../home-auth-username-length-decision.json",
+  "native_source": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "native_root": "Ru1ej",
+  "native_comparison": "IVcGY",
+  "native_default_form": "DLW0h",
+  "native_Username_group": "bHWw5",
+  "native_helper": "w7xVaK",
+  "source_form": "V9XgD",
+  "source_bare_field_group": "xkUnq",
+  "items": [
+    {
+      "key": "normal",
+      "fixture": "tawan01",
+      "modal": "DLW0h"
+    },
+    {
+      "key": "characters",
+      "fixture": "tawan_01",
+      "panel": "SdQkH",
+      "group": "oLTL6",
+      "message": "ใช้ภาษาอังกฤษและตัวเลขเท่านั้น"
+    },
+    {
+      "key": "too_short",
+      "fixture": "ab",
+      "panel": "CVIgO",
+      "group": "XQeCZ",
+      "message": "Username ต้องมีอย่างน้อย 3 ตัวอักษร"
+    },
+    {
+      "key": "too_long",
+      "fixture": "tawan0000000000000000",
+      "panel": "sUNzO",
+      "group": "uU39o",
+      "message": "Username ต้องไม่เกิน 20 ตัวอักษร"
+    }
+  ],
+  "change": "Reconcile Register current fixture/helper and add three field-only validation examples for selected Username rules. Retain other fields/actions and earlier required/password validation placement; source images not modified.",
+  "retained_rules": {
+    "character_set": "A-Z/a-z/0-9 only",
+    "length_inclusive": [
+      3,
+      20
+    ],
+    "duplicate_names_allowed": true,
+    "role": "display_only_not_Login",
+    "letters_and_digits_both_required": false,
+    "empty_required": "Retain accepted required message, not re-proposed as a new rule.",
+    "Google": "Independent existing path; no new profile completion/email verification gate."
+  },
+  "not_selected": [
+    "Automatic truncation/normalization or paste behavior for invalid Username",
+    "New phone/provider policy",
+    "Whole Auth G2/High-Fi/implementation"
+  ],
+  "images": [
+    {
+      "native_id": "Ru1ej",
+      "image": "Ru1ej.png",
+      "width": 1136,
+      "height": 1071,
+      "sha256": "4847a320d8651b7b179fc6156ff13d1b6bff410ad15d2b0ccafa0352f2bb12de"
+    },
+    {
+      "native_id": "IVcGY",
+      "image": "IVcGY.png",
+      "width": 1072,
+      "height": 858,
+      "sha256": "315bec625ecb8b781e52c122a9d6a70eb253a6089a448b4b772cabae0b97a139"
+    },
+    {
+      "native_id": "DLW0h",
+      "image": "DLW0h.png",
+      "width": 520,
+      "height": 818,
+      "sha256": "c380cac2b96750cfcf2dbdd2c4ea005c8a58d0f219d1d7ca3803a0b7a8ef548a"
+    },
+    {
+      "native_id": "SdQkH",
+      "image": "SdQkH.png",
+      "width": 520,
+      "height": 209,
+      "sha256": "7afea8acc5db6c2449df053a50ab0fc81878e4c6115ff850761feb0cc44a2ded"
+    },
+    {
+      "native_id": "CVIgO",
+      "image": "CVIgO.png",
+      "width": 520,
+      "height": 209,
+      "sha256": "798019d13aa5ff60a99529d72f9ae623b27f05b5fe7a587e484f3ae349bda8fb"
+    },
+    {
+      "native_id": "sUNzO",
+      "image": "sUNzO.png",
+      "width": 520,
+      "height": 209,
+      "sha256": "511357375552931e3c8e4350aed6744a29003b9467dfd47ff733fe78b223f117"
+    }
+  ],
+  "question": "ใช้ชุด Username นี้ได้ไหมครับ? 1. ใช้ทั้งหมด 2. ปรับฟอร์มปกติ 3. ปรับข้อความแจ้งผิด",
+  "verification": {
+    "full_size_comparison_inspected": true,
+    "final_root_screenshot_inspected": true,
+    "native_inline_parent_groups_verified": true,
+    "fixture_validation": "normal7chars valid; invalid-character sample8chars has underscore only cause; short2 and long21 use permitted characters only.",
+    "old_Register_related_PNG_hashes_unchanged": 15,
+    "execute_warnings": [],
+    "observation": "Full Register form and three focused field errors fit without visible clipping; no duplicate error summary. Static design, not runtime/contrast certification."
+  },
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "state_library_count_unchanged": 54,
+  "main_Home_changed": false,
+  "UXD_002_changed": false,
+  "owner_acceptance": "owner-Username-states-acceptance.json"
+}

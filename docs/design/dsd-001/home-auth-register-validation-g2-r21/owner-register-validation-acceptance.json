@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "owner_quote": "1",
+  "question": "1. รับทั้งคู่ แล้วไปข้อต่อไป 2. ปรับกรณีข้อมูลไม่ครบ 3. ปรับกรณีรหัสผ่าน",
+  "status": "owner_accepted_displayed_required_and_password_validation_states",
+  "version": "Home Auth Register Validation G2-r21",
+  "reviewed_image": "LhNUV.png",
+  "reviewed_image_sha256": "00694fd11d341c75f4abdaf4df264af449d1616de3d89bef13a50551d25e1db0",
+  "native_required": "l5oguz",
+  "native_password": "JuD5C",
+  "accepted_scope": {
+    "trigger": "after user submits local email registration with missing or known invalid fields; no valid registration request implied",
+    "required_example": "Username and phone empty; retain email and masked password/confirmation",
+    "password_example": "new password six fixture bullets and confirmation four fixture bullets illustrate minimum8 and mismatch errors",
+    "error_placement": "inline messages identify affected fields, summary before primary action uses shared form feedback location",
+    "field_preservation": "keep values in uninterrupted current form; no cross-reload recovery of passwords",
+    "Google_alternative": "independent from local required fields, no new completion/password/email verification gate for Google"
+  },
+  "new_phone_username_provider_rules_approved": false,
+  "submission_states_approved": false,
+  "whole_G2_approved": false,
+  "High_Fi_started": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}
