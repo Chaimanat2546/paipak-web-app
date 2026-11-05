@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home Desktop-r16 / desktop-closeout-review-1",
+  "owner_quote": "1",
+  "question": "1. รับแพ็กเกจนี้ ปิดรอบออกแบบ Home Desktop พร้อมข้อค้างเดิม 2. มีจุดขอแก้ 3. ตรวจสองกรณีนี้แยกก่อน",
+  "selected_option": "รับแพ็กเกจนี้ ปิดรอบออกแบบ Home Desktop พร้อมข้อค้างเดิม",
+  "status": "owner_accepted_bounded_home_desktop_package_with_retained_open_items",
+  "closed_scope": "Home Desktop1440 appearance and the stated local Hero design contracts, retaining previously recorded open/proposed/deferred items; not full accessibility or functional readiness",
+  "native_root": "f7ZIg",
+  "image": "f7ZIg.png",
+  "image_sha256": "b9d8e05d1c961e88ee85d1130d3ef3e052c9947435b64db62465f4483a8bdaf9",
+  "review_manifest": "review-manifest.json",
+  "review_manifest_sha256": "248a6917036193a3f321b54da5467c223d3b061b77ba5ad20f36c9200d323d72",
+  "reviewed_content": [
+    {
+      "name": "visual-direction.md",
+      "reviewed_source": "approved-review-content/visual-direction.md.txt",
+      "sha256": "48c2a3340c8c47e10d99e9d06acbea57b981e73df2e2872c39c8c3d2f95d4688",
+      "bytes": 17626
+    },
+    {
+      "name": "token-sheet.md",
+      "reviewed_source": "approved-review-content/token-sheet.md.txt",
+      "sha256": "c439f050a0a9bdb57bf28a1b8826cd1c85f87ae43a3cc396c71250a1c0a6ccb4",
+      "bytes": 21347
+    },
+    {
+      "name": "typography-spec.md",
+      "reviewed_source": "approved-review-content/typography-spec.md.txt",
+      "sha256": "4c4714f9ee4274eaa34bf1d846777d50b561aef4d8828396036f8cb5f1bac47c",
+      "bytes": 16433
+    },
+    {
+      "name": "responsive-visual-guidelines.md",
+      "reviewed_source": "approved-review-content/responsive-visual-guidelines.md.txt",
+      "sha256": "e10db0ad34884aa6dd386976b6aa661ec54d2e13a72ed7b2fa785861ecc4eaea",
+      "bytes": 20292
+    },
+    {
+      "name": "hero-banner-carousel-spec.md",
+      "reviewed_source": "approved-review-content/hero-banner-carousel-spec.md.txt",
+      "sha256": "d72d3433e341f6dd50cf6c4ad22807c2c55caad62dcdfacd29865b619ffacd66",
+      "bytes": 16042
+    },
+    {
+      "name": "README.md",
+      "reviewed_source": "approved-review-content/README.md.txt",
+      "sha256": "7c954d3e452014320dab9234f092f61288fcda5df6356e58330ca09fe69723d2",
+      "bytes": 7370
+    }
+  ],
+  "newly_accepted_cases": [
+    "One configured ready image: display it without arrows, selectors, pause control or automatic rotation",
+    "Initial configured-image loading: show the standard fallback with Search usable; switch to ready content and start a fresh seven-second hold after readiness/transition completes, provided no pause condition remains"
+  ],
+  "retained_confirmed_hero_contract": {
+    "image": "single finished raster per slide, no live Hero lettering overlay",
+    "hold_interval_ms": 7000,
+    "transition_duration_ms": 800,
+    "transition_easing": "cubic-bezier(.4,0,.2,1)",
+    "restart": "fresh hold after manual/pointer/Search interaction clears; explicit Pause until Play",
+    "partial_failure": "skip failed images, use standard current-banner fallback if none remain",
+    "image_destination": "none"
+  },
+  "retained_open_items": [
+    "OPEN-001",
+    "keyboard/focus and screen-reader details",
+    "reduced-motion/background-tab details",
+    "unaccepted distinct hover study",
+    "other Desktop widths",
+    "runtime and production asset/data/contact packaging"
+  ],
+  "mobile": "paused",
+  "full_dsd001_complete": false,
+  "task_complete": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "deployment_authorized": false,
+  "runtime_verified": false,
+  "historical_review_status": "review-manifest.json and verification.json preserve the pre-approval pending status as review evidence; this acceptance record is the current owner decision",
+  "published_content": [
+    {
+      "name": "visual-direction.md",
+      "path": "../visual-direction.md",
+      "sha256": "76e6f5ceac651132f1d839370f7fbafc2e950a4ff6b00179eec0fc5cc2ab3062"
+    },
+    {
+      "name": "token-sheet.md",
+      "path": "../token-sheet.md",
+      "sha256": "8feef80054bc3d46908eed0e0c3a344a63b65fdf1dd1cca86fc75fe1fe4ea803"
+    },
+    {
+      "name": "typography-spec.md",
+      "path": "../typography-spec.md",
+      "sha256": "5336b01691abe64a49c42ec50701c5dec5f9138dcc3a1d1b2d803bb4f1a4ea3a"
+    },
+    {
+      "name": "responsive-visual-guidelines.md",
+      "path": "../responsive-visual-guidelines.md",
+      "sha256": "62c7e2063e28d95850ad7cbd0d44fa28eae07e913a2ceac7f556ffcb1b3aaf2f"
+    },
+    {
+      "name": "hero-banner-carousel-spec.md",
+      "path": "../hero-banner-carousel-spec.md",
+      "sha256": "1eab594f2a34ba0ff6a4a19ced719bb12ffc448ba24c36873dbc405357643504"
+    },
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "sha256": "c5d29c7579a46dcaa15cedd2325cf4269bece1132a4ba2746ac02205de2fbccc"
+    }
+  ]
+}

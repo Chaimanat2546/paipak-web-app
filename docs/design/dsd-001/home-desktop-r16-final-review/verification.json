@@ -1,0 +1,65 @@
+{
+  "version": "Home Desktop-r16 / desktop-closeout-review-1",
+  "root": "f7ZIg",
+  "nonHeroPreservation": [
+    {
+      "name": "Header slot",
+      "match": true
+    },
+    {
+      "name": "A seven flat categories",
+      "match": true
+    },
+    {
+      "name": "Recommended villas · horizontal listing rail",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่าใกล้ทะเล",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่าสายปาร์ตี้",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่าราคาพิเศษ",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่า Outing",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่า Pet Friendly",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่า Luxury",
+      "match": true
+    },
+    {
+      "name": "Home media and editorial · split TikTok r3",
+      "match": true
+    },
+    {
+      "name": "Integrated Footer-contact-column-r4 · owner approved",
+      "match": true
+    }
+  ],
+  "liveHeroTextOutsideSearch": [],
+  "defaultControls": "owner approved displayed appearance",
+  "motion": {
+    "holdMs": 7000,
+    "durationMs": 800,
+    "easing": "cubic-bezier(.4,0,.2,1)",
+    "restart": "fresh hold after interaction pause clears; explicit Pause until Play"
+  },
+  "partialImagePolicy": "skip failed images; standard fallback if none",
+  "pendingFinalProposals": [
+    "single configured image: hide carousel controls",
+    "initial loading: show standard fallback until configured image is ready"
+  ],
+  "ownerFinalAcceptance": "pending",
+  "runtimeVerified": false
+}

@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home FAQ-r4 / Home Desktop-r19",
+  "owner_quote": "1",
+  "question": "1. รับแบบ FAQ-r4 / Home Desktop-r19 นี้ 2. ปรับรายการให้แคบลงและอยู่กึ่งกลาง 3. ลองจัดคำถามเป็นสองคอลัมน์",
+  "status": "owner_approved_FAQ_r4_and_bounded_Home_Desktop_r19_with_retained_open_items",
+  "scope": "Desktop1440 FAQ appearance and stated interaction contract, integrated after articles and before Footer. Heading above full-width reading panel. All12 existing Home-r16 sections retained. Previous open/proposed/deferred items are not promoted or resolved",
+  "native_home": "ILpa2",
+  "native_faq_states": {
+    "closed": "P5cic",
+    "open": "O6RB2r",
+    "long": "qluxT",
+    "empty_context_reused": "Evcv7"
+  },
+  "home_image": "ILpa2.png",
+  "home_image_sha256": "cb62605b8abebb4a28b044beb1dce1bdbe05d2ea9f91b26efa13f5bb23baae23",
+  "displayed_image": "O6RB2r.png",
+  "displayed_image_sha256": "c2d937d2adca3564df14ef376837efbb42eb434e60d4d3f308b91d66908715b6",
+  "context_image": "zOUR2.png",
+  "context_image_sha256": "a7988e9b24e5b94bf959983c445f52730c09593b4e72ef06c9666f75dd6c56a7",
+  "review_manifest": "review-manifest.json",
+  "review_manifest_sha256": "ae3cb0355b307685edb80098566dce22ade2fe1f865478a941a0a39bc4df706c",
+  "frozen_review_readme": "approved-review-content/README.md.txt",
+  "frozen_review_readme_sha256": "fb2dd9acf2415099e8fb4af950b170b966dce4f3c41ba9cd3890bb24f93cedc4",
+  "native_snapshot": "home-editable-snapshot.json",
+  "native_snapshot_sha256": "1f4288edf10151c0ccca3aa2228031e4f18acee14a0a51d0b876fe681dfaee71",
+  "snapshot_capture_note": "Captured via Pencil MCP immediately after acceptance and before approval labels; no visual edits",
+  "faq_contract": {
+    "content_source": "future administrator-authored backend data; current questions are mock fixtures",
+    "fixture_count_is_not_a_limit": true,
+    "initial_state": "all closed",
+    "open_policy": "at most one; opening another closes the old; same question can collapse",
+    "empty": "omit section and spacing",
+    "placement": "after articles before Footer",
+    "question_answer_flow": "inline within full-width panel, no modal or navigation"
+  },
+  "desktop_design_scope_closed": true,
+  "retained_open_items": [
+    "OPEN-001",
+    "keyboard/focus/screen-reader and motion details not verified",
+    "other Desktop widths and paused Mobile",
+    "backend data/rich-text/loading contract and production content/assets",
+    "runtime and Frontend implementation"
+  ],
+  "production_FAQ_copy_approved": false,
+  "runtime_verified": false,
+  "task_complete": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "deployment_authorized": false,
+  "mobile": "paused",
+  "review_status_note": "Review manifest and verification retain pre-approval pending status as frozen evidence; this record is the current owner decision",
+  "published_documents": [
+    {
+      "name": "visual-direction.md",
+      "path": "../visual-direction.md",
+      "sha256": "354bce6a8fe337c9623bb27f099ee28ca719007263588cddfd6cf62417636ccc"
+    },
+    {
+      "name": "token-sheet.md",
+      "path": "../token-sheet.md",
+      "sha256": "6470ee371345edb623aa56600a99abf16dc24afc5e6313289b3ddcdba182f6ed"
+    },
+    {
+      "name": "typography-spec.md",
+      "path": "../typography-spec.md",
+      "sha256": "a69716a84543bab7d936344f3e1c2405381b0c0bcb4adfe5f3e61fc1c3ae9263"
+    },
+    {
+      "name": "responsive-visual-guidelines.md",
+      "path": "../responsive-visual-guidelines.md",
+      "sha256": "3d4e423723d48f9956224702609cfedd07c86c41d1be2cba4d1e6187ca883b83"
+    },
+    {
+      "name": "hero-banner-carousel-spec.md",
+      "path": "../hero-banner-carousel-spec.md",
+      "sha256": "0252dd32b7d989075186958e5a4e0cda35c382332245fa08370c6c1396b0ab1d"
+    },
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "sha256": "7a03a33f702c7a8faee81918a9b9bba4e13642d5580cab1db768babe8681a34b"
+    }
+  ]
+}

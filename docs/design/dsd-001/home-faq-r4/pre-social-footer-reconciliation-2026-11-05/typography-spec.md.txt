@@ -1,0 +1,114 @@
+# DSD-001 — Typography specification
+
+> เจ้าของรับHome Desktop-r19พร้อมFAQ-r4ในขอบเขตDesktopและคงข้อค้างเดิมแล้ว ดู [หลักฐานรับเวอร์ชัน](home-faq-r4/owner-home-acceptance.json) ฐานshared foundation-3และข้อเสนอ/Openเดิมยังแยกตามสถานะ ฉบับHome-r16ก่อนเพิ่มFAQเก็บใน [archive](home-desktop-r16-final-review/pre-faq-reconciliation-2026-11-05/README.md) ไม่ปิดDSD-001ทั้งTaskหรืออนุญาตFrontend/backend/runtime/จออื่น
+
+
+รุ่น foundation-3-desktop + Home-r19 supplements · 5 พฤศจิกายน 2026 · Direction A / review-2
+
+**สถานะ: ฐานDesktop Home-r15รับแล้วพร้อมข้อค้าง; Heroใหม่ใช้ภาพสำเร็จรูปและเลิกใช้web-text rolesเดิม Home-r16รับเฉพาะDesktopพร้อมข้อค้างเดิมแล้ว** Mobile พักไว้ ตารางนี้ไม่ใช่การอนุมัติ typography ของทุกหน้า ทุกขนาดจอ หรือ Frontend
+
+## Family และขอบเขต
+
+ใช้ Mitr สำหรับไทย Latin ตัวเลข ราคา และ interface copy ตามข้อสรุปเดิม Native variable font.primary มีค่า Mitr; อ่านค่าจาก Pencil และเก็บใน [observed evidence](foundation-3-desktop/observed-values.json) ไม่มี supplementary font ที่เพิ่มหรืออนุมัติในงานนี้
+
+ไฟล์ Mitr400/500/600 และ OFL ใน [font source record](foundation-1/font-sources.json) เป็นหลักฐานเดิม ไม่ใช่ผล font-loading ในแอป ค่าของ Home-r15 อ่านผ่าน Pencil แบบ read-only หลังรับภาพรวมแล้ว ไม่อนุมาน weight จากภาพ raster
+
+## Desktop role mapping ที่ 1440px
+
+ขนาดเป็น px; line-height เป็นตัวคูณ น้ำหนัก normal เทียบกับ 400 ไม่ย้ายน้ำหนักตัวอักษรจากภาพ raster
+
+| Role | Size | Weight | Line-height | ใช้กับ / หลักฐาน |
+| --- | ---: | ---: | --- | --- |
+
+
+| home.section.recommended | 32 | 400 | 1.4 | พูลวิลล่าแนะนำ; A4lwQc |
+| home.section.category | 32 | 500 | 1.4 | หัวข้อหมวดอื่นตามภาพที่รับ; tGmTu / bAfqR |
+| home.category.label | 18 | 600 | 1.5 | ทางลัดทั้ง 7 หมวด |
+| property.title | 18 | 500 | 1.5 | กล่องชื่อหนึ่งบรรทัดสูง27px; qvnmo |
+| price.amount | 22 | 500 | 1.5 | ตัวเลขราคา; h7BOc |
+| price.qualifier / unit | 13 | 400 | 1.5 | เริ่มต้น และ / คืน |
+| property.metadata | 14 | 400 | 1.5 | ทำเล คน ห้องนอน |
+| home.search.label | 17 | 500 | 1.5 | สถานที่/วันเข้าพัก/ผู้เข้าพัก |
+| home.search.value | 17 | 400 | 1.5 | ค่าว่างหรือค่าที่เลือก |
+| home.search.action | 22 | 500 | native-auto | ปุ่มค้นหา; qfVMn มีความสูงข้อความที่วัดได้35px |
+| header.navigation | 17 | 400 /500 | 1.5 | ปกติ/active ตามภาพปัจจุบัน |
+| header.sign-in | 16 | 500 | 1.5 | ปุ่มเข้าสู่ระบบ |
+| navigation.view-all | 14 | 400 | 1.5 | ดูทั้งหมด; บน Luxury ใช้สีขาว |
+| overlay.heading / contact.option | 16 | 500 | native-auto | หัวข้อแผงและ LINE OA/โทร; r0ipA0 / JrbQ2 / Ej4nM / RIMD1 |
+| overlay.language.option | 16 | 500 /400 | native-auto | ไทยที่เลือก500; English400; nVnNU / y4ct9 |
+| overlay.contact.hint | 13 | 400 | native-auto | คำอธิบายการเปิดแอป |
+| footer.message | 32 | 400 | 1.4 | พื้นที่ความสุขส่วนตัว |
+| footer.support / link | 16 | 400 | 1.5 | คำอธิบายและลิงก์เนื้อหา |
+| footer.group-heading | 16 | 500 | 1.5 | เริ่มต้นกับ papaipak / ข้อมูลสำคัญ |
+| footer.utility | 14 | 400 | 1.5 | โดเมน / กลับขึ้นด้านบน |
+| footer.contact.channel | 16 | 500 | 1.5 | LINE OA/โทรหาเรา; k2pOX6 / AhXBc |
+| footer.contact.value | 14 | 400 | 1.5 | @papaipak-demo/เบอร์mock; vG5WF / qmeqe |
+| tiktok.topic | 14 | 400 | 1.5 | Light BlueบนNavy; pTBpb |
+| tiktok.heading | 40 | 400 | 1.28 | หัวเรื่องสีขาว; r1PJnm |
+| tiktok.body | 16 | 400 | 1.65 | เนื้อหารองLight Blue; uRiWm |
+| article.section-heading | 36 | 400 | 1.35 | เรื่องน่าอ่าน สำหรับวันพักผ่อน |
+| article.featured.title | 26 | 400 | 1.4 | สูงสุด2บรรทัด; ZPZsg |
+| article.featured.topic / body | 14 /16 | 400 | 1.5 /1.6 | หมวด/เนื้อหาสูงสุด2บรรทัด; z5bujf / Zglil |
+| article.supporting.title | 22 | 400 | 1.45 | สูงสุด1บรรทัด; Qf3zV / SvNOB |
+| article.supporting.topic / body / read | 14 | 400 | 1.5 /1.6 /1.5 | D0J7n9 / MY9vl / mKqr1; bodyสูงสุด2บรรทัด |
+| brand.wordmark-study | 38 | 600 | 1.2 | โลโก้สมมติใน Header/Footer ไม่ใช่ body role |
+
+แถว overlay ที่มี IDs r0ipA0/JrbQ2/Ej4nM/RIMD1/nVnNU/y4ct9 เป็นหลักฐาน Header panel ที่รับไว้และยังคงเดิมนอก defaultHome อ้าง [observed-values ของรุ่นก่อน](foundation-2-desktop/observed-values.json) ไม่อ้างว่าอยู่ใน default root ZfZvJ การตรวจใหม่รอบนี้ครอบคลุมข้อความ447รายการและgeometry112รายการใน Home-r15
+
+native-auto หมายถึงไม่มีค่า line-height explicit ใน Pencil ต้องรักษาการวางกึ่งกลางตาม reference และตรวจ font metrics ก่อนผูกเป็น frontend value ไม่เอาความสูงกล่องที่วัดได้ไปประกาศเป็น line-height ที่เจ้าของเลือกแล้ว
+
+Hero ใหม่ไม่สร้างหัวเรื่องหรือคำโปรยเป็นข้อความเว็บ ฟอนต์ในภาพสำเร็จรูปไม่ได้ถูกควบคุมด้วย typography roles ของเว็บ ไม่ใช้ค่าตัวอักษร Hero เดิมไปกำหนด template อื่น Planning typography อื่นยังอยู่ใน [registry](../../decisions/registry.yaml) ไม่แก้ทุกหัวข้อเป็น400หรือ500เองจากการจัดเอกสารนี้ ความต่างหัวข้อแนะนำกับหมวดอื่นคงตาม Home ที่รับ
+
+## การตัดบรรทัดและข้อมูลไม่ครบ
+
+- ชื่อบ้านบน Home ใช้หนึ่งบรรทัดย่อด้วย … เพื่อให้ข้อมูลในแต่ละแถวอยู่แนวเดียวกัน ต่างจากร่าง B เดิมที่เสนอสองบรรทัด ชื่อเต็มต้องเข้าถึงได้จาก Detail และ accessible name; ไม่อาศัย hover อย่างเดียว
+- ภาพตัวอย่างชื่อยาวเป็นข้อความย่อที่เขียนในแบบ ไม่ใช่การทดสอบ dynamic truncation ห้ามตัดสระ/วรรณยุกต์ไทย และต้องตรวจ text zoom ก่อนรับรองระบบจริง
+- ไม่ย่อ metadata ราคา หรือข้อผิดพลาดที่จำเป็นจนอ่านไม่ได้เพื่อรักษาความสูงกล่องอ้างอิง เมื่อข้อความขยายต้องพิจารณา reflow โดยรักษากฎ UX
+- Home ไม่ใช้ข้อความ “ยังไม่มีข้อมูลราคา” แทนการ์ดที่ข้อมูลไม่ครบ ให้ตัดการ์ดนั้นออกตามข้อสรุป [3A–3B](f01-ui-3/home-guided-review/README.md) บ้านนั้นยังค้นเจอได้ การแสดงข้อมูลไม่ครบใน Results ยังต้องมีข้อกำหนด/หลักฐานของหน้านั้น
+- ราคาตัวอย่าง เช่น เริ่มต้น ฿8,900 / คืน เป็น fixture ไม่ใช่ quote, availability หรือส่วนลดจริง
+
+## ไทย Latin และขอบเขตการอ่าน
+
+ปกบทความเป็นไฟล์ภาพสำเร็จรวมตัวหนังสือจาก Photoshop/เครื่องมือภายนอก เว็บไม่กำหนดฟอนต์ ขนาด ตำแหน่งหรือแก้ข้อความในภาพ Rolesด้านบนใช้กับข้อความนอกภาพเท่านั้น ไม่สร้าง cover editor หรือให้ปกตัวอย่างของผู้จัดทำเป็นเงื่อนไขรับงาน
+
+ชื่อเด่นสูงสุด2บรรทัด เรื่องรอง1บรรทัด มีellipsisและชื่อเต็มที่เข้าถึงได้ เนื้อหาสูงสุด2บรรทัด ความสูงตามเนื้อหาจริง ไม่จองบรรทัดว่าง หากไม่มี excerpt ใช้ข้อความจาก body ของบทความนั้น ไม่แต่งคำโปรย/AI summary ปัจจุบันใช้mock bodyตามขั้นงานที่เจ้าของยืนยัน ขาดปก/ชื่อ/ปลายทางอ่านให้ข้ามเรื่องบนHome ไม่ใช้text-only cardหรือปกplaceholderที่ไม่ได้เลือก
+
+Letter spacing ของข้อความไทยใช้0 ไม่บีบความกว้างหรือใช้ uppercase/letter spacing เป็น decoration ข้อความ Pet Friendly, Outing, Luxury ใช้ Mitr ตาม role เดิม ไม่เพิ่ม font เพื่อแก้ baseline โดยไม่อนุมัติ
+
+ชื่อเต็ม URL และข้อความยาวในเนื้อหาต้อง wrap อย่างปลอดภัย ข้อผิดพลาดต้องเป็นข้อความที่อ่านได้ ไม่พึ่งสีเพียงอย่างเดียว ไม่อ้างว่า Mitr ทุกไฟล์รองรับ tabular figures หากยังไม่มีหลักฐาน
+
+สี interface สำคัญใช้ Navy; metadata ใช้ #6B7280 บนขาวตาม reference CTAขาวบนชมพูคงไว้เฉพาะ visual reference และ OPEN-001 ยังเปิด ดู [token sheet](token-sheet.md) ไม่ใช้การเพิ่มน้ำหนักหรือขนาดตัวอักษรเพื่ออ้างว่าแก้ contrast แล้ว
+
+## สถานะ responsive และการตรวจ
+
+Mobile พักไว้ ไม่เอาขนาด36/48/64pxของ B หรือภาพ Mobileเก่ามาเป็น current A approval รอบนี้ยืนยันเฉพาะ numeric reference ของ Desktop1440px การโหลดฟอนต์จริง, fallback, 200% text zoom, การตัดชื่อไทย, screen reader และขนาดจออื่นยังไม่ได้ทดสอบ
+
+หลักฐานตัวอย่าง Home, card focus, long title และ Footer อยู่ใน [review manifest](f01-ui-3/review-manifest.json) เกณฑ์ตรวจเอกสารคือ family/weight/size traceกลับ native ได้, กฎหนึ่งบรรทัดและข้อมูลไม่ครบตรงคำตอบล่าสุด และไม่มีข้อความอ้างว่า foundation ทั้งชุดได้รับอนุมัติแล้ว
+
+
+## Hero ภาพสำเร็จรูป: ข้อกำหนดปัจจุบันและประวัติ
+
+ปัจจุบันใช้ภาพเดียวรวมพื้นหลังและตัวหนังสือต่อสไลด์ ไม่มี live text overlay สำหรับหัวเรื่อง/คำโปรย ดู [ข้อกำหนดที่เจ้าของเลือก](hero-banner-carousel-spec.md) ไม่เพิ่มฟอนต์เว็บเพื่อจำลองตัวหนังสือในภาพ ส่วน Search, controls และข้อความเว็บอื่นยังใช้ Mitrตามroleที่เกี่ยวข้อง ต้องเตรียมข้อความทดแทน/ความหมายหัวเรื่องสำหรับเทคโนโลยีช่วยอ่านแยกจากการวาดตัวอักษรทับภาพ; รายละเอียดและการทดสอบยังค้าง
+
+ตารางต่อไปเป็นประวัติของ Home-r15 เท่านั้น เลิกใช้กับ Hero ใหม่ ไม่ใช่ active typography tokens:
+
+| Historical role | ค่าใน Home-r15 | แหล่งเดิม |
+| --- | --- | --- |
+| home.hero.title (retired web-text role) | 96px /600 /line-height1.13 | GTmZo / zh926 |
+| home.hero.support (retired web-text role) | 22px /500 /line-height1.6 | mipeq |
+
+ตัวหนังสือที่ยังเห็นในสไลด์ตัวอย่างเป็นส่วนหนึ่งของraster ไม่ใช่ข้อกำหนดให้เว็บไซต์พิมพ์ข้อความเดิมซ้ำ และไม่บังคับฟอนต์ภายในไฟล์ภาพจริง
+
+ภาพสำรองมาตรฐานของHeroใช้ภาพปัจจุบันที่รวมตัวหนังสือในไฟล์แล้วเช่นกัน ไม่มีfallbackเป็นหัวเรื่อง/คำโปรยที่เว็บพิมพ์ทับ ดู [คำยืนยันfallback](hero-banner-carousel-r3/owner-fallback-decision.json)
+
+
+## FAQ-r4 · Home-r19ที่รับแล้ว
+
+| Local role | Size | Weight | Line-height |
+| --- | ---: | ---: | ---: |
+| home.faq.heading | 36 | 400 | 1.35 |
+| home.faq.intro | 18 | 400 | 1.6 |
+| home.faq.question | 22 | 400 | 1.5 |
+| home.faq.answer | 18 | 400 | 1.65 |
+
+Mitrทั้งหมด คำถาม/คำตอบwrapตามเนื้อหาไม่ตัดบรรทัดเพื่อบังคับความสูง เนื้อหาจริงให้หลังบ้านเป็นผู้เขียน ไม่มีฟอนต์เสริมและไม่อนุมัติfixturesเป็นคำตอบจริง การแสดงrich text/ลิงก์และkeyboardยังแยกตรวจ ดู [รุ่นที่รับ](home-faq-r4/owner-home-acceptance.json)

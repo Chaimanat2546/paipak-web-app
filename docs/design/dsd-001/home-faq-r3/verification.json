@@ -1,0 +1,100 @@
+{
+  "approvedBase": "Home Desktop-r16 / f7ZIg",
+  "draft": "twDNW",
+  "preservation": [
+    {
+      "name": "Header slot",
+      "match": true
+    },
+    {
+      "name": "Hero · finished-image carousel · 7-second horizontal loop",
+      "match": true
+    },
+    {
+      "name": "A seven flat categories",
+      "match": true
+    },
+    {
+      "name": "Recommended villas · horizontal listing rail",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่าใกล้ทะเล",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่าสายปาร์ตี้",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่าราคาพิเศษ",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่า Outing",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่า Pet Friendly",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่า Luxury",
+      "match": true
+    },
+    {
+      "name": "Home media and editorial · split TikTok r3",
+      "match": true
+    },
+    {
+      "name": "Integrated Footer-contact-column-r4 · owner approved",
+      "match": true
+    }
+  ],
+  "states": [
+    {
+      "id": "CLWR9",
+      "questionCount": 5,
+      "answerCount": 0,
+      "minusCount": 0,
+      "geometry": {
+        "x": 113198,
+        "y": 28261.5,
+        "width": 1440,
+        "height": 516
+      }
+    },
+    {
+      "id": "D3TyXR",
+      "questionCount": 5,
+      "answerCount": 1,
+      "minusCount": 1,
+      "geometry": {
+        "x": 114758,
+        "y": 28261.5,
+        "width": 1440,
+        "height": 588
+      }
+    },
+    {
+      "id": "T92l9t",
+      "questionCount": 5,
+      "answerCount": 1,
+      "minusCount": 1,
+      "geometry": {
+        "x": 116318,
+        "y": 28261.5,
+        "width": 1440,
+        "height": 790
+      }
+    }
+  ],
+  "sourceStyle": {
+    "articleHeading": "bRQsh / 36 regular Mitr",
+    "articlePanel": "ZTUZY / radius20 shadow 072D591F 0,8 blur24",
+    "poolEdge": "TAE49 / existing Home geometry",
+    "narrativeColumns": "448 + 48 + 832 / same Home TikTok grid"
+  },
+  "ownerAppearanceAcceptance": "pending",
+  "runtimeVerified": false
+}

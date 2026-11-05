@@ -1,0 +1,1294 @@
+[
+  {
+    "type": "frame",
+    "id": "F1T9Y",
+    "x": 108518,
+    "y": 28261.5,
+    "name": "OPTION A · Home FAQ-r2 · Open editorial list",
+    "context": "FAQ-r1 returned for visual revision. Same five mock questions, first expanded only for comparison. Final default remains all closed, single-open. Future backend-authored content; no new business rules, Mobile or Frontend.",
+    "width": 1440,
+    "fill": "#FFFFFF",
+    "layout": "vertical",
+    "gap": 28,
+    "padding": [
+      56,
+      56,
+      72,
+      56
+    ],
+    "children": [
+      {
+        "type": "frame",
+        "id": "Q12s1T",
+        "name": "FAQ A introduction",
+        "width": "fill_container",
+        "gap": 16,
+        "justifyContent": "space_between",
+        "alignItems": "center",
+        "children": [
+          {
+            "type": "text",
+            "id": "BHXW9",
+            "name": "FAQ A heading",
+            "fill": "#072D59",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "คำถามที่พบบ่อย",
+            "lineHeight": 1.25,
+            "fontFamily": "$font.primary",
+            "fontSize": 40
+          },
+          {
+            "type": "text",
+            "id": "DZHU3",
+            "name": "FAQ A introduction copy",
+            "fill": "#53657C",
+            "textGrowth": "fixed-width",
+            "width": 420,
+            "content": "ข้อมูลสำหรับการค้นหาและเตรียมเข้าพัก",
+            "lineHeight": 1.6,
+            "textAlign": "right",
+            "fontFamily": "$font.primary",
+            "fontSize": 18
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "tCUVe",
+        "name": "FAQ A single-open list",
+        "width": "fill_container",
+        "layout": "vertical",
+        "gap": 8,
+        "children": [
+          {
+            "type": "frame",
+            "id": "KW3oh",
+            "name": "FAQ A item · faq-browse · expanded",
+            "metadata": {
+              "type": "faq-state",
+              "itemId": "faq-browse",
+              "expanded": true,
+              "content": "mock fixture"
+            },
+            "width": "fill_container",
+            "fill": "#F2FAFE",
+            "cornerRadius": 20,
+            "layout": "vertical",
+            "gap": 12,
+            "padding": [
+              20,
+              24
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "hq20g",
+                "name": "FAQ A question button · faq-browse",
+                "metadata": {
+                  "type": "interaction-intent",
+                  "role": "button",
+                  "ariaExpanded": true,
+                  "minimumTargetHeight": 44
+                },
+                "width": "fill_container",
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "JJnN5",
+                    "name": "FAQ A question · faq-browse",
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "ต้องเข้าสู่ระบบก่อนดูที่พักไหม?",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 24
+                  },
+                  {
+                    "type": "frame",
+                    "id": "TRe8m",
+                    "name": "FAQ A toggle target · faq-browse",
+                    "width": 44,
+                    "height": 44,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "Hseqy",
+                        "name": "FAQ A toggle icon · faq-browse",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "minus",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "dwkdH",
+                "name": "FAQ A answer · faq-browse",
+                "fill": "#53657C",
+                "textGrowth": "fixed-width",
+                "width": 920,
+                "content": "ดูและค้นหาที่พักได้โดยไม่ต้องเข้าสู่ระบบ เมื่ออยากบันทึกที่พักที่ชอบหรือเริ่มจอง จึงเข้าสู่ระบบเพื่อทำรายการต่อ",
+                "lineHeight": 1.65,
+                "fontFamily": "$font.primary",
+                "fontSize": 18
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "Z7XA5",
+            "name": "FAQ A item · faq-dates",
+            "metadata": {
+              "type": "faq-state",
+              "itemId": "faq-dates",
+              "expanded": false,
+              "content": "mock fixture"
+            },
+            "width": "fill_container",
+            "cornerRadius": 20,
+            "layout": "vertical",
+            "gap": 12,
+            "padding": [
+              20,
+              24
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "sSYzO",
+                "name": "FAQ A question button · faq-dates",
+                "metadata": {
+                  "type": "interaction-intent",
+                  "role": "button",
+                  "ariaExpanded": false,
+                  "minimumTargetHeight": 44
+                },
+                "width": "fill_container",
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "qhrKX",
+                    "name": "FAQ A question · faq-dates",
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "ยังไม่เลือกวันเข้าพัก ค้นหาที่พักได้ไหม?",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 24
+                  },
+                  {
+                    "type": "frame",
+                    "id": "AiDBl",
+                    "name": "FAQ A toggle target · faq-dates",
+                    "width": 44,
+                    "height": 44,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "TIdmS",
+                        "name": "FAQ A toggle icon · faq-dates",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "plus",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "q7PWiX",
+            "name": "FAQ A item · faq-favorites",
+            "metadata": {
+              "type": "faq-state",
+              "itemId": "faq-favorites",
+              "expanded": false,
+              "content": "mock fixture"
+            },
+            "width": "fill_container",
+            "cornerRadius": 20,
+            "layout": "vertical",
+            "gap": 12,
+            "padding": [
+              20,
+              24
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "kFXMC",
+                "name": "FAQ A question button · faq-favorites",
+                "metadata": {
+                  "type": "interaction-intent",
+                  "role": "button",
+                  "ariaExpanded": false,
+                  "minimumTargetHeight": 44
+                },
+                "width": "fill_container",
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "JQNX5",
+                    "name": "FAQ A question · faq-favorites",
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "บันทึกที่พักที่ชอบได้อย่างไร?",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 24
+                  },
+                  {
+                    "type": "frame",
+                    "id": "fcz5h",
+                    "name": "FAQ A toggle target · faq-favorites",
+                    "width": 44,
+                    "height": 44,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "G0NkS",
+                        "name": "FAQ A toggle icon · faq-favorites",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "plus",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "F2eP6",
+            "name": "FAQ A item · faq-guests",
+            "metadata": {
+              "type": "faq-state",
+              "itemId": "faq-guests",
+              "expanded": false,
+              "content": "mock fixture"
+            },
+            "width": "fill_container",
+            "cornerRadius": 20,
+            "layout": "vertical",
+            "gap": 12,
+            "padding": [
+              20,
+              24
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "vnd5I",
+                "name": "FAQ A question button · faq-guests",
+                "metadata": {
+                  "type": "interaction-intent",
+                  "role": "button",
+                  "ariaExpanded": false,
+                  "minimumTargetHeight": 44
+                },
+                "width": "fill_container",
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "MMhh9",
+                    "name": "FAQ A question · faq-guests",
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "เลือกจำนวนผู้เข้าพักและสัตว์เลี้ยงอย่างไร?",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 24
+                  },
+                  {
+                    "type": "frame",
+                    "id": "Q6BAaR",
+                    "name": "FAQ A toggle target · faq-guests",
+                    "width": 44,
+                    "height": 44,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "AdJ4A",
+                        "name": "FAQ A toggle icon · faq-guests",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "plus",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "upxqE",
+            "name": "FAQ A item · faq-details",
+            "metadata": {
+              "type": "faq-state",
+              "itemId": "faq-details",
+              "expanded": false,
+              "content": "mock fixture"
+            },
+            "width": "fill_container",
+            "cornerRadius": 20,
+            "layout": "vertical",
+            "gap": 12,
+            "padding": [
+              20,
+              24
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "KMA5p",
+                "name": "FAQ A question button · faq-details",
+                "metadata": {
+                  "type": "interaction-intent",
+                  "role": "button",
+                  "ariaExpanded": false,
+                  "minimumTargetHeight": 44
+                },
+                "width": "fill_container",
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "eIaH3",
+                    "name": "FAQ A question · faq-details",
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "ข้อมูลสิ่งอำนวยความสะดวกดูได้ที่ไหน?",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 24
+                  },
+                  {
+                    "type": "frame",
+                    "id": "aFDc2",
+                    "name": "FAQ A toggle target · faq-details",
+                    "width": 44,
+                    "height": 44,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "T4uy7W",
+                        "name": "FAQ A toggle icon · faq-details",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "plus",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "frame",
+    "id": "g2vg6",
+    "x": 110078,
+    "y": 28261.5,
+    "name": "OPTION B · Home FAQ-r2 · Navy split composition",
+    "context": "FAQ-r1 returned for visual revision. Same five mock questions, first expanded only for comparison. Final default remains all closed, single-open. Future backend-authored content; no new business rules, Mobile or Frontend.",
+    "width": 1440,
+    "fill": "#072D59",
+    "gap": 80,
+    "padding": [
+      56,
+      56,
+      72,
+      56
+    ],
+    "children": [
+      {
+        "type": "frame",
+        "id": "K3TXOT",
+        "name": "FAQ B introduction",
+        "width": 320,
+        "layout": "vertical",
+        "gap": 16,
+        "children": [
+          {
+            "type": "text",
+            "id": "MOlE8",
+            "name": "FAQ B heading",
+            "fill": "#FFFFFF",
+            "textGrowth": "fixed-width",
+            "width": 320,
+            "content": "คำถาม\nที่พบบ่อย",
+            "lineHeight": 1.25,
+            "fontFamily": "$font.primary",
+            "fontSize": 56
+          },
+          {
+            "type": "text",
+            "id": "e4aqUX",
+            "name": "FAQ B introduction copy",
+            "fill": "#DBF2FC",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "ข้อมูลสำหรับการค้นหาและเตรียมเข้าพัก",
+            "lineHeight": 1.6,
+            "fontFamily": "$font.primary",
+            "fontSize": 18
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "MeXey",
+        "name": "FAQ B single-open list",
+        "width": "fill_container",
+        "layout": "vertical",
+        "gap": 8,
+        "children": [
+          {
+            "type": "frame",
+            "id": "qzajT",
+            "name": "FAQ B item · faq-browse · expanded",
+            "metadata": {
+              "type": "faq-state",
+              "itemId": "faq-browse",
+              "expanded": true,
+              "content": "mock fixture"
+            },
+            "width": "fill_container",
+            "fill": "#FFFFFF",
+            "cornerRadius": 20,
+            "layout": "vertical",
+            "gap": 12,
+            "padding": [
+              18,
+              20
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "pfaM1",
+                "name": "FAQ B question button · faq-browse",
+                "metadata": {
+                  "type": "interaction-intent",
+                  "role": "button",
+                  "ariaExpanded": true,
+                  "minimumTargetHeight": 44
+                },
+                "width": "fill_container",
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "nqdK1",
+                    "name": "FAQ B question · faq-browse",
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "ต้องเข้าสู่ระบบก่อนดูที่พักไหม?",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 22
+                  },
+                  {
+                    "type": "frame",
+                    "id": "HXUz1",
+                    "name": "FAQ B toggle target · faq-browse",
+                    "width": 44,
+                    "height": 44,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "CWASk",
+                        "name": "FAQ B toggle icon · faq-browse",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "minus",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "tRCMe",
+                "name": "FAQ B answer · faq-browse",
+                "fill": "#53657C",
+                "textGrowth": "fixed-width",
+                "width": "fill_container",
+                "content": "ดูและค้นหาที่พักได้โดยไม่ต้องเข้าสู่ระบบ เมื่ออยากบันทึกที่พักที่ชอบหรือเริ่มจอง จึงเข้าสู่ระบบเพื่อทำรายการต่อ",
+                "lineHeight": 1.65,
+                "fontFamily": "$font.primary",
+                "fontSize": 18
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "OvHeX",
+            "name": "FAQ B item · faq-dates",
+            "metadata": {
+              "type": "faq-state",
+              "itemId": "faq-dates",
+              "expanded": false,
+              "content": "mock fixture"
+            },
+            "width": "fill_container",
+            "cornerRadius": 20,
+            "layout": "vertical",
+            "gap": 12,
+            "padding": [
+              18,
+              20
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "VR1cb",
+                "name": "FAQ B question button · faq-dates",
+                "metadata": {
+                  "type": "interaction-intent",
+                  "role": "button",
+                  "ariaExpanded": false,
+                  "minimumTargetHeight": 44
+                },
+                "width": "fill_container",
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "w2QEH",
+                    "name": "FAQ B question · faq-dates",
+                    "fill": "#FFFFFF",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "ยังไม่เลือกวันเข้าพัก ค้นหาที่พักได้ไหม?",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 22
+                  },
+                  {
+                    "type": "frame",
+                    "id": "Vc5EJ",
+                    "name": "FAQ B toggle target · faq-dates",
+                    "width": 44,
+                    "height": 44,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "XvbfU",
+                        "name": "FAQ B toggle icon · faq-dates",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "plus",
+                        "library": "lucide",
+                        "fill": "#FFFFFF"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "V2p4aX",
+            "name": "FAQ B item · faq-favorites",
+            "metadata": {
+              "type": "faq-state",
+              "itemId": "faq-favorites",
+              "expanded": false,
+              "content": "mock fixture"
+            },
+            "width": "fill_container",
+            "cornerRadius": 20,
+            "layout": "vertical",
+            "gap": 12,
+            "padding": [
+              18,
+              20
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "FFcBt",
+                "name": "FAQ B question button · faq-favorites",
+                "metadata": {
+                  "type": "interaction-intent",
+                  "role": "button",
+                  "ariaExpanded": false,
+                  "minimumTargetHeight": 44
+                },
+                "width": "fill_container",
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "r4C7X",
+                    "name": "FAQ B question · faq-favorites",
+                    "fill": "#FFFFFF",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "บันทึกที่พักที่ชอบได้อย่างไร?",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 22
+                  },
+                  {
+                    "type": "frame",
+                    "id": "o183Ua",
+                    "name": "FAQ B toggle target · faq-favorites",
+                    "width": 44,
+                    "height": 44,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "nRB0J",
+                        "name": "FAQ B toggle icon · faq-favorites",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "plus",
+                        "library": "lucide",
+                        "fill": "#FFFFFF"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "ndJ2J",
+            "name": "FAQ B item · faq-guests",
+            "metadata": {
+              "type": "faq-state",
+              "itemId": "faq-guests",
+              "expanded": false,
+              "content": "mock fixture"
+            },
+            "width": "fill_container",
+            "cornerRadius": 20,
+            "layout": "vertical",
+            "gap": 12,
+            "padding": [
+              18,
+              20
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "Swvry",
+                "name": "FAQ B question button · faq-guests",
+                "metadata": {
+                  "type": "interaction-intent",
+                  "role": "button",
+                  "ariaExpanded": false,
+                  "minimumTargetHeight": 44
+                },
+                "width": "fill_container",
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "P2A2y6",
+                    "name": "FAQ B question · faq-guests",
+                    "fill": "#FFFFFF",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "เลือกจำนวนผู้เข้าพักและสัตว์เลี้ยงอย่างไร?",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 22
+                  },
+                  {
+                    "type": "frame",
+                    "id": "fkVjL",
+                    "name": "FAQ B toggle target · faq-guests",
+                    "width": 44,
+                    "height": 44,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "PiqsF",
+                        "name": "FAQ B toggle icon · faq-guests",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "plus",
+                        "library": "lucide",
+                        "fill": "#FFFFFF"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "c3pLs",
+            "name": "FAQ B item · faq-details",
+            "metadata": {
+              "type": "faq-state",
+              "itemId": "faq-details",
+              "expanded": false,
+              "content": "mock fixture"
+            },
+            "width": "fill_container",
+            "cornerRadius": 20,
+            "layout": "vertical",
+            "gap": 12,
+            "padding": [
+              18,
+              20
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "ChyUz",
+                "name": "FAQ B question button · faq-details",
+                "metadata": {
+                  "type": "interaction-intent",
+                  "role": "button",
+                  "ariaExpanded": false,
+                  "minimumTargetHeight": 44
+                },
+                "width": "fill_container",
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "fW7qc",
+                    "name": "FAQ B question · faq-details",
+                    "fill": "#FFFFFF",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "ข้อมูลสิ่งอำนวยความสะดวกดูได้ที่ไหน?",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 22
+                  },
+                  {
+                    "type": "frame",
+                    "id": "QFS4G",
+                    "name": "FAQ B toggle target · faq-details",
+                    "width": 44,
+                    "height": 44,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "ue980",
+                        "name": "FAQ B toggle icon · faq-details",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "plus",
+                        "library": "lucide",
+                        "fill": "#FFFFFF"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "frame",
+    "id": "a4GfF",
+    "x": 111638,
+    "y": 28261.5,
+    "name": "OPTION C · Home FAQ-r2 · Centered white reading panel",
+    "context": "FAQ-r1 returned for visual revision. Same five mock questions, first expanded only for comparison. Final default remains all closed, single-open. Future backend-authored content; no new business rules, Mobile or Frontend.",
+    "width": 1440,
+    "fill": "#DBF2FC",
+    "layout": "vertical",
+    "gap": 28,
+    "padding": [
+      56,
+      56,
+      72,
+      56
+    ],
+    "alignItems": "center",
+    "children": [
+      {
+        "type": "frame",
+        "id": "kxO7n",
+        "name": "FAQ C introduction",
+        "width": "fill_container",
+        "layout": "vertical",
+        "gap": 16,
+        "alignItems": "center",
+        "children": [
+          {
+            "type": "text",
+            "id": "JnOMj",
+            "name": "FAQ C heading",
+            "fill": "#072D59",
+            "textGrowth": "fixed-width",
+            "width": 1000,
+            "content": "คำถามที่พบบ่อย",
+            "lineHeight": 1.25,
+            "textAlign": "center",
+            "fontFamily": "$font.primary",
+            "fontSize": 40
+          },
+          {
+            "type": "text",
+            "id": "JIUYR",
+            "name": "FAQ C introduction copy",
+            "fill": "#53657C",
+            "textGrowth": "fixed-width",
+            "width": "fill_container",
+            "content": "ข้อมูลสำหรับการค้นหาและเตรียมเข้าพัก",
+            "lineHeight": 1.6,
+            "textAlign": "center",
+            "fontFamily": "$font.primary",
+            "fontSize": 18
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "id": "G0U0O",
+        "name": "FAQ C single-open list",
+        "width": 1000,
+        "fill": "#FFFFFF",
+        "cornerRadius": 32,
+        "layout": "vertical",
+        "gap": 8,
+        "padding": [
+          12,
+          24
+        ],
+        "children": [
+          {
+            "type": "frame",
+            "id": "BAntA",
+            "name": "FAQ C item · faq-browse · expanded",
+            "metadata": {
+              "type": "faq-state",
+              "itemId": "faq-browse",
+              "expanded": true,
+              "content": "mock fixture"
+            },
+            "width": "fill_container",
+            "fill": "#F2FAFE",
+            "cornerRadius": 20,
+            "layout": "vertical",
+            "gap": 12,
+            "padding": [
+              18,
+              20
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "aFCHn",
+                "name": "FAQ C question button · faq-browse",
+                "metadata": {
+                  "type": "interaction-intent",
+                  "role": "button",
+                  "ariaExpanded": true,
+                  "minimumTargetHeight": 44
+                },
+                "width": "fill_container",
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "ra6V6",
+                    "name": "FAQ C question · faq-browse",
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "ต้องเข้าสู่ระบบก่อนดูที่พักไหม?",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 22
+                  },
+                  {
+                    "type": "frame",
+                    "id": "ckmLJ",
+                    "name": "FAQ C toggle target · faq-browse",
+                    "width": 44,
+                    "height": 44,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "naOCM",
+                        "name": "FAQ C toggle icon · faq-browse",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "minus",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "UTGR9",
+                "name": "FAQ C answer · faq-browse",
+                "fill": "#53657C",
+                "textGrowth": "fixed-width",
+                "width": "fill_container",
+                "content": "ดูและค้นหาที่พักได้โดยไม่ต้องเข้าสู่ระบบ เมื่ออยากบันทึกที่พักที่ชอบหรือเริ่มจอง จึงเข้าสู่ระบบเพื่อทำรายการต่อ",
+                "lineHeight": 1.65,
+                "fontFamily": "$font.primary",
+                "fontSize": 18
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "T4QvSc",
+            "name": "FAQ C item · faq-dates",
+            "metadata": {
+              "type": "faq-state",
+              "itemId": "faq-dates",
+              "expanded": false,
+              "content": "mock fixture"
+            },
+            "width": "fill_container",
+            "cornerRadius": 20,
+            "layout": "vertical",
+            "gap": 12,
+            "padding": [
+              18,
+              20
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "ZL2CM",
+                "name": "FAQ C question button · faq-dates",
+                "metadata": {
+                  "type": "interaction-intent",
+                  "role": "button",
+                  "ariaExpanded": false,
+                  "minimumTargetHeight": 44
+                },
+                "width": "fill_container",
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "EnRIL",
+                    "name": "FAQ C question · faq-dates",
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "ยังไม่เลือกวันเข้าพัก ค้นหาที่พักได้ไหม?",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 22
+                  },
+                  {
+                    "type": "frame",
+                    "id": "hm0bj",
+                    "name": "FAQ C toggle target · faq-dates",
+                    "width": 44,
+                    "height": 44,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "FBLhR",
+                        "name": "FAQ C toggle icon · faq-dates",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "plus",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "N0TUQt",
+            "name": "FAQ C item · faq-favorites",
+            "metadata": {
+              "type": "faq-state",
+              "itemId": "faq-favorites",
+              "expanded": false,
+              "content": "mock fixture"
+            },
+            "width": "fill_container",
+            "cornerRadius": 20,
+            "layout": "vertical",
+            "gap": 12,
+            "padding": [
+              18,
+              20
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "Zt91e",
+                "name": "FAQ C question button · faq-favorites",
+                "metadata": {
+                  "type": "interaction-intent",
+                  "role": "button",
+                  "ariaExpanded": false,
+                  "minimumTargetHeight": 44
+                },
+                "width": "fill_container",
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "tWuVU",
+                    "name": "FAQ C question · faq-favorites",
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "บันทึกที่พักที่ชอบได้อย่างไร?",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 22
+                  },
+                  {
+                    "type": "frame",
+                    "id": "u4i3p",
+                    "name": "FAQ C toggle target · faq-favorites",
+                    "width": 44,
+                    "height": 44,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "lp1oF",
+                        "name": "FAQ C toggle icon · faq-favorites",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "plus",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "DUxUM",
+            "name": "FAQ C item · faq-guests",
+            "metadata": {
+              "type": "faq-state",
+              "itemId": "faq-guests",
+              "expanded": false,
+              "content": "mock fixture"
+            },
+            "width": "fill_container",
+            "cornerRadius": 20,
+            "layout": "vertical",
+            "gap": 12,
+            "padding": [
+              18,
+              20
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "RT4M7",
+                "name": "FAQ C question button · faq-guests",
+                "metadata": {
+                  "type": "interaction-intent",
+                  "role": "button",
+                  "ariaExpanded": false,
+                  "minimumTargetHeight": 44
+                },
+                "width": "fill_container",
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "yE5WC",
+                    "name": "FAQ C question · faq-guests",
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "เลือกจำนวนผู้เข้าพักและสัตว์เลี้ยงอย่างไร?",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 22
+                  },
+                  {
+                    "type": "frame",
+                    "id": "a7wIxF",
+                    "name": "FAQ C toggle target · faq-guests",
+                    "width": 44,
+                    "height": 44,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "Sc4OI",
+                        "name": "FAQ C toggle icon · faq-guests",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "plus",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "u0dUGU",
+            "name": "FAQ C item · faq-details",
+            "metadata": {
+              "type": "faq-state",
+              "itemId": "faq-details",
+              "expanded": false,
+              "content": "mock fixture"
+            },
+            "width": "fill_container",
+            "cornerRadius": 20,
+            "layout": "vertical",
+            "gap": 12,
+            "padding": [
+              18,
+              20
+            ],
+            "children": [
+              {
+                "type": "frame",
+                "id": "FGCR2",
+                "name": "FAQ C question button · faq-details",
+                "metadata": {
+                  "type": "interaction-intent",
+                  "role": "button",
+                  "ariaExpanded": false,
+                  "minimumTargetHeight": 44
+                },
+                "width": "fill_container",
+                "gap": 16,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "MzYd9",
+                    "name": "FAQ C question · faq-details",
+                    "fill": "#072D59",
+                    "textGrowth": "fixed-width",
+                    "width": "fill_container",
+                    "content": "ข้อมูลสิ่งอำนวยความสะดวกดูได้ที่ไหน?",
+                    "lineHeight": 1.5,
+                    "fontFamily": "$font.primary",
+                    "fontSize": 22
+                  },
+                  {
+                    "type": "frame",
+                    "id": "J08A91",
+                    "name": "FAQ C toggle target · faq-details",
+                    "width": 44,
+                    "height": 44,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "children": [
+                      {
+                        "type": "icon",
+                        "id": "j7aIh",
+                        "name": "FAQ C toggle icon · faq-details",
+                        "width": 20,
+                        "height": 20,
+                        "icon": "plus",
+                        "library": "lucide",
+                        "fill": "#072D59"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

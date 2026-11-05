@@ -1,0 +1,403 @@
+{
+  "base": "Home Desktop-r16 / f7ZIg",
+  "draft": "Home Desktop-r17 / Tz5so",
+  "oldSectionCount": 12,
+  "newSectionCount": 13,
+  "insertionIndex": 11,
+  "footerIndex": 12,
+  "preservation": [
+    {
+      "name": "Header slot",
+      "match": true
+    },
+    {
+      "name": "Hero · finished-image carousel · 7-second horizontal loop",
+      "match": true
+    },
+    {
+      "name": "A seven flat categories",
+      "match": true
+    },
+    {
+      "name": "Recommended villas · horizontal listing rail",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่าใกล้ทะเล",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่าสายปาร์ตี้",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่าราคาพิเศษ",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่า Outing",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่า Pet Friendly",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่า Luxury",
+      "match": true
+    },
+    {
+      "name": "Home media and editorial · split TikTok r3",
+      "match": true
+    },
+    {
+      "name": "Integrated Footer-contact-column-r4 · owner approved",
+      "match": true
+    }
+  ],
+  "states": [
+    {
+      "id": "J71Dw",
+      "name": "REVIEW · Home FAQ-r1 · default all closed",
+      "openCount": 0,
+      "answerCount": 0,
+      "geometry": {
+        "x": 103838,
+        "y": 28261.5,
+        "width": 1440,
+        "height": 560
+      },
+      "problems": [
+        {
+          "id": "yDPNP",
+          "name": "FAQ introduction copy",
+          "problem": "partially clipped",
+          "bounds": {
+            "x": 0,
+            "y": 120,
+            "width": 360,
+            "height": 58
+          }
+        },
+        {
+          "id": "Oevvt",
+          "name": "FAQ question button · faq-browse",
+          "problem": "partially clipped",
+          "bounds": {
+            "x": 20,
+            "y": 68,
+            "width": 824,
+            "height": 44
+          }
+        },
+        {
+          "id": "kL7a2",
+          "name": "FAQ question text · faq-browse",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 0,
+            "y": 50,
+            "width": 764,
+            "height": 30
+          }
+        },
+        {
+          "id": "uv9A3",
+          "name": "FAQ expand target · faq-browse",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 780,
+            "y": 50,
+            "width": 44,
+            "height": 44
+          }
+        },
+        {
+          "id": "bWwmy",
+          "name": "FAQ expand icon · faq-browse",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 12,
+            "y": 62,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "id": "rmodZ",
+          "name": "FAQ question button · faq-dates",
+          "problem": "partially clipped",
+          "bounds": {
+            "x": 20,
+            "y": 68,
+            "width": 824,
+            "height": 44
+          }
+        },
+        {
+          "id": "uaozw",
+          "name": "FAQ question text · faq-dates",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 0,
+            "y": 50,
+            "width": 764,
+            "height": 30
+          }
+        },
+        {
+          "id": "UO65U",
+          "name": "FAQ expand target · faq-dates",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 780,
+            "y": 50,
+            "width": 44,
+            "height": 44
+          }
+        },
+        {
+          "id": "fGssG",
+          "name": "FAQ expand icon · faq-dates",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 12,
+            "y": 62,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "id": "reeo5",
+          "name": "FAQ question button · faq-favorites",
+          "problem": "partially clipped",
+          "bounds": {
+            "x": 20,
+            "y": 68,
+            "width": 824,
+            "height": 44
+          }
+        },
+        {
+          "id": "atbJf",
+          "name": "FAQ question text · faq-favorites",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 0,
+            "y": 50,
+            "width": 764,
+            "height": 30
+          }
+        },
+        {
+          "id": "B3RKc7",
+          "name": "FAQ expand target · faq-favorites",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 780,
+            "y": 50,
+            "width": 44,
+            "height": 44
+          }
+        },
+        {
+          "id": "u8DtS",
+          "name": "FAQ expand icon · faq-favorites",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 12,
+            "y": 62,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "id": "qf29W",
+          "name": "FAQ question button · faq-guests",
+          "problem": "partially clipped",
+          "bounds": {
+            "x": 20,
+            "y": 68,
+            "width": 824,
+            "height": 44
+          }
+        },
+        {
+          "id": "HuuQu",
+          "name": "FAQ question text · faq-guests",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 0,
+            "y": 50,
+            "width": 764,
+            "height": 30
+          }
+        },
+        {
+          "id": "A6W4i7",
+          "name": "FAQ expand target · faq-guests",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 780,
+            "y": 50,
+            "width": 44,
+            "height": 44
+          }
+        },
+        {
+          "id": "oZLR7",
+          "name": "FAQ expand icon · faq-guests",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 12,
+            "y": 62,
+            "width": 20,
+            "height": 20
+          }
+        },
+        {
+          "id": "TAa1N",
+          "name": "FAQ item · faq-details",
+          "problem": "partially clipped",
+          "bounds": {
+            "x": 12,
+            "y": 394,
+            "width": 864,
+            "height": 80
+          }
+        },
+        {
+          "id": "DAsWY",
+          "name": "FAQ question button · faq-details",
+          "problem": "partially clipped",
+          "bounds": {
+            "x": 20,
+            "y": 68,
+            "width": 824,
+            "height": 44
+          }
+        },
+        {
+          "id": "E1ePes",
+          "name": "FAQ question text · faq-details",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 0,
+            "y": 50,
+            "width": 764,
+            "height": 30
+          }
+        },
+        {
+          "id": "Q6ry5L",
+          "name": "FAQ expand target · faq-details",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 780,
+            "y": 50,
+            "width": 44,
+            "height": 44
+          }
+        },
+        {
+          "id": "YnqfP",
+          "name": "FAQ expand icon · faq-details",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 12,
+            "y": 62,
+            "width": 20,
+            "height": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "O7BHrA",
+      "name": "REVIEW · Home FAQ-r1 · one answer expanded",
+      "openCount": 0,
+      "answerCount": 1,
+      "geometry": {
+        "x": 105398,
+        "y": 28261.5,
+        "width": 1440,
+        "height": 602
+      },
+      "problems": [
+        {
+          "id": "lQ9SK",
+          "name": "FAQ answer body · faq-browse",
+          "problem": "fully clipped",
+          "bounds": {
+            "x": 20,
+            "y": 124,
+            "width": 824,
+            "height": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "Qhx2S",
+      "name": "REVIEW · Home FAQ-r1 · long question and answer",
+      "openCount": 0,
+      "answerCount": 1,
+      "geometry": {
+        "x": 106958,
+        "y": 28261.5,
+        "width": 1440,
+        "height": 828
+      },
+      "problems": [
+        {
+          "id": "EoiAx",
+          "name": "FAQ answer body · faq-browse",
+          "problem": "partially clipped",
+          "bounds": {
+            "x": 20,
+            "y": 140,
+            "width": 824,
+            "height": 240
+          }
+        }
+      ]
+    }
+  ],
+  "emptyContext": {
+    "id": "Evcv7",
+    "children": [
+      "Integrated Article Desktop review-2 · owner accepted",
+      "Integrated Footer-contact-column-r4 · owner approved"
+    ]
+  },
+  "variables": {
+    "variables": {
+      "brand.navy": {
+        "type": "color",
+        "value": "#072D59"
+      },
+      "brand.pink": {
+        "type": "color",
+        "value": "#FD6E88"
+      },
+      "brand.light": {
+        "type": "color",
+        "value": "#DBF2FC"
+      },
+      "surface.page": {
+        "type": "color",
+        "value": "#FFFFFF"
+      },
+      "font.primary": {
+        "type": "string",
+        "value": "Mitr"
+      },
+      "spacing.unit": {
+        "type": "number",
+        "value": 4
+      }
+    }
+  },
+  "runtimeVerified": false,
+  "ownerAppearanceAcceptance": "pending"
+}

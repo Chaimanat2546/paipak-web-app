@@ -1,0 +1,38 @@
+[
+  {
+    "id": "J71Dw",
+    "expandedRows": 0,
+    "minusIcons": 0,
+    "answers": 0,
+    "geometry": {
+      "x": 103838,
+      "y": 28261.5,
+      "width": 1440,
+      "height": 560
+    }
+  },
+  {
+    "id": "O7BHrA",
+    "expandedRows": 1,
+    "minusIcons": 1,
+    "answers": 1,
+    "geometry": {
+      "x": 105398,
+      "y": 28261.5,
+      "width": 1440,
+      "height": 602
+    }
+  },
+  {
+    "id": "Qhx2S",
+    "expandedRows": 1,
+    "minusIcons": 1,
+    "answers": 1,
+    "geometry": {
+      "x": 106958,
+      "y": 28261.5,
+      "width": 1440,
+      "height": 828
+    }
+  }
+]

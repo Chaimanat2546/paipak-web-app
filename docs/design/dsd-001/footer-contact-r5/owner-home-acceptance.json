@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Footer-contact-r5 / Home Desktop-r20",
+  "owner_quote": "1",
+  "question": "1. รับ Footer-r5 / Home Desktop-r20 นี้ 2. ปรับลำดับช่องทาง 3. ปรับขนาดหรือช่องไฟ",
+  "status": "owner_approved_footer_r5_and_bounded_Home_Desktop_r20_with_open_items",
+  "scope": "Desktop1440 Footer appearance with LINE, Facebook Page, TikTok and phone; preserve existing Home-r19/FAQ-r4. Account display fixtures are not verified production destinations. Existing open/proposed/deferred items remain unchanged",
+  "native_home": "ZRyFB",
+  "native_footer": "lYPMw",
+  "native_context": "i6nBJD",
+  "displayed_footer": "lYPMw.png",
+  "displayed_footer_sha256": "64ea603e137763a23e099c6345bd99a2b78ce8340e12d8a4f8bc5710ceafa152",
+  "home_image": "ZRyFB.png",
+  "home_image_sha256": "00efebbcdc606ff2cf282840a1b50684d4bc5fe8f6ab32dd2d54e393c53440bc",
+  "context_image": "i6nBJD.png",
+  "context_image_sha256": "b963ceb9bdffa4b9b056b0c6021e03da1a08bfd28a100fd1aff0fc23073993a7",
+  "review_manifest": "review-manifest.json",
+  "review_manifest_sha256": "4fd121c112e047d4645441f2757733384943f23fd4c5817e8911bc6a124a8df9",
+  "frozen_review_readme": "approved-review-content/README.md.txt",
+  "frozen_review_readme_sha256": "2037cc846cb3afa6ba93285d517d8c2c5c6b2454ea9aeee59df93f12b861bffd",
+  "native_snapshot": "home-editable-snapshot.json",
+  "native_snapshot_sha256": "924a0d6892d2b938a729ca893f9ee1fcbbeb55c89ce32e6171659c0c65740f41",
+  "snapshot_capture_note": "Captured through Pencil MCP immediately after owner acceptance, before approval-label metadata changes; no visual edits",
+  "footer_reference": {
+    "width": 1440,
+    "height": 392,
+    "channels": [
+      "LINE OA",
+      "Facebook Page",
+      "TikTok",
+      "phone"
+    ],
+    "row_height": 48,
+    "row_gap": 4,
+    "Facebook_TikTok_glyph_size": 24,
+    "icon_field_size": 32
+  },
+  "account_urls": {
+    "facebook": null,
+    "tiktok": null,
+    "LINE": null,
+    "phone": null
+  },
+  "account_destinations_verified": false,
+  "production_contact_data_approved": false,
+  "desktop_design_scope_closed": true,
+  "task_complete": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "deployment_authorized": false,
+  "runtime_verified": false,
+  "mobile": "paused",
+  "retained_open_items": [
+    "OPEN-001",
+    "unverified social/contact destinations and production data",
+    "keyboard/focus/screen-reader/motion and runtime",
+    "other Desktop widths and paused Mobile",
+    "remaining DSD-001 proposed/open/deferred items"
+  ],
+  "review_status_note": "Review manifest/verification preserve pre-approval pending state; this record is the current owner decision",
+  "published_documents": [
+    {
+      "name": "visual-direction.md",
+      "path": "../visual-direction.md",
+      "sha256": "8d9e46bd71184ff947afea5e2b34eb1c353ffacde367bf03697b39b9b42e17f3"
+    },
+    {
+      "name": "token-sheet.md",
+      "path": "../token-sheet.md",
+      "sha256": "f8b219fffaa810cc1a2908704df6d853b883b228022fcca1978c9729c745d1f6"
+    },
+    {
+      "name": "typography-spec.md",
+      "path": "../typography-spec.md",
+      "sha256": "776092de329dde10b239766ab4362414da66915c7178232dd346ea33a8768ef6"
+    },
+    {
+      "name": "responsive-visual-guidelines.md",
+      "path": "../responsive-visual-guidelines.md",
+      "sha256": "e3336476b44e0e25a24a0e4dbabfac4179c9617eb80387fbc934521efbeebbcc"
+    },
+    {
+      "name": "hero-banner-carousel-spec.md",
+      "path": "../hero-banner-carousel-spec.md",
+      "sha256": "1d39a37b165523087f49458525b46d6a8955b5f1905d4067f2426a0ac6896ef7"
+    },
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "sha256": "2144e3214846060a9b4d4ae80508d71881a5b688209d0896eec1656fedaef6ee"
+    }
+  ]
+}

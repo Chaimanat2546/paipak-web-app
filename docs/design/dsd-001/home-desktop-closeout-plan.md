@@ -1,5 +1,13 @@
 # แผนตรวจปิดรอบ Home Desktop
 
+สถานะล่าสุดหลังเพิ่มช่องทางติดต่อ: เจ้าของเลือก1รับ [Footer-r5 / Home Desktop-r20](footer-contact-r5/owner-home-acceptance.json) แล้ว คงFAQ-r4และส่วนอื่นเดิม บัญชีFacebook/TikTokยังเป็นข้อมูลจำลองไม่มีURLจริง ปิดเฉพาะรอบออกแบบDesktopพร้อมข้อค้างเดิม ไม่เริ่มFrontendหรือปิดDSD-001ทั้งTask
+
+สถานะล่าสุดหลังเพิ่มFAQ: เจ้าของเลือก1รับ [FAQ-r4 / Home Desktop-r19](home-faq-r4/owner-home-acceptance.json) แล้ว ปิดรอบออกแบบDesktopส่วนเพิ่มพร้อมข้อค้างเดิม ไม่ปิดDSD-001ทั้งTaskหรือเริ่มFrontend ข้อความก่อนเพิ่มFAQด้านล่างเก็บเป็นประวัติ
+
+สถานะปัจจุบัน: เจ้าของเลือก1รับและปิดรอบออกแบบ [Home Desktop-r16พร้อมข้อค้างเดิม](home-desktop-r16-final-review/owner-home-acceptance.json) แล้ว รวมกรณีภาพเดียว/ช่วงโหลดที่ระบุในfinal review ข้อความรอรับด้านล่างเป็นประวัติระหว่างตรวจ ไม่เริ่มถามซ้ำและไม่ถือว่าปิดDSD-001หรืออนุญาตFrontend
+
+> สถานะล่าสุด5พฤศจิกายน2026: Home-r15และfoundation-3รับในขอบเขตที่บันทึกแล้ว ต่อมาเพิ่มHeroภาพสำเร็จรูป ตอนนี้อยู่ที่ [Home Desktop-r16 final review](home-desktop-r16-final-review/README.md) รอรับแพ็กเกจDesktopพร้อมข้อค้างเดิม รายการด้านล่างเก็บลำดับหารือและcheckpointเดิม ไม่เริ่มถามข้อที่รับแล้วซ้ำ
+
 Task: DSD-001 / bounded Home Desktop review  
 Version: home-desktop-closeout-plan-1 / 4 พฤศจิกายน 2026 (Asia/Bangkok)  
 Status: planned; owner decisions pending  

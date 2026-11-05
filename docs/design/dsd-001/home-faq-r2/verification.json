@@ -1,0 +1,65 @@
+[
+  {
+    "key": "A",
+    "id": "F1T9Y",
+    "contextId": "y6qOVB",
+    "heading": [
+      {
+        "content": "คำถามที่พบบ่อย",
+        "fontFamily": "$font.primary",
+        "fontSize": 40
+      }
+    ],
+    "questionCount": 5,
+    "answerCount": 1,
+    "minusCount": 1,
+    "geometry": {
+      "x": 108518,
+      "y": 28261.5,
+      "width": 1440,
+      "height": 700
+    }
+  },
+  {
+    "key": "B",
+    "id": "g2vg6",
+    "contextId": "F1v7q1",
+    "heading": [
+      {
+        "content": "คำถาม\nที่พบบ่อย",
+        "fontFamily": "$font.primary",
+        "fontSize": 56
+      }
+    ],
+    "questionCount": 5,
+    "answerCount": 1,
+    "minusCount": 1,
+    "geometry": {
+      "x": 110078,
+      "y": 28261.5,
+      "width": 1440,
+      "height": 602
+    }
+  },
+  {
+    "key": "C",
+    "id": "a4GfF",
+    "contextId": "gB8KC",
+    "heading": [
+      {
+        "content": "คำถามที่พบบ่อย",
+        "fontFamily": "$font.primary",
+        "fontSize": 40
+      }
+    ],
+    "questionCount": 5,
+    "answerCount": 1,
+    "minusCount": 1,
+    "geometry": {
+      "x": 111638,
+      "y": 28261.5,
+      "width": 1440,
+      "height": 749
+    }
+  }
+]

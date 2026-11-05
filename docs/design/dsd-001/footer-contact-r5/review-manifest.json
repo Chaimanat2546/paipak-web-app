@@ -1,0 +1,64 @@
+{
+  "version": "Footer-contact-r5 / Home Desktop-r20 draft",
+  "status": "pending_owner_appearance_review",
+  "files": [
+    {
+      "name": "assets/facebook-logo-fill.svg",
+      "sha256": "4ef00877d0348c4db3eb93d01d36d9b82528ca2d635d0e3a5e51515299cf99f7",
+      "bytes": 466
+    },
+    {
+      "name": "assets/provenance.json",
+      "sha256": "58bcbf2619946d5d414de90a58c1ee94b6909aeaac32fb41e1045ba9dd582c1f",
+      "bytes": 1140
+    },
+    {
+      "name": "assets/tiktok-logo-fill.svg",
+      "sha256": "aafb59c3c1902035736bc955e1b4485e46fd8b633bb2cd2e046937cc1b26c5cb",
+      "bytes": 343
+    },
+    {
+      "name": "editable-footer.json",
+      "sha256": "a8f9240830a80e4ab3b96a0464a16e7ceb7b04c920c0f90fc22e37a2660baeb1",
+      "bytes": 29223
+    },
+    {
+      "name": "home-structure.json",
+      "sha256": "a505b83997ed0f7b66b17b60193086758c6b49e1548432ad45a6003c8cbc99af",
+      "bytes": 5082
+    },
+    {
+      "name": "i6nBJD.png",
+      "sha256": "b963ceb9bdffa4b9b056b0c6021e03da1a08bfd28a100fd1aff0fc23073993a7",
+      "bytes": 929822
+    },
+    {
+      "name": "lYPMw.png",
+      "sha256": "64ea603e137763a23e099c6345bd99a2b78ce8340e12d8a4f8bc5710ceafa152",
+      "bytes": 42552
+    },
+    {
+      "name": "owner-addition-request.json",
+      "sha256": "dfef75e60f7d4c130930dc0ddd5ae80bdef748a5daaf480e0bdc0ecb96b05d8a",
+      "bytes": 599
+    },
+    {
+      "name": "README.md",
+      "sha256": "2037cc846cb3afa6ba93285d517d8c2c5c6b2454ea9aeee59df93f12b861bffd",
+      "bytes": 4907
+    },
+    {
+      "name": "verification.json",
+      "sha256": "6ce978b1e5624f36f586af88b7f9debd3d5970b982e459c00fa6658dd486c1cd",
+      "bytes": 2899
+    },
+    {
+      "name": "ZRyFB.png",
+      "sha256": "00efebbcdc606ff2cf282840a1b50684d4bc5fe8f6ab32dd2d54e393c53440bc",
+      "bytes": 8165243
+    }
+  ],
+  "account_URLs_supplied": false,
+  "runtime_verified": false,
+  "frontend_authorized": false
+}

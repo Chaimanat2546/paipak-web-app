@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "1",
+  "question": "เมื่อผู้ใช้กดเลื่อนเอง เอาเมาส์ออก หรือปิดช่องค้นหา: 1. เริ่มนับ 7 วินาทีใหม่ 2. นับต่อจากเวลาที่เหลือเดิม 3. หยุดไว้จนกดเล่น",
+  "selected_option": "เริ่มนับ 7 วินาทีใหม่",
+  "status": "owner_confirmed_fresh_seven_second_interval_after_interaction",
+  "hold_interval_ms": 7000,
+  "transition_duration_ms": 800,
+  "policy": {
+    "manual_slide_selection": "Show selected image, then start a fresh seven-second hold after its transition finishes, provided no pause condition remains",
+    "pointer_leaves_hero": "Start a fresh seven-second hold only if Search is closed and the user has not explicitly paused",
+    "search_closes": "Start a fresh seven-second hold only if the pointer is outside the Hero and the user has not explicitly paused",
+    "explicit_pause_button": "Remain paused until the user presses Play; interaction completion does not override explicit pause",
+    "play_button": "Clear explicit pause and start a fresh seven-second hold only when other pause conditions have cleared",
+    "pause_priority": "Any remaining pause condition keeps auto-rotation stopped; never advance immediately using an expired timer"
+  },
+  "scope": "Confirmed pointer/Search/manual-selection restart policy with an explicit-pause guard. Background-tab and keyboard/reduced-motion details remain separate; this record does not certify accessibility or runtime behavior",
+  "runtime_verified": false,
+  "whole_home_approved": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

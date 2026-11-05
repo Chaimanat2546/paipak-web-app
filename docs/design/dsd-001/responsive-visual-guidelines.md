@@ -1,11 +1,11 @@
 # DSD-001 — Responsive visual guidelines
 
-> ฉบับใช้งาน: ฐาน foundation-3-desktop + ข้อกำหนด Hero ภาพสำเร็จรูปที่เจ้าของเลือก ดู [สเป็ก Hero](hero-banner-carousel-spec.md) และ [ร่าง Pencil ปัจจุบัน](hero-banner-carousel-r3/README.md) การรับ foundation-3 เดิมครอบคลุม [ฉบับเก็บก่อนแก้ Hero](foundation-3-desktop/pre-hero-reconciliation-2026-11-05/README.md) เท่านั้น หน้าตา Hero/controls และสถานะที่เสนอใหม่ยังรอตรวจ ไม่ปิด Task หรืออนุญาต Frontend
+> เจ้าของรับHome Desktop-r20พร้อมFooter-contact-r5และFAQ-r4ในขอบเขตDesktopพร้อมข้อค้างเดิมแล้ว ดู [หลักฐาน](footer-contact-r5/owner-home-acceptance.json) บัญชีFB/TikTokยังเป็นfixturesไม่มีURLจริง ฉบับHome-r19ก่อนเพิ่มช่องทางเก็บใน [archive](home-faq-r4/pre-social-footer-reconciliation-2026-11-05/README.md) ไม่ปิดDSD-001ทั้งTaskหรืออนุญาตFrontend/backend/runtime/จออื่น
 
 
-รุ่น foundation-3-desktop + hero-banner-carousel-1 · 5 พฤศจิกายน 2026 · A / Holiday Panorama / review-2
+รุ่น foundation-3-desktop + Home-r20 supplements · 5 พฤศจิกายน 2026 · A / Holiday Panorama / review-2
 
-**ฐานDesktop1440pxอ้าง Home-r15ที่รับแล้ว; เพิ่มร่างHeroภาพสำเร็จรูปซึ่งยังรอตรวจ; widthอื่นยังไม่รับรอง** เจ้าของพักMobileเพื่อโฟกัสDesktop จึงไม่สร้างหรือปรับMobile/Tablet screensใหม่ และไม่ใช้matrixหรือcompositionของBเป็นcurrent A approval
+**ฐานDesktop1440pxอ้าง Home-r15ที่รับแล้ว; Heroภาพสำเร็จรูปในHome-r16รับพร้อมข้อค้างแล้ว; widthอื่นยังไม่รับรอง** เจ้าของพักMobileเพื่อโฟกัสDesktop จึงไม่สร้างหรือปรับMobile/Tablet screensใหม่ และไม่ใช้matrixหรือcompositionของBเป็นcurrent A approval
 
 ## ขอบเขตการรับรอง
 
@@ -41,7 +41,7 @@
 - Category stripที่1440มีpaddingแนวนอน200pxซึ่งต่างจากlisting gutter56px เป็นการจัดจังหวะเฉพาะA ห้ามใช้200pxเป็นglobalouter gutterทุกviewport
 - หากwidthแคบลง ต้องตรวจสัดส่วนภาพสำเร็จรูปและสาระสำคัญที่รวมอยู่ในไฟล์กับพื้นที่Search/controlsก่อนรับ ไม่cropหรือย่อจนตัวหนังสือในภาพอ่านไม่ได้โดยไม่ตรวจ ไม่สร้างMobileจากการย่อDesktop และไม่ย้ายSearchหรือทำวัน/loginเป็นเงื่อนไขเพื่อให้layoutพอดี
 
-Heroเลื่อนแนวนอนอัตโนมัติวนทุก7วินาที มีลูกศร/จุดเลือก พักเมื่อhoverหรือใช้งานSearch และภาพไม่เป็นลิงก์; Searchไม่เลื่อนหรือล้างค่าเมื่อเปลี่ยนภาพ ดู [ข้อกำหนด](hero-banner-carousel-spec.md) และ [static states](hero-banner-carousel-r1/README.md) กรณีไม่มีภาพยืนยันแล้วให้ใช้ภาพปัจจุบันเป็นfallbackมาตรฐาน คงHero470px/ขอบโค้งขาว/Search ไม่ยุบเป็น136px หน้าตาcontrolsและรายละเอียดภาพเดียว/โหลดล้มเหลวบางส่วนยังรอตรวจ ไม่ถือว่าทดสอบruntimeแล้ว ดู [r3](hero-banner-carousel-r3/README.md)
+Heroเลื่อนแนวนอนอัตโนมัติวนทุก7วินาที มีลูกศร/จุดเลือก พักเมื่อhoverหรือใช้งานSearch และภาพไม่เป็นลิงก์; Searchไม่เลื่อนหรือล้างค่าเมื่อเปลี่ยนภาพ ดู [ข้อกำหนด](hero-banner-carousel-spec.md) และ [static states](hero-banner-carousel-r1/README.md) กรณีไม่มีภาพยืนยันแล้วให้ใช้ภาพปัจจุบันเป็นfallbackมาตรฐาน คงHero470px/ขอบโค้งขาว/Search ไม่ยุบเป็น136px controls defaultหลายสไลด์ที่แสดงรับแล้ว; ภาพเดียว/initial-loadingรับในHome-r16แล้ว; hoverที่เสนอแยกยังไม่รับ; รูปเสียบางส่วนข้ามแล้วใช้รูปพร้อมตามนโยบายที่รับ ไม่ถือว่าทดสอบruntimeแล้ว ดู [r3](hero-banner-carousel-r3/README.md)
 
 ## Listing rail, cardและcontent extremes
 
@@ -90,7 +90,7 @@ TikTokเล่น/หยุด/bufferingใช้ provider UI การเล�
 
 ## Footerและภาพประกอบ
 
-ใช้ Footer-contact-column-r4 ที่รับแล้ว รวมสูง299pxที่1440px ขอบโค้ง48px พื้นLight Blue padding24×56 gap20 คงแบรนด์ เมนู/ลูกศรและกลับขึ้นด้านบน เมนู/ติดต่อสามคอลัมน์240px gap40รวม800px ช่องทางติดต่อสองแถวสูง48px gap4 แสดงLINE/เบอร์โทรโดยตรง ไม่ใช้ปุ่มติดต่อเดียวที่ต้องกดเพื่ออ่านข้อมูล
+ใช้Footer-contact-r5ที่รับแล้ว รวมสูง392pxที่1440px (r4เดิม299pxเก็บเป็นประวัติ) ขอบโค้ง48px พื้นLight Blue padding24×56 gap20 คงแบรนด์ เมนู/ลูกศรและกลับขึ้นด้านบน เมนู/ติดต่อสามคอลัมน์240px gap40รวม800px ช่องทางติดต่อสี่แถวสูง48px gap4 แสดงLINE/Facebook Page/TikTok/เบอร์โทรโดยตรง ไม่ใช้ปุ่มติดต่อเดียวที่ต้องกดเพื่ออ่านข้อมูล
 
 LINE icon24pxในพื้นที่32px และphone20pxในพื้นที่32pxตามreference แยกจาก Header contact popup280×176ที่คงเดิม @papaipak-demo/02-000-0000เป็นmock ไม่เชื่อมLINE/โทรจริง ลิงก์เนื้อหาเปิดแท็บเดิม ไม่รับรองระบบ/หน้าเนื้อหาจริงจากappearanceนี้
 
@@ -110,3 +110,15 @@ Hero/card/footerภาพที่มีอยู่เป็นstudy assetsแ�
 | Finalfoundation/frontend | ต้องรับversionแยกและจัดการblockerก่อนผ่านgateที่เกี่ยวข้อง |
 
 เอกสารนี้สรุปdesign specificationของDSD-001 ไม่แก้CSS/breakpointsจริง ไม่เริ่มDSD-002/UID/UXD-002 ไม่เปลี่ยนselectedlayoutsของDetail/Checkout/Profile และไม่รับรองTaskเสร็จจากการมีreferenceDesktop
+
+Heroใช้การเลื่อน800msตามตัวอย่างที่รับ และเริ่มค้าง7วินาทีใหม่หลังเลือกภาพเอง/เอาเมาส์ออก/ปิดSearchเมื่อไม่มีเหตุพักค้าง การพักเองรอPlay ไม่เปลี่ยนภาพทันทีจากtimerที่หมดอายุ ดู [นโยบาย](hero-motion-review-r1/owner-restart-policy-decision.json) Background-tab/keyboard/reduced-motionยังแยกตรวจ
+
+
+## Home-r19 FAQที่1440px
+
+เพิ่มFAQ-r4หลังบทความก่อนFooter หัวข้อบนรายการเต็มแนว กรอบcontent1328px/Whitepanel1280px/inset24px คำตอบmeasure904px default594/open636/long846pxเป็นผลจากfixtures ไม่กำหนดsectionheightคงที่ ข้อความยาวต้องขยายแผง/พื้นที่backingตามเนื้อหา ไม่มีFAQพร้อมให้ซ่อนทั้งsectionและspacingตามแผนที่รับ
+
+[Home-r19ที่รับ](home-faq-r4/owner-home-acceptance.json) รักษาอีก12ส่วนของHome-r16 จออื่น/Mobile/backend/runtimeยังไม่รับรอง ไม่มีการเลือกbreakpointใหม่จากการเพิ่มFAQ
+
+
+Footer-r5เพิ่มสองrowในคอลัมน์ติดต่อโดยไม่เปลี่ยนอีก12ส่วนของHome-r19 Header/Hero/FAQและส่วนอื่นคงเดิม Height392pxเป็นreferenceตามfixtures ไม่ใช้fixedheightทุกจอ เมื่อได้ชื่อ/URLจริงต้องตรวจการwrap/targetอีกครั้ง ยังไม่รับรองปลายทางหรือMobile ดู [Home-r20](footer-contact-r5/owner-home-acceptance.json)

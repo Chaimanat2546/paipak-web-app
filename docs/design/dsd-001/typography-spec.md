@@ -1,11 +1,11 @@
 # DSD-001 — Typography specification
 
-> ฉบับใช้งาน: ฐาน foundation-3-desktop + ข้อกำหนด Hero ภาพสำเร็จรูปที่เจ้าของเลือก ดู [สเป็ก Hero](hero-banner-carousel-spec.md) และ [ร่าง Pencil ปัจจุบัน](hero-banner-carousel-r3/README.md) การรับ foundation-3 เดิมครอบคลุม [ฉบับเก็บก่อนแก้ Hero](foundation-3-desktop/pre-hero-reconciliation-2026-11-05/README.md) เท่านั้น หน้าตา Hero/controls และสถานะที่เสนอใหม่ยังรอตรวจ ไม่ปิด Task หรืออนุญาต Frontend
+> เจ้าของรับHome Desktop-r20พร้อมFooter-contact-r5และFAQ-r4ในขอบเขตDesktopพร้อมข้อค้างเดิมแล้ว ดู [หลักฐาน](footer-contact-r5/owner-home-acceptance.json) บัญชีFB/TikTokยังเป็นfixturesไม่มีURLจริง ฉบับHome-r19ก่อนเพิ่มช่องทางเก็บใน [archive](home-faq-r4/pre-social-footer-reconciliation-2026-11-05/README.md) ไม่ปิดDSD-001ทั้งTaskหรืออนุญาตFrontend/backend/runtime/จออื่น
 
 
-รุ่น foundation-3-desktop + hero-banner-carousel-1 · 5 พฤศจิกายน 2026 · Direction A / review-2
+รุ่น foundation-3-desktop + Home-r20 supplements · 5 พฤศจิกายน 2026 · Direction A / review-2
 
-**สถานะ: ฐานDesktop Home-r15รับแล้วพร้อมข้อค้าง; Heroใหม่ใช้ภาพสำเร็จรูปและเลิกใช้web-text rolesเดิม ส่วนUIใหม่ยังรอตรวจ** Mobile พักไว้ ตารางนี้ไม่ใช่การอนุมัติ typography ของทุกหน้า ทุกขนาดจอ หรือ Frontend
+**สถานะ: ฐานDesktop Home-r15รับแล้วพร้อมข้อค้าง; Heroใหม่ใช้ภาพสำเร็จรูปและเลิกใช้web-text rolesเดิม Home-r16รับเฉพาะDesktopพร้อมข้อค้างเดิมแล้ว** Mobile พักไว้ ตารางนี้ไม่ใช่การอนุมัติ typography ของทุกหน้า ทุกขนาดจอ หรือ Frontend
 
 ## Family และขอบเขต
 
@@ -100,3 +100,20 @@ Mobile พักไว้ ไม่เอาขนาด36/48/64pxของ B �
 ตัวหนังสือที่ยังเห็นในสไลด์ตัวอย่างเป็นส่วนหนึ่งของraster ไม่ใช่ข้อกำหนดให้เว็บไซต์พิมพ์ข้อความเดิมซ้ำ และไม่บังคับฟอนต์ภายในไฟล์ภาพจริง
 
 ภาพสำรองมาตรฐานของHeroใช้ภาพปัจจุบันที่รวมตัวหนังสือในไฟล์แล้วเช่นกัน ไม่มีfallbackเป็นหัวเรื่อง/คำโปรยที่เว็บพิมพ์ทับ ดู [คำยืนยันfallback](hero-banner-carousel-r3/owner-fallback-decision.json)
+
+
+## FAQ-r4 · Home-r19ที่รับแล้ว
+
+| Local role | Size | Weight | Line-height |
+| --- | ---: | ---: | ---: |
+| home.faq.heading | 36 | 400 | 1.35 |
+| home.faq.intro | 18 | 400 | 1.6 |
+| home.faq.question | 22 | 400 | 1.5 |
+| home.faq.answer | 18 | 400 | 1.65 |
+
+Mitrทั้งหมด คำถาม/คำตอบwrapตามเนื้อหาไม่ตัดบรรทัดเพื่อบังคับความสูง เนื้อหาจริงให้หลังบ้านเป็นผู้เขียน ไม่มีฟอนต์เสริมและไม่อนุมัติfixturesเป็นคำตอบจริง การแสดงrich text/ลิงก์และkeyboardยังแยกตรวจ ดู [รุ่นที่รับ](home-faq-r4/owner-home-acceptance.json)
+
+
+## Footer-contact-r5 · Home-r20
+
+Facebook Page/TikTokใช้labelMitr16/500/line-height1.5และdisplay name14/400/1.5ตามLINE/phoneเดิม ไม่มีtypography familyหรือweightใหม่ ชื่อบัญชีpapaipakเป็นfixtureไม่ใช่URLที่ยืนยัน ดู [รุ่นที่รับ](footer-contact-r5/owner-home-acceptance.json)

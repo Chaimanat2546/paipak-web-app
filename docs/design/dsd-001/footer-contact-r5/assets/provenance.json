@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-05",
+  "assets": [
+    {
+      "icon": "facebook-logo-fill",
+      "library": "Pencil built-in Phosphor",
+      "source": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/facebook-logo-fill.svg",
+      "mime": "image/svg+xml",
+      "sha256": "4ef00877d0348c4db3eb93d01d36d9b82528ca2d635d0e3a5e51515299cf99f7",
+      "bytes": 466,
+      "rendering": "Pencil native Phosphor facebook-logo-fill; raw upstream fill SVG retained as reference",
+      "native_icon": "facebook-logo-fill"
+    },
+    {
+      "icon": "tiktok-logo-fill",
+      "library": "Pencil built-in Phosphor",
+      "source": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/tiktok-logo-fill.svg",
+      "mime": "image/svg+xml",
+      "sha256": "aafb59c3c1902035736bc955e1b4485e46fd8b633bb2cd2e046937cc1b26c5cb",
+      "bytes": 343,
+      "rendering": "Pencil native Phosphor tiktok-logo; raw upstream fill SVG retained as reference",
+      "native_icon": "tiktok-logo"
+    }
+  ],
+  "note": "Firecrawl raw SVG retrieval unsupported; public upstream SVG fetched directly. No papaipak account URLs verified."
+}

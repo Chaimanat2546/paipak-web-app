@@ -1,7 +1,7 @@
 # Design task index (manual execution)
 
 - **UXD-001 — User journeys and IA audit** | Depends on: none | Status: completed / owner-approved review-2 on 2026-11-02 | [Deliverables](UXD-001.md#deliverables)
-- **DSD-001 — Visual foundations and design token specification** | Depends on: UXD-001 | First output: owner-approved G1 Visual Direction before Wireframe; remaining token specs follow | Status: in progress; A/review-2, Home Desktop-r15 and Desktop foundation-3 accepted within recorded scope; open items retained; no Frontend authorization
+- **DSD-001 — Visual foundations and design token specification** | Depends on: UXD-001 | First output: owner-approved G1 Visual Direction before Wireframe; remaining token specs follow | Status: in progress; A/review-2, Home Desktop-r20 with Footer-r5 and FAQ-r4 bounded Desktop design closeout and Desktop foundation-3 accepted within recorded scope; open items retained; task remains in progress; no Frontend authorization
 - **UXD-002 — Detailed responsive wireframes** | Depends on: UXD-001 and approved DSD-001 G1 direction/version (not all token specs) | Status: draft review-5 / awaiting owner review; retain existing evidence and review alignment after G1 | [Deliverables](UXD-002.md#deliverables)
 - **DSD-002 — Component visual states and interaction specs** | Depends on: DSD-001, UXD-002 | Status: planned/not started
 - **UID-001 — Homepage high-fidelity design** | Depends on: UXD-002, DSD-002 | Status: planned/not started

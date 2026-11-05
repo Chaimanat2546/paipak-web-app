@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "ติดต่อเรา Page FB Tiktok เพิ่มไปหน่อย",
+  "status": "owner_authorized_bounded_footer_contact_addition",
+  "scope": "Add Facebook Page and TikTok to the existing Footer contact column; preserve existing LINE, phone, navigation, branding and accepted Home/FAQ design",
+  "account_links_supplied": false,
+  "display_name_fixture": "papaipak",
+  "appearance_approved": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "task_complete": false
+}

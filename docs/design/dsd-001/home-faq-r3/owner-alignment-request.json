@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "ขอแบบให้ style เข้ากับเว็บหน่อย",
+  "status": "owner_requested_alignment_to_existing_home_visual_language",
+  "scope": "Revise FAQ within the approved G0, using the existing Home palette, regular Mitr typography, pool-edge motif, floating White reading surfaces and rounded Navy control language. Keep future backend content, single-open behavior, initially closed state, empty hiding and position before Footer",
+  "FAQ_r2_option_selected": false,
+  "final_appearance_approved": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

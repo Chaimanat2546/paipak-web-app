@@ -9,26 +9,33 @@
     {
       "name": "visual-direction.md",
       "archived_sha256": "47cfe7532048751178643d65f33247c7049fe87f3ac6610a333ba1f0dbea54ad",
-      "current_sha256": "e56cbb30e082d893e3c98de54ef3aef16f81ed86304723bf506a073ba4ae2a8c"
+      "current_sha256": "8d9e46bd71184ff947afea5e2b34eb1c353ffacde367bf03697b39b9b42e17f3"
     },
     {
       "name": "token-sheet.md",
       "archived_sha256": "abab593a5ce89bcd4b536b00c526f62a72d38ee324b757c6e9f58b16957a2b6f",
-      "current_sha256": "2c287454a797400bbe8e85544f3144d053f72a50d23dc0f2f7b7742a5b89bb51"
+      "current_sha256": "f8b219fffaa810cc1a2908704df6d853b883b228022fcca1978c9729c745d1f6"
     },
     {
       "name": "typography-spec.md",
       "archived_sha256": "aa9c1af0473e07abd921fd32f00c4fee827e5e4e3d914139b6cc04ad795b7685",
-      "current_sha256": "da087b8ff83358bfedf17af235e4a43ce462a56ba551f765c5fdd1c5ff2ef942"
+      "current_sha256": "776092de329dde10b239766ab4362414da66915c7178232dd346ea33a8768ef6"
     },
     {
       "name": "responsive-visual-guidelines.md",
       "archived_sha256": "ff93e5f82e6c17bc20fca5ae5a983220d4abdd9245d5bc0147da79975f828fbe",
-      "current_sha256": "09e37c3533eebf04be00f97f5b746321520bb15cf89ed4e6f0f9b7ea07d721d1"
+      "current_sha256": "e3336476b44e0e25a24a0e4dbabfac4179c9617eb80387fbc934521efbeebbcc"
     }
   ],
   "frontend_authorized": false,
   "current_visual_revision": "hero-banner-carousel-r3",
   "mutable_document_line_endings": "LF; archived approved bytes unchanged",
-  "fallback_decision": "docs/design/dsd-001/hero-banner-carousel-r3/owner-fallback-decision.json"
+  "fallback_decision": "docs/design/dsd-001/hero-banner-carousel-r3/owner-fallback-decision.json",
+  "controls_acceptance": "docs/design/dsd-001/hero-banner-carousel-r3/owner-multislide-controls-acceptance.json",
+  "motion_acceptance": "docs/design/dsd-001/hero-motion-review-r1/owner-motion-acceptance.json",
+  "restart_policy_decision": "docs/design/dsd-001/hero-motion-review-r1/owner-restart-policy-decision.json",
+  "partial_image_decision": "docs/design/dsd-001/hero-banner-carousel-r3/owner-partial-image-decision.json",
+  "home_desktop_acceptance": "docs/design/dsd-001/home-desktop-r16-final-review/owner-home-acceptance.json",
+  "latest_home_FAQ_acceptance": "docs/design/dsd-001/home-faq-r4/owner-home-acceptance.json",
+  "latest_home_social_footer_acceptance": "docs/design/dsd-001/footer-contact-r5/owner-home-acceptance.json"
 }

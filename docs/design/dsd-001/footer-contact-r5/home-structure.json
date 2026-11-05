@@ -1,0 +1,203 @@
+{
+  "type": "frame",
+  "id": "ZRyFB",
+  "x": 94478,
+  "y": 54933.5,
+  "name": "REVIEW · Home Desktop-r20 · Footer social channels-r5",
+  "context": "Draft Footer-only addition of Facebook Page and TikTok. Preserve accepted Home-r19 including FAQ-r4. Social account URLs missing; display names are fixtures. No application code or live social navigation.",
+  "clip": true,
+  "width": 1440,
+  "fill": "#FFFFFF",
+  "layout": "vertical",
+  "children": [
+    {
+      "type": "frame",
+      "id": "hr5RJ",
+      "name": "Header slot",
+      "width": "fill_container",
+      "layout": "vertical",
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "DJmfy",
+      "name": "Hero · finished-image carousel · 7-second horizontal loop",
+      "context": "Static default slide 1 of 3 study fixtures. Autoplay and manual navigation specified, not functional in this canvas. Pause on hover/Search; banner has no destination.",
+      "width": "fill_container",
+      "height": 470,
+      "layout": "none",
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "W1QIL",
+      "name": "A seven flat categories",
+      "width": "fill_container",
+      "height": 94,
+      "padding": [
+        0,
+        200,
+        12,
+        200
+      ],
+      "justifyContent": "space_between",
+      "alignItems": "center",
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "D4OwY8",
+      "name": "Recommended villas · horizontal listing rail",
+      "width": "fill_container",
+      "fill": "#F2FAFE",
+      "cornerRadius": [
+        28,
+        28,
+        0,
+        0
+      ],
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        24,
+        56,
+        48,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "e1kWq",
+      "name": "Home category · พูลวิลล่าใกล้ทะเล",
+      "width": "fill_container",
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        24,
+        56,
+        48,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "j8BTWQ",
+      "name": "Home category · พูลวิลล่าสายปาร์ตี้",
+      "width": "fill_container",
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        24,
+        56,
+        48,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "Cs85L",
+      "name": "Home category · พูลวิลล่าราคาพิเศษ",
+      "width": "fill_container",
+      "fill": "#FFF5F7",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        24,
+        56,
+        48,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "OdIa0",
+      "name": "Home category · พูลวิลล่า Outing",
+      "width": "fill_container",
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        24,
+        56,
+        48,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "KFbLV",
+      "name": "Home category · พูลวิลล่า Pet Friendly",
+      "width": "fill_container",
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        24,
+        56,
+        48,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "hLt6n",
+      "name": "Home category · พูลวิลล่า Luxury",
+      "width": "fill_container",
+      "fill": "#072D59",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        24,
+        56,
+        48,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "R7DMx",
+      "name": "Home media and editorial · split TikTok r3",
+      "width": "fill_container",
+      "fill": "$surface.page",
+      "layout": "vertical",
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "b75NB",
+      "name": "Home FAQ-r4 · owner accepted · initially all closed",
+      "context": "Owner accepted FAQ-r4 in Home-r19. Content supplied by future backend; single-open/default closed/empty hide. Runtime not implemented or tested.",
+      "width": "fill_container",
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        40,
+        56,
+        72,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "nLTpz",
+      "name": "Footer-contact-r5 · Facebook Page TikTok added · pending review",
+      "context": "Owner requested adding Facebook Page and TikTok to Footer contact column. Existing LINE and phone retained. Brand logo glyphs via Phosphor, no hand-drawn logos. Display name papaipak is a fixture; destination URLs not supplied, no live links or backend.",
+      "clip": true,
+      "width": "fill_container",
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": "..."
+    }
+  ]
+}

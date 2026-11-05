@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "1",
+  "question": "ถ้าบางรูปโหลดไม่ได้แต่รูปอื่นยังแสดงได้: 1. ข้ามรูปเสีย ใช้เฉพาะรูปที่พร้อม 2. ใช้ภาพสำรองแทนเฉพาะรูปเสีย 3. ใช้ภาพสำรองทั้ง Hero เมื่อพบรูปเสีย",
+  "selected_option": "ข้ามรูปเสีย ใช้เฉพาะรูปที่พร้อม",
+  "status": "owner_confirmed_skip_failed_hero_images",
+  "displayed_sample": "../hero-banner-carousel-r2/LnbWh.png",
+  "native_sample": "LnbWh",
+  "policy": "Omit failed images from the playable set and selector count; keep usable images. Do not replace individual failed slides with duplicate fallback images. If none remain, use the already accepted standard current-banner fallback",
+  "scope": "Hero image eligibility and partial-failure recovery only, consistent with the displayed two-ready-image sample. No backend logging, retries or runtime implementation is certified",
+  "runtime_verified": false,
+  "whole_home_approved": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

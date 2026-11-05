@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "version": "Home FAQ supplement / G0-plan-1",
+  "owner_quote": "1",
+  "question": "1. อนุมัติแผน เริ่ม Pencil 2. ขอปรับแผน 3. คุยรายละเอียดเพิ่มก่อน",
+  "status": "owner_authorized_faq_desktop_design",
+  "scope": "Add FAQ after articles and before Footer using future administrator-authored content; mock data for current design. Single-open answers, initially all closed; hide the section when no ready items. Produce Desktop closed/open/long/empty states in Pencil while preserving accepted Home-r16",
+  "content_limit": "No frontend hard-coded maximum selected; ready items follow the future backend ordering",
+  "final_ui_approved": false,
+  "frontend_authorized": false,
+  "backend_authorized": false,
+  "mobile": "paused",
+  "task_complete": false
+}

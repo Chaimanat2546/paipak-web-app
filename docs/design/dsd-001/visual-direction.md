@@ -1,9 +1,9 @@
 # DSD-001 — Visual Direction
 
-> ฉบับใช้งาน: ฐาน foundation-3-desktop + ข้อกำหนด Hero ภาพสำเร็จรูปที่เจ้าของเลือก ดู [สเป็ก Hero](hero-banner-carousel-spec.md) และ [ร่าง Pencil ปัจจุบัน](hero-banner-carousel-r3/README.md) การรับ foundation-3 เดิมครอบคลุม [ฉบับเก็บก่อนแก้ Hero](foundation-3-desktop/pre-hero-reconciliation-2026-11-05/README.md) เท่านั้น หน้าตา Hero/controls และสถานะที่เสนอใหม่ยังรอตรวจ ไม่ปิด Task หรืออนุญาต Frontend
+> เจ้าของรับHome Desktop-r20พร้อมFooter-contact-r5และFAQ-r4ในขอบเขตDesktopพร้อมข้อค้างเดิมแล้ว ดู [หลักฐาน](footer-contact-r5/owner-home-acceptance.json) บัญชีFB/TikTokยังเป็นfixturesไม่มีURLจริง ฉบับHome-r19ก่อนเพิ่มช่องทางเก็บใน [archive](home-faq-r4/pre-social-footer-reconciliation-2026-11-05/README.md) ไม่ปิดDSD-001ทั้งTaskหรืออนุญาตFrontend/backend/runtime/จออื่น
 
 
-รุ่นเอกสาร foundation-3-desktop + hero-banner-carousel-1 · 5 พฤศจิกายน 2026 (Asia/Bangkok)
+รุ่นเอกสาร foundation-3-desktop + Home-r20 supplements · 5 พฤศจิกายน 2026 (Asia/Bangkok)
 
 **ทิศทางปัจจุบัน: A / Holiday Panorama / review-2 ผ่าน G1 แล้ว**
 Home Desktop-r15 ได้รับการรับรองด้านหน้าตารวม และ foundation-3-desktop ได้รับอนุมัติสเปก Desktop พร้อมคงข้อค้างที่ระบุ ฉบับนี้เพิ่มข้อกำหนด Hero ล่าสุดบนฐานที่รับแล้ว ไม่เลือก Direction ใหม่ และไม่ขยาย approval เดิมไปครอบคลุมร่าง Hero-r2
@@ -17,7 +17,7 @@ Home Desktop-r15 ได้รับการรับรองด้านหน
 | Home Desktop | รับหน้าตารวม Home Desktop-r15 ที่1440×6091 | [หลักฐานรับภาพรวม](home-desktop-r15/owner-home-acceptance.json) |
 | บทความ | รับ Article Desktop review-2; เด่นแผ่สีพร้อมเด้ง รองเด้ง indexไม่มีแอนิเมชัน | [รุ่นที่รับ](article-desktop-review-2/owner-article-acceptance.json) / [indexล่าสุด](article-secondary-interaction-r3/owner-secondary-acceptance.json) |
 | TikTok | states-r3; Playing/Paused/Bufferingใช้ของTikTok | [หลักฐาน](tiktok-states-r3/owner-acceptance.json) |
-| Footer | contact-column-r4 แสดง LINE/โทรศัพท์โดยตรง | [หลักฐาน](footer-contact-column-r4/owner-footer-approval.json) |
+| Footer | contact-r5 แสดงLINE/Facebook Page/TikTok/โทรศัพท์ตรง | [หลักฐานล่าสุด](footer-contact-r5/owner-home-acceptance.json);r4เก็บเป็นฐานเดิม |
 | CTA | คง #FD6E88 / #FFFFFF และ OPEN-001 เปิดต่อ | เจ้าของเลือก 3; [บันทึก](f01-ui-3/home-guided-review/cta-brand-contrast-r1/owner-choice.json) |
 | Foundation alignment | อนุญาตให้จัดเอกสารให้ตรงกับข้อสรุปล่าสุด | “ปรับให้ตรงกับที่เราคุยกันเมื่อกี้”; [ชุดเอกสารปัจจุบัน](foundation-3-desktop/README.md) |
 | ขอบเขตจอ | โฟกัส Desktop; Mobile พักไว้ | ไม่สร้างหรือรับรอง Mobile ใหม่จากการปรับเอกสารนี้ |
@@ -31,14 +31,14 @@ papaipak / papaipak.com เป็น marketplace พูลวิลล่าไ�
 | องค์ประกอบ | ข้อกำหนดปัจจุบัน |
 | --- | --- |
 | จุดเริ่มมอง | ภาพ Hero สำเร็จรูป รวมพื้นหลังและตัวหนังสือที่แต่งมาก่อนนำเข้าเว็บ |
-| Hero | ภาพรวมหนึ่งไฟล์ต่อสไลด์ ไม่มีข้อความเว็บทับภาพ; เลื่อนแนวนอนวนทุก7วินาทีและกดเลื่อนเองได้ ภาพไม่มีลิงก์ พักเมื่อhover/ใช้งานSearch ร่าง1440pxคงความสูง470pxและขอบสระ; หน้าตาcontrolsรอตรวจ |
+| Hero | ภาพรวมหนึ่งไฟล์ต่อสไลด์ ไม่มีข้อความเว็บทับภาพ; เลื่อนแนวนอนวนทุก7วินาทีและกดเลื่อนเองได้ ภาพไม่มีลิงก์ พักเมื่อhover/ใช้งานSearch ร่าง1440pxคงความสูง470pxและขอบสระ; controls defaultและmotion800msตามตัวอย่างรับแล้ว; เล่นต่อด้วย7วินาทีใหม่ตามนโยบายที่รับแล้ว |
 | Search | แถบค้นหากลาง Hero ขนาดอ้างอิง 1040×88px; เริ่มสำรวจบ้านได้โดยไม่เลือกวันหรือ login |
 | Hero fallback | ไม่มีภาพที่กำหนดไว้/ไม่มีภาพพร้อมแสดงให้ใช้ภาพปัจจุบันเป็นassetสำรองมาตรฐานของระบบ คงขอบโค้งสีขาวและSearch ไม่ยุบส่วนภาพเป็นแถบสั้น; [เจ้าของยืนยัน](hero-banner-carousel-r3/owner-fallback-decision.json) |
 | Discovery | ทางลัด 7 หมวด และแถวบ้านแนวนอนแยกกัน; แสดงเต็ม 4 ใบเมื่อพื้นที่พอ |
 | การ์ด | ภาพนำ ชื่อ ราคา และข้อมูลเปรียบเทียบ; default ให้ภาพเด่น ส่วน controls ใช้ตาม states ที่ตรวจ |
 | TikTok | พื้น Navy เรื่องเล่าซ้ายและคลิปหลักใน deck มีมิติทางขวา ไม่วาด Playing/Paused/Buffering ทับ provider |
 | บทความ | เรื่องเด่นภาพ16:9พร้อมแผงอ่านซ้อน และเรื่องรองสองแถวไม่มีกรอบ ฝั่งขวาคงพื้นขาว |
-| Footer | พื้นฟ้าอ่อน ขอบโค้ง แบรนด์/เมนูพร้อมลูกศร LINE/โทรศัพท์ที่เห็นทันที และกลับขึ้นด้านบน |
+| Footer | พื้นฟ้าอ่อน ขอบโค้ง แบรนด์/เมนูพร้อมลูกศร LINE/Facebook Page/TikTok/โทรศัพท์ที่เห็นทันที และกลับขึ้นด้านบน |
 | ภาษาภาพร่วม | ใช้จังหวะช่องว่าง ขนาดตัวอักษร และภาพสัมพันธ์กัน ไม่เติมกล่องหรือเงาให้ทุกส่วน |
 
 Home-r15 เป็นหลักฐานหน้าตาที่ 1440×6091px ไม่ใช่กฎให้ทุกหน้ามี Hero หรือ Footer composition เดียวกัน โดยเฉพาะ Results, Detail และ Checkout ต้องรักษา selected layouts และงานหลักของแต่ละหน้า
@@ -67,7 +67,7 @@ Home-r15 รวม TikTok-states-r3, Article Desktop review-2 และ Footer-c
 
 TikTokมีคลิปหลัก320×568ในstage832×688 ตำแหน่งแรกไม่มีภาพก่อนหน้า กลาง/สุดท้ายมีหนึ่งใบทางซ้าย การเลือกคลิปไม่เพิ่ม autoplay UIเล่น/หยุด/bufferingเป็นของTikTok ข้อมูลคลิปยังเป็นfixtures
 
-Footerสูง299px แสดง LINE/โทรศัพท์โดยตรงแทนปุ่มติดต่อเดียว ข้อมูล @papaipak-demo และ02-000-0000เป็นmock ยังไม่ผูกปลายทางจริง ภาพ/ฟอนต์/spacingที่สังเกตได้ดู [observed-values](foundation-3-desktop/observed-values.json)
+ในประวัติHome-r15/Footer-r4สูง299px แสดง LINE/โทรศัพท์โดยตรงแทนปุ่มติดต่อเดียว ข้อมูล @papaipak-demo และ02-000-0000เป็นmock ยังไม่ผูกปลายทางจริง ภาพ/ฟอนต์/spacingที่สังเกตได้ดู [observed-values](foundation-3-desktop/observed-values.json)
 
 ## ทางเลือกที่เคยเปรียบเทียบ
 
@@ -86,3 +86,13 @@ Footerสูง299px แสดง LINE/โทรศัพท์โดยตร�
 OPEN-001 ยังเปิด: ข้อความขาวบนชมพูเดิมมี nominal contrast 2.705343:1 การเลือกให้คงเดิมไม่ใช่ accessibility exception หรือ final CTA sign-off ไม่สำรวจเฉดใหม่ซ้ำโดยอัตโนมัติ
 
 ภาพ/โลโก้และข้อความบางส่วนยังเป็นข้อมูลศึกษา ต้องยืนยัน production assets, contact destinations, data contracts และตรวจ keyboard/zoom/reduced motion/contrast ในระบบจริง ขนาดจออื่นยังไม่ได้รับรอง Final foundation version ต้องให้เจ้าของอนุมัติแยกก่อน Frontend ไม่ปิด DSD-001 หรือเริ่ม Task ถัดไปจากการจัดเอกสารนี้
+
+
+## FAQในHome Desktop-r19ที่รับแล้ว
+
+FAQ-r4อยู่หลังบทความก่อนFooter หัวข้ออยู่บนและแผงคำถามเต็มแนวcontent1328px ใช้Mitr36หัวข้อแบบบทความ แผงWhiteลอยradius20และเงาเดิม ฐานโค้งLight Blueใช้geometryขอบสระเดิม ปุ่มเปิดใช้วงNavy44px/ไอคอนขาว ไม่เปลี่ยนแบรนด์หรือDirection A เนื้อหาจริงเขียนจากหลังบ้าน;fixturesไม่ใช่production copy ดู [FAQ-r4](home-faq-r4/README.md) และ [หลักฐาน](home-faq-r4/owner-home-acceptance.json)
+
+
+## Footer-contact-r5ในHome-r20ที่รับแล้ว
+
+เพิ่มFacebook PageและTikTokในคอลัมน์ติดต่อเรา ใช้brand glyphsPhosphor24px คงLINEและโทรศัพท์เดิม ลำดับLINE → Facebook Page → TikTok → โทรศัพท์ Footer1440pxสูง392pxตามเนื้อหาตัวอย่าง ขอบสระ เมนู โลโก้และกลับบนสุดคงเดิม ข้อมูลชื่อบัญชีpapaipakยังเป็นfixture/ไม่มีURLที่ยืนยัน ดู [รุ่นที่รับ](footer-contact-r5/owner-home-acceptance.json)

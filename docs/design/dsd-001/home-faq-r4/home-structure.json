@@ -1,0 +1,202 @@
+{
+  "type": "frame",
+  "id": "ILpa2",
+  "x": 94478,
+  "y": 48089,
+  "name": "REVIEW · Home Desktop-r19 · full-width FAQ-r4",
+  "context": "Draft FAQ layout revision. Preserve approved Home-r16, add FAQ-r4 before Footer with heading above full-width question list. FAQ/Home-r19 not yet approved; no implementation.",
+  "clip": true,
+  "width": 1440,
+  "fill": "#FFFFFF",
+  "layout": "vertical",
+  "children": [
+    {
+      "type": "frame",
+      "id": "vXOTR",
+      "name": "Header slot",
+      "width": "fill_container",
+      "layout": "vertical",
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "M0RmOy",
+      "name": "Hero · finished-image carousel · 7-second horizontal loop",
+      "context": "Static default slide 1 of 3 study fixtures. Autoplay and manual navigation specified, not functional in this canvas. Pause on hover/Search; banner has no destination.",
+      "width": "fill_container",
+      "height": 470,
+      "layout": "none",
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "f25XRS",
+      "name": "A seven flat categories",
+      "width": "fill_container",
+      "height": 94,
+      "padding": [
+        0,
+        200,
+        12,
+        200
+      ],
+      "justifyContent": "space_between",
+      "alignItems": "center",
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "i9pR6T",
+      "name": "Recommended villas · horizontal listing rail",
+      "width": "fill_container",
+      "fill": "#F2FAFE",
+      "cornerRadius": [
+        28,
+        28,
+        0,
+        0
+      ],
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        24,
+        56,
+        48,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "J2Aoz",
+      "name": "Home category · พูลวิลล่าใกล้ทะเล",
+      "width": "fill_container",
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        24,
+        56,
+        48,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "NNa7U",
+      "name": "Home category · พูลวิลล่าสายปาร์ตี้",
+      "width": "fill_container",
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        24,
+        56,
+        48,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "CIS7n",
+      "name": "Home category · พูลวิลล่าราคาพิเศษ",
+      "width": "fill_container",
+      "fill": "#FFF5F7",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        24,
+        56,
+        48,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "eNv6Y",
+      "name": "Home category · พูลวิลล่า Outing",
+      "width": "fill_container",
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        24,
+        56,
+        48,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "Zz0AY",
+      "name": "Home category · พูลวิลล่า Pet Friendly",
+      "width": "fill_container",
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        24,
+        56,
+        48,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "zUgBU",
+      "name": "Home category · พูลวิลล่า Luxury",
+      "width": "fill_container",
+      "fill": "#072D59",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        24,
+        56,
+        48,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "upAQ6",
+      "name": "Home media and editorial · split TikTok r3",
+      "width": "fill_container",
+      "fill": "$surface.page",
+      "layout": "vertical",
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "W8dfs",
+      "name": "Home FAQ-r4 · initial all closed",
+      "context": "Owner selected3 to revise FAQ layout. Proposed headline above a full-width reading panel, retaining the approved Home visual language and FAQ behavior. Appearance pending review; no Frontend/backend/Mobile.",
+      "width": "fill_container",
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        40,
+        56,
+        72,
+        56
+      ],
+      "children": "..."
+    },
+    {
+      "type": "frame",
+      "id": "I1J6N",
+      "name": "Integrated Footer-contact-column-r4 · owner approved",
+      "clip": true,
+      "width": "fill_container",
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": "..."
+    }
+  ]
+}

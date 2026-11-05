@@ -1,11 +1,11 @@
 # DSD-001 — Token sheet
 
-> ฉบับใช้งาน: ฐาน foundation-3-desktop + ข้อกำหนด Hero ภาพสำเร็จรูปที่เจ้าของเลือก ดู [สเป็ก Hero](hero-banner-carousel-spec.md) และ [ร่าง Pencil ปัจจุบัน](hero-banner-carousel-r3/README.md) การรับ foundation-3 เดิมครอบคลุม [ฉบับเก็บก่อนแก้ Hero](foundation-3-desktop/pre-hero-reconciliation-2026-11-05/README.md) เท่านั้น หน้าตา Hero/controls และสถานะที่เสนอใหม่ยังรอตรวจ ไม่ปิด Task หรืออนุญาต Frontend
+> เจ้าของรับHome Desktop-r20พร้อมFooter-contact-r5และFAQ-r4ในขอบเขตDesktopพร้อมข้อค้างเดิมแล้ว ดู [หลักฐาน](footer-contact-r5/owner-home-acceptance.json) บัญชีFB/TikTokยังเป็นfixturesไม่มีURLจริง ฉบับHome-r19ก่อนเพิ่มช่องทางเก็บใน [archive](home-faq-r4/pre-social-footer-reconciliation-2026-11-05/README.md) ไม่ปิดDSD-001ทั้งTaskหรืออนุญาตFrontend/backend/runtime/จออื่น
 
 
-รุ่น foundation-3-desktop + hero-banner-carousel-1 · 5 พฤศจิกายน 2026 · A / Holiday Panorama / review-2
+รุ่น foundation-3-desktop + Home-r20 supplements · 5 พฤศจิกายน 2026 · A / Holiday Panorama / review-2
 
-**สถานะ: ฐานDesktop Home-r15รับแล้วพร้อมข้อค้าง; เพิ่มข้อกำหนดHeroที่ยืนยันแล้ว โดยUI/controls/statesใหม่ยังรอตรวจ; ไม่รับรอง full-task readiness** เป็น design specification ไม่ใช่ CSS หรือการย้าย tokens เข้าแอป Mobile ยังพักไว้
+**สถานะ: ฐานDesktop Home-r15รับแล้วพร้อมข้อค้าง; เพิ่มข้อกำหนดHeroที่ยืนยันแล้ว โดยHome-r16และกรณีภาพเดียว/ช่วงโหลดรับพร้อมข้อค้างแล้ว; ไม่รับรอง full-task readiness** เป็น design specification ไม่ใช่ CSS หรือการย้าย tokens เข้าแอป Mobile ยังพักไว้
 
 ## วิธีอ่านสถานะ
 
@@ -72,8 +72,8 @@ Spacing palette เดิม4/8/12/16/20/24/32/40/48/64pxยังเป็น�
 | property.rail.gap | 24 | ระหว่างการ์ด |
 | property.info.padding / gap | 14 /6 | พื้นข้อมูลการ์ด |
 | home.search.padding / gap | 12×20 /12 | แถบค้นหากลางHero |
-| footer.surface.padding / gap | 24×56 /20 | Footer-contact-column-r4 |
-| footer.contact.row / gap | สูง48 /4 | LINE/โทรศัพท์ตรง; แยกจาก Header popup |
+| footer.surface.padding / gap | 24×56 /20 | Footer-contact-r5;คงจากr4 |
+| footer.contact.row / gap | สูง48 /4 | LINE/Facebook Page/TikTok/โทรศัพท์ตรง;แยกจากHeader popup |
 | home.tiktok.padding / narrative-gap | 48 top /56 inline /80 bottom;48 gap | Narrative448px +stage832px |
 | home.article.padding / composition-gap | 40 top /56 inline /72 bottom;40 gap | เรื่องเด่น696px +รอง592px |
 | article.caption.padding / gap | 24 /10 | แผง648px ซ้อน76pxที่1440px ไม่ใช่safe areaสากล |
@@ -138,9 +138,12 @@ Utility iconsใช้Lucideตามnative ส่วนheart-fillใช้Phosp
 | Role | ค่า | สถานะ |
 | --- | --- | --- |
 | home.hero.slide-interval | 7000msต่อภาพ | เจ้าของยืนยัน ไม่ใช่ระยะเวลาแอนิเมชัน |
+| home.hero.restart-policy | เริ่ม7000msใหม่หลังเลื่อนเอง/hoverออก/Searchปิด เมื่อไม่มีเหตุพักค้าง | เจ้าของเลือก1; explicit PauseรอPlay ไม่เริ่มเอง |
 | home.hero.fallback.asset | ภาพHeroปัจจุบันรวมพื้นหลัง/ตัวหนังสือ | เจ้าของยืนยันให้เก็บเป็นassetมาตรฐานเมื่อไม่มีภาพพร้อม; ยังไม่บรรจุเข้าแอป |
-| home.hero.transition-axis | horizontal | เจ้าของยืนยัน; duration/easingยังไม่เลือก |
-| home.hero.control-target | 44×44px | ร่างPencilรอตรวจ ไม่ใช่shared tokenที่รับแล้ว |
+| home.hero.transition-axis | horizontal | เจ้าของยืนยัน |
+| home.hero.transition-duration | 800ms | เจ้าของเลือกตัวอย่าง3 |
+| home.hero.transition-easing | cubic-bezier(.4,0,.2,1) | ตามตัวอย่าง800msที่เลือก เฉพาะHero ไม่แทนgeneric motion |
+| home.hero.control-target | 44×44px | รับหน้าตาdefaultหลายสไลด์เฉพาะHomeแล้ว ไม่ใช่shared tokenทุกหน้า |
 
 ดู [สเป็ก Hero](hero-banner-carousel-spec.md) และ [แบบ/สถานะปัจจุบัน](hero-banner-carousel-r1/README.md) ขนาดไฟล์2880×940เป็นstudy exportเท่านั้น ไม่กำหนดเป็นminimum asset contract ข้อกำหนดautoplayนี้ไม่เปลี่ยนlisting rails, photo carouselหรือTikTok
 
@@ -167,3 +170,25 @@ Utility iconsใช้Lucideตามnative ส่วนheart-fillใช้Phosp
 Homeซ่อนการ์ดข้อมูล/รูปไม่ครบแต่บ้านยังค้นเจอ ข้ามรูปเสียเมื่อมีรูปใช้ได้ ขณะโหลดครั้งแรกใช้skeleton หมวดที่ไม่มีบ้านพร้อมหรือโหลดล้มเหลวซ่อนทั้งส่วน กฎนี้ไม่แปลงerrorเป็นemptyในข้อมูลภายใน และไม่เปลี่ยนerror recoveryของResults/Auth
 
 ชื่อเต็ม ราคา แหล่งข้อมูลจริง contact destinations และassetsยังมีข้อค้างตาม [review](foundation-3-desktop/README.md) Full component/state contractsหรือหน้าอื่นไม่ถูกอนุมัติแทนจากrole mappingนี้ Final foundation versionยังต้องให้เจ้าของตรวจรับและOPEN-001ยังblockacceptanceที่เกี่ยวข้อง ไม่มีproductionCSS, tokensเข้าแอป, backend, Mobileใหม่หรือTaskอื่นในงานนี้
+
+
+## Local FAQ roles · Home-r19
+
+รับเฉพาะFAQ-r4ในHome Desktop1440px ไม่ย้ายค่าต่อไปนี้เป็นglobal defaultsหรือproduction CSSอัตโนมัติ
+
+| Role | Reference | หน้าที่ |
+| --- | --- | --- |
+| home.faq.section.padding / gap | 40 top /56 inline /72 bottom;24 gap | หัวข้ออยู่เหนือรายการ |
+| home.faq.header.gap | 12px | หัวข้อกับคำเกริ่น |
+| home.faq.reading-panel | 1280pxในbacking1328px inset24px | แผงอ่านเต็มแนว |
+| home.faq.answer.measure | 904px | ความกว้างข้อความที่1440px ไม่ใช่กฎทุกจอ |
+| home.faq.panel.radius / elevation | 20px;#072D591F offset0/8 blur24 | ตามแผงบทความ |
+| home.faq.pool-backing | #DBF2FC /outer radius24 | geometryขอบสระเดิม ไม่มีtokenลายใหม่ |
+| home.faq.toggle | target44 /icon20 | Navyplus;ข้อเปิดวงNavy/minusWhite |
+
+เนื้อหาจากหลังบ้าน เปิดสูงสุดหนึ่งข้อ เริ่มต้นปิดทั้งหมด ไม่มีข้อมูลพร้อมซ่อนส่วนและspacing ตัวอย่าง5ข้อไม่เป็นmaximum ดู [specและการรับ](home-faq-r4/README.md)
+
+
+## Social Footer icons · Home-r20
+
+Facebook Pageใช้Phosphor `facebook-logo-fill`24px/#0866FF;TikTokใช้ `tiktok-logo`24px/Black ทั้งคู่ในfieldWhite32pxตามclear-space patternเดิม สีโลโก้เป็นlocal branded-asset treatment ไม่ใช่การเปลี่ยนbrand paletteของpapaipak Row/label/valueใช้Footer rolesเดิม ไม่กำหนดข้อมูลบัญชีจริงจากfixtures ดู [sourceและการรับ](footer-contact-r5/README.md)

@@ -1,0 +1,20 @@
+{
+  "version": "Hero-motion-review-r1",
+  "status": "proposed_transition_duration_comparison",
+  "durations_ms": [
+    400,
+    600,
+    800
+  ],
+  "easing": "cubic-bezier(.4,0,.2,1)",
+  "easing_status": "proposal_shared_across_three_duration_samples",
+  "hold_interval_ms": 7000,
+  "preview": "preview.html",
+  "original_preview_path": "C:\\Users\\chaym\\.codex\\visualizations\\2026\\11\\03\\01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee\\papaipak-hero-slide-timing-r1.html",
+  "sha256": "dd4a427227fd5148e7a1fcd0105aef2dbbf667499150b4288b8d94a14d534fe8",
+  "bytes": 216312,
+  "syntax_checked": true,
+  "browser_runtime_checked": false,
+  "preview_behavior": "Manual one-step motion sample, no autoplay timer; static exported fixed Search/controls are visual references, not functional inputs",
+  "frontend_authorized": false
+}

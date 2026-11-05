@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "3",
+  "question": "1. รับแบบ FAQ-r3 / Home Desktop-r18 นี้ 2. ลดเงาและฐานฟ้าให้เรียบขึ้น 3. ปรับการจัดวางอีก",
+  "status": "owner_requested_FAQ_layout_revision",
+  "scope": "Revise layout within the approved FAQ G0 and Home-aligned styling. Heading-above/full-width composition is the agent's concrete proposal for this revision, not a layout explicitly specified by the owner",
+  "final_appearance_approved": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

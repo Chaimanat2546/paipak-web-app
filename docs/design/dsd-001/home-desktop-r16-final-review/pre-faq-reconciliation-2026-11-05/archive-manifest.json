@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-05",
+  "scope": "Exact published Home-r16 specification bytes before FAQ supplement; original approval unchanged",
+  "files": [
+    {
+      "name": "visual-direction.md",
+      "source": "../visual-direction.md",
+      "file": "visual-direction.md.txt",
+      "sha256": "76e6f5ceac651132f1d839370f7fbafc2e950a4ff6b00179eec0fc5cc2ab3062",
+      "bytes": 17434
+    },
+    {
+      "name": "token-sheet.md",
+      "source": "../token-sheet.md",
+      "file": "token-sheet.md.txt",
+      "sha256": "8feef80054bc3d46908eed0e0c3a344a63b65fdf1dd1cca86fc75fe1fe4ea803",
+      "bytes": 21233
+    },
+    {
+      "name": "typography-spec.md",
+      "source": "../typography-spec.md",
+      "file": "typography-spec.md.txt",
+      "sha256": "5336b01691abe64a49c42ec50701c5dec5f9138dcc3a1d1b2d803bb4f1a4ea3a",
+      "bytes": 16287
+    },
+    {
+      "name": "responsive-visual-guidelines.md",
+      "source": "../responsive-visual-guidelines.md",
+      "file": "responsive-visual-guidelines.md.txt",
+      "sha256": "62c7e2063e28d95850ad7cbd0d44fa28eae07e913a2ceac7f556ffcb1b3aaf2f",
+      "bytes": 20141
+    },
+    {
+      "name": "hero-banner-carousel-spec.md",
+      "source": "../hero-banner-carousel-spec.md",
+      "file": "hero-banner-carousel-spec.md.txt",
+      "sha256": "1eab594f2a34ba0ff6a4a19ced719bb12ffc448ba24c36873dbc405357643504",
+      "bytes": 16705
+    },
+    {
+      "name": "README.md",
+      "source": "README.md",
+      "file": "README.md.txt",
+      "sha256": "c5d29c7579a46dcaa15cedd2325cf4269bece1132a4ba2746ac02205de2fbccc",
+      "bytes": 7861
+    }
+  ]
+}

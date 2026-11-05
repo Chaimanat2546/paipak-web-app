@@ -1,0 +1,62 @@
+{
+  "version": "Home FAQ-r2 / three alternatives",
+  "status": "unselected_options_superseded_by_home_alignment_request",
+  "base": "approved Home Desktop-r16; unchanged",
+  "files": [
+    {
+      "name": "a4GfF.png",
+      "sha256": "c572c77327289f0cee5adf9f4c6404aa4839be27fcd6926c0610f922292b76c4",
+      "bytes": 57174
+    },
+    {
+      "name": "editable-options.json",
+      "sha256": "7f9423e577eebb260f30c0c7c66dc52bb4abe2c6844f27618c0578c45669b122",
+      "bytes": 45075
+    },
+    {
+      "name": "F1T9Y.png",
+      "sha256": "70d01acea90fa3d9ba952e051ee5084a231204592b7874af55c67d47b53aa4db",
+      "bytes": 54930
+    },
+    {
+      "name": "F1v7q1.png",
+      "sha256": "f0819a821dace02861698cf74ed920b3ceec21db5f027abf5b510be2736bfc54",
+      "bytes": 896059
+    },
+    {
+      "name": "g2vg6.png",
+      "sha256": "2b40ed0091a80094398900aa65e5916d04ab2f7fcca40e0b969740390684c9e4",
+      "bytes": 51739
+    },
+    {
+      "name": "gB8KC.png",
+      "sha256": "15cd6f7723d5b22b7a74fe4dfa0cfe94ea9536c567dec033dcaafb7e039dcd67",
+      "bytes": 901162
+    },
+    {
+      "name": "owner-revision-request.json",
+      "sha256": "d19908671dfeba42c99b6e2b26717a684064a68fd3429c8613611a8ed6292331",
+      "bytes": 713
+    },
+    {
+      "name": "README.md",
+      "sha256": "4805bf8bc424c3ed0a0ada811f4ca32b7ed08c1b56dcaf446524033fdd807456",
+      "bytes": 4812
+    },
+    {
+      "name": "verification.json",
+      "sha256": "66908b7fb1cc063f6db8fc77dfd7ea52b8df3168eb9ce69843e5dcf0b700191c",
+      "bytes": 1231
+    },
+    {
+      "name": "y6qOVB.png",
+      "sha256": "2af7231db0f31c6a70e456aeb60cc7167aebb8f10225af2fc9d6171bd30d27eb",
+      "bytes": 899455
+    }
+  ],
+  "same_mock_question_content": true,
+  "all_closed_default_preserved": true,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "manifest_update_note": "Unapproved study manifest updated for current revision notes; no approval evidence altered"
+}

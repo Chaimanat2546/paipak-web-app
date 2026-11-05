@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "2",
+  "question": "1. รับแบบ FAQ และตำแหน่งนี้ 2. ปรับหน้าตาก่อน 3. ดูกรณีข้อความยาวและไม่มีข้อมูลเพิ่ม",
+  "status": "FAQ_r1_returned_for_visual_revision",
+  "scope": "Revise FAQ appearance within the authorized FAQ G0 scope. Administrator-authored content, single-open behavior, initially all closed, empty-section hiding, Desktop-only scope and position before Footer remain unchanged",
+  "new_options_selected": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

@@ -1,0 +1,96 @@
+{
+  "approvedBase": "Home Desktop-r16 / f7ZIg",
+  "draft": "ILpa2",
+  "preservation": [
+    {
+      "name": "Header slot",
+      "match": true
+    },
+    {
+      "name": "Hero · finished-image carousel · 7-second horizontal loop",
+      "match": true
+    },
+    {
+      "name": "A seven flat categories",
+      "match": true
+    },
+    {
+      "name": "Recommended villas · horizontal listing rail",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่าใกล้ทะเล",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่าสายปาร์ตี้",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่าราคาพิเศษ",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่า Outing",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่า Pet Friendly",
+      "match": true
+    },
+    {
+      "name": "Home category · พูลวิลล่า Luxury",
+      "match": true
+    },
+    {
+      "name": "Home media and editorial · split TikTok r3",
+      "match": true
+    },
+    {
+      "name": "Integrated Footer-contact-column-r4 · owner approved",
+      "match": true
+    }
+  ],
+  "states": [
+    {
+      "id": "P5cic",
+      "answerCount": 0,
+      "minusCount": 0,
+      "layout": "vertical",
+      "geometry": {
+        "x": 117878,
+        "y": 28261.5,
+        "width": 1440,
+        "height": 594
+      }
+    },
+    {
+      "id": "O6RB2r",
+      "answerCount": 1,
+      "minusCount": 1,
+      "layout": "vertical",
+      "geometry": {
+        "x": 119438,
+        "y": 28261.5,
+        "width": 1440,
+        "height": 636
+      }
+    },
+    {
+      "id": "qluxT",
+      "answerCount": 1,
+      "minusCount": 1,
+      "layout": "vertical",
+      "geometry": {
+        "x": 120998,
+        "y": 28261.5,
+        "width": 1440,
+        "height": 846
+      }
+    }
+  ],
+  "stylePreserved": "Home heading36, regular Mitr, White radius20 reading panel, Navy active circle and original Light Blue pool-edge geometry",
+  "changes": "Heading above panel, list spans1328px, no left sidebar, answer measure904px",
+  "ownerAppearanceAcceptance": "pending",
+  "runtimeVerified": false
+}

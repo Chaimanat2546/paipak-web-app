@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "owner_quote": "1",
+  "question": "หน้าตาชุดควบคุม Hero: 1. รับหน้าตาชุดนี้ 2. ซ่อนลูกศรจนวางเมาส์บน Hero 3. ปรับตำแหน่งหรือขนาด controls ก่อน",
+  "selected_option": "รับหน้าตาชุดนี้",
+  "status": "owner_approved_displayed_multislide_controls_appearance",
+  "scope": "Default visible left/right arrows, slide selectors and pause control below fixed Search in the displayed Desktop1440 Hero. Does not approve a distinct hover treatment, transition timing, restart policy or other pending state behavior",
+  "native_reference": "G1nPut",
+  "image": "../hero-banner-carousel-r2/G1nPut.png",
+  "image_sha256": "1ab7e05ee4b273858fed56852044707efc8d31b005cb68b871383664c1cd077c",
+  "runtime_verified": false,
+  "whole_home_version_approved": false,
+  "frontend_authorized": false,
+  "task_complete": false
+}

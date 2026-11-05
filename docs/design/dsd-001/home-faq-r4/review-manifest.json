@@ -1,0 +1,63 @@
+{
+  "version": "Home FAQ-r4 / Home Desktop-r19 draft",
+  "status": "pending_owner_review",
+  "files": [
+    {
+      "name": "editable-states.json",
+      "sha256": "1cbe61bb60549d932f0499e8030a384a842172a91b33b605e5e479fe29f6dfae",
+      "bytes": 53102
+    },
+    {
+      "name": "home-structure.json",
+      "sha256": "53dabeada2542b8aa37ba9847037ccd38964a8ee7108390aca78d69fb6ec2000",
+      "bytes": 4799
+    },
+    {
+      "name": "ILpa2.png",
+      "sha256": "cb62605b8abebb4a28b044beb1dce1bdbe05d2ea9f91b26efa13f5bb23baae23",
+      "bytes": 8157991
+    },
+    {
+      "name": "O6RB2r.png",
+      "sha256": "c2d937d2adca3564df14ef376837efbb42eb434e60d4d3f308b91d66908715b6",
+      "bytes": 92103
+    },
+    {
+      "name": "owner-layout-revision.json",
+      "sha256": "fcfc875904a615788fd6d5e85d458e4809537517bf0a52f81c72fa8728af2f27",
+      "bytes": 673
+    },
+    {
+      "name": "P5cic.png",
+      "sha256": "07f0a754be2d0de4b3a42890628e739017be5ba3575dd130e7ffd5af5be52e1d",
+      "bytes": 80001
+    },
+    {
+      "name": "qluxT.png",
+      "sha256": "e47b2b4f4124d86af7b74cedbee0846137c49608badb362ac69a892697c5d94f",
+      "bytes": 181750
+    },
+    {
+      "name": "README.md",
+      "sha256": "fb2dd9acf2415099e8fb4af950b170b966dce4f3c41ba9cd3890bb24f93cedc4",
+      "bytes": 4605
+    },
+    {
+      "name": "verification.json",
+      "sha256": "f1bbc1464e3f6f4a04b7a2e0532fa88ba97ea2f486a5af1e4da3260d5b79c647",
+      "bytes": 2312
+    },
+    {
+      "name": "x7KMb.png",
+      "sha256": "25892dd1a9b238eac5a961fe0f78a0faf5f4192e5139cb7059c590b6863b7120",
+      "bytes": 922943
+    },
+    {
+      "name": "zOUR2.png",
+      "sha256": "a7988e9b24e5b94bf959983c445f52730c09593b4e72ef06c9666f75dd6c56a7",
+      "bytes": 935414
+    }
+  ],
+  "runtime_verified": false,
+  "frontend_authorized": false
+}

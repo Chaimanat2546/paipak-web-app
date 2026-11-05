@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-05",
+  "scope": "Published Home-r19 specification bytes before Facebook/TikTok Footer addition; prior acceptance unchanged",
+  "files": [
+    {
+      "name": "visual-direction.md",
+      "file": "visual-direction.md.txt",
+      "sha256": "354bce6a8fe337c9623bb27f099ee28ca719007263588cddfd6cf62417636ccc",
+      "bytes": 18153
+    },
+    {
+      "name": "token-sheet.md",
+      "file": "token-sheet.md.txt",
+      "sha256": "6470ee371345edb623aa56600a99abf16dc24afc5e6313289b3ddcdba182f6ed",
+      "bytes": 22622
+    },
+    {
+      "name": "typography-spec.md",
+      "file": "typography-spec.md.txt",
+      "sha256": "a69716a84543bab7d936344f3e1c2405381b0c0bcb4adfe5f3e61fc1c3ae9263",
+      "bytes": 17062
+    },
+    {
+      "name": "responsive-visual-guidelines.md",
+      "file": "responsive-visual-guidelines.md.txt",
+      "sha256": "3d4e423723d48f9956224702609cfedd07c86c41d1be2cba4d1e6187ca883b83",
+      "bytes": 20960
+    },
+    {
+      "name": "hero-banner-carousel-spec.md",
+      "file": "hero-banner-carousel-spec.md.txt",
+      "sha256": "0252dd32b7d989075186958e5a4e0cda35c382332245fa08370c6c1396b0ab1d",
+      "bytes": 17015
+    },
+    {
+      "name": "README.md",
+      "file": "README.md.txt",
+      "sha256": "7a03a33f702c7a8faee81918a9b9bba4e13642d5580cab1db768babe8681a34b",
+      "bytes": 5136
+    }
+  ]
+}

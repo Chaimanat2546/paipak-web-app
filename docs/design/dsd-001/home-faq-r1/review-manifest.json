@@ -1,0 +1,77 @@
+{
+  "version": "Home FAQ-r1 / Home Desktop-r17 draft",
+  "status": "returned_for_visual_revision",
+  "g0_approval": "../home-faq-g0-approval.json",
+  "files": [
+    {
+      "name": "editable-states-final.json",
+      "sha256": "088acd98447a7a0d2b2888a839025361f4723ce916298feae07100522fc1997f",
+      "bytes": 46361
+    },
+    {
+      "name": "editable-states.json",
+      "sha256": "0d64bc44fb80953b06d58284e91bffca028fc5bfbc4b7cdf254b710075dbcdb5",
+      "bytes": 46298
+    },
+    {
+      "name": "Evcv7.png",
+      "sha256": "c9878e694812801ebd53a0d9090819ee2c28f311339ce66fc488cff4a61e9806",
+      "bytes": 843851
+    },
+    {
+      "name": "fixtures.json",
+      "sha256": "3bdab2ff77b1e0ea0e3f261ccb67ae48d2de0ebad1bd380e3650234d3f0c1b78",
+      "bytes": 4462
+    },
+    {
+      "name": "home-structure.json",
+      "sha256": "86a38bff52b1483013711e5dabcfac9c1b9fba7a766d205b5531b57c0ba6f8d4",
+      "bytes": 4799
+    },
+    {
+      "name": "J71Dw.png",
+      "sha256": "74519587488c02405dfb6eea3bd53e28208f9a576f8b7d77f08975d53b2e6f99",
+      "bytes": 40485
+    },
+    {
+      "name": "Jmwp6.png",
+      "sha256": "2e2ffa39c69b000c16984a47c684e686819908c4520b88f81973f846e008fc0d",
+      "bytes": 884494
+    },
+    {
+      "name": "O7BHrA.png",
+      "sha256": "ab61687000fa98c3109cd58e3e98f70668c70210d39959787463d2b2c8b454f5",
+      "bytes": 50127
+    },
+    {
+      "name": "Qhx2S.png",
+      "sha256": "1391ecfbbc3218336dbc48ee02fa6f08bdcbb7f89a415c2c681395c150a4e4e7",
+      "bytes": 128657
+    },
+    {
+      "name": "README.md",
+      "sha256": "c481ee949040504ae459e2957ff8ee74bd8a52de4dd815a8fa457e7f8abdab16",
+      "bytes": 9019
+    },
+    {
+      "name": "state-checks-final.json",
+      "sha256": "5f65626ba746407f57cd016cbb85427b5ec0df952ba31ad2ae326d9e2f80ee5b",
+      "bytes": 586
+    },
+    {
+      "name": "Tz5so.png",
+      "sha256": "73bb9bf5a272aee92874c916714cfe883ad2153e53dc6a8da0fbcf544c358661",
+      "bytes": 8119632
+    },
+    {
+      "name": "verification.json",
+      "sha256": "c75471e330dfe649bc35de4c59879b0b0e875164d1c18458014094383bb1edcb",
+      "bytes": 9459
+    }
+  ],
+  "source_home_preserved": true,
+  "runtime_verified": false,
+  "frontend_authorized": false,
+  "task_complete": false,
+  "manifest_update_note": "Unapproved study manifest updated for current revision notes; no approval evidence altered"
+}

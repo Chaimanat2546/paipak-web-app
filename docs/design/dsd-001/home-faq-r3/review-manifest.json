@@ -1,0 +1,67 @@
+{
+  "version": "Home FAQ-r3 / Home Desktop-r18 draft",
+  "status": "unaccepted_layout_superseded_by_FAQ_r4_revision",
+  "native_home": "twDNW",
+  "approved_base": "Home Desktop-r16 / f7ZIg",
+  "files": [
+    {
+      "name": "CLWR9.png",
+      "sha256": "4d8bfc7a2cfe508ac16e87de5800d19c3e902735c8eb493d305612fa3ba0c2a2",
+      "bytes": 64269
+    },
+    {
+      "name": "D3TyXR.png",
+      "sha256": "214ebcf147b7887e63bf40584677e962e73d1364b7bdaaaa8990e8544ac9e862",
+      "bytes": 77504
+    },
+    {
+      "name": "DchY5.png",
+      "sha256": "0a168c83b724ba1481bc418b0157c169d8d7cc32a833c4c0e84edfb418ed0f19",
+      "bytes": 920802
+    },
+    {
+      "name": "editable-states.json",
+      "sha256": "ae52f00a18a5562ba9679efa1a05bab38bdcc86d019179f4388f5dd7761a777a",
+      "bytes": 53299
+    },
+    {
+      "name": "home-structure.json",
+      "sha256": "d0e89b7ea6d30bdcf0e177cf23db3b501dcb712a239169a97d559badc9a6d127",
+      "bytes": 4892
+    },
+    {
+      "name": "owner-alignment-request.json",
+      "sha256": "45e77a8c722eb7f159de5bccd0a1d6ec12bb1ae7cead7fb510497e4cddef8867",
+      "bytes": 689
+    },
+    {
+      "name": "qZAuj.png",
+      "sha256": "fb09ef122629004c7be970e4ad4c8ae938ff5a410a87cb3f43b03d9db0fc1439",
+      "bytes": 907285
+    },
+    {
+      "name": "README.md",
+      "sha256": "edfd0159958b1bda64772c97dafbf6ecd4ea44eec5ac7b32ce7b0dee1bafa1cd",
+      "bytes": 7589
+    },
+    {
+      "name": "T92l9t.png",
+      "sha256": "9d4ef536da7a866744af13c8648260deb1edf4bedbd445b56ad9b97ec8cf055b",
+      "bytes": 162798
+    },
+    {
+      "name": "twDNW.png",
+      "sha256": "5cbb785d7060a0cff6997a19c41273776998fdb3046bbc96afe86f8716cc30b9",
+      "bytes": 8142404
+    },
+    {
+      "name": "verification.json",
+      "sha256": "70a0d38b1f83e7a930049c6dee4e99dc4dce378c884e1828fe4519b0b91779f5",
+      "bytes": 2325
+    }
+  ],
+  "existing_sections_preserved": 12,
+  "new_appearance_approved": false,
+  "runtime_verified": false,
+  "frontend_authorized": false
+}
