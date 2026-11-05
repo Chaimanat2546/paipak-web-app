@@ -192,6 +192,8 @@ tasks:
   home_auth_Recovery_request_acceptance: docs/design/dsd-001/home-auth-recovery-request-g2-r38/owner-Recovery-request-states-acceptance.json
   home_auth_interaction_contract_draft: docs/design/dsd-001/home-auth-interaction-contract.md
   home_auth_Register_current_acceptance: docs/design/dsd-001/home-auth-register-current-g2-r39/owner-Register-current-states-acceptance.json
+  native_Pencil_repository_file: docs/design/dsd-001/papaipak-ui.pen
+  native_Pencil_repository_checkpoint: docs/design/dsd-001/pencil-native-checkpoint.json
   home_auth_G2_acceptance: docs/design/dsd-001/home-auth-consolidated-g2-r40/owner-G2-r40-acceptance.json
   home_auth_current_gate: Home Auth Desktop Wireframe G2-r40 accepted; owner stops today at wireframe; no active UI review
   home_auth_owner_scope_correction: docs/design/dsd-001/home-auth-wireframe-only-stop-decision.json

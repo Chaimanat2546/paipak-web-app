@@ -20,6 +20,8 @@
 
 ## Repository boundary
 
+- Native Pencil checkpoint saved on5November2026 is now in-repository at `docs/design/dsd-001/papaipak-ui.pen`, with the required `papaipak-ui-assets/` folder. See `docs/design/dsd-001/pencil-source-checkpoint.md` and `pencil-native-checkpoint.json` for byte/blob/asset evidence and scope. Open it through Pencil MCP; do not parse/edit native .pen contents directly. Historical review paths remain historical, and the old UXD-002 native file is unchanged. File presence does not approve every frame. Current Auth stops at accepted Wireframe G2-r40; the premature unapproved UI roots remain hidden.
+
 - This repository contains the application plus the owner-adopted handoff documents. `package.json`, `app/`, `public/`, config and tests live at its root; planning documents, task packets and validators live in `docs/`, `tasks/` and `scripts/`.
 - Original reference captures, Pencil files and other external design archives are not included merely because their names appear in the documents. Do not assume `../docs/` exists after cloning.
 - The old `paipak.pen` / poolapoolvilla.com implementation is historical reference where it conflicts with the latest direction. Final visual source files and approved screenshot versions must be registered through the new design workflow; do not invent or certify missing assets.

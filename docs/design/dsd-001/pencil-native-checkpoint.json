@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "purpose": "Repository-native backup of the complete current Pencil document, including approved work and historical/unapproved frames with existing visibility status. No design revisions from this backup.",
+  "file": "papaipak-ui.pen",
+  "bytes": 74490045,
+  "git_blob_id": "6bd6c083ce36b82e7320745628b2b1b9420ce922",
+  "saved_by": "Pencil native Save As, then opaque file/asset copy through CLI; no parsing or editing of native .pen contents",
+  "historical_working_document": "C:/Users/chaym/.pencil/documents/5738e270-25e4-4bf2-9d22-fad4c0b58275/papaipak-ui.pen",
+  "current_repository_document": "C:/Users/chaym/Projects/paipak-web-app/docs/design/dsd-001/papaipak-ui.pen",
+  "asset_count": 20,
+  "assets": [
+    {
+      "reference": "papaipak-ui-assets/Y3vc2.png",
+      "file": "papaipak-ui-assets/Y3vc2.png",
+      "bytes": 4916412,
+      "sha256": "bdc8fb0ab138b1bc0a35a4031497d9a037fb416d75faa921a8e75b1cf82f3c4b"
+    },
+    {
+      "reference": "papaipak-ui-assets/generated-3.png",
+      "file": "papaipak-ui-assets/generated-3.png",
+      "bytes": 946729,
+      "sha256": "cd4d635328bee5b7f7cef310cebfc95611189b2a18c3695805212a5d955f37e9"
+    },
+    {
+      "reference": "papaipak-ui-assets/generated-5.png",
+      "file": "papaipak-ui-assets/generated-5.png",
+      "bytes": 988803,
+      "sha256": "ed899ab08589fd44ad074619f925741337db05e0dd5d3382412afc9d71fee554"
+    },
+    {
+      "reference": "papaipak-ui-assets/generated-1.png",
+      "file": "papaipak-ui-assets/generated-1.png",
+      "bytes": 981498,
+      "sha256": "ef6a73de139a12a10c17e4d6828a1df8159fa60361ea77077e2ffb3513fb06ec"
+    },
+    {
+      "reference": "papaipak-ui-assets/generated-4.png",
+      "file": "papaipak-ui-assets/generated-4.png",
+      "bytes": 1002724,
+      "sha256": "fd8a2ecce27f857e2fa089a5c25ce0dfaedf38269a1809d3843d91ce1f03677a"
+    },
+    {
+      "reference": "papaipak-ui-assets/dsd-001-tiktok-depth-r2.glsl",
+      "file": "papaipak-ui-assets/dsd-001-tiktok-depth-r2.glsl",
+      "bytes": 1087,
+      "sha256": "2e58ebd073d041552c685fdca6ef095556daf260f899f9d7206487a2677cf324"
+    },
+    {
+      "reference": "papaipak-ui-assets/paipak-line-official.png",
+      "file": "papaipak-ui-assets/paipak-line-official.png",
+      "bytes": 22239,
+      "sha256": "5e93437eb5ec0dcdece92d1562fcd435d1d521cca5c013d2d9e15b544a1d8a39"
+    },
+    {
+      "reference": "papaipak-ui-assets/generated-9.png",
+      "file": "papaipak-ui-assets/generated-9.png",
+      "bytes": 833474,
+      "sha256": "76c7940c7865544f28e7fc357b266ee11564fd9bf62367fa0da800407976c542"
+    },
+    {
+      "reference": "papaipak-ui-assets/E3VmH.png",
+      "file": "papaipak-ui-assets/E3VmH.png",
+      "bytes": 4206687,
+      "sha256": "6386cdb76f3cc8c2afd9c8c92dad07f3422561b495a98b4b9df5e59c991655de"
+    },
+    {
+      "reference": "papaipak-ui-assets/CEJEl.png",
+      "file": "papaipak-ui-assets/CEJEl.png",
+      "bytes": 4020577,
+      "sha256": "6c88e4aa6623d3ebaf252da3d6e492c8011f30962965172c0bf7abef498be4d4"
+    },
+    {
+      "reference": "papaipak-ui-assets/generated.png",
+      "file": "papaipak-ui-assets/generated.png",
+      "bytes": 945276,
+      "sha256": "b9cc7072c9d5ba7a1c5794d5ba5196a1dc5c8480077d13db09af8287301e673c"
+    },
+    {
+      "reference": "papaipak-ui-assets/villa-01.webp",
+      "file": "papaipak-ui-assets/villa-01.webp",
+      "bytes": 287088,
+      "sha256": "28d4d855376b290cba724fde56ab1e8c3c9f1d95b426a83cbeb6f9a4b5de900d"
+    },
+    {
+      "reference": "papaipak-ui-assets/villa-02.webp",
+      "file": "papaipak-ui-assets/villa-02.webp",
+      "bytes": 78970,
+      "sha256": "24f7b07192f8379f2069f9279f32774361062ccc5914672383f6f6157efff3aa"
+    },
+    {
+      "reference": "papaipak-ui-assets/villa-03.webp",
+      "file": "papaipak-ui-assets/villa-03.webp",
+      "bytes": 124442,
+      "sha256": "e6943582769d7acbf887ff4e5f24ad9f69fa952a5f307cab5ad00fbc3ac44f5c"
+    },
+    {
+      "reference": "papaipak-ui-assets/villa-04.webp",
+      "file": "papaipak-ui-assets/villa-04.webp",
+      "bytes": 112256,
+      "sha256": "e5afaba0c9aae85480ba999297ef736936767df186e3acf2eb9ab5856b4a174f"
+    },
+    {
+      "reference": "papaipak-ui-assets/generated-8.png",
+      "file": "papaipak-ui-assets/generated-8.png",
+      "bytes": 781301,
+      "sha256": "2280bcfadb5523a961e18f088f6303757dee83998a4ab6b77659e6735eb9cdbc"
+    },
+    {
+      "reference": "papaipak-ui-assets/logo-color-original.png",
+      "file": "papaipak-ui-assets/logo-color-original.png",
+      "bytes": 1823060,
+      "sha256": "89364219729806ef0180c475e6b1b124c27a8b815dbc8dd007ba360bf59ea29a"
+    },
+    {
+      "reference": "papaipak-ui-assets/logo-white-original.png",
+      "file": "papaipak-ui-assets/logo-white-original.png",
+      "bytes": 1440085,
+      "sha256": "fe4138b8422f278dad760bec172b7f6d5cf4d31443f788a7cf2c1574db4b35ef"
+    },
+    {
+      "reference": "papaipak-ui-assets/logo-outline-original.png",
+      "file": "papaipak-ui-assets/logo-outline-original.png",
+      "bytes": 2788439,
+      "sha256": "02f17a4aa8b8d74acd00aeef59bb96e3d46d45edfd6edc62653a0243c9ae1a33"
+    },
+    {
+      "reference": "papaipak-ui-assets/google-icon-button-source%404x.png",
+      "file": "papaipak-ui-assets/google-icon-button-source@4x.png",
+      "bytes": 7192,
+      "sha256": "2bc2ae8e4c67de66d74bf1deed12cd8f22981270266a487576b671b0b4df361c"
+    }
+  ],
+  "verification": {
+    "opened_repository_file_through_Pencil_MCP": true,
+    "accepted_Auth_G2_root": "xqrsT",
+    "flow_and_interaction": [
+      "v0fodR",
+      "geey5"
+    ],
+    "G2_root_visible": true,
+    "Home_r20_reference": "a8kei",
+    "premature_UI_roots_hidden": [
+      "kqfiW",
+      "dPzQ6"
+    ],
+    "flow_and_Hero_screenshots_inspected": true,
+    "asset_references_resolve_inside_repository": true,
+    "pen_CLI_available_in_PATH": false,
+    "runtime_tested": false
+  },
+  "accepted_Auth_baseline": "home-auth-consolidated-g2-r40/owner-G2-r40-acceptance.json",
+  "current_owner_scope": "home-auth-wireframe-only-stop-decision.json",
+  "whole_document_design_approved": false,
+  "Frontend_or_backend_started": false,
+  "UXD_002_original_file_changed": false
+}
