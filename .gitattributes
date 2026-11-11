@@ -4,3 +4,6 @@
 # Design evidence is referenced by byte hashes in approval records.
 docs/design/dsd-001/** -text
 docs/design/governance/** -text
+
+# Store the shared Pencil source in Git LFS.
+docs/design/dsd-001/papaipak-ui.pen filter=lfs
