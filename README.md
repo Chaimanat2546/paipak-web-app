@@ -4,7 +4,7 @@ Application repository สำหรับเว็บไซต์ pool villa **p
 
 ## ขอบเขตและสถานะ
 
-Repository นี้มีแอปและชุดเอกสารส่งต่องาน โดย `package.json`, `app/`, `public/`, config และ tests อยู่ที่ root โดยตรง เอกสารวางแผนอยู่ใน `docs/`, task packets อยู่ใน `tasks/` และสคริปต์ตรวจโครงสร้างอยู่ใน `scripts/` ส่วนไฟล์ภาพอ้างอิงและงาน Pencil ต้นฉบับไม่ได้รวมมาด้วย
+Repository นี้มีแอปและชุดเอกสารส่งต่องาน โดย `package.json`, `app/`, `public/`, config และ tests อยู่ที่ root โดยตรง เอกสารวางแผนอยู่ใน `docs/`, task packets อยู่ใน `tasks/` และสคริปต์ตรวจโครงสร้างอยู่ใน `scripts/` ต้นฉบับ Pencil ที่ใช้แก้ต่อและ assets อยู่ใน `docs/design/dsd-001/`
 
 - ภูยืนยันเมื่อ 2 พฤศจิกายน 2026 ให้ยึดเอกสารชุดใหม่ทั้งหมดเป็นข้อสรุปล่าสุดของโครงการ แนวทางใหม่มีผลเหนือข้อกำหนดเดิมที่ขัดกัน การยืนยันนี้เป็นการรับรองทิศทางและแผนงาน ส่วนแบบหน้าจอสุดท้าย งานที่เสร็จ และการเปิดระบบจริงยังต้องมีหลักฐานและการอนุมัติตาม task
 - เป้าหมายดีไซน์ปัจจุบันคือ Pink Accent Premium: กรม `#072D59`, ฟ้าอ่อน `#DBF2FC`, ชมพู `#FD6E88`, พื้นหลักสีขาวและฟอนต์ Mitr พร้อมเมนูลัด 7 หมวดและองค์ประกอบตาม [ข้อกำหนด UX/UI](docs/design/approved-ux-ui-scope.md)
@@ -40,6 +40,30 @@ Repository นี้มีแอปและชุดเอกสารส่ง
 ก่อนเริ่ม Design Task อ่าน README ของชุดและ `01` ถึง `05` แล้วใช้ `06` ร่วมกับ Task Packet เดิม คู่มือ Wireframe ฉบับใช้งานยังอยู่ที่ [wireframe-guidelines.md](docs/design/wireframe-guidelines.md) ส่วนสำเนาในชุดเก็บไว้เป็นต้นทาง การนำเข้าไม่อนุมัติแบบสุดท้ายหรือเริ่มงานออกแบบ/Frontend โดยอัตโนมัติ
 
 ภูชี้แจงเพิ่มเติมว่าต้องอนุมัติก่อนทำ UI Design ด้วย: ให้เสนอแผนและขอบเขต Task แล้วรออนุมัติ G0 ก่อนเริ่มสร้างหรือแก้ชิ้นงานออกแบบ เมื่อแบบเสร็จต้องอนุมัติแบบ/version ก่อนทำ Frontend อีกขั้น การอนุญาตเฉพาะ Task ที่มีอยู่แล้วยังใช้ได้ภายในขอบเขตเดิม
+
+## แก้ไฟล์ Pencil และ push ด้วย Git LFS
+
+เปิด [papaipak-ui.pen](docs/design/dsd-001/papaipak-ui.pen) จากโฟลเดอร์ repo ใน Pencil แล้วบันทึกกลับที่เดิม เก็บโฟลเดอร์ `papaipak-ui-assets/` ไว้ข้างไฟล์ `.pen` เพื่อให้ Pencil โหลดรูปและ assets ที่แบบอ้างถึงได้
+
+รันจาก root ของ repo บนสาขาที่ต้องการส่ง
+
+```powershell
+git status --short --branch
+git add -- docs/design/dsd-001/papaipak-ui.pen
+```
+
+ถ้าแก้หรือเพิ่ม assets ให้ `git add` ไฟล์ที่เปลี่ยนใน `docs/design/dsd-001/papaipak-ui-assets/` ด้วย จากนั้นตรวจรายการที่เตรียมคอมมิตแล้วส่งขึ้น remote
+
+```powershell
+git diff --cached --name-status
+git commit -m "docs(design): update Pencil design"
+git push
+git status --short --branch
+```
+
+repo ตั้ง Git LFS ไว้สำหรับไฟล์ `.pen` นี้แล้ว `git push` จะอัปโหลดไฟล์จริงให้อัตโนมัติ หลัง push ให้ตรวจบรรทัดแรกของ `git status --short --branch` ว่าสาขาตรงกับ remote
+
+บนเครื่องใหม่ ให้ติดตั้ง Git LFS และรัน `git lfs install` หนึ่งครั้งก่อน clone ถ้า clone ไว้แล้วและยังได้ไฟล์ตัวชี้ ให้รัน `git lfs pull` จาก root ของ repo เพื่อดึงต้นฉบับก่อนเปิดใน Pencil
 
 ## ชุดเวอร์ชันที่ทดสอบ
 
