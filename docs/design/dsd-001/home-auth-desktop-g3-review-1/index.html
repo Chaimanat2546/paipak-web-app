@@ -1,0 +1,1411 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>papaipak · Home Auth Desktop G3</title>
+<style>
+@font-face{font-family:Mitr;src:url("../foundation-1/fonts/Mitr-Regular.ttf");font-weight:400;font-display:swap}
+@font-face{font-family:Mitr;src:url("../foundation-1/fonts/Mitr-Medium.ttf");font-weight:500;font-display:swap}
+@font-face{font-family:Mitr;src:url("../foundation-1/fonts/Mitr-SemiBold.ttf");font-weight:600;font-display:swap}
+:root{color-scheme:light;--navy:#072d59;--pink:#fd6e88;--sky:#dbf2fc;--ink:#53657c;--line:#8093a8;--quiet:#f0f8fb;--edge:#dce6ef;--red:#a92343;--red-bg:#fff2f5;--red-line:#e9a6b5;--label:#fff}
+*{box-sizing:border-box}
+body{margin:0;color:var(--navy);background:#f5f8fa;font:400 15px/1.5 Mitr,sans-serif}
+button,select{font:inherit;color:inherit}
+button{cursor:pointer}
+button:focus-visible,select:focus-visible,a:focus-visible,.modal-body:focus-visible{outline:2px solid var(--navy);outline-offset:3px}
+a{color:inherit}
+.mast{padding:30px clamp(20px,5vw,76px) 26px;background:#fff;border-bottom:1px solid var(--edge)}
+.brand{font-size:19px;font-weight:600;letter-spacing:-.035em}
+.mast h1{margin:4px 0 6px;font-size:clamp(27px,3.2vw,44px);font-weight:600;line-height:1.2;letter-spacing:-.035em}
+.mast p{margin:0;color:var(--ink)}
+.scope{display:inline-flex;align-items:center;gap:8px}
+.scope::before{content:"";width:7px;height:7px;background:var(--pink);border-radius:50%}
+.review{max-width:1680px;margin:0 auto;padding:24px clamp(18px,4vw,58px) 40px}
+.tabs{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:16px}
+.tabs button,.pager button,.select-state{border:1px solid #bdcddd;background:#fff;border-radius:8px;padding:8px 13px;min-height:40px;font-size:14px}
+.tabs button[aria-pressed="true"]{border-color:var(--navy);background:var(--navy);color:#fff}
+.tabs small{margin-left:5px;font-size:11px;opacity:.8}
+.tools{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center;padding:11px 13px;background:#fff;border:1px solid var(--edge);border-bottom:0;border-radius:12px 12px 0 0}
+.select-state{max-width:100%;min-width:min(280px,100%);background:#f8fbfd}
+.pager{display:flex;gap:8px;align-items:center}
+.pager button{padding:4px 11px;min-width:42px;font-size:19px}
+.pager span{font-size:13px;color:var(--ink);min-width:51px;text-align:center;font-variant-numeric:tabular-nums}
+.toggle{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--ink);cursor:pointer}
+.toggle input{accent-color:var(--navy);width:16px;height:16px}
+.stage{background:#eaf2f8;border:1px solid var(--edge);min-height:500px;padding:32px 18px;display:grid;place-items:center;overflow:hidden}
+.stage.context-stage{padding:0;display:block;min-height:0}
+.stage.navy-label{--label:var(--navy)}
+.artboard{position:relative;overflow:hidden;width:100%;margin-inline:auto;background:#fff}
+.home{position:absolute;inset:0 auto auto 0;width:1440px;transform-origin:top left;overflow:hidden;background:#fff}
+.home img{display:block;width:1440px;height:auto;position:absolute;left:0;top:0}
+.home .veil{position:absolute;inset:0;background:#072d5966}
+.home .overlay{position:absolute;inset:0;display:grid;place-items:center;padding:24px}
+.caption{padding:14px 16px;background:#fff;border:1px solid var(--edge);border-top:0;border-radius:0 0 12px 12px}
+.caption h2{margin:0 0 3px;font-size:18px;font-weight:500}
+.caption p{margin:4px 0;color:var(--ink);max-width:85ch}
+.caption .source{font-size:12px}
+.notes{margin-top:21px;color:var(--ink);font-size:14px}
+.notes summary{color:var(--navy);cursor:pointer;font-weight:500}
+.notes p{margin:8px 0}
+.modal{container-type:inline-size;position:relative;width:min(592px,100%);border-radius:20px;background:#fff;box-shadow:0 6px 26px #072d5933;overflow:hidden;color:var(--navy)}
+.modal-head{display:grid;grid-template-columns:40px minmax(0,1fr) 40px;align-items:center;padding:28px 28px 16px;gap:8px}
+.modal-head h3{margin:0;text-align:center;font-weight:600;font-size:clamp(21px,5cqw,30px);line-height:1.3}
+.modal-body{padding:0 clamp(18px,6.1cqw,36px) 34px;display:grid;gap:14px}
+.modal.short .modal-body{max-height:calc(100cqh - 136px);overflow:auto;scrollbar-gutter:stable}
+.home .overlay{container-type:size}
+.icon{display:inline-block;width:20px;height:20px;flex:0 0 auto;vertical-align:middle}
+.icon-action{height:40px;display:grid;place-items:center;border-radius:10px}
+.icon-action .icon{width:20px;height:20px}
+.copy{color:var(--ink);font-size:16px;line-height:1.6;text-align:center;margin:0;white-space:pre-line}
+.intro{margin:1px 0 4px}
+.recipient{display:block;margin-top:5px;color:var(--navy);font-weight:500;overflow-wrap:anywhere}
+.notice-icon{display:grid;place-items:center;width:62px;height:62px;border-radius:50%;margin:0 auto;background:var(--sky)}
+.notice-icon .icon{width:29px;height:29px}
+.notice-icon.alert{color:var(--red);background:var(--red-bg)}
+.field{min-width:0;display:grid;gap:5px;position:relative}
+.field-label{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:15px;font-weight:500}
+.hint,.feedback-inline{color:var(--ink);font-size:13px;line-height:1.5}
+.field-box{min-height:52px;border:1px solid var(--line);border-radius:12px;padding:10px 14px;display:flex;align-items:center;gap:8px;font-size:16px;background:#fff;min-width:0}
+.value{flex:1;min-width:0;overflow-wrap:anywhere}
+.placeholder{color:#667387}
+.focused{outline:2px solid var(--navy);outline-offset:-2px}
+.focus-ring{outline:2px solid var(--navy);outline-offset:3px}
+.field.has-error .field-box,.otp-slots.has-error .otp-slot{border-color:var(--red)}
+.field.has-error .field-box.focused,.otp-slots.has-error .otp-slot.focused{outline-color:var(--red)}
+.feedback-inline{color:var(--red)}
+.flag{display:inline-block;width:22px;height:22px;flex:0 0 auto;vertical-align:middle}
+.country-affix{display:flex;align-items:center;gap:5px;border-right:1px solid var(--edge);padding-right:10px;font-size:14px;font-weight:500;flex:0 0 auto}
+.country-affix .icon{width:14px;height:14px}
+.country-affix.focus-ring{border-radius:4px}
+.picker{position:absolute;top:82px;left:0;right:0;z-index:1;border:1px solid var(--edge);background:white;border-radius:14px;box-shadow:0 8px 20px #072d5914;padding:9px 11px;display:grid;gap:6px}
+.picker-search,.option{display:flex;gap:8px;align-items:center;border-radius:8px;padding:8px;font-size:14px}
+.picker-search{border:1px solid var(--line);color:var(--ink)}
+.option.selected{background:var(--sky);font-weight:500}
+.option span:last-child{margin-left:auto;color:var(--ink)}
+.picker .hint{text-align:center}
+.cta{min-height:52px;border:1px solid transparent;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:9px;text-align:center;padding:10px 13px;font-size:16px;font-weight:500;line-height:1.4}
+.cta.primary{background:var(--pink);color:var(--label)}
+.cta.secondary{border-color:var(--line);background:white}
+.cta.muted,.field-box.muted,.otp-slot.muted{background:var(--quiet);color:var(--ink);border-color:var(--edge)}
+.sub-action{text-align:center;font-size:15px;font-weight:500;padding:4px 0}
+.sub-action.inactive,.inactive .sub-action{color:var(--ink);opacity:.62}
+.divider{display:flex;align-items:center;gap:8px;color:var(--ink);font-size:13px}
+.divider::before,.divider::after{content:"";height:1px;background:var(--edge);flex:1}
+.bottom-line{font-size:14px;color:var(--ink);text-align:center;margin:3px 0 0}
+.bottom-line strong,.field-label strong{color:var(--navy);font-weight:500}
+.field-label strong{font-size:14px}
+.google-mark{display:inline-block;width:19px;height:19px;flex:0 0 auto;background:url("../home-auth-login-g3-r1/assets/google-icon-button-source@4x.png") center/37px no-repeat}
+.otp-group{display:grid;gap:7px;text-align:center}
+.otp-slots{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:clamp(5px,2.1cqw,12px);margin:0 auto;width:min(100%,454px)}
+.otp-slot{height:clamp(44px,11cqw,66px);display:grid;place-items:center;border:1px solid var(--line);border-radius:10px;font-weight:500;font-size:22px}
+.caret{width:2px;height:25px;background:currentColor;display:block}
+.otp-label{font-size:15px;font-weight:500}
+.alert-box,.status-box,.email-chip{display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:10px;font-size:14px;line-height:1.5;white-space:pre-line}
+.alert-box{background:var(--red-bg);color:var(--red);border:1px solid var(--red-line)}
+.status-box,.email-chip{background:var(--quiet)}
+.email-chip{font-weight:500;overflow-wrap:anywhere}
+.spinner{width:18px;height:18px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;display:inline-block;flex:0 0 auto}
+.otp-notice{font-size:13px}
+.favorite-card{position:absolute;width:314px;height:362px;overflow:hidden;border-radius:16px}
+.home .favorite-card img{width:400px;max-width:none;left:-43px;top:-24px}
+.return-outline{position:absolute;border:2px solid var(--navy);border-radius:14px;box-shadow:0 0 0 2px #fff}
+.toast{position:absolute;right:32px;bottom:24px;background:#fff;color:var(--navy);box-shadow:0 3px 22px #072d591a;display:flex;align-items:center;gap:12px;border-radius:12px;padding:16px 20px;min-width:230px;font-weight:500}
+@media(max-width:630px){.review{padding-inline:10px}.stage{padding:18px 8px}.tools{align-items:flex-start}.select-state{width:100%}.modal-head{padding:20px 12px 14px;gap:4px}.modal-body{gap:12px}.tabs button{padding-inline:9px}.tabs small{display:none}.caption{padding-inline:12px}}
+</style>
+</head>
+<body>
+<header class="mast">
+  <div class="brand">papaipak</div>
+  <h1>Home Auth Desktop G3</h1>
+  <p class="scope">ชุดแบบสำหรับตรวจรับ · DSD-001/C2 · 9 พฤศจิกายน 2026</p>
+</header>
+<main class="review">
+  <nav class="tabs" aria-label="กลุ่มหน้าจอ" id="tabs"></nav>
+  <section aria-label="ดูแบบทีละสถานะ">
+    <div class="tools">
+      <select class="select-state" id="state" aria-label="เลือกแบบที่จะดู"></select>
+      <div class="pager">
+        <button id="prev" type="button" aria-label="แบบก่อนหน้า">‹</button><span id="position"></span><button id="next" type="button" aria-label="แบบถัดไป">›</button>
+      </div>
+      <label class="toggle"><input type="checkbox" id="contrast"> ดูตัวเลือกตัวอักษรกรมท่าบนปุ่มชมพู</label>
+    </div>
+    <div class="stage" id="stage"></div>
+    <div class="caption" aria-live="polite"><h2 id="title"></h2><p id="note"></p><p class="source" id="source"></p></div>
+  </section>
+  <details class="notes">
+    <summary>ขอบเขตแบบและข้อที่ต้องตรวจรับ</summary>
+    <p>หน้าจอจำลอง Desktop จากภาพ Line และ <a href="../home-auth-consolidated-g2-r40/README.md">Wireframe G2-r40</a> ส่วนปุ่มภายในแบบมีไว้ดูหน้าตา ใช้ตัวเลือกด้านบนเพื่อเปลี่ยนสถานะ</p>
+    <p>OPEN-001 ยังรอตัดสินใจ ข้อความขาวบนชมพูเดิมได้ 2.71:1 และตัวเลือกกรมท่าบนชมพูได้ประมาณ 5.08:1 จากสีพื้นเรียบ สวิตช์มีไว้เทียบแบบเท่านั้น</p>
+    <p>อีเมล เบอร์ และเวลา 00:45 เป็นข้อมูลตัวอย่าง ขอบเขตนี้ใช้กับ Auth ที่เปิดจากหน้าแรก Desktop การทดสอบคีย์บอร์ด โปรแกรมอ่านหน้าจอ และการยืนยันตัวตนจริงอยู่ในขั้นถัดไป</p>
+  </details>
+</main>
+<script id="artboards" type="application/json">
+[
+  {
+    "label": "เข้าสู่ระบบ",
+    "states": [
+      {
+        "id": "login-blank",
+        "title": "เข้าสู่ระบบ · ช่องเริ่มต้น",
+        "kind": "login",
+        "source": "Line แถว 1 / G2-r34 Nlwvr",
+        "note": "ช่องเดียวรับอีเมลหรือเบอร์โทร ดำเนินการต่อด้วยอีเมลเพื่อขอ OTP หรือด้วยเบอร์โทรเพื่อใส่รหัสผ่าน เปิดใหม่หลังปิดแล้วช่องจะว่าง"
+      },
+      {
+        "id": "login-email",
+        "title": "เข้าสู่ระบบ · กรอกอีเมล",
+        "kind": "login",
+        "identifier": "tawan@example.com",
+        "source": "G2-r34 Nlwvr / G2-r17 EjvEz",
+        "note": "กดดำเนินการต่อเพื่อขอรหัสทางอีเมล หรือเลือกเข้าสู่ระบบด้วยรหัสผ่าน หากยกเลิก Google จะกลับมาที่ฟอร์มเดิมพร้อมข้อมูลที่ยังกรอกอยู่ โดยไม่แสดงข้อผิดพลาดหรือขอ OTP อัตโนมัติ"
+      },
+      {
+        "id": "login-phone",
+        "title": "เข้าสู่ระบบ · กรอกเบอร์โทร",
+        "kind": "login",
+        "identifier": "7700 900123",
+        "phone": "UK",
+        "source": "G2-r34 w5F1PX",
+        "note": "แสดงธงและรหัสประเทศในช่องเมื่อใช้เบอร์โทร เลข +44 เป็นตัวเลือกในตัวอย่าง กดดำเนินการต่อเพื่อใส่รหัสผ่าน"
+      },
+      {
+        "id": "login-country-picker",
+        "title": "เข้าสู่ระบบ · เลือกรหัสประเทศ",
+        "kind": "login",
+        "identifier": "7700 900123",
+        "phone": "UK",
+        "picker": true,
+        "focus": "country",
+        "source": "G2-r34 w5F1PX / G2-r33 ZWbVr / สัญญาการโต้ตอบ G2-r40",
+        "note": "ใช้ตัวเลือกประเทศเดียวกับ Register แสดงไทยและใช้ชื่ออังกฤษสำหรับประเทศอื่น การเลือกไม่ส่งคำขอ กด Escape เพื่อปิดรายการก่อนและคืนโฟกัสที่ปุ่มเปิด"
+      },
+      {
+        "id": "login-identifier-required",
+        "title": "เข้าสู่ระบบ · ยังไม่กรอกอีเมลหรือเบอร์",
+        "kind": "login",
+        "focus": "identifier",
+        "error": "กรุณากรอกอีเมลหรือเบอร์โทรศัพท์",
+        "errorAt": "identifier",
+        "source": "G2-r26 JfzOo / G2-r34 Nlwvr"
+      },
+      {
+        "id": "login-otp-request-pending",
+        "title": "เข้าสู่ระบบ · กำลังขอรหัส",
+        "kind": "login",
+        "identifier": "tawan@example.com",
+        "busy": true,
+        "disabled": true,
+        "primary": "กำลังขอรหัส…",
+        "source": "G2-r37 wp6Gt",
+        "note": "พักช่องกรอก การกดซ้ำ และการเปลี่ยนวิธีชั่วคราว ยังปิดฟอร์มได้"
+      },
+      {
+        "id": "login-otp-request-connection",
+        "title": "เข้าสู่ระบบ · ขอรหัสไม่ได้",
+        "kind": "login",
+        "identifier": "tawan@example.com",
+        "error": "เชื่อมต่อระบบขอรหัสไม่ได้\nกรุณาลองอีกครั้ง",
+        "errorAt": "form",
+        "errorIcon": true,
+        "primary": "ลองขอรหัสอีกครั้ง",
+        "source": "G2-r37 TYi9y",
+        "note": "ใช้ข้อความนี้เมื่อทราบว่าเป็นปัญหาการเชื่อมต่อ คงอีเมลและให้กดลองใหม่เอง"
+      },
+      {
+        "id": "login-otp-entry",
+        "title": "รหัสเข้าสู่ระบบทางอีเมล · พร้อมกรอก",
+        "kind": "otp",
+        "identifier": "tawan@example.com",
+        "focus": "otp",
+        "otpButton": "ส่งรหัสอีกครั้งใน 00:45",
+        "otpButtonStyle": "muted",
+        "source": "Line แถว 1 / G2-r34 ASYeh / G2-r14 E3yBs",
+        "note": "เลื่อนช่องอัตโนมัติและตรวจเมื่อครบ 6 หลัก วางรหัส 6 หลักจากช่องใดก็ได้ รวมถึงข้อความที่มีรหัสเดียวชัดเจนและเลข 0 นำหน้า ข้อความที่ใช้ไม่ได้จะคงตัวเลขเดิมโดยไม่แจ้งเตือน เวลา 00:45 เป็นตัวอย่างในแบบ"
+      },
+      {
+        "id": "login-otp-backspace",
+        "title": "รหัสเข้าสู่ระบบทางอีเมล · กรอกบางส่วน",
+        "kind": "otp",
+        "identifier": "tawan@example.com",
+        "focus": "otp",
+        "otpFocus": 4,
+        "otpDigits": "127",
+        "otpButton": "ส่งรหัสอีกครั้งใน 00:45",
+        "otpButtonStyle": "muted",
+        "source": "G2-r16 Im1AA / G2-r34 ASYeh",
+        "note": "จาก 123 เมื่อกด Backspace ที่ช่อง 3 จะลบ 3 แล้วถอยมาช่อง 2 โดยคงเลข 2 ไว้ พิมพ์ 7 จะเติมช่อง 3 เป็น 127 แล้วเลื่อนไปช่อง 4 หากกด Backspace ที่ช่องว่าง จะถอยและลบตัวก่อนหน้า"
+      },
+      {
+        "id": "login-otp-checking",
+        "title": "รหัสเข้าสู่ระบบทางอีเมล · กำลังตรวจ",
+        "kind": "otp",
+        "identifier": "tawan@example.com",
+        "otpDigits": "123456",
+        "otpMessage": "กำลังตรวจรหัส…",
+        "otpButton": "ส่งรหัสอีกครั้ง",
+        "otpButtonStyle": "muted",
+        "busy": true,
+        "disabled": true,
+        "source": "G2-r7 PmCdx",
+        "note": "พักช่องกรอก ส่งรหัสซ้ำ และสลับไปใช้รหัสผ่านระหว่างตรวจ ย้อนกลับและปิดได้"
+      },
+      {
+        "id": "login-otp-invalid",
+        "title": "รหัสเข้าสู่ระบบทางอีเมล · รหัสไม่ถูกต้อง",
+        "kind": "otp",
+        "identifier": "tawan@example.com",
+        "focus": "otp",
+        "error": "รหัสไม่ถูกต้อง กรุณากรอกใหม่",
+        "errorAt": "otp",
+        "otpButton": "ส่งรหัสอีกครั้ง",
+        "otpButtonStyle": "secondary",
+        "source": "G2-r26 wxEwE / G2-r8 yA4C7",
+        "note": "ล้างทั้ง 6 ช่องและโฟกัสช่องแรก เอาข้อความออกเมื่อเริ่มกรอกใหม่"
+      },
+      {
+        "id": "login-otp-expired",
+        "title": "รหัสเข้าสู่ระบบทางอีเมล · รหัสหมดอายุ",
+        "kind": "otp",
+        "identifier": "tawan@example.com",
+        "disabled": true,
+        "error": "รหัสหมดอายุ กรุณาขอรหัสใหม่",
+        "errorAt": "otp",
+        "otpButton": "ส่งรหัสใหม่",
+        "otpButtonStyle": "primary",
+        "source": "G2-r26 iLmVt / G2-r9 t8JxU",
+        "note": "ล้างและพักช่องรหัส คงอีเมลไว้ ผู้ใช้กดส่งรหัสใหม่เองหรือใช้รหัสผ่านแทนได้"
+      },
+      {
+        "id": "login-otp-expired-cooldown",
+        "title": "รหัสเข้าสู่ระบบทางอีเมล · รอขอรหัสใหม่",
+        "kind": "otp",
+        "identifier": "tawan@example.com",
+        "disabled": true,
+        "otpButton": "ส่งรหัสอีกครั้งใน 00:45",
+        "otpButtonStyle": "muted",
+        "source": "G2-r14 E3yBs / Line แถว 1",
+        "note": "แสดงเวลารอในปุ่มเพียงตำแหน่งเดียว เมื่อครบเวลาจึงกดขอรหัสใหม่ได้ เวลา 00:45 เป็นตัวอย่าง"
+      },
+      {
+        "id": "login-otp-resend-pending",
+        "title": "รหัสเข้าสู่ระบบทางอีเมล · กำลังขอรหัสใหม่",
+        "kind": "otp",
+        "identifier": "tawan@example.com",
+        "disabled": true,
+        "busy": true,
+        "otpMessage": "กำลังขอรหัสใหม่…",
+        "otpButton": "ส่งรหัสใหม่",
+        "otpButtonStyle": "muted",
+        "source": "G2-r10 LRyGj"
+      },
+      {
+        "id": "login-otp-resend-ready",
+        "title": "รหัสเข้าสู่ระบบทางอีเมล · รับคำขอแล้ว",
+        "kind": "otp",
+        "identifier": "tawan@example.com",
+        "focus": "otp",
+        "otpMessage": "ส่งคำขอแล้ว กรุณาตรวจสอบอีเมล",
+        "otpButton": "ส่งรหัสอีกครั้งใน 00:45",
+        "otpButtonStyle": "muted",
+        "source": "G2-r10 TiPIP / G2-r14 E3yBs",
+        "note": "ล้างช่องและโฟกัสช่องแรก ข้อความแจ้งว่าได้รับคำขอแล้ว เมื่อเริ่มกรอก ให้กลับไปแสดงข้อความช่วยเรื่องการตรวจอัตโนมัติ"
+      },
+      {
+        "id": "login-otp-resend-failed",
+        "title": "รหัสเข้าสู่ระบบทางอีเมล · ขอรหัสใหม่ไม่สำเร็จ",
+        "kind": "otp",
+        "identifier": "tawan@example.com",
+        "disabled": true,
+        "error": "ขอรหัสใหม่ไม่สำเร็จ กรุณาลองอีกครั้ง",
+        "errorAt": "form",
+        "errorIcon": true,
+        "otpButton": "ลองส่งอีกครั้ง",
+        "otpButtonStyle": "primary",
+        "source": "G2-r11 cZWL1",
+        "note": "ใช้หลังรหัสเดิมหมดอายุ คงอีเมลและพักช่องรหัส ให้ผู้ใช้กดลองส่งเอง"
+      },
+      {
+        "id": "login-otp-verify-failed",
+        "title": "รหัสเข้าสู่ระบบทางอีเมล · ตรวจรหัสไม่สำเร็จ",
+        "kind": "otp",
+        "identifier": "tawan@example.com",
+        "otpDigits": "123456",
+        "error": "ตรวจรหัสไม่สำเร็จ กรุณาลองอีกครั้ง",
+        "errorAt": "form",
+        "errorIcon": true,
+        "otpRetry": "ลองตรวจอีกครั้ง",
+        "otpButton": "ส่งรหัสอีกครั้ง",
+        "otpButtonStyle": "secondary",
+        "source": "G2-r15 d0PtEH",
+        "note": "คงเลขที่กรอกไว้ ผู้ใช้กดลองตรวจรหัสเดิมเอง หรือแก้ไขรหัสเพื่อให้ตรวจอัตโนมัติเมื่อครบ 6 หลัก"
+      },
+      {
+        "id": "login-password-phone",
+        "title": "เข้าสู่ระบบด้วยรหัสผ่าน · เบอร์โทร",
+        "kind": "password",
+        "identifier": "+44 7700 900123",
+        "phone": "UK",
+        "focus": "password",
+        "source": "Line แถว 1 / G2-r34 yzbLX",
+        "note": "แสดงเบอร์พร้อมรหัสประเทศ ย้อนกลับเพื่อแก้เบอร์ได้ ลืมรหัสผ่านไปที่การขอลิงก์ทางอีเมล"
+      },
+      {
+        "id": "login-password-email",
+        "title": "เข้าสู่ระบบด้วยรหัสผ่าน · อีเมล",
+        "kind": "password",
+        "identifier": "tawan@example.com",
+        "source": "G2-r30 mmSkV",
+        "note": "แสดงทางเลือก ใช้รหัสยืนยันทางอีเมลแทน เมื่อใช้รหัสผ่านกับอีเมล"
+      },
+      {
+        "id": "login-password-visible",
+        "title": "เข้าสู่ระบบด้วยรหัสผ่าน · แสดงรหัส",
+        "kind": "password",
+        "identifier": "tawan@example.com",
+        "visible": true,
+        "password": "papaipak",
+        "focus": "eye",
+        "source": "G2-r30 mmSkV / สัญญาการโต้ตอบ G2-r40",
+        "note": "ปุ่มรูปตาสลับการแสดงรหัสผ่านโดยคงค่าที่กรอกไว้ ชื่อปุ่มบอกการกระทำที่ทำได้ในขณะนั้น รหัสที่แสดงเป็นตัวอย่าง"
+      },
+      {
+        "id": "login-password-required",
+        "title": "เข้าสู่ระบบด้วยรหัสผ่าน · ยังไม่กรอกรหัส",
+        "kind": "password",
+        "identifier": "tawan@example.com",
+        "focus": "password",
+        "error": "กรุณากรอกรหัสผ่าน",
+        "errorAt": "password",
+        "source": "G2-r26 M8MQzW / G2-r30 mmSkV",
+        "note": "แสดงข้อความใต้ช่องรหัสผ่าน เงื่อนไขขั้นต่ำ 8 ตัวอักษรใช้กับรหัสผ่านใหม่"
+      },
+      {
+        "id": "login-password-rejected",
+        "title": "เข้าสู่ระบบด้วยรหัสผ่าน · ข้อมูลไม่ตรง",
+        "kind": "password",
+        "identifier": "tawan@example.com",
+        "password": "papaipak",
+        "error": "อีเมลหรือรหัสผ่านไม่ถูกต้อง\nตรวจสอบข้อมูลแล้วลองอีกครั้ง",
+        "errorAt": "form",
+        "errorIcon": true,
+        "source": "G2-r26 WOc19 / G2-r30 mmSkV",
+        "note": "แสดงข้อผิดพลาดก่อนปุ่มเข้าสู่ระบบและคงสภาพช่องกรอกตามเดิม"
+      },
+      {
+        "id": "login-password-pending",
+        "title": "เข้าสู่ระบบด้วยรหัสผ่าน · กำลังเข้าสู่ระบบ",
+        "kind": "password",
+        "identifier": "+44 7700 900123",
+        "phone": "UK",
+        "password": "papaipak",
+        "busy": true,
+        "disabled": true,
+        "primary": "กำลังเข้าสู่ระบบ…",
+        "source": "G2-r37 fS0KD",
+        "note": "พักช่องกรอกและป้องกันส่งซ้ำขณะรอ ใช้รูปแบบเดียวกันเมื่อเข้าสู่ระบบด้วยอีเมลและรหัสผ่าน"
+      },
+      {
+        "id": "login-password-connection",
+        "title": "เข้าสู่ระบบด้วยรหัสผ่าน · เชื่อมต่อไม่ได้",
+        "kind": "password",
+        "identifier": "+44 7700 900123",
+        "phone": "UK",
+        "password": "papaipak",
+        "error": "เชื่อมต่อระบบเข้าสู่ระบบไม่ได้\nกรุณาลองอีกครั้ง",
+        "errorAt": "form",
+        "errorIcon": true,
+        "primary": "ลองเข้าสู่ระบบอีกครั้ง",
+        "source": "G2-r37 F5y0ir",
+        "note": "ใช้ข้อความนี้เมื่อทราบว่าเป็นปัญหาการเชื่อมต่อ คงข้อมูลเดิมให้ลองใหม่เอง ใช้รูปแบบเดียวกันกับอีเมลและรหัสผ่าน"
+      },
+      {
+        "id": "login-google-failed",
+        "title": "เข้าสู่ระบบ · Google ไม่สำเร็จ",
+        "kind": "login",
+        "identifier": "tawan@example.com",
+        "error": "เข้าสู่ระบบด้วย Google ไม่สำเร็จ\nลองอีกครั้ง หรือใช้ช่องทางอื่น",
+        "errorAt": "form",
+        "errorIcon": true,
+        "google": "ลองอีกครั้งด้วย Google",
+        "source": "G2-r18 O8qX1q (ภาพ sbCLw) / G2-r34 Nlwvr",
+        "note": "แสดงข้อผิดพลาดใต้กลุ่มช่องกรอก ก่อนปุ่มดำเนินการต่อ คงอีเมลและเปิดให้ลอง Google อีกครั้งหรือเปลี่ยนช่องทาง"
+      },
+      {
+        "id": "login-keyboard-continue",
+        "title": "คีย์บอร์ด · โฟกัสปุ่มดำเนินการต่อ",
+        "kind": "login",
+        "identifier": "tawan@example.com",
+        "focus": "primary",
+        "source": "Line แถว 1 / สัญญาการโต้ตอบ G2-r40",
+        "note": "กรอบกรมท่าและช่องว่างรอบปุ่มแสดงตำแหน่งโฟกัส Tab และ Shift+Tab วนภายใน Auth ข้ามปุ่มที่ยังใช้ไม่ได้ กด Enter ตามขั้นที่พร้อม"
+      },
+      {
+        "id": "login-keyboard-close",
+        "title": "คีย์บอร์ด · โฟกัสปุ่มปิด",
+        "kind": "login",
+        "identifier": "tawan@example.com",
+        "focus": "close",
+        "source": "Line แถว 1 / สัญญาการโต้ตอบ G2-r40",
+        "note": "ปุ่มปิดยังใช้งานได้ระหว่างส่งคำขอ การปิดล้างข้อมูลที่ฟอร์มเก็บไว้และคืนโฟกัสตามจุดเปิด"
+      },
+      {
+        "id": "login-google-cancelled",
+        "title": "Google · กลับมาโดยยกเลิก",
+        "kind": "login",
+        "identifier": "tawan@example.com",
+        "focus": "google",
+        "source": "G2-r17 EjvEz / G2-r34 Nlwvr / สัญญาการโต้ตอบ G2-r40",
+        "note": "กลับมาที่ Login แบบเดิมโดยคงอีเมลที่กรอกอยู่และไม่แสดงข้อความผิดพลาด กรอบที่ปุ่ม Google เป็นข้อเสนอให้เห็นตำแหน่งกลับมาทำงานต่อในแบบ"
+      }
+    ]
+  },
+  {
+    "label": "สมัครสมาชิก",
+    "states": [
+      {
+        "id": "register",
+        "title": "สมัครสมาชิก",
+        "kind": "register",
+        "phone": "TH",
+        "source": "LINE แถว 2 · G2-r40 l93v3",
+        "note": "Username เป็นชื่อแสดงซ้ำได้ ใช้ภาษาอังกฤษหรือตัวเลข 3–20 ตัว"
+      },
+      {
+        "id": "register-picker",
+        "title": "เลือกรหัสประเทศ",
+        "kind": "register",
+        "phone": "TH",
+        "phoneValue": "081 234 5678",
+        "username": "tawan01",
+        "email": "tawan@example.com",
+        "password": "••••••••",
+        "confirmation": "••••••••",
+        "picker": true,
+        "focus": "country",
+        "source": "LINE แถว 4 · G2-r40 ZWbVr",
+        "note": "เริ่มที่ไทย +66 ประเทศอื่นใช้ชื่อภาษาอังกฤษ กด Escape ปิดรายการก่อน"
+      },
+      {
+        "id": "register-foreign",
+        "title": "เลือกประเทศอื่นแล้ว",
+        "kind": "register",
+        "phone": "UK",
+        "phoneValue": "",
+        "username": "tawan01",
+        "email": "tawan@example.com",
+        "password": "••••••••",
+        "confirmation": "••••••••",
+        "source": "G2-r40 · r33 MOl8x",
+        "note": "United Kingdom +44 เป็นตัวอย่างการแสดงประเทศที่เลือก"
+      },
+      {
+        "id": "register-required",
+        "title": "กรอกข้อมูลที่จำเป็นไม่ครบ",
+        "kind": "register",
+        "phone": "TH",
+        "phoneValue": "",
+        "username": "",
+        "email": "tawan@example.com",
+        "password": "••••••••",
+        "confirmation": "••••••••",
+        "errors": {
+          "username": "กรุณากรอก Username",
+          "phone": "กรุณากรอกเบอร์โทรศัพท์"
+        },
+        "source": "G2-r40 · r39 EoViL",
+        "note": "ข้อความอยู่ใต้ช่องที่เกี่ยวข้อง"
+      },
+      {
+        "id": "register-username-characters",
+        "title": "Username มีอักขระที่ใช้ไม่ได้",
+        "kind": "register",
+        "phone": "TH",
+        "phoneValue": "081 234 5678",
+        "username": "tawan_01",
+        "email": "tawan@example.com",
+        "password": "••••••••",
+        "confirmation": "••••••••",
+        "errors": {
+          "username": "ใช้ภาษาอังกฤษและตัวเลขเท่านั้น"
+        },
+        "source": "G2-r40 · r31 oLTL6",
+        "note": "ใช้รูปแบบข้อความใต้ช่อง Username กับฟอร์มปัจจุบัน"
+      },
+      {
+        "id": "register-username-minimum",
+        "title": "Username สั้นเกินไป",
+        "kind": "register",
+        "phone": "TH",
+        "phoneValue": "081 234 5678",
+        "username": "ab",
+        "email": "tawan@example.com",
+        "password": "••••••••",
+        "confirmation": "••••••••",
+        "errors": {
+          "username": "Username ต้องมีอย่างน้อย 3 ตัวอักษร"
+        },
+        "source": "G2-r40 · r31 XQeCZ"
+      },
+      {
+        "id": "register-username-maximum",
+        "title": "Username ยาวเกินไป",
+        "kind": "register",
+        "phone": "TH",
+        "phoneValue": "081 234 5678",
+        "username": "tawan0000000000000000",
+        "email": "tawan@example.com",
+        "password": "••••••••",
+        "confirmation": "••••••••",
+        "errors": {
+          "username": "Username ต้องไม่เกิน 20 ตัวอักษร"
+        },
+        "source": "G2-r40 · r31 uU39o"
+      },
+      {
+        "id": "register-password-errors",
+        "title": "รหัสผ่านไม่ผ่านเงื่อนไข",
+        "kind": "register",
+        "phone": "TH",
+        "phoneValue": "081 234 5678",
+        "username": "tawan01",
+        "email": "tawan@example.com",
+        "password": "••••••",
+        "confirmation": "••••",
+        "errors": {
+          "password": "รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร",
+          "confirmation": "รหัสผ่านไม่ตรงกัน"
+        },
+        "source": "G2-r40 · r39 VVLL4"
+      },
+      {
+        "id": "register-submitting",
+        "title": "กำลังสมัครสมาชิก",
+        "kind": "register",
+        "phone": "TH",
+        "phoneValue": "081 234 5678",
+        "username": "tawan01",
+        "email": "tawan@example.com",
+        "password": "••••••••",
+        "confirmation": "••••••••",
+        "disabled": true,
+        "busy": true,
+        "primary": "กำลังสมัครสมาชิก...",
+        "source": "G2-r40 · r39 vLCXH",
+        "note": "พักการกรอกและการสลับวิธีระหว่างส่งคำขอ ปุ่มปิดยังใช้ได้"
+      },
+      {
+        "id": "register-connection",
+        "title": "เชื่อมต่อระบบสมัครไม่ได้",
+        "kind": "register",
+        "phone": "TH",
+        "phoneValue": "081 234 5678",
+        "username": "tawan01",
+        "email": "tawan@example.com",
+        "password": "••••••••",
+        "confirmation": "••••••••",
+        "error": "เชื่อมต่อระบบสมัครสมาชิกไม่ได้\nกรุณาลองอีกครั้ง",
+        "errorAt": "form",
+        "errorIcon": true,
+        "primary": "ลองอีกครั้ง",
+        "source": "G2-r40 · r39 NKyzd",
+        "note": "ใช้เมื่อทราบว่าเชื่อมต่อไม่ได้ คงข้อมูลที่กรอกไว้"
+      },
+      {
+        "id": "register-google-cancel",
+        "title": "กลับจาก Google หลังยกเลิก",
+        "kind": "register",
+        "phone": "TH",
+        "phoneValue": "",
+        "username": "tawan01",
+        "email": "tawan@example.com",
+        "password": "••••••••",
+        "confirmation": "••••••••",
+        "source": "G2-r40 · r35 fbdV2",
+        "note": "กลับฟอร์มเดิมพร้อมข้อมูลที่กรอกไว้ระหว่างเปิดหน้าต่างสมัคร"
+      },
+      {
+        "id": "register-google-failure",
+        "title": "ดำเนินการด้วย Google ไม่สำเร็จ",
+        "kind": "register",
+        "phone": "TH",
+        "phoneValue": "",
+        "username": "tawan01",
+        "email": "tawan@example.com",
+        "password": "••••••••",
+        "confirmation": "••••••••",
+        "error": "ดำเนินการด้วย Google ไม่สำเร็จ\nลองอีกครั้ง หรือใช้ช่องทางอื่น",
+        "errorAt": "form",
+        "errorIcon": true,
+        "secondary": "ลองอีกครั้งด้วย Google",
+        "source": "G2-r40 · r35 HR7KI",
+        "note": "แจ้งข้อผิดพลาดก่อนปุ่มสมัครและเปิดให้ลอง Google อีกครั้ง"
+      }
+    ]
+  },
+  {
+    "label": "ยืนยันอีเมล",
+    "states": [
+      {
+        "id": "verify-reminder",
+        "title": "หลังสมัคร · ยืนยันภายหลังได้",
+        "kind": "reminder",
+        "heading": "สมัครสมาชิกสำเร็จ",
+        "identifier": "tawan@example.com",
+        "noticeIcon": "mail",
+        "secondary": "ใช้งานก่อน",
+        "foot": "กลับมายืนยันภายหลังได้จากบัญชีของคุณ",
+        "intro": "คุณเลือกยืนยันอีเมลตอนนี้\nหรือข้ามไปใช้งานก่อนก็ได้",
+        "primary": "ยืนยันอีเมลตอนนี้",
+        "source": "LINE แถว 3 · G2-r40 vDPf8",
+        "note": "แสดงหลังสมัครด้วยอีเมลและรหัสผ่าน"
+      },
+      {
+        "id": "verify-first-pending",
+        "title": "กำลังขอรหัสยืนยันอีเมลครั้งแรก",
+        "kind": "reminder",
+        "heading": "สมัครสมาชิกสำเร็จ",
+        "identifier": "tawan@example.com",
+        "noticeIcon": "mail",
+        "secondary": "ใช้งานก่อน",
+        "foot": "กลับมายืนยันภายหลังได้จากบัญชีของคุณ",
+        "intro": "กำลังขอรหัสเพื่อยืนยันอีเมล\nคุณเลือกใช้งานก่อนได้ระหว่างรอ",
+        "primary": "กำลังขอรหัส...",
+        "busy": true,
+        "source": "LINE แถว 4"
+      },
+      {
+        "id": "verify-first-connection",
+        "title": "ขอรหัสครั้งแรก · เชื่อมต่อไม่ได้",
+        "kind": "reminder",
+        "heading": "สมัครสมาชิกสำเร็จ",
+        "identifier": "tawan@example.com",
+        "noticeIcon": "mail",
+        "secondary": "ใช้งานก่อน",
+        "foot": "กลับมายืนยันภายหลังได้จากบัญชีของคุณ",
+        "intro": "ยืนยันอีเมลด้วยรหัส 6 หลัก\nหรือเลือกใช้งานก่อนได้",
+        "error": "เชื่อมต่อระบบขอรหัสไม่ได้\nกรุณาลองอีกครั้ง",
+        "errorAt": "form",
+        "errorIcon": true,
+        "primary": "ลองขอรหัสอีกครั้ง",
+        "source": "LINE แถว 4"
+      },
+      {
+        "id": "verify-otp-countdown",
+        "title": "ยืนยันอีเมลของบัญชี",
+        "kind": "otp",
+        "heading": "ยืนยันอีเมล",
+        "identifier": "tawan@example.com",
+        "intro": "กรอกรหัส 6 หลักที่ส่งไปยัง",
+        "secondary": "ใช้งานก่อน",
+        "focus": "otp",
+        "otpMessage": "ระบบจะตรวจสอบให้อัตโนมัติเมื่อกรอกครบ",
+        "otpButton": "ส่งรหัสอีกครั้งใน 00:45",
+        "otpButtonStyle": "muted",
+        "source": "LINE แถว 3 · G2-r40 CsOgQ",
+        "note": "ช่องรหัสกรอกได้ 00:45 เป็นตัวอย่างเวลา"
+      },
+      {
+        "id": "verify-otp-ready",
+        "title": "กรอกรหัส · ส่งรหัสอีกครั้งได้",
+        "kind": "otp",
+        "heading": "ยืนยันอีเมล",
+        "identifier": "tawan@example.com",
+        "intro": "กรอกรหัส 6 หลักที่ส่งไปยัง",
+        "secondary": "ใช้งานก่อน",
+        "focus": "otp",
+        "otpMessage": "ระบบจะตรวจสอบให้อัตโนมัติเมื่อกรอกครบ",
+        "otpButton": "ส่งรหัสอีกครั้ง",
+        "otpButtonStyle": "secondary",
+        "source": "G2-r40 · r20 RukQJ",
+        "note": "เมื่อกรอกครบ 6 หลัก ระบบเริ่มตรวจอัตโนมัติ เมื่อครบเวลารอผู้ใช้กดส่งรหัสอีกครั้งได้"
+      },
+      {
+        "id": "verify-otp-checking",
+        "title": "กำลังตรวจรหัสยืนยันอีเมล",
+        "kind": "otp",
+        "heading": "ยืนยันอีเมล",
+        "identifier": "tawan@example.com",
+        "intro": "กรอกรหัส 6 หลักที่ส่งไปยัง",
+        "secondary": "ใช้งานก่อน",
+        "otpDigits": "123456",
+        "otpMessage": "กำลังตรวจรหัสยืนยันอีเมล...",
+        "otpButton": "ส่งรหัสอีกครั้ง",
+        "otpButtonStyle": "muted",
+        "busy": true,
+        "disabled": true,
+        "source": "G2-r40 · r36 nQ4yF",
+        "note": "พักการแก้รหัสและการส่งรหัสซ้ำระหว่างตรวจ"
+      },
+      {
+        "id": "verify-otp-invalid",
+        "title": "รหัสยืนยันอีเมลไม่ถูกต้อง",
+        "kind": "otp",
+        "heading": "ยืนยันอีเมล",
+        "identifier": "tawan@example.com",
+        "intro": "กรอกรหัส 6 หลักที่ส่งไปยัง",
+        "secondary": "ใช้งานก่อน",
+        "focus": "otp",
+        "error": "รหัสยืนยันอีเมลไม่ถูกต้อง กรุณากรอกใหม่",
+        "errorAt": "otp",
+        "otpButton": "ส่งรหัสอีกครั้ง",
+        "otpButtonStyle": "secondary",
+        "source": "G2-r40 · r26 Cb1DW",
+        "note": "ล้างรหัสและกลับไปยังช่องแรก"
+      },
+      {
+        "id": "verify-otp-expired",
+        "title": "รหัสหมดอายุ",
+        "kind": "otp",
+        "heading": "ยืนยันอีเมล",
+        "identifier": "tawan@example.com",
+        "intro": "กรอกรหัส 6 หลักที่ส่งไปยัง",
+        "secondary": "ใช้งานก่อน",
+        "disabled": true,
+        "error": "รหัสยืนยันอีเมลหมดอายุ กรุณาขอรหัสใหม่",
+        "errorAt": "otp",
+        "otpButton": "ส่งรหัสใหม่",
+        "otpButtonStyle": "primary",
+        "source": "G2-r40 · r36 s0dZ8",
+        "note": "พักช่องรหัสจนผู้ใช้ขอรหัสใหม่"
+      },
+      {
+        "id": "verify-otp-resend-pending",
+        "title": "กำลังขอรหัสยืนยันใหม่",
+        "kind": "otp",
+        "heading": "ยืนยันอีเมล",
+        "identifier": "tawan@example.com",
+        "intro": "กรอกรหัส 6 หลักที่ส่งไปยัง",
+        "secondary": "ใช้งานก่อน",
+        "disabled": true,
+        "busy": true,
+        "otpMessage": "กำลังขอรหัสยืนยันอีเมล...",
+        "otpButton": "ส่งรหัสใหม่",
+        "otpButtonStyle": "muted",
+        "source": "G2-r40 · r36 lNeof",
+        "note": "พักการส่งซ้ำระหว่างขอรหัส"
+      },
+      {
+        "id": "verify-otp-resend-failure",
+        "title": "ขอรหัสยืนยันใหม่ไม่สำเร็จ",
+        "kind": "otp",
+        "heading": "ยืนยันอีเมล",
+        "identifier": "tawan@example.com",
+        "intro": "กรอกรหัส 6 หลักที่ส่งไปยัง",
+        "secondary": "ใช้งานก่อน",
+        "disabled": true,
+        "error": "ขอรหัสยืนยันอีเมลไม่สำเร็จ กรุณาลองอีกครั้ง",
+        "errorAt": "form",
+        "errorIcon": true,
+        "otpButton": "ลองส่งอีกครั้ง",
+        "otpButtonStyle": "primary",
+        "source": "G2-r40 · r36 n8M20",
+        "note": "ใช้ในกรณีที่ไม่มีรหัสเดิมให้กรอกและขอรหัสใหม่ไม่สำเร็จ"
+      },
+      {
+        "id": "verify-otp-check-failure",
+        "title": "ตรวจรหัสยืนยันไม่ได้",
+        "kind": "otp",
+        "heading": "ยืนยันอีเมล",
+        "identifier": "tawan@example.com",
+        "intro": "กรอกรหัส 6 หลักที่ส่งไปยัง",
+        "secondary": "ใช้งานก่อน",
+        "otpDigits": "123456",
+        "error": "ยังตรวจรหัสยืนยันอีเมลไม่ได้ กรุณาลองอีกครั้ง",
+        "errorAt": "form",
+        "errorIcon": true,
+        "otpButton": "ลองตรวจอีกครั้ง",
+        "otpButtonStyle": "primary",
+        "otpRetry": "ส่งรหัสอีกครั้ง",
+        "source": "G2-r40 · r36 LsUq3",
+        "note": "คงรหัสที่กรอกไว้ให้ผู้ใช้กดลองตรวจอีกครั้ง"
+      },
+      {
+        "id": "verify-success",
+        "title": "ยืนยันอีเมลสำเร็จ",
+        "kind": "notice",
+        "heading": "ยืนยันอีเมลแล้ว",
+        "identifier": "tawan@example.com",
+        "body": "ยืนยันเรียบร้อยแล้ว",
+        "noticeIcon": "check",
+        "primary": "เริ่มใช้งาน",
+        "source": "LINE แถว 3 · G2-r40 ip2bA",
+        "note": "แสดงเมื่อระบบยืนยันอีเมลบัญชีปัจจุบันสำเร็จ"
+      }
+    ]
+  },
+  {
+    "label": "กู้รหัสผ่าน",
+    "states": [
+      {
+        "id": "recovery-forgot",
+        "title": "ขอลิงก์เปลี่ยนรหัสผ่าน",
+        "kind": "forgot",
+        "heading": "ลืมรหัสผ่าน",
+        "intro": "กรอกอีเมลที่ใช้สมัคร\nเพื่อรับลิงก์ตั้งรหัสผ่านใหม่",
+        "focus": "email",
+        "primary": "ส่งลิงก์ตั้งรหัสผ่านใหม่",
+        "secondary": "กลับไปเข้าสู่ระบบ",
+        "source": "Line · Latest Auth representative row 2 + G2-r40 · tJxL1",
+        "note": "เปิดจากหน้ารหัสผ่าน แล้วโฟกัสช่องอีเมล"
+      },
+      {
+        "id": "recovery-forgot-required",
+        "title": "ขอลิงก์ · ยังไม่กรอกอีเมล",
+        "kind": "forgot",
+        "heading": "ลืมรหัสผ่าน",
+        "intro": "กรอกอีเมลที่ใช้สมัคร\nเพื่อรับลิงก์ตั้งรหัสผ่านใหม่",
+        "errors": {
+          "email": "กรุณากรอกอีเมล"
+        },
+        "primary": "ส่งลิงก์ตั้งรหัสผ่านใหม่",
+        "secondary": "กลับไปเข้าสู่ระบบ",
+        "source": "G2-r40 · Error audit r26 · a2w6D",
+        "note": "แสดงข้อความใต้ช่องอีเมล"
+      },
+      {
+        "id": "recovery-forgot-pending",
+        "title": "กำลังขอลิงก์ตั้งรหัสผ่าน",
+        "kind": "forgot",
+        "heading": "ลืมรหัสผ่าน",
+        "intro": "กรอกอีเมลที่ใช้สมัคร\nเพื่อรับลิงก์ตั้งรหัสผ่านใหม่",
+        "email": "tawan@example.com",
+        "disabled": true,
+        "busy": true,
+        "primary": "กำลังส่งลิงก์...",
+        "secondary": "กลับไปเข้าสู่ระบบ",
+        "source": "G2-r40 · Recovery request r38 · e90Mg",
+        "note": "ระหว่างส่ง ให้พักช่องอีเมล ปุ่มส่ง และปุ่มกลับ ส่วนปุ่มปิดยังใช้ได้"
+      },
+      {
+        "id": "recovery-forgot-connection",
+        "title": "ขอลิงก์ · เชื่อมต่อไม่ได้",
+        "kind": "forgot",
+        "heading": "ลืมรหัสผ่าน",
+        "intro": "กรอกอีเมลที่ใช้สมัคร\nเพื่อรับลิงก์ตั้งรหัสผ่านใหม่",
+        "email": "tawan@example.com",
+        "error": "เชื่อมต่อระบบส่งลิงก์ไม่ได้\nกรุณาลองอีกครั้ง",
+        "errorAt": "form",
+        "errorIcon": true,
+        "primary": "ลองส่งลิงก์อีกครั้ง",
+        "secondary": "กลับไปเข้าสู่ระบบ",
+        "source": "G2-r40 · Recovery request r38 · wmhoz",
+        "note": "คงอีเมลที่กรอกไว้ ข้อความอยู่เหนือปุ่มลองส่งอีกครั้ง"
+      },
+      {
+        "id": "recovery-ack",
+        "title": "หลังส่งคำขอตั้งรหัสผ่าน",
+        "kind": "notice",
+        "heading": "ตรวจสอบอีเมล",
+        "body": "หากอีเมลนี้มีบัญชี คุณจะได้รับลิงก์สำหรับตั้งรหัสผ่านใหม่",
+        "primary": "กลับเข้าสู่ระบบ",
+        "secondary": "ส่งลิงก์อีกครั้ง",
+        "noticeIcon": "mail",
+        "source": "G2-r40 · Recovery acknowledgement r2 · IvrCQ",
+        "note": "ใช้ข้อความเดียวกันทุกอีเมล และคงทางกลับเข้าสู่ระบบกับส่งลิงก์อีกครั้ง"
+      },
+      {
+        "id": "recovery-reset",
+        "title": "ตั้งรหัสผ่านใหม่",
+        "kind": "reset",
+        "heading": "ตั้งรหัสผ่านใหม่",
+        "focus": "password",
+        "primary": "บันทึกรหัสผ่านใหม่",
+        "source": "Line · Latest Auth representative row 2 + G2-r40 · ZsOMo",
+        "note": "เปิดจากลิงก์ที่ยังใช้ได้ รหัสผ่านใหม่อย่างน้อย 8 ตัวอักษรและต้องกรอกซ้ำให้ตรงกัน"
+      },
+      {
+        "id": "recovery-reset-inline",
+        "title": "ตั้งรหัสผ่าน · สั้นเกินไปและยืนยันไม่ตรง",
+        "kind": "reset",
+        "heading": "ตั้งรหัสผ่านใหม่",
+        "password": "Villa1",
+        "confirmation": "Villa",
+        "errors": {
+          "password": "รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร",
+          "confirmation": "รหัสผ่านไม่ตรงกัน"
+        },
+        "primary": "บันทึกรหัสผ่านใหม่",
+        "source": "G2-r40 · Error audit r26 · WAeyG",
+        "note": "แสดงข้อผิดพลาดแยกใต้ช่องที่เกี่ยวข้อง"
+      },
+      {
+        "id": "recovery-reset-pending",
+        "title": "กำลังบันทึกรหัสผ่านใหม่",
+        "kind": "reset",
+        "heading": "ตั้งรหัสผ่านใหม่",
+        "password": "Villa824",
+        "confirmation": "Villa824",
+        "disabled": true,
+        "busy": true,
+        "primary": "กำลังบันทึกรหัสผ่าน...",
+        "source": "G2-r40 · Recovery request r38 · WQbH9",
+        "note": "พักช่องรหัสผ่าน ปุ่มแสดงหรือซ่อน และปุ่มบันทึก ส่วนปุ่มปิดยังใช้ได้"
+      },
+      {
+        "id": "recovery-reset-connection",
+        "title": "บันทึกรหัสผ่านใหม่ · เชื่อมต่อไม่ได้",
+        "kind": "reset",
+        "heading": "ตั้งรหัสผ่านใหม่",
+        "password": "Villa824",
+        "confirmation": "Villa824",
+        "error": "เชื่อมต่อระบบตั้งรหัสผ่านไม่ได้\nกรุณาลองอีกครั้ง",
+        "errorAt": "form",
+        "errorIcon": true,
+        "primary": "ลองบันทึกอีกครั้ง",
+        "source": "G2-r40 · Recovery request r38 · rhTqa",
+        "note": "คงรหัสผ่านที่กรอกในรูปแบบซ่อนค่า ให้ลองอีกครั้งได้เมื่อทราบผลคำขอเดิมและลิงก์ยังใช้ได้"
+      },
+      {
+        "id": "recovery-reset-success",
+        "title": "บันทึกรหัสผ่านใหม่สำเร็จ",
+        "kind": "notice",
+        "heading": "ตั้งรหัสผ่านแล้ว",
+        "body": "ใช้รหัสผ่านใหม่เพื่อเข้าสู่ระบบ",
+        "primary": "เข้าสู่ระบบ",
+        "noticeIcon": "check",
+        "source": "G2-r40 · Recovery r1 · MKMGi",
+        "note": "ผู้ใช้กดปุ่มเพื่อเปิดหน้าเข้าสู่ระบบ"
+      },
+      {
+        "id": "recovery-reset-unusable",
+        "title": "ลิงก์ตั้งรหัสผ่านใช้ไม่ได้",
+        "kind": "notice",
+        "heading": "เปิดลิงก์ไม่ได้",
+        "body": "ลิงก์นี้อาจหมดอายุหรือถูกใช้ไปแล้ว ขอรับลิงก์ใหม่เพื่อตั้งรหัสผ่าน",
+        "primary": "ขอลิงก์ใหม่",
+        "secondary": "กลับเข้าสู่ระบบ",
+        "noticeIcon": "alert",
+        "source": "G2-r40 · Recovery r1 · l0YcM",
+        "note": "ปุ่มขอลิงก์ใหม่เปิดฟอร์มกรอกอีเมล"
+      },
+      {
+        "id": "recovery-reset-password-visible",
+        "title": "ตั้งรหัสผ่าน · แสดงรหัสที่กรอก",
+        "kind": "reset",
+        "heading": "ตั้งรหัสผ่านใหม่",
+        "password": "Villa824",
+        "confirmation": "Villa824",
+        "visible": true,
+        "primary": "บันทึกรหัสผ่านใหม่",
+        "source": "G2-r40 · Interaction contract draft-1 + Line · row 2",
+        "note": "กดที่ไอคอนเพื่อสลับการแสดงรหัสผ่านของช่องนั้น ค่าที่กรอกไว้คงเดิม"
+      }
+    ]
+  },
+  {
+    "label": "บริบทหน้าแรก",
+    "states": [
+      {
+        "id": "home-login-context",
+        "title": "เปิด Login จาก Header",
+        "kind": "context",
+        "height": 900,
+        "modal": {
+          "id": "login-blank",
+          "title": "เข้าสู่ระบบ · ช่องเริ่มต้น",
+          "kind": "login",
+          "source": "Line แถว 1 / G2-r34 Nlwvr",
+          "note": "ช่องเดียวรับอีเมลหรือเบอร์โทร ดำเนินการต่อด้วยอีเมลเพื่อขอ OTP หรือด้วยเบอร์โทรเพื่อใส่รหัสผ่าน เปิดใหม่หลังปิดแล้วช่องจะว่าง"
+        },
+        "source": "Home Desktop-r20 / Line แถว 1 / สัญญาการโต้ตอบ G2-r40",
+        "note": "โมดัลอยู่กลางจอและพักการเลื่อนภาพ Hero ขณะเปิด โฟกัสเข้าช่องแรกที่ใช้ได้ พื้นที่มืดกดเพื่อปิดได้ เปิดครั้งต่อไปเริ่มด้วยช่องว่างและคงสถานะหน้า Home ไว้"
+      },
+      {
+        "id": "home-favorite-auth",
+        "title": "เปิด Login จากหัวใจบนการ์ดบ้าน",
+        "kind": "context",
+        "height": 900,
+        "homeOffset": 584,
+        "modal": {
+          "id": "login-blank",
+          "title": "เข้าสู่ระบบ · ช่องเริ่มต้น",
+          "kind": "login",
+          "source": "Line แถว 1 / G2-r34 Nlwvr",
+          "note": "ช่องเดียวรับอีเมลหรือเบอร์โทร ดำเนินการต่อด้วยอีเมลเพื่อขอ OTP หรือด้วยเบอร์โทรเพื่อใส่รหัสผ่าน เปิดใหม่หลังปิดแล้วช่องจะว่าง"
+        },
+        "source": "Home Desktop-r20 / Line แถว 1 / คำตัดสิน Favorite return / G2-r40",
+        "note": "ใช้ Login เดียวกันกับ Header ถ้าล็อกอินสำเร็จในเส้นทางที่ยังต่อเนื่อง ระบบทำรายการบันทึกบ้านหลังเดิมต่อโดยไม่ต้องกดหัวใจซ้ำ"
+      },
+      {
+        "id": "home-register-short",
+        "title": "สมัครสมาชิกบนจอ Desktop สูง 640px",
+        "kind": "context",
+        "height": 640,
+        "short": true,
+        "modal": {
+          "id": "register",
+          "title": "สมัครสมาชิก",
+          "kind": "register",
+          "phone": "TH",
+          "source": "LINE แถว 2 · G2-r40 l93v3",
+          "note": "Username เป็นชื่อแสดงซ้ำได้ ใช้ภาษาอังกฤษหรือตัวเลข 3–20 ตัว",
+          "focus": "username"
+        },
+        "source": "Line แถว 2 และ 4 / สัญญาการโต้ตอบ G2-r40 · กรอบทดลอง 1440 × 640",
+        "note": "เลื่อนภายในฟอร์มเพื่อดูช่องท้ายและปุ่มสมัคร แถบชื่อและปุ่มปิดอยู่กับที่ พื้นหลัง Home คงตำแหน่งเดิม"
+      },
+      {
+        "id": "home-register-picker-short",
+        "title": "เปิดรายการประเทศบนจอสูง 640px",
+        "kind": "context",
+        "height": 640,
+        "short": true,
+        "modal": {
+          "id": "register-picker",
+          "title": "เลือกรหัสประเทศ",
+          "kind": "register",
+          "phone": "TH",
+          "phoneValue": "081 234 5678",
+          "username": "tawan01",
+          "email": "tawan@example.com",
+          "password": "••••••••",
+          "confirmation": "••••••••",
+          "picker": true,
+          "focus": "country",
+          "source": "LINE แถว 4 · G2-r40 ZWbVr",
+          "note": "เริ่มที่ไทย +66 ประเทศอื่นใช้ชื่อภาษาอังกฤษ กด Escape ปิดรายการก่อน"
+        },
+        "source": "Line แถว 4 / G2-r33 ZWbVr / สัญญาการโต้ตอบ G2-r40",
+        "note": "รายการชิดช่องโทรศัพท์ กด Escape ครั้งแรกปิดรายการและคืนโฟกัสที่ปุ่มเลือกประเทศ กดอีกครั้งจึงปิด Auth กดนอกโมดัลปิด Auth ได้ทันที"
+      },
+      {
+        "id": "home-return-header",
+        "title": "ปิด Auth แล้วคืนโฟกัสที่ Header",
+        "kind": "context",
+        "height": 900,
+        "returnFocus": "header",
+        "source": "Home Desktop-r20 / สัญญาการโต้ตอบ G2-r40",
+        "note": "เมื่อปิด Auth คืนโฟกัสที่ปุ่มเปิดเดิมถ้ายังอยู่ หากจุดเดิมหาย ให้คืนโฟกัสที่จุดควบคุมใกล้ที่สุดที่เกี่ยวข้อง"
+      },
+      {
+        "id": "home-return-heart",
+        "title": "ปิด Auth แล้วคืนโฟกัสที่หัวใจ",
+        "kind": "context",
+        "height": 900,
+        "homeOffset": 584,
+        "returnFocus": "favorite",
+        "source": "Home Desktop-r20 / สัญญาการโต้ตอบ G2-r40",
+        "note": "เมื่อยกเลิกจากหัวใจ คืนโฟกัสที่หัวใจเดิมและคงตำแหน่งหน้า แถวบ้าน และรูปที่กำลังดู"
+      },
+      {
+        "id": "home-favorite-pending",
+        "title": "กลับหน้าแรก · กำลังบันทึกบ้าน",
+        "kind": "context",
+        "height": 900,
+        "homeOffset": 584,
+        "favorite": "pending",
+        "source": "Home Desktop-r20 / G2-r28 xB6Hu",
+        "note": "หลัง Auth สำเร็จในเส้นทางเดิม แสดงว่ากำลังบันทึกที่หัวใจของบ้านหลังเดิมจนกว่าจะทราบผล"
+      },
+      {
+        "id": "home-favorite-saved",
+        "title": "กลับหน้าแรก · บันทึกบ้านแล้ว",
+        "kind": "context",
+        "height": 900,
+        "homeOffset": 584,
+        "favorite": "saved",
+        "source": "Home Desktop-r20 / G2-r28 e65FIF",
+        "note": "แสดงหัวใจชมพูและข้อความเมื่อยืนยันผลแล้ว บ้านที่บันทึกอยู่แล้วจะยังอยู่ในรายการเดิม ตำแหน่งข้อความมุมขวาล่างเป็นข้อเสนอสำหรับตรวจ ระยะเวลายังรอตัดสินใจ"
+      }
+    ]
+  }
+]
+</script>
+<script>
+const groups = JSON.parse(document.getElementById("artboards").textContent);
+const tabs = document.getElementById("tabs");
+const select = document.getElementById("state");
+const stage = document.getElementById("stage");
+const contrast = document.getElementById("contrast");
+const heading = document.getElementById("title");
+const note = document.getElementById("note");
+const source = document.getElementById("source");
+const position = document.getElementById("position");
+const homeImage = "../footer-contact-r5/ZRyFB.png";
+const email = "tawan@example.com";
+let groupIndex = 0;
+let stateIndex = 0;
+
+const icons = {
+  close:'<path d="m6 6 12 12M18 6 6 18"/>',
+  back:'<path d="m11 6-6 6 6 6M5 12h14"/>',
+  eye:'<path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="2.5"/>',
+  hide:'<path d="m3 3 18 18M10 5c.6-.1 1.3-.2 2-.2 6.5 0 10 7.2 10 7.2s-.9 1.8-2.7 3.6M6.4 6.4C3.5 8.5 2 12 2 12s3.5 7 10 7c1.5 0 2.8-.4 4-.9"/>',
+  down:'<path d="m6 9 6 6 6-6"/>',
+  up:'<path d="m6 15 6-6 6 6"/>',
+  search:'<circle cx="10.5" cy="10.5" r="6"/><path d="m15 15 5 5"/>',
+  mail:'<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/>',
+  check:'<path d="m5 12 5 5 9-10"/>',
+  success:'<circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/>',
+  alert:'<circle cx="12" cy="12" r="9"/><path d="M12 8v5m0 3v.1"/>',
+  key:'<circle cx="8" cy="10" r="4"/><path d="m11 13 8 8m-3-3 2-2m-4 0 2-2"/>',
+  heart:'<path fill="currentColor" stroke="none" d="M12 21 3.5 13C-1.5 8.5 5.4 2 9.8 5.4L12 7.2l2.2-1.8C18.6 2 25.5 8.5 20.5 13Z"/>'
+};
+const flags = {
+  TH:'<path fill="#a51931" d="M0 0h24v24H0z"/><path fill="#fff" d="M0 5h24v14H0z"/><path fill="#2d2a4a" d="M0 9h24v6H0z"/>',
+  UK:'<path fill="#16366c" d="M0 0h24v24H0z"/><path stroke="#fff" stroke-width="4" d="m0 0 24 24M24 0 0 24"/><path stroke="#bd263c" stroke-width="1.4" d="m0 0 24 24M24 0 0 24"/><path stroke="#fff" stroke-width="7" d="M12 0v24M0 12h24"/><path stroke="#bd263c" stroke-width="4" d="M12 0v24M0 12h24"/>',
+  JP:'<path fill="#fff" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="5.5" fill="#bc002d"/>'
+};
+const countryCodes = {TH:"+66",UK:"+44",JP:"+81"};
+const countryNames = {TH:"ไทย",UK:"United Kingdom",JP:"Japan"};
+
+function safe(value = "") {
+  return String(value ?? "").replace(/[&<>"']/g, character => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  })[character]);
+}
+
+function icon(name) {
+  return '<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (icons[name] || "") + '</svg>';
+}
+
+function flag(country) {
+  return '<svg class="flag" viewBox="0 0 24 24" style="border-radius:50%;outline:1px solid #dce6ef" aria-hidden="true">' + flags[country] + '</svg>';
+}
+
+function action(text, style = "primary", mark = "", focused = false) {
+  if (!text) return "";
+  return '<div class="cta ' + style + (focused ? ' focus-ring' : '') + '">' + mark + safe(text) + '</div>';
+}
+
+function link(text, inactive = false) {
+  return text ? '<div class="sub-action' + (inactive ? ' inactive' : '') + '">' + safe(text) + '</div>' : "";
+}
+
+function alert(text, showIcon = true) {
+  return text ? '<div class="alert-box">' + (showIcon ? icon("alert") : "") + '<span>' + safe(text) + '</span></div>' : "";
+}
+
+function busyMark() {
+  return '<span class="spinner" aria-hidden="true"></span>';
+}
+
+function formError(s) {
+  return s.error && (!s.errorAt || s.errorAt === "form") ? alert(s.error,s.errorIcon !== false) : "";
+}
+
+function intro(text, recipient = "") {
+  return text ? '<p class="copy intro">' + safe(text) + (recipient ? '<span class="recipient">' + safe(recipient) + '</span>' : "") + '</p>' : "";
+}
+
+function picker(country) {
+  return '<div class="picker"><div class="picker-search">' + icon("search") + 'ค้นหาประเทศหรือรหัส</div>' +
+    Object.keys(countryNames).map(code => '<div class="option' + (code === country ? ' selected' : '') + '">' + flag(code) + safe(countryNames[code]) + '<span>' + countryCodes[code] + (code === country ? ' ' + icon("check") : '') + '</span></div>').join("") +
+    '<div class="hint">⌄ เลื่อนดูประเทศเพิ่มเติม</div></div>';
+}
+
+function field(s, id, label, placeholder, value = "", options = {}) {
+  const error = s.errors?.[id] || (s.errorAt === id ? s.error : "");
+  const focused = s.focus === id;
+  const isCountryFocused = s.focus === "country" && options.country;
+  const affix = options.country
+    ? '<span class="country-affix' + (isCountryFocused ? ' focus-ring' : '') + '">' + flag(options.country) + countryCodes[options.country] + icon(s.picker ? "up" : "down") + '</span>'
+    : "";
+  const visible = s.visible && (id === "password" || s.visible === id);
+  const eye = options.eye ? '<span class="' + (s.focus === "eye" && id === "password" ? "focus-ring" : "") + '">' + icon(visible ? "hide" : "eye") + '</span>' : "";
+  return '<div class="field' + (error ? ' has-error' : '') + '"><div class="field-label">' + safe(label) + (options.side ? '<strong>' + safe(options.side) + '</strong>' : '') + '</div>' +
+    '<div class="field-box' + (focused ? ' focused' : '') + (s.disabled ? ' muted' : '') + '">' + affix +
+    '<span class="value' + (value ? '' : ' placeholder') + '">' + safe(value || placeholder) + '</span>' + eye + '</div>' +
+    (options.country && s.picker ? picker(options.country) : '') +
+    (error ? '<div class="feedback-inline">' + safe(error) + '</div>' : options.hint ? '<div class="hint">' + safe(options.hint) + '</div>' : '') + '</div>';
+}
+
+function google(s) {
+  return '<div class="divider">หรือ</div>' + action(s.google || (s.kind === "register" && s.secondary) || "ดำเนินการต่อด้วย Google",s.disabled ? "muted" : "secondary",'<span class="google-mark" aria-hidden="true"></span>',s.focus === "google");
+}
+
+function primary(s, label) {
+  return action(s.primary || label,s.disabled && !s.busy ? "muted" : "primary",s.busy ? busyMark() : "",s.focus === "primary");
+}
+
+function passwordValue(s, key = "password") {
+  const value = s[key];
+  if (!value) return "";
+  return (s.visible && (key === "password" || s.visible === key)) || /^[•●*]+$/u.test(value) ? value : "•".repeat(value.length);
+}
+
+function login(s) {
+  return field(s,"identifier","อีเมลหรือเบอร์โทรศัพท์",s.phone ? "เบอร์โทรศัพท์" : "อีเมลหรือเบอร์โทรศัพท์",s.identifier,{
+    country:s.phone,hint:"อีเมลรับ OTP · เบอร์โทรใช้รหัสผ่าน"
+  }) + formError(s) + primary(s,"ดำเนินการต่อ") + link(s.alt || "เข้าสู่ระบบด้วยรหัสผ่าน",s.disabled) + google(s) +
+    '<p class="bottom-line">ยังไม่มีบัญชี? <strong>สมัครสมาชิก</strong></p>';
+}
+
+function password(s) {
+  const identity = s.identifier || email;
+  return intro(s.intro || "กรอกรหัสผ่านสำหรับ",identity) +
+    field(s,"password","รหัสผ่าน","กรอกรหัสผ่าน",passwordValue(s),{eye:true,side:"ลืมรหัสผ่าน?"}) +
+    formError(s) + primary(s,"เข้าสู่ระบบ") +
+    (!identity.startsWith("+") ? link(s.alt || "ใช้รหัสยืนยันทางอีเมลแทน",s.disabled) : "");
+}
+
+function otp(s) {
+  const verify = s.flow === "verify" || s.id.startsWith("verify");
+  const digits = Array.from(s.otpDigits || "");
+  const otpFocus = s.otpFocus ?? (s.focus === "otp" ? 1 : 0);
+  const inline = s.errorAt === "otp" ? s.error : "";
+  const status = s.otpMessage && !inline
+    ? (s.busy ? '<div class="status-box">' + busyMark() + safe(s.otpMessage) + '</div>' : '<div class="hint otp-notice">' + safe(s.otpMessage) + '</div>')
+    : '';
+  const slots = Array.from({length:6},(_,index) => {
+    const focused = otpFocus === index + 1;
+    return '<div class="otp-slot' + (s.disabled ? ' muted' : '') + (focused ? ' focused' : '') + '">' +
+      (digits[index] ? safe(digits[index]) : focused ? '<span class="caret"></span>' : '') + '</div>';
+  }).join("");
+  const hint = !status && !inline && !s.error ? '<div class="hint">ระบบจะตรวจสอบให้อัตโนมัติเมื่อกรอกครบ</div>' : '';
+  const button = s.otpButton === "" ? "" : s.otpButton || "ส่งรหัสอีกครั้งใน 00:45";
+  const retryCheck = s.otpRetry && s.id === "login-otp-verify-failed";
+  return intro(s.intro || "กรอกรหัส 6 หลักที่ส่งไปยัง",s.identifier || email) +
+    '<div class="otp-group"><div class="otp-label">รหัสยืนยัน</div><div class="otp-slots' + (inline ? ' has-error' : '') + '">' + slots + '</div>' +
+    (inline ? '<div class="feedback-inline">' + safe(inline) + '</div>' : '') + hint + '</div>' +
+    status + formError(s) +
+    (retryCheck ? action(s.otpRetry) + link(button) : action(button,s.otpButtonStyle || "muted") + link(s.otpRetry)) +
+    link(s.secondary || (verify ? "ใช้งานก่อน" : "ใช้รหัสผ่านแทน"),s.busy && !verify);
+}
+
+function register(s) {
+  return field(s,"username","Username","ตั้งชื่อที่แสดง",s.username,{hint:"ภาษาอังกฤษและตัวเลข 3–20 ตัว"}) +
+    field(s,"phone","เบอร์โทรศัพท์","เบอร์โทรศัพท์",s.phoneValue,{country:s.phone || "TH"}) +
+    field(s,"email","อีเมล","อีเมล",s.email) +
+    field(s,"password","รหัสผ่าน","รหัสผ่าน",passwordValue(s),{eye:true,hint:"อย่างน้อย 8 ตัวอักษร"}) +
+    field(s,"confirmation","ยืนยันรหัสผ่าน","ยืนยันรหัสผ่าน",passwordValue(s,"confirmation"),{eye:true}) +
+    formError(s) + primary(s,"สมัครสมาชิก") + google(s) +
+    '<p class="bottom-line">มีบัญชีแล้ว? <strong>เข้าสู่ระบบ</strong></p>';
+}
+
+function forgot(s) {
+  return intro(s.intro || "กรอกอีเมลที่ใช้สมัคร\nเพื่อรับลิงก์ตั้งรหัสผ่านใหม่") +
+    field(s,"email","อีเมล","กรอกอีเมลที่ใช้สมัคร",s.email || s.identifier) +
+    formError(s) + primary(s,"ส่งลิงก์ตั้งรหัสผ่านใหม่") + link(s.secondary || "กลับไปเข้าสู่ระบบ",s.disabled);
+}
+
+function reset(s) {
+  return field(s,"password","รหัสผ่านใหม่","กรอกรหัสผ่านใหม่",passwordValue(s),{eye:true,hint:"อย่างน้อย 8 ตัวอักษร"}) +
+    field(s,"confirmation","ยืนยันรหัสผ่านใหม่","กรอกรหัสผ่านอีกครั้ง",passwordValue(s,"confirmation"),{eye:true}) +
+    formError(s) + primary(s,"บันทึกรหัสผ่านใหม่");
+}
+
+function reminder(s) {
+  return '<div class="notice-icon">' + icon("mail") + '</div>' +
+    intro(s.body || s.intro || "คุณเลือกยืนยันอีเมลตอนนี้\nหรือข้ามไปใช้งานก่อนได้") +
+    '<div class="email-chip">' + icon("mail") + safe(s.identifier || email) + '</div>' +
+    formError(s) + primary(s,"ยืนยันอีเมลตอนนี้") + link(s.secondary || "ใช้งานก่อน") +
+    '<p class="bottom-line">' + safe(s.foot || "กลับมายืนยันภายหลังได้จากบัญชีของคุณ") + '</p>';
+}
+
+function notice(s) {
+  const badge = s.noticeIcon || "check";
+  const copy = s.id === "verify-success"
+    ? '<p class="copy"><span class="recipient">' + safe(s.identifier) + '</span>' + safe(s.body || s.intro) + '</p>'
+    : intro(s.body || s.intro,s.identifier);
+  return '<div class="notice-icon ' + (badge === "alert" ? "alert" : "") + '">' + icon(badge === "check" ? "success" : badge) + '</div>' +
+    copy + formError(s) + primary(s,"เริ่มใช้งาน") + link(s.secondary) +
+    (s.foot ? '<p class="bottom-line">' + safe(s.foot) + '</p>' : "");
+}
+
+const layouts = {login,password,otp,register,forgot,reset,reminder,notice};
+const defaultTitles = {
+  login:"เข้าสู่ระบบ",password:"เข้าสู่ระบบ",otp:"ยืนยันการเข้าสู่ระบบ",register:"สมัครสมาชิก",
+  forgot:"ลืมรหัสผ่าน",reset:"ตั้งรหัสผ่านใหม่",reminder:"สมัครสมาชิกสำเร็จ",notice:"ยืนยันอีเมลแล้ว"
+};
+
+function renderModal(s, short = false) {
+  const hasBack = s.back ?? ["otp","password"].includes(s.kind);
+  const title = s.heading || (s.kind === "otp" && (s.flow === "verify" || s.id.startsWith("verify")) ? "ยืนยันอีเมล" : defaultTitles[s.kind]);
+  return '<div class="modal' + (short ? ' short' : '') + '"><div class="modal-head"><div class="icon-action">' +
+    (hasBack ? icon("back") : "") + '</div><h3>' + safe(title) + '</h3><div class="icon-action' + (s.focus === "close" ? ' focus-ring' : '') + '">' + icon("close") +
+    '</div></div><div class="modal-body' + (s.disabled ? ' inactive' : '') + '"' + (short ? ' tabindex="0" aria-label="เลื่อนดูแบบฟอร์มภายในโมดัล"' : "") +
+    '>' + layouts[s.kind](s) + '</div></div>';
+}
+
+function renderContext(s) {
+  const homeHeight = s.height || 900;
+  const imageTop = s.homeOffset || 0;
+  const favorite = s.favorite;
+  const modal = s.modal;
+  const favoriteImage = favorite === "saved" ? "e65FIF" : "xB6Hu";
+  stage.innerHTML = '<div class="artboard"><div class="home" style="height:' + homeHeight + 'px"><img src="' + homeImage + '" alt="" style="top:-' + imageTop + 'px">' +
+    (modal ? '<div class="veil"></div><div class="overlay">' + renderModal(modal,s.short) + '</div>' : '') +
+    (favorite ? '<div class="favorite-card" style="left:56px;top:' + (784 - imageTop) + 'px"><img src="../home-auth-favorite-return-g2-r28/' + favoriteImage + '.png" alt="' + (favorite === "saved" ? "บ้านพักตัวอย่าง 01 แสดงหัวใจสีชมพู" : "บ้านพักตัวอย่าง 01 แสดงสัญลักษณ์กำลังบันทึก") + '"></div>' : "") +
+    (favorite === "saved" ? '<div class="toast">' + icon("check") + 'บันทึกบ้านแล้ว</div>' : "") +
+    (s.returnFocus === "header" ? '<div class="return-outline" style="left:1232px;top:34px;width:156px;height:56px"></div>' : "") +
+    (s.returnFocus === "favorite" ? '<div class="return-outline" style="left:314px;top:' + (792 - imageTop) + 'px;width:48px;height:48px"></div>' : "") +
+    '</div></div>';
+  sizeContext();
+}
+
+function sizeContext() {
+  const frame = stage.querySelector(".artboard");
+  const home = frame?.firstElementChild;
+  if (!home) return;
+  const homeHeight = parseFloat(home.style.height);
+  const reviewHeight = Math.max(380,window.innerHeight - 350);
+  const frameWidth = Math.min(stage.clientWidth,Math.floor(reviewHeight * 1440 / homeHeight));
+  frame.style.width = frameWidth + "px";
+  const scale = frameWidth / 1440;
+  home.style.transform = "scale(" + scale + ")";
+  frame.style.height = (homeHeight * scale) + "px";
+}
+
+function current() {
+  return groups[groupIndex].states[stateIndex];
+}
+
+function drawState() {
+  const s = current();
+  const length = groups[groupIndex].states.length;
+  select.value = s.id;
+  position.textContent = (stateIndex + 1) + " / " + length;
+  heading.textContent = s.title;
+  note.textContent = s.note || "";
+  source.textContent = s.source ? "อ้างอิง " + s.source : "";
+  stage.classList.toggle("context-stage",s.kind === "context");
+  stage.classList.toggle("navy-label",contrast.checked);
+  if (s.kind === "context") renderContext(s);
+  else stage.innerHTML = renderModal(s);
+  history.replaceState(null,"","#" + s.id);
+}
+
+function chooseGroup(index, selected = 0) {
+  groupIndex = index;
+  stateIndex = selected;
+  Array.from(tabs.children).forEach((button,index) => button.setAttribute("aria-pressed",String(index === groupIndex)));
+  select.replaceChildren(...groups[groupIndex].states.map(s => new Option(s.title,s.id)));
+  drawState();
+}
+
+groups.forEach((group,index) => {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.textContent = group.label;
+  const count = document.createElement("small");
+  count.textContent = group.states.length;
+  button.append(count);
+  button.addEventListener("click",() => chooseGroup(index));
+  tabs.append(button);
+});
+
+select.addEventListener("change",() => {
+  stateIndex = select.selectedIndex;
+  drawState();
+});
+document.getElementById("prev").addEventListener("click",() => {
+  const length = groups[groupIndex].states.length;
+  stateIndex = (stateIndex + length - 1) % length;
+  drawState();
+});
+document.getElementById("next").addEventListener("click",() => {
+  stateIndex = (stateIndex + 1) % groups[groupIndex].states.length;
+  drawState();
+});
+contrast.addEventListener("change",() => stage.classList.toggle("navy-label",contrast.checked));
+new ResizeObserver(sizeContext).observe(stage);
+window.addEventListener("resize",sizeContext);
+const requested = location.hash.slice(1);
+const requestedGroup = groups.findIndex(group => group.states.some(s => s.id === requested));
+if (requestedGroup >= 0) chooseGroup(requestedGroup,groups[requestedGroup].states.findIndex(s => s.id === requested));
+else chooseGroup(0);
+</script>
+</body>
+</html>

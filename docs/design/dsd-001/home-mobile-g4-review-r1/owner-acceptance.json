@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-11",
+  "timezone": "Asia/Bangkok",
+  "version": "Home Mobile G4 review r1",
+  "status": "owner_approved_mobile_visuals",
+  "owner_quote": "โอเค อนุมัติแล้ว",
+  "scope": "Displayed full-page Home mobile visuals at 390 and 360 px",
+  "native_source": "../papaipak-ui.pen",
+  "approved_screens": [
+    {
+      "frame": "dKjHl",
+      "path": "dKjHl.png",
+      "width": 390,
+      "height": 4342,
+      "sha256": "d397053c2618b37a8a0dc6e590fa72549c80704d2cd28c8d57d67b021016c4ac"
+    },
+    {
+      "frame": "Wm7px",
+      "path": "Wm7px.png",
+      "width": 360,
+      "height": 4176,
+      "sha256": "975b50c68450d873ee773d04721c28406dd5aa3381ae5fe231448f844f44f3d3"
+    }
+  ],
+  "remaining_responsive_review_widths": [768, 1024, 1280],
+  "final_home_g4_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

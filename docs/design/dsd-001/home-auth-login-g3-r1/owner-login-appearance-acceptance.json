@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-08",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Login G3-r1",
+  "owner_quote": "อนุมัติทั้งหมด",
+  "status": "owner_accepted_displayed_Login_G3_r1_appearance",
+  "basis_commit": "8e2c6f7a69cdf290508560d1e3a92707dc4a0b4c",
+  "review_manifest": "review-manifest.json",
+  "review_manifest_sha256": "7c7b1d8991025e51b0508853e6d5ad1ed7aee122b27c286b73bae38106d03758",
+  "reviewed_images": [
+    {
+      "native_id": "dPzQ6",
+      "image": "dPzQ6.png",
+      "width": 1440,
+      "height": 960,
+      "sha256": "9ffe4d2a12bae28ba645650a177a24e5fb205e9a39ea1ee59cfab1243efe01cf"
+    },
+    {
+      "native_id": "kqfiW",
+      "image": "kqfiW.png",
+      "width": 1776,
+      "height": 836,
+      "sha256": "5aa15539d2d545953679abdc5b4adf0077884557319825403dab56257034e48f"
+    },
+    {
+      "native_id": "iDgCH",
+      "image": "iDgCH.png",
+      "width": 592,
+      "height": 581,
+      "sha256": "dccb7fd4259b128273936852c7c12e46764dc17ea89dd0ad1eb515a9e2149266"
+    },
+    {
+      "native_id": "CZKPp",
+      "image": "CZKPp.png",
+      "width": 592,
+      "height": 581,
+      "sha256": "23c6e9b0ab06350d615aff17a33de73372876557059d7313b2e4777ad647ffdf"
+    },
+    {
+      "native_id": "I6T8j",
+      "image": "I6T8j.png",
+      "width": 592,
+      "height": 581,
+      "sha256": "85c5ef955ef2aafac1451862a90e877036cffc6178ed98210b9f6f94c22d3ccf"
+    }
+  ],
+  "accepted_scope": [
+    "Login Desktop entry appearance in the empty, filled-email and focused-empty states.",
+    "Displayed Login modal overlay on the copied Home-r20 desktop backdrop."
+  ],
+  "accepted_ux_baseline": "../home-auth-consolidated-g2-r40/owner-G2-r40-acceptance.json",
+  "previous_scope_record": "../home-auth-wireframe-only-stop-decision.json",
+  "source": {
+    "type": "verified original Codex turn and owner message; restored record",
+    "thread_id": "01a1a0a6-78fc-7dd3-9a64-5c1d42b618ee",
+    "turn_id": "01a1ba02-c132-72c2-b0d6-1850abee510f",
+    "message_id": "01a1ba02-c17b-7dd3-9a23-276db03e5b4d",
+    "record_restored_on": "2026-11-10"
+  },
+  "native_sync": {
+    "original_board": "kqfiW",
+    "original_context": "dPzQ6",
+    "status": "Original evidence retained hidden. Color-only companion is grouped under izim4."
+  },
+  "whole_G3_approved": false,
+  "G4_or_final_design_approved": false,
+  "runtime_verified": false,
+  "frontend_or_backend_authorized": false
+}

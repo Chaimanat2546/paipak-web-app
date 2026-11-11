@@ -1,0 +1,124 @@
+{
+  "scope": "Property Detail r3 category comparison",
+  "captureDate": "2026-11-10",
+  "source": "Public image proxies on the legacy villa detail pages",
+  "legacyRailEvidence": {
+    "source": "https://www.pmheevilla.com/api/home-sections",
+    "snapshotDate": "2026-11-09",
+    "membershipScope": "Legacy editorial and capacity rails only"
+  },
+  "cases": [
+    {
+      "id": "9",
+      "page": "https://www.pmheevilla.com/villas/9",
+      "title": "Celuna Pool Villa",
+      "zoneLabel": "พัทยา",
+      "price": 9900,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "people": 24,
+      "raw": 195,
+      "eligible": 190,
+      "review": 5,
+      "legacyRail": "new-section-2",
+      "evidence": { "poolLengthMeters": 8, "poolWidthMeters": 4, "slideLengthMeters": 7 },
+      "initialGalleryLoadFailed": false,
+      "zones": {
+        "inside": 26,
+        "outside": 106,
+        "bedroom": 38,
+        "parking": 5,
+        "kitchen": 8,
+        "bathroom": 6,
+        "cover": 1
+      }
+    },
+    {
+      "id": "2122",
+      "page": "https://www.pmheevilla.com/villas/2122",
+      "title": "Great Oasis !!",
+      "zoneLabel": "พัทยา",
+      "price": 19900,
+      "bedrooms": 10,
+      "bathrooms": 12,
+      "people": 42,
+      "raw": 152,
+      "eligible": 133,
+      "review": 19,
+      "legacyRail": "new-section-4",
+      "evidence": { "layout": "Two wings with matching layouts", "parkingInside": 4, "parkingInFront": "4–6" },
+      "initialGalleryLoadFailed": false,
+      "zones": {
+        "bedroom": 28,
+        "bathroom": 12,
+        "outside": 47,
+        "inside": 29,
+        "parking": 4,
+        "kitchen": 12,
+        "cover": 1
+      }
+    }
+  ],
+  "assets": [
+    {
+      "villaId": "9",
+      "imageId": "127120",
+      "zone": "outside",
+      "page": "https://www.pmheevilla.com/villas/9",
+      "source": "https://www.pmheevilla.com/api/villas/9/images?imageId=127120&w=1920&q=60",
+      "file": "villa-9-outside-1.webp",
+      "bytes": 70266,
+      "sha256": "363ae3d96f030f139e49eacff5a78b713427541f71d14a099c5ef5f514b4f0ce"
+    },
+    {
+      "villaId": "9",
+      "imageId": "127137",
+      "zone": "inside",
+      "page": "https://www.pmheevilla.com/villas/9",
+      "source": "https://www.pmheevilla.com/api/villas/9/images?imageId=127137&w=1920&q=60",
+      "file": "villa-9-inside-2.webp",
+      "bytes": 45838,
+      "sha256": "825bd5e8f258d8abbafe06e488b05d708a80d4c1d09ad925051db806d09144ad"
+    },
+    {
+      "villaId": "9",
+      "imageId": "121608",
+      "zone": "bedroom",
+      "page": "https://www.pmheevilla.com/villas/9",
+      "source": "https://www.pmheevilla.com/api/villas/9/images?imageId=121608&w=1920&q=60",
+      "file": "villa-9-bedroom-3.webp",
+      "bytes": 43608,
+      "sha256": "1782d5872540489dc1cdfe48479127e5839f7540d2ac24c3aca4fd707ed26f2e"
+    },
+    {
+      "villaId": "2122",
+      "imageId": "28057",
+      "zone": "outside",
+      "page": "https://www.pmheevilla.com/villas/2122",
+      "source": "https://www.pmheevilla.com/api/villas/2122/images?imageId=28057&w=1920&q=60",
+      "file": "villa-2122-outside-1.webp",
+      "bytes": 49924,
+      "sha256": "fc303715db5dfbffc37d903219d78ece2f3ad37d1b9fdee92f01edeaa0d792e0"
+    },
+    {
+      "villaId": "2122",
+      "imageId": "28064",
+      "zone": "inside",
+      "page": "https://www.pmheevilla.com/villas/2122",
+      "source": "https://www.pmheevilla.com/api/villas/2122/images?imageId=28064&w=1920&q=60",
+      "file": "villa-2122-inside-2.webp",
+      "bytes": 43918,
+      "sha256": "1db0e42c85e7b0e193e28982e3e47914e538efdbb5e43bb02f3773bafc8ccbdb"
+    },
+    {
+      "villaId": "2122",
+      "imageId": "28031",
+      "zone": "bedroom",
+      "page": "https://www.pmheevilla.com/villas/2122",
+      "source": "https://www.pmheevilla.com/api/villas/2122/images?imageId=28031&w=1920&q=60",
+      "file": "villa-2122-bedroom-3.webp",
+      "bytes": 26864,
+      "sha256": "713c10bed5eb0dfc1a232ed215a37d559510419c51884f44797862806c092250"
+    }
+  ]
+}

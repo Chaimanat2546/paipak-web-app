@@ -21,7 +21,7 @@
 | Token role | ค่า | การใช้ / สถานะ |
 | --- | --- | --- |
 | brand.navy | #072D59 | Locked; heading, ราคา, navigation, functional icons |
-| brand.pink | #FD6E88 | Locked; accent และ CTA reference ที่เจ้าของคงไว้ |
+| brand.pink | #FD6E88 | Locked; accent และสีในแบบอ้างอิงเดิม |
 | brand.light | #DBF2FC | Locked; ใช้เฉพาะ surface ที่มีหน้าที่ |
 | surface.page | #FFFFFF | พื้นหลัก |
 | surface.home.recommended | #F2FAFE | Home reference; พื้นแนะนำ |
@@ -38,8 +38,10 @@
 | text.metadata | #6B7280 | Metadata บนขาว; ไม่ลด opacity เพิ่มเอง |
 | text.contact-hint | #53657C | คำอธิบายช่องทางติดต่อบนขาว |
 | text.on-navy | #FFFFFF | หัวข้อ/ลิงก์บน Navy ตาม reference |
-| action.primary.fill.visual-reference | #FD6E88 | Owner-retained reference; OPEN-001 |
-| action.primary.label.visual-reference | #FFFFFF | Owner-retained reference; ไม่รับรอง AA |
+| action.pink.fill | #C5375B | สีพื้นปุ่มชมพูทั่วระบบออกแบบ เจ้าของรับแล้ว |
+| action.pink.label | #FFFFFF | ข้อความและไอคอนบนปุ่มพื้นชมพูเข้ม |
+| action.primary.fill.visual-reference | #FD6E88 | สีพื้นปุ่มในหลักฐานเดิม; OPEN-001 |
+| action.primary.label.visual-reference | #FFFFFF | สีข้อความในหลักฐานเดิม; ไม่ผ่านเกณฑ์คอนทราสต์ |
 | border.listing.decorative | #072D5940 | เส้นปุ่มเลื่อนแถว; ไอคอน Navy เป็นตัวบอก action |
 | focus.ink | #072D59 | เส้นใต้ลิงก์/พื้นปุ่มเลื่อน/วง photo-arrow ตาม state ที่เลือก |
 | favorite.focus.visual-reference | #FD6E88 | Heart-fillไม่มีวงกลมในตัวอย่าง focus; ไม่ใช่การบันทึก Guest favorite |
@@ -48,9 +50,13 @@ Planning neutrals #F7F7F7, #E5E7EB, body ink #202124 และ semantic success 
 
 พื้นเฉพาะแนะนำ/ราคาพิเศษ/Luxury/Footer เป็นการใช้เฉพาะ Home ที่รับ ไม่สร้าง alternating section recipe ให้ทุกหน้า ภาพจริงและข้อความบนภาพต้องตรวจเป็นรายกรณี
 
-## OPEN-001 — คงชมพูเดิมกับข้อความขาว
+## ปุ่มพื้นชมพู · มาตรฐานที่เจ้าของรับแล้ว
 
-เจ้าของเลือกข้อ3เมื่อ4พฤศจิกายน2026: คง #FD6E88 / #FFFFFF และให้ OPEN-001 เปิดต่อ ยืนยันความชอบเดิม ไม่เลือก Pink/Navy หรือ Navy/White ไม่ปรับเฉดหรือถามเลือกสีซ้ำโดยอัตโนมัติ ดู [owner choice](f01-ui-3/home-guided-review/cta-brand-contrast-r1/owner-choice.json)
+เจ้าของรับคู่สีพื้นชมพูเข้มและตัวอักษรขาวสำหรับปุ่มพื้นชมพูทั่วระบบออกแบบเมื่อ 10 พฤศจิกายน 2026 ใช้ `action.pink.fill` และ `action.pink.label` สำหรับปุ่มที่ใช้พื้นชมพูอยู่แล้ว ปกติ ชี้ กด และโฟกัสใช้คู่สีเดียวกันและเก็บตัวบอกสถานะเดิม หากสถานะกำลังดำเนินการยังใช้พื้นชมพูให้ใช้คู่สีเดียวกัน ปุ่มที่ปิดใช้งานคงพฤติกรรมและการแสดงสถานะเดิม คู่สีมีคอนทราสต์ 5.16:1 ดู [หลักฐานการอนุมัติและผลปรับใน Pencil](pink-button-rollout-r1/README.md)
+
+## OPEN-001 — หลักฐานคู่สีเดิม
+
+เมื่อ 4 พฤศจิกายน 2026 เจ้าของเลือก #FD6E88 / #FFFFFF เป็นแบบอ้างอิง ดู [บันทึกการเลือกเดิม](f01-ui-3/home-guided-review/cta-brand-contrast-r1/owner-choice.json) คู่สีปุ่มชุดใหม่ปิดส่วนการเลือกสีและผลคอนทราสต์ในแบบเท่านั้น ส่วนการตรวจเมื่อใช้งานจริงยังเปิดใน [OPEN-001](../../decisions/open-decisions.yaml)
 
 | คู่สี | Nominal ratio | สถานะ |
 | --- | ---: | --- |

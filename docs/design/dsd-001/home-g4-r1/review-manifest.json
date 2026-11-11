@@ -1,0 +1,84 @@
+{
+  "version": "Home G4-r1",
+  "date": "2026-11-11",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_approved",
+  "owner_approval": {
+    "date": "2026-11-11",
+    "quote": "โอเค อนุมัติ",
+    "scope": "Home G4-r1 visual baseline for all six displayed widths and the supporting Home states"
+  },
+  "scope": "Standalone Home visual baseline at six viewport widths and supporting Home states",
+  "native_source": "../papaipak-ui.pen",
+  "screens": [
+    {
+      "width": 1440,
+      "height": 6759,
+      "frame": "OmUC5",
+      "path": "OmUC5.png",
+      "sha256": "fb12cc475587af03c78293b599fff61cbb0c7a6a4f1b36275b7e33576063c64a"
+    },
+    {
+      "width": 1280,
+      "height": 6131,
+      "frame": "FnZDR",
+      "path": "FnZDR.png",
+      "sha256": "cba7537e0f8b3cc3073e7d046ebbbd8c5ef5b3eb6528e837db9c3831e1f04858"
+    },
+    {
+      "width": 1024,
+      "height": 6164,
+      "frame": "i6z4Y",
+      "path": "i6z4Y.png",
+      "sha256": "b8e9116abd385f5dff12c5189ae5e298dc4544e44f58fff8c19c381dfa23e1db"
+    },
+    {
+      "width": 768,
+      "height": 6454,
+      "frame": "C5hsTM",
+      "path": "C5hsTM.png",
+      "sha256": "536d56fa133a3376e7cadc342a118d65054348a70d76b34494e0422678c95eb8"
+    },
+    {
+      "width": 390,
+      "height": 4342,
+      "frame": "dKjHl",
+      "path": "../home-mobile-g4-review-r1/dKjHl.png",
+      "sha256": "d397053c2618b37a8a0dc6e590fa72549c80704d2cd28c8d57d67b021016c4ac",
+      "approval": "../home-mobile-g4-review-r1/owner-acceptance.json"
+    },
+    {
+      "width": 360,
+      "height": 4176,
+      "frame": "Wm7px",
+      "path": "../home-mobile-g4-review-r1/Wm7px.png",
+      "sha256": "975b50c68450d873ee773d04721c28406dd5aa3381ae5fe231448f844f44f3d3",
+      "approval": "../home-mobile-g4-review-r1/owner-acceptance.json"
+    }
+  ],
+  "state_references": [
+    {
+      "name": "Eight shortcuts and category overflow at 768 px",
+      "path": "QRr6b.png",
+      "sha256": "38ee1f33d8d20f0d532f0d7b1e5a112916fa4a6e80caa026b11e9383f48a99e6"
+    },
+    {
+      "name": "Initial villa listing loading",
+      "path": "QQY68.png",
+      "sha256": "888a5f1bb84a936e15caedfb3f6ea43aa1340f3c73934fe4ee13f822a6142234"
+    },
+    {
+      "name": "Initial listing failure and background refresh",
+      "path": "../home-auth-feature-review-r1/PDll2.png",
+      "sha256": "be3d819cfcee2a2255bab744a79c93b2f7b9484a35ba107acceeec98fbb66de4"
+    },
+    {
+      "name": "Approved check-in-only Search state",
+      "path": "../search-checkin-only-home-r20-r1/fLKGL.png",
+      "sha256": "a41d3a11910fd1fc258e15ded259a3659bb4a55a0ec095dbaac5b60e6fbb236a"
+    }
+  ],
+  "final_home_g4_approved": true,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

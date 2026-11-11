@@ -195,7 +195,8 @@ tasks:
   native_Pencil_repository_file: docs/design/dsd-001/papaipak-ui.pen
   native_Pencil_repository_checkpoint: docs/design/dsd-001/pencil-native-checkpoint.json
   home_auth_G2_acceptance: docs/design/dsd-001/home-auth-consolidated-g2-r40/owner-G2-r40-acceptance.json
-  home_auth_current_gate: Home Auth Desktop Wireframe G2-r40 accepted; owner stops today at wireframe; no active UI review
+  home_auth_current_gate: Owner approved the Home Auth G4-r1 visual baseline for desktop and mobile on 2026-11-11; runtime review remains pending
+  home_auth_hifi_appearance_acceptance: docs/design/dsd-001/home-auth-confirmed/owner-hifi-acceptance.json
   home_auth_owner_scope_correction: docs/design/dsd-001/home-auth-wireframe-only-stop-decision.json
   home_auth_next_review: null
   home_auth_next_review_scope: none; wait for explicit owner instruction before UI or High-Fi
@@ -606,7 +607,7 @@ tasks:
   title: Homepage high-fidelity design
   stage: screens
   kind: design
-  status: planned_not_started
+  status: completed
   handoff: manual_user_initiated
   depends_on:
   - UXD-002
@@ -619,15 +620,15 @@ tasks:
   - WIRE-004
   - WIRE-007
   - UX-002
-  scope: Design homepage desktop/mobile; cinematic hero, unified centered search, seven categories, villa sections,
-    four columns when wide.
+  scope: Homepage visual design for desktop, tablet and mobile with a cinematic hero, unified search, category shortcuts,
+    villa sections and four visible cards when space permits.
   deliverables:
   - home-desktop
   - home-mobile
   - home-interaction-notes
   acceptance_criteria:
   - First visit shows villas without required dates
-  - Seven confirmed category shortcuts
+  - Up to eight shortcut slots using the approved category order and overflow pattern
   - Matches Pink Accent Premium and selected page layout
   open_implementation_questions: []
   evidence_required:
@@ -635,7 +636,15 @@ tasks:
   - desktop_mobile_review
   - accessibility_review
   - human_approval
-  approval_status: not_requested
+  approval_status: owner_approved
+  approved_on: '2026-11-11'
+  approval_scope: homepage_g4_r1_visual_baseline_at_six_widths
+  g4_status: owner_approved
+  g4_review_manifest: docs/design/dsd-001/home-g4-r1/review-manifest.json
+  artifact_links:
+  - docs/design/dsd-001/home-g4-r1/README.md
+  runtime_verified: false
+  implementation_authorized: false
 - id: UID-002
   title: Search results high-fidelity design
   stage: screens
@@ -672,7 +681,7 @@ tasks:
   title: Property detail and availability high-fidelity
   stage: screens
   kind: design
-  status: planned_not_started
+  status: completed
   handoff: manual_user_initiated
   depends_on:
   - UXD-002
@@ -690,13 +699,21 @@ tasks:
   - Price quote displayed only when verified
   - No confirmed booking state without reservation
   - Mobile CTA accessible
-  open_implementation_questions: []
+  open_implementation_questions:
+  - OPEN-006 reservation hold expiry and concurrent inventory locking.
+  - OPEN-007 live catalog, price, and availability authority.
   evidence_required:
   - design_artifact_links
   - desktop_mobile_review
   - accessibility_review
   - human_approval
-  approval_status: not_requested
+  approval_status: approved
+  approval_scope: property_detail_r31_g4_r1_visual_baseline
+  property_detail_ui_acceptance: docs/design/uid-003/property-detail-r31-checklist/owner-ui-acceptance.json
+  g4_status: owner_approved
+  g4_review_manifest: docs/design/uid-003/property-detail-g4-r1/review-manifest.json
+  artifact_links:
+  - docs/design/uid-003/property-detail-g4-r1/README.md
 - id: UID-004
   title: Checkout and confirmation high-fidelity
   stage: screens
@@ -732,7 +749,7 @@ tasks:
   title: Authentication and account high-fidelity
   stage: screens
   kind: design
-  status: planned_not_started
+  status: in_progress
   handoff: manual_user_initiated
   depends_on:
   - UXD-002
@@ -757,6 +774,13 @@ tasks:
   - accessibility_review
   - human_approval
   approval_status: not_requested
+  auth_g4_status: owner_approved
+  auth_g4_approved_on: '2026-11-11'
+  auth_g4_review_manifest: docs/design/dsd-001/home-auth-g4-r1/review-manifest.json
+  artifact_links:
+  - docs/design/dsd-001/home-auth-g4-r1/README.md
+  runtime_verified: false
+  implementation_authorized: false
 - id: UID-006
   title: Favorites and bookings high-fidelity
   stage: screens
@@ -879,6 +903,49 @@ tasks:
   - accessibility_review
   - human_approval
   approval_status: not_requested
+- id: UID-010
+  title: ระบบจัดการหมวดหมู่บ้านพัก
+  stage: screens
+  kind: design
+  status: completed
+  handoff: manual_user_initiated
+  depends_on: []
+  decision_refs:
+  - BRAND-001
+  - PAGE-001
+  - PAGE-002
+  scope: Review scope for desktop and mobile administration of manually curated categories, their homepage placement, and category results.
+  deliverables:
+  - admin-category-management-brief.md
+  - admin-category-management-interaction-spec.md
+  - admin-category-wireframes-desktop-and-mobile
+  artifact_links:
+  - docs/design/admin-category-management-brief.md
+  - docs/design/admin-category-management-interaction-spec.md
+  - docs/design/admin-category-wireframe-r1/S14ey.png
+  - docs/design/admin-category-wireframe-r1/vbCSQ.png
+  - docs/design/admin-category-wireframe-r2/README.md
+  - docs/design/admin-category-mockup-r1/README.md
+  - docs/design/admin-category-mockup-r2/README.md
+  - docs/design/admin-category-delete-mockup/README.md
+  - docs/design/admin-category-g4-r1/README.md
+  acceptance_criteria:
+  - Desktop and mobile support creating, editing, and ordering categories and their manually selected properties.
+  - Independent homepage visibility settings share category order, and Home and Results share the property order.
+  - The seven existing Home categories start without assigned properties. Admins can edit them like newly created categories, assign properties, and set the initial category order from one combined list.
+  - Categories without assigned properties or with both Home placements off are hidden from Home shortcuts, rows, and the overflow list. Their direct links return customers to Home.
+  - Category deletion requires confirmation, removes the selected category from Admin and Home, and preserves property records and their other category assignments. Former direct links return to Home.
+  - Validate the cases in the Task Brief, including the eight-property Home limit, empty categories, and mobile ordering.
+  open_implementation_questions:
+  - Specify the image upload rules.
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+  approval_status: approved
+  approval_scope: g4_r1_visual_baseline_including_revised_category_deletion
+  g4_review_manifest: docs/design/admin-category-g4-r1/review-manifest.json
 - id: UXD-003
   title: Usability prototype and user testing spec
   stage: ux

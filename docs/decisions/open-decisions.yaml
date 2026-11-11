@@ -4,13 +4,13 @@ open_decisions:
 - id: OPEN-001
   title: Pink and white text contrast
   status: open
-  description: 'White text on #FD6E88 does not meet normal-text WCAG AA contrast; preserve brand reference pending
-    approved accessible variant.'
+  description: 'The owner approved the darker pink and white design pair at 5.16:1. Confirm actual rendering,
+    state/focus treatment and production accessibility before closing the remaining gate.'
   blocks:
   - UI implementation acceptance
   - production accessibility gate
   owner_role: project_owner_or_domain_reviewer
-  resolution_status: unresolved_owner_retains_original_visual_reference
+  resolution_status: design_color_pair_resolved_runtime_validation_open
   owner_visual_choice:
     confirmed_on: '2026-11-03'
     timezone: Asia/Bangkok
@@ -25,6 +25,18 @@ open_decisions:
     reconfirmation_instruction: '3'
     reconfirmation_scope: Retain original pink-white visual reference and keep OPEN-001 open; no accessibility exception or implementation acceptance.
     reconfirmation_evidence: docs/design/dsd-001/f01-ui-3/home-guided-review/cta-brand-contrast-r1/owner-choice.json
+  design_color_resolution:
+    direction: Use a darker semantic surface for pink buttons with white labels across the design system.
+    candidate_background: '#C5375B'
+    candidate_label: '#FFFFFF'
+    brand_pink: '#FD6E88'
+    nominal_text_contrast: 5.157671401098554
+    status: owner_approved_design_color_only
+    approved_on: '2026-11-10'
+    timezone: Asia/Bangkok
+    owner_instruction: รับครับ
+    evidence: docs/design/dsd-001/pink-button-rollout-r1/review-manifest.json
+    remaining: Verify the applied pair and interaction-state accessibility in the authorized implementation.
 - id: OPEN-002
   title: Original visual reference assets
   status: open

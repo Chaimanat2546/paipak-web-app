@@ -1,0 +1,123 @@
+{
+  "scope": "Property Detail r3 category comparison",
+  "captureDate": "2026-11-10",
+  "source": "Public image proxies on the legacy villa detail pages",
+  "cases": [
+    {
+      "id": "1328",
+      "page": "https://www.pmheevilla.com/villas/1328",
+      "title": "91 CLEAR",
+      "zoneLabel": "สัตหีบ",
+      "price": 5900,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "people": 15,
+      "raw": 57,
+      "eligible": 49,
+      "review": 8,
+      "initialGalleryLoadFailed": false,
+      "zones": {
+        "bedroom": 11,
+        "bathroom": 9,
+        "outside": 10,
+        "inside": 5,
+        "kitchen": 7,
+        "parking": 6,
+        "cover": 1
+      }
+    },
+    {
+      "id": "2222",
+      "page": "https://www.pmheevilla.com/villas/2222",
+      "title": "In2 Pool Villa",
+      "zoneLabel": "พัทยา",
+      "price": 6900,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "people": 20,
+      "raw": 147,
+      "eligible": 122,
+      "review": 25,
+      "initialGalleryLoadFailed": false,
+      "zones": {
+        "bathroom": 13,
+        "outside": 50,
+        "inside": 15,
+        "kitchen": 11,
+        "bedroom": 32,
+        "cover": 1
+      }
+    }
+  ],
+  "assets": [
+    {
+      "villaId": "1328",
+      "imageId": "36505",
+      "zone": "outside",
+      "page": "https://www.pmheevilla.com/villas/1328",
+      "source": "https://www.pmheevilla.com/api/villas/1328/images?imageId=36505&w=1920&q=60",
+      "file": "villa-1328-outside-1.webp",
+      "bytes": 44788,
+      "sha256": "aae2aa462783740ecf79c1c6656c13c2ecd1378ec20945de00652dcaf4d0ddd4"
+    },
+    {
+      "villaId": "1328",
+      "imageId": "36507",
+      "zone": "inside",
+      "page": "https://www.pmheevilla.com/villas/1328",
+      "source": "https://www.pmheevilla.com/api/villas/1328/images?imageId=36507&w=1920&q=60",
+      "file": "villa-1328-inside-2.webp",
+      "bytes": 34208,
+      "sha256": "88e12f1b962ba871a21ec2f9a15a25c87cb3830f84b93abf1373c5fc6e219920"
+    },
+    {
+      "villaId": "1328",
+      "imageId": "36482",
+      "zone": "bedroom",
+      "page": "https://www.pmheevilla.com/villas/1328",
+      "source": "https://www.pmheevilla.com/api/villas/1328/images?imageId=36482&w=1920&q=60",
+      "file": "villa-1328-bedroom-3.webp",
+      "bytes": 31868,
+      "sha256": "3677dcb4bc917b3a24509ed621f037ffc4bd61b74d178df94f72db4c1d91b30f"
+    },
+    {
+      "villaId": "2222",
+      "imageId": "68550",
+      "zone": "outside",
+      "page": "https://www.pmheevilla.com/villas/2222",
+      "source": "https://www.pmheevilla.com/api/villas/2222/images?imageId=68550&w=1920&q=60",
+      "file": "villa-2222-outside-1.webp",
+      "bytes": 49204,
+      "sha256": "cd8a2cf194e92ed7c95b7bd3ce2876cc3ac43628d8412fa66df5efc3586a82fc"
+    },
+    {
+      "villaId": "2222",
+      "imageId": "68604",
+      "zone": "inside",
+      "page": "https://www.pmheevilla.com/villas/2222",
+      "source": "https://www.pmheevilla.com/api/villas/2222/images?imageId=68604&w=1920&q=60",
+      "file": "villa-2222-inside-2.webp",
+      "bytes": 35400,
+      "sha256": "0bab2fc9a7f4d7f0be1cbb5598e045ca48e25207d104b49a7d8e0bb50d6a1e9d"
+    }
+  ],
+  "evidence": {
+    "archivedPromotion": {
+      "propertyId": "2222",
+      "source": "https://www.pmheevilla.com/api/home-sections",
+      "snapshot": "2026-11-09T16:48:29.585Z",
+      "rail": "new-section-6",
+      "namedPeriod": "August to September 2026",
+      "propertyBasePriceTHB": 6900,
+      "appliesToPropertyNow": false
+    },
+    "partyFacts": {
+      "propertyId": "1328",
+      "source": "https://www.pmheevilla.com/villas/1328",
+      "karaoke": "YouTube",
+      "outdoorSoundUntil": "22:00",
+      "after": "Indoors with doors and windows closed",
+      "categoryMembership": "Unconfirmed"
+    }
+  }
+}

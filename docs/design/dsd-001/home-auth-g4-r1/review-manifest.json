@@ -1,0 +1,35 @@
+{
+  "version": "Home Auth G4-r1",
+  "date": "2026-11-11",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_approved",
+  "owner_approval": {
+    "date": "2026-11-11",
+    "quote": "โอเค ยืนยัน",
+    "scope": "Home Auth G4-r1 sign-in and sign-up visual baseline on desktop and mobile and the displayed supporting states"
+  },
+  "scope": "Home sign-in and sign-up visual baseline, including email verification, password recovery, Google linking and return to Home on desktop and mobile",
+  "native_source": "../papaipak-ui.pen",
+  "native_section": "izim4",
+  "prior_appearance_approval": "../home-auth-confirmed/owner-hifi-acceptance.json",
+  "state_count": 94,
+  "previews": [
+    { "frame": "Gt9ia", "path": "Gt9ia.png", "sha256": "2e56f2f62c0112e7d5e4d1f81de725aa2f9fd0347174e299015d41eb9ab20cd2" },
+    { "frame": "h0VUn", "path": "h0VUn.png", "sha256": "60d831423a766c7a0d491280885d72191a6708f9ea9762347c0d470e42e5bab2" },
+    { "frame": "IaVuq", "path": "IaVuq.png", "sha256": "de6fc6224a942f62ca92232cf7ddd7831cbbf5f6f301b2115be489a9c4f6da69" },
+    { "frame": "HTn38", "path": "HTn38.png", "sha256": "24cede64998c3d1f094f04b87480c8182c2202df4232529c3e6bf37e10c31d0b" },
+    { "frame": "ePfOa", "path": "ePfOa.png", "sha256": "0ccff9ec6823db9ca87c2529224f6cc626ee960544328ba5dbaaf4ddcdb176a6" }
+  ],
+  "state_groups": [
+    { "frame": "d2xG53", "states": 28, "path": "../home-auth-confirmed/section-r4/d2xG53.png", "sha256": "a925ba00b34888cf1118eb15ef2862eb771be7e07e9afa6538c9da3d33753364" },
+    { "frame": "w7g6SB", "states": 12, "path": "../home-auth-confirmed/section-r4/w7g6SB.png", "sha256": "dc63685f7e11e84a3ef09bb41c88650cb0a9a185af79a9650c936ca0078fbf55" },
+    { "frame": "GPxj7", "states": 12, "path": "../home-auth-confirmed/section-r4/GPxj7.png", "sha256": "d0e581bb8cb01ecc890936b3d4340f313f35a015dfe47d608537f5bba553d5fc" },
+    { "frame": "b3OeKL", "states": 12, "path": "../home-auth-confirmed/section-r4/b3OeKL.png", "sha256": "bb30a9ccd289b436c865739e110ef6c4c011071769b1ebc008938d32f34892e9" },
+    { "frame": "o4pGE", "states": 18, "path": "../home-auth-confirmed/section-r4/o4pGE.png", "sha256": "ba3a52c128f94dec666e276e6cfe2f9d08a59b1c38a362a3f3a744373ce437c2" },
+    { "frame": "u2ox4", "states": 6, "path": "../home-auth-confirmed/section-r4/u2ox4.png", "sha256": "3cbad19b6be36e6cb348b20e8ebe0b4da36890d4f6df58ba2e5b1a2083a9280e" },
+    { "frame": "gs443", "states": 6, "path": "../home-auth-confirmed/section-r4/gs443.png", "sha256": "b1f4c0c7cde9e40e483031220537fa2c09505c5b553bd6702d815848edfd2bff" }
+  ],
+  "final_auth_g4_approved": true,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

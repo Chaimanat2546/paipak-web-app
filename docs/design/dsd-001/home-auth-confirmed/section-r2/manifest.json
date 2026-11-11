@@ -1,0 +1,456 @@
+{
+  "version": "Home and Home Auth confirmed section r2",
+  "date": "2026-11-10",
+  "timezone": "Asia/Bangkok",
+  "section": {
+    "native_id": "ysmkc",
+    "native_name": "หน้าที่ยืนยันแล้ว · Home และ Auth",
+    "entry_banner": "oxA2U",
+    "home": {
+      "native_id": "WHN8T",
+      "world_x": 0,
+      "world_y": -7840,
+      "children_unchanged": [
+        "QwVDp",
+        "o29kop"
+      ]
+    },
+    "auth": {
+      "native_id": "izim4",
+      "x_from_home": -5256,
+      "top_aligned": true
+    },
+    "previous_summary": {
+      "native_id": "dxEZb",
+      "visible": false
+    }
+  },
+  "groups": [
+    {
+      "key": "login",
+      "frame": "x2ycUO",
+      "preview": "x2ycUO.png",
+      "references": [
+        {
+          "source": "Nlwvr",
+          "card": "WvsCi",
+          "copy": "XW80A"
+        },
+        {
+          "source": "w5F1PX",
+          "card": "XUcHf",
+          "copy": "r9wFAe"
+        },
+        {
+          "source": "yzbLX",
+          "card": "j96e8Z",
+          "copy": "JGnAD"
+        },
+        {
+          "source": "mmSkV",
+          "card": "eI77t",
+          "copy": "jWq2y"
+        },
+        {
+          "source": "fS0KD",
+          "card": "Czlua",
+          "copy": "nm09s"
+        },
+        {
+          "source": "F5y0ir",
+          "card": "S1P29",
+          "copy": "InYVL"
+        },
+        {
+          "source": "JfzOo",
+          "card": "HmkT6",
+          "copy": "VcIEY"
+        },
+        {
+          "source": "M8MQzW",
+          "card": "v5CnFb",
+          "copy": "ENVNr"
+        },
+        {
+          "source": "WOc19",
+          "card": "wSILd",
+          "copy": "Pu7wU"
+        },
+        {
+          "source": "EjvEz",
+          "card": "k2VKpb",
+          "copy": "cO65d"
+        },
+        {
+          "source": "O8qX1q",
+          "card": "rC2Xu",
+          "copy": "Rjw7j"
+        }
+      ],
+      "appearance": {
+        "references": [
+          {
+            "source": "oONKp",
+            "card": "MHR5e",
+            "copy": "TbnM7"
+          },
+          {
+            "source": "San6t",
+            "card": "r6wv9H",
+            "copy": "RaDIU"
+          },
+          {
+            "source": "x5LC6",
+            "card": "YK4Mt",
+            "copy": "ru7ej"
+          }
+        ],
+        "home_overlay": "huIH2"
+      }
+    },
+    {
+      "key": "register",
+      "frame": "Rzaup",
+      "preview": "Rzaup.png",
+      "references": [
+        {
+          "source": "l93v3",
+          "card": "KVH5H",
+          "copy": "D4RUj"
+        },
+        {
+          "source": "ZWbVr",
+          "card": "qIK2h",
+          "copy": "F9Gp29"
+        },
+        {
+          "source": "MOl8x",
+          "card": "RE3zM",
+          "copy": "b9OCJ"
+        },
+        {
+          "source": "oLTL6",
+          "card": "aMaHQ",
+          "copy": "Jz8Vn"
+        },
+        {
+          "source": "XQeCZ",
+          "card": "E9ZfL",
+          "copy": "i1OEuf"
+        },
+        {
+          "source": "uU39o",
+          "card": "TMDNR",
+          "copy": "RPGAM"
+        },
+        {
+          "source": "vLCXH",
+          "card": "V6YP2",
+          "copy": "FWhBw"
+        },
+        {
+          "source": "NKyzd",
+          "card": "GbKBc",
+          "copy": "SPvAd"
+        },
+        {
+          "source": "EoViL",
+          "card": "GDBWr",
+          "copy": "edweA"
+        },
+        {
+          "source": "VVLL4",
+          "card": "wRyXT",
+          "copy": "hIQKr"
+        },
+        {
+          "source": "fbdV2",
+          "card": "svgVb",
+          "copy": "Es83q"
+        },
+        {
+          "source": "HR7KI",
+          "card": "j4H72",
+          "copy": "e26vIo"
+        }
+      ]
+    },
+    {
+      "key": "otp",
+      "frame": "s78NT",
+      "preview": "s78NT.png",
+      "references": [
+        {
+          "source": "ASYeh",
+          "card": "y20L2L",
+          "copy": "YFMDz"
+        },
+        {
+          "source": "wp6Gt",
+          "card": "OVbvg",
+          "copy": "Nhmq2"
+        },
+        {
+          "source": "TYi9y",
+          "card": "JNbMb",
+          "copy": "gepST"
+        },
+        {
+          "source": "PmCdx",
+          "card": "NnuPH",
+          "copy": "sCOvK"
+        },
+        {
+          "source": "wxEwE",
+          "card": "UtZJc",
+          "copy": "eNyoA"
+        },
+        {
+          "source": "iLmVt",
+          "card": "moUMo",
+          "copy": "Kxifh"
+        },
+        {
+          "source": "LRyGj",
+          "card": "UjkGt",
+          "copy": "PmgDS"
+        },
+        {
+          "source": "cZWL1",
+          "card": "CzLQW",
+          "copy": "CGIlP"
+        },
+        {
+          "source": "E3yBs",
+          "card": "avPEp",
+          "copy": "TOr8u"
+        },
+        {
+          "source": "d0PtEH",
+          "card": "sxCEK",
+          "copy": "O6X5M6"
+        },
+        {
+          "source": "Im1AA",
+          "card": "eIDlG",
+          "copy": "p3zQ72"
+        }
+      ]
+    },
+    {
+      "key": "email",
+      "frame": "Yxv2J",
+      "preview": "Yxv2J.png",
+      "references": [
+        {
+          "source": "vDPf8",
+          "card": "ggihS",
+          "copy": "Zx57n"
+        },
+        {
+          "source": "RukQJ",
+          "card": "PJxQ8",
+          "copy": "Z0ODI"
+        },
+        {
+          "source": "ip2bA",
+          "card": "r07Io",
+          "copy": "I2BQdM"
+        },
+        {
+          "source": "Cb1DW",
+          "card": "hFH8S",
+          "copy": "pY5a4"
+        },
+        {
+          "source": "nQ4yF",
+          "card": "A3Pke",
+          "copy": "tDx6Z"
+        },
+        {
+          "source": "s0dZ8",
+          "card": "MWEoC",
+          "copy": "pBkKL"
+        },
+        {
+          "source": "lNeof",
+          "card": "e5wjG",
+          "copy": "rTdLA"
+        },
+        {
+          "source": "CsOgQ",
+          "card": "MfKlC",
+          "copy": "or2EX"
+        },
+        {
+          "source": "n8M20",
+          "card": "wlT2t",
+          "copy": "m6qxac"
+        },
+        {
+          "source": "LsUq3",
+          "card": "cBRNr",
+          "copy": "C3uTe"
+        }
+      ]
+    },
+    {
+      "key": "recovery",
+      "frame": "C47DO",
+      "preview": "C47DO.png",
+      "references": [
+        {
+          "source": "tJxL1",
+          "card": "FAwiQ",
+          "copy": "PizLv"
+        },
+        {
+          "source": "IvrCQ",
+          "card": "OxIXn",
+          "copy": "qmd65"
+        },
+        {
+          "source": "ZsOMo",
+          "card": "M2hdrp",
+          "copy": "R0Tbwa"
+        },
+        {
+          "source": "MKMGi",
+          "card": "jB9C2",
+          "copy": "jftpC"
+        },
+        {
+          "source": "l0YcM",
+          "card": "UHujC",
+          "copy": "wuz0r"
+        },
+        {
+          "source": "a2w6D",
+          "card": "rabGp",
+          "copy": "ZZ8OI"
+        },
+        {
+          "source": "WAeyG",
+          "card": "tlzAk",
+          "copy": "mq2If"
+        },
+        {
+          "source": "e90Mg",
+          "card": "q1wPE",
+          "copy": "t1XGqU"
+        },
+        {
+          "source": "wmhoz",
+          "card": "XgJe0",
+          "copy": "sWeWU"
+        },
+        {
+          "source": "WQbH9",
+          "card": "urKJ4",
+          "copy": "HzDrm"
+        },
+        {
+          "source": "rhTqa",
+          "card": "uC2kH",
+          "copy": "dRpCc"
+        }
+      ]
+    },
+    {
+      "key": "google",
+      "frame": "gBLnG",
+      "preview": "gBLnG.png",
+      "references": [
+        {
+          "source": "my3sJ",
+          "card": "uuRud",
+          "copy": "JXO78"
+        },
+        {
+          "source": "yDFwH",
+          "card": "u5YbiU",
+          "copy": "YmJ12"
+        },
+        {
+          "source": "OWofW",
+          "card": "Gmjh8",
+          "copy": "rkV4g"
+        },
+        {
+          "source": "Y7Kb3r",
+          "card": "HyJkT",
+          "copy": "NdeJI"
+        },
+        {
+          "source": "W6XKXi",
+          "card": "AAbba",
+          "copy": "Ttz0A"
+        },
+        {
+          "source": "VOK1Q",
+          "card": "Pn5ZJ",
+          "copy": "QtwCD"
+        }
+      ]
+    },
+    {
+      "key": "favorite",
+      "frame": "w6LpZ",
+      "preview": "w6LpZ.png",
+      "references": [
+        {
+          "source": "xB6Hu",
+          "card": "qnHzt",
+          "copy": "IPHm2"
+        },
+        {
+          "source": "e65FIF",
+          "card": "KQ2NT",
+          "copy": "wojBK"
+        }
+      ]
+    },
+    {
+      "key": "rules",
+      "frame": "oz0bA",
+      "preview": "oz0bA.png",
+      "references": [],
+      "policy_cards": 5,
+      "button_example": "kJO04"
+    },
+    {
+      "key": "flow",
+      "frame": "ayZNr",
+      "preview": "ayZNr.png",
+      "references": [
+        {
+          "source": "v0fodR",
+          "card": "cVuIr",
+          "copy": "A4lo5k"
+        },
+        {
+          "source": "geey5",
+          "card": "Q2uRj",
+          "copy": "UFj5g"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "g2_r40_inventory": 57,
+    "g2_r41_visuals": 6,
+    "login_appearance": 4,
+    "g2_r40_overview_and_interaction_evidence": 2,
+    "system_policy_cards": 5,
+    "shared_color_example": 1
+  },
+  "previews": {
+    "whole_section": "ysmkc.png",
+    "auth_only": "izim4.png"
+  },
+  "verification": {
+    "preserved_scope": "WHN8T, original approved sources, PNG evidence and HTML viewer.",
+    "checked_native_copies": "57 G2-r40 references, 6 G2-r41 visual references and 3 Login variants match source geometry and contents after excluding placement/name/IDs. The two copied G2-r40 overview boards retain their diagrams and update only review-stage annotations to reflect acceptance.",
+    "unrelated_top_level_overlaps": 0
+  }
+}

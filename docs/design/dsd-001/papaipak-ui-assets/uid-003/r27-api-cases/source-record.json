@@ -1,0 +1,69 @@
+{
+  "capturedOn": "2026-11-10",
+  "scope": "UID-003 r27 | Public gallery tiles identified in each property's own full gallery",
+  "assets": [
+    {
+      "villaId": 1328,
+      "imageId": 61948,
+      "zone": "outside",
+      "source": "https://www.pmheevilla.com/api/villas/1328/images?imageId=61948&w=640&q=60",
+      "file": "villa-1328-61948.webp",
+      "bytes": 20930,
+      "sha256": "0cc706162d38e6bcf8bfcbaf0ffdce76a0a11c7fc766aee358952f82bdaa0987"
+    },
+    {
+      "villaId": 1328,
+      "imageId": 36490,
+      "zone": "bathroom",
+      "source": "https://www.pmheevilla.com/api/villas/1328/images?imageId=36490&w=640&q=60",
+      "file": "villa-1328-36490.webp",
+      "bytes": 13930,
+      "sha256": "40f49a8688ba06e5351a314750caef0f5a0908f2e6c223736b17f0f1ff586cb6"
+    },
+    {
+      "villaId": 2122,
+      "imageId": 50678,
+      "zone": "outside",
+      "source": "https://www.pmheevilla.com/api/villas/2122/images?imageId=50678&w=640&q=60",
+      "file": "villa-2122-50678.webp",
+      "bytes": 29134,
+      "sha256": "963eaa4002c05f5676cc26df619e78817a2476a5b60826207a1cd1e3e882b32c"
+    },
+    {
+      "villaId": 2122,
+      "imageId": 28045,
+      "zone": "bathroom",
+      "source": "https://www.pmheevilla.com/api/villas/2122/images?imageId=28045&w=640&q=60",
+      "file": "villa-2122-28045.webp",
+      "bytes": 15532,
+      "sha256": "8047be49a9ca3691ff5412695dabc7b1935a0841ec21dc2e76ab31e521b8af95"
+    },
+    {
+      "villaId": 269,
+      "imageId": 25915,
+      "zone": "outside",
+      "source": "https://www.pmheevilla.com/api/villas/269/images?imageId=25915&w=640&q=60",
+      "file": "villa-269-25915.webp",
+      "bytes": 41358,
+      "sha256": "a4d6dac9ead09733108bf1ce4d2b8f7d6bdef881e94cd0cc1ae0fcc8882ea3d1"
+    },
+    {
+      "villaId": 269,
+      "imageId": 25908,
+      "zone": "bathroom",
+      "source": "https://www.pmheevilla.com/api/villas/269/images?imageId=25908&w=640&q=60",
+      "file": "villa-269-25908.webp",
+      "bytes": 26220,
+      "sha256": "fb6b1830fdfaf5a3d9aa9856c8cd8dbe0078dcb3252ab5a70519bf458d13635c"
+    },
+    {
+      "villaId": 269,
+      "imageId": 25892,
+      "zone": "bedroom",
+      "source": "https://www.pmheevilla.com/api/villas/269/images?imageId=25892&w=640&q=60",
+      "file": "villa-269-25892.webp",
+      "bytes": 27240,
+      "sha256": "f291d33e59732f24f9276ac7fb4ac67f4949caf897ff0c671db7ba376992266d"
+    }
+  ]
+}

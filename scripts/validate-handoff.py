@@ -8,7 +8,7 @@ manifest = yaml.safe_load((root/'tasks/design/manifest.yaml').read_text(encoding
 ids = [d['id'] for d in registry]
 task_ids = [t['id'] for t in manifest]
 assert len(ids) == len(set(ids)) == 110, 'Decision count or duplicate failure'
-assert len(task_ids) == len(set(task_ids)) == 14, 'Design task count or duplicate failure'
+assert len(task_ids) == len(set(task_ids)) == 15, 'Design task count or duplicate failure'
 for t in manifest:
     for dep in t.get('depends_on', []):
         assert dep in task_ids, f"{t['id']} unknown dependency {dep}"

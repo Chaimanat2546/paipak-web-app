@@ -1,0 +1,313 @@
+{
+  "date": "2026-11-10",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "scope": "Active native design at the checkpoint, pink button colors only",
+  "owner": {
+    "source": "voice decision via thread handoff",
+    "thread_id": "01a1c3ae-f65c-7420-a4fa-281afd31bdb4",
+    "color_acceptance": "รับครับ",
+    "rollout_instruction": "ไม่ต้องอ่ะ ทำทั้งหมดเลย ด่วน",
+    "approval_scope": "Pink button surface and text/icon colors only"
+  },
+  "checkpoint": "docs/design/dsd-001/papaipak-ui.pen",
+  "colors": {
+    "fill": "#C5375B",
+    "label": "#FFFFFF",
+    "brand_pink": "#FD6E88",
+    "nominal_text_contrast": 5.157671401098554
+  },
+  "totals": {
+    "original_native_roots_audited": 116,
+    "updated_groups": 30,
+    "updated_buttons": 187,
+    "updated_label_or_icon_nodes": 300,
+    "buttons_updated_in_place": 119,
+    "buttons_updated_in_new_color_revisions": 68,
+    "remaining_matching_buttons_in_audited_active_groups": 0
+  },
+  "groups": [
+    {
+      "source_id": "RhDcQ",
+      "current_id": "slXLZ",
+      "source_name": "Home Desktop · สถานะการใช้งาน · State library",
+      "buttons": 65,
+      "labels_and_icons": 129
+    },
+    {
+      "source_id": "WHN8T",
+      "current_id": "dewqT",
+      "source_name": "หน้าที่ยืนยันแล้ว · Confirmed pages · Desktop",
+      "buttons": 3,
+      "labels_and_icons": 6
+    },
+    {
+      "source_id": "eJBTs",
+      "current_id": "eJBTs",
+      "source_name": "Home Desktop-r22 · โลโก้จริงและหน้าแรกครบ 13 ส่วน · รอตรวจ",
+      "buttons": 3,
+      "labels_and_icons": 6
+    },
+    {
+      "source_id": "NSEfW",
+      "current_id": "NSEfW",
+      "source_name": "Auth · Login และ OTP · ตัวอย่างตรวจภาพ",
+      "buttons": 3,
+      "labels_and_icons": 3
+    },
+    {
+      "source_id": "YsSo9",
+      "current_id": "YsSo9",
+      "source_name": "Auth Desktop · เข้าสู่ระบบ",
+      "buttons": 21,
+      "labels_and_icons": 23
+    },
+    {
+      "source_id": "BjYuf",
+      "current_id": "BjYuf",
+      "source_name": "Auth Desktop · สมัครสมาชิก",
+      "buttons": 12,
+      "labels_and_icons": 13
+    },
+    {
+      "source_id": "KIRQI",
+      "current_id": "KIRQI",
+      "source_name": "Auth Desktop · ยืนยันอีเมลหลังสมัคร",
+      "buttons": 7,
+      "labels_and_icons": 8
+    },
+    {
+      "source_id": "y3NZuA",
+      "current_id": "y3NZuA",
+      "source_name": "Auth Desktop · กู้รหัสผ่าน",
+      "buttons": 12,
+      "labels_and_icons": 14
+    },
+    {
+      "source_id": "MOqjo",
+      "current_id": "MOqjo",
+      "source_name": "Auth Mobile · เต็มจอ 390 × 844",
+      "buttons": 16,
+      "labels_and_icons": 16
+    },
+    {
+      "source_id": "uCiqX",
+      "current_id": "uCiqX",
+      "source_name": "Home Mobile · แผงค้นหา · รอตรวจ",
+      "buttons": 4,
+      "labels_and_icons": 4
+    },
+    {
+      "source_id": "RyUHb",
+      "current_id": "RyUHb",
+      "source_name": "Home ↔ Auth · เปิดและกลับมาบันทึกบ้าน",
+      "buttons": 10,
+      "labels_and_icons": 16
+    },
+    {
+      "source_id": "PDll2",
+      "current_id": "PDll2",
+      "source_name": "Home Desktop · เมื่อรายการบ้านพักโหลดไม่ได้",
+      "buttons": 5,
+      "labels_and_icons": 10
+    },
+    {
+      "source_id": "XWxVt",
+      "current_id": "XWxVt",
+      "source_name": "UID-003 r4 · สไตล์ Home · Property Detail Desktop 1440",
+      "buttons": 1,
+      "labels_and_icons": 2
+    },
+    {
+      "source_id": "N0gTk9",
+      "current_id": "N0gTk9",
+      "source_name": "UID-003 r4 · 01 · แนะนำ · สไตล์ Home",
+      "buttons": 1,
+      "labels_and_icons": 2
+    },
+    {
+      "source_id": "N2w0d",
+      "current_id": "N2w0d",
+      "source_name": "UID-003 r4 · 02 · ใกล้ทะเล · สไตล์ Home",
+      "buttons": 1,
+      "labels_and_icons": 2
+    },
+    {
+      "source_id": "JCiqP",
+      "current_id": "JCiqP",
+      "source_name": "UID-003 r4 · 03 · สายปาร์ตี้ · สไตล์ Home",
+      "buttons": 1,
+      "labels_and_icons": 2
+    },
+    {
+      "source_id": "sJDp0",
+      "current_id": "sJDp0",
+      "source_name": "UID-003 r4 · 04 · ราคาพิเศษ · สไตล์ Home",
+      "buttons": 1,
+      "labels_and_icons": 2
+    },
+    {
+      "source_id": "n6lrf",
+      "current_id": "n6lrf",
+      "source_name": "UID-003 r4 · 05 · Outing · สไตล์ Home",
+      "buttons": 1,
+      "labels_and_icons": 2
+    },
+    {
+      "source_id": "PeIjO",
+      "current_id": "PeIjO",
+      "source_name": "UID-003 r4 · 06 · Pet Friendly · สไตล์ Home",
+      "buttons": 1,
+      "labels_and_icons": 2
+    },
+    {
+      "source_id": "md2wl",
+      "current_id": "md2wl",
+      "source_name": "UID-003 r4 · 07 · Luxury · สไตล์ Home",
+      "buttons": 1,
+      "labels_and_icons": 2
+    },
+    {
+      "source_id": "JRD6w",
+      "current_id": "JRD6w",
+      "source_name": "UID-003 r4 · Gallery สไตล์ Home · Desktop 1440",
+      "buttons": 1,
+      "labels_and_icons": 2
+    },
+    {
+      "source_id": "yvgsf",
+      "current_id": "yvgsf",
+      "source_name": "UID-003 r4 · Gallery · 01 · รูปเดียว",
+      "buttons": 1,
+      "labels_and_icons": 2
+    },
+    {
+      "source_id": "aonCi",
+      "current_id": "aonCi",
+      "source_name": "UID-003 r4 · Gallery · 02 · รูปเยอะ",
+      "buttons": 1,
+      "labels_and_icons": 2
+    },
+    {
+      "source_id": "R4xy5h",
+      "current_id": "R4xy5h",
+      "source_name": "UID-003 r4 · Gallery · 03 · ไม่มีรูป",
+      "buttons": 1,
+      "labels_and_icons": 2
+    },
+    {
+      "source_id": "k0vx1",
+      "current_id": "k0vx1",
+      "source_name": "UID-003 r5 · แกลเลอรี · เดินชมบ้าน · LYYA VILLA",
+      "buttons": 3,
+      "labels_and_icons": 6
+    },
+    {
+      "source_id": "E4SiQ",
+      "current_id": "E4SiQ",
+      "source_name": "UID-003 r5 · แกลเลอรี · รูปเดียว · The Chelonia 2 (B18)",
+      "buttons": 3,
+      "labels_and_icons": 6
+    },
+    {
+      "source_id": "g0LkB2",
+      "current_id": "g0LkB2",
+      "source_name": "UID-003 r5 · แกลเลอรี · ไม่มีรูป · Grand Florida D109",
+      "buttons": 1,
+      "labels_and_icons": 2
+    },
+    {
+      "source_id": "SQQpb",
+      "current_id": "SQQpb",
+      "source_name": "UID-003 r6 · Gallery Bento · LYYA VILLA",
+      "buttons": 3,
+      "labels_and_icons": 6
+    },
+    {
+      "source_id": "bEnJn",
+      "current_id": "bEnJn",
+      "source_name": "UID-003 r6 · Gallery Bento · รูปเดียว",
+      "buttons": 3,
+      "labels_and_icons": 6
+    },
+    {
+      "source_id": "vkKX2",
+      "current_id": "vkKX2",
+      "source_name": "UID-003 r6 · Gallery Bento · ไม่มีรูป",
+      "buttons": 1,
+      "labels_and_icons": 2
+    }
+  ],
+  "historical_pink_controls": {
+    "frozen_source_groups": [
+      {
+        "id": "RhDcQ",
+        "buttons": 65
+      },
+      {
+        "id": "WHN8T",
+        "buttons": 3
+      }
+    ],
+    "older_review_or_wireframe_contexts": [
+      {
+        "id": "JuAvP",
+        "buttons": 2
+      },
+      {
+        "id": "B9VIh",
+        "buttons": 3
+      },
+      {
+        "id": "T0XbW",
+        "buttons": 1
+      },
+      {
+        "id": "Fof97",
+        "buttons": 1
+      },
+      {
+        "id": "VOK1Q",
+        "buttons": 2
+      },
+      {
+        "id": "q8g9Si",
+        "buttons": 3
+      },
+      {
+        "id": "erVeY",
+        "buttons": 3
+      },
+      {
+        "id": "fmukJ",
+        "buttons": 3
+      },
+      {
+        "id": "IQCUx",
+        "buttons": 3
+      }
+    ],
+    "non_button_thumbnail_frames": {
+      "id": "Jyuuw",
+      "frames": 2
+    }
+  },
+  "preview_frames": [
+    {
+      "id": "inM97",
+      "image": "inM97.png"
+    },
+    {
+      "id": "Se2QH",
+      "image": "Se2QH.png"
+    },
+    {
+      "id": "SQQpb",
+      "image": "SQQpb.png"
+    }
+  ],
+  "separate_review_status": {
+    "visual_gates": "unchanged",
+    "open_001": "Design color pairing approved; runtime accessibility and production acceptance remain open."
+  }
+}

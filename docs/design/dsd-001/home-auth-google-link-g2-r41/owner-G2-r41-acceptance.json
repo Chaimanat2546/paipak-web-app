@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-10",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth Desktop / C2",
+  "version": "Home Auth Desktop Google Link G2-r41",
+  "status": "owner_accepted_bounded_wireframe",
+  "owner_quote": "อ่า ใช้ได้เลย",
+  "source": {
+    "type": "owner_voice_decision_via_thread_handoff",
+    "thread_id": "01a1c3ae-f65c-7420-a4fa-281afd31bdb4"
+  },
+  "review_board": "FgPX7",
+  "scope": "Home Desktop existing-account verification, explicit Google linking consent, OTP and error examples, and return annotations shown in r41.",
+  "high_fidelity": {
+    "authorization": "Owner paused after accepting r41, then explicitly authorized the bounded High-Fi pass.",
+    "owner_start_quote": "อืม เริ่มทำได้เลย",
+    "version": "Home Auth Desktop Google Link G3-r1",
+    "review": "../home-auth-google-link-g3-r1/README.md",
+    "status": "pending_owner_review"
+  }
+}

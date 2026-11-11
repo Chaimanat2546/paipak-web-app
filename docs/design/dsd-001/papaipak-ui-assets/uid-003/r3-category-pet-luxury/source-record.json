@@ -1,0 +1,136 @@
+{
+  "scope": "Property Detail r3 · Pet Friendly and Luxury review cases",
+  "captureDate": "2026-11-10",
+  "source": "Public image proxies on the legacy villa detail pages",
+  "cases": [
+    {
+      "id": "269",
+      "page": "https://www.pmheevilla.com/villas/269",
+      "title": "Prime Asia A4",
+      "zoneLabel": "พัทยา",
+      "price": 9900,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "people": 12,
+      "raw": 51,
+      "eligible": 51,
+      "review": 0,
+      "initialGalleryLoadFailed": false,
+      "zones": {
+        "cover": 1,
+        "bedroom": 16,
+        "bathroom": 7,
+        "outside": 8,
+        "inside": 15,
+        "kitchen": 4
+      }
+    },
+    {
+      "id": "3178",
+      "page": "https://www.pmheevilla.com/villas/3178",
+      "title": "LYYA VILLA",
+      "zoneLabel": "พัทยา",
+      "price": 13900,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "people": 25,
+      "raw": 301,
+      "eligible": 261,
+      "review": 40,
+      "initialGalleryLoadFailed": false,
+      "zones": {
+        "inside": 86,
+        "bedroom": 53,
+        "kitchen": 5,
+        "bathroom": 32,
+        "outside": 81,
+        "parking": 3,
+        "cover": 1
+      }
+    }
+  ],
+  "assets": [
+    {
+      "villaId": "269",
+      "imageId": "25918",
+      "zone": "outside",
+      "page": "https://www.pmheevilla.com/villas/269",
+      "source": "https://www.pmheevilla.com/api/villas/269/images?imageId=25918&w=1920&q=60",
+      "file": "villa-269-outside-2.webp",
+      "bytes": 104828,
+      "sha256": "61825ac898be556f8c7fceb327e7ae7dfb4a30db8e23ca0f80d36879d70e9c99"
+    },
+    {
+      "villaId": "269",
+      "imageId": "25942",
+      "zone": "inside",
+      "page": "https://www.pmheevilla.com/villas/269",
+      "source": "https://www.pmheevilla.com/api/villas/269/images?imageId=25942&w=1920&q=60",
+      "file": "villa-269-inside-4.webp",
+      "bytes": 44150,
+      "sha256": "ac70442465ceef9699d6a5ab3d0fb63fedd99e2db78c7ec34f0b41968b87c740"
+    },
+    {
+      "villaId": "269",
+      "imageId": "25893",
+      "zone": "bedroom",
+      "page": "https://www.pmheevilla.com/villas/269",
+      "source": "https://www.pmheevilla.com/api/villas/269/images?imageId=25893&w=1920&q=60",
+      "file": "villa-269-bedroom-5.webp",
+      "bytes": 59922,
+      "sha256": "116ae9c9bee46aa2b55c32b3e8b9183c4e4e85a9111ac7c1b1b5314e7dd2a55a"
+    },
+    {
+      "villaId": "3178",
+      "imageId": "148174",
+      "zone": "outside",
+      "page": "https://www.pmheevilla.com/villas/3178",
+      "source": "https://www.pmheevilla.com/api/villas/3178/images?imageId=148174&w=1920&q=60",
+      "file": "villa-3178-outside-1.webp",
+      "bytes": 56426,
+      "sha256": "8e946055df884d45b4e0629cd5d9a41c0459e463089ba0cc84c55d074e503031"
+    },
+    {
+      "villaId": "3178",
+      "imageId": "148181",
+      "zone": "outside",
+      "page": "https://www.pmheevilla.com/villas/3178",
+      "source": "https://www.pmheevilla.com/api/villas/3178/images?imageId=148181&w=1920&q=60",
+      "file": "villa-3178-outside-2.webp",
+      "bytes": 32942,
+      "sha256": "7cd64ae7b56495f5001312c1d79071b8e5e156469bef5505c12bc7ead5293769"
+    },
+    {
+      "villaId": "3178",
+      "imageId": "147998",
+      "zone": "inside",
+      "page": "https://www.pmheevilla.com/villas/3178",
+      "source": "https://www.pmheevilla.com/api/villas/3178/images?imageId=147998&w=1920&q=60",
+      "file": "villa-3178-inside-4.webp",
+      "bytes": 36350,
+      "sha256": "52451433ebc049dba3cf8730e573b153dbb38cbc220ec4fce4c68827b7394a02"
+    }
+  ],
+  "confirmed": [
+    {
+      "id": "269",
+      "verified": "Public property detail supports pet acceptance",
+      "pets": [
+        "รับสุนัขและแมว",
+        "500 บาทต่อตัวต่อคืน",
+        "แจ้งก่อนเข้าพัก",
+        "เตรียมที่นอนสัตว์เลี้ยงเอง",
+        "แมวต้องมีกระบะทราย"
+      ]
+    },
+    {
+      "id": "3178",
+      "verified": "Public property detail supports amenities; Luxury membership pending papaipak confirmation",
+      "highlights": [
+        "สระว่ายน้ำส่วนตัว",
+        "อ่างจากุซซี่ในห้องนอน 2",
+        "โต๊ะพูล"
+      ]
+    }
+  ]
+}

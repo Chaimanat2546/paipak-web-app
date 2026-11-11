@@ -1,0 +1,239 @@
+{
+  "task": "UID-003",
+  "version": "G4-r1",
+  "source_design_version": "r31",
+  "date": "2026-11-11",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_approved",
+  "owner_approval": {
+    "date": "2026-11-11",
+    "quote": "โอเคอนุมัติได้เลย",
+    "scope": "Property Detail r31 G4-r1 visual baseline for desktop and mobile, including the booking-panel examples and catalog fallback",
+    "open_implementation_decisions": ["OPEN-006", "OPEN-007"],
+    "runtime_verified": false,
+    "implementation_authorized": false
+  },
+  "scope": "Property Detail r31 Desktop and Mobile UI for seven category examples and the DV-1945 catalog fallback",
+  "source_ui_accepted_on": "2026-11-10",
+  "native_source": {
+    "path": "docs/design/dsd-001/papaipak-ui.pen",
+    "confirmed_section": "ysmkc",
+    "property_detail_section": "oO6XU",
+    "supporting_state_and_field_map_section": "PVEB9"
+  },
+  "screen_pairs": [
+    {
+      "property": "DV-9",
+      "name": "Celuna",
+      "desktop": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/celuna-desktop.png",
+        "sha256": "3d62ee8a5240b7d99ff150ae11aa0e07ee375e6cf897985ba71c9d73daee770b",
+        "frame": "VX081",
+        "width": 1440,
+        "height": 3803
+      },
+      "mobile": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/celuna-mobile.png",
+        "sha256": "0810fe3466d53fa4ca1dfefd680791ef16d02661c1460a1a2ee250c6281a9edd",
+        "frame": "irF3V",
+        "width": 390,
+        "height": 5442
+      }
+    },
+    {
+      "property": "DV-55",
+      "name": "RimLay",
+      "desktop": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/rimlay-desktop.png",
+        "sha256": "94fac1f7ab57f97ca7561f5fb445de2c85790d115eb435f8c1b945957bcf86c5",
+        "frame": "l1AEaH",
+        "width": 1440,
+        "height": 3249
+      },
+      "mobile": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/rimlay-mobile.png",
+        "sha256": "3b7df4d6c68c88912a62c10ff43a6d901c34752c86053050ba1f15fd3c546ff4",
+        "frame": "ue54I",
+        "width": 390,
+        "height": 4802
+      }
+    },
+    {
+      "property": "DV-1328",
+      "name": "91 CLEAR",
+      "desktop": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/91-clear-desktop.png",
+        "sha256": "5f5248ff45b0e812939760951029c6aa43639f1668d5db41a30e4de8f98f3ea1",
+        "frame": "GBmiG",
+        "width": 1440,
+        "height": 2615
+      },
+      "mobile": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/91-clear-mobile.png",
+        "sha256": "1145ab5c2ead376ec499c43b69628fee7fb60f01d0ef7a3c0508f41ec1379713",
+        "frame": "EmHDU",
+        "width": 390,
+        "height": 4301
+      }
+    },
+    {
+      "property": "DV-2222",
+      "name": "In2",
+      "desktop": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/in2-desktop.png",
+        "sha256": "2969f1e9fa9cf3444a392f651fa90564f0564284df84dbafbd2ff9636c1b22d3",
+        "frame": "K9ymSS",
+        "width": 1440,
+        "height": 3122
+      },
+      "mobile": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/in2-mobile.png",
+        "sha256": "d73ba29914f6605021dff2e5b4c0be1e825c9cd9c549ec3bf0b5769cc81cfd6f",
+        "frame": "g0raS",
+        "width": 390,
+        "height": 4408
+      }
+    },
+    {
+      "property": "DV-2122",
+      "name": "Great Oasis",
+      "desktop": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/great-oasis-desktop.png",
+        "sha256": "dad893bfa78299bb9589042a3105bf1b5887185d164b2520b5e71448cacd50e6",
+        "frame": "VST4r",
+        "width": 1440,
+        "height": 3934
+      },
+      "mobile": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/great-oasis-mobile.png",
+        "sha256": "4e8c83f12273916df208e962440eecfdc65f3b90eb283a32f8c66cd4e8e4b610",
+        "frame": "eLkSG",
+        "width": 390,
+        "height": 5934
+      }
+    },
+    {
+      "property": "DV-269",
+      "name": "Prime Asia A4",
+      "desktop": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/prime-asia-desktop.png",
+        "sha256": "2b26786a179a982e65f95f54265b3ef4036fe519a53b2e3ff3cc34224ccc21c8",
+        "frame": "TDD44",
+        "width": 1440,
+        "height": 3429
+      },
+      "mobile": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/prime-asia-mobile.png",
+        "sha256": "5292f42f750b393e665a39e7aa2b3ae1d50e2a657f05dbfdc595b668ad6c3c5c",
+        "frame": "kOSsc",
+        "width": 390,
+        "height": 5040
+      }
+    },
+    {
+      "property": "DV-3178",
+      "name": "LYYA",
+      "desktop": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/lyya-desktop.png",
+        "sha256": "12445423580dbd5f45adf47412db526c625400f5eafff45d327fbbb2090dad09",
+        "frame": "oI2rI",
+        "width": 1440,
+        "height": 2691
+      },
+      "mobile": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/lyya-mobile.png",
+        "sha256": "4a27b9df0a644df8da1461b03746873a3925305bbb65ed6c40248729421790c8",
+        "frame": "YhD7N",
+        "width": 390,
+        "height": 4591
+      }
+    },
+    {
+      "property": "DV-1945",
+      "name": "Fun Beach",
+      "desktop": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/fallback-dv1945-desktop.png",
+        "sha256": "d2a9865a8d73d4caa8ec215b344a4f6050e01b0a9a7dd9e0f2b45393a19b894c",
+        "frame": "p5dUWD",
+        "width": 1440,
+        "height": 1211
+      },
+      "mobile": {
+        "path": "docs/design/uid-003/property-detail-r31-checklist/fallback-dv1945-mobile.png",
+        "sha256": "6afbf7f50adb1650b4bb60eab9d5b12edb76c81297491a49892d51b78f1e1810",
+        "frame": "D2RMsG",
+        "width": 390,
+        "height": 1584
+      }
+    }
+  ],
+  "supporting_images": {
+    "booking_desktop": {
+      "path": "docs/design/uid-003/property-detail-r31-checklist/booking-states-desktop.png",
+      "sha256": "bea309cb6fe966409826ad1bf40352ae0f93d2f1df21bd8a376f300a7eb0a809",
+      "frame": "AfbAT",
+      "width": 1440,
+      "height": 737
+    },
+    "booking_mobile": {
+      "path": "docs/design/uid-003/property-detail-r31-checklist/booking-states-mobile.png",
+      "sha256": "cbbe4aea75f0d0298e9674f49b105f2015ef9bc8a6608d020f0b06f4bb63a6df",
+      "frame": "dk01z",
+      "width": 390,
+      "height": 1484
+    },
+    "conditional_blocks": {
+      "path": "docs/design/uid-003/property-detail-r31-checklist/conditional-blocks.png",
+      "sha256": "50f8d691342c76763caad6602b29c7f7b15f0b5c4a7c753f8b85ec22a5649772",
+      "frame": "W6zNa",
+      "width": 1440,
+      "height": 784
+    },
+    "field_comparison": {
+      "path": "docs/design/uid-003/property-detail-r31-field-map/all-villas/field-comparison.png",
+      "sha256": "c2edd204e04d89cb6cd47eab117cc357944e7ff4e2859d1415159c0f10010402",
+      "frame": "dunfG",
+      "width": 1320,
+      "height": 913
+    },
+    "implementation_notes": {
+      "path": "docs/design/uid-003/property-detail-g4-r1/CXQxy.png",
+      "sha256": "644bbd7158fc4cd146aa4c5c754783dae2435f20e2492b726cc1c277b03a77aa",
+      "frame": "CXQxy",
+      "width": 2964,
+      "height": 1515
+    }
+  },
+  "source_documents": [
+    {
+      "path": "docs/design/uid-003/property-detail-r31-checklist/owner-ui-acceptance.json",
+      "sha256": "afd6b5963c1eceff2336761b64bb021f7418e6d94fa22d1177e680d9fb24be31"
+    },
+    {
+      "path": "docs/design/uid-003/property-detail-r31-checklist/README.md",
+      "sha256": "84d6a303d41935ba8272cbf228fc1b66b23130dee156ba6e3268ebb36ec76211"
+    },
+    {
+      "path": "docs/design/uid-003/property-detail-r27-catalog/handoff.md",
+      "sha256": "1b116956cba8bbd03353b8d39d428c5a33ce120aa7351228b9d5b41116021896"
+    },
+    {
+      "path": "docs/design/uid-003/property-detail-r5-gallery/README.md",
+      "sha256": "961029bc8d8f3a822014bc3f0bc123984d57fc512855d014d5a23fc9e016c81e"
+    }
+  ],
+  "decision_refs": [
+    "PAGE-003",
+    "UXF-008"
+  ],
+  "open_implementation_decisions": [
+    "OPEN-006",
+    "OPEN-007"
+  ],
+  "evidence": {
+    "native_frames_inspected": true,
+    "desktop_mobile_exports_checked": true,
+    "runtime_verified": false,
+    "implementation_authorized": false
+  }
+}

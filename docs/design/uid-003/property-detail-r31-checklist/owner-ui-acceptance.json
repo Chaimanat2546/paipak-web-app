@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-10",
+  "timezone": "Asia/Bangkok",
+  "task": "UID-003",
+  "version": "r31",
+  "status": "owner_accepted_property_detail_r31_ui",
+  "owner_quote": "ฉันรับหน้า ui แล้ว",
+  "scope": "Property Detail r31 Desktop and Mobile UI for seven category examples and the DV-1945 catalog fallback",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "confirmed_section": "ysmkc",
+    "confirmed_section_name": "หน้าที่ยืนยันแล้ว · Home, Auth และ Property Detail",
+    "property_detail_section": "oO6XU",
+    "implementation_notes": "CXQxy",
+    "supporting_state_and_field_map_section": "PVEB9",
+    "supporting_boards": {
+      "booking_desktop": "AfbAT",
+      "booking_mobile": "dk01z",
+      "conditional_blocks": "W6zNa",
+      "field_comparison": "dunfG"
+    },
+    "accepted_examples": {
+      "DV-9": { "desktop": "VX081", "mobile": "irF3V" },
+      "DV-55": { "desktop": "l1AEaH", "mobile": "ue54I" },
+      "DV-1328": { "desktop": "GBmiG", "mobile": "EmHDU" },
+      "DV-2222": { "desktop": "K9ymSS", "mobile": "g0raS" },
+      "DV-2122": { "desktop": "VST4r", "mobile": "eLkSG" },
+      "DV-269": { "desktop": "TDD44", "mobile": "kOSsc" },
+      "DV-3178": { "desktop": "oI2rI", "mobile": "YhD7N" },
+      "DV-1945": { "desktop": "p5dUWD", "mobile": "D2RMsG" }
+    }
+  },
+  "implementation_rule": "One shared template driven by the property data and feature configuration, with the accepted examples used as fixtures.",
+  "open_implementation_decisions": ["OPEN-006", "OPEN-007"],
+  "implementation_authorized": false,
+  "runtime_verified": false
+}

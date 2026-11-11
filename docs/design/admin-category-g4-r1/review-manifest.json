@@ -1,0 +1,367 @@
+{
+  "task": "UID-010",
+  "version": "G4-r1",
+  "date": "2026-11-11",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_approved",
+  "owner_approval": {
+    "date": "2026-11-11",
+    "quote": "อนุมัติชุด G4-r1 รวมแบบลบหมวดที่แก้แล้ว",
+    "scope": "G4-r1 visual baseline, including the revised category deletion on desktop and mobile",
+    "handoff": "retained_at_owner_request",
+    "implementation_authorized": false
+  },
+  "scope": "Desktop and mobile category administration, Home shortcut outcomes, and revised category deletion",
+  "native_source": {
+    "path": "docs/design/dsd-001/papaipak-ui.pen",
+    "boards": [
+      {
+        "id": "cmzlg",
+        "role": "Desktop category editor"
+      },
+      {
+        "id": "yKNTY",
+        "role": "Desktop save Toast"
+      },
+      {
+        "id": "RFT2L",
+        "role": "Desktop create, reorder, and property search"
+      },
+      {
+        "id": "acWpV",
+        "role": "Mobile category administration"
+      },
+      {
+        "id": "le908",
+        "role": "Mobile picker, position selection, and save states"
+      },
+      {
+        "id": "HZhcU",
+        "role": "Desktop and mobile Home shortcut outcomes"
+      },
+      {
+        "id": "fEcRw",
+        "role": "Editor states and confirmations"
+      },
+      {
+        "id": "AIg16",
+        "role": "Desktop and mobile category deletion"
+      }
+    ]
+  },
+  "source_documents": [
+    {
+      "path": "docs/design/admin-category-management-brief.md",
+      "sha256": "11f470643808475c9e1a52cd1f45eb5d85af530691d0954d13537075f6a315e2",
+      "version": "1.33"
+    },
+    {
+      "path": "docs/design/admin-category-management-interaction-spec.md",
+      "sha256": "3f5263208ebedaa66b071d8abbf05c0026d72707a6716afc8e992bd8fa81a1b1",
+      "version": "1.27"
+    }
+  ],
+  "review_images": [
+    {
+      "frame": "ZcbIh",
+      "path": "docs/design/admin-category-mockup-r1/ZcbIh.png",
+      "sha256": "a78d56566b63f635d864849a846d43e676fbf8312e5d0be2015c90550ae18ec0",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "frame": "WvlTe",
+      "path": "docs/design/admin-category-mockup-r1/WvlTe.png",
+      "sha256": "aaaffbfeb503afd8bafd7eaa6ae98cff9ac38a27ea61feee0a50b46dbd813607",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "frame": "KXQMd",
+      "path": "docs/design/admin-category-mockup-r1/KXQMd.png",
+      "sha256": "72cbeea9d18ceb14761e26ff614bf061c1692be5a33115c92a881dfaaf811ef1",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "frame": "VDWFK",
+      "path": "docs/design/admin-category-mockup-r1/VDWFK.png",
+      "sha256": "51d3b07edd3af7e6d1bc866d4be480f67a0537f6531f98b7b0c87a4e1183b3b5",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "frame": "edjl8",
+      "path": "docs/design/admin-category-mockup-r2/edjl8.png",
+      "sha256": "444f69acdf3a683dbb72f0b44fe1040d6e61e3c2b6770db0808931aa3c9c5075",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "frame": "mGHiv",
+      "path": "docs/design/admin-category-mockup-r2/mGHiv.png",
+      "sha256": "f3cfd8be6037b9c82b0b2d4c265fa4c9f13f2af4a3fa82bc16162a3725ec0636",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "frame": "TbiDi",
+      "path": "docs/design/admin-category-mockup-r2/TbiDi.png",
+      "sha256": "c4958181373e02ee985fb17f9c237771e26131cea720e8d908bcea6069feed71",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "frame": "x7qqX",
+      "path": "docs/design/admin-category-mockup-r2/x7qqX.png",
+      "sha256": "3f327bc3f13a8935b512392bbfcfb9c3e5b478658a10477a2c7ac20175c7f921",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "frame": "G5NhQh",
+      "path": "docs/design/admin-category-mockup-r2/G5NhQh.png",
+      "sha256": "e8831de19b99e3cb8470bd28038cac0e09197e5e7ae048209d4471247d7100b9",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "frame": "X5Xr2J",
+      "path": "docs/design/admin-category-mockup-r2/X5Xr2J.png",
+      "sha256": "b67164b62e2cf0a7aa537c67966221ac8fc4b7496e90a8e295a2a21f92322f67",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "HOI7J",
+      "path": "docs/design/admin-category-mockup-r2/HOI7J.png",
+      "sha256": "27821fb24f8469472da3676b66654ec4b7046c70514ff6d839927a2495826a8b",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "y3hSSp",
+      "path": "docs/design/admin-category-mockup-r2/y3hSSp.png",
+      "sha256": "b1aaae86258b9e5bd80d6a4c7fc29e5dc6b35ab14eeb4a2860780de1d8815efc",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "R6d6U",
+      "path": "docs/design/admin-category-mockup-r2/R6d6U.png",
+      "sha256": "baa69ad7b21881665ca2663ab49eb77f81e5ae455b6b6c9c90428c969a05342b",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "KhSmy",
+      "path": "docs/design/admin-category-mockup-r2/KhSmy.png",
+      "sha256": "63c8079f7b235250d1ef008ce48171c632baf0d0d5862577dc4a8828ba89c56c",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "Q6090J",
+      "path": "docs/design/admin-category-mockup-r2/Q6090J.png",
+      "sha256": "75d8ab7e89195a722fc10bbe3a89aac43eb4471a92a6e4b604da880e2e259672",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "o1Bkl8",
+      "path": "docs/design/admin-category-mockup-r2/o1Bkl8.png",
+      "sha256": "cce8f957568406ebed4463f22b6e8cfc5dc3c9e85b3e87c7d8f3bdf4888f54d7",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "BjDKn",
+      "path": "docs/design/admin-category-mockup-r2/BjDKn.png",
+      "sha256": "64500ea76d75edec3b48a03f6731d75b2a7be3a3d1382c764dee66f2dbd9e4ca",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "Y7HLFQ",
+      "path": "docs/design/admin-category-mockup-r2/Y7HLFQ.png",
+      "sha256": "62fa15738d901c3fed53d640a81d8c25039a45a385ff1ecb7e6f35739c0a9294",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "YXRma",
+      "path": "docs/design/admin-category-mockup-r2/YXRma.png",
+      "sha256": "f500ad388d9e045a90f17c8690276ecf9d056c952d43ce11cc80b9a23639e3a7",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "QVPt2",
+      "path": "docs/design/admin-category-mockup-r2/QVPt2.png",
+      "sha256": "fd1e9bca6eb5b69e4e846f391e580c4da7718d0a072e8d69b304b69a6e7cf2c9",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "BkuSp",
+      "path": "docs/design/admin-category-mockup-r2/BkuSp.png",
+      "sha256": "3f742dafb0ae19573984bbc3946dc9b4ea60e0b31210dd0ac4b2a9eb535ad2ae",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "qpaVn",
+      "path": "docs/design/admin-category-mockup-r2/qpaVn.png",
+      "sha256": "ddb81a33948926a3af963478a5a79fa9db0f050e639cd14c9c2494f108660c30",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "H2WU6",
+      "path": "docs/design/admin-category-mockup-r2/H2WU6.png",
+      "sha256": "bf4eeae8e3b4641a7234aca09519af3d4b6ab7534069f23b57cab07ae2f6e968",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "L17yC",
+      "path": "docs/design/admin-category-mockup-r2/L17yC.png",
+      "sha256": "da7a40482c0ce7b40992b0607f768754f2f93ecf40c44777b083e5d7e9386c26",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "FJxQQ",
+      "path": "docs/design/admin-category-mockup-r2/FJxQQ.png",
+      "sha256": "377c41006b7e12a7b67ebf875a54614141c39bb4715aa0a9ca6d7afce8b987ce",
+      "width": 1440,
+      "height": 420
+    },
+    {
+      "frame": "IZ58d",
+      "path": "docs/design/admin-category-mockup-r2/IZ58d.png",
+      "sha256": "ca3b4ad3e99e1b8d261ee9bd950e3c858a659c0e536e3283949c772e1a0f00b8",
+      "width": 1440,
+      "height": 420
+    },
+    {
+      "frame": "cRane",
+      "path": "docs/design/admin-category-mockup-r2/cRane.png",
+      "sha256": "649aa33af1dfa2eacdca325b279511b9b84dfe6a706beb58e689106fe450cec1",
+      "width": 1440,
+      "height": 420
+    },
+    {
+      "frame": "FYwPs",
+      "path": "docs/design/admin-category-mockup-r2/FYwPs.png",
+      "sha256": "cf35efdd1d531725f64c355574c08e44b5115b033d49baf292898c082ff46f57",
+      "width": 390,
+      "height": 435
+    },
+    {
+      "frame": "w3iRv",
+      "path": "docs/design/admin-category-mockup-r2/w3iRv.png",
+      "sha256": "77210a52586415cfcb4f74cde262f1978903585bae4bbf03111a2b1e56f11244",
+      "width": 390,
+      "height": 435
+    },
+    {
+      "frame": "VWDcv",
+      "path": "docs/design/admin-category-mockup-r2/VWDcv.png",
+      "sha256": "44f7929edcd9a2931b8b1fdef4001632da0f18c876be8cc4bdaf71c3e186c6ab",
+      "width": 390,
+      "height": 435
+    },
+    {
+      "frame": "RWqjV",
+      "path": "docs/design/admin-category-mockup-r2/RWqjV.png",
+      "sha256": "aec42c806e7fa9a5d7926796727bd5d19d6c27bb1508210ee9059037d51907ca",
+      "width": 390,
+      "height": 546
+    },
+    {
+      "frame": "D7efU",
+      "path": "docs/design/admin-category-mockup-r2/D7efU.png",
+      "sha256": "16c3056c64c3c6eaf1fe3b8885002a725240c09ecf62199ee416551da6e8fa7e",
+      "width": 1090,
+      "height": 900
+    },
+    {
+      "frame": "VztOT",
+      "path": "docs/design/admin-category-delete-mockup/VztOT.png",
+      "sha256": "a78d56566b63f635d864849a846d43e676fbf8312e5d0be2015c90550ae18ec0",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "frame": "QIqoU",
+      "path": "docs/design/admin-category-delete-mockup/QIqoU.png",
+      "sha256": "3a1ba2cacb2138f97ac0b6f8b850f6a75d813b1b615f3c4ba77dadb6e75e4063",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "frame": "aMd9q",
+      "path": "docs/design/admin-category-delete-mockup/aMd9q.png",
+      "sha256": "bf1bbd4b716f430fbb05f2bb9f7682fa148cd6e2edeff6636fb58d2336cf7d1a",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "frame": "DWg6t",
+      "path": "docs/design/admin-category-delete-mockup/DWg6t.png",
+      "sha256": "3b1dd86d408ba04e2645755aef283c6828b7a6aa7cf869dfb0be4d2df9898b38",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "frame": "z9ghrU",
+      "path": "docs/design/admin-category-delete-mockup/z9ghrU.png",
+      "sha256": "b1aaae86258b9e5bd80d6a4c7fc29e5dc6b35ab14eeb4a2860780de1d8815efc",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "jnxpc",
+      "path": "docs/design/admin-category-delete-mockup/jnxpc.png",
+      "sha256": "1803b4cdc9832d8adee6de80daea34fc80a2f1416d762929cdb831890467e1d3",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "f5WzG",
+      "path": "docs/design/admin-category-delete-mockup/f5WzG.png",
+      "sha256": "7acd4718430d9a85a62a5c95c1b215893e9156d6688585dd7656ab19205c739b",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "frame": "Kxl2l",
+      "path": "docs/design/admin-category-delete-mockup/Kxl2l.png",
+      "sha256": "dc2d99605e9d5b5753be62d4215a7b7472569ab27b4f401fa412324d454e9975",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "component_reference_images": [
+    {
+      "frame": "DeFWF",
+      "path": "docs/design/admin-category-mockup-r1/DeFWF.png",
+      "sha256": "9814e92c147fc62abfb8b196cec54913e6cabe3ee5c394047917719d98df7367",
+      "width": 450,
+      "height": 380
+    }
+  ],
+  "visual_checks": {
+    "desktop_and_mobile_editor_delete_next_to_save": true,
+    "mobile_deletion_confirmation_and_failure_use_bottom_sheet": true,
+    "home_fit_and_overflow_share_eight_slot_limit": true,
+    "runtime_tested": false
+  },
+  "open_handoff_items": [
+    "Image upload file types, size, aspect ratio and crop",
+    "Measured breakpoint for the shortcut strip and long-label behavior",
+    "Admin authorization and catalog source contract for live data",
+    "Runtime interaction, accessibility and reduced-motion verification"
+  ]
+}

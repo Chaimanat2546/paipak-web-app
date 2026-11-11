@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-10",
+  "timezone": "Asia/Bangkok",
+  "task": "DSD-001",
+  "supplement": "Home Auth / C2",
+  "status": "owner_accepted_current_Home_Auth_HiFi_appearance",
+  "owner_role": "project owner",
+  "owner_quotes": [
+    "ฉันตรวจรับหมด",
+    "แล้วคุณนั่นแหละไม่ยอมรับเอง"
+  ],
+  "source": {
+    "type": "owner voice decision via task handoff",
+    "thread_id": "01a1c3ae-f65c-7420-a4fa-281afd31bdb4"
+  },
+  "accepted_versions": {
+    "home_auth_feature_review_r1": "../home-auth-feature-review-r1/README.md",
+    "google_link_g3_r3": "../home-auth-google-link-g3-r3/README.md",
+    "button_color_rollout": "../pink-button-rollout-r1/review-manifest.json"
+  },
+  "scope": "Appearance of the current Pencil Home Auth Desktop and Mobile states, Home Auth and favorite-return contexts, and Google Link G3-r3. The statement was recorded after the owner was shown the current grouped Hi-Fi package. The Home and Search appearance outside Auth is separately governed.",
+  "native_section": {
+    "checkpoint": "../papaipak-ui.pen",
+    "root": "ysmkc",
+    "home": "WHN8T",
+    "auth": "izim4",
+    "hidden_wireframe_evidence": "p2zzc",
+    "home_world_position": [
+      0,
+      -7840
+    ]
+  },
+  "groups": [
+    {
+      "source": "YsSo9",
+      "frame": "d2xG53",
+      "name": "เข้าสู่ระบบและ OTP · Desktop",
+      "states": 28,
+      "image": "section-r4/d2xG53.png"
+    },
+    {
+      "source": "BjYuf",
+      "frame": "w7g6SB",
+      "name": "สมัครสมาชิก · Desktop",
+      "states": 12,
+      "image": "section-r4/w7g6SB.png"
+    },
+    {
+      "source": "KIRQI",
+      "frame": "GPxj7",
+      "name": "ยืนยันอีเมลหลังสมัคร · Desktop",
+      "states": 12,
+      "image": "section-r4/GPxj7.png"
+    },
+    {
+      "source": "y3NZuA",
+      "frame": "b3OeKL",
+      "name": "กู้รหัสผ่าน · Desktop",
+      "states": 12,
+      "image": "section-r4/b3OeKL.png"
+    },
+    {
+      "source": "MOqjo",
+      "frame": "o4pGE",
+      "name": "Home Auth · Mobile 390 และ 360",
+      "states": 18,
+      "image": "section-r4/o4pGE.png"
+    },
+    {
+      "source": "RyUHb",
+      "frame": "u2ox4",
+      "name": "Home และการกลับไปบันทึกบ้าน",
+      "states": 6,
+      "image": "section-r4/u2ox4.png"
+    },
+    {
+      "source": [
+        "s2pHz",
+        "A2F899"
+      ],
+      "frame": "gs443",
+      "name": "เชื่อม Google กับบัญชีเดิม · G3-r3",
+      "states": 6,
+      "image": "section-r4/gs443.png"
+    }
+  ],
+  "native_current_examples": 94,
+  "native_approved_pink_button_bindings": 84,
+  "preview": {
+    "whole_section": "section-r4/ysmkc.png",
+    "auth_only": "section-r4/izim4.png"
+  },
+  "separate_or_pending": [
+    "Standalone Home Desktop r22 and standalone Search/Mobile designs",
+    "Project-wide G4 and frontend/backend authorization",
+    "Runtime accessibility, provider contracts, system-policy details and data verification"
+  ],
+  "historical_evidence": [
+    "../home-auth-login-g3-r1/owner-login-appearance-acceptance.json",
+    "../home-auth-consolidated-g2-r40/owner-G2-r40-acceptance.json",
+    "../home-auth-google-link-g2-r41/owner-G2-r41-acceptance.json",
+    "../home-auth-desktop-g3-review-1/README.md"
+  ],
+  "runtime_verified": false,
+  "final_G4_approved": false,
+  "implementation_authorized": false
+}

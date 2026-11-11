@@ -1,8 +1,16 @@
 # Home Auth Desktop · ข้อกำหนดระหว่างหารือ
 
+[Home Auth ที่ยืนยันแล้ว](home-auth-confirmed/README.md) รวมภาพล่าสุดและหลักฐานการรับโครง ขั้นตอน หน้าตา ข้อกำหนดระบบ และสีปุ่ม
+
+10 พฤศจิกายน 2026 · **เจ้าของตรวจรับหน้าตา Home Auth Hi-Fi ชุดปัจจุบัน** ครอบคลุม Login และ OTP, สมัครสมาชิก, ยืนยันอีเมล, กู้รหัสผ่าน บน Desktop และตัวอย่าง Mobile 390/360 รวมบริบทเปิด Auth จาก Home การกลับไปบันทึกบ้าน และ Google Link G3-r3 ขอบเขตนี้เป็นการรับหน้าตาของ Auth การรับ G4 และการตรวจระบบจริงยังแยกกัน [หลักฐานการตรวจรับ](home-auth-confirmed/owner-hifi-acceptance.json)
+
+ข้อความวันที่ 5 พฤศจิกายนด้านล่างเป็นบันทึกสถานะและขอบเขตของรอบ Wireframe
+
 5 พฤศจิกายน2026 · DSD-001 / C2 · **เจ้าของรับWireframe G2-r40พร้อมinteraction draft-1แล้ว; วันนี้จบเฉพาะWireframe หยุดUI/High-Fi; Final G4ยังไม่รับ**
 
 ขอบเขตอ้าง [G0 plan-1](home-auth-g0-approval.json): Login/Register/Forgot-reset บนHome Desktop1440px, [อีเมลหรือเบอร์โทร + รหัสผ่าน และ Google](home-auth-phone-login-amendment.json) ตามข้อแก้ไขล่าสุด ไม่รวมLINE/Profile/Mobileหรือระบบจริง
+
+ข้อกำหนดระบบที่เจ้าของยืนยันเพิ่มเติมอยู่ใน [Home Auth Desktop · ข้อกำหนดระบบ](home-auth-desktop-system-requirements.md) ครอบคลุม OTP, การเชื่อม Google กับบัญชีเดิม, การกู้รหัสผ่าน, เซสชัน และการจัดการเมื่อยังไม่ทราบผลคำขอ โดยอ้างอิง Wireframe G2-r40 ที่รับแล้ว
 
 ## ข้อมูลสมัครด้วยอีเมล — ข้อสรุปล่าสุด
 

@@ -1,0 +1,141 @@
+{
+  "scope": "Property Detail r3 native Pencil review",
+  "captureDate": "2026-11-10",
+  "source": "Public image proxies on the legacy villa detail pages",
+  "cases": [
+    {
+      "id": "3209",
+      "page": "https://www.pmheevilla.com/villas/3209",
+      "title": "The Chelonia 2 (B18)",
+      "zoneLabel": "พัทยา",
+      "price": 4900,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "people": 10,
+      "raw": 1,
+      "eligible": 1,
+      "review": 0,
+      "initialGalleryLoadFailed": false,
+      "zones": {
+        "cover": 1
+      }
+    },
+    {
+      "id": "3178",
+      "page": "https://www.pmheevilla.com/villas/3178",
+      "title": "LYYA VILLA",
+      "zoneLabel": "พัทยา",
+      "price": 13900,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "people": 25,
+      "raw": 301,
+      "eligible": 261,
+      "review": 40,
+      "initialGalleryLoadFailed": false,
+      "zones": {
+        "inside": 86,
+        "bedroom": 53,
+        "kitchen": 5,
+        "bathroom": 32,
+        "outside": 81,
+        "parking": 3,
+        "cover": 1
+      }
+    },
+    {
+      "id": "611",
+      "page": "https://www.pmheevilla.com/villas/611",
+      "title": "Veranda 1808",
+      "zoneLabel": "พัทยา",
+      "price": null,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "people": 4,
+      "raw": 14,
+      "eligible": 14,
+      "review": 0,
+      "initialGalleryLoadFailed": false,
+      "zones": {
+        "bathroom": 1,
+        "inside": 3,
+        "bedroom": 1,
+        "outside": 7,
+        "kitchen": 1,
+        "cover": 1
+      }
+    }
+  ],
+  "assets": [
+    {
+      "villaId": "3209",
+      "imageId": "152983",
+      "zone": "cover",
+      "page": "https://www.pmheevilla.com/villas/3209",
+      "source": "https://www.pmheevilla.com/api/villas/3209/images?imageId=152983&w=1920&q=60",
+      "file": "villa-3209-cover-1.webp",
+      "bytes": 98434,
+      "sha256": "3e17f62638ad6b64348d467eaff55b8e061afe794e8e1c8b9a201d57c4078a9b"
+    },
+    {
+      "villaId": "3178",
+      "imageId": "148236",
+      "zone": "cover",
+      "page": "https://www.pmheevilla.com/villas/3178",
+      "source": "https://www.pmheevilla.com/api/villas/3178/images?imageId=148236&w=1920&q=60",
+      "file": "villa-3178-cover-1.webp",
+      "bytes": 77366,
+      "sha256": "d4f3ac9c14ed0832e9efd9dc4119c61388bf57cc2f18759e2788cccfd0f2d46d"
+    },
+    {
+      "villaId": "3178",
+      "imageId": "148168",
+      "zone": "outside",
+      "page": "https://www.pmheevilla.com/villas/3178",
+      "source": "https://www.pmheevilla.com/api/villas/3178/images?imageId=148168&w=1920&q=60",
+      "file": "villa-3178-outside-2.webp",
+      "bytes": 106616,
+      "sha256": "b54fbada76ad04810b341469cbe3bb05f3f0fd3f9f05ebe2d682999ec4d0e8cc"
+    },
+    {
+      "villaId": "3178",
+      "imageId": "147992",
+      "zone": "inside",
+      "page": "https://www.pmheevilla.com/villas/3178",
+      "source": "https://www.pmheevilla.com/api/villas/3178/images?imageId=147992&w=1920&q=60",
+      "file": "villa-3178-inside-3.webp",
+      "bytes": 10694,
+      "sha256": "4a0a4f988fef3ec8ec141a1d153a9f26d072596ca08b751a3479c068ae9aa674"
+    },
+    {
+      "villaId": "3178",
+      "imageId": "148078",
+      "zone": "bedroom",
+      "page": "https://www.pmheevilla.com/villas/3178",
+      "source": "https://www.pmheevilla.com/api/villas/3178/images?imageId=148078&w=1920&q=60",
+      "file": "villa-3178-bedroom-4.webp",
+      "bytes": 24276,
+      "sha256": "a0ebd8ed4b616b1fdb5f3e633d3d9bd8190833e215411338d37512666e0f123c"
+    },
+    {
+      "villaId": "3178",
+      "imageId": "148136",
+      "zone": "bathroom",
+      "page": "https://www.pmheevilla.com/villas/3178",
+      "source": "https://www.pmheevilla.com/api/villas/3178/images?imageId=148136&w=1920&q=60",
+      "file": "villa-3178-bathroom-5.webp",
+      "bytes": 16242,
+      "sha256": "1ea983e0ba1bbd5093a1e891239025c5076326d9d0144a722c2c58efaae4d93f"
+    },
+    {
+      "villaId": "611",
+      "imageId": "45890",
+      "zone": "cover",
+      "page": "https://www.pmheevilla.com/villas/611",
+      "source": "https://www.pmheevilla.com/api/villas/611/images?imageId=45890&w=1920&q=60",
+      "file": "villa-611-cover-1.webp",
+      "bytes": 93938,
+      "sha256": "72e1b8cbd33e71b7c60280d95eb4dfcf17176e4697e0dd99dff607a8894711e7"
+    }
+  ]
+}
