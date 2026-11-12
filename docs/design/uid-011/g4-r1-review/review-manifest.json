@@ -1,0 +1,33 @@
+{
+  "task": "UID-011",
+  "gate": "G4",
+  "revision": "G4-r1",
+  "date": "2026-11-12",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_approved",
+  "owner_approval": {
+    "date": "2026-11-12",
+    "quote": "โอเค อนุมัติ UID-011 G4-r1 ทั้งคอมและมือถือ แล้วจบงานออกแบบ",
+    "scope": "G4-r1 desktop and mobile design, including the 12 revised Pencil frames and their interaction notes",
+    "design_task_closed": true
+  },
+  "implementation_authorized": false,
+  "baseline": "../g4-review/review-manifest.json",
+  "native_source": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "board": "M16esr",
+    "name": "UID-011 · คลิป TikTok หน้าแรก · G4-r1 อนุมัติแล้ว",
+    "task_section": "FvFoc",
+    "task_section_name": "UID-011 · คลิป TikTok หน้าแรก",
+    "final_section": "uzxJt",
+    "final_section_name": "UID-011 · คลิป TikTok หน้าแรก · แบบสุดท้ายที่อนุมัติ"
+  },
+  "frames": [
+    { "state": "home_first_clip", "desktop": "P5gBC", "mobile": "uCX6Z" },
+    { "state": "home_next_clip", "desktop": "Fqeei", "mobile": "vl0OV" },
+    { "state": "home_single_clip", "desktop": "zE3YW", "mobile": "VlE70" },
+    { "state": "home_temporary_player_error", "desktop": "TVJMu", "mobile": "EgSav" },
+    { "state": "admin_source_title_and_credit_unavailable", "desktop": "N7Yuk", "mobile": "Ik6f9" },
+    { "state": "admin_manual_title_entered", "desktop": "wa8Av", "mobile": "dkT2U" }
+  ]
+}

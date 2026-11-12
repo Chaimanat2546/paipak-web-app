@@ -946,6 +946,96 @@ tasks:
   approval_status: approved
   approval_scope: g4_r1_visual_baseline_including_revised_category_deletion
   g4_review_manifest: docs/design/admin-category-g4-r1/review-manifest.json
+- id: UID-011
+  title: ระบบจัดการคลิป TikTok บนหน้าแรก
+  stage: screens
+  kind: design
+  status: completed
+  handoff: manual_user_initiated
+  review_gate: G4
+  g0_status: owner_approved
+  g0_approved_on: '2026-11-12'
+  g0_approval_instruction: อนุมัติ UID-011 ที่ G0 ตามที่สรุป
+  g1_status: owner_approved
+  g1_approved_on: '2026-11-12'
+  g1_approval_instruction: อนุมัติ UID-011 ที่ G1 ตามนี้
+  g1_direction_proposal: tasks/design/UID-011.md
+  g2_status: owner_approved
+  g2_approved_on: '2026-11-12'
+  g2_approval_instruction: อนุมัติ UID-011 ที่ G2 ตามนี้
+  g2_review_package: docs/design/uid-011/g2-review/README.md
+  g2_pencil_group: rtD9Y
+  g3_status: owner_approved
+  g3_approved_on: '2026-11-12'
+  g3_approval_record: docs/design/uid-011/g3-review/owner-approval.json
+  g3_review_package: docs/design/uid-011/g3-review/README.md
+  g3_pencil_group: K6s5t2
+  g3_alignment_reference: UID-010 G4-r1
+  g3_home_reference: docs/design/dsd-001/home-g4-r1/review-manifest.json
+  g3_review_frame_count: 45
+  g4_status: owner_approved
+  g4_approved_on: '2026-11-12'
+  approval_status: approved
+  approval_scope: g4_desktop_mobile_visual_baseline_and_interaction_specification
+  g4_review_package: docs/design/uid-011/g4-review/README.md
+  g4_review_manifest: docs/design/uid-011/g4-review/review-manifest.json
+  g4_pencil_group: i89df
+  g4_review_frame_count: 55
+  g4_revision: G4-r1
+  g4_revision_status: owner_approved
+  g4_revision_approved_on: '2026-11-12'
+  g4_revision_review_package: docs/design/uid-011/g4-r1-review/README.md
+  g4_revision_review_manifest: docs/design/uid-011/g4-r1-review/review-manifest.json
+  g4_revision_pencil_group: M16esr
+  pencil_task_section: FvFoc
+  g4_final_pencil_section: uzxJt
+  g4_revision_review_frame_count: 12
+  g0_confirmed_decisions:
+  - Admins add clips by manually pasting TikTok links, confirmed on 2026-11-12.
+  - Show all enabled clips that are ready to display in the saved order. On save, show a dismissible confirmation about potentially slower homepage loading when seven or more clips will be shown.
+  - Use only TikTok covers. Keep a clip hidden when its cover fails to load. Admins cannot replace the cover.
+  - A clip may optionally link to one property. Admins search by property name or DV code using the category-management pattern.
+  - Show a View property button only on linked clips. The button opens that property's detail page directly.
+  - Keep the clip visible and hide the View property button when the linked property's detail page cannot be viewed.
+  - Use the TikTok title by default and allow admins to edit the website display title. Use source credit when available and link to TikTok when credit cannot be retrieved.
+  - Once a TikTok cover becomes available again, the admin must re-enable the clip and save before it returns to the homepage.
+  - Notify clip managers through the admin notification bell when a clip is hidden because its cover cannot load or is confirmed unplayable. The notification names the clip and problem and opens the affected clip directly.
+  - On the homepage, offer retry for a temporary player load failure, hide confirmed unplayable clips, and hide the TikTok section when no displayable clips remain.
+  - Use a single clip manager permission set for managing clips, saving homepage changes, and receiving clip notifications.
+  depends_on:
+  - UID-001
+  - UID-010
+  decision_refs:
+  - BRAND-001
+  - PAGE-001
+  scope: Desktop and mobile admin design for manually curating TikTok links, ordering clips, controlling homepage visibility, and notifying admins about clip issues.
+  deliverables:
+  - desktop_and_mobile_wireframes_and_high_fidelity_screens
+  - homepage_display_state_examples
+  - interaction_specification_and_g4_review_package
+  artifact_links:
+  - tasks/design/UID-011.md
+  - docs/design/uid-011/g2-review/README.md
+  - docs/design/uid-011/g3-review/README.md
+  - docs/design/uid-011/g4-review/README.md
+  - docs/design/uid-011/g4-review/interaction-spec.md
+  acceptance_criteria:
+  - Show how admins add, preview, edit, order, show, hide, and remove clips at both sizes.
+  - Show how saving, discarding, and failed saves affect the homepage clip list.
+  - Cover zero, one, and multiple clips, retry for temporary player load failures, hidden confirmed unplayable clips, a hidden section with no displayable clips, and invalid or duplicate links.
+  - Specify keyboard ordering and a non-drag ordering method on mobile.
+  - Close the entire agreed scope in one G4 review package.
+  - Show regular saving for six enabled clips and a confirmation with a return-to-edit option for seven or more.
+  - Show a hidden clip when its TikTok cover cannot load. Show property search by name or DV code, optional single-property selection, the direct detail link, and the clip without its property button when the linked detail page cannot be viewed.
+  - Show the default TikTok title, its editable website display title, and the source credit or TikTok link when credit is unavailable.
+  - Show manual re-enabling after cover recovery and admin-bell notifications for both confirmed triggers with direct navigation to the affected clip.
+  - Specify the single clip manager permission set and the actions it grants.
+  open_g0_questions: []
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
 - id: UXD-003
   title: Usability prototype and user testing spec
   stage: ux

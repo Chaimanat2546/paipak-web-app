@@ -1,0 +1,668 @@
+{
+  "task": "UID-011",
+  "gate": "G4",
+  "date": "2026-11-12",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_approved",
+  "owner_approval": {
+    "date": "2026-11-12",
+    "quote": "โอเค อนุมัติ UID-011 ที่ G4 ตามนี้ บันทึกผลอนุมัติแล้วปิดงานออกแบบได้เลย",
+    "scope": "G4 desktop and mobile design baseline, including 55 Pencil frames and the interaction specification",
+    "design_task_closed": true
+  },
+  "implementation_authorized": false,
+  "source_approval": "docs/design/uid-011/g3-review/owner-approval.json",
+  "native_source": {
+    "path": "docs/design/dsd-001/papaipak-ui.pen",
+    "board": "i89df",
+    "board_name": "UID-011 · คลิป TikTok หน้าแรก · G4 ชุดตรวจสุดท้าย",
+    "near": "right of K6s5t2"
+  },
+  "references": [
+    "docs/design/uid-011/g2-review/README.md",
+    "docs/design/admin-category-g4-r1/review-manifest.json",
+    "docs/design/dsd-001/home-g4-r1/review-manifest.json"
+  ],
+  "review_frame_count": 55,
+  "review_group_count": 28,
+  "interaction_spec": "interaction-spec.md",
+  "review_index": "README.md",
+  "groups": [
+    {
+      "id": "ze2Wk",
+      "name": "UI-01 · รายการและแก้คลิป",
+      "source": "orfvr",
+      "frames": [
+        {
+          "source": "eIRTR",
+          "id": "OihXU",
+          "name": "UI-01 · แก้คลิป · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "OihXU.png"
+        },
+        {
+          "source": "IPaKJ",
+          "id": "z1inO9",
+          "name": "UI-01 · แก้คลิป · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "z1inO9.png"
+        }
+      ]
+    },
+    {
+      "id": "BluOT",
+      "name": "UI-12 · หน้าแรก · คลิปที่เชื่อมบ้าน",
+      "source": "g4dOz",
+      "frames": [
+        {
+          "source": "IsqQj",
+          "id": "Kv6D9",
+          "name": "UI-12 · หน้าแรก · คลิปที่เชื่อมบ้าน · Desktop",
+          "width": 1440,
+          "height": 972,
+          "file": "Kv6D9.png"
+        },
+        {
+          "source": "XxpyT",
+          "id": "VLcfr",
+          "name": "UI-12 · หน้าแรก · คลิปที่เชื่อมบ้าน · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "VLcfr.png"
+        }
+      ]
+    },
+    {
+      "id": "nk727",
+      "name": "UI-02 · เพิ่มคลิปจากลิงก์",
+      "source": "stG8o",
+      "frames": [
+        {
+          "source": "gHHlh",
+          "id": "WRebQ",
+          "name": "UI-02 · เพิ่มคลิป · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "WRebQ.png"
+        },
+        {
+          "source": "SqYoy",
+          "id": "S3ZsN",
+          "name": "UI-02 · เพิ่มคลิป · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "S3ZsN.png"
+        }
+      ]
+    },
+    {
+      "id": "aZUUA",
+      "name": "UI-03 · ค้นและเลือกบ้านพัก",
+      "source": "e2cj7Q",
+      "frames": [
+        {
+          "source": "Pk6Yh",
+          "id": "gJH1u",
+          "name": "UI-03 · เลือกบ้านพัก · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "gJH1u.png"
+        },
+        {
+          "source": "h0U67M",
+          "id": "TE1Ug",
+          "name": "UI-03 · เลือกบ้านพัก · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "TE1Ug.png"
+        }
+      ]
+    },
+    {
+      "id": "O9QCq",
+      "name": "UI-04 · จัดลำดับคลิป",
+      "source": "l6goV",
+      "frames": [
+        {
+          "source": "Iq87f",
+          "id": "RPFlk",
+          "name": "UI-04 · จัดลำดับคลิป · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "RPFlk.png"
+        },
+        {
+          "source": "vPjLQ",
+          "id": "U5VNNt",
+          "name": "UI-04 · เลือกตำแหน่งคลิป · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "U5VNNt.png"
+        }
+      ]
+    },
+    {
+      "id": "GfGIJ",
+      "name": "UI-05 · ดูตัวอย่างก่อนบันทึก",
+      "source": "VjljV",
+      "frames": [
+        {
+          "source": "e91mX7",
+          "id": "JueXh",
+          "name": "UI-05 · ตัวอย่างก่อนบันทึก · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "JueXh.png"
+        },
+        {
+          "source": "j4MkT3",
+          "id": "o7JNTi",
+          "name": "UI-05 · ตัวอย่างก่อนบันทึก · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "o7JNTi.png"
+        }
+      ]
+    },
+    {
+      "id": "yFJkh",
+      "name": "UI-06 · ยืนยันเมื่อแสดงตั้งแต่ 7 คลิป",
+      "source": "z2aqD",
+      "frames": [
+        {
+          "source": "XMMk9",
+          "id": "BtNaP",
+          "name": "UI-06 · ยืนยัน 7 คลิป · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "BtNaP.png"
+        },
+        {
+          "source": "pSHrB",
+          "id": "V0Hs6n",
+          "name": "UI-06 · ยืนยัน 7 คลิป · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "V0Hs6n.png"
+        }
+      ]
+    },
+    {
+      "id": "SWMqz",
+      "name": "UI-07 · บันทึกไม่สำเร็จ",
+      "source": "Ybdyi",
+      "frames": [
+        {
+          "source": "G9UCK",
+          "id": "ErZXD",
+          "name": "UI-07 · บันทึกไม่สำเร็จ · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "ErZXD.png"
+        },
+        {
+          "source": "QxmmL",
+          "id": "tSMtv",
+          "name": "UI-07 · บันทึกไม่สำเร็จ · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "tSMtv.png"
+        }
+      ]
+    },
+    {
+      "id": "knvXI",
+      "name": "UI-08 · กระดิ่งแจ้งเตือน",
+      "source": "V9rbB",
+      "frames": [
+        {
+          "source": "hgkCT",
+          "id": "A3pv6D",
+          "name": "UI-08 · กระดิ่งแจ้งเตือน · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "A3pv6D.png"
+        },
+        {
+          "source": "nQJuz",
+          "id": "ooqiM",
+          "name": "UI-08 · กระดิ่งแจ้งเตือน · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "ooqiM.png"
+        }
+      ]
+    },
+    {
+      "id": "OPPJN",
+      "name": "UI-09 · เปิดคลิปจากแจ้งเตือน",
+      "source": "H44YYr",
+      "frames": [
+        {
+          "source": "TCATK",
+          "id": "esu2N",
+          "name": "UI-09 · คลิปที่มีปัญหาภาพปก · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "esu2N.png"
+        },
+        {
+          "source": "yiifY",
+          "id": "pPDYX",
+          "name": "UI-09 · คลิปที่มีปัญหาภาพปก · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "pPDYX.png"
+        }
+      ]
+    },
+    {
+      "id": "PuwWR",
+      "name": "UI-10 · ยืนยันก่อนนำคลิปออก",
+      "source": "bnr9J",
+      "frames": [
+        {
+          "source": "eXBUv",
+          "id": "z0qggo",
+          "name": "UI-10 · นำคลิปออก · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "z0qggo.png"
+        },
+        {
+          "source": "ze26G",
+          "id": "r0r78",
+          "name": "UI-10 · นำคลิปออก · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "r0r78.png"
+        }
+      ]
+    },
+    {
+      "id": "j9Fp8d",
+      "name": "UI-11 · ออกจากรายการที่แก้ค้าง",
+      "source": "AJdOa",
+      "frames": [
+        {
+          "source": "KCi9g",
+          "id": "m9EvtE",
+          "name": "UI-11 · งานที่ยังไม่บันทึก · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "m9EvtE.png"
+        },
+        {
+          "source": "HqoyU",
+          "id": "Co739",
+          "name": "UI-11 · งานที่ยังไม่บันทึก · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "Co739.png"
+        }
+      ]
+    },
+    {
+      "id": "F9EGi",
+      "name": "UI-13 · หน้าแรก · คลิปเดียว ไม่มีปุ่มดูบ้าน",
+      "source": "isigz",
+      "frames": [
+        {
+          "source": "uWktL",
+          "id": "Q8ErZ",
+          "name": "UI-13 · หน้าแรก · คลิปเดียว ไม่มีปุ่มดูบ้าน · Desktop",
+          "width": 1440,
+          "height": 972,
+          "file": "Q8ErZ.png"
+        },
+        {
+          "source": "WlnCJ",
+          "id": "xKfZJ",
+          "name": "UI-13 · หน้าแรก · คลิปเดียว ไม่มีปุ่มดูบ้าน · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "xKfZJ.png"
+        }
+      ]
+    },
+    {
+      "id": "AxUZF",
+      "name": "UI-14 · หน้าแรก · โหลดคลิปพลาดชั่วคราว",
+      "source": "B5Q2dn",
+      "frames": [
+        {
+          "source": "T8ZBU",
+          "id": "qx75h",
+          "name": "UI-14 · หน้าแรก · โหลดคลิปพลาดชั่วคราว · Desktop",
+          "width": 1440,
+          "height": 972,
+          "file": "qx75h.png"
+        },
+        {
+          "source": "Z5q3aa",
+          "id": "Qfj50",
+          "name": "UI-14 · หน้าแรก · โหลดคลิปพลาดชั่วคราว · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "Qfj50.png"
+        }
+      ]
+    },
+    {
+      "id": "Y7BQuW",
+      "name": "UI-15 · หน้าแรก · ไม่มีคลิปพร้อมแสดง",
+      "source": "iUX8R",
+      "frames": [
+        {
+          "source": "Cqd88",
+          "id": "g84rG",
+          "name": "UI-15 · หน้าแรก · ไม่มีคลิปพร้อมแสดง · Desktop",
+          "width": 1440,
+          "height": 1390,
+          "file": "g84rG.png"
+        },
+        {
+          "source": "sALj2",
+          "id": "jWYjm",
+          "name": "UI-15 · หน้าแรก · ไม่มีคลิปพร้อมแสดง · Mobile",
+          "width": 390,
+          "height": 1219,
+          "file": "jWYjm.png"
+        }
+      ]
+    },
+    {
+      "id": "HLazo",
+      "name": "UI-16 · หลังบ้าน · รายการว่าง",
+      "source": "Bm1Cn",
+      "frames": [
+        {
+          "source": "frOBa",
+          "id": "C8Yfw",
+          "name": "UI-16 · รายการว่าง · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "C8Yfw.png"
+        },
+        {
+          "source": "rFSUi",
+          "id": "a9Vz6a",
+          "name": "UI-16 · รายการว่าง · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "a9Vz6a.png"
+        }
+      ]
+    },
+    {
+      "id": "WbzKb",
+      "name": "UI-17 · สถานะช่องลิงก์และข้อมูลคลิป",
+      "source": "wvwSj",
+      "frames": [
+        {
+          "source": "E5RMM",
+          "id": "oaIId",
+          "name": "UI-17 · สถานะฟอร์ม · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "oaIId.png"
+        },
+        {
+          "source": "gnef0",
+          "id": "HTBgk",
+          "name": "UI-17 · สถานะฟอร์ม · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "HTBgk.png"
+        }
+      ]
+    },
+    {
+      "id": "FTig1",
+      "name": "UI-18 · สถานะบันทึกและรายการบนมือถือ",
+      "source": "VkMSc",
+      "frames": [
+        {
+          "source": "se5Fk",
+          "id": "W5lDm",
+          "name": "UI-18 · สถานะการบันทึก",
+          "width": 1440,
+          "height": 900,
+          "file": "W5lDm.png"
+        },
+        {
+          "source": "qoNH0",
+          "id": "IEgso",
+          "name": "UI-18 · รายการคลิป · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "IEgso.png"
+        }
+      ]
+    },
+    {
+      "id": "tGsyT",
+      "name": "UI-19 · กำลังบันทึกบนหน้าจอจริง",
+      "source": "iwCxM",
+      "frames": [
+        {
+          "source": "zYHiC",
+          "id": "o6fL5",
+          "name": "UI-19 · กำลังบันทึกบนหน้าจอจริง · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "o6fL5.png"
+        },
+        {
+          "source": "EeI86",
+          "id": "MLegf",
+          "name": "UI-19 · กำลังบันทึกบนหน้าจอจริง · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "MLegf.png"
+        }
+      ]
+    },
+    {
+      "id": "dWqNA",
+      "name": "UI-20 · บันทึกสำเร็จบนหน้าจอจริง",
+      "source": "unaPy",
+      "frames": [
+        {
+          "source": "pL9Bz",
+          "id": "PCj3m",
+          "name": "UI-20 · บันทึกสำเร็จบนหน้าจอจริง · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "PCj3m.png"
+        },
+        {
+          "source": "VA4br",
+          "id": "Y1ddk0",
+          "name": "UI-20 · บันทึกสำเร็จบนหน้าจอจริง · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "Y1ddk0.png"
+        }
+      ]
+    },
+    {
+      "id": "SC713",
+      "name": "UI-21 · หน้าจัดลำดับบนมือถือ",
+      "source": "FtyVm",
+      "frames": [
+        {
+          "source": "TypYs",
+          "id": "j6QwB",
+          "name": "UI-21 · จัดลำดับคลิป · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "j6QwB.png"
+        }
+      ]
+    },
+    {
+      "id": "m0QXz",
+      "name": "UI-08 · แจ้งเตือน · ยังไม่ได้อ่าน",
+      "source": "LoEs0",
+      "frames": [
+        {
+          "source": "bHIWR",
+          "id": "MFC91",
+          "name": "UI-08 · ยังไม่ได้อ่าน · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "MFC91.png"
+        },
+        {
+          "source": "Fb3D2",
+          "id": "HHFZB",
+          "name": "UI-08 · ยังไม่ได้อ่าน · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "HHFZB.png"
+        }
+      ]
+    },
+    {
+      "id": "v8gcwA",
+      "name": "UI-08 · แจ้งเตือน · อ่านครบแล้ว",
+      "source": "Y1HnUa",
+      "frames": [
+        {
+          "source": "vVTUY",
+          "id": "UgPp4",
+          "name": "UI-08 · อ่านครบแล้ว · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "UgPp4.png"
+        },
+        {
+          "source": "sMXEe",
+          "id": "CgUD8",
+          "name": "UI-08 · อ่านครบแล้ว · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "CgUD8.png"
+        }
+      ]
+    },
+    {
+      "id": "r591Z",
+      "name": "ดูตัวอย่างก่อนบันทึก · 6 คลิป",
+      "code": "G4-01",
+      "frames": [
+        {
+          "source": "e91mX7",
+          "id": "GwnoN",
+          "name": "G4-01 · ดูตัวอย่างก่อนบันทึก · 6 คลิป · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "GwnoN.png"
+        },
+        {
+          "source": "j4MkT3",
+          "id": "Rg9QS",
+          "name": "G4-01 · ดูตัวอย่างก่อนบันทึก · 6 คลิป · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "Rg9QS.png"
+        }
+      ]
+    },
+    {
+      "id": "wyt5p",
+      "name": "หน้าแรกหลังบันทึก · 6 คลิป",
+      "code": "G4-02",
+      "frames": [
+        {
+          "source": "IsqQj",
+          "id": "xtobY",
+          "name": "G4-02 · หน้าแรกหลังบันทึก · 6 คลิป · Desktop",
+          "width": 1440,
+          "height": 972,
+          "file": "xtobY.png"
+        },
+        {
+          "source": "XxpyT",
+          "id": "UaDqE",
+          "name": "G4-02 · หน้าแรกหลังบันทึก · 6 คลิป · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "UaDqE.png"
+        }
+      ]
+    },
+    {
+      "id": "X2iY18",
+      "name": "เปิดจากแจ้งเตือน · คลิปเล่นไม่ได้",
+      "code": "G4-03",
+      "frames": [
+        {
+          "source": "TCATK",
+          "id": "iZPSP",
+          "name": "G4-03 · เปิดจากแจ้งเตือน · คลิปเล่นไม่ได้ · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "iZPSP.png"
+        },
+        {
+          "source": "yiifY",
+          "id": "dGAw1",
+          "name": "G4-03 · เปิดจากแจ้งเตือน · คลิปเล่นไม่ได้ · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "dGAw1.png"
+        }
+      ]
+    },
+    {
+      "id": "Eu3G6",
+      "name": "ภาพปกกลับมาแล้ว · คลิปยังซ่อน",
+      "code": "G4-04",
+      "frames": [
+        {
+          "source": "TCATK",
+          "id": "rucLR",
+          "name": "G4-04 · ภาพปกกลับมาแล้ว · คลิปยังซ่อน · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "rucLR.png"
+        },
+        {
+          "source": "yiifY",
+          "id": "ezVBU",
+          "name": "G4-04 · ภาพปกกลับมาแล้ว · คลิปยังซ่อน · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "ezVBU.png"
+        }
+      ]
+    },
+    {
+      "id": "w6CUe",
+      "name": "เลือกตำแหน่งคลิป · ไม่ต้องลาก",
+      "code": "G4-05",
+      "frames": [
+        {
+          "source": "Iq87f",
+          "id": "Hpla6",
+          "name": "G4-05 · เลือกตำแหน่งคลิป · ไม่ต้องลาก · Desktop",
+          "width": 1440,
+          "height": 900,
+          "file": "Hpla6.png"
+        },
+        {
+          "source": "vPjLQ",
+          "id": "u1BUB3",
+          "name": "G4-05 · เลือกตำแหน่งคลิป · ไม่ต้องลาก · Mobile",
+          "width": 390,
+          "height": 844,
+          "file": "u1BUB3.png"
+        }
+      ]
+    }
+  ]
+}
