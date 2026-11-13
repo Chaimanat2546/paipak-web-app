@@ -1,0 +1,66 @@
+{
+  "task": "UID-012",
+  "gate": "G2",
+  "version": "G2-r11",
+  "date": "2026-11-13",
+  "status": "pending_owner_review",
+  "scope": "Desktop homepage preview for unsaved changes",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section": "VDfBM"
+  },
+  "viewport": [
+    1440,
+    900
+  ],
+  "frames": [
+    {
+      "id": "P-01",
+      "title": "มุมมองปกติ · ยังไม่มีการแก้ไข",
+      "group": "uZ1tM",
+      "desktop": "KODvo",
+      "source": "e9MwP9",
+      "changed": false
+    },
+    {
+      "id": "P-02",
+      "title": "เข้าโหมดจัดลำดับ · ยังไม่ได้ย้าย",
+      "group": "FH4Dl",
+      "desktop": "FS7sI",
+      "source": "H4aIQg",
+      "changed": false
+    },
+    {
+      "id": "P-03",
+      "title": "เปลี่ยนสวิตช์ · ตรวจผลก่อนบันทึก",
+      "group": "u8fKYW",
+      "desktop": "VEw0u",
+      "source": "hQzar",
+      "changed": true
+    },
+    {
+      "id": "P-04",
+      "title": "ย้ายตำแหน่งแล้ว · ตรวจผลก่อนบันทึก",
+      "group": "XQcfD",
+      "desktop": "l4P8X",
+      "source": "PbQDj",
+      "changed": true
+    },
+    {
+      "id": "P-05",
+      "title": "บันทึกไม่สำเร็จ · ค่าที่แก้ยังอยู่",
+      "group": "MOD56",
+      "desktop": "faaqd",
+      "source": "Avs8t",
+      "changed": true
+    },
+    {
+      "id": "P-06",
+      "title": "บันทึกสำเร็จ · กลับมุมมองปกติ",
+      "group": "iG3xw",
+      "desktop": "NY3eB",
+      "source": "QYQia",
+      "changed": false
+    }
+  ]
+}

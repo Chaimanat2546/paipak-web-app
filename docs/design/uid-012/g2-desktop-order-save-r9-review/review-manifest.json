@@ -1,0 +1,66 @@
+{
+  "task": "UID-012",
+  "gate": "G2",
+  "version": "G2-r9",
+  "date": "2026-11-13",
+  "status": "pending_owner_review",
+  "scope": "Save order from desktop ordering mode",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section": "rydBs"
+  },
+  "viewport": [
+    1440,
+    900
+  ],
+  "frames": [
+    {
+      "id": "M-01",
+      "title": "เข้าโหมด · ยังไม่ได้ย้าย",
+      "group": "q6Vpa",
+      "desktop": "H4aIQg",
+      "source": "EgjQB",
+      "state": "ready"
+    },
+    {
+      "id": "M-02",
+      "title": "ลากจัดลำดับ",
+      "group": "qkFv5",
+      "desktop": "X4LUzM",
+      "source": "nWgHU",
+      "state": "drag"
+    },
+    {
+      "id": "M-03",
+      "title": "เลือกเลขปลายทาง",
+      "group": "pGJsj",
+      "desktop": "t1wF79",
+      "source": "o6WmQ",
+      "state": "picker"
+    },
+    {
+      "id": "M-04",
+      "title": "ย้ายแล้ว · บันทึกในโหมด",
+      "group": "iwBQ4",
+      "desktop": "PbQDj",
+      "source": "xo0Xw",
+      "state": "dirty"
+    },
+    {
+      "id": "M-05",
+      "title": "บันทึกไม่สำเร็จ · ลองใหม่ในโหมด",
+      "group": "DecQY",
+      "desktop": "Avs8t",
+      "source": "xo0Xw",
+      "state": "failed"
+    },
+    {
+      "id": "M-06",
+      "title": "บันทึกสำเร็จ · กลับมุมมองปกติ",
+      "group": "m22tYL",
+      "desktop": "a2Cgfg",
+      "source": "xo0Xw",
+      "state": "saved"
+    }
+  ]
+}

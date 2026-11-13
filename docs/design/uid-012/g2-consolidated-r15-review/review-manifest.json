@@ -1,0 +1,481 @@
+{
+  "task": "UID-012",
+  "gate": "G2",
+  "version": "G2-r15",
+  "date": "2026-11-13",
+  "timezone": "Asia/Bangkok",
+  "status": "pending_owner_review",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section": "wDkcH",
+    "flow_map": "Kdtqk"
+  },
+  "viewports": {
+    "desktop": [
+      1440,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "frame_count": 88,
+  "paired_states": 44,
+  "owner_confirmed": {
+    "desktop_layout": "Side-by-side list and pin panel, without desktop tabs",
+    "pin_capacity": 10,
+    "homepage_capacity": 3,
+    "pin_preview": false,
+    "order_saved_in_order_mode": true,
+    "cover_ratio": "16:9",
+    "cover_formats": [
+      "JPG",
+      "PNG",
+      "WebP"
+    ],
+    "cover_max_size_mb": 10
+  },
+  "frames": [
+    {
+      "id": "F-01",
+      "key": "list",
+      "title": "รายการบทความ",
+      "group": "hwW6i",
+      "desktop": "y2e76l",
+      "mobile": "gXCed",
+      "sourceDesktop": "p7cr4",
+      "sourceMobile": "NWo3t"
+    },
+    {
+      "id": "F-02",
+      "key": "empty",
+      "title": "คลังบทความว่าง",
+      "group": "agS3h",
+      "desktop": "h3Gxy8",
+      "mobile": "xqjnv",
+      "sourceDesktop": "p7cr4",
+      "sourceMobile": "NWo3t"
+    },
+    {
+      "id": "F-03",
+      "key": "search",
+      "title": "ค้นหาและกรองบทความ",
+      "group": "DdaLM",
+      "desktop": "An7R8",
+      "mobile": "al7b0",
+      "sourceDesktop": "p7cr4",
+      "sourceMobile": "NWo3t"
+    },
+    {
+      "id": "F-04",
+      "key": "noResults",
+      "title": "ค้นหาไม่พบ",
+      "group": "Wvp45",
+      "desktop": "ZkHbh",
+      "mobile": "wjLQU",
+      "sourceDesktop": "p7cr4",
+      "sourceMobile": "NWo3t"
+    },
+    {
+      "id": "F-05",
+      "key": "bulk",
+      "title": "เลือกหลายบทความ",
+      "group": "PgufM",
+      "desktop": "U21VZ0",
+      "mobile": "Tn9B4",
+      "sourceDesktop": "ZWRTs",
+      "sourceMobile": "NWo3t"
+    },
+    {
+      "id": "F-06",
+      "key": "menu",
+      "title": "เมนูจัดการรายบทความ",
+      "group": "Fo5ev",
+      "desktop": "xvILU",
+      "mobile": "FpVEy",
+      "sourceDesktop": "Om9Bp",
+      "sourceMobile": "NWo3t"
+    },
+    {
+      "id": "F-07",
+      "key": "pinAdd",
+      "title": "ปักหมุดจากรายการ",
+      "group": "EIzq9",
+      "desktop": "eupj7",
+      "mobile": "Fg2M9",
+      "sourceDesktop": "p7cr4",
+      "sourceMobile": "NWo3t"
+    },
+    {
+      "id": "F-08",
+      "key": "pinRemove",
+      "title": "ถอนหมุดจากรายการ",
+      "group": "yyXON",
+      "desktop": "tXBPC",
+      "mobile": "qk3br",
+      "sourceDesktop": "p7cr4",
+      "sourceMobile": "NWo3t"
+    },
+    {
+      "id": "F-09",
+      "key": "pin",
+      "title": "แผงปักหมุด",
+      "group": "vBslH",
+      "desktop": "h70D4",
+      "mobile": "pOb17",
+      "sourceDesktop": "p7cr4",
+      "sourceMobile": "PCxLx"
+    },
+    {
+      "id": "F-10",
+      "key": "limit",
+      "title": "ปักหมุดครบ 10 เรื่อง",
+      "group": "V2iRb0",
+      "desktop": "E57AJO",
+      "mobile": "W7lhu",
+      "sourceDesktop": "smoGg",
+      "sourceMobile": "PCxLx"
+    },
+    {
+      "id": "F-11",
+      "key": "tail",
+      "title": "เลื่อนในแผงถึงท้ายรายการ",
+      "group": "jOant",
+      "desktop": "GxLzN",
+      "mobile": "k54mzl",
+      "sourceDesktop": "Zbq0v",
+      "sourceMobile": "PCxLx"
+    },
+    {
+      "id": "F-12",
+      "key": "off",
+      "title": "ปิดการแสดง · รอบันทึก",
+      "group": "D1aS1f",
+      "desktop": "BeiP5",
+      "mobile": "p8oqiY",
+      "sourceDesktop": "PEp2f",
+      "sourceMobile": "PCxLx"
+    },
+    {
+      "id": "F-13",
+      "key": "offSaved",
+      "title": "บันทึกการปิดแล้ว",
+      "group": "diz8r",
+      "desktop": "Gjgc7",
+      "mobile": "NMHvt",
+      "sourceDesktop": "zixeP",
+      "sourceMobile": "PCxLx"
+    },
+    {
+      "id": "F-14",
+      "key": "on",
+      "title": "เปิดการแสดงอีกครั้ง · รอบันทึก",
+      "group": "amEjm",
+      "desktop": "DxpzP",
+      "mobile": "U728HW",
+      "sourceDesktop": "FKknl",
+      "sourceMobile": "PCxLx"
+    },
+    {
+      "id": "F-15",
+      "key": "order",
+      "title": "เข้าโหมดจัดลำดับ",
+      "group": "SW67N",
+      "desktop": "S3FQo",
+      "mobile": "YQzjQ",
+      "sourceDesktop": "v7SroU",
+      "sourceMobile": "PCxLx"
+    },
+    {
+      "id": "F-16",
+      "key": "drag",
+      "title": "ลากในแผงปักหมุด",
+      "group": "DCUbe",
+      "desktop": "P3Ok2",
+      "mobile": "rUo44",
+      "sourceDesktop": "X4LUzM",
+      "sourceMobile": "PCxLx"
+    },
+    {
+      "id": "F-17",
+      "key": "position",
+      "title": "เลือกเลขตำแหน่งปลายทาง",
+      "group": "xt7Rh",
+      "desktop": "PXHNi",
+      "mobile": "N3N62",
+      "sourceDesktop": "t1wF79",
+      "sourceMobile": "PCxLx"
+    },
+    {
+      "id": "F-18",
+      "key": "orderSave",
+      "title": "ย้ายตำแหน่งแล้ว · บันทึกในโหมด",
+      "group": "aL1hh",
+      "desktop": "hiLJg",
+      "mobile": "DPnuF",
+      "sourceDesktop": "tsgfx",
+      "sourceMobile": "PCxLx"
+    },
+    {
+      "id": "F-19",
+      "key": "orderError",
+      "title": "บันทึกลำดับไม่สำเร็จ · ลองใหม่",
+      "group": "LG5pj",
+      "desktop": "O7UKqP",
+      "mobile": "OGVfS",
+      "sourceDesktop": "M0wiL",
+      "sourceMobile": "PCxLx"
+    },
+    {
+      "id": "F-20",
+      "key": "orderDone",
+      "title": "บันทึกลำดับสำเร็จ",
+      "group": "r9icij",
+      "desktop": "f5eUcl",
+      "mobile": "ToWc8",
+      "sourceDesktop": "bOMPp",
+      "sourceMobile": "PCxLx"
+    },
+    {
+      "id": "F-21",
+      "key": "new",
+      "title": "สร้างบทความ",
+      "group": "ng3gD",
+      "desktop": "tzBIv",
+      "mobile": "iX2dL",
+      "sourceDesktop": "X3tlWO",
+      "sourceMobile": "x0hbZA"
+    },
+    {
+      "id": "F-22",
+      "key": "edit",
+      "title": "แก้ไขฉบับร่าง",
+      "group": "odLYT",
+      "desktop": "Uw5sQ",
+      "mobile": "I7MphR",
+      "sourceDesktop": "Vxhrb",
+      "sourceMobile": "P0fVEU"
+    },
+    {
+      "id": "F-23",
+      "key": "published",
+      "title": "แก้ไขบทความที่เผยแพร่แล้ว",
+      "group": "SX41W",
+      "desktop": "i7q2hq",
+      "mobile": "iLXkR",
+      "sourceDesktop": "ixIrU",
+      "sourceMobile": "BxRXv"
+    },
+    {
+      "id": "F-24",
+      "key": "cover",
+      "title": "นำรูปปกออกจากฉบับที่แก้",
+      "group": "s4gxf2",
+      "desktop": "B0bZa6",
+      "mobile": "LYHQk",
+      "sourceDesktop": "D0n1b",
+      "sourceMobile": "osuu6"
+    },
+    {
+      "id": "F-25",
+      "key": "details",
+      "title": "รายละเอียดและบ้านพักที่แนบ",
+      "group": "cygcP",
+      "desktop": "mYyUt",
+      "mobile": "iPjin",
+      "sourceDesktop": "p2qn6",
+      "sourceMobile": "R2Bn7P"
+    },
+    {
+      "id": "F-26",
+      "key": "attach",
+      "title": "ค้นและแนบบ้านพัก",
+      "group": "YEI5V",
+      "desktop": "Df5mb",
+      "mobile": "Z9cV6P",
+      "sourceDesktop": "d2i8if",
+      "sourceMobile": "XRcYr"
+    },
+    {
+      "id": "F-27",
+      "key": "draftPreview",
+      "title": "ดูตัวอย่างฉบับร่างเต็มจอ",
+      "group": "Jd1J5",
+      "desktop": "EeaFS",
+      "mobile": "n2c7qS",
+      "sourceDesktop": "C1UOJU",
+      "sourceMobile": "HGN5B"
+    },
+    {
+      "id": "F-28",
+      "key": "invalid",
+      "title": "ข้อมูลก่อนเผยแพร่ไม่ครบ",
+      "group": "mitAM",
+      "desktop": "aob4i",
+      "mobile": "lO1Vm",
+      "sourceDesktop": "X3tlWO",
+      "sourceMobile": "x0hbZA"
+    },
+    {
+      "id": "F-29",
+      "key": "draftError",
+      "title": "บันทึกฉบับร่างไม่สำเร็จ",
+      "group": "Wm6mL",
+      "desktop": "fpYM3",
+      "mobile": "KlWLZ",
+      "sourceDesktop": "Vxhrb",
+      "sourceMobile": "P0fVEU"
+    },
+    {
+      "id": "F-30",
+      "key": "draftSaved",
+      "title": "บันทึกฉบับร่างสำเร็จ",
+      "group": "xnVLQ",
+      "desktop": "tPLJo",
+      "mobile": "ryN3u",
+      "sourceDesktop": "ixIrU",
+      "sourceMobile": "BxRXv"
+    },
+    {
+      "id": "F-31",
+      "key": "leave",
+      "title": "ออกจากหน้าเขียนที่แก้ค้าง",
+      "group": "CVuCL",
+      "desktop": "FEj2d",
+      "mobile": "QZwAE",
+      "sourceDesktop": "ixIrU",
+      "sourceMobile": "BxRXv"
+    },
+    {
+      "id": "F-32",
+      "key": "publish",
+      "title": "ยืนยันเผยแพร่ครั้งแรก",
+      "group": "pNUtT",
+      "desktop": "D4zE2",
+      "mobile": "K6zlK",
+      "sourceDesktop": "Vxhrb",
+      "sourceMobile": "P0fVEU"
+    },
+    {
+      "id": "F-33",
+      "key": "publishEdit",
+      "title": "ยืนยันเผยแพร่การแก้ไข",
+      "group": "HXat4",
+      "desktop": "VuAb3",
+      "mobile": "nCXWc",
+      "sourceDesktop": "sS2bB",
+      "sourceMobile": "P1AlI"
+    },
+    {
+      "id": "F-34",
+      "key": "publishError",
+      "title": "เผยแพร่ไม่สำเร็จ",
+      "group": "fz3ZK",
+      "desktop": "b4tS5z",
+      "mobile": "As5FA",
+      "sourceDesktop": "P70kN",
+      "sourceMobile": "GDSPR"
+    },
+    {
+      "id": "F-35",
+      "key": "publishDone",
+      "title": "เผยแพร่สำเร็จ",
+      "group": "Tu7qT",
+      "desktop": "EQKqW",
+      "mobile": "VUCka",
+      "sourceDesktop": "p7cr4",
+      "sourceMobile": "NWo3t"
+    },
+    {
+      "id": "F-36",
+      "key": "unpublish",
+      "title": "ยืนยันยกเลิกเผยแพร่",
+      "group": "xoChH",
+      "desktop": "TOd0P",
+      "mobile": "zzAP1",
+      "sourceDesktop": "ixIrU",
+      "sourceMobile": "BxRXv"
+    },
+    {
+      "id": "F-37",
+      "key": "unpublishDone",
+      "title": "ยกเลิกเผยแพร่สำเร็จ",
+      "group": "sNDoh",
+      "desktop": "Oc2vc",
+      "mobile": "VHZVG",
+      "sourceDesktop": "p7cr4",
+      "sourceMobile": "NWo3t"
+    },
+    {
+      "id": "F-38",
+      "key": "home3",
+      "title": "หน้าแรก · 3 เรื่อง",
+      "group": "zSHLW",
+      "desktop": "LhAs8",
+      "mobile": "ew6XH",
+      "sourceDesktop": "F3sHXO",
+      "sourceMobile": "l5JGe"
+    },
+    {
+      "id": "F-39",
+      "key": "home2",
+      "title": "หน้าแรก · 2 เรื่อง",
+      "group": "h0OJr",
+      "desktop": "y2LdG4",
+      "mobile": "iJM1a",
+      "sourceDesktop": "c4twx",
+      "sourceMobile": "IK6GG"
+    },
+    {
+      "id": "F-40",
+      "key": "home1",
+      "title": "หน้าแรก · 1 เรื่อง",
+      "group": "iUlqO",
+      "desktop": "NkBHt",
+      "mobile": "xuFYf",
+      "sourceDesktop": "plsPM",
+      "sourceMobile": "X2SEX"
+    },
+    {
+      "id": "F-41",
+      "key": "home0",
+      "title": "หน้าแรก · ไม่มีเรื่องพร้อมแสดง",
+      "group": "aXRnp",
+      "desktop": "g6g0Zi",
+      "mobile": "HHikt",
+      "sourceDesktop": "QrvBw",
+      "sourceMobile": "MHPET"
+    },
+    {
+      "id": "F-42",
+      "key": "pinSaved",
+      "title": "บันทึกการปักหมุดสำเร็จ",
+      "group": "JEXd7",
+      "desktop": "Q9beQ",
+      "mobile": "B3WoIW",
+      "sourceDesktop": "eupj7",
+      "sourceMobile": "Fg2M9"
+    },
+    {
+      "id": "F-43",
+      "key": "coverRejected",
+      "title": "เลือกรูปปกไม่ผ่านข้อกำหนด",
+      "group": "INXps",
+      "desktop": "PTJU7",
+      "mobile": "f3d3vu",
+      "sourceDesktop": "Uw5sQ",
+      "sourceMobile": "I7MphR"
+    },
+    {
+      "id": "F-44",
+      "key": "homeLoading",
+      "title": "หน้าแรก · กำลังโหลดบทความ",
+      "group": "y0gMr",
+      "desktop": "S9WCdI",
+      "mobile": "jvm6i",
+      "sourceDesktop": "LhAs8",
+      "sourceMobile": "ew6XH"
+    }
+  ]
+}

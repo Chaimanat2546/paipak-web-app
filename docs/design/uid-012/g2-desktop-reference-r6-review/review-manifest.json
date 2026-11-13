@@ -1,0 +1,87 @@
+{
+  "task": "UID-012",
+  "gate": "G2",
+  "version": "G2-r6",
+  "date": "2026-11-13",
+  "status": "pending_owner_review",
+  "scope": "Desktop article management reference controls",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section": "c2nY3",
+    "ordering_reference_section": "Wg2Jz"
+  },
+  "viewport": [
+    1440,
+    900
+  ],
+  "owner_confirmed": {
+    "desktop_layout": "Two panels side by side without desktop tabs",
+    "pin_capacity": 10,
+    "homepage_capacity": 3
+  },
+  "frames": [
+    {
+      "id": "D-01",
+      "title": "รายการและองค์ประกอบตามภาพอ้างอิง",
+      "group": "lxfCf",
+      "desktop": "PBauh",
+      "source": "ULa9k"
+    },
+    {
+      "id": "D-02",
+      "title": "เลือกหลายบทความ",
+      "group": "G0lNF9",
+      "desktop": "ZWRTs",
+      "source": "ULa9k"
+    },
+    {
+      "id": "D-03",
+      "title": "เมนูจัดการรายบทความ",
+      "group": "SmOpq",
+      "desktop": "Om9Bp",
+      "source": "ULa9k"
+    },
+    {
+      "id": "D-04",
+      "title": "ปักหมุดครบ 10 เรื่อง · ก่อนเลื่อน",
+      "group": "dkZBT",
+      "desktop": "smoGg",
+      "source": "qfB0E"
+    },
+    {
+      "id": "D-05",
+      "title": "ปักหมุดครบ 10 เรื่อง · เลื่อนถึงท้าย",
+      "group": "Q3FKay",
+      "desktop": "Zbq0v",
+      "source": "WFrnx"
+    },
+    {
+      "id": "D-06",
+      "title": "ลากจัดลำดับในแผงเดิม",
+      "group": "FldMS",
+      "desktop": "AqrRO",
+      "source": "s7PnT"
+    },
+    {
+      "id": "D-07",
+      "title": "เลือกเลขตำแหน่งปลายทาง",
+      "group": "fWHTT",
+      "desktop": "Po2n5",
+      "source": "YcVPD"
+    },
+    {
+      "id": "D-08",
+      "title": "ย้ายตำแหน่งแล้ว · รอบันทึก",
+      "group": "aQkes",
+      "desktop": "RbZeH",
+      "source": "kCvLK"
+    },
+    {
+      "id": "D-09",
+      "title": "บันทึกไม่สำเร็จ",
+      "group": "D0FKBp",
+      "desktop": "Lt4v7",
+      "source": "Ra1LL"
+    }
+  ]
+}

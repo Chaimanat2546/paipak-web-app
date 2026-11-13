@@ -1,0 +1,67 @@
+{
+  "task": "UID-012",
+  "gate": "G2",
+  "version": "G2-r2",
+  "date": "2026-11-13",
+  "status": "pending_owner_review",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section": "p82cS"
+  },
+  "owner_confirmed": {
+    "quote": "ปักหมุดได้ 10 เรื่อง และแสดงหน้าแรกสูงสุด 3 เรื่อง",
+    "pin_capacity": 10,
+    "homepage_capacity": 3
+  },
+  "frames": [
+    {
+      "id": "L-01",
+      "title": "รายการพร้อมแผงปักหมุด",
+      "pair": "F9A8nQ",
+      "desktop": "DzUb3",
+      "mobile": "NWo3t"
+    },
+    {
+      "id": "L-02",
+      "title": "แท็บบทความปักหมุด",
+      "pair": "EaCZA",
+      "desktop": "k4PWkD",
+      "mobile": "MMCVn"
+    },
+    {
+      "id": "L-03",
+      "title": "เปลี่ยนลำดับก่อนบันทึก",
+      "pair": "YRzDG",
+      "desktop": "oJpA1",
+      "mobile": "sRk2n"
+    },
+    {
+      "id": "L-04",
+      "title": "ปักหมุดครบ 10 เรื่อง",
+      "pair": "xIX64",
+      "desktop": "uPdOS",
+      "mobile": "Y7HtA1"
+    },
+    {
+      "id": "L-05",
+      "title": "บันทึกไม่สำเร็จ",
+      "pair": "KUEer",
+      "desktop": "i0tXm3",
+      "mobile": "uMFWA"
+    },
+    {
+      "id": "L-06",
+      "title": "ดูตัวอย่างก่อนบันทึก",
+      "pair": "h2HWZc",
+      "desktop": "qWZK9",
+      "mobile": "afm7u"
+    },
+    {
+      "id": "L-07",
+      "title": "ตำแหน่งปักหมุด 4–10",
+      "pair": "EpOjo",
+      "desktop": "MXZG9",
+      "mobile": "HYHSg"
+    }
+  ]
+}

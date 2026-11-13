@@ -1,0 +1,426 @@
+{
+  "task": "UID-012",
+  "gate": "G2",
+  "version": "G2-r17",
+  "date": "2026-11-13",
+  "timezone": "Asia/Bangkok",
+  "status": "pending_owner_review",
+  "supersedes": "G2-r16",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section": "WEnKp",
+    "flow_map": "kBs3E",
+    "homepage_example": "iJePR",
+    "archive": "Bwslg"
+  },
+  "viewports": {
+    "desktop": [
+      1440,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "frame_count": 138,
+  "paired_states": 69,
+  "owner_publication_rules": "../g2-consolidated-r16-review/owner-publication-rules.json",
+  "flows": [
+    {
+      "title": "รายการและการค้นหา",
+      "frames": [
+        "F-01",
+        "F-02",
+        "F-63",
+        "F-03",
+        "F-04",
+        "F-05",
+        "F-06",
+        "F-69"
+      ]
+    },
+    {
+      "title": "ปักหมุดและเปิด–ปิด",
+      "frames": [
+        "F-09",
+        "F-07",
+        "F-45",
+        "F-42",
+        "F-46",
+        "F-08",
+        "F-62",
+        "F-47",
+        "F-10",
+        "F-11",
+        "F-12",
+        "F-13",
+        "F-14"
+      ]
+    },
+    {
+      "title": "จัดลำดับในแผง",
+      "frames": [
+        "F-15",
+        "F-16",
+        "F-17",
+        "F-18",
+        "F-48",
+        "F-19",
+        "F-20",
+        "F-60"
+      ]
+    },
+    {
+      "title": "เขียนและแก้ไข",
+      "frames": [
+        "F-21",
+        "F-22",
+        "F-23",
+        "F-64",
+        "F-65",
+        "F-24",
+        "F-43",
+        "F-25",
+        "F-58",
+        "F-26",
+        "F-27",
+        "F-67"
+      ]
+    },
+    {
+      "title": "บันทึกและเผยแพร่",
+      "frames": [
+        "F-28",
+        "F-66",
+        "F-29",
+        "F-30",
+        "F-31",
+        "F-59",
+        "F-55",
+        "F-32",
+        "F-49",
+        "F-50",
+        "F-51",
+        "F-33",
+        "F-52",
+        "F-34",
+        "F-35",
+        "F-68",
+        "F-36",
+        "F-53",
+        "F-54",
+        "F-37",
+        "F-56"
+      ]
+    },
+    {
+      "title": "ผลบนหน้าแรก",
+      "frames": [
+        "F-38",
+        "F-39",
+        "F-40",
+        "F-41",
+        "F-44",
+        "F-57",
+        "F-61"
+      ]
+    }
+  ],
+  "frames": {
+    "F-01": {
+      "desktop": "r12F4",
+      "mobile": "wsqn6"
+    },
+    "F-02": {
+      "desktop": "yXBb3",
+      "mobile": "G2H93"
+    },
+    "F-03": {
+      "desktop": "onCUr",
+      "mobile": "dTNNe"
+    },
+    "F-04": {
+      "desktop": "h74iEV",
+      "mobile": "EUjAY"
+    },
+    "F-05": {
+      "desktop": "LkqqB",
+      "mobile": "SmM1o"
+    },
+    "F-06": {
+      "desktop": "RhoM5",
+      "mobile": "L95mT"
+    },
+    "F-07": {
+      "desktop": "Aq0aH",
+      "mobile": "mKbCI"
+    },
+    "F-08": {
+      "desktop": "H9qBp",
+      "mobile": "rJjm5"
+    },
+    "F-09": {
+      "desktop": "UWUkw",
+      "mobile": "W1k24o"
+    },
+    "F-10": {
+      "desktop": "bOdxw",
+      "mobile": "WGx71"
+    },
+    "F-11": {
+      "desktop": "Y5AYIj",
+      "mobile": "yvMYq"
+    },
+    "F-12": {
+      "desktop": "OBknT",
+      "mobile": "aTUQY"
+    },
+    "F-13": {
+      "desktop": "gzMCp",
+      "mobile": "q59iCT"
+    },
+    "F-14": {
+      "desktop": "nrk2J",
+      "mobile": "mnR9X"
+    },
+    "F-15": {
+      "desktop": "uweFZ",
+      "mobile": "Hjehh"
+    },
+    "F-16": {
+      "desktop": "p3GKar",
+      "mobile": "W8yWJp"
+    },
+    "F-17": {
+      "desktop": "p5e10",
+      "mobile": "kCURV"
+    },
+    "F-18": {
+      "desktop": "tvUcc",
+      "mobile": "SZM3v"
+    },
+    "F-19": {
+      "desktop": "n5egQH",
+      "mobile": "g03bKj"
+    },
+    "F-20": {
+      "desktop": "g6LvyP",
+      "mobile": "HnsRv"
+    },
+    "F-21": {
+      "desktop": "TALSg",
+      "mobile": "tLyql"
+    },
+    "F-22": {
+      "desktop": "DucZF",
+      "mobile": "RzLTj"
+    },
+    "F-23": {
+      "desktop": "eKniQ",
+      "mobile": "wfAde"
+    },
+    "F-24": {
+      "desktop": "B9rJ7u",
+      "mobile": "IEMaW"
+    },
+    "F-25": {
+      "desktop": "dnpaW",
+      "mobile": "ZqkFG"
+    },
+    "F-26": {
+      "desktop": "ZvNQC",
+      "mobile": "v4Cqs"
+    },
+    "F-27": {
+      "desktop": "xeCyT",
+      "mobile": "oT5Fe"
+    },
+    "F-28": {
+      "desktop": "pPuy4",
+      "mobile": "Xv56w"
+    },
+    "F-29": {
+      "desktop": "i3w48u",
+      "mobile": "y4DEh"
+    },
+    "F-30": {
+      "desktop": "LDxNx",
+      "mobile": "Q6H89"
+    },
+    "F-31": {
+      "desktop": "nuuFW",
+      "mobile": "Gx646"
+    },
+    "F-32": {
+      "desktop": "T6siqM",
+      "mobile": "Fh5Mr"
+    },
+    "F-33": {
+      "desktop": "iZ0Ik",
+      "mobile": "So5tv"
+    },
+    "F-34": {
+      "desktop": "DD2y1",
+      "mobile": "DTfg3"
+    },
+    "F-35": {
+      "desktop": "vi715",
+      "mobile": "IFflj"
+    },
+    "F-36": {
+      "desktop": "jSaUA",
+      "mobile": "K1Yk4I"
+    },
+    "F-37": {
+      "desktop": "D7B5x",
+      "mobile": "lOfO3"
+    },
+    "F-38": {
+      "desktop": "oY0L4",
+      "mobile": "WhR8k"
+    },
+    "F-39": {
+      "desktop": "HvWAm",
+      "mobile": "Fj2Rm"
+    },
+    "F-40": {
+      "desktop": "O8eOpZ",
+      "mobile": "on3rS"
+    },
+    "F-41": {
+      "desktop": "h9MTrT",
+      "mobile": "B3Ng9"
+    },
+    "F-42": {
+      "desktop": "ekRQn",
+      "mobile": "LIJa2"
+    },
+    "F-43": {
+      "desktop": "Jkz2G",
+      "mobile": "gbzQD"
+    },
+    "F-44": {
+      "desktop": "ETzWp",
+      "mobile": "ICuy4"
+    },
+    "F-45": {
+      "desktop": "EAsn4",
+      "mobile": "r3ycXR"
+    },
+    "F-46": {
+      "desktop": "Qf7Oj",
+      "mobile": "dDDG2"
+    },
+    "F-47": {
+      "desktop": "Nw2A9",
+      "mobile": "jPpSp"
+    },
+    "F-48": {
+      "desktop": "NtKTo",
+      "mobile": "BvmcB"
+    },
+    "F-49": {
+      "desktop": "P2MV1",
+      "mobile": "JpBXk"
+    },
+    "F-50": {
+      "desktop": "zZyPJ",
+      "mobile": "d2m1sx"
+    },
+    "F-51": {
+      "desktop": "Q1zir",
+      "mobile": "CSf5o"
+    },
+    "F-52": {
+      "desktop": "U8w6c",
+      "mobile": "xO8me"
+    },
+    "F-53": {
+      "desktop": "F7nfcP",
+      "mobile": "Sf8W6"
+    },
+    "F-54": {
+      "desktop": "reR5O",
+      "mobile": "D3FLLt"
+    },
+    "F-55": {
+      "desktop": "SjfV8",
+      "mobile": "c6CFr"
+    },
+    "F-56": {
+      "desktop": "quY03",
+      "mobile": "r9SDm"
+    },
+    "F-57": {
+      "desktop": "TZfzq",
+      "mobile": "f7inw"
+    },
+    "F-58": {
+      "desktop": "PjO7F",
+      "mobile": "h7M4F"
+    },
+    "F-59": {
+      "desktop": "a2fcmV",
+      "mobile": "MCCQJ"
+    },
+    "F-60": {
+      "desktop": "kEdtq",
+      "mobile": "g8pQT"
+    },
+    "F-61": {
+      "desktop": "Q57JWm",
+      "mobile": "o4keK"
+    },
+    "F-62": {
+      "desktop": "jvn6j",
+      "mobile": "Q8sEY"
+    },
+    "F-63": {
+      "desktop": "R0LcXi",
+      "mobile": "a6waM"
+    },
+    "F-64": {
+      "desktop": "V7TORW",
+      "mobile": "T7yP8z"
+    },
+    "F-65": {
+      "desktop": "xOdsa",
+      "mobile": "E9xBFG"
+    },
+    "F-66": {
+      "desktop": "U1A7fO",
+      "mobile": "LhEHu"
+    },
+    "F-67": {
+      "desktop": "q2sDe",
+      "mobile": "vwkIP"
+    },
+    "F-68": {
+      "desktop": "K3Jb4",
+      "mobile": "F5iOpr"
+    },
+    "F-69": {
+      "desktop": "IDxQW",
+      "mobile": "jWe5M"
+    }
+  },
+  "exported_pairs": [
+    "F-01",
+    "F-06",
+    "F-12",
+    "F-18",
+    "F-23",
+    "F-28",
+    "F-29",
+    "F-30",
+    "F-57",
+    "F-63",
+    "F-64",
+    "F-65",
+    "F-66",
+    "F-67",
+    "F-68",
+    "F-69"
+  ]
+}

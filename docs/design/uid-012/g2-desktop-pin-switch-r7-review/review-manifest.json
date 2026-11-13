@@ -1,0 +1,43 @@
+{
+  "task": "UID-012",
+  "gate": "G2",
+  "version": "G2-r7",
+  "date": "2026-11-13",
+  "status": "pending_owner_review",
+  "scope": "Desktop pin visibility switch",
+  "source_version": "G2-r6",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section": "DE6vp"
+  },
+  "viewport": [
+    1440,
+    900
+  ],
+  "frames": [
+    {
+      "id": "S-01",
+      "title": "เปิดแสดง · ค่าที่บันทึกไว้",
+      "group": "n2gTH",
+      "desktop": "liU4W"
+    },
+    {
+      "id": "S-02",
+      "title": "ปิดเรื่องแรก · รอบันทึก",
+      "group": "fcSVu",
+      "desktop": "tlMLL"
+    },
+    {
+      "id": "S-03",
+      "title": "บันทึกการปิดแล้ว",
+      "group": "VnI4N",
+      "desktop": "zixeP"
+    },
+    {
+      "id": "S-04",
+      "title": "เปิดเรื่องแรกอีกครั้ง · รอบันทึก",
+      "group": "iQxe2",
+      "desktop": "FKknl"
+    }
+  ]
+}

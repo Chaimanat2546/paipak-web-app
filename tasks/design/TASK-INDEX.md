@@ -14,7 +14,8 @@
 - **UID-008 — Accessibility and responsive design review** | Depends on: UID-001, UID-002, UID-003, UID-004, UID-005, UID-006, UID-007 | Status: planned/not started
 - **UID-009 — Final visual reference approval and handoff** | Depends on: UID-008 | Status: planned/not started
 - **UID-010 — ระบบจัดการหมวดหมู่บ้านพัก** | Status: G4-r1 visual baseline approved on 2026-11-11, including revised deletion; package retained at owner request | [Task packet](UID-010.md)
-- **UID-011 — ระบบจัดการคลิป TikTok บนหน้าแรก** | ปิดงานออกแบบหลังอนุมัติ G4-r1 ทั้งเดสก์ท็อปและมือถือ 12 พฤศจิกายน 2026 | [ชุดแบบสุดท้ายใน Pencil](../../docs/design/uid-011/g4-r1-review/README.md)
+- **UID-011 — ระบบจัดการคลิป TikTok บนหน้าแรก** | เจ้าของอนุมัติ G4-r2 และแบบแก้ลิงก์คลิปเดิม 24 สถานะทั้งสองขนาด เมื่อ 13 พฤศจิกายน 2026 | [ชุดแบบล่าสุดใน Pencil](../../docs/design/uid-011/g4-r2-review/README.md)
+- **UID-012 — ระบบจัดการบทความ** | ภูอนุมัติ Wireframe G2-r18 ครบ 105 คู่ และ High-Fi G3-r1 ครบ 138 คู่ เมื่อ 13 พฤศจิกายน 2026 | [ชุด High-Fi](../../docs/design/uid-012/g3-r1-review/README.md)
 - **UXD-003 — Usability prototype and user testing spec** | Depends on: UXD-002 | Status: planned/not started
 
 ## Section งานออกแบบใน Pencil
@@ -27,7 +28,8 @@
 | UID-003 · รายละเอียดบ้านพัก | `rqZz8` | ภาพอ้างอิง UXD-002 review-5 รอตรวจรับ |
 | UID-005 · สมัครสมาชิกและเข้าสู่ระบบ | `R5IaVO` | แผนผัง Home Auth Desktop G2-r40 ที่อนุมัติ |
 | UID-010 · จัดการหมวดหมู่บ้านพัก | `jNYEs` | Wireframe r2 ที่อนุมัติ |
-| UID-011 · คลิป TikTok หน้าแรก | `FvFoc` | Wireframe G2 ที่อนุมัติ |
+| UID-011 · คลิป TikTok หน้าแรก | `FvFoc` | Wireframe G2 ทางซ้าย · แบบ G4-r2 ที่อนุมัติทางขวา |
+| UID-012 · ระบบจัดการบทความ | `qVhG8` | Wireframe G2-r18 ทางซ้าย · High-Fi G3-r1 ที่อนุมัติทางขวา แยก 6 เส้นทาง |
 
 Header และ Footer อยู่ใน section ใช้ร่วมกัน `pnnKH` คลังสถานะ Home Desktop อยู่ใน Archive `ysmkc`
 

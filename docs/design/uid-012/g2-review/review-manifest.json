@@ -1,0 +1,216 @@
+{
+  "task": "UID-012",
+  "gate": "G2",
+  "version": "G2-r1",
+  "date": "2026-11-13",
+  "timezone": "Asia/Bangkok",
+  "status": "pending_owner_review",
+  "approved_direction": {
+    "version": "G1-r1",
+    "option": "A",
+    "approved_on": "2026-11-13",
+    "record": "tasks/design/UID-012.md"
+  },
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section_id": "pnUnb",
+    "flow_id": "v2CWku"
+  },
+  "viewports": {
+    "desktop": [
+      1440,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "frames": [
+    {
+      "id": "WF-01",
+      "title": "รายการบทความ",
+      "key": "list",
+      "pair": "rHzPg",
+      "desktop": "AHVM5",
+      "mobile": "ryDuC"
+    },
+    {
+      "id": "WF-02",
+      "title": "คลังบทความว่าง",
+      "key": "empty",
+      "pair": "ryuj5",
+      "desktop": "C9Q0cI",
+      "mobile": "i9zCa1"
+    },
+    {
+      "id": "WF-03",
+      "title": "สร้างบทความ",
+      "key": "create",
+      "pair": "yoXtE",
+      "desktop": "zo9wc",
+      "mobile": "e4FSpR"
+    },
+    {
+      "id": "WF-04",
+      "title": "แก้ไขเรื่องที่เผยแพร่แล้ว",
+      "key": "edit",
+      "pair": "XwHpH",
+      "desktop": "rNsmL",
+      "mobile": "u5X63"
+    },
+    {
+      "id": "WF-05",
+      "title": "ดูตัวอย่างฉบับร่าง",
+      "key": "preview",
+      "pair": "qeX6B",
+      "desktop": "UJCWO",
+      "mobile": "ybg3Q"
+    },
+    {
+      "id": "WF-06",
+      "title": "ข้อมูลเผยแพร่ไม่ครบ",
+      "key": "invalid",
+      "pair": "hFuW2",
+      "desktop": "Q65Nau",
+      "mobile": "DjAOo"
+    },
+    {
+      "id": "WF-07",
+      "title": "บันทึกฉบับร่างไม่สำเร็จ",
+      "key": "saveError",
+      "pair": "ExMFD",
+      "desktop": "tPQBJ",
+      "mobile": "xSrRE"
+    },
+    {
+      "id": "WF-08",
+      "title": "ยืนยันเผยแพร่การแก้ไข",
+      "key": "confirm",
+      "pair": "W1eDGf",
+      "desktop": "o3XE4",
+      "mobile": "EJlNq"
+    },
+    {
+      "id": "WF-09",
+      "title": "เผยแพร่การแก้ไขไม่สำเร็จ",
+      "key": "publishError",
+      "pair": "ngyhg",
+      "desktop": "s05E98",
+      "mobile": "QEf57"
+    },
+    {
+      "id": "WF-10",
+      "title": "เผยแพร่การแก้ไขสำเร็จ",
+      "key": "success",
+      "pair": "igNIE",
+      "desktop": "jG5dE",
+      "mobile": "CUc9G"
+    },
+    {
+      "id": "WF-11",
+      "title": "ยืนยันยกเลิกเผยแพร่",
+      "key": "unpublish",
+      "pair": "p9ykKV",
+      "desktop": "Dz6Cx",
+      "mobile": "ZSxHJ"
+    },
+    {
+      "id": "WF-12",
+      "title": "จัดบทความหน้าแรก",
+      "key": "curate",
+      "pair": "M5ZFtf",
+      "desktop": "Oa3Kn",
+      "mobile": "y4iOqT"
+    },
+    {
+      "id": "WF-13",
+      "title": "เลือกบทความจากคลัง",
+      "key": "pick",
+      "pair": "c0seo",
+      "desktop": "UxBgz",
+      "mobile": "muq9N"
+    },
+    {
+      "id": "WF-14",
+      "title": "ดูตัวอย่างก่อนบันทึกหน้าแรก",
+      "key": "homePreview",
+      "pair": "GqLds",
+      "desktop": "Ay1s5",
+      "mobile": "MaO9y"
+    },
+    {
+      "id": "WF-15",
+      "title": "บันทึกการจัดหน้าแรกไม่สำเร็จ",
+      "key": "curateError",
+      "pair": "ZmiTo",
+      "desktop": "wk1nC",
+      "mobile": "wr4G0"
+    },
+    {
+      "id": "WF-16",
+      "title": "หน้าแรกแสดงสามเรื่อง",
+      "key": "homeThree",
+      "pair": "itRC7",
+      "desktop": "F3sHXO",
+      "mobile": "l5JGe"
+    },
+    {
+      "id": "WF-17",
+      "title": "หน้าแรกแสดงเรื่องเดียว",
+      "key": "homeFew",
+      "pair": "krGja",
+      "desktop": "plsPM",
+      "mobile": "X2SEX"
+    },
+    {
+      "id": "WF-18",
+      "title": "หน้าแรกยุบส่วนบทความ",
+      "key": "homeHidden",
+      "pair": "Wh1XN",
+      "desktop": "QrvBw",
+      "mobile": "MHPET"
+    },
+    {
+      "id": "WF-19",
+      "title": "หน้าแรกแสดงสองเรื่อง",
+      "key": "homeTwo",
+      "pair": "UMsIf",
+      "desktop": "c4twx",
+      "mobile": "IK6GG"
+    },
+    {
+      "id": "WF-20",
+      "title": "ยืนยันเผยแพร่ครั้งแรก",
+      "key": "firstPublish",
+      "pair": "TEqYX",
+      "desktop": "T7BCi",
+      "mobile": "pYOh8"
+    },
+    {
+      "id": "WF-21",
+      "title": "บันทึกฉบับร่างสำเร็จ",
+      "key": "draftSaved",
+      "pair": "FVxax",
+      "desktop": "FGdhi",
+      "mobile": "agdUr"
+    },
+    {
+      "id": "WF-22",
+      "title": "ออกจากหน้าเขียนที่แก้ค้าง",
+      "key": "unsaved",
+      "pair": "raJtR",
+      "desktop": "lNqFr",
+      "mobile": "kllks"
+    },
+    {
+      "id": "WF-23",
+      "title": "บันทึกการจัดหน้าแรกสำเร็จ",
+      "key": "curateSaved",
+      "pair": "jN43k",
+      "desktop": "htMJN",
+      "mobile": "F8lHfz"
+    }
+  ],
+  "frontend_authorized": false
+}

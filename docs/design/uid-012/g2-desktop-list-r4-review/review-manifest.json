@@ -1,0 +1,47 @@
+{
+  "task": "UID-012",
+  "gate": "G2",
+  "version": "G2-r4",
+  "date": "2026-11-13",
+  "status": "pending_owner_review",
+  "scope": "Desktop article-list top tabs and panel counts",
+  "source_version": "G2-r2",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section": "RgYzP"
+  },
+  "viewport": [
+    1440,
+    900
+  ],
+  "frames": [
+    {
+      "id": "D-01",
+      "title": "รายการและแผงปักหมุด",
+      "group": "WtMwL",
+      "desktop": "w4mPgk",
+      "source": "DzUb3"
+    },
+    {
+      "id": "D-02",
+      "title": "เปลี่ยนลำดับก่อนบันทึก",
+      "group": "UOR0V",
+      "desktop": "cjHWg",
+      "source": "oJpA1"
+    },
+    {
+      "id": "D-03",
+      "title": "ปักหมุดครบ 10 เรื่อง",
+      "group": "t2IXZ",
+      "desktop": "b3sHyr",
+      "source": "uPdOS"
+    },
+    {
+      "id": "D-04",
+      "title": "บันทึกไม่สำเร็จ",
+      "group": "zChCi",
+      "desktop": "gNesb",
+      "source": "i0tXm3"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "task": "UID-012",
+  "gate": "G2",
+  "version": "G2-r8",
+  "date": "2026-11-13",
+  "status": "pending_owner_review",
+  "scope": "Desktop pin ordering mode entry and exit",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section": "dziD6"
+  },
+  "viewport": [
+    1440,
+    900
+  ],
+  "frames": [
+    {
+      "id": "M-01",
+      "title": "มุมมองปกติ · ปุ่มจัดลำดับ",
+      "group": "kMMNU",
+      "desktop": "vOsII",
+      "source": "liU4W",
+      "active": false
+    },
+    {
+      "id": "M-02",
+      "title": "มุมมองปกติ · ปิดสวิตช์ได้",
+      "group": "nv7Rg",
+      "desktop": "a9qGgB",
+      "source": "tlMLL",
+      "active": false
+    },
+    {
+      "id": "M-03",
+      "title": "หลังเข้าจัดลำดับ · แสดงจุดจับ",
+      "group": "qYiYT",
+      "desktop": "EgjQB",
+      "source": "smoGg",
+      "active": true
+    },
+    {
+      "id": "M-04",
+      "title": "ลากในรายการที่เลื่อนได้",
+      "group": "zH117",
+      "desktop": "nWgHU",
+      "source": "AqrRO",
+      "active": true
+    },
+    {
+      "id": "M-05",
+      "title": "เลือกเลขปลายทาง",
+      "group": "JEc9z",
+      "desktop": "o6WmQ",
+      "source": "Po2n5",
+      "active": true
+    },
+    {
+      "id": "M-06",
+      "title": "ออกจากโหมด · เก็บลำดับที่รอบันทึก",
+      "group": "b4GQI",
+      "desktop": "xo0Xw",
+      "source": "RbZeH",
+      "active": false
+    }
+  ]
+}

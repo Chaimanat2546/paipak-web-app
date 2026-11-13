@@ -1,0 +1,42 @@
+{
+  "task": "UID-012",
+  "gate": "G2",
+  "version": "G2-r10",
+  "date": "2026-11-13",
+  "status": "pending_owner_review",
+  "scope": "Hide idle save action from desktop pin panel",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section": "PYbUm"
+  },
+  "viewport": [
+    1440,
+    900
+  ],
+  "frames": [
+    {
+      "id": "S-01",
+      "title": "มุมมองปกติ · ไม่มีค่าที่แก้",
+      "group": "FUhFT",
+      "desktop": "e9MwP9",
+      "source": "vOsII",
+      "state": "clean"
+    },
+    {
+      "id": "S-02",
+      "title": "เปลี่ยนสวิตช์ · บันทึกการแสดงผล",
+      "group": "MiFwN",
+      "desktop": "hQzar",
+      "source": "a9qGgB",
+      "state": "switch"
+    },
+    {
+      "id": "S-03",
+      "title": "บันทึกลำดับแล้ว · กลับมุมมองปกติ",
+      "group": "x2Iah",
+      "desktop": "QYQia",
+      "source": "a2Cgfg",
+      "state": "saved"
+    }
+  ]
+}

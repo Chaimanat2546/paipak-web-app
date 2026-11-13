@@ -1,0 +1,575 @@
+{
+  "task": "UID-012",
+  "gate": "G2",
+  "version": "G2-r16",
+  "date": "2026-11-13",
+  "timezone": "Asia/Bangkok",
+  "status": "pending_owner_review",
+  "supersedes": "G2-r15",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section": "Bwslg",
+    "flow_map": "rkw3D",
+    "homepage_example": "dew7P"
+  },
+  "viewports": {
+    "desktop": [
+      1440,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "frame_count": 124,
+  "paired_states": 62,
+  "owner_confirmed": {
+    "desktop_layout": "Side-by-side list and pin panel, without desktop tabs",
+    "pin_capacity": 10,
+    "homepage_capacity": 3,
+    "pin_preview": false,
+    "order_saved_in_order_mode": true,
+    "cover_ratio": "16:9",
+    "cover_formats": [
+      "JPG",
+      "PNG",
+      "WebP"
+    ],
+    "cover_max_size_mb": 10,
+    "cover_required_for_publish": true,
+    "public_uses_previous_version_until_edit_publish_succeeds": true,
+    "unpublish_draft": "Keep the latest saved draft. Use the previous published version if no draft exists.",
+    "unpublish_pins": "Remove the pin and move lower ranks up when unpublishing succeeds."
+  },
+  "flows": [
+    {
+      "title": "รายการบทความ",
+      "frames": [
+        "F-01",
+        "F-02",
+        "F-03",
+        "F-04",
+        "F-05",
+        "F-06"
+      ]
+    },
+    {
+      "title": "ปักหมุดและเปิด–ปิด",
+      "frames": [
+        "F-07",
+        "F-08",
+        "F-09",
+        "F-10",
+        "F-11",
+        "F-12",
+        "F-13",
+        "F-14",
+        "F-42",
+        "F-45",
+        "F-46",
+        "F-47",
+        "F-62"
+      ]
+    },
+    {
+      "title": "จัดลำดับในแผง",
+      "frames": [
+        "F-15",
+        "F-16",
+        "F-17",
+        "F-18",
+        "F-19",
+        "F-20",
+        "F-48",
+        "F-60"
+      ]
+    },
+    {
+      "title": "เขียนและแก้ไข",
+      "frames": [
+        "F-21",
+        "F-22",
+        "F-23",
+        "F-24",
+        "F-25",
+        "F-26",
+        "F-27",
+        "F-43",
+        "F-58"
+      ]
+    },
+    {
+      "title": "บันทึกและเผยแพร่",
+      "frames": [
+        "F-28",
+        "F-29",
+        "F-30",
+        "F-31",
+        "F-32",
+        "F-33",
+        "F-34",
+        "F-35",
+        "F-36",
+        "F-37",
+        "F-49",
+        "F-50",
+        "F-51",
+        "F-52",
+        "F-53",
+        "F-54",
+        "F-55",
+        "F-56",
+        "F-59"
+      ]
+    },
+    {
+      "title": "ผลบนหน้าแรก",
+      "frames": [
+        "F-38",
+        "F-39",
+        "F-40",
+        "F-41",
+        "F-44",
+        "F-57",
+        "F-61"
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "id": "F-01",
+      "title": "รายการบทความ",
+      "group": "W5lYM",
+      "desktop": "K9alE",
+      "mobile": "dW3YQ"
+    },
+    {
+      "id": "F-02",
+      "title": "คลังบทความว่าง",
+      "group": "t7UQj",
+      "desktop": "Cwsup",
+      "mobile": "w19T91"
+    },
+    {
+      "id": "F-03",
+      "title": "ค้นหาและกรองบทความ",
+      "group": "nFovV",
+      "desktop": "n06KO",
+      "mobile": "J8755u"
+    },
+    {
+      "id": "F-04",
+      "title": "ค้นหาไม่พบ",
+      "group": "J5xG5",
+      "desktop": "IMFGE",
+      "mobile": "LMPcD"
+    },
+    {
+      "id": "F-05",
+      "title": "เลือกหลายบทความ",
+      "group": "jNqoI",
+      "desktop": "qWKDv",
+      "mobile": "XvtOk"
+    },
+    {
+      "id": "F-06",
+      "title": "เมนูจัดการรายบทความ",
+      "group": "aXwy0",
+      "desktop": "KozO9",
+      "mobile": "L4IDip"
+    },
+    {
+      "id": "F-07",
+      "title": "ปักหมุดจากรายการ",
+      "group": "rLy1T",
+      "desktop": "bH4ER",
+      "mobile": "XWEYD"
+    },
+    {
+      "id": "F-08",
+      "title": "ถอนหมุดจากรายการ",
+      "group": "WVgQa",
+      "desktop": "JO8I5",
+      "mobile": "j20qi"
+    },
+    {
+      "id": "F-09",
+      "title": "แผงปักหมุด",
+      "group": "hb91T",
+      "desktop": "QwVVD",
+      "mobile": "c8F9km"
+    },
+    {
+      "id": "F-10",
+      "title": "ปักหมุดครบ 10 เรื่อง",
+      "group": "Aefnn",
+      "desktop": "SKs8n",
+      "mobile": "aYECF"
+    },
+    {
+      "id": "F-11",
+      "title": "เลื่อนในแผงถึงท้ายรายการ",
+      "group": "LpRKh",
+      "desktop": "BQ3iu",
+      "mobile": "vj9sH"
+    },
+    {
+      "id": "F-12",
+      "title": "ปิดการแสดง · รอบันทึก",
+      "group": "W3u82",
+      "desktop": "ES7Fc",
+      "mobile": "ZWgM8"
+    },
+    {
+      "id": "F-13",
+      "title": "บันทึกการปิดแล้ว",
+      "group": "e6WNT",
+      "desktop": "CUBZD",
+      "mobile": "kXK8G"
+    },
+    {
+      "id": "F-14",
+      "title": "เปิดการแสดงอีกครั้ง · รอบันทึก",
+      "group": "XL1OC",
+      "desktop": "ga2XB",
+      "mobile": "hFXgy"
+    },
+    {
+      "id": "F-15",
+      "title": "เข้าโหมดจัดลำดับ",
+      "group": "zQbIA",
+      "desktop": "t9dZ0",
+      "mobile": "CooMm"
+    },
+    {
+      "id": "F-16",
+      "title": "ลากในแผงปักหมุด",
+      "group": "YsArZ",
+      "desktop": "sz9UT",
+      "mobile": "u9KTAi"
+    },
+    {
+      "id": "F-17",
+      "title": "เลือกเลขตำแหน่งปลายทาง",
+      "group": "Lh1aI",
+      "desktop": "F8Eu9O",
+      "mobile": "jjFPU"
+    },
+    {
+      "id": "F-18",
+      "title": "ย้ายตำแหน่งแล้ว · บันทึกในโหมด",
+      "group": "KSvIh",
+      "desktop": "V9oLM",
+      "mobile": "H4uhM"
+    },
+    {
+      "id": "F-19",
+      "title": "บันทึกลำดับไม่สำเร็จ · ลองใหม่",
+      "group": "s4IUU",
+      "desktop": "cELsn",
+      "mobile": "wma7r"
+    },
+    {
+      "id": "F-20",
+      "title": "บันทึกลำดับสำเร็จ",
+      "group": "eiVsr",
+      "desktop": "SDGFG",
+      "mobile": "MY2fk"
+    },
+    {
+      "id": "F-21",
+      "title": "สร้างบทความ",
+      "group": "Fli6B",
+      "desktop": "MVUkK",
+      "mobile": "uWXnT"
+    },
+    {
+      "id": "F-22",
+      "title": "แก้ไขฉบับร่าง",
+      "group": "S09TGu",
+      "desktop": "e24Ek7",
+      "mobile": "B36HEA"
+    },
+    {
+      "id": "F-23",
+      "title": "แก้ไขบทความที่เผยแพร่แล้ว",
+      "group": "Lnyeo",
+      "desktop": "QhTiv",
+      "mobile": "xwLgc"
+    },
+    {
+      "id": "F-24",
+      "title": "นำรูปปกออกจากฉบับที่แก้",
+      "group": "TP6Qc",
+      "desktop": "II52j",
+      "mobile": "EEX7t"
+    },
+    {
+      "id": "F-25",
+      "title": "รายละเอียดและบ้านพักที่แนบ",
+      "group": "B8kobC",
+      "desktop": "PdnO6",
+      "mobile": "DqmLH"
+    },
+    {
+      "id": "F-26",
+      "title": "ค้นและแนบบ้านพัก",
+      "group": "oUUCK",
+      "desktop": "qn0p3",
+      "mobile": "X12fwP"
+    },
+    {
+      "id": "F-27",
+      "title": "ดูตัวอย่างฉบับร่างเต็มจอ",
+      "group": "zIhQt",
+      "desktop": "x3YP61",
+      "mobile": "j4AX1"
+    },
+    {
+      "id": "F-28",
+      "title": "ข้อมูลก่อนเผยแพร่ไม่ครบ",
+      "group": "FXYeL",
+      "desktop": "nhmGy",
+      "mobile": "Ns9SK"
+    },
+    {
+      "id": "F-29",
+      "title": "บันทึกฉบับร่างไม่สำเร็จ",
+      "group": "ObOLw",
+      "desktop": "P6ifL",
+      "mobile": "K5OW9"
+    },
+    {
+      "id": "F-30",
+      "title": "บันทึกฉบับร่างสำเร็จ",
+      "group": "PilnA",
+      "desktop": "VdMi8",
+      "mobile": "tOGcK"
+    },
+    {
+      "id": "F-31",
+      "title": "ออกจากหน้าเขียนที่แก้ค้าง",
+      "group": "bZcvR",
+      "desktop": "lJsfh",
+      "mobile": "TyYpH"
+    },
+    {
+      "id": "F-32",
+      "title": "ยืนยันเผยแพร่ครั้งแรก",
+      "group": "Wh13p",
+      "desktop": "UKZLr",
+      "mobile": "OMOht"
+    },
+    {
+      "id": "F-33",
+      "title": "ยืนยันเผยแพร่การแก้ไข",
+      "group": "mHMSc",
+      "desktop": "B2tRDz",
+      "mobile": "R8Xqx"
+    },
+    {
+      "id": "F-34",
+      "title": "เผยแพร่ไม่สำเร็จ",
+      "group": "uqK2z",
+      "desktop": "qp7Ft",
+      "mobile": "xLH0X"
+    },
+    {
+      "id": "F-35",
+      "title": "เผยแพร่สำเร็จ",
+      "group": "Gig9i",
+      "desktop": "R7a23I",
+      "mobile": "J1N2X"
+    },
+    {
+      "id": "F-36",
+      "title": "ยืนยันยกเลิกเผยแพร่",
+      "group": "nGs19",
+      "desktop": "G0hEi1",
+      "mobile": "D5mkFm"
+    },
+    {
+      "id": "F-37",
+      "title": "ยกเลิกเผยแพร่สำเร็จ",
+      "group": "i13Nca",
+      "desktop": "F5Ivg",
+      "mobile": "bFanO"
+    },
+    {
+      "id": "F-38",
+      "title": "หน้าแรก · 3 เรื่อง",
+      "group": "t8m0oJ",
+      "desktop": "R5chA",
+      "mobile": "emKc5"
+    },
+    {
+      "id": "F-39",
+      "title": "หน้าแรก · 2 เรื่อง",
+      "group": "KhFL1",
+      "desktop": "Y67DP",
+      "mobile": "L5rBrJ"
+    },
+    {
+      "id": "F-40",
+      "title": "หน้าแรก · 1 เรื่อง",
+      "group": "iK0jf",
+      "desktop": "gZtX2",
+      "mobile": "rteiM"
+    },
+    {
+      "id": "F-41",
+      "title": "หน้าแรก · ไม่มีเรื่องพร้อมแสดง",
+      "group": "m5PxK6",
+      "desktop": "KCX9l",
+      "mobile": "akfVy"
+    },
+    {
+      "id": "F-42",
+      "title": "บันทึกการปักหมุดสำเร็จ",
+      "group": "IgczL",
+      "desktop": "j5ralx",
+      "mobile": "rzQaq"
+    },
+    {
+      "id": "F-43",
+      "title": "เลือกรูปปกไม่ผ่านข้อกำหนด",
+      "group": "n8wMrk",
+      "desktop": "nW1BQ",
+      "mobile": "Ed7nr"
+    },
+    {
+      "id": "F-44",
+      "title": "หน้าแรก · กำลังโหลดบทความ",
+      "group": "E7i6c",
+      "desktop": "Ic63P",
+      "mobile": "YBESV"
+    },
+    {
+      "id": "F-45",
+      "title": "กำลังบันทึกการจัดหน้าแรก",
+      "group": "X9NRo",
+      "desktop": "O5DJs",
+      "mobile": "GpvR2"
+    },
+    {
+      "id": "F-46",
+      "title": "บันทึกการจัดหน้าแรกไม่สำเร็จ",
+      "group": "s3R14",
+      "desktop": "uI8PP",
+      "mobile": "U3hi7"
+    },
+    {
+      "id": "F-47",
+      "title": "ไม่มีบทความปักหมุดหลังบันทึก",
+      "group": "uHatr",
+      "desktop": "uaMCw",
+      "mobile": "r7U2m"
+    },
+    {
+      "id": "F-48",
+      "title": "กำลังบันทึกลำดับในแผงเดิม",
+      "group": "BDT4o",
+      "desktop": "TAPET",
+      "mobile": "xiTdZ"
+    },
+    {
+      "id": "F-49",
+      "title": "กำลังเผยแพร่ครั้งแรก",
+      "group": "T0NLFQ",
+      "desktop": "t5Mlx",
+      "mobile": "gZTbU"
+    },
+    {
+      "id": "F-50",
+      "title": "เผยแพร่ครั้งแรกไม่สำเร็จ",
+      "group": "dMbuA",
+      "desktop": "tjPkO",
+      "mobile": "x2oSb"
+    },
+    {
+      "id": "F-51",
+      "title": "เผยแพร่ครั้งแรกสำเร็จ",
+      "group": "c08Rk",
+      "desktop": "tCuJM",
+      "mobile": "UUnPQ"
+    },
+    {
+      "id": "F-52",
+      "title": "กำลังเผยแพร่การแก้ไข",
+      "group": "uv4VK",
+      "desktop": "y33co",
+      "mobile": "eamG4"
+    },
+    {
+      "id": "F-53",
+      "title": "กำลังยกเลิกเผยแพร่",
+      "group": "TYvt4",
+      "desktop": "i6sxc",
+      "mobile": "TBctJ"
+    },
+    {
+      "id": "F-54",
+      "title": "ยกเลิกเผยแพร่ไม่สำเร็จ",
+      "group": "JyCUJ",
+      "desktop": "hQvwh",
+      "mobile": "x7HHJn"
+    },
+    {
+      "id": "F-55",
+      "title": "บันทึกฉบับร่างแล้วออกไม่สำเร็จ",
+      "group": "IcSW9",
+      "desktop": "hoZPU",
+      "mobile": "zOXV1"
+    },
+    {
+      "id": "F-56",
+      "title": "ยกเลิกเผยแพร่สำเร็จเมื่อไม่มีร่าง",
+      "group": "lRjS2",
+      "desktop": "KPLxf",
+      "mobile": "mAm2z"
+    },
+    {
+      "id": "F-57",
+      "title": "หน้าแรกหลังยกเลิกเผยแพร่ · หมุดเลื่อนขึ้น",
+      "group": "OMPcR",
+      "desktop": "QXBVb",
+      "mobile": "jD118"
+    },
+    {
+      "id": "F-58",
+      "title": "ขยายบ้านพักที่แนบทั้งหมด",
+      "group": "RMDFz",
+      "desktop": "phjFy",
+      "mobile": "cnf9J"
+    },
+    {
+      "id": "F-59",
+      "title": "กำลังบันทึกฉบับร่างก่อนออก",
+      "group": "nqoYH",
+      "desktop": "J2cJuL",
+      "mobile": "uNO0h"
+    },
+    {
+      "id": "F-60",
+      "title": "ยืนยันยกเลิกการย้ายที่ยังไม่บันทึก",
+      "group": "JhTsV",
+      "desktop": "S5KpZ",
+      "mobile": "PUkUh"
+    },
+    {
+      "id": "F-61",
+      "title": "หน้าแรก · เติมจากฉบับเผยแพร่ล่าสุด",
+      "group": "SoFE5",
+      "desktop": "G1B94",
+      "mobile": "YYZqh"
+    },
+    {
+      "id": "F-62",
+      "title": "บันทึกการถอนหมุดสำเร็จ",
+      "group": "MllSL",
+      "desktop": "K2hLty",
+      "mobile": "y4MKp"
+    }
+  ]
+}

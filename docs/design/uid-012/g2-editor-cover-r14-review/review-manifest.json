@@ -1,0 +1,103 @@
+{
+  "task": "UID-012",
+  "gate": "G2",
+  "version": "G2-r14",
+  "date": "2026-11-13",
+  "status": "pending_owner_review",
+  "scope": "Place article cover between title and body in article editor",
+  "source_version": "G2-r13",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section": "ly2JF"
+  },
+  "viewports": {
+    "desktop": [
+      1440,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "cover_ratio": "16:9",
+  "owner_confirmed_cover_upload": {
+    "date": "2026-11-13",
+    "formats": ["JPG", "PNG", "WebP"],
+    "max_size_mb": 10,
+    "guidance_placement": "Beside the cover or empty cover placeholder",
+    "verified_frame_count": 13
+  },
+  "frames": [
+    {
+      "id": "E-01",
+      "title": "แก้ไขฉบับร่าง · มีรูปปก",
+      "key": "draft",
+      "group": "RwOMr",
+      "desktop": "Vxhrb",
+      "mobile": "P0fVEU",
+      "sourceDesktop": "ybhtx",
+      "sourceMobile": "ycBXe"
+    },
+    {
+      "id": "E-02",
+      "title": "แก้เรื่องที่เผยแพร่แล้ว",
+      "key": "published",
+      "group": "OkKqg",
+      "desktop": "ixIrU",
+      "mobile": "BxRXv",
+      "sourceDesktop": "oAKlR",
+      "sourceMobile": "VPTTN"
+    },
+    {
+      "id": "E-03",
+      "title": "สร้างบทความ · ยังไม่มีรูปปก",
+      "key": "new",
+      "group": "Jq7bg",
+      "desktop": "X3tlWO",
+      "mobile": "x0hbZA",
+      "sourceDesktop": "ZWVwk",
+      "sourceMobile": "zdDNH"
+    },
+    {
+      "id": "E-04",
+      "title": "นำรูปปกออกจากฉบับร่าง",
+      "key": "removed",
+      "group": "ULtS0",
+      "desktop": "D0n1b",
+      "mobile": "osuu6",
+      "sourceDesktop": "ybhtx",
+      "sourceMobile": "ycBXe"
+    },
+    {
+      "id": "E-05",
+      "title": "ยืนยันเผยแพร่การแก้ไข",
+      "key": "confirm",
+      "group": "R1aKC",
+      "desktop": "sS2bB",
+      "mobile": "P1AlI",
+      "sourceDesktop": "tRwkr",
+      "sourceMobile": "J08aId"
+    },
+    {
+      "id": "E-06",
+      "title": "เผยแพร่ไม่สำเร็จ · เก็บค่าที่แก้",
+      "key": "failure",
+      "group": "GT5x7",
+      "desktop": "P70kN",
+      "mobile": "GDSPR",
+      "sourceDesktop": "KJEJQ",
+      "sourceMobile": "bnlYK"
+    },
+    {
+      "id": "E-07",
+      "key": "details",
+      "title": "รายละเอียดบทความ · บ้านพักที่แนบ",
+      "group": "NTCZp",
+      "desktop": "p2qn6",
+      "mobile": "R2Bn7P",
+      "sourceDesktop": "WDNqH",
+      "sourceMobile": "kYToM"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "task": "UID-012",
+  "gate": "G3",
+  "version": "G3-r1",
+  "status": "owner_approved",
+  "approved_on": "2026-11-13",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "อนุมัติ UID-012 G3-r1 ทั้ง 138 คู่ Desktop กับ Mobile บันทึกอนุมัติแล้วจัดเข้าชุดหลักใน Pencil ให้เรียบร้อยด้วย และจัด section ตาม flow",
+  "scope": {
+    "deliverable": "desktop_and_mobile_high_fidelity",
+    "flows": 6,
+    "paired_states": 138,
+    "frame_count": 276
+  },
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "task_section": "qVhG8",
+    "wireframe_section": "fu3AU",
+    "section": "YTGEC",
+    "flow_map": "GUzTZ"
+  },
+  "frame_inventory": "review-manifest.json",
+  "pending_verification": [
+    "legacy_admin_workflow_comparison",
+    "keyboard_and_screen_reader_in_runtime",
+    "runtime_interaction_and_persistence"
+  ],
+  "later_stages": {
+    "g4": "pending",
+    "implementation": "not_authorized"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "task": "UID-012",
+  "gate": "G2",
+  "version": "G2-r13",
+  "date": "2026-11-13",
+  "status": "pending_owner_review",
+  "scope": "Desktop and mobile article editor based on owner reference",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section": "A9UQUu"
+  },
+  "viewports": {
+    "desktop": [
+      1440,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "frames": [
+    {
+      "id": "E-01",
+      "title": "แก้ไขฉบับร่าง",
+      "pair": "s49Lg",
+      "desktop": "ybhtx",
+      "mobile": "ycBXe"
+    },
+    {
+      "id": "E-02",
+      "title": "แก้เรื่องที่เผยแพร่แล้ว",
+      "pair": "Rw3rC",
+      "desktop": "oAKlR",
+      "mobile": "VPTTN"
+    },
+    {
+      "id": "E-03",
+      "title": "สร้างบทความ",
+      "pair": "D4QVM",
+      "desktop": "ZWVwk",
+      "mobile": "zdDNH"
+    },
+    {
+      "id": "E-04",
+      "title": "รายละเอียดบทความและบ้านพักที่แนบ",
+      "pair": "Zb33T",
+      "desktop": "WDNqH",
+      "mobile": "kYToM"
+    },
+    {
+      "id": "E-05",
+      "title": "ค้นหาและแนบบ้านพัก",
+      "pair": "S2ohMb",
+      "desktop": "d2i8if",
+      "mobile": "XRcYr"
+    },
+    {
+      "id": "E-06",
+      "title": "ดูตัวอย่างบทความเต็มหน้าจอ",
+      "pair": "ufsWd",
+      "desktop": "C1UOJU",
+      "mobile": "HGN5B"
+    },
+    {
+      "id": "E-07",
+      "title": "ยืนยันเผยแพร่การแก้ไข",
+      "pair": "EbV1X",
+      "desktop": "tRwkr",
+      "mobile": "J08aId"
+    },
+    {
+      "id": "E-08",
+      "title": "เผยแพร่ไม่สำเร็จ · เก็บค่าที่แก้",
+      "pair": "taSTZ",
+      "desktop": "KJEJQ",
+      "mobile": "bnlYK"
+    }
+  ]
+}

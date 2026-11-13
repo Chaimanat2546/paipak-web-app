@@ -990,6 +990,18 @@ tasks:
   pencil_task_section: FvFoc
   g4_final_pencil_section: uzxJt
   g4_revision_review_frame_count: 12
+  latest_approved_design: G4-r2
+  latest_approved_design_on: '2026-11-13'
+  latest_approved_design_record: docs/design/uid-011/g4-r2-review/README.md
+  latest_approved_design_pencil_group: SsGW1
+  latest_approved_design_flow_count: 8
+  edit_link_design_approval:
+    status: owner_approved
+    approved_on: '2026-11-13'
+    pencil_group: v9HExA
+    paired_state_count: 24
+    frame_count: 48
+    record: docs/design/uid-011/g4-r2-review/edit-link-approval.md
   g0_confirmed_decisions:
   - Admins add clips by manually pasting TikTok links, confirmed on 2026-11-12.
   - Show all enabled clips that are ready to display in the saved order. On save, show a dismissible confirmation about potentially slower homepage loading when seven or more clips will be shown.
@@ -1019,6 +1031,8 @@ tasks:
   - docs/design/uid-011/g3-review/README.md
   - docs/design/uid-011/g4-review/README.md
   - docs/design/uid-011/g4-review/interaction-spec.md
+  - docs/design/uid-011/g4-r2-review/README.md
+  - docs/design/uid-011/g4-r2-review/edit-link-approval.md
   acceptance_criteria:
   - Show how admins add, preview, edit, order, show, hide, and remove clips at both sizes.
   - Show how saving, discarding, and failed saves affect the homepage clip list.
@@ -1031,6 +1045,94 @@ tasks:
   - Show manual re-enabling after cover recovery and admin-bell notifications for both confirmed triggers with direct navigation to the affected clip.
   - Specify the single clip manager permission set and the actions it grants.
   open_g0_questions: []
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+- id: UID-012
+  title: ระบบจัดการบทความ
+  stage: screens
+  kind: design
+  status: in_progress
+  handoff: manual_user_initiated
+  review_gate: G3
+  g0_status: owner_approved
+  g0_approved_on: '2026-11-13'
+  g0_approval_instruction: อนุมัติ UID-012 ที่ G0 ตามที่สรุป ไปต่อ G1 เสนอทิศทางหน้าจอหลังบ้านได้เลย
+  g1_status: owner_approved
+  g1_direction_version: G1-r1
+  g1_approved_on: '2026-11-13'
+  g1_selected_direction: A
+  g1_direction_proposal: tasks/design/UID-012.md
+  g2_status: owner_approved
+  g2_version: G2-r18
+  g2_approved_on: '2026-11-13'
+  g2_approval_record: docs/design/uid-012/g2-consolidated-r18-review/owner-G2-r18-acceptance.json
+  g2_review_package: docs/design/uid-012/g2-consolidated-r18-review/README.md
+  g2_review_manifest: docs/design/uid-012/g2-consolidated-r18-review/review-manifest.json
+  g2_pencil_group: fu3AU
+  g2_review_frame_count: 210
+  g3_status: owner_approved
+  g3_version: G3-r1
+  g3_approved_on: '2026-11-13'
+  g3_approval_record: docs/design/uid-012/g3-r1-review/owner-G3-r1-acceptance.json
+  g3_pencil_group: YTGEC
+  g3_review_frame_count: 276
+  g3_review_package: docs/design/uid-012/g3-r1-review/README.md
+  g3_review_manifest: docs/design/uid-012/g3-r1-review/review-manifest.json
+  pencil_task_section: qVhG8
+  owner_publication_rules: docs/design/uid-012/g2-consolidated-r16-review/owner-publication-rules.json
+  g2_cover_review_package: docs/design/uid-012/g2-editor-cover-r14-review/README.md
+  g2_editor_review_package: docs/design/uid-012/g2-editor-reference-r13-review/README.md
+  g2_pin_review_package: docs/design/uid-012/g2-pin-direct-save-r12-review/README.md
+  g2_desktop_order_save_review_package: docs/design/uid-012/g2-desktop-order-save-r9-review/README.md
+  g2_desktop_switch_review_package: docs/design/uid-012/g2-desktop-pin-switch-r7-review/README.md
+  g2_desktop_list_review_package: docs/design/uid-012/g2-desktop-reference-r6-review/README.md
+  g2_list_review_package: docs/design/uid-012/g2-list-r2-review/README.md
+  g2_base_review_package: docs/design/uid-012/g2-review/README.md
+  owner_confirmed_pin_capacity: 10
+  owner_confirmed_homepage_article_capacity: 3
+  approval_status: pending
+  depends_on:
+  - UID-001
+  - UID-010
+  - UID-011
+  decision_refs:
+  - BRAND-001
+  - PAGE-001
+  scope: Desktop and mobile admin design for drafting, publishing, unpublishing, and curating articles for Home. Article preview, the public article index, and the reading page are outside the current scope.
+  deliverables:
+  - desktop_and_mobile_wireframes_and_high_fidelity_screens
+  - homepage_article_display_examples
+  - interaction_specification_and_g4_review_package
+  artifact_links:
+  - tasks/design/UID-012.md
+  - docs/design/uid-012/g2-review/README.md
+  - docs/design/uid-012/g2-list-r2-review/README.md
+  - docs/design/uid-012/g2-desktop-list-r4-review/README.md
+  - docs/design/uid-012/g2-desktop-reference-r6-review/README.md
+  - docs/design/uid-012/g2-desktop-pin-switch-r7-review/README.md
+  - docs/design/uid-012/g2-desktop-order-mode-r8-review/README.md
+  - docs/design/uid-012/g2-desktop-order-save-r9-review/README.md
+  - docs/design/uid-012/g2-desktop-save-visibility-r10-review/README.md
+  - docs/design/uid-012/g2-desktop-preview-r11-review/README.md
+  - docs/design/uid-012/g2-pin-direct-save-r12-review/README.md
+  - docs/design/uid-012/g2-editor-reference-r13-review/README.md
+  - docs/design/uid-012/g2-editor-cover-r14-review/README.md
+  - docs/design/uid-012/g2-consolidated-r15-review/README.md
+  - docs/design/uid-012/g2-consolidated-r16-review/README.md
+  - docs/design/uid-012/g2-consolidated-r17-review/README.md
+  - docs/design/uid-012/g2-consolidated-r18-review/README.md
+  - docs/design/uid-012/g3-r1-review/README.md
+  - docs/design/uid-012/g3-r1-review/owner-G3-r1-acceptance.json
+  acceptance_criteria:
+  - Admins can create and edit article drafts.
+  - Saving a draft of a published article preserves the published version until publishing the changes succeeds.
+  - Publishing requires an article title, cover, and content.
+  - Successful unpublishing keeps the latest saved draft or uses the previous published version if no draft exists. It removes the article from Home and the pinned set, then shifts the remaining ranks up.
+  - Admins can save Home curation directly from the pin panel. Home shows curated eligible articles first, then fills up to three slots using the latest eligible published versions without duplicates.
+  - Desktop and mobile designs cover incomplete data and failed saves or publishes while preserving entered values.
   evidence_required:
   - design_artifact_links
   - desktop_mobile_review

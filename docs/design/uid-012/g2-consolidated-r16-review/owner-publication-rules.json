@@ -1,0 +1,15 @@
+{
+  "task": "UID-012",
+  "date": "2026-11-13",
+  "timezone": "Asia/Bangkok",
+  "scope": "G2-r16 wireframe revision and article publication rules",
+  "instruction": "บังคับรูปปกตอนเผยแพร่เลยครับ ถ้ายกเลิกเผยแพร่ให้เก็บฉบับร่างล่าสุดไว้ ถ้าไม่มีร่างให้ใช้ฉบับเผยแพร่เดิม แล้วถอนหมุดและเลื่อนลำดับขึ้นมา แก้ตามผลตรวจทั้ง 6 flow แล้วรวมไวร์เฟรมใน Pencil ให้ครบครับ",
+  "cover_required_for_publish": true,
+  "unpublish": {
+    "draft_if_available": "latest_saved_draft",
+    "draft_if_unavailable": "previous_published_version",
+    "pin": "remove",
+    "remaining_ranks": "compact_in_existing_relative_order"
+  },
+  "review_status": "pending_owner_review"
+}
