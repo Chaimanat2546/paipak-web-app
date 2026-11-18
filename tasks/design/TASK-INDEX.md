@@ -13,10 +13,10 @@
 - **UID-007 — Empty loading error and offline feedback design** | Depends on: DSD-002, UID-001, UID-002, UID-003, UID-004, UID-005, UID-006 | Status: planned/not started
 - **UID-008 — Accessibility and responsive design review** | Depends on: UID-001, UID-002, UID-003, UID-004, UID-005, UID-006, UID-007 | Status: planned/not started
 - **UID-009 — Final visual reference approval and handoff** | Depends on: UID-008 | Status: planned/not started
-- **UID-010 — ระบบจัดการหมวดหมู่บ้านพัก** | ภูอนุมัติ G4-r3 กดจัดลำดับก่อนแล้วลากทั้งแถว และปิดงานออกแบบเมื่อ 18 พฤศจิกายน 2026 | [แบบที่อนุมัติ](../../docs/design/admin-category-g4-r3/README.md)
-- **UID-011 — ระบบจัดการคลิป TikTok บนหน้าแรก** | ภูอนุมัติ G4-r3 จัดลำดับจากรายการซ้ายบนเดสก์ท็อปและปิดงานออกแบบเมื่อ 18 พฤศจิกายน 2026 | [แบบที่อนุมัติ](../../docs/design/uid-011/g4-r3-review/README.md)
+- **UID-010 — ระบบจัดการหมวดหมู่บ้านพัก** | G4-r4 อนุมัติแล้ว · 18 พฤศจิกายน 2026 | [แบบที่อนุมัติ](../../docs/design/admin-g4-r4-review/README.md)
+- **UID-011 — ระบบจัดการคลิป TikTok บนหน้าแรก** | G4-r4 อนุมัติแล้ว · 18 พฤศจิกายน 2026 | [แบบที่อนุมัติ](../../docs/design/admin-g4-r4-review/README.md)
 - **UID-012 — ระบบจัดการบทความ** | ภูอนุมัติ G4-r1 ครบสามเฟรมมือถือและปิดงานออกแบบเมื่อ 18 พฤศจิกายน 2026 | [ชุดแบบ G4-r1](../../docs/design/uid-012/g4-review/README.md)
-- **UID-013 — ระบบจัดการคำถามที่พบบ่อย** | ภูอนุมัติ G4-r3 กดจัดลำดับก่อนแล้วลากทั้งแถว และปิดงานออกแบบเมื่อ 18 พฤศจิกายน 2026 | [แบบที่อนุมัติ](../../docs/design/uid-013/g4-r3-review/README.md)
+- **UID-013 — ระบบจัดการคำถามที่พบบ่อย** | G4-r4 อนุมัติแล้ว · 18 พฤศจิกายน 2026 | [แบบที่อนุมัติ](../../docs/design/admin-g4-r4-review/README.md)
 - **UXD-003 — Usability prototype and user testing spec** | Depends on: UXD-002 | Status: planned/not started
 
 ## Section งานออกแบบใน Pencil
@@ -28,10 +28,10 @@
 | UID-001 · หน้าแรก | `Y4TBa` | ภาพอ้างอิง UXD-002 review-5 รอตรวจรับ |
 | UID-003 · รายละเอียดบ้านพัก | `rqZz8` | ภาพอ้างอิง UXD-002 review-5 รอตรวจรับ |
 | UID-005 · สมัครสมาชิกและเข้าสู่ระบบ | `R5IaVO` | แผนผัง Home Auth Desktop G2-r40 ที่อนุมัติ |
-| UID-010 · จัดการหมวดหมู่บ้านพัก | `jNYEs` | Wireframe r2 ทางซ้าย · G4-r3 เดสก์ท็อปที่อนุมัติทางขวา · แบบอ้างอิง G4-r2 และ G4-r1 ด้านล่าง |
-| UID-011 · คลิป TikTok หน้าแรก | `FvFoc` | Wireframe G2 ทางซ้าย · G4-r3 เดสก์ท็อปที่อนุมัติทางขวา · แบบอ้างอิง G4-r2 ด้านล่าง |
+| UID-010 · จัดการหมวดหมู่บ้านพัก | `jNYEs` | ไวร์เฟรมทางซ้าย · G4-r4 เดสก์ท็อปทางขวา · มือถือ หน้าแรก และสถานะฟอร์มด้านล่าง |
+| UID-011 · คลิป TikTok หน้าแรก | `FvFoc` | ไวร์เฟรมทางซ้าย · G4-r4 เดสก์ท็อปทางขวา · แบบเพิ่มและแก้คลิป มือถือ และหน้าแรกด้านล่าง |
 | UID-012 · ระบบจัดการบทความ | `qVhG8` | Wireframe G2-r18 ทางซ้าย · High-Fi G3-r1 ตรงกลาง แยก 6 เส้นทาง · แบบมือถือ G4-r1 ที่อนุมัติทางขวา |
-| UID-013 · ระบบจัดการคำถามที่พบบ่อย | `nev4k` | ไวร์เฟรม G2-r2 ที่อนุมัติทางซ้าย · G4-r3 เดสก์ท็อปที่อนุมัติทางขวา · แบบมือถือและหน้าแรกที่อนุมัติด้านล่าง |
+| UID-013 · ระบบจัดการคำถามที่พบบ่อย | `nev4k` | ไวร์เฟรมทางซ้าย · G4-r4 เดสก์ท็อปทางขวา · มือถือและ FAQ หน้าแรกด้านล่าง |
 
 Header และ Footer อยู่ใน section ใช้ร่วมกัน `pnnKH` คลังสถานะ Home Desktop อยู่ใน Archive `ysmkc`
 

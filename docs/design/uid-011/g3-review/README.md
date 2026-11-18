@@ -1,7 +1,7 @@
 # UID-011 · Hi-Fi จัดการคลิป TikTok บนหน้าแรก
 
 **สถานะ** เจ้าของอนุมัติ G3 วันที่ 12 พฤศจิกายน 2026 (เวลาไทย) · [บันทึกอนุมัติ](owner-approval.json) · [ชุดตรวจ G4](../g4-review/README.md)  
-**ต้นฉบับ** [Pencil ของโครงการ](../../dsd-001/papaipak-ui.pen) · กลุ่ม `UID-011 · คลิป TikTok หน้าแรก · G3 Hi-Fi` (`K6s5t2`) อยู่ใน Archive (`H9Hti`)  
+**ต้นฉบับ** [Pencil ณ รุ่นที่ตรวจ](https://github.com/Chaimanat2546/paipak-web-app/blob/1d56ac968e6ac2be5943a102917222d51fdb028c/docs/design/dsd-001/papaipak-ui.pen) · กลุ่ม `UID-011 · คลิป TikTok หน้าแรก · G3 Hi-Fi` (`K6s5t2`) อยู่ใน Archive (`H9Hti`)
 **ภาพสำหรับตรวจ** หลังบ้านขนาด 1440 × 900 และ 390 × 844 พิกเซล ภาพหน้าแรกตัดมาเฉพาะส่วนที่เกี่ยวข้องและขยายกรอบตามความสูงของเนื้อหา · [ไวร์เฟรมและสเปก G2 ที่อนุมัติ](../g2-review/README.md)
 
 ## ภาพ Hi-Fi

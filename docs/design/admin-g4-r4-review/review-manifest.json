@@ -1,0 +1,222 @@
+{
+  "version": "G4-r4",
+  "status": "owner_approved",
+  "approved_on": "2026-11-18",
+  "owner_approval_record": "owner-G4-r4-acceptance.json",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "desktop_frame_count": 47,
+  "sections": [
+    {
+      "task": "UID-010",
+      "section": "jNYEs",
+      "group": "CSOsO",
+      "desktop_frame_count": 18,
+      "frames": [
+        {
+          "id": "D-01",
+          "desktop": "RM1du"
+        },
+        {
+          "id": "D-02",
+          "desktop": "rHhBx"
+        },
+        {
+          "id": "D-03",
+          "desktop": "uTI74"
+        },
+        {
+          "id": "D-04",
+          "desktop": "vWgkW"
+        },
+        {
+          "id": "D-05",
+          "desktop": "f8jUpn"
+        },
+        {
+          "id": "D-06",
+          "desktop": "gcPb8"
+        },
+        {
+          "id": "D-07",
+          "desktop": "c1rUPi"
+        },
+        {
+          "id": "D-08",
+          "desktop": "D9bOQ"
+        },
+        {
+          "id": "D-09",
+          "desktop": "rZgmr"
+        },
+        {
+          "id": "D-10",
+          "desktop": "QnSCB"
+        },
+        {
+          "id": "D-11",
+          "desktop": "CW9CR"
+        },
+        {
+          "id": "D-12",
+          "desktop": "L31At5"
+        },
+        {
+          "id": "D-13",
+          "desktop": "vDFC2"
+        },
+        {
+          "id": "D-14",
+          "desktop": "YiUgt"
+        },
+        {
+          "id": "D-15",
+          "desktop": "SF1bv"
+        },
+        {
+          "id": "D-16",
+          "desktop": "sVbOU"
+        },
+        {
+          "id": "D-17",
+          "desktop": "JK9M6"
+        },
+        {
+          "id": "D-18",
+          "desktop": "I6ojqD"
+        }
+      ]
+    },
+    {
+      "task": "UID-011",
+      "section": "FvFoc",
+      "group": "aQPs7",
+      "desktop_frame_count": 10,
+      "frames": [
+        {
+          "id": "D-01",
+          "desktop": "mUBU7"
+        },
+        {
+          "id": "D-02",
+          "desktop": "yVQAI"
+        },
+        {
+          "id": "D-03",
+          "desktop": "AZswP"
+        },
+        {
+          "id": "D-04",
+          "desktop": "yVzQi"
+        },
+        {
+          "id": "D-05",
+          "desktop": "sSBLk"
+        },
+        {
+          "id": "D-06",
+          "desktop": "nhdDP"
+        },
+        {
+          "id": "D-07",
+          "desktop": "zjYvX"
+        },
+        {
+          "id": "D-08",
+          "desktop": "a6Klf"
+        },
+        {
+          "id": "D-09",
+          "desktop": "c97kxf"
+        },
+        {
+          "id": "D-10",
+          "desktop": "mQy5p"
+        }
+      ]
+    },
+    {
+      "task": "UID-013",
+      "section": "nev4k",
+      "group": "W7mUW",
+      "desktop_frame_count": 19,
+      "frames": [
+        {
+          "id": "F-03",
+          "desktop": "py1sr"
+        },
+        {
+          "id": "F-09",
+          "desktop": "I8IT2d"
+        },
+        {
+          "id": "F-20",
+          "desktop": "U8Dje"
+        },
+        {
+          "id": "F-21",
+          "desktop": "ZWhzU"
+        },
+        {
+          "id": "F-24",
+          "desktop": "MZpU4"
+        },
+        {
+          "id": "F-22",
+          "desktop": "a3PJn"
+        },
+        {
+          "id": "F-10",
+          "desktop": "q5wZW"
+        },
+        {
+          "id": "F-11",
+          "desktop": "P2Tj7y"
+        },
+        {
+          "id": "F-01",
+          "desktop": "iibDK"
+        },
+        {
+          "id": "F-02",
+          "desktop": "xl6C9"
+        },
+        {
+          "id": "F-04",
+          "desktop": "p0M8I"
+        },
+        {
+          "id": "F-05",
+          "desktop": "Q7GSHm"
+        },
+        {
+          "id": "F-06",
+          "desktop": "ScSul"
+        },
+        {
+          "id": "F-07",
+          "desktop": "yOQGg"
+        },
+        {
+          "id": "F-08",
+          "desktop": "XLAnv"
+        },
+        {
+          "id": "F-12",
+          "desktop": "M0Ljsi"
+        },
+        {
+          "id": "F-13",
+          "desktop": "u6yfLO"
+        },
+        {
+          "id": "F-23",
+          "desktop": "L4IR8"
+        },
+        {
+          "id": "F-14",
+          "desktop": "PLjMy"
+        }
+      ]
+    }
+  ]
+}

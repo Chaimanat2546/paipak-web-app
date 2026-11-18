@@ -1,8 +1,8 @@
-# ชุดตรวจแก้ UI หลังบ้าน G4-r4
+# แบบ UI หลังบ้าน G4-r4 ที่อนุมัติ
 
-**รอตรวจ** · 18 พฤศจิกายน 2026 · UID-010, UID-011 และ UID-013
+**อนุมัติแล้ว** · 18 พฤศจิกายน 2026 · UID-010, UID-011 และ UID-013 [บันทึกผลอนุมัติ](owner-G4-r4-acceptance.json)
 
-เปิด [ไฟล์ Pencil ชุดตรวจ G4-r4](../dsd-001/papaipak-ui-admin-g4-r4-review.pen) โดยดู section หมวดหมู่ `jNYEs` คลิป TikTok `FvFoc` และ FAQ `nev4k` แบบที่อนุมัติ G4-r3 เปิดได้ใน [ไฟล์ Pencil หลัก](../dsd-001/papaipak-ui.pen)
+เปิด [ไฟล์ Pencil หลัก](../dsd-001/papaipak-ui.pen) ที่ section หมวดหมู่ `jNYEs` คลิป TikTok `FvFoc` และ FAQ `nev4k` แบบเดสก์ท็อปที่อนุมัติรวม 47 เฟรม อยู่คู่กับแบบมือถือ หน้าแรก และขั้นตอนที่ยังใช้ [รายการเฟรม G4-r4](review-manifest.json)
 
 ## จุดที่แก้
 

@@ -2,7 +2,7 @@
 
 เจ้าของอนุมัติ G4-r1 ทั้งเดสก์ท็อปและมือถือและปิดงานออกแบบเมื่อ 12 พฤศจิกายน 2026
 
-ชุด G4-r1 (`uzxJt`) อยู่ใน Archive (`H9Hti`) รวมเฟรมแก้ G4-r1 (`M16esr`) สถานะหน้าแรกเมื่อไม่มีคลิป และแบบหลังบ้านที่ใช้ร่วมกันจาก G4 ใน section หลัก `FvFoc` มี Wireframe G2 ทางซ้ายและแบบ G4-r2 ที่อนุมัติทางขวา [เปิด Pencil](../../dsd-001/papaipak-ui.pen) · [ชุด G4-r2](../g4-r2-review/README.md)
+ชุด G4-r1 (`uzxJt`) อยู่ใน Archive (`H9Hti`) รวมเฟรมแก้ G4-r1 (`M16esr`) สถานะหน้าแรกเมื่อไม่มีคลิป และแบบหลังบ้านที่ใช้ร่วมกันจาก G4 ใน section หลัก `FvFoc` มี Wireframe G2 ทางซ้ายและแบบ G4-r2 ที่อนุมัติทางขวา [Pencil ณ รุ่นที่ตรวจ](https://github.com/Chaimanat2546/paipak-web-app/blob/1d56ac968e6ac2be5943a102917222d51fdb028c/docs/design/dsd-001/papaipak-ui.pen) · [ชุด G4-r2](../g4-r2-review/README.md)
 
 | สถานะ | เดสก์ท็อป | มือถือ |
 | --- | --- | --- |

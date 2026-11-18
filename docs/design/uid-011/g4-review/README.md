@@ -2,7 +2,7 @@
 
 **สถานะ** เจ้าของอนุมัติ G4 และปิดงานออกแบบแล้ว · 12 พฤศจิกายน 2026 (เวลาไทย)  
 **แบบล่าสุด** ดูแบบ G4-r1 ที่อนุมัติและตำแหน่ง section สุดท้ายใน [ชุด G4-r1](../g4-r1-review/README.md)  
-**Pencil** [เปิดต้นฉบับ](../../dsd-001/papaipak-ui.pen) · บอร์ด `UID-011 · คลิป TikTok หน้าแรก · G4 ชุดตรวจสุดท้าย` (`i89df`) อยู่ถัดจาก G3 ใน Archive (`H9Hti`)  
+**Pencil** [Pencil ณ รุ่นที่ตรวจ](https://github.com/Chaimanat2546/paipak-web-app/blob/1d56ac968e6ac2be5943a102917222d51fdb028c/docs/design/dsd-001/papaipak-ui.pen) · บอร์ด `UID-011 · คลิป TikTok หน้าแรก · G4 ชุดตรวจสุดท้าย` (`i89df`) อยู่ถัดจาก G3 ใน Archive (`H9Hti`)
 **เอกสารประกอบ** [สเปกการใช้งานและองค์ประกอบ](interaction-spec.md) · [บันทึกอนุมัติ G4 และรายการเฟรม](review-manifest.json) · [บันทึกอนุมัติ G3](../g3-review/owner-approval.json) · [เกณฑ์ตรวจรับ](../../../../tasks/design/UID-011.md)
 
 ใช้ Hi-Fi G3 ที่เจ้าของอนุมัติเป็นต้นแบบ และเพิ่มภาพ 5 คู่เพื่อให้ตรวจผลหลังบันทึก จุดเริ่มเตือน และผลเมื่อเปิดจากแจ้งเตือนได้ต่อเนื่อง หลังบ้านอ้างอิง [UID-010 G4-r1](../../admin-category-g4-r1/README.md) ส่วนหน้าแรกอ้างอิง [Home G4-r1](../../dsd-001/home-g4-r1/README.md)

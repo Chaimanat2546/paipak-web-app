@@ -938,6 +938,8 @@ tasks:
   - docs/design/admin-category-g4-r3/interaction-spec.md
   - docs/design/admin-category-g4-r3/review-manifest.json
   - docs/design/admin-category-g4-r3/owner-G4-r3-acceptance.json
+  - docs/design/admin-g4-r4-review/README.md
+  - docs/design/admin-g4-r4-review/owner-G4-r4-acceptance.json
   acceptance_criteria:
   - Desktop and mobile support creating, editing, and ordering categories and their manually selected properties.
   - Independent homepage visibility settings share category order, and Home and Results share the property order.
@@ -953,14 +955,14 @@ tasks:
   - accessibility_review
   - human_approval
   approval_status: owner_approved
-  approval_scope: g4_r3_desktop_category_reordering_and_g4_r1_mobile_and_home_reference
-  g4_approved_version: G4-r3
+  approval_scope: g4_r4_desktop_visual_refinements_with_approved_mobile_and_home_reference
+  g4_approved_version: G4-r4
   g4_approved_on: '2026-11-18'
-  g4_approval_record: docs/design/admin-category-g4-r3/owner-G4-r3-acceptance.json
+  g4_approval_record: docs/design/admin-g4-r4-review/owner-G4-r4-acceptance.json
   g4_review_status: owner_approved
-  g4_review_version: G4-r3
-  g4_review_package: docs/design/admin-category-g4-r3/README.md
-  g4_review_manifest: docs/design/admin-category-g4-r3/review-manifest.json
+  g4_review_version: G4-r4
+  g4_review_package: docs/design/admin-g4-r4-review/README.md
+  g4_review_manifest: docs/design/admin-g4-r4-review/review-manifest.json
   g4_interaction_spec: docs/design/admin-category-g4-r3/interaction-spec.md
   g4_review_pencil_file: docs/design/dsd-001/papaipak-ui.pen
   pencil_task_section: jNYEs
@@ -1010,19 +1012,19 @@ tasks:
   pencil_task_section: FvFoc
   g4_final_pencil_section: uzxJt
   g4_revision_review_frame_count: 12
-  latest_approved_design: G4-r3
+  latest_approved_design: G4-r4
   latest_approved_design_on: '2026-11-18'
-  latest_approved_design_record: docs/design/uid-011/g4-r3-review/owner-G4-r3-acceptance.json
+  latest_approved_design_record: docs/design/admin-g4-r4-review/owner-G4-r4-acceptance.json
   latest_approved_design_pencil_group: aQPs7
   g4_r2_approval:
     approved_on: '2026-11-13'
     record: docs/design/uid-011/g4-r2-review/README.md
     pencil_group: SsGW1
     flow_count: 8
-  g4_followup_version: G4-r3
+  g4_followup_version: G4-r4
   g4_followup_status: owner_approved
-  g4_followup_package: docs/design/uid-011/g4-r3-review/README.md
-  g4_followup_manifest: docs/design/uid-011/g4-r3-review/review-manifest.json
+  g4_followup_package: docs/design/admin-g4-r4-review/README.md
+  g4_followup_manifest: docs/design/admin-g4-r4-review/review-manifest.json
   g4_followup_pencil_file: docs/design/dsd-001/papaipak-ui.pen
   g4_followup_pencil_group: aQPs7
   g4_followup_frame_count: 10
@@ -1068,6 +1070,8 @@ tasks:
   - docs/design/uid-011/g4-r3-review/interaction-spec.md
   - docs/design/uid-011/g4-r3-review/review-manifest.json
   - docs/design/uid-011/g4-r3-review/owner-G4-r3-acceptance.json
+  - docs/design/admin-g4-r4-review/README.md
+  - docs/design/admin-g4-r4-review/owner-G4-r4-acceptance.json
   acceptance_criteria:
   - Show how admins add, preview, edit, order, show, hide, and remove clips at both sizes.
   - Show how saving, discarding, and failed saves affect the homepage clip list.
@@ -1219,17 +1223,17 @@ tasks:
   g3_pencil_group: m9iMHK
   g3_review_frame_count: 46
   g4_review_status: owner_approved
-  g4_review_version: G4-r3
-  g4_approved_version: G4-r3
+  g4_review_version: G4-r4
+  g4_approved_version: G4-r4
   g4_approved_on: '2026-11-18'
-  g4_approval_record: docs/design/uid-013/g4-r3-review/owner-G4-r3-acceptance.json
-  g4_review_package: docs/design/uid-013/g4-r3-review/README.md
-  g4_review_manifest: docs/design/uid-013/g4-r3-review/review-manifest.json
+  g4_approval_record: docs/design/admin-g4-r4-review/owner-G4-r4-acceptance.json
+  g4_review_package: docs/design/admin-g4-r4-review/README.md
+  g4_review_manifest: docs/design/admin-g4-r4-review/review-manifest.json
   g4_interaction_spec: docs/design/uid-013/g4-r3-review/interaction-spec.md
   g4_review_pencil_file: docs/design/dsd-001/papaipak-ui.pen
   pencil_task_section: nev4k
   g4_review_pencil_group: W7mUW
-  g4_review_frame_count: 18
+  g4_review_frame_count: 19
   approval_status: owner_approved
   depends_on:
   - UID-001
@@ -1269,6 +1273,8 @@ tasks:
   - docs/design/uid-013/g4-r3-review/interaction-spec.md
   - docs/design/uid-013/g4-r3-review/review-manifest.json
   - docs/design/uid-013/g4-r3-review/owner-G4-r3-acceptance.json
+  - docs/design/admin-g4-r4-review/README.md
+  - docs/design/admin-g4-r4-review/owner-G4-r4-acceptance.json
   - docs/design/dsd-001/home-g4-r1/README.md
   - docs/design/dsd-001/home-faq-r4/README.md
   - docs/design/uid-012/g4-review/README.md

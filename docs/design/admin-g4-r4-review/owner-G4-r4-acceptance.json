@@ -1,0 +1,44 @@
+{
+  "gate": "G4",
+  "version": "G4-r4",
+  "status": "owner_approved",
+  "design_task_status": "completed",
+  "approved_on": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "โอเค อนุมัติ G4-r4 ของ UID-010, UID-011 และ UID-013 ครับ บันทึกผลอนุมัติแล้วรวมเข้าไฟล์ Pencil หลัก ให้เหลือเฉพาะแบบที่อนุมัติล่าสุด แล้ว push ได้เลยครับ",
+  "scope": "The 47 reviewed desktop frames and six visual corrections recorded in README.md.",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "approved_desktop_frame_count": 47,
+  "sections": [
+    {
+      "task": "UID-010",
+      "section": "jNYEs",
+      "group": "CSOsO",
+      "wireframe": "sSheM",
+      "retained_reference": "Rc0XX",
+      "desktop_frame_count": 18
+    },
+    {
+      "task": "UID-011",
+      "section": "FvFoc",
+      "group": "aQPs7",
+      "wireframe": "rtD9Y",
+      "retained_reference": "SsGW1",
+      "desktop_frame_count": 10
+    },
+    {
+      "task": "UID-013",
+      "section": "nev4k",
+      "group": "W7mUW",
+      "wireframe": "T6wFI5",
+      "retained_reference": "PnmBI",
+      "desktop_frame_count": 19
+    }
+  ],
+  "review_manifest": "review-manifest.json",
+  "review_source": {
+    "commit": "1d56ac968e6ac2be5943a102917222d51fdb028c",
+    "pencil_file": "docs/design/dsd-001/papaipak-ui-admin-g4-r4-review.pen",
+    "sha256": "912d16aa77cce8ced49c968a85f6e43e778c583f89e8f0b524ba267e92020ab8"
+  }
+}
