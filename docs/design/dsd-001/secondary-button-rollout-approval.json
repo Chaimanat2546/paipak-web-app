@@ -1,0 +1,87 @@
+{
+  "task": "DSD-001",
+  "status": "owner_approved_rollout_applied",
+  "approved_on": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "โอเค อนุมัติแบบปุ่มรองนี้ครับ ใช้พื้นเทาอ่อน มุมโค้ง ไม่มีเส้นขอบ แล้วปรับปุ่มรองทั้งหน้าลูกค้าและหลังบ้านในไฟล์ Pencil กลางได้เลยครับ",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "approved_examples": "U82cu9",
+  "system_examples": "InMtY",
+  "style": {
+    "fill_token": "action.secondary.fill",
+    "fill": "#F0F0F0",
+    "radius_px": 10,
+    "border": "none",
+    "keyboard_focus_ring": "existing separate ring",
+    "hover_fill": "#F2FAFE",
+    "pressed_fill": "#DBF2FC"
+  },
+  "coverage": [
+    {
+      "name": "หน้าแรก",
+      "editable_buttons": 7,
+      "pencil_groups": [
+        "kAgNZ"
+      ]
+    },
+    {
+      "name": "รายละเอียดบ้านพัก",
+      "editable_buttons": 92,
+      "pencil_groups": [
+        "cChRO"
+      ]
+    },
+    {
+      "name": "เข้าสู่ระบบ",
+      "editable_buttons": 18,
+      "pencil_groups": [
+        "izim4"
+      ]
+    },
+    {
+      "name": "Header และ Footer",
+      "editable_buttons": 0,
+      "pencil_groups": [
+        "pnnKH"
+      ]
+    },
+    {
+      "name": "หมวดหมู่",
+      "editable_buttons": 112,
+      "pencil_groups": [
+        "Rc0XX",
+        "CSOsO"
+      ]
+    },
+    {
+      "name": "FAQ",
+      "editable_buttons": 91,
+      "pencil_groups": [
+        "W7mUW",
+        "PnmBI"
+      ]
+    },
+    {
+      "name": "TikTok",
+      "editable_buttons": 531,
+      "pencil_groups": [
+        "SsGW1",
+        "aQPs7"
+      ]
+    },
+    {
+      "name": "บทความ",
+      "editable_buttons": 1108,
+      "pencil_groups": [
+        "YTGEC",
+        "BrM0R"
+      ]
+    }
+  ],
+  "editable_screen_buttons_updated": 1959,
+  "scope": "Editable secondary action buttons on active customer and admin high-fidelity screens. The comparison sample records the original appearance.",
+  "embedded_home_references": [
+    "g3r6p",
+    "C9k8l1"
+  ]
+}
