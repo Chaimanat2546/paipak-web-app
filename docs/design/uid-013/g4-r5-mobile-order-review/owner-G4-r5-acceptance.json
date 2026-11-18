@@ -1,0 +1,17 @@
+{
+  "task": "UID-013",
+  "gate": "G4",
+  "version": "G4-r5",
+  "status": "owner_approved",
+  "design_task_status": "completed",
+  "approved_on": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "โอเค อนุมัติ G4-r5 ของ UID-013 ครับ บันทึกผลอนุมัติแล้วรวมเข้าไฟล์ Pencil หลัก ให้เหลือเฉพาะแบบที่อนุมัติล่าสุด แล้ว push ได้เลยครับ",
+  "scope": "Six mobile FAQ reorder states. Admins enter reorder mode before dragging a whole row or tapping it to choose a position. The six-dot icon is decorative.",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_section": "nev4k",
+  "pencil_mobile_group": "oTVq8",
+  "approved_mobile_frame_count": 6,
+  "review_manifest": "review-manifest.json",
+  "desktop_approval_record": "../../admin-g4-r4-review/owner-G4-r4-acceptance.json"
+}

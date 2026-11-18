@@ -1,0 +1,20 @@
+{
+  "task": "UID-013",
+  "version": "G4-r5",
+  "status": "owner_approved",
+  "approved_on": "2026-11-18",
+  "owner_approval_record": "owner-G4-r5-acceptance.json",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_section": "nev4k",
+  "pencil_mobile_group": "oTVq8",
+  "mobile_viewport": { "width": 390, "height": 844 },
+  "mobile_frame_count": 6,
+  "frames": [
+    { "id": "F-09", "mobile": "blbb8", "image": "blbb8.png", "state": "reorder_mode" },
+    { "id": "F-10", "mobile": "ZI0Jz", "image": "ZI0Jz.png", "state": "save_failed_retry" },
+    { "id": "F-19", "mobile": "hyALC", "image": "hyALC.png", "state": "choose_position" },
+    { "id": "F-20", "mobile": "x89SU", "image": "x89SU.png", "state": "dragging_row" },
+    { "id": "F-21", "mobile": "apMY1", "image": "apMY1.png", "state": "reordered_unsaved" },
+    { "id": "F-22", "mobile": "TrusJ", "image": "TrusJ.png", "state": "saving_order" }
+  ]
+}
