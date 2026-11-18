@@ -26,7 +26,7 @@
     },
     {
       "name": "รายละเอียดบ้านพัก",
-      "editable_buttons": 92,
+      "editable_buttons": 113,
       "pencil_groups": [
         "cChRO"
       ]
@@ -47,7 +47,7 @@
     },
     {
       "name": "หมวดหมู่",
-      "editable_buttons": 112,
+      "editable_buttons": 132,
       "pencil_groups": [
         "Rc0XX",
         "CSOsO"
@@ -63,7 +63,7 @@
     },
     {
       "name": "TikTok",
-      "editable_buttons": 531,
+      "editable_buttons": 555,
       "pencil_groups": [
         "SsGW1",
         "aQPs7"
@@ -71,14 +71,20 @@
     },
     {
       "name": "บทความ",
-      "editable_buttons": 1108,
+      "editable_buttons": 1326,
       "pencil_groups": [
         "YTGEC",
         "BrM0R"
       ]
     }
   ],
-  "editable_screen_buttons_updated": 1959,
+  "editable_screen_buttons_updated": 2242,
+  "followup_verification": {
+    "editable_screen_buttons_before_recheck": 1959,
+    "additional_buttons_updated": 283,
+    "keyboard_focus_rings_rendered_separately": 6,
+    "scope": "Additional secondary actions with alternate outline colors in Property Detail, Categories, TikTok, and Articles. The normal button surface uses the approved shared token."
+  },
   "scope": "Editable secondary action buttons on active customer and admin high-fidelity screens. The comparison sample records the original appearance.",
   "embedded_home_references": [
     "g3r6p",
