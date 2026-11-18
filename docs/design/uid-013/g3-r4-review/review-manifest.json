@@ -1,0 +1,462 @@
+{
+  "task": "UID-013",
+  "version": "G3-r4",
+  "date": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "status": "superseded",
+  "superseded_by": "../g3-r5-review/review-manifest.json",
+  "archived_mobile_editor_group": "gad1T",
+  "wireframe": "../g2-r2-review/review-manifest.json",
+  "prior_high_fidelity": "../g3-r3-review/review-manifest.json",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "m9iMHK",
+  "pencil_archive_group": "A5GdrJ",
+  "desktop_viewport": [
+    1440,
+    900
+  ],
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "pair_count": 23,
+  "frame_count": 46,
+  "frame_local_bounds_issues": 0,
+  "admin_pairs_with_icons": 19,
+  "deletion_screens_with_warning_icon": 6,
+  "confirmation_crops": [
+    "kvJMP.png",
+    "b11Xl.png"
+  ],
+  "toast_reference": {
+    "task": "UID-012",
+    "version": "G4-r1",
+    "approved_source_frames": [
+      "SFOzJ",
+      "J7en9D",
+      "mgb04",
+      "iDrJy"
+    ],
+    "desktop_position": [
+      1026,
+      9
+    ],
+    "mobile_position": [
+      16,
+      70
+    ],
+    "mobile_under_header_gap_px": 8
+  },
+  "frames": [
+    {
+      "id": "F-01",
+      "title": "รายการคำถาม",
+      "pencil_pair": "d5dbu",
+      "desktop": "FpSQw",
+      "mobile": "L5Z0L",
+      "images": [
+        "FpSQw.png",
+        "L5Z0L.png"
+      ],
+      "icon_count": {
+        "desktop": 18,
+        "mobile": 6
+      }
+    },
+    {
+      "id": "F-02",
+      "title": "เพิ่มคำถาม",
+      "pencil_pair": "a6FSeI",
+      "desktop": "i89zX",
+      "mobile": "gEroL",
+      "images": [],
+      "icon_count": {
+        "desktop": 19,
+        "mobile": 2
+      }
+    },
+    {
+      "id": "F-03",
+      "title": "แก้คำตอบยาว",
+      "pencil_pair": "l9I4ci",
+      "desktop": "nOQe8",
+      "mobile": "F6cLl",
+      "images": [
+        "nOQe8.png",
+        "F6cLl.png"
+      ],
+      "icon_count": {
+        "desktop": 20,
+        "mobile": 3
+      }
+    },
+    {
+      "id": "F-04",
+      "title": "ข้อมูลไม่ครบ",
+      "pencil_pair": "giICw",
+      "desktop": "c1A5GQ",
+      "mobile": "E1xwV",
+      "images": [
+        "c1A5GQ.png",
+        "E1xwV.png"
+      ],
+      "icon_count": {
+        "desktop": 21,
+        "mobile": 4
+      }
+    },
+    {
+      "id": "F-05",
+      "title": "กำลังบันทึก",
+      "pencil_pair": "A6tjVV",
+      "desktop": "lbywS",
+      "mobile": "a2Rcx",
+      "images": [],
+      "toast": {
+        "state": "pending",
+        "desktop": "eldSL",
+        "mobile": "FBLms",
+        "heading": "กำลังบันทึกคำถาม…",
+        "detail": "หน้าแรกยังใช้ข้อมูลที่บันทึกไว้"
+      },
+      "icon_count": {
+        "desktop": 19,
+        "mobile": 2
+      }
+    },
+    {
+      "id": "F-06",
+      "title": "บันทึกไม่สำเร็จ",
+      "pencil_pair": "vmXMs",
+      "desktop": "r4XDOO",
+      "mobile": "w1jun7",
+      "images": [],
+      "icon_count": {
+        "desktop": 21,
+        "mobile": 4
+      }
+    },
+    {
+      "id": "F-07",
+      "title": "บันทึกคำตอบแล้ว",
+      "pencil_pair": "C3ZTn",
+      "desktop": "ricII",
+      "mobile": "v1DTB",
+      "images": [
+        "ricII.png",
+        "v1DTB.png"
+      ],
+      "toast": {
+        "state": "success",
+        "desktop": "J32Of6",
+        "mobile": "K08KE",
+        "heading": "บันทึกคำถามแล้ว",
+        "detail": "หน้าแรกใช้ข้อมูลล่าสุด"
+      },
+      "icon_count": {
+        "desktop": 20,
+        "mobile": 6
+      }
+    },
+    {
+      "id": "F-08",
+      "title": "สลับข้อระหว่างแก้ค้าง",
+      "pencil_pair": "EWp9H",
+      "desktop": "FkHSq",
+      "mobile": "YdGmk",
+      "images": [],
+      "icon_count": {
+        "desktop": 20,
+        "mobile": 3
+      }
+    },
+    {
+      "id": "F-09",
+      "title": "จัดลำดับคำถาม",
+      "pencil_pair": "yVStR",
+      "desktop": "dy69N",
+      "mobile": "blbb8",
+      "images": [
+        "dy69N.png",
+        "blbb8.png"
+      ],
+      "icon_count": {
+        "desktop": 12,
+        "mobile": 1
+      }
+    },
+    {
+      "id": "F-10",
+      "title": "บันทึกลำดับไม่สำเร็จ",
+      "pencil_pair": "Y8H3as",
+      "desktop": "I7IQct",
+      "mobile": "ZI0Jz",
+      "images": [],
+      "icon_count": {
+        "desktop": 14,
+        "mobile": 3
+      }
+    },
+    {
+      "id": "F-11",
+      "title": "บันทึกลำดับแล้ว",
+      "pencil_pair": "Re4ba",
+      "desktop": "E9Gen2",
+      "mobile": "JD8sm",
+      "images": [],
+      "toast": {
+        "state": "success",
+        "desktop": "gXiUs",
+        "mobile": "zsd06",
+        "heading": "บันทึกลำดับแล้ว",
+        "detail": "หน้าแรกใช้ลำดับใหม่"
+      },
+      "icon_count": {
+        "desktop": 18,
+        "mobile": 6
+      }
+    },
+    {
+      "id": "F-12",
+      "title": "ยืนยันลบคำถามสุดท้าย",
+      "pencil_pair": "vJxup",
+      "desktop": "BlDTJ",
+      "mobile": "e2vg8d",
+      "images": [
+        "BlDTJ.png",
+        "e2vg8d.png"
+      ],
+      "modal": {
+        "desktop": {
+          "id": "kvJMP",
+          "width": 490,
+          "height": 160,
+          "actionGap": 20,
+          "controlHeights": [
+            44,
+            44
+          ],
+          "verticalCenterError": 0,
+          "toast": null
+        },
+        "mobile": {
+          "id": "b11Xl",
+          "width": 358,
+          "height": 181,
+          "actionGap": 20,
+          "controlHeights": [
+            44,
+            44
+          ],
+          "verticalCenterError": 0.5,
+          "toast": null
+        }
+      },
+      "icon_count": {
+        "desktop": 19,
+        "mobile": 4
+      }
+    },
+    {
+      "id": "F-13",
+      "title": "ลบคำถามไม่สำเร็จ",
+      "pencil_pair": "m7TAnZ",
+      "desktop": "m1rSY",
+      "mobile": "zbaAU",
+      "images": [
+        "m1rSY.png",
+        "zbaAU.png"
+      ],
+      "modal": {
+        "desktop": {
+          "id": "v1RWmF",
+          "width": 490,
+          "height": 212,
+          "actionGap": 16,
+          "controlHeights": [
+            44,
+            44
+          ],
+          "verticalCenterError": 0,
+          "toast": null
+        },
+        "mobile": {
+          "id": "k12X8W",
+          "width": 358,
+          "height": 233,
+          "actionGap": 16,
+          "controlHeights": [
+            44,
+            44
+          ],
+          "verticalCenterError": 0.5,
+          "toast": null
+        }
+      },
+      "icon_count": {
+        "desktop": 20,
+        "mobile": 5
+      }
+    },
+    {
+      "id": "F-14",
+      "title": "ลบข้อสุดท้ายแล้ว",
+      "pencil_pair": "baWs6",
+      "desktop": "PLjMy",
+      "mobile": "kytzF",
+      "images": [],
+      "toast": {
+        "state": "success",
+        "desktop": "r8fCyE",
+        "mobile": "ofsnL",
+        "heading": "ลบคำถามแล้ว",
+        "detail": "หน้าแรกซ่อนส่วนคำถามที่พบบ่อย"
+      },
+      "icon_count": {
+        "desktop": 13,
+        "mobile": 2
+      }
+    },
+    {
+      "id": "F-15",
+      "title": "หน้าแรก · เริ่มแบบปิดทุกข้อ",
+      "pencil_pair": "jT0wP",
+      "desktop": "ZnUv1",
+      "mobile": "yrF6U",
+      "images": []
+    },
+    {
+      "id": "F-16",
+      "title": "หน้าแรก · แสดงต้นฉบับระหว่างรอแปล",
+      "pencil_pair": "h5NHC9",
+      "desktop": "HUmI7",
+      "mobile": "Jg8Yl",
+      "images": [
+        "../g3-r1-review/HUmI7.png",
+        "../g3-r1-review/Jg8Yl.png"
+      ]
+    },
+    {
+      "id": "F-17",
+      "title": "หน้าแรก · ใช้คำแปลเมื่อพร้อม",
+      "pencil_pair": "F2BBdB",
+      "desktop": "C92LeT",
+      "mobile": "L1DbmB",
+      "images": [
+        "../g3-r1-review/C92LeT.png",
+        "../g3-r1-review/L1DbmB.png"
+      ]
+    },
+    {
+      "id": "F-18",
+      "title": "หน้าแรก · ไม่มีคำถามเหลือ",
+      "pencil_pair": "QzIHE",
+      "desktop": "k55LGD",
+      "mobile": "c5543S",
+      "images": [
+        "../g3-r1-review/k55LGD.png",
+        "../g3-r1-review/c5543S.png"
+      ]
+    },
+    {
+      "id": "F-19",
+      "title": "กดจุดจับเพื่อเลือกตำแหน่ง",
+      "pencil_pair": "Nwcrv",
+      "desktop": "SXZgN",
+      "mobile": "hyALC",
+      "images": [],
+      "icon_count": {
+        "desktop": 12,
+        "mobile": 1
+      }
+    },
+    {
+      "id": "F-20",
+      "title": "ลากคำถามไปตำแหน่งใหม่",
+      "pencil_pair": "AK4yn",
+      "desktop": "hx7j4",
+      "mobile": "x89SU",
+      "images": [],
+      "icon_count": {
+        "desktop": 12,
+        "mobile": 1
+      }
+    },
+    {
+      "id": "F-21",
+      "title": "ย้ายแล้ว · รอบันทึกลำดับ",
+      "pencil_pair": "sHy9y",
+      "desktop": "dY4Uc",
+      "mobile": "apMY1",
+      "images": [],
+      "icon_count": {
+        "desktop": 13,
+        "mobile": 2
+      }
+    },
+    {
+      "id": "F-22",
+      "title": "กำลังบันทึกลำดับ",
+      "pencil_pair": "xDhvY",
+      "desktop": "Mi1QJ",
+      "mobile": "TrusJ",
+      "images": [],
+      "toast": {
+        "state": "pending",
+        "desktop": "gTnvK",
+        "mobile": "ZWeyA",
+        "heading": "กำลังบันทึกลำดับ…",
+        "detail": "หน้าแรกยังใช้ลำดับที่บันทึกไว้"
+      },
+      "icon_count": {
+        "desktop": 13,
+        "mobile": 2
+      }
+    },
+    {
+      "id": "F-23",
+      "title": "กำลังลบคำถาม",
+      "pencil_pair": "CFr2H",
+      "desktop": "kb6iO",
+      "mobile": "RnAdE",
+      "images": [],
+      "toast": {
+        "state": "pending",
+        "desktop": "P5mtQm",
+        "mobile": "r1GWq",
+        "heading": "กำลังลบคำถาม…",
+        "detail": "หน้าแรกยังแสดงคำถามนี้"
+      },
+      "modal": {
+        "desktop": {
+          "id": "v5t8pE",
+          "width": 490,
+          "height": 160,
+          "actionGap": 20,
+          "controlHeights": [
+            44,
+            44
+          ],
+          "verticalCenterError": 0,
+          "toast": "P5mtQm"
+        },
+        "mobile": {
+          "id": "A37F7x",
+          "width": 358,
+          "height": 181,
+          "actionGap": 20,
+          "controlHeights": [
+            44,
+            44
+          ],
+          "verticalCenterError": 0.5,
+          "toast": "r1GWq"
+        }
+      },
+      "icon_count": {
+        "desktop": 19,
+        "mobile": 4
+      }
+    }
+  ]
+}

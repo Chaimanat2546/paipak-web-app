@@ -1,0 +1,29 @@
+{
+  "task": "UID-010",
+  "gate": "G4",
+  "version": "G4-r2",
+  "status": "owner_approved",
+  "design_task_status": "completed",
+  "approved_on": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "โอเค อนุมัติ G4-r2 ของ UID-010 ครับ บันทึกผลอนุมัติแล้วปิดงานออกแบบนี้ได้เลย",
+  "scope": {
+    "desktop_frame_count": 17,
+    "interaction": "Reorder categories in the left list while keeping the selected category editor open on the right.",
+    "mobile_and_home_reference": "../admin-category-g4-r1/review-manifest.json"
+  },
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "approval_snapshot_filename": "papaipak-ui-uid-010-g4-r2.pen",
+    "task_section": "jNYEs",
+    "wireframe_group": "sSheM",
+    "g4_group": "Zt8h0",
+    "g4_r1_reference_group": "Rc0XX"
+  },
+  "review_manifest": "review-manifest.json",
+  "interaction_specification": "interaction-spec.md",
+  "later_stages": {
+    "implementation": "not_authorized",
+    "runtime_verification": "pending"
+  }
+}

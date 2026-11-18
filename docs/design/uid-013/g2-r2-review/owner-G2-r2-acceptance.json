@@ -1,0 +1,13 @@
+{
+  "task": "UID-013",
+  "version": "G2-r2",
+  "date": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "ได้",
+  "approval_prompt": "ภูอนุมัติ G2-r2 ทั้ง 21 คู่ ให้ไปต่อเลยไหมครับ?",
+  "status": "owner_approved",
+  "scope": "Wireframe G2-r2 ทั้ง 21 คู่เดสก์ท็อปและมือถือ ตามทิศทาง B รวมการจัดลำดับด้วยจุดจับและแผงเลือกตำแหน่งตาม UID-012",
+  "pencil_group": "T6wFI5",
+  "frame_count": 42,
+  "authorized_next_stage": "G3 high-fidelity design for UID-013"
+}

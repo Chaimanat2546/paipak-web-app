@@ -1,0 +1,1292 @@
+{
+  "task": "UID-013",
+  "version": "G4-r2",
+  "date": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "status": "pending_owner_review",
+  "owner_request": "ตอนนี้ต้องการปรับการเรียงลำดับของ desktop ฉันอยากให้เรียงได้ในหน้าแก้ไขตรง list ในหน้าแก้ไขเลย",
+  "prior_approved_version": "G4-r1",
+  "prior_approval": "../g4-r1-review/owner-G4-r1-acceptance.json",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "g4_pencil_group": "AeueW",
+  "baseline_pencil_groups": [
+    "m9iMHK",
+    "kU6mv"
+  ],
+  "desktop_viewport": [
+    1440,
+    900
+  ],
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "pair_count": 23,
+  "frame_count": 46,
+  "revised_desktop_frames": 18,
+  "frame_local_bounds_issues": 0,
+  "review": {
+    "inline_reorder_states": [
+      "F-09",
+      "F-10",
+      "F-11",
+      "F-19",
+      "F-20",
+      "F-21",
+      "F-22"
+    ],
+    "editor_visible_in_each_reorder_state": true,
+    "desktop_separate_reorder_views": 0
+  },
+  "frames": [
+    {
+      "id": "F-01",
+      "title": "รายการคำถาม",
+      "pencil_pair": "d5dbu",
+      "desktop": "Bp1hy",
+      "mobile": "L5Z0L",
+      "images": [
+        "../g3-r4-review/L5Z0L.png"
+      ],
+      "icon_count": {
+        "desktop": 18,
+        "mobile": 6
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "rKFfy",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ],
+        "editor_visible": false,
+        "order_save_in_list": false,
+        "selected_position": null,
+        "picker": false,
+        "dropline": false,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-02",
+      "title": "เพิ่มคำถาม",
+      "pencil_pair": "a6FSeI",
+      "desktop": "zMhEs",
+      "mobile": "P5mP5t",
+      "images": [
+        "../g3-r5-review/P5mP5t.png"
+      ],
+      "icon_count": {
+        "desktop": 19,
+        "mobile": 2
+      },
+      "mobile_editor": {
+        "form": [
+          0,
+          62,
+          390,
+          714
+        ],
+        "answer": [
+          20,
+          202,
+          350,
+          390
+        ],
+        "footer": [
+          0,
+          776,
+          390,
+          68
+        ],
+        "actions": [
+          [
+            "ยกเลิก",
+            16,
+            12,
+            112,
+            44
+          ],
+          [
+            "บันทึก",
+            140,
+            12,
+            234,
+            44
+          ]
+        ],
+        "delete_at_top": null,
+        "footer_under_overlay": true
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "LuIfE",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ],
+        "editor_visible": true,
+        "order_save_in_list": false,
+        "selected_position": null,
+        "picker": false,
+        "dropline": false,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-03",
+      "title": "แก้คำตอบยาว",
+      "pencil_pair": "l9I4ci",
+      "desktop": "r8ySL",
+      "mobile": "OSBOc",
+      "images": [
+        "r8ySL.png",
+        "../g3-r5-review/OSBOc.png"
+      ],
+      "icon_count": {
+        "desktop": 20,
+        "mobile": 3
+      },
+      "mobile_editor": {
+        "form": [
+          0,
+          62,
+          390,
+          714
+        ],
+        "answer": [
+          20,
+          202,
+          350,
+          390
+        ],
+        "footer": [
+          0,
+          776,
+          390,
+          68
+        ],
+        "actions": [
+          [
+            "ยกเลิก",
+            16,
+            12,
+            112,
+            44
+          ],
+          [
+            "บันทึก",
+            140,
+            12,
+            234,
+            44
+          ]
+        ],
+        "delete_at_top": [
+          258,
+          16,
+          112,
+          44
+        ],
+        "footer_under_overlay": true
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "wRv28",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ],
+        "editor_visible": true,
+        "order_save_in_list": false,
+        "selected_position": "2",
+        "picker": false,
+        "dropline": false,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-04",
+      "title": "ข้อมูลไม่ครบ",
+      "pencil_pair": "giICw",
+      "desktop": "KRTrm",
+      "mobile": "QyfuB",
+      "images": [
+        "../g3-r5-review/QyfuB.png"
+      ],
+      "icon_count": {
+        "desktop": 21,
+        "mobile": 4
+      },
+      "mobile_editor": {
+        "form": [
+          0,
+          62,
+          390,
+          714
+        ],
+        "answer": [
+          20,
+          226,
+          350,
+          390
+        ],
+        "footer": [
+          0,
+          776,
+          390,
+          68
+        ],
+        "actions": [
+          [
+            "ยกเลิก",
+            16,
+            12,
+            112,
+            44
+          ],
+          [
+            "บันทึก",
+            140,
+            12,
+            234,
+            44
+          ]
+        ],
+        "delete_at_top": null,
+        "footer_under_overlay": true
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "uNIF8",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ],
+        "editor_visible": true,
+        "order_save_in_list": false,
+        "selected_position": null,
+        "picker": false,
+        "dropline": false,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-05",
+      "title": "กำลังบันทึก",
+      "pencil_pair": "A6tjVV",
+      "desktop": "TLscm",
+      "mobile": "wUXQX",
+      "images": [
+        "../g3-r5-review/wUXQX.png"
+      ],
+      "toast": {
+        "state": "pending",
+        "desktop": "edMNK",
+        "mobile": "ADZkX",
+        "heading": "กำลังบันทึกคำถาม…",
+        "detail": "หน้าแรกยังใช้ข้อมูลที่บันทึกไว้"
+      },
+      "icon_count": {
+        "desktop": 19,
+        "mobile": 2
+      },
+      "mobile_editor": {
+        "form": [
+          0,
+          156,
+          390,
+          620
+        ],
+        "answer": [
+          20,
+          202,
+          350,
+          336
+        ],
+        "footer": [
+          0,
+          776,
+          390,
+          68
+        ],
+        "actions": [
+          [
+            "ยกเลิก",
+            16,
+            12,
+            112,
+            44
+          ],
+          [
+            "กำลังบันทึก…",
+            140,
+            12,
+            234,
+            44
+          ]
+        ],
+        "delete_at_top": null,
+        "footer_under_overlay": true
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "HDcje",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ],
+        "editor_visible": true,
+        "order_save_in_list": false,
+        "selected_position": "2",
+        "picker": false,
+        "dropline": false,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-06",
+      "title": "บันทึกไม่สำเร็จ",
+      "pencil_pair": "vmXMs",
+      "desktop": "WeEva",
+      "mobile": "MdWDk",
+      "images": [
+        "../g3-r5-review/MdWDk.png"
+      ],
+      "icon_count": {
+        "desktop": 21,
+        "mobile": 4
+      },
+      "mobile_editor": {
+        "form": [
+          0,
+          62,
+          390,
+          714
+        ],
+        "answer": [
+          20,
+          202,
+          350,
+          390
+        ],
+        "footer": [
+          0,
+          776,
+          390,
+          68
+        ],
+        "actions": [
+          [
+            "ยกเลิก",
+            16,
+            12,
+            112,
+            44
+          ],
+          [
+            "บันทึก",
+            140,
+            12,
+            234,
+            44
+          ]
+        ],
+        "delete_at_top": [
+          258,
+          16,
+          112,
+          44
+        ],
+        "footer_under_overlay": true
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "evGzT",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ],
+        "editor_visible": true,
+        "order_save_in_list": false,
+        "selected_position": "2",
+        "picker": false,
+        "dropline": false,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-07",
+      "title": "บันทึกคำตอบแล้ว",
+      "pencil_pair": "C3ZTn",
+      "desktop": "clK3Z",
+      "mobile": "v1DTB",
+      "images": [
+        "../g3-r4-review/v1DTB.png"
+      ],
+      "toast": {
+        "state": "success",
+        "desktop": "Z3d9c",
+        "mobile": "K08KE",
+        "heading": "บันทึกคำถามแล้ว",
+        "detail": "หน้าแรกใช้ข้อมูลล่าสุด"
+      },
+      "icon_count": {
+        "desktop": 20,
+        "mobile": 6
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "gjUQv",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ],
+        "editor_visible": true,
+        "order_save_in_list": false,
+        "selected_position": "2",
+        "picker": false,
+        "dropline": false,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-08",
+      "title": "สลับข้อระหว่างแก้ค้าง",
+      "pencil_pair": "hgKmK",
+      "desktop": "G2ZPFB",
+      "mobile": "lzaMu",
+      "images": [
+        "../g4-r1-review/lzaMu.png"
+      ],
+      "icon_count": {
+        "desktop": 20,
+        "mobile": 3
+      },
+      "mobile_editor": {
+        "form": [
+          0,
+          62,
+          390,
+          714
+        ],
+        "answer": [
+          20,
+          202,
+          350,
+          390
+        ],
+        "footer": [
+          0,
+          776,
+          390,
+          68
+        ],
+        "actions": [
+          [
+            "ยกเลิก",
+            16,
+            12,
+            112,
+            44
+          ],
+          [
+            "บันทึก",
+            140,
+            12,
+            234,
+            44
+          ]
+        ],
+        "delete_at_top": [
+          258,
+          16,
+          112,
+          44
+        ],
+        "footer_under_overlay": true
+      },
+      "source": "G4-r1",
+      "desktop_pencil_group": "cQvsu",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ],
+        "editor_visible": true,
+        "order_save_in_list": false,
+        "selected_position": "2",
+        "picker": false,
+        "dropline": false,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-09",
+      "title": "จัดลำดับจากรายการข้างฟอร์ม",
+      "pencil_pair": "yVStR",
+      "desktop": "CLHwb",
+      "mobile": "blbb8",
+      "images": [
+        "CLHwb.png",
+        "../g3-r4-review/blbb8.png"
+      ],
+      "icon_count": {
+        "desktop": 12,
+        "mobile": 1
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "kp63t",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ],
+        "editor_visible": true,
+        "order_save_in_list": false,
+        "selected_position": "2",
+        "picker": false,
+        "dropline": false,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-10",
+      "title": "บันทึกลำดับไม่สำเร็จ",
+      "pencil_pair": "Y8H3as",
+      "desktop": "Q8SH1",
+      "mobile": "ZI0Jz",
+      "images": [
+        "Q8SH1.png",
+        "../g4-r1-review/ZI0Jz.png"
+      ],
+      "icon_count": {
+        "desktop": 14,
+        "mobile": 3
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "Z1DzFp",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ],
+        "editor_visible": true,
+        "order_save_in_list": true,
+        "selected_position": "1",
+        "picker": false,
+        "dropline": false,
+        "local_error": true
+      }
+    },
+    {
+      "id": "F-11",
+      "title": "บันทึกลำดับแล้ว",
+      "pencil_pair": "Re4ba",
+      "desktop": "qndeD",
+      "mobile": "JD8sm",
+      "images": [
+        "qndeD.png"
+      ],
+      "toast": {
+        "state": "success",
+        "desktop": "Y0vKL",
+        "mobile": "zsd06",
+        "heading": "บันทึกลำดับแล้ว",
+        "detail": "หน้าแรกใช้ลำดับใหม่"
+      },
+      "icon_count": {
+        "desktop": 18,
+        "mobile": 6
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "fQN5f",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ],
+        "editor_visible": true,
+        "order_save_in_list": false,
+        "selected_position": "1",
+        "picker": false,
+        "dropline": false,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-12",
+      "title": "ยืนยันลบคำถามสุดท้าย",
+      "pencil_pair": "vJxup",
+      "desktop": "nIVcn",
+      "mobile": "ZKEFg",
+      "images": [
+        "../g3-r5-review/ZKEFg.png"
+      ],
+      "modal": {
+        "desktop": {
+          "id": "oL02r",
+          "width": 490,
+          "height": 160,
+          "actionGap": 20,
+          "controlHeights": [
+            44,
+            44
+          ],
+          "verticalCenterError": 0,
+          "toast": null
+        },
+        "mobile": {
+          "id": "DlsJK",
+          "width": 358,
+          "height": 181,
+          "actionGap": 20,
+          "controlHeights": [
+            44,
+            44
+          ],
+          "verticalCenterError": 0.5,
+          "toast": null
+        }
+      },
+      "icon_count": {
+        "desktop": 19,
+        "mobile": 4
+      },
+      "mobile_editor": {
+        "form": [
+          0,
+          62,
+          390,
+          714
+        ],
+        "answer": [
+          20,
+          202,
+          350,
+          390
+        ],
+        "footer": [
+          0,
+          776,
+          390,
+          68
+        ],
+        "actions": [
+          [
+            "ยกเลิก",
+            16,
+            12,
+            112,
+            44
+          ],
+          [
+            "บันทึก",
+            140,
+            12,
+            234,
+            44
+          ]
+        ],
+        "delete_at_top": [
+          258,
+          16,
+          112,
+          44
+        ],
+        "footer_under_overlay": true
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "vmSMD",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [],
+        "editor_visible": true,
+        "order_save_in_list": false,
+        "selected_position": "1",
+        "picker": false,
+        "dropline": false,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-13",
+      "title": "ลบคำถามไม่สำเร็จ",
+      "pencil_pair": "m7TAnZ",
+      "desktop": "m478tO",
+      "mobile": "oXLET",
+      "images": [
+        "../g3-r5-review/oXLET.png"
+      ],
+      "modal": {
+        "desktop": {
+          "id": "FNixK",
+          "width": 490,
+          "height": 212,
+          "actionGap": 16,
+          "controlHeights": [
+            44,
+            44
+          ],
+          "verticalCenterError": 0,
+          "toast": null
+        },
+        "mobile": {
+          "id": "H2xfG",
+          "width": 358,
+          "height": 233,
+          "actionGap": 16,
+          "controlHeights": [
+            44,
+            44
+          ],
+          "verticalCenterError": 0.5,
+          "toast": null
+        }
+      },
+      "icon_count": {
+        "desktop": 20,
+        "mobile": 5
+      },
+      "mobile_editor": {
+        "form": [
+          0,
+          62,
+          390,
+          714
+        ],
+        "answer": [
+          20,
+          202,
+          350,
+          390
+        ],
+        "footer": [
+          0,
+          776,
+          390,
+          68
+        ],
+        "actions": [
+          [
+            "ยกเลิก",
+            16,
+            12,
+            112,
+            44
+          ],
+          [
+            "บันทึก",
+            140,
+            12,
+            234,
+            44
+          ]
+        ],
+        "delete_at_top": [
+          258,
+          16,
+          112,
+          44
+        ],
+        "footer_under_overlay": true
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "RUGCH",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [],
+        "editor_visible": true,
+        "order_save_in_list": false,
+        "selected_position": "1",
+        "picker": false,
+        "dropline": false,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-14",
+      "title": "ลบข้อสุดท้ายแล้ว",
+      "pencil_pair": "baWs6",
+      "desktop": "PLjMy",
+      "mobile": "kytzF",
+      "images": [
+        "../g4-r1-review/PLjMy.png",
+        "../g4-r1-review/kytzF.png"
+      ],
+      "toast": {
+        "state": "success",
+        "desktop": "r8fCyE",
+        "mobile": "ofsnL",
+        "heading": "ลบคำถามแล้ว",
+        "detail": "หน้าแรกซ่อนส่วนคำถามที่พบบ่อย"
+      },
+      "icon_count": {
+        "desktop": 13,
+        "mobile": 2
+      },
+      "source": "G3-r5",
+      "desktop_source": "G4-r1",
+      "mobile_source": "G4-r1"
+    },
+    {
+      "id": "F-15",
+      "title": "หน้าแรก · เริ่มแบบปิดทุกข้อ",
+      "pencil_pair": "jT0wP",
+      "desktop": "ZnUv1",
+      "mobile": "yrF6U",
+      "images": [],
+      "source": "G3-r5",
+      "desktop_source": "G4-r1",
+      "mobile_source": "G4-r1"
+    },
+    {
+      "id": "F-16",
+      "title": "หน้าแรก · แสดงต้นฉบับระหว่างรอแปล",
+      "pencil_pair": "h5NHC9",
+      "desktop": "HUmI7",
+      "mobile": "Jg8Yl",
+      "images": [
+        "../g3-r1-review/HUmI7.png",
+        "../g3-r1-review/Jg8Yl.png"
+      ],
+      "source": "G3-r5",
+      "desktop_source": "G4-r1",
+      "mobile_source": "G4-r1"
+    },
+    {
+      "id": "F-17",
+      "title": "หน้าแรก · ใช้คำแปลเมื่อพร้อม",
+      "pencil_pair": "F2BBdB",
+      "desktop": "C92LeT",
+      "mobile": "L1DbmB",
+      "images": [
+        "../g3-r1-review/C92LeT.png",
+        "../g3-r1-review/L1DbmB.png"
+      ],
+      "source": "G3-r5",
+      "desktop_source": "G4-r1",
+      "mobile_source": "G4-r1"
+    },
+    {
+      "id": "F-18",
+      "title": "หน้าแรก · ไม่มีคำถามเหลือ",
+      "pencil_pair": "QzIHE",
+      "desktop": "k55LGD",
+      "mobile": "c5543S",
+      "images": [
+        "../g3-r1-review/k55LGD.png",
+        "../g3-r1-review/c5543S.png"
+      ],
+      "source": "G3-r5",
+      "desktop_source": "G4-r1",
+      "mobile_source": "G4-r1"
+    },
+    {
+      "id": "F-19",
+      "title": "เลือกตำแหน่งจากรายการข้างฟอร์ม",
+      "pencil_pair": "Nwcrv",
+      "desktop": "rrQGV",
+      "mobile": "hyALC",
+      "images": [
+        "rrQGV.png",
+        "../g4-r1-review/hyALC.png"
+      ],
+      "icon_count": {
+        "desktop": 12,
+        "mobile": 1
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "F3NC9c",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ],
+        "editor_visible": true,
+        "order_save_in_list": false,
+        "selected_position": "2",
+        "picker": true,
+        "dropline": false,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-20",
+      "title": "ลากย้ายคำถามในรายการ",
+      "pencil_pair": "AK4yn",
+      "desktop": "JOKNa",
+      "mobile": "x89SU",
+      "images": [
+        "JOKNa.png"
+      ],
+      "icon_count": {
+        "desktop": 12,
+        "mobile": 1
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "XMshx",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ],
+        "editor_visible": true,
+        "order_save_in_list": false,
+        "selected_position": "2",
+        "picker": false,
+        "dropline": true,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-21",
+      "title": "ย้ายแล้ว · รอบันทึกลำดับ",
+      "pencil_pair": "sHy9y",
+      "desktop": "ffP1j",
+      "mobile": "apMY1",
+      "images": [
+        "ffP1j.png",
+        "../g4-r1-review/apMY1.png"
+      ],
+      "icon_count": {
+        "desktop": 13,
+        "mobile": 2
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "eguML",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ],
+        "editor_visible": true,
+        "order_save_in_list": true,
+        "selected_position": "1",
+        "picker": false,
+        "dropline": false,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-22",
+      "title": "กำลังบันทึกลำดับ",
+      "pencil_pair": "xDhvY",
+      "desktop": "rDrzZ",
+      "mobile": "TrusJ",
+      "images": [
+        "rDrzZ.png"
+      ],
+      "toast": {
+        "state": "pending",
+        "desktop": "zzOm3",
+        "mobile": "ZWeyA",
+        "heading": "กำลังบันทึกลำดับ…",
+        "detail": "หน้าแรกยังใช้ลำดับที่บันทึกไว้"
+      },
+      "icon_count": {
+        "desktop": 13,
+        "mobile": 2
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "N2WGN",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ],
+        "editor_visible": true,
+        "order_save_in_list": true,
+        "selected_position": "1",
+        "picker": false,
+        "dropline": false,
+        "local_error": false
+      }
+    },
+    {
+      "id": "F-23",
+      "title": "กำลังลบคำถาม",
+      "pencil_pair": "CFr2H",
+      "desktop": "Es9U7",
+      "mobile": "VP52o",
+      "images": [
+        "../g3-r5-review/VP52o.png"
+      ],
+      "toast": {
+        "state": "pending",
+        "desktop": "ytakp",
+        "mobile": "U4JS8",
+        "heading": "กำลังลบคำถาม…",
+        "detail": "หน้าแรกยังแสดงคำถามนี้"
+      },
+      "modal": {
+        "desktop": {
+          "id": "dvtP4",
+          "width": 490,
+          "height": 160,
+          "actionGap": 20,
+          "controlHeights": [
+            44,
+            44
+          ],
+          "verticalCenterError": 0,
+          "toast": "ytakp"
+        },
+        "mobile": {
+          "id": "C1BqE6",
+          "width": 358,
+          "height": 181,
+          "actionGap": 20,
+          "controlHeights": [
+            44,
+            44
+          ],
+          "verticalCenterError": 0.5,
+          "toast": "U4JS8"
+        }
+      },
+      "icon_count": {
+        "desktop": 19,
+        "mobile": 4
+      },
+      "mobile_editor": {
+        "form": [
+          0,
+          156,
+          390,
+          620
+        ],
+        "answer": [
+          20,
+          202,
+          350,
+          336
+        ],
+        "footer": [
+          0,
+          776,
+          390,
+          68
+        ],
+        "actions": [
+          [
+            "ยกเลิก",
+            16,
+            12,
+            112,
+            44
+          ],
+          [
+            "บันทึก",
+            140,
+            12,
+            234,
+            44
+          ]
+        ],
+        "delete_at_top": [
+          258,
+          16,
+          112,
+          44
+        ],
+        "footer_under_overlay": true
+      },
+      "source": "G3-r5",
+      "desktop_pencil_group": "CKDmw",
+      "desktop_source": "G4-r2",
+      "mobile_source": "G4-r1",
+      "desktop_order": {
+        "grips": [],
+        "editor_visible": true,
+        "order_save_in_list": false,
+        "selected_position": "1",
+        "picker": false,
+        "dropline": false,
+        "local_error": false
+      }
+    }
+  ]
+}

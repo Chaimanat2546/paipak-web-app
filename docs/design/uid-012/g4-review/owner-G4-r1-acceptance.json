@@ -1,0 +1,33 @@
+{
+  "task": "UID-012",
+  "gate": "G4",
+  "version": "G4-r1",
+  "status": "owner_approved",
+  "design_task_status": "completed",
+  "approved_on": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "อนุมัติ UID-012 G4-r1 ทั้ง 3 เฟรมมือถือครับ บันทึกผลอนุมัติแล้วปิดงานออกแบบนี้ได้เลย",
+  "scope": {
+    "approved_mobile_frame_count": 3,
+    "finding_closed": "G4-01",
+    "base_design": "G3-r1",
+    "base_approval": "../g3-r1-review/owner-G3-r1-acceptance.json",
+    "mobile_overrides": {
+      "F-29": "b54o5t",
+      "F-86": "nHwUB",
+      "F-140": "vHfIN"
+    }
+  },
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "task_section": "qVhG8",
+    "base_section": "YTGEC",
+    "approved_mobile_section": "BrM0R"
+  },
+  "review_package": "README.md",
+  "interaction_specification": "interaction-spec.md",
+  "later_stages": {
+    "implementation": "not_authorized",
+    "runtime_verification": "pending"
+  }
+}

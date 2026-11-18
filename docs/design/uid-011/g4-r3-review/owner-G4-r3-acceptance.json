@@ -1,0 +1,29 @@
+{
+  "task": "UID-011",
+  "gate": "G4",
+  "version": "G4-r3",
+  "status": "owner_approved",
+  "design_task_status": "completed",
+  "approved_on": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "โอเค อนุมัติ G4-r3 ของ UID-011 ครับ บันทึกผลอนุมัติแล้วปิดงานออกแบบนี้ได้เลย",
+  "scope": {
+    "desktop_frame_count": 10,
+    "interaction": "Enter reorder mode from the left list, then drag the whole row with the selected clip editor still open on the right. The grip icon is decorative.",
+    "prior_approved_reference": "../g4-r2-review/README.md"
+  },
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "approval_snapshot_filename": "papaipak-ui-uid-011-g4-r3.pen",
+    "task_section": "FvFoc",
+    "wireframe_group": "rtD9Y",
+    "g4_group": "aQPs7",
+    "g4_r2_reference_group": "SsGW1"
+  },
+  "review_manifest": "review-manifest.json",
+  "interaction_specification": "interaction-spec.md",
+  "later_stages": {
+    "implementation": "not_authorized",
+    "runtime_verification": "pending"
+  }
+}

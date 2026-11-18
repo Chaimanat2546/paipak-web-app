@@ -1,0 +1,31 @@
+{
+  "task": "UID-013",
+  "gate": "G4",
+  "version": "G4-r3",
+  "status": "owner_approved",
+  "design_task_status": "completed",
+  "approved_on": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "โอเค อนุมัติ G4-r3 ของ UID-013 ครับ บันทึกผลอนุมัติแล้วปิดงานออกแบบนี้ได้เลย",
+  "scope": {
+    "desktop_frame_count": 18,
+    "interaction": "Enter reorder mode from the left list, then drag the whole row while the active question editor stays open.",
+    "row_layout": "Question text, position number, and decorative grip share the vertical center of the 70 px review rows.",
+    "mobile_and_home_reference": "../g4-r1-review/owner-G4-r1-acceptance.json"
+  },
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "approval_snapshot_filename": "papaipak-ui-uid-013-g4-r3.pen",
+    "task_section": "nev4k",
+    "wireframe_group": "T6wFI5",
+    "g4_group": "W7mUW",
+    "reference_group": "PnmBI",
+    "archive_group": "Prxnt"
+  },
+  "review_manifest": "review-manifest.json",
+  "interaction_specification": "interaction-spec.md",
+  "later_stages": {
+    "implementation": "not_authorized",
+    "runtime_verification": "pending"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "task": "DSD-001",
+  "version": "button-color-review-r1",
+  "date": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_approved_rollout_applied",
+  "owner_instruction": "อนุมัติชุดสีปุ่มตามตัวอย่าง Desktop กับ Mobile ครับ ใช้ขอบปุ่มรองและสีฟ้าของแท็บที่เลือกตามนี้ แล้วปรับปุ่มทุกประเภทใน Pencil ทั้งหน้าลูกค้าและหลังบ้านได้เลยครับ",
+  "pencil": {
+    "path": "docs/design/dsd-001/papaipak-ui.pen",
+    "approved_examples": "W3I42"
+  },
+  "coverage": [
+    {
+      "task": "UID-001",
+      "section": "Y4TBa",
+      "button_instances_updated": 125,
+      "layers_updated": 133
+    },
+    {
+      "task": "Header / Footer",
+      "section": "pnnKH",
+      "button_instances_updated": 0,
+      "layers_updated": 0
+    },
+    {
+      "task": "UID-003",
+      "section": "rqZz8",
+      "button_instances_updated": 191,
+      "layers_updated": 243
+    },
+    {
+      "task": "UID-005",
+      "section": "R5IaVO",
+      "button_instances_updated": 176,
+      "layers_updated": 184
+    },
+    {
+      "task": "UID-010",
+      "section": "jNYEs",
+      "button_instances_updated": 304,
+      "layers_updated": 496
+    },
+    {
+      "task": "UID-011",
+      "section": "FvFoc",
+      "button_instances_updated": 819,
+      "layers_updated": 1067
+    },
+    {
+      "task": "UID-012",
+      "section": "qVhG8",
+      "button_instances_updated": 1851,
+      "layers_updated": 2121
+    }
+  ],
+  "totals": {
+    "button_instances_updated": 3466,
+    "layers_verified": 4244,
+    "color_mismatches": 0
+  },
+  "embedded_home_references": [
+    "g3r6p",
+    "C9k8l1"
+  ],
+  "verified_examples": [
+    {
+      "node": "bX7Ii",
+      "image": "bX7Ii.png"
+    },
+    {
+      "node": "fHvNR",
+      "image": "fHvNR.png"
+    },
+    {
+      "node": "uJrXZ",
+      "image": "uJrXZ.png"
+    }
+  ],
+  "runtime_verification": "pending"
+}

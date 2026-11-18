@@ -1,0 +1,115 @@
+{
+  "task": "UID-011",
+  "version": "G4-r3",
+  "date": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_approved",
+  "approved_on": "2026-11-18",
+  "owner_approval_record": "owner-G4-r3-acceptance.json",
+  "prior_approved_version": "G4-r2",
+  "prior_approved_package": "../g4-r2-review/README.md",
+  "scope": "Desktop clip ordering in the left list after entering reorder mode, with the selected clip editor open on the right.",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "approval_snapshot_filename": "papaipak-ui-uid-011-g4-r3.pen",
+  "pencil_task_section": "FvFoc",
+  "pencil_group": "aQPs7",
+  "pencil_reference_group": "SsGW1",
+  "pencil_archive": "H9Hti",
+  "desktop_viewport": [
+    1600,
+    900
+  ],
+  "frame_count": 10,
+  "frames": [
+    {
+      "id": "D-01",
+      "title": "รายการก่อนกดจัดลำดับ",
+      "state": "default",
+      "pencil_wrapper": "ZLVDS",
+      "desktop": "mUBU7",
+      "right_editor": "t8FBh",
+      "preview": "mUBU7.png"
+    },
+    {
+      "id": "D-02",
+      "title": "เข้าโหมดและลากได้ทั้งแถว",
+      "state": "mode",
+      "pencil_wrapper": "w4R9X",
+      "desktop": "yVQAI",
+      "right_editor": "iZIyx",
+      "preview": "yVQAI.png"
+    },
+    {
+      "id": "D-03",
+      "title": "ลากไปตำแหน่งแรก",
+      "state": "drag",
+      "pencil_wrapper": "Bvsy0",
+      "desktop": "AZswP",
+      "right_editor": "tRK4e",
+      "preview": "AZswP.png"
+    },
+    {
+      "id": "D-04",
+      "title": "ย้ายแล้วและรอบันทึก",
+      "state": "moved",
+      "pencil_wrapper": "DWGPx",
+      "desktop": "yVzQi",
+      "right_editor": "puvbI",
+      "preview": "yVzQi.png"
+    },
+    {
+      "id": "D-05",
+      "title": "ย้ายด้วยคีย์บอร์ด",
+      "state": "keyboard",
+      "pencil_wrapper": "x6lU3",
+      "desktop": "sSBLk",
+      "right_editor": "av3rN",
+      "preview": "sSBLk.png"
+    },
+    {
+      "id": "D-06",
+      "title": "กำลังบันทึกลำดับ",
+      "state": "pending",
+      "pencil_wrapper": "c1a2x",
+      "desktop": "nhdDP",
+      "right_editor": "Db7Mq",
+      "preview": "nhdDP.png"
+    },
+    {
+      "id": "D-07",
+      "title": "บันทึกลำดับสำเร็จ",
+      "state": "success",
+      "pencil_wrapper": "Xgljj",
+      "desktop": "zjYvX",
+      "right_editor": "lRhyg",
+      "preview": "zjYvX.png"
+    },
+    {
+      "id": "D-08",
+      "title": "บันทึกไม่สำเร็จและลองใหม่",
+      "state": "failure",
+      "pencil_wrapper": "Idvf0",
+      "desktop": "a6Klf",
+      "right_editor": "X6a1K4",
+      "preview": "a6Klf.png"
+    },
+    {
+      "id": "D-09",
+      "title": "ยืนยันเมื่อพร้อมแสดง 7 คลิป",
+      "state": "confirm",
+      "pencil_wrapper": "U9X30",
+      "desktop": "c97kxf",
+      "right_editor": "yNTW7",
+      "preview": "c97kxf.png"
+    },
+    {
+      "id": "D-10",
+      "title": "เมนูคลิปในรายการปกติ",
+      "state": "menu",
+      "pencil_wrapper": "C943q9",
+      "desktop": "mQy5p",
+      "right_editor": "Z4RcfX",
+      "preview": "mQy5p.png"
+    }
+  ]
+}

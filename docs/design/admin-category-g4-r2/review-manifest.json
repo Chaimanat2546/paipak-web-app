@@ -1,0 +1,466 @@
+{
+  "task": "UID-010",
+  "version": "G4-r2",
+  "date": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_approved",
+  "approved_on": "2026-11-18",
+  "owner_approval_record": "owner-G4-r2-acceptance.json",
+  "owner_request": "เริ่ม UID-010 หมวดหมู่ก่อนครับ ให้จัดลำดับหมวดจากรายการด้านซ้ายบน Desktop ได้เลยแบบ FAQ โดยฟอร์มด้านขวายังเปิดอยู่ครับ",
+  "prior_approved_version": "G4-r1",
+  "prior_approved_manifest": "../admin-category-g4-r1/review-manifest.json",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "approval_snapshot_filename": "papaipak-ui-uid-010-g4-r2.pen",
+  "pencil_task_section": "jNYEs",
+  "pencil_group": "Zt8h0",
+  "desktop_viewport": [
+    1440,
+    900
+  ],
+  "frame_count": 17,
+  "frame_local_bounds_issues": 0,
+  "right_editor_matches_source_count": 17,
+  "grip_size": [
+    44,
+    44
+  ],
+  "inline_order_states": [
+    "D-01",
+    "D-02",
+    "D-03",
+    "D-04",
+    "D-05",
+    "D-06",
+    "D-07"
+  ],
+  "frames": [
+    {
+      "id": "D-01",
+      "title": "แก้หมวดและจัดลำดับจากรายการซ้าย",
+      "source": "VztOT",
+      "pencil_group": "U69sz",
+      "desktop": "YvS0L",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": "YvS0L.png",
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": "บ้านสำหรับครอบครัว",
+        "selected_position": "1",
+        "first_category": "บ้านสำหรับครอบครัว",
+        "local_action_count": 0,
+        "picker": false,
+        "drop_marker": false,
+        "local_error": false,
+        "toast": null
+      }
+    },
+    {
+      "id": "D-02",
+      "title": "ลากหมวดไปตำแหน่งใหม่",
+      "source": "VztOT",
+      "pencil_group": "X1LIl",
+      "desktop": "RTrhD",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": "RTrhD.png",
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": "บ้านสำหรับครอบครัว",
+        "selected_position": "1",
+        "first_category": "บ้านสำหรับครอบครัว",
+        "local_action_count": 0,
+        "picker": false,
+        "drop_marker": true,
+        "local_error": false,
+        "toast": null
+      }
+    },
+    {
+      "id": "D-03",
+      "title": "เลือกตำแหน่งจากจุดจับ",
+      "source": "VztOT",
+      "pencil_group": "mgFzG",
+      "desktop": "qeRp7",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": "qeRp7.png",
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": "บ้านสำหรับครอบครัว",
+        "selected_position": "1",
+        "first_category": "บ้านสำหรับครอบครัว",
+        "local_action_count": 0,
+        "picker": true,
+        "drop_marker": false,
+        "local_error": false,
+        "toast": null
+      }
+    },
+    {
+      "id": "D-04",
+      "title": "ย้ายแล้ว · รอบันทึกลำดับ",
+      "source": "VztOT",
+      "pencil_group": "JHLzh",
+      "desktop": "L0GvVQ",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": "L0GvVQ.png",
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": "บ้านสำหรับครอบครัว",
+        "selected_position": "2",
+        "first_category": "บ้านแนะนำโดยทีม",
+        "local_action_count": 2,
+        "picker": false,
+        "drop_marker": false,
+        "local_error": false,
+        "toast": null
+      }
+    },
+    {
+      "id": "D-05",
+      "title": "กำลังบันทึกลำดับหมวด",
+      "source": "VztOT",
+      "pencil_group": "czqva",
+      "desktop": "lBmJC",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": "lBmJC.png",
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": "บ้านสำหรับครอบครัว",
+        "selected_position": "2",
+        "first_category": "บ้านแนะนำโดยทีม",
+        "local_action_count": 2,
+        "picker": false,
+        "drop_marker": false,
+        "local_error": false,
+        "toast": [
+          "Toast · กำลังบันทึกลำดับ…",
+          1032,
+          10
+        ]
+      }
+    },
+    {
+      "id": "D-06",
+      "title": "บันทึกลำดับไม่สำเร็จ",
+      "source": "VztOT",
+      "pencil_group": "Fo6ht",
+      "desktop": "TyY9U",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": "TyY9U.png",
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": "บ้านสำหรับครอบครัว",
+        "selected_position": "2",
+        "first_category": "บ้านแนะนำโดยทีม",
+        "local_action_count": 2,
+        "picker": false,
+        "drop_marker": false,
+        "local_error": true,
+        "toast": null
+      }
+    },
+    {
+      "id": "D-07",
+      "title": "บันทึกลำดับหมวดแล้ว",
+      "source": "VztOT",
+      "pencil_group": "KSkCA",
+      "desktop": "EeHS5",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": "EeHS5.png",
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": "บ้านสำหรับครอบครัว",
+        "selected_position": "2",
+        "first_category": "บ้านแนะนำโดยทีม",
+        "local_action_count": 0,
+        "picker": false,
+        "drop_marker": false,
+        "local_error": false,
+        "toast": [
+          "Toast · บันทึกลำดับแล้ว",
+          1032,
+          10
+        ]
+      }
+    },
+    {
+      "id": "D-08",
+      "title": "สร้างหมวดใหม่",
+      "source": "edjl8",
+      "pencil_group": "JG7Tp",
+      "desktop": "h4RByD",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": "h4RByD.png",
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": null,
+        "selected_position": null,
+        "first_category": "บ้านสำหรับครอบครัว",
+        "local_action_count": 0,
+        "picker": false,
+        "drop_marker": false,
+        "local_error": false,
+        "toast": null
+      }
+    },
+    {
+      "id": "D-09",
+      "title": "แก้หมวดที่ใช้รูปภาพ",
+      "source": "WvlTe",
+      "pencil_group": "FAiS4",
+      "desktop": "k5QiD",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": null,
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": "บ้านสำหรับครอบครัว",
+        "selected_position": "1",
+        "first_category": "บ้านสำหรับครอบครัว",
+        "local_action_count": 0,
+        "picker": false,
+        "drop_marker": false,
+        "local_error": false,
+        "toast": null
+      }
+    },
+    {
+      "id": "D-10",
+      "title": "กำลังบันทึกข้อมูลหมวด",
+      "source": "KXQMd",
+      "pencil_group": "c9hrvI",
+      "desktop": "QmWgh",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": null,
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": "บ้านสำหรับครอบครัว",
+        "selected_position": "1",
+        "first_category": "บ้านสำหรับครอบครัว",
+        "local_action_count": 0,
+        "picker": false,
+        "drop_marker": false,
+        "local_error": false,
+        "toast": [
+          "Toast · กำลังบันทึก…",
+          1032,
+          10
+        ]
+      }
+    },
+    {
+      "id": "D-11",
+      "title": "บันทึกข้อมูลหมวดแล้ว",
+      "source": "VDWFK",
+      "pencil_group": "h2WB3",
+      "desktop": "NbhM1",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": null,
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": "บ้านสำหรับครอบครัว",
+        "selected_position": "1",
+        "first_category": "บ้านสำหรับครอบครัว",
+        "local_action_count": 0,
+        "picker": false,
+        "drop_marker": false,
+        "local_error": false,
+        "toast": [
+          "Toast · บันทึกหมวดหมู่สำเร็จ",
+          1032,
+          10
+        ]
+      }
+    },
+    {
+      "id": "D-12",
+      "title": "ค้นหาบ้านก่อนเพิ่ม",
+      "source": "TbiDi",
+      "pencil_group": "hNMvq",
+      "desktop": "AJQZt",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": null,
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": "บ้านสำหรับครอบครัว",
+        "selected_position": "1",
+        "first_category": "บ้านสำหรับครอบครัว",
+        "local_action_count": 0,
+        "picker": false,
+        "drop_marker": false,
+        "local_error": false,
+        "toast": null
+      }
+    },
+    {
+      "id": "D-13",
+      "title": "ค้นหาบ้านหลังเพิ่ม",
+      "source": "x7qqX",
+      "pencil_group": "x75nYX",
+      "desktop": "a5LTd8",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": null,
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": "บ้านสำหรับครอบครัว",
+        "selected_position": "1",
+        "first_category": "บ้านสำหรับครอบครัว",
+        "local_action_count": 0,
+        "picker": false,
+        "drop_marker": false,
+        "local_error": false,
+        "toast": null
+      }
+    },
+    {
+      "id": "D-14",
+      "title": "เลือกไอคอนหมวด",
+      "source": "G5NhQh",
+      "pencil_group": "FDkx9",
+      "desktop": "ZB8E3",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": null,
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": "บ้านสำหรับครอบครัว",
+        "selected_position": "1",
+        "first_category": "บ้านสำหรับครอบครัว",
+        "local_action_count": 0,
+        "picker": false,
+        "drop_marker": false,
+        "local_error": false,
+        "toast": null
+      }
+    },
+    {
+      "id": "D-15",
+      "title": "ยืนยันลบหมวด",
+      "source": "QIqoU",
+      "pencil_group": "HbVPs",
+      "desktop": "McEsb",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": "McEsb.png",
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": "บ้านสำหรับครอบครัว",
+        "selected_position": "1",
+        "first_category": "บ้านสำหรับครอบครัว",
+        "local_action_count": 0,
+        "picker": false,
+        "drop_marker": false,
+        "local_error": false,
+        "toast": null
+      }
+    },
+    {
+      "id": "D-16",
+      "title": "ลบหมวดไม่สำเร็จ",
+      "source": "aMd9q",
+      "pencil_group": "g5sEC",
+      "desktop": "ZzWp8",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": null,
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 9,
+        "selected_category": "บ้านสำหรับครอบครัว",
+        "selected_position": "1",
+        "first_category": "บ้านสำหรับครอบครัว",
+        "local_action_count": 0,
+        "picker": false,
+        "drop_marker": false,
+        "local_error": false,
+        "toast": null
+      }
+    },
+    {
+      "id": "D-17",
+      "title": "ลบหมวดสำเร็จ",
+      "source": "DWg6t",
+      "pencil_group": "d52iq",
+      "desktop": "WVi82",
+      "viewport": [
+        1440,
+        900
+      ],
+      "preview": null,
+      "evaluation": {
+        "right_content_matches_source": true,
+        "category_count": 8,
+        "selected_category": null,
+        "selected_position": null,
+        "first_category": "บ้านแนะนำโดยทีม",
+        "local_action_count": 0,
+        "picker": false,
+        "drop_marker": false,
+        "local_error": false,
+        "toast": [
+          "Toast ลบหมวดหมู่สำเร็จ",
+          1032,
+          10
+        ]
+      }
+    }
+  ]
+}

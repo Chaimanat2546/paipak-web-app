@@ -1,0 +1,12 @@
+{
+  "task": "UID-013",
+  "version": "G3-r5",
+  "date": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "โอเค อนุมัติ G3-r5 ของ UID-013 ไปต่อ G4 ได้เลยครับ",
+  "status": "owner_approved",
+  "pencil_group": "m9iMHK",
+  "pair_count": 23,
+  "frame_count": 46,
+  "authorized_next_stage": "G4 final design review for UID-013"
+}

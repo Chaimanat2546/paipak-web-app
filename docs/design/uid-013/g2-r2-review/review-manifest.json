@@ -1,0 +1,237 @@
+{
+  "task": "UID-013",
+  "version": "G2-r2",
+  "date": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_approved",
+  "owner_approval": "owner-G2-r2-acceptance.json",
+  "direction": {
+    "version": "G1-r1",
+    "selected": "B"
+  },
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "T6wFI5",
+  "pencil_archive_group": "Infad",
+  "desktop_viewport": [
+    1440,
+    900
+  ],
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "pair_count": 21,
+  "frame_count": 42,
+  "frame_local_bounds_issues": 0,
+  "active_move_up_down_controls": 0,
+  "reorder_reference": {
+    "task": "UID-012",
+    "version": "G4-r1",
+    "states": [
+      "F-15",
+      "F-16",
+      "F-17",
+      "F-18"
+    ]
+  },
+  "frames": [
+    {
+      "id": "F-01",
+      "title": "รายการคำถาม",
+      "pencil_pair": "p6ocSJ",
+      "desktop": "Wrx4w",
+      "mobile": "ovDHB",
+      "images": []
+    },
+    {
+      "id": "F-02",
+      "title": "เพิ่มคำถาม",
+      "pencil_pair": "SRWB9",
+      "desktop": "l5BbiA",
+      "mobile": "aVPKq",
+      "images": []
+    },
+    {
+      "id": "F-03",
+      "title": "แก้คำตอบยาว",
+      "pencil_pair": "UZO3T",
+      "desktop": "FoYfk",
+      "mobile": "iTUTH",
+      "images": [
+        "../g2-r1-review/FoYfk.png",
+        "../g2-r1-review/iTUTH.png"
+      ]
+    },
+    {
+      "id": "F-04",
+      "title": "ข้อมูลไม่ครบ",
+      "pencil_pair": "y4IOcK",
+      "desktop": "s61vyE",
+      "mobile": "t8ILP",
+      "images": [
+        "../g2-r1-review/s61vyE.png",
+        "../g2-r1-review/t8ILP.png"
+      ]
+    },
+    {
+      "id": "F-05",
+      "title": "กำลังบันทึก",
+      "pencil_pair": "mkjG3",
+      "desktop": "RS7PP",
+      "mobile": "HsFQI",
+      "images": []
+    },
+    {
+      "id": "F-06",
+      "title": "บันทึกไม่สำเร็จ",
+      "pencil_pair": "amdDh",
+      "desktop": "Z7UrWo",
+      "mobile": "AzacD",
+      "images": []
+    },
+    {
+      "id": "F-07",
+      "title": "บันทึกคำตอบแล้ว",
+      "pencil_pair": "mzdND",
+      "desktop": "HLMWO",
+      "mobile": "cKQCS",
+      "images": []
+    },
+    {
+      "id": "F-08",
+      "title": "สลับข้อระหว่างแก้ค้าง",
+      "pencil_pair": "Q7WQP",
+      "desktop": "hq2XS",
+      "mobile": "NZcJa",
+      "images": []
+    },
+    {
+      "id": "F-09",
+      "title": "จัดลำดับคำถาม",
+      "pencil_pair": "x4k12",
+      "desktop": "pZsXS",
+      "mobile": "y1Qf8",
+      "images": [
+        "pZsXS.png",
+        "y1Qf8.png"
+      ]
+    },
+    {
+      "id": "F-10",
+      "title": "บันทึกลำดับไม่สำเร็จ",
+      "pencil_pair": "e42Rf",
+      "desktop": "OZvmu",
+      "mobile": "QK5fb",
+      "images": [
+        "OZvmu.png",
+        "QK5fb.png"
+      ]
+    },
+    {
+      "id": "F-11",
+      "title": "บันทึกลำดับแล้ว",
+      "pencil_pair": "oKpZG",
+      "desktop": "yAzCW",
+      "mobile": "rrhWH",
+      "images": []
+    },
+    {
+      "id": "F-12",
+      "title": "ยืนยันลบคำถามสุดท้าย",
+      "pencil_pair": "n9NWlT",
+      "desktop": "ENnul",
+      "mobile": "Yry9a",
+      "images": [
+        "../g2-r1-review/ENnul.png",
+        "../g2-r1-review/Yry9a.png"
+      ]
+    },
+    {
+      "id": "F-13",
+      "title": "ลบคำถามไม่สำเร็จ",
+      "pencil_pair": "iNrpL",
+      "desktop": "X2IhX",
+      "mobile": "Q0LSj",
+      "images": []
+    },
+    {
+      "id": "F-14",
+      "title": "ลบข้อสุดท้ายแล้ว",
+      "pencil_pair": "xr761",
+      "desktop": "DEe4P",
+      "mobile": "a3Yz5",
+      "images": []
+    },
+    {
+      "id": "F-15",
+      "title": "หน้าแรก · เริ่มแบบปิดทุกข้อ",
+      "pencil_pair": "G4N1M",
+      "desktop": "RTQS1",
+      "mobile": "C88eN",
+      "images": []
+    },
+    {
+      "id": "F-16",
+      "title": "หน้าแรก · แสดงต้นฉบับระหว่างรอแปล",
+      "pencil_pair": "smwCL",
+      "desktop": "C3mY6",
+      "mobile": "VCF0d",
+      "images": [
+        "../g2-r1-review/C3mY6.png",
+        "../g2-r1-review/VCF0d.png"
+      ]
+    },
+    {
+      "id": "F-17",
+      "title": "หน้าแรก · ใช้คำแปลเมื่อพร้อม",
+      "pencil_pair": "SraMy",
+      "desktop": "MjLyP",
+      "mobile": "aKnLi",
+      "images": []
+    },
+    {
+      "id": "F-18",
+      "title": "หน้าแรก · ไม่มีคำถามเหลือ",
+      "pencil_pair": "yy8vi",
+      "desktop": "Vgbzv",
+      "mobile": "oPbL4",
+      "images": [
+        "../g2-r1-review/Vgbzv.png",
+        "../g2-r1-review/oPbL4.png"
+      ]
+    },
+    {
+      "id": "F-19",
+      "title": "กดจุดจับเพื่อเลือกตำแหน่ง",
+      "pencil_pair": "JQALa",
+      "desktop": "YE4hr",
+      "mobile": "p7BVZ",
+      "images": [
+        "YE4hr.png",
+        "p7BVZ.png"
+      ]
+    },
+    {
+      "id": "F-20",
+      "title": "ลากคำถามไปตำแหน่งใหม่",
+      "pencil_pair": "G82bY4",
+      "desktop": "jUSIE",
+      "mobile": "QciGT",
+      "images": [
+        "jUSIE.png",
+        "QciGT.png"
+      ]
+    },
+    {
+      "id": "F-21",
+      "title": "ย้ายแล้ว · รอบันทึกลำดับ",
+      "pencil_pair": "BdYXl",
+      "desktop": "u2q2H",
+      "mobile": "nJULy",
+      "images": [
+        "u2q2H.png",
+        "nJULy.png"
+      ]
+    }
+  ]
+}

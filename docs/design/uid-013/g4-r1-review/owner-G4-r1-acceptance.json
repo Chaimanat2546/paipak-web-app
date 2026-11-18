@@ -1,0 +1,36 @@
+{
+  "task": "UID-013",
+  "gate": "G4",
+  "version": "G4-r1",
+  "status": "owner_approved",
+  "design_task_status": "completed",
+  "approved_on": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "โอเค อนุมัติ G4-r1 ของ UID-013 ครับ บันทึกผลอนุมัติแล้วปิดงานออกแบบนี้ได้เลย",
+  "scope": {
+    "pair_count": 23,
+    "frame_count": 46,
+    "base_design": "G3-r5",
+    "base_approval": "../g3-r5-review/owner-G3-r5-acceptance.json",
+    "base_frame_count": 44,
+    "finding_closed": "G4-01",
+    "final_overrides": {
+      "F-08": {
+        "desktop": "ycyj2",
+        "mobile": "lzaMu"
+      }
+    }
+  },
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "base_section": "m9iMHK",
+    "g4_section": "kU6mv"
+  },
+  "review_package": "README.md",
+  "review_manifest": "review-manifest.json",
+  "interaction_specification": "interaction-spec.md",
+  "later_stages": {
+    "implementation": "not_authorized",
+    "runtime_verification": "pending"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "task": "UID-013",
+  "version": "G4-r3",
+  "date": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_approved",
+  "approved_on": "2026-11-18",
+  "owner_approval_record": "owner-G4-r3-acceptance.json",
+  "scope": "Enter FAQ reorder mode before dragging whole rows in the desktop left list, while keeping the active question editor open.",
+  "prior_approved_version": "G4-r1",
+  "prior_approval": "../g4-r1-review/owner-G4-r1-acceptance.json",
+  "prior_draft": "../g4-r2-review/review-manifest.json",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "approval_snapshot_filename": "papaipak-ui-uid-013-g4-r3.pen",
+  "pencil_task_section": "nev4k",
+  "pencil_group": "W7mUW",
+  "pencil_wireframe_group": "T6wFI5",
+  "pencil_references_group": "PnmBI",
+  "pencil_archive_group": "Prxnt",
+  "desktop_viewport": [
+    1440,
+    900
+  ],
+  "frame_count": 18,
+  "frames": [
+    {
+      "id": "F-03",
+      "state": "default",
+      "title": "แก้คำตอบ · ก่อนกดจัดลำดับ",
+      "source": "r8ySL",
+      "desktop": "py1sr",
+      "pencil_wrapper": "fSFyX",
+      "right_editor": "DsXJx",
+      "preview": "py1sr.png"
+    },
+    {
+      "id": "F-09",
+      "state": "mode",
+      "title": "กดจัดลำดับ · ลากได้ทั้งแถว",
+      "source": "CLHwb",
+      "desktop": "I8IT2d",
+      "pencil_wrapper": "PiLkK",
+      "right_editor": "m0f9uU",
+      "preview": "I8IT2d.png"
+    },
+    {
+      "id": "F-20",
+      "state": "drag",
+      "title": "ลากคำถามไปตำแหน่งแรก",
+      "source": "JOKNa",
+      "desktop": "U8Dje",
+      "pencil_wrapper": "iAtUN",
+      "right_editor": "i6rpo",
+      "preview": "U8Dje.png"
+    },
+    {
+      "id": "F-21",
+      "state": "moved",
+      "title": "ย้ายแล้ว · รอบันทึกลำดับ",
+      "source": "ffP1j",
+      "desktop": "ZWhzU",
+      "pencil_wrapper": "MQU22",
+      "right_editor": "yMGXX",
+      "preview": "ZWhzU.png"
+    },
+    {
+      "id": "F-24",
+      "state": "keyboard",
+      "title": "ย้ายแถวด้วยคีย์บอร์ด",
+      "source": "ffP1j",
+      "desktop": "MZpU4",
+      "pencil_wrapper": "OMs9h",
+      "right_editor": "mrDnk",
+      "preview": "MZpU4.png"
+    },
+    {
+      "id": "F-22",
+      "state": "pending",
+      "title": "กำลังบันทึกลำดับ",
+      "source": "rDrzZ",
+      "desktop": "a3PJn",
+      "pencil_wrapper": "y5iFp",
+      "right_editor": "BixWN",
+      "preview": "a3PJn.png"
+    },
+    {
+      "id": "F-10",
+      "state": "failure",
+      "title": "บันทึกลำดับไม่สำเร็จ",
+      "source": "Q8SH1",
+      "desktop": "q5wZW",
+      "pencil_wrapper": "aaZxo",
+      "right_editor": "z1Msx",
+      "preview": "q5wZW.png"
+    },
+    {
+      "id": "F-11",
+      "state": "success",
+      "title": "บันทึกลำดับแล้ว",
+      "source": "qndeD",
+      "desktop": "P2Tj7y",
+      "pencil_wrapper": "N8Gxj",
+      "right_editor": "KlXpW",
+      "preview": "P2Tj7y.png"
+    },
+    {
+      "id": "F-01",
+      "state": "editor",
+      "title": "รายการคำถาม",
+      "source": "Bp1hy",
+      "desktop": "iibDK",
+      "pencil_wrapper": "PmOB7"
+    },
+    {
+      "id": "F-02",
+      "state": "editor",
+      "title": "เพิ่มคำถาม",
+      "source": "zMhEs",
+      "desktop": "xl6C9",
+      "pencil_wrapper": "XFQq0",
+      "right_editor": "YlDGG"
+    },
+    {
+      "id": "F-04",
+      "state": "editor",
+      "title": "ข้อมูลไม่ครบ",
+      "source": "KRTrm",
+      "desktop": "p0M8I",
+      "pencil_wrapper": "Nb5OD",
+      "right_editor": "f8jlM"
+    },
+    {
+      "id": "F-05",
+      "state": "editor",
+      "title": "กำลังบันทึกคำตอบ",
+      "source": "TLscm",
+      "desktop": "Q7GSHm",
+      "pencil_wrapper": "wJLZv",
+      "right_editor": "PgdiQ"
+    },
+    {
+      "id": "F-06",
+      "state": "editor",
+      "title": "บันทึกคำตอบไม่สำเร็จ",
+      "source": "WeEva",
+      "desktop": "ScSul",
+      "pencil_wrapper": "eCWeW",
+      "right_editor": "ISnG9"
+    },
+    {
+      "id": "F-07",
+      "state": "editor",
+      "title": "บันทึกคำตอบแล้ว",
+      "source": "clK3Z",
+      "desktop": "yOQGg",
+      "pencil_wrapper": "DpbSW",
+      "right_editor": "pfbdq"
+    },
+    {
+      "id": "F-08",
+      "state": "editor",
+      "title": "สลับข้อระหว่างแก้ค้าง",
+      "source": "G2ZPFB",
+      "desktop": "XLAnv",
+      "pencil_wrapper": "z2X8I",
+      "right_editor": "T1lHF"
+    },
+    {
+      "id": "F-12",
+      "state": "editor",
+      "title": "ยืนยันลบคำถามสุดท้าย",
+      "source": "nIVcn",
+      "desktop": "M0Ljsi",
+      "pencil_wrapper": "rVtek",
+      "right_editor": "j4YIc"
+    },
+    {
+      "id": "F-13",
+      "state": "editor",
+      "title": "ลบคำถามไม่สำเร็จ",
+      "source": "m478tO",
+      "desktop": "u6yfLO",
+      "pencil_wrapper": "pCR7d",
+      "right_editor": "DFrKV"
+    },
+    {
+      "id": "F-23",
+      "state": "editor",
+      "title": "กำลังลบคำถาม",
+      "source": "Es9U7",
+      "desktop": "L4IR8",
+      "pencil_wrapper": "bX97j",
+      "right_editor": "tJgVC"
+    }
+  ]
+}

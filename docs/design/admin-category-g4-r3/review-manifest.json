@@ -1,0 +1,178 @@
+{
+  "task": "UID-010",
+  "version": "G4-r3",
+  "date": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_approved",
+  "approved_on": "2026-11-18",
+  "owner_approval_record": "owner-G4-r3-acceptance.json",
+  "scope": "Enter category reorder mode from the desktop left list and drag whole rows while keeping the selected category editor open.",
+  "prior_approved_version": "G4-r2",
+  "prior_approved_manifest": "../admin-category-g4-r2/review-manifest.json",
+  "mobile_and_home_reference": "../admin-category-g4-r1/review-manifest.json",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "approval_snapshot_filename": "papaipak-ui-uid-010-g4-r3.pen",
+  "pencil_task_section": "jNYEs",
+  "pencil_group": "CSOsO",
+  "pencil_prior_group": "Zt8h0",
+  "pencil_reference_group": "Rc0XX",
+  "desktop_viewport": [
+    1440,
+    900
+  ],
+  "frame_count": 18,
+  "frames": [
+    {
+      "id": "D-01",
+      "state": "default",
+      "title": "รายการหมวดก่อนกดจัดลำดับ",
+      "source": "YvS0L",
+      "pencil_wrapper": "Z4fj9O",
+      "desktop": "RM1du",
+      "preview": "RM1du.png"
+    },
+    {
+      "id": "D-02",
+      "state": "mode",
+      "title": "กดจัดลำดับ · ลากได้ทั้งแถว",
+      "source": "YvS0L",
+      "pencil_wrapper": "eiPQF",
+      "desktop": "rHhBx",
+      "preview": "rHhBx.png"
+    },
+    {
+      "id": "D-03",
+      "state": "drag",
+      "title": "ลากหมวดไปตำแหน่งแรก",
+      "source": "RTrhD",
+      "pencil_wrapper": "lXwVJ",
+      "desktop": "uTI74",
+      "preview": "uTI74.png"
+    },
+    {
+      "id": "D-04",
+      "state": "moved",
+      "title": "ย้ายแล้ว · รอบันทึกลำดับ",
+      "source": "L0GvVQ",
+      "pencil_wrapper": "pKS8Y",
+      "desktop": "vWgkW",
+      "preview": "vWgkW.png"
+    },
+    {
+      "id": "D-05",
+      "state": "keyboard",
+      "title": "ย้ายแถวด้วยคีย์บอร์ด",
+      "source": "L0GvVQ",
+      "pencil_wrapper": "n8lUx",
+      "desktop": "f8jUpn",
+      "preview": "f8jUpn.png"
+    },
+    {
+      "id": "D-06",
+      "state": "pending",
+      "title": "กำลังบันทึกลำดับหมวด",
+      "source": "lBmJC",
+      "pencil_wrapper": "vgQpg",
+      "desktop": "gcPb8",
+      "preview": "gcPb8.png"
+    },
+    {
+      "id": "D-07",
+      "state": "failure",
+      "title": "บันทึกลำดับไม่สำเร็จ",
+      "source": "TyY9U",
+      "pencil_wrapper": "J1cZN",
+      "desktop": "c1rUPi",
+      "preview": "c1rUPi.png"
+    },
+    {
+      "id": "D-08",
+      "state": "success",
+      "title": "บันทึกลำดับหมวดแล้ว",
+      "source": "EeHS5",
+      "pencil_wrapper": "l6qlLd",
+      "desktop": "D9bOQ",
+      "preview": "D9bOQ.png"
+    },
+    {
+      "id": "D-09",
+      "state": "editor",
+      "title": "สร้างหมวดใหม่",
+      "source": "h4RByD",
+      "pencil_wrapper": "R7zyd",
+      "desktop": "rZgmr"
+    },
+    {
+      "id": "D-10",
+      "state": "editor",
+      "title": "แก้หมวดที่ใช้รูปภาพ",
+      "source": "k5QiD",
+      "pencil_wrapper": "JILXU",
+      "desktop": "QnSCB"
+    },
+    {
+      "id": "D-11",
+      "state": "editor",
+      "title": "กำลังบันทึกข้อมูลหมวด",
+      "source": "QmWgh",
+      "pencil_wrapper": "h7FvuK",
+      "desktop": "CW9CR"
+    },
+    {
+      "id": "D-12",
+      "state": "editor",
+      "title": "บันทึกข้อมูลหมวดแล้ว",
+      "source": "NbhM1",
+      "pencil_wrapper": "nZMkp",
+      "desktop": "L31At5"
+    },
+    {
+      "id": "D-13",
+      "state": "editor",
+      "title": "ค้นหาบ้านก่อนเพิ่ม",
+      "source": "AJQZt",
+      "pencil_wrapper": "EUnSN",
+      "desktop": "vDFC2"
+    },
+    {
+      "id": "D-14",
+      "state": "editor",
+      "title": "ค้นหาบ้านหลังเพิ่ม",
+      "source": "a5LTd8",
+      "pencil_wrapper": "gKyan",
+      "desktop": "YiUgt"
+    },
+    {
+      "id": "D-15",
+      "state": "editor",
+      "title": "เลือกไอคอนหมวด",
+      "source": "ZB8E3",
+      "pencil_wrapper": "Uhw7H",
+      "desktop": "SF1bv"
+    },
+    {
+      "id": "D-16",
+      "state": "editor",
+      "title": "ยืนยันลบหมวด",
+      "source": "McEsb",
+      "pencil_wrapper": "UCES4",
+      "desktop": "sVbOU"
+    },
+    {
+      "id": "D-17",
+      "state": "editor",
+      "title": "ลบหมวดไม่สำเร็จ",
+      "source": "ZzWp8",
+      "pencil_wrapper": "GWegy",
+      "desktop": "JK9M6"
+    },
+    {
+      "id": "D-18",
+      "state": "editor",
+      "title": "ลบหมวดสำเร็จ",
+      "source": "WVi82",
+      "pencil_wrapper": "Vn3di",
+      "desktop": "I6ojqD"
+    }
+  ]
+}
