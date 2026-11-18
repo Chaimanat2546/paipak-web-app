@@ -4,7 +4,7 @@
 
 เฟรมกล่องลบ F-12, F-13 และ F-23 ของรอบเดิมอยู่ในกลุ่มเก็บประวัติ `ITyTy`
 
-ปรับข้อความแจ้งผลจาก [G3-r1](../g3-r1-review/README.md) ตามคำถามของภูเรื่อง Toast ใช้ Toast จาก [แบบ UID-012](../../uid-012/g4-review/interaction-spec.md#บันทึกร่าง-เผยแพร่-และยกเลิกเผยแพร่) โดยตรง กลุ่มตรวจอยู่ที่ `m9iMHK` ใน [Pencil](../../dsd-001/papaipak-ui.pen)
+ปรับข้อความแจ้งผลจาก [G3-r1](../g3-r1-review/README.md) ตามคำถามของภูเรื่อง Toast ใช้ Toast จาก [แบบ UID-012](../../uid-012/g4-review/interaction-spec.md#บันทึกร่าง-เผยแพร่-และยกเลิกเผยแพร่) โดยตรง กลุ่มตรวจอยู่ที่ `m9iMHK` ใน [ไฟล์ Pencil ก่อนจัดแบบที่อนุมัติ](https://github.com/Chaimanat2546/paipak-web-app/blob/dc7653526101c2418009e577d1759ba72ed9dde3/docs/design/dsd-001/papaipak-ui.pen)
 
 ## Toast ที่เพิ่มและปรับ
 

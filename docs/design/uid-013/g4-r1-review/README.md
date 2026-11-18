@@ -2,7 +2,7 @@
 
 **ภูอนุมัติ G4-r1 และปิดงานออกแบบ** · 18 พฤศจิกายน 2026 · 23 คู่ เดสก์ท็อป 1440 × 900 และมือถือ 390 × 844 [บันทึกผลอนุมัติ](owner-G4-r1-acceptance.json)
 
-ชุดตรวจใช้ [High-Fi G3-r5 ที่ภูอนุมัติ](../g3-r5-review/owner-G3-r5-acceptance.json) 44 เฟรม และ F-08 ฉบับปรับระยะ 2 เฟรม เปิด [ไฟล์ Pencil](../../dsd-001/papaipak-ui.pen) กลุ่ม `m9iMHK` สำหรับฐาน G3-r5 และ `kU6mv` สำหรับ F-08 ที่แก้ใน G4
+ชุดตรวจใช้ [High-Fi G3-r5 ที่ภูอนุมัติ](../g3-r5-review/owner-G3-r5-acceptance.json) 44 เฟรม และ F-08 ฉบับปรับระยะ 2 เฟรม ดูชุดที่ใช้ตรวจรอบนั้นในกลุ่ม `m9iMHK` และ `kU6mv` ของ [ไฟล์ Pencil ก่อนจัดแบบที่อนุมัติ](https://github.com/Chaimanat2546/paipak-web-app/blob/dc7653526101c2418009e577d1759ba72ed9dde3/docs/design/dsd-001/papaipak-ui.pen) แบบมือถือ 23 เฟรม และแบบเดสก์ท็อป F-14 ถึง F-18 ที่ยังใช้อ้างอิงอยู่ในกลุ่ม `PnmBI` ของ [ไฟล์ Pencil หลัก](../../dsd-001/papaipak-ui.pen)
 
 ## จุดที่แก้ใน G4
 

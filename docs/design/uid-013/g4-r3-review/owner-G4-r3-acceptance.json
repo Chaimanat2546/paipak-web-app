@@ -20,7 +20,8 @@
     "wireframe_group": "T6wFI5",
     "g4_group": "W7mUW",
     "reference_group": "PnmBI",
-    "archive_group": "Prxnt"
+    "mobile_group": "oTVq8",
+    "desktop_reference_group": "c78kG6"
   },
   "review_manifest": "review-manifest.json",
   "interaction_specification": "interaction-spec.md",

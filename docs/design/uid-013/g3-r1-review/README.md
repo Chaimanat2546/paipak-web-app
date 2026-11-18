@@ -4,7 +4,7 @@
 
 เฟรม F-05, F-07, F-11 และ F-14 ของรอบเดิมอยู่ในกลุ่มเก็บประวัติ `T4am6`
 
-เปิดกลุ่ม `m9iMHK` ใน [Pencil](../../dsd-001/papaipak-ui.pen) แบบแอดมินใช้โครง B ตาม [Wireframe G2-r2 ที่อนุมัติ](../g2-r2-review/owner-G2-r2-acceptance.json) เดสก์ท็อปแสดงรายการและฟอร์มข้างกัน มือถือเปิดฟอร์มจากรายการ
+เปิดกลุ่ม `m9iMHK` ใน [ไฟล์ Pencil ก่อนจัดแบบที่อนุมัติ](https://github.com/Chaimanat2546/paipak-web-app/blob/dc7653526101c2418009e577d1759ba72ed9dde3/docs/design/dsd-001/papaipak-ui.pen) แบบแอดมินใช้โครง B ตาม [Wireframe G2-r2 ที่อนุมัติ](../g2-r2-review/owner-G2-r2-acceptance.json) เดสก์ท็อปแสดงรายการและฟอร์มข้างกัน มือถือเปิดฟอร์มจากรายการ
 
 ## ภาพส่งตรวจ
 
