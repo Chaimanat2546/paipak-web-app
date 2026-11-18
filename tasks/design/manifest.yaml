@@ -576,8 +576,15 @@ tasks:
   title: Component visual states and interaction specs
   stage: design
   kind: design
-  status: planned_not_started
+  status: in_progress
   handoff: manual_user_initiated
+  button_iconbutton_review:
+    version: r1
+    status: owner_approved
+    approved_on: '2026-11-18'
+    approval_record: docs/design/dsd-002/button-iconbutton-r1/owner-approval.json
+    pencil_file: docs/design/dsd-001/papaipak-ui.pen
+    pencil_section: Dowgz
   depends_on:
   - DSD-001
   - UXD-002

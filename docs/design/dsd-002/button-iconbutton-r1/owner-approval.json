@@ -1,0 +1,29 @@
+{
+  "task": "DSD-002",
+  "scope": "Button and IconButton r1, including the reusable Pencil components, visual states, and Desktop and Mobile examples",
+  "version": "r1",
+  "status": "owner_approved",
+  "approved_on": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "โอเคครับ อนุมัติ Button กับ IconButton ของ DSD-002 รอบ r1 ทั้ง Desktop และ Mobile ช่วยบันทึกผลอนุมัติ แล้ว commit กับ push ไฟล์ Pencil กลางขึ้น GitHub ได้เลยครับ",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_section": "Dowgz",
+  "master_panel": "NOKQR",
+  "state_panel": "ZDtEP",
+  "components": [
+    { "name": "Button / Primary", "id": "OYERv" },
+    { "name": "Button / Secondary", "id": "QUcEl" },
+    { "name": "Button / Destructive", "id": "vXMqD" },
+    { "name": "Button / Text", "id": "OaRun" },
+    { "name": "IconButton / Secondary", "id": "L1r6W3" },
+    { "name": "IconButton / On Image", "id": "t8Yyo6" }
+  ],
+  "screens": [
+    { "context": "Property Detail", "viewport": "Desktop", "width": 1440, "id": "tBXqh" },
+    { "context": "Property Detail", "viewport": "Mobile", "width": 390, "id": "GczZe" },
+    { "context": "FAQ admin", "viewport": "Desktop", "width": 1440, "id": "RbAg9" },
+    { "context": "FAQ admin", "viewport": "Mobile", "width": 390, "id": "I0ekg3" }
+  ],
+  "state_instances": 24,
+  "screen_instances": 12
+}
