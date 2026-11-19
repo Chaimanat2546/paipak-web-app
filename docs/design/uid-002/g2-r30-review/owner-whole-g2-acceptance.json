@@ -1,0 +1,18 @@
+{
+  "task_id": "UID-002",
+  "version": "G2-r30",
+  "recorded_on": "2026-11-19",
+  "owner_instruction_raw": "ไดเ",
+  "interpreted_as": "ได้",
+  "interpretation_basis": "Affirmative response to the explicit question asking to accept G2-r30 as the whole wireframe baseline for detailed UI design",
+  "scope": "Entire consolidated Desktop/Mobile search wireframe package and interaction contract defined in the presented G2-r30 manifest, including 15 results per page and the accepted filter, loading/failure, no-match, image and navigation states",
+  "pencil_group": "Jpzxu",
+  "overview_frame_count": 36,
+  "results_per_page": 15,
+  "approved_manifest_snapshot": "review-manifest-at-approval.json",
+  "approved_hash_snapshot": "artifact-hashes-at-approval.json",
+  "whole_g2_approved": true,
+  "g3_started": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

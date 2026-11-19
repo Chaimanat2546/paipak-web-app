@@ -1,0 +1,60 @@
+{
+  "recorded_on": "2026-11-19",
+  "files": [
+    {
+      "file": "FgpMf.png",
+      "bytes": 122053,
+      "sha256": "e441367395c06411b756d864161a1963793e8ef6ac867f2138b6217a6d648a63"
+    },
+    {
+      "file": "file-verification.json",
+      "bytes": 913,
+      "sha256": "fceed79e97b51ed83aab4235f0ad78c6e4151dc6700ee21f3b3baab601122074"
+    },
+    {
+      "file": "g4zFq.png",
+      "bytes": 3467837,
+      "sha256": "173768f12c6edca6a328fb68664540049604eca149473854b825acc340dd1742"
+    },
+    {
+      "file": "GAOPB.png",
+      "bytes": 3293474,
+      "sha256": "6de6851bf559ccce310a5b5d9ea105bf684fcc034b44cf588393fd1ff51d90cb"
+    },
+    {
+      "file": "KGf0a.png",
+      "bytes": 5053346,
+      "sha256": "60d4d64e0fbc7e76fba015e94890d39cf62c60c2414b27038d1c01b6491591c9"
+    },
+    {
+      "file": "native-verification.json",
+      "bytes": 1877,
+      "sha256": "189836fb455839b8f521c22559952b033d1fc506320196f0d122eef7768eb6d9"
+    },
+    {
+      "file": "owner-g3-continuation.json",
+      "bytes": 573,
+      "sha256": "eb55aab769cda98e2bc0be60c585b6052ee51bcc26f8834d9eddd38219f2137f"
+    },
+    {
+      "file": "README.md",
+      "bytes": 6891,
+      "sha256": "24a27f315820a749cfbbc6eeea11407ec04a799f5878deca9c2c23d9a00a1ff9"
+    },
+    {
+      "file": "review-manifest.json",
+      "bytes": 3723,
+      "sha256": "5371e08db167d6945450dc2e630a62596437163a94c0f58e5c44a5b8bad44484"
+    },
+    {
+      "file": "tG1OH.png",
+      "bytes": 40683,
+      "sha256": "e32e46f88aaea73e1038d167b776f9637dbe54d05b44d0a4be0e23e97c9f3c7d"
+    },
+    {
+      "file": "TvVQI.png",
+      "bytes": 1685554,
+      "sha256": "72659f116c5a9532424be75878541de461e7b6b6fe8a5df3f3d4d7fb72917e98"
+    }
+  ]
+}

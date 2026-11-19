@@ -1,0 +1,523 @@
+{
+  "root": "zyryF",
+  "frames": [
+    {
+      "id": "avnMT",
+      "name": "Desktop · ลองโหลดหน้า 2 ด้วยเงื่อนไขเดิม",
+      "width": 1088,
+      "height": 852
+    },
+    {
+      "id": "Ktc6s",
+      "name": "Mobile · ลองโหลดหน้า 2 ด้วยเงื่อนไขเดิม",
+      "width": 390,
+      "height": 900
+    }
+  ],
+  "sequence": [
+    {
+      "id": "avnMT",
+      "header": [
+        "พัทยา · 12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว"
+      ],
+      "retry": 2,
+      "ready": [
+        "พบที่พัก 36 หลัง · แสดง 16–30",
+        "พบที่พัก 36 หลัง · แสดง 16–30"
+      ],
+      "criteria": [
+        "12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว",
+        "12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว"
+      ],
+      "phases": [
+        {
+          "name": "ช่วง ขอหน้า 2 แล้วโหลดไม่สำเร็จ",
+          "pager": [
+            {
+              "name": "หน้าก่อนหน้า",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 1",
+              "fill": "#072D59",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 2",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 3",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้าถัดไป",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            }
+          ]
+        },
+        {
+          "name": "ช่วง ลองใหม่ · ขอหน้า 2 ด้วยตัวกรองเดิม",
+          "pager": [
+            {
+              "name": "หน้าก่อนหน้า",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 1",
+              "fill": "#072D59",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 2",
+              "fill": "#FFFFFF",
+              "stroke": "#072D59",
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 3",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้าถัดไป",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            }
+          ]
+        },
+        {
+          "name": "ช่วง โหลดสำเร็จ · แสดงหน้า 2",
+          "pager": [
+            {
+              "name": "หน้าก่อนหน้า",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 1",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 2",
+              "fill": "#072D59",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 3",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้าถัดไป",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            }
+          ]
+        },
+        {
+          "name": "เลขหน้า 2 ที่เลือกหลังโหลดสำเร็จ",
+          "pager": [
+            {
+              "name": "หน้าก่อนหน้า",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 1",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 2",
+              "fill": "#072D59",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 3",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้าถัดไป",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Ktc6s",
+      "header": [
+        "พัทยา · 12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว"
+      ],
+      "retry": 2,
+      "ready": [
+        "แสดง 16–30 จาก 36 หลัง",
+        "แสดง 16–30 จาก 36 หลัง"
+      ],
+      "criteria": [
+        "12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว",
+        "12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว"
+      ],
+      "phases": [
+        {
+          "name": "ช่วง ขอหน้า 2 แล้วโหลดไม่สำเร็จ",
+          "pager": [
+            {
+              "name": "หน้าก่อนหน้า",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 1",
+              "fill": "#072D59",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 2",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 3",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้าถัดไป",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            }
+          ]
+        },
+        {
+          "name": "ช่วง ลองใหม่ · ขอหน้า 2 ด้วยตัวกรองเดิม",
+          "pager": [
+            {
+              "name": "หน้าก่อนหน้า",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 1",
+              "fill": "#072D59",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 2",
+              "fill": "#FFFFFF",
+              "stroke": "#072D59",
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 3",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้าถัดไป",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            }
+          ]
+        },
+        {
+          "name": "ช่วง โหลดสำเร็จ · แสดงหน้า 2",
+          "pager": [
+            {
+              "name": "หน้าก่อนหน้า",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 1",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 2",
+              "fill": "#072D59",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 3",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้าถัดไป",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            }
+          ]
+        },
+        {
+          "name": "เลขหน้า 2 ที่เลือกหลังโหลดสำเร็จ",
+          "pager": [
+            {
+              "name": "หน้าก่อนหน้า",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 1",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 2",
+              "fill": "#072D59",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้า 3",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            },
+            {
+              "name": "หน้าถัดไป",
+              "fill": "#DBF2FC",
+              "stroke": null,
+              "width": 40,
+              "height": 44
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "name": "แสดงเฉพาะส่วนที่ตรวจ",
+      "parent": "ช่วง ขอหน้า 2 แล้วโหลดไม่สำเร็จ"
+    },
+    {
+      "name": "วิลล่าริมฟ้า",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    },
+    {
+      "name": "บ้านพักอุ่นใจ",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    },
+    {
+      "name": "พูลวิลล่าวันพักผ่อน",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    },
+    {
+      "name": "Footer r1 · ใช้ร่วมกับ Home",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    },
+    {
+      "name": "แสดงเฉพาะส่วนที่ตรวจ",
+      "parent": "ช่วง ลองใหม่ · ขอหน้า 2 ด้วยตัวกรองเดิม"
+    },
+    {
+      "name": "Skeleton · การ์ดบ้านพัก",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    },
+    {
+      "name": "Skeleton · การ์ดบ้านพัก",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    },
+    {
+      "name": "Skeleton · การ์ดบ้านพัก",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    },
+    {
+      "name": "Footer r1 · ใช้ร่วมกับ Home",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    },
+    {
+      "name": "แสดงเฉพาะส่วนที่ตรวจ",
+      "parent": "ช่วง โหลดสำเร็จ · แสดงหน้า 2"
+    },
+    {
+      "name": "หน้าผลค้นหาตามตำแหน่งเลื่อน",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    },
+    {
+      "name": "เนื้อหาตัวกรองทั้งหมด",
+      "parent": "พื้นที่เลื่อนตัวกรอง"
+    },
+    {
+      "name": "แสดงเฉพาะส่วนที่ตรวจ",
+      "parent": "เลขหน้า 2 ที่เลือกหลังโหลดสำเร็จ"
+    },
+    {
+      "name": "หน้าผลค้นหาตามตำแหน่งเลื่อน",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    },
+    {
+      "name": "เนื้อหาตัวกรองทั้งหมด",
+      "parent": "พื้นที่เลื่อนตัวกรอง"
+    },
+    {
+      "name": "แสดงเฉพาะส่วนที่ตรวจ",
+      "parent": "ช่วง ขอหน้า 2 แล้วโหลดไม่สำเร็จ"
+    },
+    {
+      "name": "วิลล่าพักสบาย",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    },
+    {
+      "name": "Footer r1 · ใช้ร่วมกับ Home",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    },
+    {
+      "name": "แสดงเฉพาะส่วนที่ตรวจ",
+      "parent": "ช่วง ลองใหม่ · ขอหน้า 2 ด้วยตัวกรองเดิม"
+    },
+    {
+      "name": "Skeleton · การ์ดบ้านพัก",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    },
+    {
+      "name": "Footer r1 · ใช้ร่วมกับ Home",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    },
+    {
+      "name": "แสดงเฉพาะส่วนที่ตรวจ",
+      "parent": "ช่วง โหลดสำเร็จ · แสดงหน้า 2"
+    },
+    {
+      "name": "หน้าผลค้นหาตามตำแหน่งเลื่อน",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    },
+    {
+      "name": "แสดงเฉพาะส่วนที่ตรวจ",
+      "parent": "เลขหน้า 2 ที่เลือกหลังโหลดสำเร็จ"
+    },
+    {
+      "name": "หน้าผลค้นหาตามตำแหน่งเลื่อน",
+      "parent": "แสดงเฉพาะส่วนที่ตรวจ"
+    }
+  ],
+  "repaired": {
+    "frame": "olaXf",
+    "old_layer": "H798P",
+    "restored_next": "a5z0Y",
+    "pager": [
+      {
+        "name": "หน้าก่อนหน้า",
+        "fill": "#DBF2FC",
+        "stroke": null,
+        "width": 40,
+        "height": 44
+      },
+      {
+        "name": "หน้า 1",
+        "fill": "#072D59",
+        "stroke": null,
+        "width": 40,
+        "height": 44
+      },
+      {
+        "name": "หน้า 2",
+        "fill": "#DBF2FC",
+        "stroke": null,
+        "width": 40,
+        "height": 44
+      },
+      {
+        "name": "หน้า 3",
+        "fill": "#DBF2FC",
+        "stroke": null,
+        "width": 40,
+        "height": 44
+      },
+      {
+        "name": "หน้าถัดไป",
+        "fill": "#DBF2FC",
+        "stroke": null,
+        "width": 40,
+        "height": 44
+      }
+    ]
+  },
+  "runtime_verified": false
+}
+

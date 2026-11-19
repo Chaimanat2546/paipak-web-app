@@ -1,0 +1,13 @@
+{
+  "task_id": "UID-002",
+  "version": "G2-r25",
+  "recorded_on": "2026-11-19",
+  "owner_instruction": "ได้",
+  "scope": "Initial data load failure with retry using retained criteria, and page 2 load failure retaining page 1 with an explicit retry-page-2 action",
+  "pencil_group": "r9B3Ep",
+  "desktop_frames": ["ohCZ8", "Gy9rc"],
+  "mobile_frames": ["pMqKa", "QkI2t"],
+  "whole_g2_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

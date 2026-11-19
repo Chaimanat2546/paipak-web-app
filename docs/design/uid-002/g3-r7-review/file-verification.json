@@ -1,0 +1,24 @@
+{
+  "png_count": 49,
+  "older_G3_frames_mapped": 57,
+  "bathroom_count_checks": 467,
+  "before_after": [
+    {
+      "before": "PQQ9r",
+      "after": "A9qI3",
+      "pngs_identical": true
+    },
+    {
+      "before": "PgBDD",
+      "after": "e4RGd",
+      "pngs_identical": true
+    }
+  ],
+  "mock_page_counts": [
+    15,
+    15,
+    6
+  ],
+  "file_links_verified": true,
+  "runtime_verified": false
+}

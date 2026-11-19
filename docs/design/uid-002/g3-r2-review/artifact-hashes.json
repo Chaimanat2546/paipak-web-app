@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "file": "F90Ewa.png",
+      "bytes": 74752,
+      "sha256": "32d5d8fcefc28e886047ce46acbae4e1f4795824bdbad186171c777bc8df0e7a"
+    },
+    {
+      "file": "gvvHG.png",
+      "bytes": 107542,
+      "sha256": "6ac7ddf5cda93fe9b774334d9a5a76f4104aaf024a8dc7fa6413009af231250d"
+    },
+    {
+      "file": "kP2za.png",
+      "bytes": 46461,
+      "sha256": "0fee5a90870fa0bf6e1f28cfcf358f9222b964f4d4c2df9904880ebd5b6d5a55"
+    },
+    {
+      "file": "native-verification.json",
+      "bytes": 1479,
+      "sha256": "2206a7ba3323e74967f88b2c8b491a4f44caf33aceb2433698e330723cc47d8d"
+    },
+    {
+      "file": "owner-filter-appearance-acceptance.json",
+      "bytes": 1539,
+      "sha256": "e579e4b876c2eef90044bc6a93d3364212d33310313d2e2d90e5f233c7eb811f"
+    },
+    {
+      "file": "README.md",
+      "bytes": 4713,
+      "sha256": "b1454ea4c92eb0b71d471b46f755b7a4451004e12b0e228c21791b4ad8ced6bb"
+    },
+    {
+      "file": "review-manifest.json",
+      "bytes": 3411,
+      "sha256": "757f2ee8ac0b1e890cc98b9d5914d0eb43f8462780b9eb33287bbc3eeb455e18"
+    },
+    {
+      "file": "S1aeEj.png",
+      "bytes": 38658,
+      "sha256": "09d36b08fc8ec792814c9437333213affbc28b0bc9b34888f6401f2fc080adad"
+    },
+    {
+      "file": "sAk6H.png",
+      "bytes": 37642,
+      "sha256": "ff713e0bfb79dfb0cc94fd945f4a6df47a62b5c90d544cca999ea1e06a6eb3d9"
+    },
+    {
+      "file": "Vc0f8.png",
+      "bytes": 40821,
+      "sha256": "b9c8ae2feba1ad8b698354b511f25074de9811251e5bf2d846c067e71e090c78"
+    },
+    {
+      "file": "Yh4Hl.png",
+      "bytes": 16544,
+      "sha256": "3ecac097e71a5458f0b9094770124ca811a133b5ae0e7cf4ceb4a85da83fab77"
+    }
+  ]
+}

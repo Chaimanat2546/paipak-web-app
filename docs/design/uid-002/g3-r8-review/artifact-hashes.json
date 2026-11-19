@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "file": "b4BDvl.png",
+      "bytes": 3191285,
+      "sha256": "5d01525099202d75a39881b8dcdab6d4db30a4a2a3e5766ad37276b43e9a6758"
+    },
+    {
+      "file": "f2dJJ6.png",
+      "bytes": 738347,
+      "sha256": "634c65e6be9c87862719490217197a9526d081dbd809a7305b66cf45af34adff"
+    },
+    {
+      "file": "h4PAgH.png",
+      "bytes": 1486520,
+      "sha256": "ee326f86023affcdc71292170abc0225f2dc36ae3b790576981bbd2d0ab5badf"
+    },
+    {
+      "file": "jxVIx.png",
+      "bytes": 732775,
+      "sha256": "777609a5cadc0d6d063fa70fa37422d206e969b3a3ac9cf6a51be5493a15ca46"
+    },
+    {
+      "file": "kePwq.png",
+      "bytes": 1210639,
+      "sha256": "a38b2380044ff9802fbd27f67420dfe0bbf184cb70fd7c949310e73c32ad6bb2"
+    },
+    {
+      "file": "native-verification.json",
+      "bytes": 16324,
+      "sha256": "f8359ffe3de53a0a830cefa4a85261d36bcce2ed8c7060dc8394e15f081d6d29"
+    },
+    {
+      "file": "README.md",
+      "bytes": 3124,
+      "sha256": "055cfff5a2b3dbc4547e1fb404a9abd4ec4dd6933a15915c4375a2c021e9c441"
+    },
+    {
+      "file": "review-manifest.json",
+      "bytes": 2504,
+      "sha256": "30e8e94fe984947047858e9e9d56dbe321a4db69422ae4fe0612adcbedaa8b18"
+    },
+    {
+      "file": "t8bGfh.png",
+      "bytes": 754633,
+      "sha256": "fe181fe67b0cf44db1f697d0457c6dbc1e1c16090aad15de6b52fab23bf56f72"
+    }
+  ]
+}

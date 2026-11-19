@@ -656,8 +656,102 @@ tasks:
   title: Search results high-fidelity design
   stage: screens
   kind: design
-  status: planned_not_started
+  status: completed
   handoff: manual_user_initiated
+  review_gate: G4
+  g0_status: owner_approved
+  g0_approved_on: '2026-11-18'
+  g0_approval_instruction: 'ได้'
+  g1_status: owner_approved
+  g1_direction_version: G1-r1
+  g1_approved_on: '2026-11-18'
+  g1_selected_direction: Desktop B / Mobile A
+  g1_direction_proposal: docs/design/uid-002/g1-r1-review/README.md
+  g1_approval_record: docs/design/uid-002/g1-r1-review/owner-G1-r1-acceptance.json
+  g2_status: owner_approved
+  g2_version: G2-r30
+  g2_approved_on: '2026-11-19'
+  g2_approval_instruction: 'ไดเ'
+  g2_acceptance: docs/design/uid-002/g2-r30-review/owner-whole-g2-acceptance.json
+  g3_status: superseded_by_approved_g4_baseline
+  g3_version: G3-r12
+  g3_started_on: '2026-11-19'
+  g3_review_status: supporting_evidence_for_approved_g4
+  g3_review_package: docs/design/uid-002/g3-r12-review/README.md
+  g3_review_manifest: docs/design/uid-002/g3-r12-review/review-manifest.json
+  g3_pencil_group: sTGLK
+  g4_status: owner_approved
+  g4_approved_on: '2026-11-19'
+  g4_approval_record: docs/design/uid-002/g4-r1-review/owner-G4-r1-acceptance.json
+  implementation_status: deferred_at_design_close
+  runtime_verified: false
+  g4_version: G4-r1
+  g4_review_package: docs/design/uid-002/g4-r1-review/README.md
+  g4_review_manifest: docs/design/uid-002/g4-r1-review/review-manifest.json
+  pencil_task_section: tYF4Q
+  pencil_hifi_section: MilCd
+  pencil_hifi_section_status: owner_confirmed
+  pencil_wireframe_section: Jpzxu
+  earlier_pencil_review_groups: removed_from_main_file
+  pencil_implementation_reference: docs/design/uid-002/g4-r1-review/implementation-reference.md
+  g4_pencil_group: mC4Ut
+  g4_preview_count: 2
+  g3_narrow_review_package: docs/design/uid-002/g3-r8-review/README.md
+  g3_all_states_review_package: docs/design/uid-002/g3-r7-review/README.md
+  g3_continuation_record: docs/design/uid-002/g3-r1-review/owner-g3-continuation.json
+  g3_filter_appearance_status: owner_approved
+  g3_filter_appearance_version: G3-r2
+  g3_filter_appearance_acceptance: docs/design/uid-002/g3-r2-review/owner-filter-appearance-acceptance.json
+  g2_review_package: docs/design/uid-002/g2-r30-review/README.md
+  g2_pencil_group: Jpzxu
+  g2_review_frame_count: 36
+  g2_review_manifest: docs/design/uid-002/g2-r30-review/review-manifest.json
+  g2_interaction_contract: docs/design/uid-002/g2-r30-review/interaction-contract.md
+  g2_filter_controls_status: owner_approved
+  g2_filter_controls_version: G2-r29
+  g2_filter_controls_acceptance: docs/design/uid-002/g2-r29-review/owner-filter-controls-acceptance.json
+  g2_results_per_page: 15
+  g2_results_per_page_status: owner_approved
+  g2_results_per_page_decision: docs/design/uid-002/g2-r28-review/owner-results-per-page-decision.json
+  g2_results_per_page_acceptance: docs/design/uid-002/g2-r28-review/owner-fifteen-results-acceptance.json
+  g2_filter_load_review_package: docs/design/uid-002/g2-r26-review/README.md
+  g2_filter_load_pencil_group: PsUYs
+  g2_filter_load_review_status: owner_approved
+  g2_filter_load_acceptance: docs/design/uid-002/g2-r26-review/owner-filter-load-acceptance.json
+  g2_load_failure_status: owner_approved
+  g2_load_failure_version: G2-r25
+  g2_load_failure_acceptance: docs/design/uid-002/g2-r25-review/owner-load-failure-acceptance.json
+  g2_image_states_status: owner_approved
+  g2_image_states_version: G2-r24
+  g2_image_states_acceptance: docs/design/uid-002/g2-r24-review/owner-image-states-acceptance.json
+  g2_pagination_return_status: owner_approved
+  g2_pagination_return_version: G2-r23
+  g2_pagination_return_acceptance: docs/design/uid-002/g2-r23-review/owner-pagination-return-acceptance.json
+  g2_filter_change_layout_status: owner_approved
+  g2_filter_change_layout_version: G2-r20
+  g2_filter_change_acceptance: docs/design/uid-002/g2-r20-review/owner-filter-change-acceptance.json
+  g2_no_match_clarification: docs/design/uid-002/g2-r22-review/owner-no-match-clarification.json
+  g2_no_match_status: owner_approved
+  g2_no_match_version: G2-r22
+  g2_no_match_acceptance: docs/design/uid-002/g2-r22-review/owner-no-match-acceptance.json
+  g2_full_page_composition_status: owner_approved
+  g2_full_page_composition_version: G2-r18
+  g2_full_page_acceptance: docs/design/uid-002/g2-r18-review/owner-full-page-acceptance.json
+  g2_amenity_icon_appearance_status: owner_approved
+  g2_amenity_icon_appearance_version: G2-r17
+  g2_amenity_icon_acceptance: docs/design/uid-002/g2-r17-review/owner-icon-acceptance.json
+  g2_filter_review_package: docs/design/uid-002/g2-r15-review/README.md
+  g2_filter_pencil_group: n30IND
+  g2_filter_frame_count: 10
+  g2_base_review_package: docs/design/uid-002/g2-r9-review/README.md
+  g2_base_pencil_group: UGfaM
+  g2_base_frame_count: 58
+  g2_loading_review_package: docs/design/uid-002/g2-r12-review/README.md
+  g2_loading_pencil_group: fMAch
+  g2_loading_frame_count: 18
+  g2_empty_review_package: docs/design/uid-002/g2-r22-review/README.md
+  g2_empty_pencil_group: ZkqaW
+  g2_empty_frame_count: 4
   depends_on:
   - UXD-002
   - DSD-002
@@ -672,6 +766,63 @@ tasks:
   - results-desktop
   - results-mobile
   - filter-states
+  artifact_links:
+  - tasks/design/UID-002.md
+  - docs/design/uid-002/g1-r1-review/README.md
+  - docs/design/uid-002/g1-r1-review/owner-G1-r1-acceptance.json
+  - docs/design/uid-002/g2-r1-review/README.md
+  - docs/design/uid-002/g2-r2-review/README.md
+  - docs/design/uid-002/g2-r3-review/README.md
+  - docs/design/uid-002/g2-r4-review/README.md
+  - docs/design/uid-002/g2-r5-review/README.md
+  - docs/design/uid-002/g2-r6-review/README.md
+  - docs/design/uid-002/g2-r7-review/README.md
+  - docs/design/uid-002/g2-r8-review/README.md
+  - docs/design/uid-002/g2-r9-review/README.md
+  - docs/design/uid-002/g2-r10-review/README.md
+  - docs/design/uid-002/g2-r11-review/README.md
+  - docs/design/uid-002/g2-r12-review/README.md
+  - docs/design/uid-002/g2-r13-review/README.md
+  - docs/design/uid-002/g2-r14-review/README.md
+  - docs/design/uid-002/g2-r15-review/README.md
+  - docs/design/uid-002/g2-r16-review/README.md
+  - docs/design/uid-002/g2-r17-review/README.md
+  - docs/design/uid-002/g2-r17-review/owner-icon-acceptance.json
+  - docs/design/uid-002/g2-r18-review/README.md
+  - docs/design/uid-002/g2-r18-review/owner-full-page-acceptance.json
+  - docs/design/uid-002/g2-r19-review/README.md
+  - docs/design/uid-002/g2-r20-review/README.md
+  - docs/design/uid-002/g2-r20-review/owner-filter-change-acceptance.json
+  - docs/design/uid-002/g2-r21-review/README.md
+  - docs/design/uid-002/g2-r22-review/README.md
+  - docs/design/uid-002/g2-r22-review/owner-no-match-clarification.json
+  - docs/design/uid-002/g2-r22-review/owner-no-match-acceptance.json
+  - docs/design/uid-002/g2-r23-review/README.md
+  - docs/design/uid-002/g2-r23-review/owner-pagination-return-acceptance.json
+  - docs/design/uid-002/g2-r24-review/README.md
+  - docs/design/uid-002/g2-r24-review/owner-image-states-acceptance.json
+  - docs/design/uid-002/g2-r25-review/README.md
+  - docs/design/uid-002/g2-r25-review/owner-load-failure-acceptance.json
+  - docs/design/uid-002/g2-r26-review/README.md
+  - docs/design/uid-002/g2-r27-review/README.md
+  - docs/design/uid-002/g2-r27-review/owner-results-per-page-decision.json
+  - docs/design/uid-002/g2-r27-review/coverage-checklist.md
+  - docs/design/uid-002/g2-r26-review/owner-filter-load-acceptance.json
+  - docs/design/uid-002/g2-r27-review/owner-sixteen-results-acceptance.json
+  - docs/design/uid-002/g2-r28-review/README.md
+  - docs/design/uid-002/g2-r28-review/owner-results-per-page-decision.json
+  - docs/design/uid-002/g2-r28-review/coverage-checklist.md
+  - docs/design/uid-002/g2-r28-review/owner-fifteen-results-acceptance.json
+  - docs/design/uid-002/g2-r29-review/README.md
+  - docs/design/uid-002/g2-r29-review/owner-filter-controls-acceptance.json
+  - docs/design/uid-002/g2-r30-review/README.md
+  - docs/design/uid-002/g2-r30-review/interaction-contract.md
+  - docs/design/uid-002/g2-r30-review/review-manifest.json
+  - docs/design/uid-002/g2-r30-review/native-verification.json
+  - docs/design/uid-002/g2-r30-review/artifact-hashes.json
+  - docs/design/uid-002/g2-r30-review/owner-whole-g2-acceptance.json
+  - docs/design/uid-002/g2-r30-review/review-manifest-at-approval.json
+  - docs/design/uid-002/g2-r30-review/artifact-hashes-at-approval.json
   acceptance_criteria:
   - Suggested chips are not active-filter chips
   - Apply Filters interaction

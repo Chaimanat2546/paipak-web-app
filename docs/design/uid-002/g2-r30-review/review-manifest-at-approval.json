@@ -1,0 +1,385 @@
+{
+  "task_id": "UID-002",
+  "version": "G2-r30",
+  "recorded_on": "2026-11-19",
+  "status": "awaiting_owner_review",
+  "scope": "Consolidated search wireframe baseline on Desktop and Mobile",
+  "pencil_uri": "file:///C:/Users/chaym/Projects/paipak-web-app/docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "Jpzxu",
+  "overview_frame_count": 36,
+  "results_per_page": 15,
+  "example_total_results": 36,
+  "example_page_counts": [
+    15,
+    15,
+    6
+  ],
+  "frames": [
+    {
+      "id": "osNY4",
+      "name": "Desktop · หน้าเต็ม 15 หลัง",
+      "width": 1440,
+      "height": 1901,
+      "file": "osNY4.png"
+    },
+    {
+      "id": "FHvvb",
+      "name": "Mobile · หน้าเต็ม 15 หลัง",
+      "width": 390,
+      "height": 5166,
+      "file": "FHvvb.png"
+    },
+    {
+      "id": "mDEoX",
+      "name": "Desktop · ย้อนกลับหน้า 2",
+      "width": 1440,
+      "height": 844,
+      "file": "mDEoX.png"
+    },
+    {
+      "id": "b3SMTe",
+      "name": "Mobile · ก่อนเปิดรายละเอียด",
+      "width": 390,
+      "height": 844,
+      "file": "b3SMTe.png"
+    },
+    {
+      "id": "J66glg",
+      "name": "Mobile · เมื่อย้อนกลับ",
+      "width": 390,
+      "height": 844,
+      "file": "J66glg.png"
+    },
+    {
+      "id": "gvaVC",
+      "name": "Desktop · โหลดหน้า 2 ไม่สำเร็จ",
+      "width": 1440,
+      "height": 844,
+      "file": "gvaVC.png"
+    },
+    {
+      "id": "W0b9Z1",
+      "name": "Mobile · หน้าผลค้นหาก่อนเปิดตัวกรอง",
+      "width": 390,
+      "height": 844,
+      "file": "W0b9Z1.png"
+    },
+    {
+      "id": "QNJ32",
+      "name": "Mobile · ตัวกรองเต็ม",
+      "width": 390,
+      "height": 1114,
+      "file": "QNJ32.png"
+    },
+    {
+      "id": "rEEtZ",
+      "name": "Mobile · หมวดบ้านพัก",
+      "width": 390,
+      "height": 664,
+      "file": "rEEtZ.png"
+    },
+    {
+      "id": "w4Nft",
+      "name": "Mobile · สิ่งอำนวยความสะดวก",
+      "width": 390,
+      "height": 1264,
+      "file": "w4Nft.png"
+    },
+    {
+      "id": "oPJcf",
+      "name": "Desktop · ตัวกรองเต็ม",
+      "width": 268,
+      "height": 1110,
+      "file": "oPJcf.png"
+    },
+    {
+      "id": "VSw9Y",
+      "name": "Desktop · สิ่งอำนวยความสะดวก",
+      "width": 268,
+      "height": 1264,
+      "file": "VSw9Y.png"
+    },
+    {
+      "id": "zX4NZ",
+      "name": "Desktop · หมวดบ้านพัก",
+      "width": 268,
+      "height": 660,
+      "file": "zX4NZ.png"
+    },
+    {
+      "id": "h0nqNW",
+      "name": "Mobile · สถานที่แนะนำ",
+      "width": 390,
+      "height": 844,
+      "file": "h0nqNW.png"
+    },
+    {
+      "id": "DeBtr",
+      "name": "Mobile · วันเข้าอย่างเดียว",
+      "width": 390,
+      "height": 844,
+      "file": "DeBtr.png"
+    },
+    {
+      "id": "VbgBH",
+      "name": "Mobile · จำนวนคนและสัตว์เลี้ยง",
+      "width": 390,
+      "height": 844,
+      "file": "VbgBH.png"
+    },
+    {
+      "id": "jrnSo",
+      "name": "Mobile · ราคาผิดลำดับ",
+      "width": 390,
+      "height": 844,
+      "file": "jrnSo.png"
+    },
+    {
+      "id": "jhh4h",
+      "name": "Mobile · ล้างค่าร่าง",
+      "width": 390,
+      "height": 844,
+      "file": "jhh4h.png"
+    },
+    {
+      "id": "xbGBk",
+      "name": "Mobile · ผล 0 หลัง ไม่มีผลก่อนหน้า",
+      "width": 390,
+      "height": 844,
+      "file": "xbGBk.png"
+    },
+    {
+      "id": "WPQtZ",
+      "name": "Mobile · ผล 0 หลัง มีผลก่อนหน้า",
+      "width": 390,
+      "height": 844,
+      "file": "WPQtZ.png"
+    },
+    {
+      "id": "vdOPo",
+      "name": "Mobile · รูปกำลังโหลด",
+      "width": 390,
+      "height": 844,
+      "file": "vdOPo.png"
+    },
+    {
+      "id": "mOsDU",
+      "name": "Mobile · รูปโหลดไม่ได้",
+      "width": 390,
+      "height": 844,
+      "file": "mOsDU.png"
+    },
+    {
+      "id": "IgH8I",
+      "name": "Mobile · โหลดครั้งแรกไม่สำเร็จ",
+      "width": 390,
+      "height": 844,
+      "file": "IgH8I.png"
+    },
+    {
+      "id": "ITaQm",
+      "name": "Mobile · โหลดหน้าถัดไปไม่สำเร็จ",
+      "width": 390,
+      "height": 844,
+      "file": "ITaQm.png"
+    },
+    {
+      "id": "Hu0fb",
+      "name": "Mobile · ส่งตัวกรองและรอผล",
+      "width": 390,
+      "height": 844,
+      "file": "Hu0fb.png"
+    },
+    {
+      "id": "z9rdKD",
+      "name": "Mobile · โหลดผลล่าสุดไม่สำเร็จ",
+      "width": 390,
+      "height": 844,
+      "file": "z9rdKD.png"
+    },
+    {
+      "id": "A8fEf",
+      "name": "Mobile · ท้ายหน้าแรก",
+      "width": 390,
+      "height": 844,
+      "file": "A8fEf.png"
+    },
+    {
+      "id": "xmFga",
+      "name": "Mobile · ท้ายหน้าสุดท้าย",
+      "width": 390,
+      "height": 844,
+      "file": "xmFga.png"
+    },
+    {
+      "id": "OrTnf",
+      "name": "Desktop · รูปกำลังโหลด",
+      "width": 1440,
+      "height": 844,
+      "file": "OrTnf.png"
+    },
+    {
+      "id": "kKbtI",
+      "name": "Desktop · รูปโหลดไม่ได้",
+      "width": 1440,
+      "height": 844,
+      "file": "kKbtI.png"
+    },
+    {
+      "id": "wcXZP",
+      "name": "Mobile · รูปกำลังโหลด คู่ Desktop",
+      "width": 390,
+      "height": 844,
+      "file": "wcXZP.png"
+    },
+    {
+      "id": "Jj2TS",
+      "name": "Mobile · รูปโหลดไม่ได้ คู่ Desktop",
+      "width": 390,
+      "height": 844,
+      "file": "Jj2TS.png"
+    },
+    {
+      "id": "txQFR",
+      "name": "Desktop · กำลังเปลี่ยนไปหน้า 2",
+      "width": 1440,
+      "height": 844,
+      "file": "txQFR.png"
+    },
+    {
+      "id": "b7fNW",
+      "name": "Mobile · กำลังเปลี่ยนไปหน้า 2",
+      "width": 390,
+      "height": 844,
+      "file": "b7fNW.png"
+    },
+    {
+      "id": "A6Qg2f",
+      "name": "Desktop · กำลังโหลดผลครั้งแรกหรือหลังใช้ตัวกรอง",
+      "width": 1440,
+      "height": 844,
+      "file": "A6Qg2f.png"
+    },
+    {
+      "id": "Q5alM3",
+      "name": "Mobile · กำลังโหลดผลครั้งแรกหรือหลังใช้ตัวกรอง",
+      "width": 390,
+      "height": 844,
+      "file": "Q5alM3.png"
+    }
+  ],
+  "external_current_counterparts": [
+    {
+      "version": "G2-r28",
+      "role": "Pagination pages 2 and 3 at the selected 15-results page size",
+      "frames": [
+        "APdS5",
+        "vxurh",
+        "F1szl",
+        "X2F3EJ"
+      ],
+      "path": "../g2-r28-review"
+    },
+    {
+      "version": "G2-r29",
+      "role": "Desktop counterparts of the six accepted filter-control cases",
+      "frames": [
+        "jV2Y1",
+        "uxJMd",
+        "C7E0tj",
+        "LfYXj",
+        "Att6V",
+        "s3Uuz"
+      ],
+      "path": "../g2-r29-review"
+    },
+    {
+      "version": "G2-r25",
+      "role": "Desktop initial load failure counterpart",
+      "frames": [
+        "ohCZ8"
+      ],
+      "path": "../g2-r25-review"
+    },
+    {
+      "version": "G2-r26",
+      "role": "Desktop latest-filter-result failure counterpart",
+      "frames": [
+        "Co2Nl"
+      ],
+      "path": "../g2-r26-review"
+    },
+    {
+      "version": "G2-r22",
+      "role": "Desktop no-match and reopen-filter counterparts",
+      "frames": [
+        "VCpps",
+        "v30w6h"
+      ],
+      "path": "../g2-r22-review"
+    }
+  ],
+  "accepted_source_records": [
+    {
+      "version": "G2-r17",
+      "path": "../g2-r17-review/owner-icon-acceptance.json",
+      "scope": "ไอคอนสิ่งอำนวยความสะดวก"
+    },
+    {
+      "version": "G2-r18",
+      "path": "../g2-r18-review/owner-full-page-acceptance.json",
+      "scope": "องค์ประกอบหน้าเต็ม"
+    },
+    {
+      "version": "G2-r22",
+      "path": "../g2-r22-review/owner-no-match-acceptance.json",
+      "scope": "ไม่พบตามเงื่อนไขใหม่"
+    },
+    {
+      "version": "G2-r23",
+      "path": "../g2-r23-review/owner-pagination-return-acceptance.json",
+      "scope": "เปลี่ยนหน้าและย้อนกลับ"
+    },
+    {
+      "version": "G2-r24",
+      "path": "../g2-r24-review/owner-image-states-acceptance.json",
+      "scope": "สถานะรูป"
+    },
+    {
+      "version": "G2-r25",
+      "path": "../g2-r25-review/owner-load-failure-acceptance.json",
+      "scope": "โหลดครั้งแรกและเปลี่ยนหน้าไม่สำเร็จ"
+    },
+    {
+      "version": "G2-r26",
+      "path": "../g2-r26-review/owner-filter-load-acceptance.json",
+      "scope": "โหลดผลหลังส่งตัวกรองไม่สำเร็จ"
+    },
+    {
+      "version": "G2-r28",
+      "path": "../g2-r28-review/owner-fifteen-results-acceptance.json",
+      "scope": "15 หลังต่อหน้า"
+    },
+    {
+      "version": "G2-r29",
+      "path": "../g2-r29-review/owner-filter-controls-acceptance.json",
+      "scope": "ตัวควบคุมและผล 0 หลังตอนเข้าครั้งแรก"
+    }
+  ],
+  "precedence": [
+    "Latest owner rules, including 15 results per page",
+    "G2-r30 consolidated anatomy and rebased fifteen-result snapshots",
+    "Accepted bounded source versions as listed",
+    "G2-r9 remaining unchanged search semantics with latest rule amendments"
+  ],
+  "historical_not_current": [
+    "12-result fixtures",
+    "G2-r27 16-result selection",
+    "G2-r19/G2-r20 classification of the selected no-match interface as a loading failure"
+  ],
+  "owner_whole_g2_approved": false,
+  "g3_started": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}
+

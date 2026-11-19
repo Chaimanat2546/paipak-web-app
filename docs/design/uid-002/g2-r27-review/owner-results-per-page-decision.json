@@ -1,0 +1,13 @@
+{
+  "task_id": "UID-002",
+  "recorded_on": "2026-11-19",
+  "owner_question": "ก่อนรวมรับไวร์เฟรม จำนวนบ้านต่อหน้าจริงจะใช้ 12 หลังตามภาพล่าสุด หรือ 16 หลังตามข้อเสนอเดิมในเอกสารครับ?",
+  "owner_answer": "16 หลังต่อหน้า ตามข้อเสนอเดิม",
+  "results_per_page": 16,
+  "applies_to": ["Desktop search results", "Mobile search results"],
+  "prior_12_card_frames": "Historical layout fixtures; not the selected page size",
+  "example_total_results": 36,
+  "example_page_counts": [16, 16, 4],
+  "whole_g2_approved": false,
+  "implementation_authorized": false
+}

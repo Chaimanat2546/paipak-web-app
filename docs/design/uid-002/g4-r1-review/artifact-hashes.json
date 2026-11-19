@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "file": "A5N19L.png",
+      "sha256": "acd390b1310a7fed04b84ca848cbf53166bd0e76a5f7e078e1da8407612c31e0"
+    },
+    {
+      "file": "m1NtzB.png",
+      "sha256": "35eb50a91199530b04f7e18d945b8b87e54fd97529ca130c45bb76c930c0782b"
+    },
+    {
+      "file": "native-verification.json",
+      "sha256": "2d6d2cddab533d16a2d49d3fb04b82d919c5634cfb79756556a6380e80cc206a"
+    },
+    {
+      "file": "README.md",
+      "sha256": "4c7ac8e1ab0f4cf88c232546db440f222dcc1205dafe265d58eefe4669756420"
+    },
+    {
+      "file": "review-manifest.json",
+      "sha256": "efecc9a0b4ad28210a643f413eecf4fbdad44617565ad24d81f69366f6b9439c"
+    },
+    {
+      "file": "owner-G4-r1-acceptance.json",
+      "sha256": "4c84959cf7ff07e5a0f1cdc63b03955d8f3c265b2b5804fd9761c1a5f326d608"
+    }
+  ]
+}

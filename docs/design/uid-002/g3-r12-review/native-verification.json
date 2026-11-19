@@ -1,0 +1,167 @@
+{
+  "root": "sTGLK",
+  "frames": [
+    {
+      "id": "MjRcQ",
+      "name": "Desktop · ก่อนเปิดบ้านกับหลังย้อนกลับ",
+      "width": 1760,
+      "height": 716,
+      "crops": [
+        {
+          "id": "z81iS",
+          "name": "ภาพจริง · ก่อนเปิดรายละเอียด",
+          "x": 16,
+          "y": 151,
+          "width": 856,
+          "height": 550
+        },
+        {
+          "id": "uBtk5",
+          "name": "ภาพจริง · หลังย้อนกลับ",
+          "x": 888,
+          "y": 151,
+          "width": 856,
+          "height": 550
+        }
+      ]
+    },
+    {
+      "id": "aFAPz",
+      "name": "Mobile · ก่อนเปิดบ้านกับหลังย้อนกลับ",
+      "width": 390,
+      "height": 1214,
+      "crops": [
+        {
+          "id": "jkYjr",
+          "name": "ภาพจริง · ก่อนเปิดรายละเอียด",
+          "x": 0,
+          "y": 127,
+          "width": 390,
+          "height": 505
+        },
+        {
+          "id": "Lo4v5",
+          "name": "ภาพจริง · หลังย้อนกลับ",
+          "x": 0,
+          "y": 696,
+          "width": 390,
+          "height": 505
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "name": "หน้าผลค้นหา ณ ตำแหน่งเดิม",
+      "parent": "ภาพจริง · ก่อนเปิดรายละเอียด"
+    },
+    {
+      "name": "หน้าผลค้นหาตามตำแหน่งเลื่อน",
+      "parent": "หน้าผลค้นหา ณ ตำแหน่งเดิม"
+    },
+    {
+      "name": "เนื้อหาตัวกรองทั้งหมด",
+      "parent": "พื้นที่เลื่อนตัวกรอง"
+    },
+    {
+      "name": "หน้าผลค้นหา ณ ตำแหน่งเดิม",
+      "parent": "ภาพจริง · หลังย้อนกลับ"
+    },
+    {
+      "name": "หน้าผลค้นหาตามตำแหน่งเลื่อน",
+      "parent": "หน้าผลค้นหา ณ ตำแหน่งเดิม"
+    },
+    {
+      "name": "เนื้อหาตัวกรองทั้งหมด",
+      "parent": "พื้นที่เลื่อนตัวกรอง"
+    },
+    {
+      "name": "หน้าผลค้นหา ณ ตำแหน่งเดิม",
+      "parent": "ภาพจริง · ก่อนเปิดรายละเอียด"
+    },
+    {
+      "name": "หน้าผลค้นหาตามตำแหน่งเลื่อน",
+      "parent": "หน้าผลค้นหา ณ ตำแหน่งเดิม"
+    },
+    {
+      "name": "หน้าผลค้นหา ณ ตำแหน่งเดิม",
+      "parent": "ภาพจริง · หลังย้อนกลับ"
+    },
+    {
+      "name": "หน้าผลค้นหาตามตำแหน่งเลื่อน",
+      "parent": "หน้าผลค้นหา ณ ตำแหน่งเดิม"
+    }
+  ],
+  "pairs": [
+    [
+      {
+        "id": "PQQ9r",
+        "active": "หน้า 2",
+        "criteria": "12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว",
+        "scroll": 853,
+        "card": {
+          "name": "บ้านพักชมสวน",
+          "x": 348,
+          "y": 183,
+          "width": 340,
+          "height": 379,
+          "photo": "papaipak-ui-assets/generated-1.png",
+          "active_dot": "Image 3 active"
+        },
+        "filter_scroll": 192
+      },
+      {
+        "id": "A9qI3",
+        "active": "หน้า 2",
+        "criteria": "12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว",
+        "scroll": 853,
+        "card": {
+          "name": "บ้านพักชมสวน",
+          "x": 348,
+          "y": 183,
+          "width": 340,
+          "height": 379,
+          "photo": "papaipak-ui-assets/generated-1.png",
+          "active_dot": "Image 3 active"
+        },
+        "filter_scroll": 192
+      }
+    ],
+    [
+      {
+        "id": "PgBDD",
+        "active": "หน้า 2",
+        "criteria": "12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว",
+        "scroll": 2543,
+        "card": {
+          "name": "บ้านพักชมสวน",
+          "x": 16,
+          "y": 105,
+          "width": 358,
+          "height": 391,
+          "photo": "papaipak-ui-assets/generated-1.png",
+          "active_dot": "Image 3 active"
+        },
+        "filter_scroll": null
+      },
+      {
+        "id": "e4RGd",
+        "active": "หน้า 2",
+        "criteria": "12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว",
+        "scroll": 2543,
+        "card": {
+          "name": "บ้านพักชมสวน",
+          "x": 16,
+          "y": 105,
+          "width": 358,
+          "height": 391,
+          "photo": "papaipak-ui-assets/generated-1.png",
+          "active_dot": "Image 3 active"
+        },
+        "filter_scroll": null
+      }
+    ]
+  ],
+  "runtime_verified": false
+}
+

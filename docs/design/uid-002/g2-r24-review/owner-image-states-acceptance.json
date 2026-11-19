@@ -1,0 +1,13 @@
+{
+  "task_id": "UID-002",
+  "version": "G2-r24",
+  "recorded_on": "2026-11-19",
+  "owner_instruction": "ได้",
+  "scope": "Image-only Skeleton while villa photos load and localized unavailable-image feedback, preserving card dimensions and readable villa details and price; existing detail and carousel actions retained",
+  "pencil_group": "FsUI5",
+  "desktop_frames": ["iE1AL", "p1wLa5"],
+  "mobile_frames": ["H3VKL", "eBjql"],
+  "whole_g2_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

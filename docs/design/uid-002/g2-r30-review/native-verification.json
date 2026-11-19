@@ -1,0 +1,225 @@
+{
+  "version": "G2-r30",
+  "pencil_group": "Jpzxu",
+  "checked_on": "2026-11-19",
+  "frame_count": 36,
+  "main_page_card_counts": [
+    15,
+    15
+  ],
+  "results_per_page": 15,
+  "intentional_clipped_regions": [
+    {
+      "id": "zNbmj",
+      "name": "หน้า 2 ที่คืนตำแหน่ง",
+      "parent": "Desktop · ย้อนกลับหน้า 2",
+      "parentClips": true
+    },
+    {
+      "id": "CDa3B",
+      "name": "เนื้อหาตัวกรองทั้งหมด",
+      "parent": "พื้นที่เลื่อนตัวกรอง",
+      "parentClips": true
+    },
+    {
+      "id": "mH5mj",
+      "name": "หน้า 2 ที่คืนตำแหน่ง",
+      "parent": "Mobile · ก่อนเปิดรายละเอียด",
+      "parentClips": true
+    },
+    {
+      "id": "DMwpP",
+      "name": "หน้า 2 ที่คืนตำแหน่ง",
+      "parent": "Mobile · เมื่อย้อนกลับ",
+      "parentClips": true
+    },
+    {
+      "id": "AMfJJ",
+      "name": "หน้า 1 ที่โหลดสำเร็จล่าสุด · 15 หลัง",
+      "parent": "Desktop · โหลดหน้า 2 ไม่สำเร็จ",
+      "parentClips": true
+    },
+    {
+      "id": "hdqAL",
+      "name": "หน้าเต็มที่เลื่อน · 15 หลัง",
+      "parent": "Mobile · หน้าผลค้นหาก่อนเปิดตัวกรอง",
+      "parentClips": true
+    },
+    {
+      "id": "l50zJz",
+      "name": "ผลที่ยืนยันล่าสุด · 15 หลังต่อหน้า",
+      "parent": "Mobile · สถานที่แนะนำ",
+      "parentClips": true
+    },
+    {
+      "id": "I1bWS0",
+      "name": "เนื้อหาตัวกรองทั้งหมด",
+      "parent": "พื้นที่เลื่อนตัวกรอง",
+      "parentClips": true
+    },
+    {
+      "id": "jFr96",
+      "name": "ผลที่ยืนยันล่าสุด · 15 หลังต่อหน้า",
+      "parent": "Mobile · วันเข้าอย่างเดียว",
+      "parentClips": true
+    },
+    {
+      "id": "QpLBJ",
+      "name": "เนื้อหาตัวกรองทั้งหมด",
+      "parent": "พื้นที่เลื่อนตัวกรอง",
+      "parentClips": true
+    },
+    {
+      "id": "s8WWrG",
+      "name": "ผลที่ยืนยันล่าสุด · 15 หลังต่อหน้า",
+      "parent": "Mobile · จำนวนคนและสัตว์เลี้ยง",
+      "parentClips": true
+    },
+    {
+      "id": "aJlGp",
+      "name": "เนื้อหาตัวกรองทั้งหมด",
+      "parent": "พื้นที่เลื่อนตัวกรอง",
+      "parentClips": true
+    },
+    {
+      "id": "gg5NV",
+      "name": "ผลที่ยืนยันล่าสุด · 15 หลังต่อหน้า",
+      "parent": "Mobile · ราคาผิดลำดับ",
+      "parentClips": true
+    },
+    {
+      "id": "b90Vw",
+      "name": "เนื้อหาตัวกรองทั้งหมด",
+      "parent": "พื้นที่เลื่อนตัวกรอง",
+      "parentClips": true
+    },
+    {
+      "id": "UDman",
+      "name": "ผลที่ยืนยันล่าสุด · 15 หลังต่อหน้า",
+      "parent": "Mobile · ล้างค่าร่าง",
+      "parentClips": true
+    },
+    {
+      "id": "TIdwv",
+      "name": "เนื้อหาตัวกรองทั้งหมด",
+      "parent": "พื้นที่เลื่อนตัวกรอง",
+      "parentClips": true
+    },
+    {
+      "id": "i6afv",
+      "name": "ผลที่ยืนยันล่าสุด · 15 หลังต่อหน้า",
+      "parent": "Mobile · รูปกำลังโหลด",
+      "parentClips": true
+    },
+    {
+      "id": "ykkDz",
+      "name": "ผลที่ยืนยันล่าสุด · 15 หลังต่อหน้า",
+      "parent": "Mobile · รูปโหลดไม่ได้",
+      "parentClips": true
+    },
+    {
+      "id": "p9V3He",
+      "name": "หน้า 1 ที่โหลดสำเร็จล่าสุด · 15 หลัง",
+      "parent": "Mobile · โหลดหน้าถัดไปไม่สำเร็จ",
+      "parentClips": true
+    },
+    {
+      "id": "KwN7z",
+      "name": "เนื้อหา 15 หลังต่อหน้า",
+      "parent": "Mobile · ท้ายหน้าแรก",
+      "parentClips": true
+    },
+    {
+      "id": "x4iS1z",
+      "name": "หน้าสุดท้าย 6 หลัง",
+      "parent": "Mobile · ท้ายหน้าสุดท้าย",
+      "parentClips": true
+    },
+    {
+      "id": "p92GOd",
+      "name": "ผลที่ยืนยันล่าสุด · 15 หลังต่อหน้า",
+      "parent": "Desktop · รูปกำลังโหลด",
+      "parentClips": true
+    },
+    {
+      "id": "pcliY",
+      "name": "เนื้อหาตัวกรองทั้งหมด",
+      "parent": "พื้นที่เลื่อนตัวกรอง",
+      "parentClips": true
+    },
+    {
+      "id": "N4PoJm",
+      "name": "ผลที่ยืนยันล่าสุด · 15 หลังต่อหน้า",
+      "parent": "Desktop · รูปโหลดไม่ได้",
+      "parentClips": true
+    },
+    {
+      "id": "x9A5k",
+      "name": "เนื้อหาตัวกรองทั้งหมด",
+      "parent": "พื้นที่เลื่อนตัวกรอง",
+      "parentClips": true
+    },
+    {
+      "id": "VUI4v",
+      "name": "ผลที่ยืนยันล่าสุด · 15 หลังต่อหน้า",
+      "parent": "Mobile · รูปกำลังโหลด คู่ Desktop",
+      "parentClips": true
+    },
+    {
+      "id": "O2eMLp",
+      "name": "ผลที่ยืนยันล่าสุด · 15 หลังต่อหน้า",
+      "parent": "Mobile · รูปโหลดไม่ได้ คู่ Desktop",
+      "parentClips": true
+    },
+    {
+      "id": "GU5TJ",
+      "name": "รายการ Skeleton · 15 หลังต่อหน้า",
+      "parent": "Desktop · กำลังเปลี่ยนไปหน้า 2",
+      "parentClips": true
+    },
+    {
+      "id": "r88ag",
+      "name": "เนื้อหาตัวกรองทั้งหมด",
+      "parent": "พื้นที่เลื่อนตัวกรอง",
+      "parentClips": true
+    },
+    {
+      "id": "M750W",
+      "name": "รายการ Skeleton · 15 หลังต่อหน้า",
+      "parent": "Mobile · กำลังเปลี่ยนไปหน้า 2",
+      "parentClips": true
+    },
+    {
+      "id": "IMCkS",
+      "name": "รายการ Skeleton · 15 หลังต่อหน้า",
+      "parent": "Desktop · กำลังโหลดผลครั้งแรกหรือหลังใช้ตัวกรอง",
+      "parentClips": true
+    },
+    {
+      "id": "xoILm",
+      "name": "เนื้อหาตัวกรองทั้งหมด",
+      "parent": "พื้นที่เลื่อนตัวกรอง",
+      "parentClips": true
+    },
+    {
+      "id": "aGohN",
+      "name": "รายการ Skeleton · 15 หลังต่อหน้า",
+      "parent": "Mobile · กำลังโหลดผลครั้งแรกหรือหลังใช้ตัวกรอง",
+      "parentClips": true
+    }
+  ],
+  "unexpected_non_clipping_parent_issues": [],
+  "stale_sixteen_result_copy_found": [],
+  "image_scene_card_counts": [
+    15,
+    15,
+    15,
+    15
+  ],
+  "mobile_return_scroll_offset": -2014,
+  "mobile_return_target_y": 2119,
+  "mobile_return_target_viewport_y": 105,
+  "mobile_return_image": 3,
+  "runtime_verified": false
+}
+

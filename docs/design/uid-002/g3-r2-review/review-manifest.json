@@ -1,0 +1,91 @@
+{
+  "task_id": "UID-002",
+  "version": "G3-r2",
+  "recorded_on": "2026-11-19",
+  "status": "owner_approved_displayed_filter_appearance",
+  "owner_request": "ตัวกรองเพิ่มเติมอ่ะ",
+  "scope": "Additional filter appearance, category selector and amenity selector on Desktop and Mobile",
+  "pencil_uri": "file:///C:/Users/chaym/Projects/paipak-web-app/docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "wt9xJ",
+  "main_results_appearance": "../g3-r1-review/review-manifest.json",
+  "wireframe_baseline": "../g2-r30-review/review-manifest.json",
+  "frames": [
+    {
+      "id": "Vc0f8",
+      "name": "Mobile · ตัวกรองเต็ม · UI G3-r2",
+      "width": 390,
+      "height": 1114,
+      "file": "Vc0f8.png",
+      "export_scale": 1
+    },
+    {
+      "id": "F90Ewa",
+      "name": "Mobile · ขยายส่วนตัวกรองเพิ่มเติม · UI G3-r2",
+      "width": 390,
+      "height": 805,
+      "file": "F90Ewa.png",
+      "export_scale": 2
+    },
+    {
+      "id": "kP2za",
+      "name": "Mobile · หมวดบ้านพัก · UI G3-r2",
+      "width": 390,
+      "height": 664,
+      "file": "kP2za.png",
+      "export_scale": 2
+    },
+    {
+      "id": "gvvHG",
+      "name": "Mobile · สิ่งอำนวยความสะดวก · UI G3-r2",
+      "width": 390,
+      "height": 1264,
+      "file": "gvvHG.png",
+      "export_scale": 2
+    },
+    {
+      "id": "sAk6H",
+      "name": "Desktop · ตัวกรองเต็ม · UI G3-r2",
+      "width": 268,
+      "height": 1110,
+      "file": "sAk6H.png",
+      "export_scale": 1
+    },
+    {
+      "id": "Yh4Hl",
+      "name": "Desktop · หมวดบ้านพัก · UI G3-r2",
+      "width": 268,
+      "height": 660,
+      "file": "Yh4Hl.png",
+      "export_scale": 1
+    },
+    {
+      "id": "S1aeEj",
+      "name": "Desktop · สิ่งอำนวยความสะดวก · UI G3-r2",
+      "width": 268,
+      "height": 1264,
+      "file": "S1aeEj.png",
+      "export_scale": 1
+    }
+  ],
+  "sources": {
+    "full_mobile_filter": "tG1OH",
+    "category_mobile": "rEEtZ",
+    "amenity_mobile": "w4Nft",
+    "full_desktop_filter": "oPJcf",
+    "category_desktop": "zX4NZ",
+    "amenity_desktop": "VSw9Y"
+  },
+  "behavior_retained": [
+    "Single shared draft and Apply action; additional criteria remain part of the same filter panel.",
+    "One curated category or all categories.",
+    "15 amenity choices and pool-system selection; back returns to filter draft.",
+    "Section headings remain regular muted text without icons; accepted mixed-provider icons remain unchanged."
+  ],
+  "expanded_reference": "F90Ewa expands only the lower part of the existing full filter for review; it is not a new route, independent filter modal or added entry button. Full native filter Vc0f8 retains basic and additional criteria together. Runtime viewport remains independently scrollable under G2-r30.",
+  "owner_approved": true,
+  "whole_g3_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false,
+  "owner_approval_scope": "Three displayed Mobile images: F90Ewa, kP2za, gvvHG. No separate approval of Desktop counterparts or whole G3.",
+  "owner_acceptance": "owner-filter-appearance-acceptance.json"
+}

@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "file": "DrVjz.png",
+      "sha256": "877a0ef63c19db17eb28b28a2652e5745c984aa9a2249b472d0b907bcc470111"
+    },
+    {
+      "file": "native-verification.json",
+      "sha256": "0d2b3b5fcc682487b57c9bf7411e6d2c8b88bbf44a6b186379868bb2138e0587"
+    },
+    {
+      "file": "README.md",
+      "sha256": "00a322640270245cb988e10bbd81130f7e8fcc7707046720331e62ee4b91ae25"
+    },
+    {
+      "file": "review-manifest.json",
+      "sha256": "cf5aad9d710b34293615e61b23c62fb11c8aa7d720b34848d955d5ed91ea84aa"
+    },
+    {
+      "file": "zPUmt.png",
+      "sha256": "e26018223db909c876efc073b8ba23a88a259bfca4d7e867aaf6cc7e3c66e4d4"
+    }
+  ]
+}

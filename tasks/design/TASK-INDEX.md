@@ -5,7 +5,7 @@
 - **UXD-002 — Detailed responsive wireframes** | Depends on: UXD-001 and approved DSD-001 G1 direction/version (not all token specs) | Status: draft review-5 / awaiting owner review; retain existing evidence and review alignment after G1 | [Deliverables](UXD-002.md#deliverables)
 - **DSD-002 — Component visual states and interaction specs** | Depends on: DSD-001, UXD-002 | Status: planned/not started
 - **UID-001 — Homepage high-fidelity design** | Depends on: UXD-002, DSD-002 | Status: G4-r1 visual baseline approved at six widths on 2026-11-11 | [G4-r1 package](../../docs/design/dsd-001/home-g4-r1/README.md)
-- **UID-002 — Search results high-fidelity design** | Depends on: UXD-002, DSD-002 | Status: planned/not started
+- **UID-002 — หน้าผลค้นหาที่พัก** | อนุมัติ G4-r1 ทั้ง Desktop และ Mobile และปิดงานออกแบบ 19 พฤศจิกายน 2026 | [ภาพสองจอหลัก](../../docs/design/uid-002/g4-r1-review/README.md)
 - **UID-003 — Property detail and availability high-fidelity** | Depends on: UXD-002, DSD-002 | Status: r31 desktop and mobile G4-r1 visual baseline approved on 2026-11-11 | [G4-r1 package](../../docs/design/uid-003/property-detail-g4-r1/README.md)
 - **UID-004 — Checkout and confirmation high-fidelity** | Depends on: UXD-002, DSD-002, UXD-001 | Status: planned/not started
 - **UID-005 — Authentication and account high-fidelity** | Depends on: UXD-002, DSD-002, UXD-001 | Status: Home Auth G4-r1 approved on 2026-11-11; profile review pending | [G4-r1 package](../../docs/design/dsd-001/home-auth-g4-r1/README.md)
@@ -26,6 +26,7 @@
 | งาน | Section | Wireframe |
 | --- | --- | --- |
 | UID-001 · หน้าแรก | `Y4TBa` | ภาพอ้างอิง UXD-002 review-5 รอตรวจรับ |
+| UID-002 · หน้าผลค้นหาที่พัก | `tYF4Q` | Wireframe G2-r30 ทางซ้าย `Jpzxu` · Hi-Fi G4-r1 ทางขวา `MilCd` |
 | UID-003 · รายละเอียดบ้านพัก | `rqZz8` | ภาพอ้างอิง UXD-002 review-5 รอตรวจรับ |
 | UID-005 · สมัครสมาชิกและเข้าสู่ระบบ | `R5IaVO` | แผนผัง Home Auth Desktop G2-r40 ที่อนุมัติ |
 | UID-010 · จัดการหมวดหมู่บ้านพัก | `jNYEs` | ไวร์เฟรมทางซ้าย · G4-r4 เดสก์ท็อปทางขวา · มือถือ หน้าแรก และสถานะฟอร์มด้านล่าง |

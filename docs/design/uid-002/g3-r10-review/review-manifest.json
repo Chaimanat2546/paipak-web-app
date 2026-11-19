@@ -1,0 +1,42 @@
+{
+  "task_id": "UID-002",
+  "version": "G3-r10",
+  "recorded_on": "2026-11-19",
+  "status": "filter_focus_appearance_pending_owner",
+  "scope": "Filter opening, dismiss without Apply, and visible keyboard focus return on Desktop and Mobile",
+  "pencil_uri": "file:///C:/Users/chaym/Projects/paipak-web-app/docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "q651jp",
+  "viewport_references": {
+    "desktop": 1440,
+    "mobile": 390
+  },
+  "frames": [
+    {
+      "id": "zPUmt",
+      "name": "Desktop · เปิดและปิดตัวเลือกพร้อมคืนโฟกัส",
+      "width": 1760,
+      "height": 623,
+      "file": "zPUmt.png",
+      "export_scale": 1
+    },
+    {
+      "id": "DrVjz",
+      "name": "Mobile · เปิดและปิดตัวกรองพร้อมคืนโฟกัส",
+      "width": 390,
+      "height": 1794,
+      "file": "DrVjz.png",
+      "export_scale": 2
+    }
+  ],
+  "interaction_contract": "../../uxd-002/interaction-specification.md",
+  "focus": {
+    "desktop_open": "Selected date in the calendar",
+    "desktop_dismiss": "Check-in date field",
+    "mobile_open": "Close filter button",
+    "mobile_dismiss": "Filter button in results"
+  },
+  "owner_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}
+

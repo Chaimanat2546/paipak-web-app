@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "file": "cC3aR.png",
+      "bytes": 913843,
+      "sha256": "eaf015eb87497c6e0cd1db749e61ec8e45079f269129bac88670eaa83f9a7a29"
+    },
+    {
+      "file": "LFOWK.png",
+      "bytes": 1241781,
+      "sha256": "f2913c7f2b9385ac78467fe808b8a9aed7e78a47ca3df1c5f96bcf98c34ff3cb"
+    },
+    {
+      "file": "M6vAH.png",
+      "bytes": 912556,
+      "sha256": "40533f03d71514357d5f4427092a43885d798a2970f9cc3def8878f48ace0a40"
+    },
+    {
+      "file": "native-verification.json",
+      "bytes": 2739,
+      "sha256": "a194e322e42f864c5622a8214c3350e752fc5c28c5a386220911797cea1083b1"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2087,
+      "sha256": "deeb8168680bb26ee916a399761b80b8573d371183d3bdc6d8d93ee0fcdc37f8"
+    },
+    {
+      "file": "review-manifest.json",
+      "bytes": 1966,
+      "sha256": "d6360b173d2d3b4caedddb2df1dcd11921dd1356095b8169497e1329c565b792"
+    },
+    {
+      "file": "W5vt1.png",
+      "bytes": 1243264,
+      "sha256": "4a43280fdb3aeee34a4c3c01305db46f3be5cb038c223c6c5bd614cc6f9ec682"
+    }
+  ]
+}

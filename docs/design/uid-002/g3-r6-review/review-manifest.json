@@ -1,0 +1,109 @@
+{
+  "task_id": "UID-002",
+  "version": "G3-r6",
+  "recorded_on": "2026-11-19",
+  "status": "pending_owner_appearance_review",
+  "scope": "Open location, date, total guest and pet selectors on Desktop/Mobile; align the Search listings with the approved Home card appearance",
+  "owner_requests": [
+    "โอเค ต่อแบบตอนกดเลือกสถานที่ วันเข้าพัก จำนวนคนกับสัตว์เลี้ยงในตัวกรองเลย ทั้ง Desktop กับ Mobile",
+    "card บ้านทำไมต่างจากหน้าแรก"
+  ],
+  "pencil_uri": "file:///C:/Users/chaym/Projects/paipak-web-app/docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "Liv9M",
+  "wireframe_baseline": "../g2-r29-review/owner-filter-controls-acceptance.json",
+  "interaction_contract": "../g2-r30-review/interaction-contract.md",
+  "visual_reference": {
+    "home_card_node": "fOxmF",
+    "home_desktop_node": "eJBTs",
+    "home_approval_package": "../../dsd-001/home-g4-r1/README.md",
+    "search_core_card_anatomy": "Home card copied directly with Search listing widths and fixture values"
+  },
+  "results_per_page": 15,
+  "frames": [
+    {
+      "id": "X2V5Z6",
+      "name": "Desktop · หน้าค้นหาเต็ม · การ์ดแบบหน้าแรก",
+      "width": 1440,
+      "height": 2700,
+      "file": "X2V5Z6.png",
+      "export_scale": 1
+    },
+    {
+      "id": "OAX3V",
+      "name": "Mobile · หน้าค้นหาเต็ม · การ์ดแบบหน้าแรก",
+      "width": 390,
+      "height": 6989,
+      "file": "OAX3V.png",
+      "export_scale": 1
+    },
+    {
+      "id": "DQkpH",
+      "name": "Desktop · การ์ดบ้านแบบหน้าแรก",
+      "width": 1440,
+      "height": 900,
+      "file": "DQkpH.png",
+      "export_scale": 1
+    },
+    {
+      "id": "yagbw",
+      "name": "Desktop · เลือกสถานที่ · คำแนะนำ",
+      "width": 1440,
+      "height": 900,
+      "file": "yagbw.png",
+      "export_scale": 1
+    },
+    {
+      "id": "KTarJ",
+      "name": "Desktop · เลือกวันเข้าพัก · วันเข้าอย่างเดียว",
+      "width": 1440,
+      "height": 900,
+      "file": "KTarJ.png",
+      "export_scale": 1
+    },
+    {
+      "id": "f8lEIS",
+      "name": "Desktop · เลือกจำนวนผู้เข้าพักและสัตว์เลี้ยง",
+      "width": 1440,
+      "height": 900,
+      "file": "f8lEIS.png",
+      "export_scale": 1
+    },
+    {
+      "id": "IODB4",
+      "name": "Mobile · การ์ดบ้านแบบหน้าแรก",
+      "width": 390,
+      "height": 844,
+      "file": "IODB4.png",
+      "export_scale": 2
+    },
+    {
+      "id": "MoCME",
+      "name": "Mobile · เลือกสถานที่ · คำแนะนำ",
+      "width": 390,
+      "height": 844,
+      "file": "MoCME.png",
+      "export_scale": 2
+    },
+    {
+      "id": "mVbpx",
+      "name": "Mobile · เลือกวันเข้าพัก · วันเข้าอย่างเดียว",
+      "width": 390,
+      "height": 844,
+      "file": "mVbpx.png",
+      "export_scale": 2
+    },
+    {
+      "id": "XzI8t",
+      "name": "Mobile · เลือกจำนวนผู้เข้าพักและสัตว์เลี้ยง",
+      "width": 390,
+      "height": 844,
+      "file": "XzI8t.png",
+      "export_scale": 2
+    }
+  ],
+  "owner_approved": false,
+  "whole_g3_approved": false,
+  "implementation_authorized": false,
+  "runtime_verified": false
+}
+

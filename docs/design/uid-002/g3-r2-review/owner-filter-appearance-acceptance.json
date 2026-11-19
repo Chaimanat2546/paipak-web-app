@@ -1,0 +1,39 @@
+{
+  "task_id": "UID-002",
+  "version": "G3-r2",
+  "recorded_on": "2026-11-19",
+  "owner_quote": "ได้",
+  "context": "Direct reply to the displayed additional-filter, category and full amenity UI images.",
+  "status": "owner_approved_displayed_filter_appearance",
+  "accepted_scope": [
+    "Displayed additional-filter appearance",
+    "Displayed category selector appearance",
+    "Displayed amenity selector appearance with 15 choices and mixed icons"
+  ],
+  "scope_limits": [
+    "This is a bounded appearance approval of the displayed G3-r2 filter supplement.",
+    "Does not approve G3 as a whole, remaining Search states, G4, runtime or frontend implementation."
+  ],
+  "review_manifest": "review-manifest.json",
+  "pencil_group": "wt9xJ",
+  "whole_g3_approved": false,
+  "implementation_authorized": false,
+  "accepted_displayed_frames": [
+    {
+      "id": "F90Ewa",
+      "file": "F90Ewa.png",
+      "sha256": "32d5d8fcefc28e886047ce46acbae4e1f4795824bdbad186171c777bc8df0e7a"
+    },
+    {
+      "id": "kP2za",
+      "file": "kP2za.png",
+      "sha256": "0fee5a90870fa0bf6e1f28cfcf358f9222b964f4d4c2df9904880ebd5b6d5a55"
+    },
+    {
+      "id": "gvvHG",
+      "file": "gvvHG.png",
+      "sha256": "6ac7ddf5cda93fe9b774334d9a5a76f4104aaf024a8dc7fa6413009af231250d"
+    }
+  ],
+  "scope_note": "Owner accepted the three displayed Mobile additional-filter, category and amenity images. Desktop counterparts are retained design adaptations and are not separately approved by this reply."
+}

@@ -1,0 +1,14 @@
+{
+  "task_id": "UID-002",
+  "recorded_on": "2026-11-19",
+  "owner_instruction": "ปรับเป็น 15",
+  "results_per_page": 15,
+  "applies_to": ["Desktop search results", "Mobile search results"],
+  "supersedes": "../g2-r27-review/owner-results-per-page-decision.json",
+  "example_total_results": 36,
+  "example_page_counts": [15, 15, 6],
+  "example_ranges": [[1, 15], [16, 30], [31, 36]],
+  "visual_revision_status": "applied_for_combined_review",
+  "whole_g2_approved": false,
+  "implementation_authorized": false
+}

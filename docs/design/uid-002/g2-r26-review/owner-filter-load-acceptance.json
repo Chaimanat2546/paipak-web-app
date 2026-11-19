@@ -1,0 +1,13 @@
+{
+  "task_id": "UID-002",
+  "version": "G2-r26",
+  "recorded_on": "2026-11-19",
+  "owner_instruction": "โอเค",
+  "scope": "Filter submission with Skeleton while pending, and latest-result loading failure preserving clearly identified previous results with an explicit retry of the latest submitted criteria",
+  "pencil_group": "PsUYs",
+  "desktop_frames": ["zYIrC", "Co2Nl"],
+  "mobile_frames": ["fzV0d", "cZs0q"],
+  "whole_g2_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

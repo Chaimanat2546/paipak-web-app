@@ -1,0 +1,14 @@
+{
+  "task": "UID-002",
+  "version": "G1-r1",
+  "status": "owner_approved",
+  "approved_on": "2026-11-18",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "Desktop b Mobile A",
+  "scope": "Search results layout direction for the G2 wireframes",
+  "pencil_group": "e98rCR",
+  "selected_directions": {
+    "desktop": { "direction": "B", "frame": "s1Pqt" },
+    "mobile": { "direction": "A", "frame": "w5Qh68" }
+  }
+}

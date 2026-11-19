@@ -1,0 +1,14 @@
+{
+  "task_id": "UID-002",
+  "recorded_on": "2026-11-19",
+  "owner_instruction": "ไม่พบตามเงื่อนไขไม่ใช่อันนี้หรอ",
+  "referenced_version": "G2-r20",
+  "reference_attachment": "C:/Users/chaym/.codex/codex-remote-attachments/01a1eeff-973e-7192-b3ed-054cf8b7d1d0/7C17B6D7-6B66-4624-A7BE-3264C7D4055D/1-Photo-1.jpg",
+  "applied_interpretation": "Use the selected layout for no matches under new filters with previous results clearly identified; prior agent classification as a loading failure was mistaken",
+  "revision": "G2-r22",
+  "pencil_group": "ZkqaW",
+  "prior_visual_and_change_filter_action_acceptance_retained": true,
+  "corrected_copy_awaiting_review": true,
+  "whole_g2_approved": false,
+  "implementation_authorized": false
+}

@@ -1,0 +1,1753 @@
+{
+  "root": "nOiRO",
+  "component": "V0hJN",
+  "skeleton": "cDP8I",
+  "frames": [
+    {
+      "id": "xny2e",
+      "name": "Desktop · หน้า 1 เต็ม · 15 หลัง",
+      "width": 1440,
+      "height": 2700,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "a0H6J",
+      "name": "Desktop · หน้า 2 เต็ม · 15 หลัง",
+      "width": 1440,
+      "height": 2700,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "nq8kq",
+      "name": "Desktop · หน้า 3 เต็ม · 6 หลัง",
+      "width": 1440,
+      "height": 1491,
+      "cards": 6,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "CaBhN",
+      "name": "Mobile · หน้า 1 เต็ม · 15 หลัง",
+      "width": 390,
+      "height": 6989,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "S9buUk",
+      "name": "Mobile · หน้า 2 เต็ม · 15 หลัง",
+      "width": 390,
+      "height": 6989,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "jrlxO",
+      "name": "Mobile · หน้า 3 เต็ม · 6 หลัง",
+      "width": 390,
+      "height": 3326,
+      "cards": 6,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "A7UFbV",
+      "name": "Desktop · ผลค้นหาปกติ",
+      "width": 1440,
+      "height": 900,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "YeiOn",
+      "name": "Mobile · ผลค้นหาปกติ",
+      "width": 390,
+      "height": 844,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "rSHcr",
+      "name": "Desktop · ท้ายหน้า 1 · ก่อนเลือกหน้า 2",
+      "width": 1440,
+      "height": 900,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "Pivdn",
+      "name": "Mobile · ท้ายหน้า 1 · ก่อนเลือกหน้า 2",
+      "width": 390,
+      "height": 844,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "S9CFAD",
+      "name": "Desktop · หน้า 2 โหลดสำเร็จ · ต้นรายการ",
+      "width": 1440,
+      "height": 900,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "z0x4my",
+      "name": "Mobile · หน้า 2 โหลดสำเร็จ · ต้นรายการ",
+      "width": 390,
+      "height": 844,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "ts8gC",
+      "name": "Desktop · ท้ายหน้า 2 · เลข 2 ถูกเลือก",
+      "width": 1440,
+      "height": 900,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "wdLXr",
+      "name": "Mobile · ท้ายหน้า 2 · เลข 2 ถูกเลือก",
+      "width": 390,
+      "height": 844,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "PQQ9r",
+      "name": "Desktop · ก่อนเปิดรายละเอียด · บ้านพักชมสวน",
+      "width": 1440,
+      "height": 900,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "PgBDD",
+      "name": "Mobile · ก่อนเปิดรายละเอียด · บ้านพักชมสวน",
+      "width": 390,
+      "height": 844,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "A9qI3",
+      "name": "Desktop · ย้อนจากรายละเอียด · บ้านพักชมสวน",
+      "width": 1440,
+      "height": 900,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "e4RGd",
+      "name": "Mobile · ย้อนจากรายละเอียด · บ้านพักชมสวน",
+      "width": 390,
+      "height": 844,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "Y2WiP",
+      "name": "Desktop · ท้ายหน้า 3 · เหลือ 6 หลัง",
+      "width": 1440,
+      "height": 900,
+      "cards": 6,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "REDlQ",
+      "name": "Mobile · ท้ายหน้า 3 · เหลือ 6 หลัง",
+      "width": 390,
+      "height": 844,
+      "cards": 6,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "M4XMo2",
+      "name": "Desktop · กำลังโหลดครั้งแรกหรือหลังใช้ตัวกรอง",
+      "width": 1440,
+      "height": 900,
+      "cards": 0,
+      "skeletons": 15,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "hqkWF",
+      "name": "Mobile · กำลังโหลดครั้งแรกหรือหลังใช้ตัวกรอง",
+      "width": 390,
+      "height": 844,
+      "cards": 0,
+      "skeletons": 15,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "bmlCb",
+      "name": "Desktop · ไม่พบที่พัก · ไม่มีผลก่อนหน้า",
+      "width": 1440,
+      "height": 900,
+      "cards": 0,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "sQiRg",
+      "name": "Mobile · ไม่พบที่พัก · ไม่มีผลก่อนหน้า",
+      "width": 390,
+      "height": 844,
+      "cards": 0,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "H5H1J",
+      "name": "Desktop · ไม่พบตามเงื่อนไขใหม่ · แสดงผลเดิม",
+      "width": 1440,
+      "height": 900,
+      "cards": 6,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "HvKB7",
+      "name": "Mobile · ไม่พบตามเงื่อนไขใหม่ · แสดงผลเดิม",
+      "width": 390,
+      "height": 844,
+      "cards": 1,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "RY6vo",
+      "name": "Desktop · โหลดครั้งแรกไม่สำเร็จ",
+      "width": 1440,
+      "height": 900,
+      "cards": 0,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "leR7Q",
+      "name": "Mobile · โหลดครั้งแรกไม่สำเร็จ",
+      "width": 390,
+      "height": 844,
+      "cards": 0,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "Sgpee",
+      "name": "Desktop · โหลดผลหลังใช้ตัวกรองไม่สำเร็จ · แสดงผลเดิม",
+      "width": 1440,
+      "height": 900,
+      "cards": 6,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "E4qk1",
+      "name": "Mobile · โหลดผลหลังใช้ตัวกรองไม่สำเร็จ · แสดงผลเดิม",
+      "width": 390,
+      "height": 844,
+      "cards": 1,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "WL3SZ",
+      "name": "Desktop · กำลังเปลี่ยนไปหน้า 2",
+      "width": 1440,
+      "height": 900,
+      "cards": 0,
+      "skeletons": 6,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "Hx5Id",
+      "name": "Mobile · กำลังเปลี่ยนไปหน้า 2",
+      "width": 390,
+      "height": 844,
+      "cards": 0,
+      "skeletons": 2,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "olaXf",
+      "name": "Desktop · โหลดหน้า 2 ไม่สำเร็จ",
+      "width": 1440,
+      "height": 900,
+      "cards": 6,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "Z9i0tw",
+      "name": "Mobile · โหลดหน้า 2 ไม่สำเร็จ",
+      "width": 390,
+      "height": 844,
+      "cards": 2,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "u6JEj",
+      "name": "Desktop · รูปกำลังโหลด",
+      "width": 1440,
+      "height": 900,
+      "cards": 6,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "Cfmdd",
+      "name": "Mobile · รูปกำลังโหลด",
+      "width": 390,
+      "height": 844,
+      "cards": 2,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "mSrO2",
+      "name": "Desktop · รูปโหลดไม่สำเร็จ",
+      "width": 1440,
+      "height": 900,
+      "cards": 6,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "E95zx",
+      "name": "Mobile · รูปโหลดไม่สำเร็จ",
+      "width": 390,
+      "height": 844,
+      "cards": 2,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 0
+    },
+    {
+      "id": "sdELc",
+      "name": "Mobile · เปิดตัวกรอง",
+      "width": 390,
+      "height": 844,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "PXZNs",
+      "name": "Desktop · เลือกสถานที่ · คำแนะนำ",
+      "width": 1440,
+      "height": 900,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "m1v2p4",
+      "name": "Mobile · เลือกสถานที่ · คำแนะนำ",
+      "width": 390,
+      "height": 844,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "r1YbV",
+      "name": "Desktop · เลือกวันเข้าพัก · วันเข้าอย่างเดียว",
+      "width": 1440,
+      "height": 900,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "m5hx7",
+      "name": "Mobile · เลือกวันเข้าพัก · วันเข้าอย่างเดียว",
+      "width": 390,
+      "height": 844,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "O4HiG",
+      "name": "Desktop · เลือกจำนวนคนและสัตว์เลี้ยง",
+      "width": 1440,
+      "height": 900,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "qgsos",
+      "name": "Mobile · เลือกจำนวนคนและสัตว์เลี้ยง",
+      "width": 390,
+      "height": 844,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "tY07I",
+      "name": "Desktop · ราคาต่ำสุดเกินสูงสุด",
+      "width": 1440,
+      "height": 900,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "g1y9U",
+      "name": "Mobile · ราคาต่ำสุดเกินสูงสุด",
+      "width": 390,
+      "height": 844,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "CeWWY",
+      "name": "Desktop · ล้างค่าในแผง · รอกดใช้ตัวกรอง",
+      "width": 1440,
+      "height": 900,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    },
+    {
+      "id": "bpBcn",
+      "name": "Mobile · ล้างค่าในแผง · รอกดใช้ตัวกรอง",
+      "width": 390,
+      "height": 844,
+      "cards": 15,
+      "skeletons": 0,
+      "otherListingCards": 0,
+      "apply": 1
+    }
+  ],
+  "full": [
+    {
+      "id": "xny2e",
+      "count": "พบที่พัก 36 หลัง · แสดง 1–15",
+      "conditions": "12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว",
+      "cards": [
+        [
+          "บ้านสวนพัทยา",
+          348,
+          230,
+          340,
+          379
+        ],
+        [
+          "วิลล่าริมสระ",
+          698,
+          230,
+          340,
+          379
+        ],
+        [
+          "บ้านพักเนินเขา",
+          1048,
+          230,
+          340,
+          379
+        ],
+        [
+          "พูลวิลล่าสวนมะพร้าว",
+          348,
+          633,
+          340,
+          379
+        ],
+        [
+          "บ้านพักชานทะเล",
+          698,
+          633,
+          340,
+          379
+        ],
+        [
+          "บ้านพักริมสวน",
+          1048,
+          633,
+          340,
+          379
+        ],
+        [
+          "บ้านพักวันสบาย",
+          348,
+          1036,
+          340,
+          379
+        ],
+        [
+          "วิลล่าสวนร่มรื่น",
+          698,
+          1036,
+          340,
+          379
+        ],
+        [
+          "บ้านพักสายลม",
+          1048,
+          1036,
+          340,
+          379
+        ],
+        [
+          "วิลล่าริมฟ้า",
+          348,
+          1439,
+          340,
+          379
+        ],
+        [
+          "บ้านพักอุ่นใจ",
+          698,
+          1439,
+          340,
+          379
+        ],
+        [
+          "พูลวิลล่าวันพักผ่อน",
+          1048,
+          1439,
+          340,
+          379
+        ],
+        [
+          "บ้านพักสวนไผ่",
+          348,
+          1842,
+          340,
+          379
+        ],
+        [
+          "วิลล่าพักสบาย",
+          698,
+          1842,
+          340,
+          379
+        ],
+        [
+          "บ้านพักริมธาร",
+          1048,
+          1842,
+          340,
+          379
+        ]
+      ],
+      "selected": "หน้า 1",
+      "previous": 0.45,
+      "next": 1
+    },
+    {
+      "id": "a0H6J",
+      "count": "พบที่พัก 36 หลัง · แสดง 16–30",
+      "conditions": "12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว",
+      "cards": [
+        [
+          "พูลวิลล่ารับลม",
+          348,
+          230,
+          340,
+          379
+        ],
+        [
+          "วิลล่าสายหมอก",
+          698,
+          230,
+          340,
+          379
+        ],
+        [
+          "บ้านพักริมคลอง",
+          1048,
+          230,
+          340,
+          379
+        ],
+        [
+          "พูลวิลล่าสวนสน",
+          348,
+          633,
+          340,
+          379
+        ],
+        [
+          "บ้านพักวันหยุด",
+          698,
+          633,
+          340,
+          379
+        ],
+        [
+          "วิลล่าชายหาด",
+          1048,
+          633,
+          340,
+          379
+        ],
+        [
+          "บ้านพักชมสวน",
+          348,
+          1036,
+          340,
+          379
+        ],
+        [
+          "พูลวิลล่าร่มเย็น",
+          698,
+          1036,
+          340,
+          379
+        ],
+        [
+          "บ้านพักริมบึง",
+          1048,
+          1036,
+          340,
+          379
+        ],
+        [
+          "วิลล่าฟ้าสวย",
+          348,
+          1439,
+          340,
+          379
+        ],
+        [
+          "บ้านพักอิงสวน",
+          698,
+          1439,
+          340,
+          379
+        ],
+        [
+          "พูลวิลล่าพักใจ",
+          1048,
+          1439,
+          340,
+          379
+        ],
+        [
+          "บ้านพักลมทะเล",
+          348,
+          1842,
+          340,
+          379
+        ],
+        [
+          "วิลล่าริมดาว",
+          698,
+          1842,
+          340,
+          379
+        ],
+        [
+          "บ้านพักสวนปาล์ม",
+          1048,
+          1842,
+          340,
+          379
+        ]
+      ],
+      "selected": "หน้า 2",
+      "previous": 1,
+      "next": 1
+    },
+    {
+      "id": "nq8kq",
+      "count": "พบที่พัก 36 หลัง · แสดง 31–36",
+      "conditions": "12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว",
+      "cards": [
+        [
+          "พูลวิลล่าแสงเช้า",
+          348,
+          230,
+          340,
+          379
+        ],
+        [
+          "บ้านพักริมดอย",
+          698,
+          230,
+          340,
+          379
+        ],
+        [
+          "บ้านพักสวนฟ้า",
+          1048,
+          230,
+          340,
+          379
+        ],
+        [
+          "พูลวิลล่าร่มไม้",
+          348,
+          633,
+          340,
+          379
+        ],
+        [
+          "วิลล่าทะเลใส",
+          698,
+          633,
+          340,
+          379
+        ],
+        [
+          "บ้านพักชมตะวัน",
+          1048,
+          633,
+          340,
+          379
+        ]
+      ],
+      "selected": "หน้า 3",
+      "previous": 1,
+      "next": 0.45
+    },
+    {
+      "id": "CaBhN",
+      "count": "แสดง 1–15 จาก 36 หลัง",
+      "conditions": "12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว",
+      "cards": [
+        [
+          "บ้านสวนพัทยา",
+          16,
+          206,
+          358,
+          391
+        ],
+        [
+          "วิลล่าริมสระ",
+          16,
+          613,
+          358,
+          391
+        ],
+        [
+          "บ้านพักเนินเขา",
+          16,
+          1020,
+          358,
+          391
+        ],
+        [
+          "พูลวิลล่าสวนมะพร้าว",
+          16,
+          1427,
+          358,
+          391
+        ],
+        [
+          "บ้านพักชานทะเล",
+          16,
+          1834,
+          358,
+          391
+        ],
+        [
+          "บ้านพักริมสวน",
+          16,
+          2241,
+          358,
+          391
+        ],
+        [
+          "บ้านพักวันสบาย",
+          16,
+          2648,
+          358,
+          391
+        ],
+        [
+          "วิลล่าสวนร่มรื่น",
+          16,
+          3055,
+          358,
+          391
+        ],
+        [
+          "บ้านพักสายลม",
+          16,
+          3462,
+          358,
+          391
+        ],
+        [
+          "วิลล่าริมฟ้า",
+          16,
+          3869,
+          358,
+          391
+        ],
+        [
+          "บ้านพักอุ่นใจ",
+          16,
+          4276,
+          358,
+          391
+        ],
+        [
+          "พูลวิลล่าวันพักผ่อน",
+          16,
+          4683,
+          358,
+          391
+        ],
+        [
+          "บ้านพักสวนไผ่",
+          16,
+          5090,
+          358,
+          391
+        ],
+        [
+          "วิลล่าพักสบาย",
+          16,
+          5497,
+          358,
+          391
+        ],
+        [
+          "บ้านพักริมธาร",
+          16,
+          5904,
+          358,
+          391
+        ]
+      ],
+      "selected": "หน้า 1",
+      "previous": 0.45,
+      "next": 1
+    },
+    {
+      "id": "S9buUk",
+      "count": "แสดง 16–30 จาก 36 หลัง",
+      "conditions": "12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว",
+      "cards": [
+        [
+          "พูลวิลล่ารับลม",
+          16,
+          206,
+          358,
+          391
+        ],
+        [
+          "วิลล่าสายหมอก",
+          16,
+          613,
+          358,
+          391
+        ],
+        [
+          "บ้านพักริมคลอง",
+          16,
+          1020,
+          358,
+          391
+        ],
+        [
+          "พูลวิลล่าสวนสน",
+          16,
+          1427,
+          358,
+          391
+        ],
+        [
+          "บ้านพักวันหยุด",
+          16,
+          1834,
+          358,
+          391
+        ],
+        [
+          "วิลล่าชายหาด",
+          16,
+          2241,
+          358,
+          391
+        ],
+        [
+          "บ้านพักชมสวน",
+          16,
+          2648,
+          358,
+          391
+        ],
+        [
+          "พูลวิลล่าร่มเย็น",
+          16,
+          3055,
+          358,
+          391
+        ],
+        [
+          "บ้านพักริมบึง",
+          16,
+          3462,
+          358,
+          391
+        ],
+        [
+          "วิลล่าฟ้าสวย",
+          16,
+          3869,
+          358,
+          391
+        ],
+        [
+          "บ้านพักอิงสวน",
+          16,
+          4276,
+          358,
+          391
+        ],
+        [
+          "พูลวิลล่าพักใจ",
+          16,
+          4683,
+          358,
+          391
+        ],
+        [
+          "บ้านพักลมทะเล",
+          16,
+          5090,
+          358,
+          391
+        ],
+        [
+          "วิลล่าริมดาว",
+          16,
+          5497,
+          358,
+          391
+        ],
+        [
+          "บ้านพักสวนปาล์ม",
+          16,
+          5904,
+          358,
+          391
+        ]
+      ],
+      "selected": "หน้า 2",
+      "previous": 1,
+      "next": 1
+    },
+    {
+      "id": "jrlxO",
+      "count": "แสดง 31–36 จาก 36 หลัง",
+      "conditions": "12 ธ.ค. · 8 คน · สัตว์เลี้ยง 1 ตัว",
+      "cards": [
+        [
+          "พูลวิลล่าแสงเช้า",
+          16,
+          206,
+          358,
+          391
+        ],
+        [
+          "บ้านพักริมดอย",
+          16,
+          613,
+          358,
+          391
+        ],
+        [
+          "บ้านพักสวนฟ้า",
+          16,
+          1020,
+          358,
+          391
+        ],
+        [
+          "พูลวิลล่าร่มไม้",
+          16,
+          1427,
+          358,
+          391
+        ],
+        [
+          "วิลล่าทะเลใส",
+          16,
+          1834,
+          358,
+          391
+        ],
+        [
+          "บ้านพักชมตะวัน",
+          16,
+          2241,
+          358,
+          391
+        ]
+      ],
+      "selected": "หน้า 3",
+      "previous": 1,
+      "next": 0.45
+    }
+  ],
+  "samples": [
+    {
+      "id": "A7UFbV",
+      "name": "บ้านสวนพัทยา",
+      "h": 379,
+      "y": 230,
+      "position": null,
+      "filterOffset": null,
+      "image": {
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "papaipak-ui-assets/generated-3.png",
+          "mode": "cover"
+        },
+        "height": 227
+      },
+      "fields": [
+        [
+          "Bathroom value",
+          "4 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿8,900"
+        ]
+      ]
+    },
+    {
+      "id": "YeiOn",
+      "name": "บ้านสวนพัทยา",
+      "h": 391,
+      "y": 206,
+      "position": null,
+      "filterOffset": null,
+      "image": {
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "papaipak-ui-assets/generated-3.png",
+          "mode": "cover"
+        },
+        "height": 239
+      },
+      "fields": [
+        [
+          "Bathroom value",
+          "4 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿8,900"
+        ]
+      ]
+    },
+    {
+      "id": "H5H1J",
+      "name": "บ้านสวนพัทยา",
+      "h": 379,
+      "y": 422,
+      "position": null,
+      "filterOffset": null,
+      "image": {
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "papaipak-ui-assets/generated-3.png",
+          "mode": "cover"
+        },
+        "height": 227
+      },
+      "fields": [
+        [
+          "Bathroom value",
+          "4 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿8,900"
+        ]
+      ]
+    },
+    {
+      "id": "HvKB7",
+      "name": "บ้านสวนพัทยา",
+      "h": 391,
+      "y": 452,
+      "position": null,
+      "filterOffset": null,
+      "image": {
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "papaipak-ui-assets/generated-3.png",
+          "mode": "cover"
+        },
+        "height": 239
+      },
+      "fields": [
+        [
+          "Bathroom value",
+          "4 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿8,900"
+        ]
+      ]
+    },
+    {
+      "id": "Sgpee",
+      "name": "บ้านสวนพัทยา",
+      "h": 379,
+      "y": 422,
+      "position": null,
+      "filterOffset": null,
+      "image": {
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "papaipak-ui-assets/generated-3.png",
+          "mode": "cover"
+        },
+        "height": 227
+      },
+      "fields": [
+        [
+          "Bathroom value",
+          "4 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿8,900"
+        ]
+      ]
+    },
+    {
+      "id": "E4qk1",
+      "name": "บ้านสวนพัทยา",
+      "h": 391,
+      "y": 452,
+      "position": null,
+      "filterOffset": null,
+      "image": {
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "papaipak-ui-assets/generated-3.png",
+          "mode": "cover"
+        },
+        "height": 239
+      },
+      "fields": [
+        [
+          "Bathroom value",
+          "4 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿8,900"
+        ]
+      ]
+    },
+    {
+      "id": "olaXf",
+      "name": "วิลล่าริมฟ้า",
+      "h": 379,
+      "y": -236,
+      "position": null,
+      "filterOffset": null,
+      "image": {
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "papaipak-ui-assets/generated-5.png",
+          "mode": "cover"
+        },
+        "height": 227
+      },
+      "fields": [
+        [
+          "Bathroom value",
+          "3 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿8,000"
+        ]
+      ]
+    },
+    {
+      "id": "Z9i0tw",
+      "name": "วิลล่าพักสบาย",
+      "h": 391,
+      "y": -292,
+      "position": null,
+      "filterOffset": null,
+      "image": {
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "papaipak-ui-assets/generated-5.png",
+          "mode": "cover"
+        },
+        "height": 239
+      },
+      "fields": [
+        [
+          "Bathroom value",
+          "4 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿9,400"
+        ]
+      ]
+    },
+    {
+      "id": "u6JEj",
+      "name": "บ้านสวนพัทยา",
+      "h": 379,
+      "y": 230,
+      "position": null,
+      "filterOffset": null,
+      "image": {
+        "fill": "#DCEAF1",
+        "height": 227
+      },
+      "fields": [
+        [
+          "Bathroom value",
+          "4 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿8,900"
+        ]
+      ]
+    },
+    {
+      "id": "Cfmdd",
+      "name": "บ้านสวนพัทยา",
+      "h": 391,
+      "y": 206,
+      "position": null,
+      "filterOffset": null,
+      "image": {
+        "fill": "#DCEAF1",
+        "height": 239
+      },
+      "fields": [
+        [
+          "Bathroom value",
+          "4 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿8,900"
+        ]
+      ]
+    },
+    {
+      "id": "mSrO2",
+      "name": "บ้านสวนพัทยา",
+      "h": 379,
+      "y": 230,
+      "position": null,
+      "filterOffset": null,
+      "image": {
+        "fill": "#F2FAFE",
+        "height": 227
+      },
+      "fields": [
+        [
+          "สถานะรูป",
+          "โหลดรูปไม่ได้"
+        ],
+        [
+          "Bathroom value",
+          "4 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿8,900"
+        ]
+      ]
+    },
+    {
+      "id": "E95zx",
+      "name": "บ้านสวนพัทยา",
+      "h": 391,
+      "y": 206,
+      "position": null,
+      "filterOffset": null,
+      "image": {
+        "fill": "#F2FAFE",
+        "height": 239
+      },
+      "fields": [
+        [
+          "สถานะรูป",
+          "โหลดรูปไม่ได้"
+        ],
+        [
+          "Bathroom value",
+          "4 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿8,900"
+        ]
+      ]
+    },
+    {
+      "id": "PQQ9r",
+      "name": "บ้านพักชมสวน",
+      "h": 379,
+      "y": 1036,
+      "position": 183,
+      "selected": "หน้า 2",
+      "filterOffset": 192,
+      "image": {
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "papaipak-ui-assets/generated-1.png",
+          "mode": "cover"
+        },
+        "height": 227
+      },
+      "fields": [
+        [
+          "Image 3 active",
+          "#FFFFFF"
+        ],
+        [
+          "Bathroom value",
+          "3 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿7,900"
+        ]
+      ]
+    },
+    {
+      "id": "PgBDD",
+      "name": "บ้านพักชมสวน",
+      "h": 391,
+      "y": 2648,
+      "position": 105,
+      "selected": "หน้า 2",
+      "filterOffset": null,
+      "image": {
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "papaipak-ui-assets/generated-1.png",
+          "mode": "cover"
+        },
+        "height": 239
+      },
+      "fields": [
+        [
+          "Image 3 active",
+          "#FFFFFF"
+        ],
+        [
+          "Bathroom value",
+          "3 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿7,900"
+        ]
+      ]
+    },
+    {
+      "id": "A9qI3",
+      "name": "บ้านพักชมสวน",
+      "h": 379,
+      "y": 1036,
+      "position": 183,
+      "selected": "หน้า 2",
+      "filterOffset": 192,
+      "image": {
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "papaipak-ui-assets/generated-1.png",
+          "mode": "cover"
+        },
+        "height": 227
+      },
+      "fields": [
+        [
+          "Image 3 active",
+          "#FFFFFF"
+        ],
+        [
+          "Bathroom value",
+          "3 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿7,900"
+        ]
+      ]
+    },
+    {
+      "id": "e4RGd",
+      "name": "บ้านพักชมสวน",
+      "h": 391,
+      "y": 2648,
+      "position": 105,
+      "selected": "หน้า 2",
+      "filterOffset": null,
+      "image": {
+        "fill": {
+          "type": "image",
+          "enabled": true,
+          "url": "papaipak-ui-assets/generated-1.png",
+          "mode": "cover"
+        },
+        "height": 239
+      },
+      "fields": [
+        [
+          "Image 3 active",
+          "#FFFFFF"
+        ],
+        [
+          "Bathroom value",
+          "3 ห้องน้ำ"
+        ],
+        [
+          "Nightly amount",
+          "฿7,900"
+        ]
+      ]
+    }
+  ],
+  "range": [
+    {
+      "id": "M4XMo2",
+      "count": 15,
+      "size": [
+        340,
+        379
+      ],
+      "bathroomBone": 1
+    },
+    {
+      "id": "hqkWF",
+      "count": 15,
+      "size": [
+        358,
+        391
+      ],
+      "bathroomBone": 1
+    },
+    {
+      "id": "WL3SZ",
+      "count": 6,
+      "size": [
+        340,
+        379
+      ],
+      "bathroomBone": 1
+    },
+    {
+      "id": "Hx5Id",
+      "count": 2,
+      "size": [
+        358,
+        391
+      ],
+      "bathroomBone": 1
+    }
+  ],
+  "prices": [
+    {
+      "id": "tY07I",
+      "error": [
+        "ราคาต่ำสุดต้องไม่เกินราคาสูงสุด"
+      ],
+      "apply": [
+        "$action.disabled.fill"
+      ]
+    },
+    {
+      "id": "g1y9U",
+      "error": [
+        "ราคาต่ำสุดต้องไม่เกินราคาสูงสุด"
+      ],
+      "apply": [
+        "$action.disabled.fill"
+      ]
+    }
+  ],
+  "clipped": 109,
+  "unexpected": [],
+  "editor_bounds_artifact": {
+    "finding": {
+      "id": "DCaTt",
+      "name": "โครงราคา",
+      "parent": "Search / Skeleton การ์ดบ้านพัก",
+      "parentId": "cDP8I"
+    },
+    "evidence": {
+      "storedY": 339,
+      "storedHeight": 17,
+      "componentHeight": 379,
+      "nativeEditorTransientOffset": 50
+    },
+    "resolved_instances": [
+      {
+        "id": "M4XMo2",
+        "y": 339,
+        "h": 17,
+        "problem": null
+      },
+      {
+        "id": "hqkWF",
+        "y": 351,
+        "h": 17,
+        "problem": null
+      },
+      {
+        "id": "WL3SZ",
+        "y": 339,
+        "h": 17,
+        "problem": null
+      },
+      {
+        "id": "Hx5Id",
+        "y": 351,
+        "h": 17,
+        "problem": null
+      }
+    ]
+  },
+  "audit": {
+    "cardCount": 467,
+    "skeletonCount": 38,
+    "bathroomCounts": {
+      "บ้านสวนพัทยา": [
+        "4 ห้องน้ำ"
+      ],
+      "วิลล่าริมสระ": [
+        "3 ห้องน้ำ"
+      ],
+      "บ้านพักเนินเขา": [
+        "5 ห้องน้ำ"
+      ],
+      "พูลวิลล่าสวนมะพร้าว": [
+        "4 ห้องน้ำ"
+      ],
+      "บ้านพักชานทะเล": [
+        "4 ห้องน้ำ"
+      ],
+      "บ้านพักริมสวน": [
+        "3 ห้องน้ำ"
+      ],
+      "บ้านพักวันสบาย": [
+        "3 ห้องน้ำ"
+      ],
+      "วิลล่าสวนร่มรื่น": [
+        "4 ห้องน้ำ"
+      ],
+      "บ้านพักสายลม": [
+        "5 ห้องน้ำ"
+      ],
+      "วิลล่าริมฟ้า": [
+        "3 ห้องน้ำ"
+      ],
+      "บ้านพักอุ่นใจ": [
+        "4 ห้องน้ำ"
+      ],
+      "พูลวิลล่าวันพักผ่อน": [
+        "5 ห้องน้ำ"
+      ],
+      "บ้านพักสวนไผ่": [
+        "3 ห้องน้ำ"
+      ],
+      "วิลล่าพักสบาย": [
+        "4 ห้องน้ำ"
+      ],
+      "บ้านพักริมธาร": [
+        "5 ห้องน้ำ"
+      ],
+      "พูลวิลล่ารับลม": [
+        "3 ห้องน้ำ"
+      ],
+      "วิลล่าสายหมอก": [
+        "4 ห้องน้ำ"
+      ],
+      "บ้านพักริมคลอง": [
+        "3 ห้องน้ำ"
+      ],
+      "พูลวิลล่าสวนสน": [
+        "5 ห้องน้ำ"
+      ],
+      "บ้านพักวันหยุด": [
+        "4 ห้องน้ำ"
+      ],
+      "วิลล่าชายหาด": [
+        "4 ห้องน้ำ"
+      ],
+      "บ้านพักชมสวน": [
+        "3 ห้องน้ำ"
+      ],
+      "พูลวิลล่าร่มเย็น": [
+        "3 ห้องน้ำ"
+      ],
+      "บ้านพักริมบึง": [
+        "4 ห้องน้ำ"
+      ],
+      "วิลล่าฟ้าสวย": [
+        "5 ห้องน้ำ"
+      ],
+      "บ้านพักอิงสวน": [
+        "3 ห้องน้ำ"
+      ],
+      "พูลวิลล่าพักใจ": [
+        "4 ห้องน้ำ"
+      ],
+      "บ้านพักลมทะเล": [
+        "5 ห้องน้ำ"
+      ],
+      "วิลล่าริมดาว": [
+        "3 ห้องน้ำ"
+      ],
+      "บ้านพักสวนปาล์ม": [
+        "4 ห้องน้ำ"
+      ],
+      "พูลวิลล่าแสงเช้า": [
+        "5 ห้องน้ำ"
+      ],
+      "บ้านพักริมดอย": [
+        "3 ห้องน้ำ"
+      ],
+      "บ้านพักสวนฟ้า": [
+        "4 ห้องน้ำ"
+      ],
+      "พูลวิลล่าร่มไม้": [
+        "3 ห้องน้ำ"
+      ],
+      "วิลล่าทะเลใส": [
+        "5 ห้องน้ำ"
+      ],
+      "บ้านพักชมตะวัน": [
+        "4 ห้องน้ำ"
+      ]
+    },
+    "skeletonPriceGeometry": [
+      {
+        "id": "M4XMo2",
+        "y": 339,
+        "h": 17,
+        "problem": null
+      },
+      {
+        "id": "hqkWF",
+        "y": 351,
+        "h": 17,
+        "problem": null
+      },
+      {
+        "id": "WL3SZ",
+        "y": 339,
+        "h": 17,
+        "problem": null
+      },
+      {
+        "id": "Hx5Id",
+        "y": 351,
+        "h": 17,
+        "problem": null
+      }
+    ],
+    "componentPrice": {
+      "storedY": 339,
+      "storedHeight": 17,
+      "componentHeight": 379,
+      "nativeEditorTransientOffset": 50
+    }
+  },
+  "runtime_verified": false
+}
+

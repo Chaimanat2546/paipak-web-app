@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "file": "aFAPz.png",
+      "sha256": "5ea6b90bc443658ab76f6240d579e70169afc106206bb3989813c5acd815b4d7"
+    },
+    {
+      "file": "file-verification.json",
+      "sha256": "4366a05de3d3c954f38b401c19bce9712c92a205f1ad25a36ae1a3eebed2a4da"
+    },
+    {
+      "file": "MjRcQ.png",
+      "sha256": "fb71a11e5bed4ae82daebc35871fdb8adc9551b34ac3a89fd81d9b82f4e78635"
+    },
+    {
+      "file": "native-verification.json",
+      "sha256": "32f72214444f20f3cf51208c77d69579e679f77c7755f3b3069465b6f99f3726"
+    },
+    {
+      "file": "README.md",
+      "sha256": "ee8ab39f95cd3080d0ec49e4b25cba097ab072df3c1890b134b5c5be473d22ec"
+    },
+    {
+      "file": "review-manifest.json",
+      "sha256": "8fbea261e0b51042ba2a498b97719de57e1a943b77970ec119b1bc3dca3ec198"
+    }
+  ]
+}

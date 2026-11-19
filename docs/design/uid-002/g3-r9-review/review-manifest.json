@@ -1,0 +1,39 @@
+{
+  "task_id": "UID-002",
+  "version": "G3-r9",
+  "recorded_on": "2026-11-19",
+  "status": "carousel_edge_appearance_pending_owner",
+  "scope": "Compare one photo and the last photo on the shared Search card",
+  "pencil_uri": "file:///C:/Users/chaym/Projects/paipak-web-app/docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "aJh0a",
+  "shared_card": "V0hJN",
+  "viewport_references": {
+    "desktop": 1440,
+    "mobile": 390
+  },
+  "frames": [
+    {
+      "id": "MxpF6",
+      "name": "Desktop · เทียบการ์ดรูปเดียวกับรูปสุดท้าย",
+      "width": 744,
+      "height": 445,
+      "file": "MxpF6.png",
+      "export_scale": 2
+    },
+    {
+      "id": "umPST",
+      "name": "Mobile · เทียบการ์ดรูปเดียวกับรูปสุดท้าย",
+      "width": 390,
+      "height": 891,
+      "file": "umPST.png",
+      "export_scale": 2
+    }
+  ],
+  "interaction_rules": "../../uxd-002/review-decisions.md",
+  "single_photo": "Hide previous, next, and image dots. Keep Favorite.",
+  "last_photo": "Show previous and next. Previous is available, next uses disabled styling, last dot active, no wrap. Image asset is a design fixture.",
+  "owner_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}
+

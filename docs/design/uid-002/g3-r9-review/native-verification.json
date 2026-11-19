@@ -1,0 +1,291 @@
+{
+  "root": "aJh0a",
+  "frames": [
+    {
+      "id": "MxpF6",
+      "name": "Desktop · เทียบการ์ดรูปเดียวกับรูปสุดท้าย",
+      "width": 744,
+      "height": 445,
+      "cards": [
+        {
+          "id": "FJQeV",
+          "name": "บ้านสวนพัทยา",
+          "ref": "V0hJN",
+          "width": 340,
+          "height": 379,
+          "controls": [
+            {
+              "name": "FAVORITE-01 · login required",
+              "enabled": true,
+              "opacity": 1,
+              "bounds": {
+                "x": 286,
+                "y": 10,
+                "width": 44,
+                "height": 44
+              }
+            },
+            {
+              "name": "Previous image · disabled at first · reveal on card hover or keyboard focus",
+              "enabled": false,
+              "opacity": 0,
+              "bounds": {
+                "x": 8,
+                "y": 91.5,
+                "width": 44,
+                "height": 44
+              }
+            },
+            {
+              "name": "Next image · reveal on card hover or keyboard focus",
+              "enabled": false,
+              "opacity": 1,
+              "bounds": {
+                "x": 288,
+                "y": 91.5,
+                "width": 44,
+                "height": 44
+              }
+            },
+            {
+              "name": "Image pagination",
+              "enabled": false,
+              "opacity": 1,
+              "bounds": {
+                "x": 154,
+                "y": 214,
+                "width": 32,
+                "height": 5
+              }
+            }
+          ],
+          "nextStyle": [
+            null,
+            null
+          ],
+          "listing": {
+            "bathrooms": "4 ห้องน้ำ",
+            "price": "฿8,900"
+          }
+        },
+        {
+          "id": "shlb2",
+          "name": "วิลล่าริมสระ",
+          "ref": "V0hJN",
+          "width": 340,
+          "height": 379,
+          "controls": [
+            {
+              "name": "FAVORITE-01 · login required",
+              "enabled": true,
+              "opacity": 1,
+              "bounds": {
+                "x": 286,
+                "y": 10,
+                "width": 44,
+                "height": 44
+              }
+            },
+            {
+              "name": "Previous image · available",
+              "enabled": true,
+              "opacity": 1,
+              "bounds": {
+                "x": 8,
+                "y": 91.5,
+                "width": 44,
+                "height": 44
+              }
+            },
+            {
+              "name": "Next image · disabled at last photo",
+              "enabled": true,
+              "opacity": 1,
+              "bounds": {
+                "x": 288,
+                "y": 91.5,
+                "width": 44,
+                "height": 44
+              }
+            },
+            {
+              "name": "Image pagination",
+              "enabled": true,
+              "opacity": 1,
+              "bounds": {
+                "x": 154,
+                "y": 214,
+                "width": 32,
+                "height": 5
+              }
+            },
+            {
+              "name": "Image 4 active",
+              "enabled": true,
+              "opacity": 1,
+              "bounds": {
+                "x": 27,
+                "y": 0,
+                "width": 5,
+                "height": 5
+              }
+            }
+          ],
+          "nextStyle": [
+            "$action.disabled.fill",
+            "$action.disabled.label"
+          ],
+          "listing": {
+            "bathrooms": "3 ห้องน้ำ",
+            "price": "฿7,500"
+          }
+        }
+      ],
+      "unexpected": []
+    },
+    {
+      "id": "umPST",
+      "name": "Mobile · เทียบการ์ดรูปเดียวกับรูปสุดท้าย",
+      "width": 390,
+      "height": 891,
+      "cards": [
+        {
+          "id": "nkpZz",
+          "name": "บ้านสวนพัทยา",
+          "ref": "V0hJN",
+          "width": 358,
+          "height": 391,
+          "controls": [
+            {
+              "name": "FAVORITE-01 · login required",
+              "enabled": true,
+              "opacity": 1,
+              "bounds": {
+                "x": 304,
+                "y": 10,
+                "width": 44,
+                "height": 44
+              }
+            },
+            {
+              "name": "Previous image · disabled at first · reveal on card hover or keyboard focus",
+              "enabled": false,
+              "opacity": 0,
+              "bounds": {
+                "x": 8,
+                "y": 97.5,
+                "width": 44,
+                "height": 44
+              }
+            },
+            {
+              "name": "Next image · reveal on card hover or keyboard focus",
+              "enabled": false,
+              "opacity": 1,
+              "bounds": {
+                "x": 306,
+                "y": 97.5,
+                "width": 44,
+                "height": 44
+              }
+            },
+            {
+              "name": "Image pagination",
+              "enabled": false,
+              "opacity": 1,
+              "bounds": {
+                "x": 163,
+                "y": 226,
+                "width": 32,
+                "height": 5
+              }
+            }
+          ],
+          "nextStyle": [
+            null,
+            null
+          ],
+          "listing": {
+            "bathrooms": "4 ห้องน้ำ",
+            "price": "฿8,900"
+          }
+        },
+        {
+          "id": "w5Izb",
+          "name": "วิลล่าริมสระ",
+          "ref": "V0hJN",
+          "width": 358,
+          "height": 391,
+          "controls": [
+            {
+              "name": "FAVORITE-01 · login required",
+              "enabled": true,
+              "opacity": 1,
+              "bounds": {
+                "x": 304,
+                "y": 10,
+                "width": 44,
+                "height": 44
+              }
+            },
+            {
+              "name": "Previous image · available",
+              "enabled": true,
+              "opacity": 1,
+              "bounds": {
+                "x": 8,
+                "y": 97.5,
+                "width": 44,
+                "height": 44
+              }
+            },
+            {
+              "name": "Next image · disabled at last photo",
+              "enabled": true,
+              "opacity": 1,
+              "bounds": {
+                "x": 306,
+                "y": 97.5,
+                "width": 44,
+                "height": 44
+              }
+            },
+            {
+              "name": "Image pagination",
+              "enabled": true,
+              "opacity": 1,
+              "bounds": {
+                "x": 163,
+                "y": 226,
+                "width": 32,
+                "height": 5
+              }
+            },
+            {
+              "name": "Image 4 active",
+              "enabled": true,
+              "opacity": 1,
+              "bounds": {
+                "x": 27,
+                "y": 0,
+                "width": 5,
+                "height": 5
+              }
+            }
+          ],
+          "nextStyle": [
+            "$action.disabled.fill",
+            "$action.disabled.label"
+          ],
+          "listing": {
+            "bathrooms": "3 ห้องน้ำ",
+            "price": "฿7,500"
+          }
+        }
+      ],
+      "unexpected": []
+    }
+  ],
+  "runtime_verified": false
+}
+

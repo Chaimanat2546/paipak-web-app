@@ -1,0 +1,71 @@
+{
+  "task_id": "UID-002",
+  "version": "G3-r1",
+  "recorded_on": "2026-11-19",
+  "native_group": "DJPi5",
+  "frames": [
+    {
+      "id": "GAOPB",
+      "name": "Desktop · ผลค้นหาเต็ม · UI G3-r1",
+      "width": 1440,
+      "height": 2260
+    },
+    {
+      "id": "g4zFq",
+      "name": "Mobile · ผลค้นหาเต็ม · UI G3-r1",
+      "width": 390,
+      "height": 5699
+    },
+    {
+      "id": "tG1OH",
+      "name": "Mobile · ตัวกรองเต็ม · UI G3-r1",
+      "width": 390,
+      "height": 1114
+    },
+    {
+      "id": "KGf0a",
+      "name": "Desktop · ภาพจอ 1440×900 · UI G3-r1",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "TvVQI",
+      "name": "Mobile · ภาพจอ 390×844 · UI G3-r1",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "id": "FgpMf",
+      "name": "Mobile · เปิดตัวกรอง · UI G3-r1",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "layout": {
+    "total": 56,
+    "intentional": 56,
+    "unexpected": []
+  },
+  "mainCounts": [
+    {
+      "id": "GAOPB",
+      "cards": 15
+    },
+    {
+      "id": "g4zFq",
+      "cards": 15
+    }
+  ],
+  "interpretation": "All 56 clipping findings are intentional page-preview crops or independently scrolling filter contents. No unexpected clipping found in this native inspection.",
+  "visual_review": [
+    "Desktop1440x900, Mobile390x844 and open filter reviewed as native screenshots.",
+    "Full Desktop and Mobile pages reviewed, with 15 image-led property cards each.",
+    "Exported Mobile and Desktop viewport PNGs inspected at native export resolution."
+  ],
+  "not_verified": [
+    "Working interactions, scroll behavior or DOM semantics",
+    "Runtime, keyboard, screen readers and browser accessibility",
+    "Production asset rights or real listing data"
+  ]
+}
+

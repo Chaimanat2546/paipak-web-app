@@ -1,0 +1,60 @@
+{
+  "png_checks": [
+    {
+      "file": "GAOPB.png",
+      "pixels": [
+        1440,
+        2260
+      ],
+      "ok": true
+    },
+    {
+      "file": "g4zFq.png",
+      "pixels": [
+        390,
+        5699
+      ],
+      "ok": true
+    },
+    {
+      "file": "tG1OH.png",
+      "pixels": [
+        390,
+        1114
+      ],
+      "ok": true
+    },
+    {
+      "file": "KGf0a.png",
+      "pixels": [
+        2880,
+        1800
+      ],
+      "ok": true
+    },
+    {
+      "file": "TvVQI.png",
+      "pixels": [
+        780,
+        1688
+      ],
+      "ok": true
+    },
+    {
+      "file": "FgpMf.png",
+      "pixels": [
+        780,
+        1688
+      ],
+      "ok": true
+    }
+  ],
+  "json_parse": "passed",
+  "README_links": "passed",
+  "referenced_photos": "passed",
+  "native_unexpected_clipping": 0,
+  "main_card_counts": [
+    15,
+    15
+  ]
+}

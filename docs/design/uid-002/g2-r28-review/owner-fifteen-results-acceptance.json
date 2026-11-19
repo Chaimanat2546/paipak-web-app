@@ -1,0 +1,12 @@
+{
+  "task_id": "UID-002",
+  "version": "G2-r28",
+  "recorded_on": "2026-11-19",
+  "owner_instruction": "โอเคต่อได้",
+  "scope": "Displayed fifteen-results-per-page revision on Desktop and Mobile, including the 15/15/6 example split for 36 results",
+  "pencil_group": "whffv",
+  "results_per_page": 15,
+  "whole_g2_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

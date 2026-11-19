@@ -1,0 +1,108 @@
+{
+  "root": "cAtDl",
+  "frames": [
+    {
+      "id": "lpwxh",
+      "name": "Desktop · กำลังโหลดครั้งแรก / หลังใช้ตัวกรอง",
+      "width": 1440,
+      "height": 900,
+      "skeletons": 15
+    },
+    {
+      "id": "CMHeR",
+      "name": "Mobile · กำลังโหลดครั้งแรก / หลังใช้ตัวกรอง",
+      "width": 390,
+      "height": 844,
+      "skeletons": 15
+    },
+    {
+      "id": "kWr44",
+      "name": "Desktop · ไม่พบตามเงื่อนไข · ไม่มีผลเดิม",
+      "width": 1440,
+      "height": 900,
+      "skeletons": 0
+    },
+    {
+      "id": "r2f4i",
+      "name": "Mobile · ไม่พบตามเงื่อนไข · ไม่มีผลเดิม",
+      "width": 390,
+      "height": 844,
+      "skeletons": 0
+    },
+    {
+      "id": "jdepe",
+      "name": "Desktop · ไม่พบตามเงื่อนไขใหม่ · มีผลเดิม",
+      "width": 1440,
+      "height": 900,
+      "skeletons": 0
+    },
+    {
+      "id": "Q4q28i",
+      "name": "Mobile · ไม่พบตามเงื่อนไขใหม่ · มีผลเดิม",
+      "width": 390,
+      "height": 844,
+      "skeletons": 0
+    },
+    {
+      "id": "C6aadK",
+      "name": "Desktop · โหลดครั้งแรกไม่สำเร็จ",
+      "width": 1440,
+      "height": 900,
+      "skeletons": 0
+    },
+    {
+      "id": "X1CmT",
+      "name": "Mobile · โหลดครั้งแรกไม่สำเร็จ",
+      "width": 390,
+      "height": 844,
+      "skeletons": 0
+    },
+    {
+      "id": "Pjv0h",
+      "name": "Desktop · โหลดผลหลังใช้ตัวกรองไม่สำเร็จ",
+      "width": 1440,
+      "height": 900,
+      "skeletons": 0
+    },
+    {
+      "id": "Id3Vb",
+      "name": "Mobile · โหลดผลหลังใช้ตัวกรองไม่สำเร็จ",
+      "width": 390,
+      "height": 844,
+      "skeletons": 0
+    },
+    {
+      "id": "NtnrB",
+      "name": "Desktop · กำลังเปลี่ยนไปหน้า 2",
+      "width": 1440,
+      "height": 900,
+      "skeletons": 9
+    },
+    {
+      "id": "zIlpQ",
+      "name": "Mobile · กำลังเปลี่ยนไปหน้า 2",
+      "width": 390,
+      "height": 844,
+      "skeletons": 3
+    },
+    {
+      "id": "vh7Dz",
+      "name": "Desktop · โหลดหน้า 2 ไม่สำเร็จ",
+      "width": 1440,
+      "height": 900,
+      "skeletons": 0
+    },
+    {
+      "id": "q6Jdt4",
+      "name": "Mobile · โหลดหน้า 2 ไม่สำเร็จ",
+      "width": 390,
+      "height": 844,
+      "skeletons": 0
+    }
+  ],
+  "clipped": 47,
+  "unexpected": [],
+  "inspection": "14 native viewport frames; 47 expected viewport and filter scroll masks; zero unexpected clipping",
+  "runtime_verified": false
+}
+

@@ -1,0 +1,12 @@
+{
+  "task_id": "UID-002",
+  "version": "G2-r20",
+  "recorded_on": "2026-11-19",
+  "owner_instruction": "โอเคเอาแบบนี้แหละ",
+  "scope": "Failed-filter state with previous results distinguished from new criteria, and Change filters action opening the existing panel with latest submitted draft; requests are submitted only on Apply filters",
+  "pencil_group": "HoV5L",
+  "desktop_frames": ["skdg8", "GfbIf"],
+  "mobile_frames": ["BbKmM", "pCJAa"],
+  "whole_g2_approved": false,
+  "implementation_authorized": false
+}

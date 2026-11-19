@@ -1,0 +1,135 @@
+{
+  "pngs": [
+    {
+      "file": "OJ1ZV.png",
+      "pixels": [
+        1440,
+        2260
+      ]
+    },
+    {
+      "file": "XDHuo.png",
+      "pixels": [
+        1440,
+        1315
+      ]
+    },
+    {
+      "file": "C0Euj.png",
+      "pixels": [
+        390,
+        5699
+      ]
+    },
+    {
+      "file": "GRwwn.png",
+      "pixels": [
+        390,
+        2810
+      ]
+    },
+    {
+      "file": "X01Fsl.png",
+      "pixels": [
+        1440,
+        900
+      ]
+    },
+    {
+      "file": "d19PRA.png",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "file": "ViXfB.png",
+      "pixels": [
+        1440,
+        900
+      ]
+    },
+    {
+      "file": "v6zG7L.png",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "file": "FyZjW.png",
+      "pixels": [
+        1440,
+        900
+      ]
+    },
+    {
+      "file": "y5PWZl.png",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "file": "RM0fD.png",
+      "pixels": [
+        1440,
+        900
+      ]
+    },
+    {
+      "file": "h3EUQi.png",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "file": "mggDu.png",
+      "pixels": [
+        1440,
+        900
+      ]
+    },
+    {
+      "file": "QpyRl.png",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "file": "arokj.png",
+      "pixels": [
+        1440,
+        900
+      ]
+    },
+    {
+      "file": "S10HSp.png",
+      "pixels": [
+        780,
+        1688
+      ]
+    }
+  ],
+  "before_after": [
+    {
+      "before": "RM0fD",
+      "after": "mggDu",
+      "pngs_identical": true
+    },
+    {
+      "before": "h3EUQi",
+      "after": "QpyRl",
+      "pngs_identical": true
+    }
+  ],
+  "page_counts": [
+    15,
+    15,
+    6
+  ],
+  "unique_listings": 36,
+  "runtime_verified": false
+}

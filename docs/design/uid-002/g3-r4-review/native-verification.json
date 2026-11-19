@@ -1,0 +1,123 @@
+{
+  "root": "X2OSED",
+  "frames": [
+    {
+      "id": "LFOWK",
+      "name": "Desktop · รูปกำลังโหลด",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "M6vAH",
+      "name": "Mobile · รูปกำลังโหลด",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "id": "W5vt1",
+      "name": "Desktop · รูปโหลดไม่สำเร็จ",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "cC3aR",
+      "name": "Mobile · รูปโหลดไม่สำเร็จ",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "clipped": 8,
+  "unexpected": [],
+  "checks": [
+    {
+      "id": "LFOWK",
+      "card": [
+        340,
+        291
+      ],
+      "image": [
+        340,
+        207
+      ],
+      "fill": "#DCEAF1",
+      "details": [
+        "บ้านสวนพัทยา",
+        "พัทยา · 12 คน · 4 ห้องนอน",
+        "เริ่มต้น ฿8,900 / คืน"
+      ],
+      "fallback": null,
+      "nextControl": true,
+      "favoriteControl": true,
+      "otherImageCount": 8,
+      "retry": false
+    },
+    {
+      "id": "M6vAH",
+      "card": [
+        358,
+        305
+      ],
+      "image": [
+        358,
+        221
+      ],
+      "fill": "#DCEAF1",
+      "details": [
+        "บ้านสวนพัทยา",
+        "พัทยา · 12 คน · 4 ห้องนอน",
+        "เริ่มต้น ฿8,900 / คืน"
+      ],
+      "fallback": null,
+      "nextControl": true,
+      "favoriteControl": true,
+      "otherImageCount": 1,
+      "retry": false
+    },
+    {
+      "id": "W5vt1",
+      "card": [
+        340,
+        291
+      ],
+      "image": [
+        340,
+        207
+      ],
+      "fill": "#F2FAFE",
+      "details": [
+        "บ้านสวนพัทยา",
+        "พัทยา · 12 คน · 4 ห้องนอน",
+        "เริ่มต้น ฿8,900 / คืน"
+      ],
+      "fallback": "โหลดรูปไม่ได้",
+      "nextControl": true,
+      "favoriteControl": true,
+      "otherImageCount": 8,
+      "retry": false
+    },
+    {
+      "id": "cC3aR",
+      "card": [
+        358,
+        305
+      ],
+      "image": [
+        358,
+        221
+      ],
+      "fill": "#F2FAFE",
+      "details": [
+        "บ้านสวนพัทยา",
+        "พัทยา · 12 คน · 4 ห้องนอน",
+        "เริ่มต้น ฿8,900 / คืน"
+      ],
+      "fallback": "โหลดรูปไม่ได้",
+      "nextControl": true,
+      "favoriteControl": true,
+      "otherImageCount": 1,
+      "retry": false
+    }
+  ],
+  "runtime_verified": false
+}
+

@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "file": "avnMT.png",
+      "sha256": "59a7274a2a219f6f3b95fd234eed0dbd6cf0cf71457c382d97c4fb4bfd2c9378"
+    },
+    {
+      "file": "Ktc6s.png",
+      "sha256": "a54cb8feca8dcfa05cccaefeb6efadc88c84682fcedcbf6ae8b45480796e2f3d"
+    },
+    {
+      "file": "native-verification.json",
+      "sha256": "54747fccc9c67453b5b0e2476ff44b1595878581b92915aacbc4d31207c8ea28"
+    },
+    {
+      "file": "README.md",
+      "sha256": "be9bd5d44b528faa043ec7b9594b75205e8dff949efd8bb9e4f4ba646c5d6b44"
+    },
+    {
+      "file": "review-manifest.json",
+      "sha256": "47f2d087eb62962f72603ee34fd4f24a6f0341866ac4aa21f380bdb085b74d7c"
+    }
+  ]
+}

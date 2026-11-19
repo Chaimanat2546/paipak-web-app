@@ -1,0 +1,788 @@
+{
+  "frames": [
+    {
+      "id": "f2dJJ6",
+      "name": "ตรวจโครงเดิมด้วยชื่อเต็ม",
+      "width": 360,
+      "height": 407
+    },
+    {
+      "id": "jxVIx",
+      "name": "Mobile 360 · การ์ดชื่อยาวหลังปรับ",
+      "width": 360,
+      "height": 407
+    },
+    {
+      "id": "t8bGfh",
+      "name": "Mobile 360 · การ์ดข้อมูลห้องน้ำและราคาไม่ครบ",
+      "width": 360,
+      "height": 407
+    },
+    {
+      "id": "h4PAgH",
+      "name": "Mobile 360 · หน้าผลค้นหาที่มีชื่อยาว",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "id": "kePwq",
+      "name": "Mobile 360 · รายการและตัวเปลี่ยนหน้าท้ายหน้า",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "id": "b4BDvl",
+      "name": "Mobile 360 · ผลค้นหาเต็ม 15 หลัง",
+      "width": 360,
+      "height": 6689
+    }
+  ],
+  "cards": 15,
+  "first": [
+    {
+      "name": "พื้นที่รูปบ้านพัก",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 328,
+        "height": 219
+      },
+      "problem": null
+    },
+    {
+      "name": "Home-r6 property title",
+      "text": "พูลวิลล่าชมทะเลพัทยาเหนือ บ้านพัก…",
+      "bounds": {
+        "x": 14,
+        "y": 14,
+        "width": 300,
+        "height": 27
+      },
+      "problem": null
+    },
+    {
+      "name": "Home-r6 location row",
+      "bounds": {
+        "x": 14,
+        "y": 47,
+        "width": 51,
+        "height": 21
+      },
+      "problem": null
+    },
+    {
+      "name": "Home-r6 capacity row",
+      "bounds": {
+        "x": 14,
+        "y": 74,
+        "width": 243,
+        "height": 21
+      },
+      "problem": null
+    },
+    {
+      "name": "Bathroom value",
+      "text": "4 ห้องน้ำ",
+      "bounds": {
+        "x": 18,
+        "y": 0,
+        "width": 54,
+        "height": 21
+      },
+      "problem": null
+    },
+    {
+      "name": "Home-r6 price information · not a button",
+      "bounds": {
+        "x": 14,
+        "y": 101,
+        "width": 300,
+        "height": 33
+      },
+      "problem": null
+    },
+    {
+      "name": "Starting qualifier",
+      "text": "เริ่มต้น",
+      "bounds": {
+        "x": 0,
+        "y": 6.5,
+        "width": 36,
+        "height": 20
+      },
+      "problem": null
+    },
+    {
+      "name": "Nightly amount",
+      "text": "฿8,900",
+      "bounds": {
+        "x": 42,
+        "y": 0,
+        "width": 81,
+        "height": 33
+      },
+      "problem": null
+    },
+    {
+      "name": "Nightly unit",
+      "text": "/ คืน",
+      "bounds": {
+        "x": 129,
+        "y": 6.5,
+        "width": 28,
+        "height": 20
+      },
+      "problem": null
+    }
+  ],
+  "incomplete": [
+    {
+      "name": "พื้นที่รูปบ้านพัก",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 328,
+        "height": 219
+      },
+      "problem": null
+    },
+    {
+      "name": "Home-r6 property title",
+      "text": "วิลล่าริมสระ",
+      "bounds": {
+        "x": 14,
+        "y": 14,
+        "width": 300,
+        "height": 27
+      },
+      "problem": null
+    },
+    {
+      "name": "Home-r6 location row",
+      "bounds": {
+        "x": 14,
+        "y": 47,
+        "width": 51,
+        "height": 21
+      },
+      "problem": null
+    },
+    {
+      "name": "Home-r6 capacity row",
+      "bounds": {
+        "x": 14,
+        "y": 74,
+        "width": 249,
+        "height": 21
+      },
+      "problem": null
+    },
+    {
+      "name": "Bathroom value",
+      "text": "— ห้องน้ำ",
+      "bounds": {
+        "x": 18,
+        "y": 0,
+        "width": 58,
+        "height": 21
+      },
+      "problem": null
+    },
+    {
+      "name": "Home-r6 price information · not a button",
+      "bounds": {
+        "x": 14,
+        "y": 101,
+        "width": 300,
+        "height": 33
+      },
+      "problem": null
+    },
+    {
+      "name": "Starting qualifier",
+      "text": "ยังไม่มีข้อมูลราคา",
+      "bounds": {
+        "x": 0,
+        "y": 6.5,
+        "width": 94,
+        "height": 20
+      },
+      "problem": null
+    }
+  ],
+  "maxCapacityRowWidth": 249,
+  "metrics": [
+    {
+      "id": "pbH2g",
+      "y": 206,
+      "x": 16,
+      "width": 328,
+      "height": 371,
+      "info": [
+        {
+          "name": "Home-r6 capacity row",
+          "bounds": {
+            "x": 14,
+            "y": 74,
+            "width": 243,
+            "height": 21
+          },
+          "problem": null
+        },
+        {
+          "name": "Home-r6 price information · not a button",
+          "bounds": {
+            "x": 14,
+            "y": 101,
+            "width": 300,
+            "height": 33
+          },
+          "problem": null
+        }
+      ]
+    },
+    {
+      "id": "xWZUh",
+      "y": 593,
+      "x": 16,
+      "width": 328,
+      "height": 371,
+      "info": [
+        {
+          "name": "Home-r6 capacity row",
+          "bounds": {
+            "x": 14,
+            "y": 74,
+            "width": 249,
+            "height": 21
+          },
+          "problem": null
+        },
+        {
+          "name": "Home-r6 price information · not a button",
+          "bounds": {
+            "x": 14,
+            "y": 101,
+            "width": 300,
+            "height": 33
+          },
+          "problem": null
+        }
+      ]
+    },
+    {
+      "id": "Wk6MU",
+      "y": 980,
+      "x": 16,
+      "width": 328,
+      "height": 371,
+      "info": [
+        {
+          "name": "Home-r6 capacity row",
+          "bounds": {
+            "x": 14,
+            "y": 74,
+            "width": 244,
+            "height": 21
+          },
+          "problem": null
+        },
+        {
+          "name": "Home-r6 price information · not a button",
+          "bounds": {
+            "x": 14,
+            "y": 101,
+            "width": 300,
+            "height": 33
+          },
+          "problem": null
+        }
+      ]
+    },
+    {
+      "id": "HumaU",
+      "y": 1367,
+      "x": 16,
+      "width": 328,
+      "height": 371,
+      "info": [
+        {
+          "name": "Home-r6 capacity row",
+          "bounds": {
+            "x": 14,
+            "y": 74,
+            "width": 245,
+            "height": 21
+          },
+          "problem": null
+        },
+        {
+          "name": "Home-r6 price information · not a button",
+          "bounds": {
+            "x": 14,
+            "y": 101,
+            "width": 300,
+            "height": 33
+          },
+          "problem": null
+        }
+      ]
+    },
+    {
+      "id": "dKg7h",
+      "y": 1754,
+      "x": 16,
+      "width": 328,
+      "height": 371,
+      "info": [
+        {
+          "name": "Home-r6 capacity row",
+          "bounds": {
+            "x": 14,
+            "y": 74,
+            "width": 243,
+            "height": 21
+          },
+          "problem": null
+        },
+        {
+          "name": "Home-r6 price information · not a button",
+          "bounds": {
+            "x": 14,
+            "y": 101,
+            "width": 300,
+            "height": 33
+          },
+          "problem": null
+        }
+      ]
+    },
+    {
+      "id": "PpoGd",
+      "y": 2141,
+      "x": 16,
+      "width": 328,
+      "height": 371,
+      "info": [
+        {
+          "name": "Home-r6 capacity row",
+          "bounds": {
+            "x": 14,
+            "y": 74,
+            "width": 237,
+            "height": 21
+          },
+          "problem": null
+        },
+        {
+          "name": "Home-r6 price information · not a button",
+          "bounds": {
+            "x": 14,
+            "y": 101,
+            "width": 300,
+            "height": 33
+          },
+          "problem": null
+        }
+      ]
+    },
+    {
+      "id": "iBWer",
+      "y": 2528,
+      "x": 16,
+      "width": 328,
+      "height": 371,
+      "info": [
+        {
+          "name": "Home-r6 capacity row",
+          "bounds": {
+            "x": 14,
+            "y": 74,
+            "width": 245,
+            "height": 21
+          },
+          "problem": null
+        },
+        {
+          "name": "Home-r6 price information · not a button",
+          "bounds": {
+            "x": 14,
+            "y": 101,
+            "width": 300,
+            "height": 33
+          },
+          "problem": null
+        }
+      ]
+    },
+    {
+      "id": "e0F4D5",
+      "y": 2915,
+      "x": 16,
+      "width": 328,
+      "height": 371,
+      "info": [
+        {
+          "name": "Home-r6 capacity row",
+          "bounds": {
+            "x": 14,
+            "y": 74,
+            "width": 243,
+            "height": 21
+          },
+          "problem": null
+        },
+        {
+          "name": "Home-r6 price information · not a button",
+          "bounds": {
+            "x": 14,
+            "y": 101,
+            "width": 300,
+            "height": 33
+          },
+          "problem": null
+        }
+      ]
+    },
+    {
+      "id": "LdQdU",
+      "y": 3302,
+      "x": 16,
+      "width": 328,
+      "height": 371,
+      "info": [
+        {
+          "name": "Home-r6 capacity row",
+          "bounds": {
+            "x": 14,
+            "y": 74,
+            "width": 244,
+            "height": 21
+          },
+          "problem": null
+        },
+        {
+          "name": "Home-r6 price information · not a button",
+          "bounds": {
+            "x": 14,
+            "y": 101,
+            "width": 300,
+            "height": 33
+          },
+          "problem": null
+        }
+      ]
+    },
+    {
+      "id": "o41TOI",
+      "y": 3689,
+      "x": 16,
+      "width": 328,
+      "height": 371,
+      "info": [
+        {
+          "name": "Home-r6 capacity row",
+          "bounds": {
+            "x": 14,
+            "y": 74,
+            "width": 245,
+            "height": 21
+          },
+          "problem": null
+        },
+        {
+          "name": "Home-r6 price information · not a button",
+          "bounds": {
+            "x": 14,
+            "y": 101,
+            "width": 300,
+            "height": 33
+          },
+          "problem": null
+        }
+      ]
+    },
+    {
+      "id": "x0n7Rj",
+      "y": 4076,
+      "x": 16,
+      "width": 328,
+      "height": 371,
+      "info": [
+        {
+          "name": "Home-r6 capacity row",
+          "bounds": {
+            "x": 14,
+            "y": 74,
+            "width": 243,
+            "height": 21
+          },
+          "problem": null
+        },
+        {
+          "name": "Home-r6 price information · not a button",
+          "bounds": {
+            "x": 14,
+            "y": 101,
+            "width": 300,
+            "height": 33
+          },
+          "problem": null
+        }
+      ]
+    },
+    {
+      "id": "u74EK",
+      "y": 4463,
+      "x": 16,
+      "width": 328,
+      "height": 371,
+      "info": [
+        {
+          "name": "Home-r6 capacity row",
+          "bounds": {
+            "x": 14,
+            "y": 74,
+            "width": 244,
+            "height": 21
+          },
+          "problem": null
+        },
+        {
+          "name": "Home-r6 price information · not a button",
+          "bounds": {
+            "x": 14,
+            "y": 101,
+            "width": 300,
+            "height": 33
+          },
+          "problem": null
+        }
+      ]
+    },
+    {
+      "id": "nhagp",
+      "y": 4850,
+      "x": 16,
+      "width": 328,
+      "height": 371,
+      "info": [
+        {
+          "name": "Home-r6 capacity row",
+          "bounds": {
+            "x": 14,
+            "y": 74,
+            "width": 245,
+            "height": 21
+          },
+          "problem": null
+        },
+        {
+          "name": "Home-r6 price information · not a button",
+          "bounds": {
+            "x": 14,
+            "y": 101,
+            "width": 300,
+            "height": 33
+          },
+          "problem": null
+        }
+      ]
+    },
+    {
+      "id": "PCbq8",
+      "y": 5237,
+      "x": 16,
+      "width": 328,
+      "height": 371,
+      "info": [
+        {
+          "name": "Home-r6 capacity row",
+          "bounds": {
+            "x": 14,
+            "y": 74,
+            "width": 243,
+            "height": 21
+          },
+          "problem": null
+        },
+        {
+          "name": "Home-r6 price information · not a button",
+          "bounds": {
+            "x": 14,
+            "y": 101,
+            "width": 300,
+            "height": 33
+          },
+          "problem": null
+        }
+      ]
+    },
+    {
+      "id": "XLBOY",
+      "y": 5624,
+      "x": 16,
+      "width": 328,
+      "height": 371,
+      "info": [
+        {
+          "name": "Home-r6 capacity row",
+          "bounds": {
+            "x": 14,
+            "y": 74,
+            "width": 244,
+            "height": 21
+          },
+          "problem": null
+        },
+        {
+          "name": "Home-r6 price information · not a button",
+          "bounds": {
+            "x": 14,
+            "y": 101,
+            "width": 300,
+            "height": 33
+          },
+          "problem": null
+        }
+      ]
+    }
+  ],
+  "action": {
+    "x": 214,
+    "y": 127,
+    "width": 130,
+    "height": 44
+  },
+  "pager": [
+    [
+      "หน้าก่อนหน้า",
+      72,
+      6019,
+      40,
+      44
+    ],
+    [
+      "หน้า 1",
+      116,
+      6019,
+      40,
+      44
+    ],
+    [
+      "หน้า 2",
+      160,
+      6019,
+      40,
+      44
+    ],
+    [
+      "หน้า 3",
+      204,
+      6019,
+      40,
+      44
+    ],
+    [
+      "หน้าถัดไป",
+      248,
+      6019,
+      40,
+      44
+    ]
+  ],
+  "intendedClipping": 21,
+  "unexpected": [],
+  "cardSource": "V0hJN",
+  "probe": {
+    "root": "OW6FH",
+    "probe": "f2dJJ6",
+    "card": "CdzsL",
+    "bounds": [
+      {
+        "name": "Home-r6 property title",
+        "rect": {
+          "x": 14,
+          "y": 14,
+          "width": 300,
+          "height": 27
+        },
+        "content": "พูลวิลล่าชมทะเลพัทยาเหนือ บ้านพักสไตล์ทรอปิคอลพร้อมสระว่ายน้ำส่วนตัว",
+        "problem": null
+      },
+      {
+        "name": "Home-r6 capacity row",
+        "rect": {
+          "x": 14,
+          "y": 74,
+          "width": 243,
+          "height": 21
+        },
+        "problem": null
+      },
+      {
+        "name": "Home-r6 price information · not a button",
+        "rect": {
+          "x": 14,
+          "y": 101,
+          "width": 300,
+          "height": 33
+        },
+        "problem": null
+      }
+    ],
+    "measurements": [
+      {
+        "content": "พูลวิลล่าชมทะเลพัทยาเหนือ บ้านพักสไตล์ทรอปิคอลพร้อมสระว่ายน้ำส่วนตัว",
+        "width": 551
+      },
+      {
+        "content": "พูลวิลล่าชมทะเลพัทยาเหนือ บ้านพัก…",
+        "width": 274
+      },
+      {
+        "content": "พูลวิลล่าชมทะเลพัทยาเหนือ…",
+        "width": 213
+      }
+    ]
+  },
+  "normalized_cards": [
+    {
+      "id": "jxVIx",
+      "name": "Mobile 360 · การ์ดชื่อยาวหลังปรับ",
+      "width": 360,
+      "height": 407,
+      "card": {
+        "bounds": {
+          "x": 16,
+          "y": 16,
+          "width": 328,
+          "height": 371
+        },
+        "clip": null
+      },
+      "unexpected": []
+    },
+    {
+      "id": "t8bGfh",
+      "name": "Mobile 360 · การ์ดข้อมูลห้องน้ำและราคาไม่ครบ",
+      "width": 360,
+      "height": 407,
+      "card": {
+        "bounds": {
+          "x": 16,
+          "y": 16,
+          "width": 328,
+          "height": 371
+        },
+        "clip": null
+      },
+      "unexpected": []
+    }
+  ],
+  "main_content_width": 300,
+  "full_name_width_px": 551,
+  "chosen_shown_name_width_px": 274,
+  "runtime_verified": false
+}
+

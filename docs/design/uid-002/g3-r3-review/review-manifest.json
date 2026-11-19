@@ -1,0 +1,174 @@
+{
+  "task_id": "UID-002",
+  "version": "G3-r3",
+  "recorded_on": "2026-11-19",
+  "status": "pending_owner_appearance_review",
+  "scope": "Search result loading, zero matches, and load failures at desktop and mobile widths",
+  "pencil_uri": "file:///C:/Users/chaym/Projects/paipak-web-app/docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "cAtDl",
+  "wireframe_baseline": "../g2-r30-review/interaction-contract.md",
+  "normal_page_reference": "../g3-r1-review/review-manifest.json",
+  "filter_appearance_acceptance": "../g3-r2-review/owner-filter-appearance-acceptance.json",
+  "results_per_page": 15,
+  "frames": [
+    {
+      "id": "lpwxh",
+      "name": "Desktop · กำลังโหลดครั้งแรก / หลังใช้ตัวกรอง",
+      "width": 1440,
+      "height": 900,
+      "skeletons": 15,
+      "scenario": "loading_results",
+      "device": "desktop",
+      "file": "lpwxh.png",
+      "export_scale": 1
+    },
+    {
+      "id": "CMHeR",
+      "name": "Mobile · กำลังโหลดครั้งแรก / หลังใช้ตัวกรอง",
+      "width": 390,
+      "height": 844,
+      "skeletons": 15,
+      "scenario": "loading_results",
+      "device": "mobile",
+      "file": "CMHeR.png",
+      "export_scale": 2
+    },
+    {
+      "id": "kWr44",
+      "name": "Desktop · ไม่พบตามเงื่อนไข · ไม่มีผลเดิม",
+      "width": 1440,
+      "height": 900,
+      "skeletons": 0,
+      "scenario": "empty_initial",
+      "device": "desktop",
+      "file": "kWr44.png",
+      "export_scale": 1
+    },
+    {
+      "id": "r2f4i",
+      "name": "Mobile · ไม่พบตามเงื่อนไข · ไม่มีผลเดิม",
+      "width": 390,
+      "height": 844,
+      "skeletons": 0,
+      "scenario": "empty_initial",
+      "device": "mobile",
+      "file": "r2f4i.png",
+      "export_scale": 2
+    },
+    {
+      "id": "jdepe",
+      "name": "Desktop · ไม่พบตามเงื่อนไขใหม่ · มีผลเดิม",
+      "width": 1440,
+      "height": 900,
+      "skeletons": 0,
+      "scenario": "empty_after_apply",
+      "device": "desktop",
+      "file": "jdepe.png",
+      "export_scale": 1
+    },
+    {
+      "id": "Q4q28i",
+      "name": "Mobile · ไม่พบตามเงื่อนไขใหม่ · มีผลเดิม",
+      "width": 390,
+      "height": 844,
+      "skeletons": 0,
+      "scenario": "empty_after_apply",
+      "device": "mobile",
+      "file": "Q4q28i.png",
+      "export_scale": 2
+    },
+    {
+      "id": "C6aadK",
+      "name": "Desktop · โหลดครั้งแรกไม่สำเร็จ",
+      "width": 1440,
+      "height": 900,
+      "skeletons": 0,
+      "scenario": "failure_initial",
+      "device": "desktop",
+      "file": "C6aadK.png",
+      "export_scale": 1
+    },
+    {
+      "id": "X1CmT",
+      "name": "Mobile · โหลดครั้งแรกไม่สำเร็จ",
+      "width": 390,
+      "height": 844,
+      "skeletons": 0,
+      "scenario": "failure_initial",
+      "device": "mobile",
+      "file": "X1CmT.png",
+      "export_scale": 2
+    },
+    {
+      "id": "Pjv0h",
+      "name": "Desktop · โหลดผลหลังใช้ตัวกรองไม่สำเร็จ",
+      "width": 1440,
+      "height": 900,
+      "skeletons": 0,
+      "scenario": "failure_after_apply",
+      "device": "desktop",
+      "file": "Pjv0h.png",
+      "export_scale": 1
+    },
+    {
+      "id": "Id3Vb",
+      "name": "Mobile · โหลดผลหลังใช้ตัวกรองไม่สำเร็จ",
+      "width": 390,
+      "height": 844,
+      "skeletons": 0,
+      "scenario": "failure_after_apply",
+      "device": "mobile",
+      "file": "Id3Vb.png",
+      "export_scale": 2
+    },
+    {
+      "id": "NtnrB",
+      "name": "Desktop · กำลังเปลี่ยนไปหน้า 2",
+      "width": 1440,
+      "height": 900,
+      "skeletons": 9,
+      "scenario": "loading_page",
+      "device": "desktop",
+      "file": "NtnrB.png",
+      "export_scale": 1
+    },
+    {
+      "id": "zIlpQ",
+      "name": "Mobile · กำลังเปลี่ยนไปหน้า 2",
+      "width": 390,
+      "height": 844,
+      "skeletons": 3,
+      "scenario": "loading_page",
+      "device": "mobile",
+      "file": "zIlpQ.png",
+      "export_scale": 2
+    },
+    {
+      "id": "vh7Dz",
+      "name": "Desktop · โหลดหน้า 2 ไม่สำเร็จ",
+      "width": 1440,
+      "height": 900,
+      "skeletons": 0,
+      "scenario": "failure_page",
+      "device": "desktop",
+      "file": "vh7Dz.png",
+      "export_scale": 1
+    },
+    {
+      "id": "q6Jdt4",
+      "name": "Mobile · โหลดหน้า 2 ไม่สำเร็จ",
+      "width": 390,
+      "height": 844,
+      "skeletons": 0,
+      "scenario": "failure_page",
+      "device": "mobile",
+      "file": "q6Jdt4.png",
+      "export_scale": 2
+    }
+  ],
+  "owner_approved": false,
+  "whole_g3_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}
+

@@ -1,0 +1,108 @@
+{
+  "task_id": "UID-002",
+  "version": "G3-r1",
+  "recorded_on": "2026-11-19",
+  "status": "partial_high_fidelity_pending_owner_review",
+  "scope": "Normal full results pages and primary filter appearance on Desktop and Mobile",
+  "pencil_uri": "file:///C:/Users/chaym/Projects/paipak-web-app/docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "DJPi5",
+  "results_per_page": 15,
+  "example_total_results": 36,
+  "wireframe_baseline": "../g2-r30-review/review-manifest.json",
+  "g2_owner_acceptance": "../g2-r30-review/owner-whole-g2-acceptance.json",
+  "continuation_record": "owner-g3-continuation.json",
+  "frames": [
+    {
+      "id": "GAOPB",
+      "name": "Desktop · ผลค้นหาเต็ม · UI G3-r1",
+      "width": 1440,
+      "height": 2260,
+      "file": "GAOPB.png",
+      "export_scale": 1
+    },
+    {
+      "id": "g4zFq",
+      "name": "Mobile · ผลค้นหาเต็ม · UI G3-r1",
+      "width": 390,
+      "height": 5699,
+      "file": "g4zFq.png",
+      "export_scale": 1
+    },
+    {
+      "id": "tG1OH",
+      "name": "Mobile · ตัวกรองเต็ม · UI G3-r1",
+      "width": 390,
+      "height": 1114,
+      "file": "tG1OH.png",
+      "export_scale": 1
+    },
+    {
+      "id": "KGf0a",
+      "name": "Desktop · ภาพจอ 1440×900 · UI G3-r1",
+      "width": 1440,
+      "height": 900,
+      "file": "KGf0a.png",
+      "export_scale": 2
+    },
+    {
+      "id": "TvVQI",
+      "name": "Mobile · ภาพจอ 390×844 · UI G3-r1",
+      "width": 390,
+      "height": 844,
+      "file": "TvVQI.png",
+      "export_scale": 2
+    },
+    {
+      "id": "FgpMf",
+      "name": "Mobile · เปิดตัวกรอง · UI G3-r1",
+      "width": 390,
+      "height": 844,
+      "file": "FgpMf.png",
+      "export_scale": 2
+    }
+  ],
+  "visual_sources": {
+    "desktop_header": "P8J24",
+    "mobile_header": "ogMRL",
+    "desktop_footer": "Xcsmd",
+    "mobile_footer": "D8ohL",
+    "home_reference": "eJBTs",
+    "photo_reference_nodes": [
+      "G5Lmw",
+      "a1eNrp",
+      "m74xk",
+      "CzP2Z"
+    ],
+    "photos": [
+      "../../dsd-001/papaipak-ui-assets/generated-3.png",
+      "../../dsd-001/papaipak-ui-assets/generated-5.png",
+      "../../dsd-001/papaipak-ui-assets/generated-1.png",
+      "../../dsd-001/papaipak-ui-assets/generated-4.png"
+    ],
+    "photo_status": "Existing generated Home study fixtures reused cyclically across mock listings; not real catalog photographs or production asset approval",
+    "font": "Mitr",
+    "primary_action": {
+      "fill": "#C5375B",
+      "label": "#FFFFFF",
+      "reference": "../../dsd-001/pink-button-rollout-r1/README.md"
+    }
+  },
+  "changes_from_g2": [
+    "Approved Home header and footer replace wireframe shared-chrome placeholders; Desktop content shifts down 62px and Mobile 13px to fit actual approved headers.",
+    "Main Desktop sidebar uses the accepted 660px scrollable viewport and persistent Apply actions; full filter contents are supplied separately.",
+    "Property card radius16, imagery from accepted Home mockups, navy titles and prices, metadata13 and price18; field order and 15-per-page behavior retained.",
+    "Favorite and next-photo controls use 44x44 native target frames."
+  ],
+  "remaining_g3_scope": [
+    "Detailed category and amenity panels",
+    "Location, date and guest selection popovers",
+    "Loading, no-match, request failure and image fallback Hi-Fi states",
+    "Pagination, detail return and remaining interaction/edge-state visuals",
+    "Hover/focus/pressed and further responsive/accessibility review"
+  ],
+  "whole_g3_approved": false,
+  "owner_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}
+

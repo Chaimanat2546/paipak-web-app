@@ -1,0 +1,15 @@
+{
+  "task_id": "UID-002",
+  "version": "G2-r27",
+  "recorded_on": "2026-11-19",
+  "owner_instruction": "โอเค",
+  "scope": "Displayed full-page revision applying the separately selected 16 results per page on Desktop and Mobile; example total of 36 results splits into 16, 16 and 4",
+  "pencil_group": "Eqswt",
+  "results_per_page": 16,
+  "prior_selection": "owner-results-per-page-decision.json",
+  "desktop_frames": ["VEnPg", "yOV06", "OnGcq"],
+  "mobile_frames": ["NuPxE", "oSEUw", "gL2DA"],
+  "whole_g2_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

@@ -1,0 +1,302 @@
+{
+  "root": "Liv9M",
+  "frames": [
+    {
+      "id": "X2V5Z6",
+      "name": "Desktop · หน้าค้นหาเต็ม · การ์ดแบบหน้าแรก",
+      "width": 1440,
+      "height": 2700
+    },
+    {
+      "id": "OAX3V",
+      "name": "Mobile · หน้าค้นหาเต็ม · การ์ดแบบหน้าแรก",
+      "width": 390,
+      "height": 6989
+    },
+    {
+      "id": "DQkpH",
+      "name": "Desktop · การ์ดบ้านแบบหน้าแรก",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "yagbw",
+      "name": "Desktop · เลือกสถานที่ · คำแนะนำ",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "KTarJ",
+      "name": "Desktop · เลือกวันเข้าพัก · วันเข้าอย่างเดียว",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "f8lEIS",
+      "name": "Desktop · เลือกจำนวนผู้เข้าพักและสัตว์เลี้ยง",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "IODB4",
+      "name": "Mobile · การ์ดบ้านแบบหน้าแรก",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "id": "MoCME",
+      "name": "Mobile · เลือกสถานที่ · คำแนะนำ",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "id": "mVbpx",
+      "name": "Mobile · เลือกวันเข้าพัก · วันเข้าอย่างเดียว",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "id": "XzI8t",
+      "name": "Mobile · เลือกจำนวนผู้เข้าพักและสัตว์เลี้ยง",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "cards": [
+    {
+      "id": "X2V5Z6",
+      "count": 15,
+      "card": [
+        340,
+        379
+      ],
+      "photoHeight": 227,
+      "body": [
+        [
+          "Home-r6 property title",
+          "บ้านสวนพัทยา",
+          18
+        ],
+        [
+          "Location value",
+          "พัทยา",
+          14
+        ],
+        [
+          "users value",
+          "12 คน",
+          14
+        ],
+        [
+          "bed-double value",
+          "4 ห้องนอน",
+          14
+        ],
+        [
+          "Starting qualifier",
+          "เริ่มต้น",
+          13
+        ],
+        [
+          "Nightly amount",
+          "฿8,900",
+          22
+        ],
+        [
+          "Nightly unit",
+          "/ คืน",
+          13
+        ]
+      ],
+      "icons": [
+        "map-pin",
+        "users",
+        "bed-double"
+      ],
+      "resultCount": "พบที่พัก 36 หลัง · แสดง 1–15"
+    },
+    {
+      "id": "OAX3V",
+      "count": 15,
+      "card": [
+        358,
+        391
+      ],
+      "photoHeight": 239,
+      "body": [
+        [
+          "Home-r6 property title",
+          "บ้านสวนพัทยา",
+          18
+        ],
+        [
+          "Location value",
+          "พัทยา",
+          14
+        ],
+        [
+          "users value",
+          "12 คน",
+          14
+        ],
+        [
+          "bed-double value",
+          "4 ห้องนอน",
+          14
+        ],
+        [
+          "Starting qualifier",
+          "เริ่มต้น",
+          13
+        ],
+        [
+          "Nightly amount",
+          "฿8,900",
+          22
+        ],
+        [
+          "Nightly unit",
+          "/ คืน",
+          13
+        ]
+      ],
+      "icons": [
+        "map-pin",
+        "users",
+        "bed-double"
+      ],
+      "resultCount": "แสดง 1–15 จาก 36 หลัง"
+    }
+  ],
+  "pickers": [
+    {
+      "id": "yagbw",
+      "name": "รายการแนะนำสถานที่",
+      "width": 402,
+      "height": 124,
+      "text": [
+        "พัทยา",
+        "พัทยาเหนือ"
+      ],
+      "selectedDateCount": 0,
+      "applyCommands": 1,
+      "controls": []
+    },
+    {
+      "id": "KTarJ",
+      "name": "ปฏิทินวันเข้าพัก",
+      "width": 562,
+      "height": 352,
+      "text": [
+        "วันเข้า 12 ธ.ค.  ·  วันออก (ไม่บังคับ)",
+        "1",
+        "8",
+        "1",
+        "8"
+      ],
+      "selectedDateCount": 1,
+      "applyCommands": 1,
+      "controls": []
+    },
+    {
+      "id": "f8lEIS",
+      "name": "เลือกจำนวนผู้เข้าพัก",
+      "width": 335,
+      "height": 177,
+      "text": [
+        "ผู้เข้าพัก",
+        "8",
+        "สัตว์เลี้ยง",
+        "1"
+      ],
+      "selectedDateCount": 0,
+      "applyCommands": 1,
+      "controls": [
+        [
+          44,
+          44
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          44,
+          44
+        ]
+      ]
+    },
+    {
+      "id": "MoCME",
+      "name": "รายการแนะนำสถานที่",
+      "width": 350,
+      "height": 124,
+      "text": [
+        "พัทยา",
+        "พัทยาเหนือ"
+      ],
+      "selectedDateCount": 0,
+      "applyCommands": 1,
+      "controls": []
+    },
+    {
+      "id": "mVbpx",
+      "name": "ปฏิทินวันเข้าพัก",
+      "width": 350,
+      "height": 420,
+      "text": [
+        "วันเข้า 12 ธ.ค.  ·  วันออก (ไม่บังคับ)",
+        "1",
+        "8"
+      ],
+      "selectedDateCount": 1,
+      "applyCommands": 1,
+      "controls": []
+    },
+    {
+      "id": "XzI8t",
+      "name": "เลือกจำนวนผู้เข้าพัก",
+      "width": 350,
+      "height": 177,
+      "text": [
+        "ผู้เข้าพัก",
+        "8",
+        "สัตว์เลี้ยง",
+        "1"
+      ],
+      "selectedDateCount": 0,
+      "applyCommands": 1,
+      "controls": [
+        [
+          44,
+          44
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          44,
+          44
+        ]
+      ]
+    }
+  ],
+  "clipped": 86,
+  "unexpected": [],
+  "disabledDotMasks": 62,
+  "photoDotCounts": [
+    4
+  ],
+  "reviewedDotGroups": 62,
+  "runtime_verified": false
+}
+

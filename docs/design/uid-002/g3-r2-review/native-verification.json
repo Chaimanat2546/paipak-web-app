@@ -1,0 +1,64 @@
+{
+  "root": "wt9xJ",
+  "frames": [
+    {
+      "id": "Vc0f8",
+      "name": "Mobile · ตัวกรองเต็ม · UI G3-r2",
+      "width": 390,
+      "height": 1114
+    },
+    {
+      "id": "F90Ewa",
+      "name": "Mobile · ขยายส่วนตัวกรองเพิ่มเติม · UI G3-r2",
+      "width": 390,
+      "height": 805
+    },
+    {
+      "id": "kP2za",
+      "name": "Mobile · หมวดบ้านพัก · UI G3-r2",
+      "width": 390,
+      "height": 664
+    },
+    {
+      "id": "gvvHG",
+      "name": "Mobile · สิ่งอำนวยความสะดวก · UI G3-r2",
+      "width": 390,
+      "height": 1264
+    },
+    {
+      "id": "sAk6H",
+      "name": "Desktop · ตัวกรองเต็ม · UI G3-r2",
+      "width": 268,
+      "height": 1110
+    },
+    {
+      "id": "Yh4Hl",
+      "name": "Desktop · หมวดบ้านพัก · UI G3-r2",
+      "width": 268,
+      "height": 660
+    },
+    {
+      "id": "S1aeEj",
+      "name": "Desktop · สิ่งอำนวยความสะดวก · UI G3-r2",
+      "width": 268,
+      "height": 1264
+    }
+  ],
+  "issues": [],
+  "amenityCounts": [
+    {
+      "id": "gvvHG",
+      "count": 15
+    },
+    {
+      "id": "S1aeEj",
+      "count": 15
+    }
+  ],
+  "recorded_on": "2026-11-19",
+  "category_options": 8,
+  "amenity_section_heading_weight": "400",
+  "amenity_section_heading_fill": "#65717D",
+  "runtime_verified": false
+}
+

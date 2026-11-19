@@ -1,0 +1,79 @@
+{
+  "task_id": "UID-002",
+  "version": "G3-r12",
+  "recorded_on": "2026-11-19",
+  "status": "detail_return_comparison_pending_owner",
+  "scope": "Compare applied criteria, page number, page position and carousel photo before opening a listing and after returning",
+  "pencil_uri": "file:///C:/Users/chaym/Projects/paipak-web-app/docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "sTGLK",
+  "frames": [
+    {
+      "id": "MjRcQ",
+      "name": "Desktop · ก่อนเปิดบ้านกับหลังย้อนกลับ",
+      "width": 1760,
+      "height": 716,
+      "crops": [
+        {
+          "id": "z81iS",
+          "name": "ภาพจริง · ก่อนเปิดรายละเอียด",
+          "x": 16,
+          "y": 151,
+          "width": 856,
+          "height": 550
+        },
+        {
+          "id": "uBtk5",
+          "name": "ภาพจริง · หลังย้อนกลับ",
+          "x": 888,
+          "y": 151,
+          "width": 856,
+          "height": 550
+        }
+      ],
+      "file": "MjRcQ.png",
+      "export_scale": 1
+    },
+    {
+      "id": "aFAPz",
+      "name": "Mobile · ก่อนเปิดบ้านกับหลังย้อนกลับ",
+      "width": 390,
+      "height": 1214,
+      "crops": [
+        {
+          "id": "jkYjr",
+          "name": "ภาพจริง · ก่อนเปิดรายละเอียด",
+          "x": 0,
+          "y": 127,
+          "width": 390,
+          "height": 505
+        },
+        {
+          "id": "Lo4v5",
+          "name": "ภาพจริง · หลังย้อนกลับ",
+          "x": 0,
+          "y": 696,
+          "width": 390,
+          "height": 505
+        }
+      ],
+      "file": "aFAPz.png",
+      "export_scale": 2
+    }
+  ],
+  "reference": "../g2-r30-review/interaction-contract.md",
+  "source_pairs": {
+    "desktop": [
+      "PQQ9r",
+      "A9qI3"
+    ],
+    "mobile": [
+      "PgBDD",
+      "e4RGd"
+    ]
+  },
+  "owner_approved": false,
+  "browser_history_verified": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}
+

@@ -1,0 +1,110 @@
+{
+  "task_id": "UID-002",
+  "version": "G4-r1",
+  "recorded_on": "2026-11-19",
+  "status": "owner_approved",
+  "scope": "Approved final Search design for Desktop 1440 and Mobile 390",
+  "pencil_uri": "file:///C:/Users/chaym/Projects/paipak-web-app/docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "mC4Ut",
+  "frames": [
+    {
+      "id": "m1NtzB",
+      "name": "Desktop · หน้าผลค้นหา · แบบสุดท้าย",
+      "width": 1440,
+      "height": 900,
+      "file": "m1NtzB.png",
+      "export_scale": 1
+    },
+    {
+      "id": "A5N19L",
+      "name": "Mobile · หน้าผลค้นหา · แบบสุดท้าย",
+      "width": 390,
+      "height": 844,
+      "file": "A5N19L.png",
+      "export_scale": 2
+    }
+  ],
+  "supporting_native_frames": [
+    {
+      "id": "eyt4G",
+      "name": "Mobile · เปิดตัวกรอง · แบบสุดท้าย",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "id": "iSluu",
+      "name": "Desktop · หน้าแรกเต็ม 15 หลัง · แบบสุดท้าย",
+      "width": 1440,
+      "height": 2700
+    },
+    {
+      "id": "b0Zg9",
+      "name": "Mobile · หน้าแรกเต็ม 15 หลัง · แบบสุดท้าย",
+      "width": 390,
+      "height": 6989
+    }
+  ],
+  "shared_components": {
+    "card": "V0hJN",
+    "skeleton": "cDP8I"
+  },
+  "main_viewports": {
+    "desktop": 1440,
+    "mobile": 390
+  },
+  "narrow_check": 360,
+  "results_per_page": 15,
+  "review_sources": [
+    {
+      "label": "ไวร์เฟรมและกติกาที่รับไว้",
+      "path": "../g2-r30-review/interaction-contract.md",
+      "scope": "ใช้ตัวกรองชุดเดียว ผลว่าง แยกล้มเหลว เปลี่ยนหน้าและการย้อนกลับ"
+    },
+    {
+      "label": "ตัวกรองเพิ่มเติม",
+      "path": "../g3-r2-review/README.md",
+      "scope": "หมวดบ้านพัก สิ่งอำนวยความสะดวก และห้องน้ำขั้นต่ำ"
+    },
+    {
+      "label": "หน้าผลค้นหาและสถานะ",
+      "path": "../g3-r7-review/README.md",
+      "scope": "15 / 15 / 6 หลัง การ์ดแบบหน้าแรกพร้อมห้องน้ำ ตัวกรอง Skeleton และข้อผิดพลาด"
+    },
+    {
+      "label": "จอ 360px และข้อมูลไม่ครบ",
+      "path": "../g3-r8-review/README.md",
+      "scope": "ทดสอบชื่อยาวหนึ่งบรรทัด ข้อมูลห้องน้ำและราคาที่ไม่ระบุ"
+    },
+    {
+      "label": "รูปเดียวและรูปสุดท้าย",
+      "path": "../g3-r9-review/README.md",
+      "scope": "ซ่อนตัวคุมถ้ามีรูปเดียว หรือปิดลูกศรถัดไปเมื่อถึงท้าย"
+    },
+    {
+      "label": "เปิดปิดตัวกรอง",
+      "path": "../g3-r10-review/README.md",
+      "scope": "วงโฟกัส จุดคืนโฟกัส และพื้นที่กดปิดแผงมือถือ 44px"
+    },
+    {
+      "label": "ลองโหลดหน้าเดิม",
+      "path": "../g3-r11-review/README.md",
+      "scope": "เก็บตัวกรองและเลขหน้าที่ขอ ยืนยันหน้าใหม่เมื่อสำเร็จ"
+    },
+    {
+      "label": "ย้อนจากรายละเอียด",
+      "path": "../g3-r12-review/README.md",
+      "scope": "คืนตัวกรอง เลขหน้า ตำแหน่งเลื่อน และรูปที่ดูไว้"
+    }
+  ],
+  "runtime_checks_pending": [
+    "Real listing and availability data",
+    "Apply and retry transport, URL changes, browser history and scroll/photo restoration",
+    "Tab flow, Escape, focus return and screen-reader announcements"
+  ],
+  "g3_whole_owner_approval_recorded": false,
+  "owner_approved": true,
+  "runtime_verified": false,
+  "design_task_status": "completed",
+  "approval_record": "owner-G4-r1-acceptance.json",
+  "implementation_status": "deferred_at_design_close"
+}

@@ -1,0 +1,25 @@
+{
+  "source_pairs_pixel_identical": true,
+  "composite_crop_comparisons": [
+    {
+      "file": "MjRcQ.png",
+      "crop_pixels": [
+        856,
+        550
+      ],
+      "mismatched_channels": 125,
+      "peak_channel_delta": 1
+    },
+    {
+      "file": "aFAPz.png",
+      "crop_pixels": [
+        780,
+        1010
+      ],
+      "mismatched_channels": 620,
+      "peak_channel_delta": 1
+    }
+  ],
+  "composite_max_accepted_channel_delta": 1,
+  "runtime_verified": false
+}

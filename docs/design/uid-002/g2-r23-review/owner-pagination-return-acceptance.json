@@ -1,0 +1,13 @@
+{
+  "task_id": "UID-002",
+  "version": "G2-r23",
+  "recorded_on": "2026-11-19",
+  "owner_instruction": "ได้",
+  "scope": "Displayed pagination and return-from-detail wireframes: preserve confirmed filters, select the new page and start its list after successful loading; on return restore the previous page, scroll position and viewed villa image",
+  "pencil_group": "u4hHt",
+  "pagination_mobile_frame": "QWolF",
+  "return_comparison_frame": "DyIht",
+  "whole_g2_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

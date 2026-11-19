@@ -1,0 +1,13 @@
+{
+  "task_id": "UID-002",
+  "version": "G2-r29",
+  "recorded_on": "2026-11-19",
+  "owner_instruction": "ต่อได้",
+  "scope": "Displayed six remaining filter cases: location suggestions, check-in without checkout, total guests and separate pets, reversed price range validation, clear draft before Apply, and zero results on first entry without previous results",
+  "pencil_group": "nDxKX",
+  "desktop_frames": ["jV2Y1", "uxJMd", "C7E0tj", "LfYXj", "Att6V", "s3Uuz"],
+  "mobile_frames": ["PKIO0", "dsQD8", "o8rVw", "b5J7pl", "Mjksm", "TgmHB"],
+  "whole_g2_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

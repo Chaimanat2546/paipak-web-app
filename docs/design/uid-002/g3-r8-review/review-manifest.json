@@ -1,0 +1,73 @@
+{
+  "task_id": "UID-002",
+  "version": "G3-r8",
+  "recorded_on": "2026-11-19",
+  "status": "narrow_card_review_pending_owner",
+  "scope": "Search results at Mobile 360 px and existing-card stress examples for long Thai titles and missing bath count / price",
+  "pencil_uri": "file:///C:/Users/chaym/Projects/paipak-web-app/docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "OW6FH",
+  "base_review_package": "../g3-r7-review/README.md",
+  "shared_card": "V0hJN",
+  "shared_header": "Ij68i",
+  "shared_footer": "Qoqpk",
+  "frames": [
+    {
+      "id": "f2dJJ6",
+      "name": "ตรวจโครงเดิมด้วยชื่อเต็ม",
+      "width": 360,
+      "height": 407,
+      "file": "f2dJJ6.png",
+      "export_scale": 2
+    },
+    {
+      "id": "jxVIx",
+      "name": "Mobile 360 · การ์ดชื่อยาวหลังปรับ",
+      "width": 360,
+      "height": 407,
+      "file": "jxVIx.png",
+      "export_scale": 2
+    },
+    {
+      "id": "t8bGfh",
+      "name": "Mobile 360 · การ์ดข้อมูลห้องน้ำและราคาไม่ครบ",
+      "width": 360,
+      "height": 407,
+      "file": "t8bGfh.png",
+      "export_scale": 2
+    },
+    {
+      "id": "h4PAgH",
+      "name": "Mobile 360 · หน้าผลค้นหาที่มีชื่อยาว",
+      "width": 360,
+      "height": 800,
+      "file": "h4PAgH.png",
+      "export_scale": 2
+    },
+    {
+      "id": "kePwq",
+      "name": "Mobile 360 · รายการและตัวเปลี่ยนหน้าท้ายหน้า",
+      "width": 360,
+      "height": 800,
+      "file": "kePwq.png",
+      "export_scale": 2
+    },
+    {
+      "id": "b4BDvl",
+      "name": "Mobile 360 · ผลค้นหาเต็ม 15 หลัง",
+      "width": 360,
+      "height": 6689,
+      "file": "b4BDvl.png",
+      "export_scale": 1
+    }
+  ],
+  "rules": {
+    "name": "Keep one visible line and add ellipsis on overflow. Keep the full listing name for its destination and accessible name. Static Pencil fixture uses a pre-truncated display string.",
+    "bathrooms_missing": "— ห้องน้ำ, in the existing room metadata row.",
+    "price_missing": "ยังไม่มีข้อมูลราคา in the existing price row. Suppress the amount and nightly unit when absent."
+  },
+  "owner_approved": false,
+  "whole_g3_approved": false,
+  "implementation_authorized": false,
+  "runtime_verified": false
+}
+

@@ -1,0 +1,31 @@
+{
+  "task": "UID-002",
+  "gate": "G4",
+  "version": "G4-r1",
+  "status": "owner_approved",
+  "design_task_status": "completed",
+  "approved_on": "2026-11-19",
+  "timezone": "Asia/Bangkok",
+  "owner_approval_quote": "โอเค แบบหน้าค้นหา G4-r1 ผ่านแล้ว เอาไปทำบนเว็บต่อได้เลย แล้วเช็กตัวกรอง ลองโหลดใหม่ และย้อนกลับจากหน้ารายละเอียดทั้ง Desktop กับ Mobile",
+  "owner_close_quote": "จบงานออกแบบ",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "approved_section": "mC4Ut"
+  },
+  "approved_frames": {
+    "desktop_1440": "m1NtzB",
+    "mobile_390": "A5N19L"
+  },
+  "review_package": "README.md",
+  "later_stages": {
+    "implementation": "deferred_at_design_close",
+    "runtime_verification": "pending"
+  },
+  "working_section_confirmation": {
+    "status": "owner_confirmed",
+    "confirmed_on": "2026-11-19",
+    "section": "MilCd",
+    "review_archive": "n7IcK8",
+    "owner_quote": "โอเค เอา Section MilCd เป็นชุดใช้จริงของ UID-002 เลย จบงานออกแบบหน้านี้ก่อน ยังไม่ต้องทำเว็บ"
+  }
+}

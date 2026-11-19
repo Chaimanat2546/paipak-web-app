@@ -1,0 +1,60 @@
+{
+  "task_id": "UID-002",
+  "version": "G3-r4",
+  "recorded_on": "2026-11-19",
+  "status": "pending_owner_appearance_review",
+  "owner_request": "โอเค ต่อสถานะรูปบ้านกำลังโหลดกับรูปโหลดไม่สำเร็จเลย ทั้ง Desktop กับ Mobile",
+  "pencil_uri": "file:///C:/Users/chaym/Projects/paipak-web-app/docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "X2OSED",
+  "scope": "Search result card photo loading and failure, with other photos and listing details visible",
+  "normal_page_reference": "../g3-r1-review/review-manifest.json",
+  "result_state_reference": "../g3-r3-review/review-manifest.json",
+  "wireframe_baseline": "../g2-r24-review/owner-image-states-acceptance.json",
+  "frames": [
+    {
+      "id": "LFOWK",
+      "name": "Desktop · รูปกำลังโหลด",
+      "width": 1440,
+      "height": 900,
+      "file": "LFOWK.png",
+      "export_scale": 1,
+      "device": "desktop",
+      "scenario": "image_loading"
+    },
+    {
+      "id": "M6vAH",
+      "name": "Mobile · รูปกำลังโหลด",
+      "width": 390,
+      "height": 844,
+      "file": "M6vAH.png",
+      "export_scale": 2,
+      "device": "mobile",
+      "scenario": "image_loading"
+    },
+    {
+      "id": "W5vt1",
+      "name": "Desktop · รูปโหลดไม่สำเร็จ",
+      "width": 1440,
+      "height": 900,
+      "file": "W5vt1.png",
+      "export_scale": 1,
+      "device": "desktop",
+      "scenario": "image_failure"
+    },
+    {
+      "id": "cC3aR",
+      "name": "Mobile · รูปโหลดไม่สำเร็จ",
+      "width": 390,
+      "height": 844,
+      "file": "cC3aR.png",
+      "export_scale": 2,
+      "device": "mobile",
+      "scenario": "image_failure"
+    }
+  ],
+  "whole_g3_approved": false,
+  "owner_approved": false,
+  "implementation_authorized": false,
+  "runtime_verified": false
+}
+

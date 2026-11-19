@@ -1,0 +1,13 @@
+{
+  "task_id": "UID-002",
+  "version": "G2-r18",
+  "recorded_on": "2026-11-19",
+  "owner_instruction": "โอเคละ",
+  "scope": "Displayed consolidated full-page wireframe composition on Desktop and Mobile, with latest filter panels, categories and accepted amenity icons",
+  "pencil_group": "a5JB4",
+  "full_page_frames": ["UmI40", "SgAOm"],
+  "displayed_sample_cards": 12,
+  "separate_reviews_remaining": ["loading and retry states", "no-results states", "pagination and return restoration behavior"],
+  "whole_g2_approved": false,
+  "implementation_authorized": false
+}

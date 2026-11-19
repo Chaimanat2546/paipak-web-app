@@ -1,0 +1,64 @@
+{
+  "task_id": "UID-002",
+  "version": "G3-r11",
+  "recorded_on": "2026-11-19",
+  "status": "retry_flow_appearance_pending_owner",
+  "scope": "Illustrate a failed request for page 2, retry with the same applied criteria and page, and successful load",
+  "pencil_uri": "file:///C:/Users/chaym/Projects/paipak-web-app/docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "zyryF",
+  "frames": [
+    {
+      "id": "avnMT",
+      "name": "Desktop · ลองโหลดหน้า 2 ด้วยเงื่อนไขเดิม",
+      "width": 1088,
+      "height": 852,
+      "file": "avnMT.png",
+      "export_scale": 1
+    },
+    {
+      "id": "Ktc6s",
+      "name": "Mobile · ลองโหลดหน้า 2 ด้วยเงื่อนไขเดิม",
+      "width": 390,
+      "height": 900,
+      "file": "Ktc6s.png",
+      "export_scale": 2
+    }
+  ],
+  "contract_reference": "../g2-r30-review/interaction-contract.md",
+  "contract_example": {
+    "failed_request": {
+      "page": 2,
+      "applied_filters": {
+        "location": "พัทยา",
+        "check_in": "2026-12-12",
+        "check_out": null,
+        "guests": 8,
+        "pets": 1
+      }
+    },
+    "retry_request": {
+      "page": 2,
+      "applied_filters": {
+        "location": "พัทยา",
+        "check_in": "2026-12-12",
+        "check_out": null,
+        "guests": 8,
+        "pets": 1
+      }
+    },
+    "displayed_page_during_retry": 1,
+    "displayed_page_after_success": 2,
+    "commit_url_after_success": true
+  },
+  "desktop_pager_repair": {
+    "frame": "olaXf",
+    "removed_layer": "H798P",
+    "next_control": "a5z0Y",
+    "updated_export": "../g3-r7-review/olaXf.png"
+  },
+  "owner_approved": false,
+  "network_retry_verified": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}
+
