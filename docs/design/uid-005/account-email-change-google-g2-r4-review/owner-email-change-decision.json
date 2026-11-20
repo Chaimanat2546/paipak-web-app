@@ -1,0 +1,13 @@
+{
+  "task_id": "UID-005",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "scope": "change_account_email_while_google_is_linked",
+  "owner_reply": "รับ",
+  "status": "owner_accepted_behavior_for_design",
+  "email_otp_before_confirmed_change": "Current verified account email",
+  "email_otp_after_confirmed_change": "New verified account email",
+  "google_link_after_confirmed_change": "Same existing linked Google identity and papaipak member",
+  "g2_visual_approval": false,
+  "implementation_authorized": false
+}

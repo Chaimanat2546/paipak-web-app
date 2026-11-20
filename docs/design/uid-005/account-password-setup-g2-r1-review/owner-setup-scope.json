@@ -1,0 +1,15 @@
+{
+  "task_id": "UID-005",
+  "scope_name": "ตั้งรหัสผ่านครั้งแรกจากหน้าความปลอดภัย",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "ได้",
+  "status": "owner_approved",
+  "eligible_account": "Member account with no existing local password",
+  "entry": "Set password action in account security",
+  "identity_confirmation": "Before the set-password form; method for Google-only account pending",
+  "fields": ["new_password", "confirm_new_password"],
+  "after_confirmed_success": "Show the Change password action",
+  "g2_visual_approval": false,
+  "implementation_authorized": false
+}

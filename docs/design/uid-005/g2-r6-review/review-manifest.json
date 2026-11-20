@@ -1,0 +1,148 @@
+{
+  "task_id": "UID-005",
+  "version": "G2-r6",
+  "status": "pending_owner_review",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "based_on": "../g2-r5-review/review-manifest.json",
+  "owner_direction": "อยากให้ร่างใหม่มีพื้นที่รูปโปรไฟล์ด้านซ้ายด้วยครับ",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section_id": "BVYo9",
+    "annotation_id": "d1UEA",
+    "prior_draft_section_id": "c2B8q"
+  },
+  "interaction_spec": "../g2-r2-review/interaction-spec.md",
+  "layout": {
+    "desktop_photo": "left_of_profile_fields",
+    "mobile_photo": "above_profile_fields",
+    "photo_placeholder": "initial_or_generic_member_icon",
+    "photo_control": "display_only_in_this_draft",
+    "desktop_booking_columns": 2,
+    "mobile_booking_columns": 1
+  },
+  "screens": [
+    {
+      "state": "view",
+      "desktop": {
+        "node_id": "kUClm",
+        "image": "kUClm.png",
+        "width_px": 1440,
+        "height_px": 1138
+      },
+      "mobile": {
+        "node_id": "rJXKO",
+        "image": "rJXKO.png",
+        "width_px": 390,
+        "height_px": 1474
+      }
+    },
+    {
+      "state": "missing",
+      "desktop": {
+        "node_id": "D9RsU",
+        "image": "D9RsU.png",
+        "width_px": 1440,
+        "height_px": 1138
+      },
+      "mobile": {
+        "node_id": "NPSLn",
+        "image": "NPSLn.png",
+        "width_px": 390,
+        "height_px": 1474
+      }
+    },
+    {
+      "state": "edit",
+      "desktop": {
+        "node_id": "eNYXb",
+        "image": "eNYXb.png",
+        "width_px": 1440,
+        "height_px": 1196
+      },
+      "mobile": {
+        "node_id": "RaswS",
+        "image": "RaswS.png",
+        "width_px": 390,
+        "height_px": 1602
+      }
+    },
+    {
+      "state": "add",
+      "desktop": {
+        "node_id": "ePaSQ",
+        "image": "ePaSQ.png",
+        "width_px": 1440,
+        "height_px": 1224
+      },
+      "mobile": {
+        "node_id": "rfF7x",
+        "image": "rfF7x.png",
+        "width_px": 390,
+        "height_px": 1620
+      }
+    },
+    {
+      "state": "busy",
+      "desktop": {
+        "node_id": "FiiQ1",
+        "image": "FiiQ1.png",
+        "width_px": 1440,
+        "height_px": 1226
+      },
+      "mobile": {
+        "node_id": "xPmcY",
+        "image": "xPmcY.png",
+        "width_px": 390,
+        "height_px": 1624
+      }
+    },
+    {
+      "state": "saved",
+      "desktop": {
+        "node_id": "W3eyaQ",
+        "image": "W3eyaQ.png",
+        "width_px": 1440,
+        "height_px": 1207
+      },
+      "mobile": {
+        "node_id": "haBRt",
+        "image": "haBRt.png",
+        "width_px": 390,
+        "height_px": 1541
+      }
+    },
+    {
+      "state": "invalid",
+      "desktop": {
+        "node_id": "ik14V",
+        "image": "ik14V.png",
+        "width_px": 1440,
+        "height_px": 1224
+      },
+      "mobile": {
+        "node_id": "NjM1Y",
+        "image": "NjM1Y.png",
+        "width_px": 390,
+        "height_px": 1620
+      }
+    },
+    {
+      "state": "failed",
+      "desktop": {
+        "node_id": "PWVAx",
+        "image": "PWVAx.png",
+        "width_px": 1440,
+        "height_px": 1314
+      },
+      "mobile": {
+        "node_id": "TZBQf",
+        "image": "TZBQf.png",
+        "width_px": 390,
+        "height_px": 1708
+      }
+    }
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

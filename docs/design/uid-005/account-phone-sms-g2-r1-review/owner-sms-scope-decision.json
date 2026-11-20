@@ -1,0 +1,15 @@
+{
+  "task_id": "UID-005",
+  "scope_name": "ยืนยันเบอร์ใหม่ด้วย SMS OTP",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "ได้",
+  "status": "owner_approved",
+  "purpose": ["add_phone_in_account_security", "change_phone_in_account_security"],
+  "new_number_activation": "After proof of access to the new number and confirmed account update",
+  "phone_sign_in": "phone_plus_password",
+  "sms_otp_for_sign_in": false,
+  "otp_format_and_limits": "pending_owner_review",
+  "g2_approved": false,
+  "provider_or_implementation_authorized": false
+}

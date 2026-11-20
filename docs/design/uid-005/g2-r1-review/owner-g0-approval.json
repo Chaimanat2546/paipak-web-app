@@ -1,0 +1,20 @@
+{
+  "task_id": "UID-005",
+  "page": "Customer profile",
+  "plan": "G0 plan-1",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "field_scope_owner_quote": "ขอบเขตแก้ข้อมูลตามข้อเสนอ",
+  "g0_owner_quote": "อนุมัติ",
+  "approval_status": "owner_approved",
+  "deliverable": "Editable Pencil wireframes for desktop 1440px and mobile 390px, with interaction annotations",
+  "field_permissions": {
+    "username": "view_add_edit",
+    "phone": "view_or_add_when_missing",
+    "account_email": "view"
+  },
+  "wireframe_review_status": "pending_owner_review",
+  "high_fidelity_authorized": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

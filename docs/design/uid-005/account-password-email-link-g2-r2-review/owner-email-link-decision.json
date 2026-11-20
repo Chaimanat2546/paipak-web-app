@@ -1,0 +1,14 @@
+{
+  "task_id": "UID-005",
+  "scope": "first_password_setup_by_email_link",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_selected_for_design",
+  "owner_quote": "ก็ทำแบบเมลปกติไง",
+  "interpretation": "Send a standard transactional email with a Set password link, as described immediately before the owner direction.",
+  "entry": "Signed-in Account Security for a member without a papaipak password",
+  "delivery": "Email associated with the existing account and eligible for password setup",
+  "applies_to_google_sign_in": false,
+  "g2_visual_approval": false,
+  "implementation_authorized": false
+}

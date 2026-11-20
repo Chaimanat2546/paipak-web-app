@@ -1,0 +1,15 @@
+{
+  "task_id": "UID-005",
+  "scope_name": "แยกการบันทึกโปรไฟล์จากการจัดการเบอร์",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "ฉันชอบแบบแยกมากกว่าไม่งั้นมันบันทึกแยกกัน",
+  "status": "owner_scope_direction",
+  "profile_save_fields": ["given_name", "family_name", "display_username"],
+  "profile_phone": "display_only",
+  "phone_add_or_change_entry": "account_security",
+  "phone_verification": "approved_sms_otp_flow",
+  "supersedes_flow": "../profile-phone-return-g2-r1-review/owner-flow-decision.json",
+  "g2_visual_approval": false,
+  "implementation_authorized": false
+}

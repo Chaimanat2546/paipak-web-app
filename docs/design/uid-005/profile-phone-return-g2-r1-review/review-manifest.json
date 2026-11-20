@@ -1,0 +1,104 @@
+{
+  "task_id": "UID-005",
+  "scope": "add_verified_phone_from_profile_and_resume_edit",
+  "version": "Profile Phone Return G2-r1",
+  "status": "pending_owner_review",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_flow_decision": "owner-flow-decision.json",
+  "interaction_spec": "interaction-spec.md",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section_id": "EmWir",
+    "notes_id": "hpMCT"
+  },
+  "source_reviews": [
+    "../g2-r7-review/review-manifest.json",
+    "../account-phone-sms-g2-r1-review/review-manifest.json",
+    "../account-phone-sms-g2-r2-review/review-manifest.json"
+  ],
+  "screens": [
+    {
+      "state": "entry",
+      "title": "เพิ่มเบอร์จากฟอร์มโปรไฟล์",
+      "desktop": {
+        "node_id": "gHH3y",
+        "image": "gHH3y.png",
+        "width_px": 1440,
+        "height_px": 1245
+      },
+      "mobile": {
+        "node_id": "iyxvB",
+        "image": "iyxvB.png",
+        "width_px": 390,
+        "height_px": 1641
+      }
+    },
+    {
+      "state": "phone_form",
+      "title": "กรอกเบอร์ใหม่ในขั้นที่ใช้ร่วมกัน",
+      "desktop": {
+        "node_id": "RMqjU",
+        "image": "RMqjU.png",
+        "width_px": 1440,
+        "height_px": 1056
+      },
+      "mobile": {
+        "node_id": "r5CLGv",
+        "image": "r5CLGv.png",
+        "width_px": 390,
+        "height_px": 1217
+      }
+    },
+    {
+      "state": "sms",
+      "title": "ยืนยันเบอร์ด้วย SMS จากโปรไฟล์",
+      "desktop": {
+        "node_id": "M9qdB",
+        "image": "M9qdB.png",
+        "width_px": 1440,
+        "height_px": 1111
+      },
+      "mobile": {
+        "node_id": "WvRHb",
+        "image": "WvRHb.png",
+        "width_px": 390,
+        "height_px": 1267
+      }
+    },
+    {
+      "state": "return_success",
+      "title": "กลับโปรไฟล์หลังยืนยันสำเร็จ",
+      "desktop": {
+        "node_id": "dimRe",
+        "image": "dimRe.png",
+        "width_px": 1440,
+        "height_px": 1261
+      },
+      "mobile": {
+        "node_id": "PyYvW",
+        "image": "PyYvW.png",
+        "width_px": 390,
+        "height_px": 1655
+      }
+    },
+    {
+      "state": "return_cancelled",
+      "title": "กลับโปรไฟล์หลังยกเลิกเพิ่มเบอร์",
+      "desktop": {
+        "node_id": "z9Gm2S",
+        "image": "z9Gm2S.png",
+        "width_px": 1440,
+        "height_px": 1245
+      },
+      "mobile": {
+        "node_id": "RG4IT",
+        "image": "RG4IT.png",
+        "width_px": 390,
+        "height_px": 1641
+      }
+    }
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

@@ -1,0 +1,54 @@
+{
+  "task_id": "UID-005",
+  "version": "G2-r11",
+  "scope": "profile_save_success_toast_aligned_to_admin_placement",
+  "status": "owner_approved",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_position_direction": "owner-toast-position-direction.json",
+  "owner_position_acceptance": "owner-g2-r11-placement-acceptance.json",
+  "admin_reference": "../../admin-category-g4-r1/README.md",
+  "source_profile_toast": "../g2-r10-toast-aligned-review/review-manifest.json",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "parent_section_id": "Rf1ie",
+    "board_id": "avx98"
+  },
+  "confirmed_save_only": true,
+  "placement": {
+    "desktop": {
+      "anchor": "viewport_top_right",
+      "top_px": 10,
+      "right_px": 18
+    },
+    "mobile": {
+      "anchor": "below_site_header",
+      "side_px": 16,
+      "gap_below_header_px": 10,
+      "review_header_height_px": 77
+    }
+  },
+  "automatic_dismiss_status": "owner_approved",
+  "automatic_dismiss_seconds": 5,
+  "owner_dismiss_timing_acceptance": "owner-g2-r11-dismiss-timing-acceptance.json",
+  "screens": [
+    {
+      "device": "desktop",
+      "node_id": "S7ZS3",
+      "toast_node_id": "JBi49",
+      "image": "S7ZS3.png",
+      "width_px": 1440,
+      "height_px": 900
+    },
+    {
+      "device": "mobile",
+      "node_id": "DnAR8",
+      "toast_node_id": "ivhTg",
+      "image": "DnAR8.png",
+      "width_px": 390,
+      "height_px": 844
+    }
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

@@ -1,0 +1,161 @@
+{
+  "task_id": "UID-005",
+  "version": "G2-r4",
+  "status": "pending_owner_review",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "based_on": "../g2-r3-review/review-manifest.json",
+  "owner_feedback": [
+    "ไม่อยากได้เป็น card อ่ะมันดูอึดอัด",
+    "ช่วยทำหน้าใหม่ได้ไหมมันเหมือนไม่ได้มาจากเว็บเดียวกันเลย"
+  ],
+  "g0_approval": "../g2-r1-review/owner-g0-approval.json",
+  "scope_amendment": "../g2-r2-review/owner-booking-profile-amendment.json",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section_id": "nZv7z",
+    "annotation_id": "EDI2h",
+    "favorite_headers": {
+      "desktop": "B5nmr",
+      "mobile": "K6gEN"
+    },
+    "shared_footer_refs": {
+      "desktop": "lb8Sc",
+      "mobile": "yFdEo"
+    },
+    "shared_button_refs": {
+      "primary": "OYERv",
+      "secondary": "QUcEl"
+    }
+  },
+  "visual_references": [
+    "../../uid-006/g4-r1-review/README.md",
+    "../../dsd-001/home-g4-r1/README.md",
+    "../../dsd-002/button-iconbutton-r1/owner-approval.json"
+  ],
+  "interaction_spec": "../g2-r2-review/interaction-spec.md",
+  "screens": [
+    {
+      "state": "view",
+      "desktop": {
+        "node_id": "v7c59N",
+        "image": "v7c59N.png",
+        "width_px": 1440,
+        "height_px": 1111
+      },
+      "mobile": {
+        "node_id": "r7TplG",
+        "image": "r7TplG.png",
+        "width_px": 390,
+        "height_px": 1430
+      }
+    },
+    {
+      "state": "missing",
+      "desktop": {
+        "node_id": "p1vVtM",
+        "image": "p1vVtM.png",
+        "width_px": 1440,
+        "height_px": 1111
+      },
+      "mobile": {
+        "node_id": "OVkmY",
+        "image": "OVkmY.png",
+        "width_px": 390,
+        "height_px": 1430
+      }
+    },
+    {
+      "state": "edit",
+      "desktop": {
+        "node_id": "AJYmo",
+        "image": "AJYmo.png",
+        "width_px": 1440,
+        "height_px": 1189
+      },
+      "mobile": {
+        "node_id": "JO8Yo",
+        "image": "JO8Yo.png",
+        "width_px": 390,
+        "height_px": 1588
+      }
+    },
+    {
+      "state": "add",
+      "desktop": {
+        "node_id": "hQOtR",
+        "image": "hQOtR.png",
+        "width_px": 1440,
+        "height_px": 1217
+      },
+      "mobile": {
+        "node_id": "J4zDJ9",
+        "image": "J4zDJ9.png",
+        "width_px": 390,
+        "height_px": 1616
+      }
+    },
+    {
+      "state": "busy",
+      "desktop": {
+        "node_id": "Abphd",
+        "image": "Abphd.png",
+        "width_px": 1440,
+        "height_px": 1219
+      },
+      "mobile": {
+        "node_id": "bLr6c",
+        "image": "bLr6c.png",
+        "width_px": 390,
+        "height_px": 1620
+      }
+    },
+    {
+      "state": "saved",
+      "desktop": {
+        "node_id": "turQ2",
+        "image": "turQ2.png",
+        "width_px": 1440,
+        "height_px": 1180
+      },
+      "mobile": {
+        "node_id": "NpoOy",
+        "image": "NpoOy.png",
+        "width_px": 390,
+        "height_px": 1497
+      }
+    },
+    {
+      "state": "invalid",
+      "desktop": {
+        "node_id": "VLfi4",
+        "image": "VLfi4.png",
+        "width_px": 1440,
+        "height_px": 1217
+      },
+      "mobile": {
+        "node_id": "ioujP",
+        "image": "ioujP.png",
+        "width_px": 390,
+        "height_px": 1616
+      }
+    },
+    {
+      "state": "failed",
+      "desktop": {
+        "node_id": "gfFKV",
+        "image": "gfFKV.png",
+        "width_px": 1440,
+        "height_px": 1307
+      },
+      "mobile": {
+        "node_id": "qZU7s",
+        "image": "qZU7s.png",
+        "width_px": 390,
+        "height_px": 1704
+      }
+    }
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

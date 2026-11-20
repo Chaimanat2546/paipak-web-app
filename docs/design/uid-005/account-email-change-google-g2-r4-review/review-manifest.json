@@ -1,0 +1,68 @@
+{
+  "task_id": "UID-005",
+  "version": "Account Email Change with Linked Google G2-r4",
+  "status": "owner_approved",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_behavior_decision": "owner-email-change-decision.json",
+  "owner_visual_acceptance": "owner-g2-r4-visual-acceptance.json",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "parent_section_id": "Rf1ie",
+    "board_id": "n1lvS7"
+  },
+  "source_email_flow": "../account-security-g2-r1-review/review-manifest.json",
+  "source_sign_in_methods": "../account-sign-in-methods-g2-r3-review/review-manifest.json",
+  "screens": [
+    {
+      "state": "before",
+      "title": "ก่อนเปลี่ยนอีเมล",
+      "desktop": {
+        "node_id": "sdoxv",
+        "image": "sdoxv.png",
+        "width_px": 1440,
+        "height_px": 1052
+      },
+      "mobile": {
+        "node_id": "N9Kszs",
+        "image": "N9Kszs.png",
+        "width_px": 390,
+        "height_px": 1351
+      }
+    },
+    {
+      "state": "verification",
+      "title": "ยืนยันอีเมลใหม่",
+      "desktop": {
+        "node_id": "UmAoM",
+        "image": "UmAoM.png",
+        "width_px": 1440,
+        "height_px": 1053
+      },
+      "mobile": {
+        "node_id": "uMccv",
+        "image": "uMccv.png",
+        "width_px": 390,
+        "height_px": 1248
+      }
+    },
+    {
+      "state": "after",
+      "title": "เปลี่ยนอีเมลสำเร็จ",
+      "desktop": {
+        "node_id": "McTvR",
+        "image": "McTvR.png",
+        "width_px": 1440,
+        "height_px": 1142
+      },
+      "mobile": {
+        "node_id": "gycVL",
+        "image": "gycVL.png",
+        "width_px": 390,
+        "height_px": 1437
+      }
+    }
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

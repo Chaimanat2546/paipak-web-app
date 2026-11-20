@@ -1,0 +1,56 @@
+{
+  "task_id": "UID-005",
+  "version": "G2-r10",
+  "scope": "profile_save_success_toast_on_current_account_layout",
+  "status": "pending_owner_review",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "position_proposal": {
+    "desktop": {
+      "anchor": "viewport_bottom_right",
+      "right_px": 32,
+      "bottom_px": 28
+    },
+    "mobile": {
+      "anchor": "viewport_bottom_inside_safe_area",
+      "side_px": 24,
+      "bottom_px_plus_safe_area": 16
+    }
+  },
+  "automatic_dismiss_proposal": {
+    "status": "pending_owner_decision",
+    "seconds": 5,
+    "pause_while": [
+      "pointer_over_toast",
+      "focus_inside_toast"
+    ]
+  },
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "parent_section_id": "Rf1ie",
+    "board_id": "zh1uc"
+  },
+  "source_toast": "../g2-r9-toast-review/review-manifest.json",
+  "source_current_profile": "../profile-phone-separation-g2-r1-review/review-manifest.json",
+  "mobile_review_scroll_offset_px": 88,
+  "screens": [
+    {
+      "device": "desktop",
+      "node_id": "QhzrY",
+      "toast_node_id": "I60rf",
+      "image": "QhzrY.png",
+      "width_px": 1440,
+      "height_px": 900
+    },
+    {
+      "device": "mobile",
+      "node_id": "p9Il7M",
+      "toast_node_id": "VqUtc",
+      "image": "p9Il7M.png",
+      "width_px": 390,
+      "height_px": 844
+    }
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

@@ -1,0 +1,30 @@
+{
+  "task_id": "UID-005",
+  "version": "G2-r11",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "รับ",
+  "status": "owner_approved",
+  "accepted_scope": "Displayed profile save success toast placement in both devices: top-right on desktop, below the site header on mobile.",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "parent_section_id": "Rf1ie",
+    "board_id": "avx98"
+  },
+  "reviewed_images": [
+    {
+      "node_id": "S7ZS3",
+      "image": "S7ZS3.png",
+      "sha256": "edd2870046cd182be834e649805e0b5a957420d29d0a5287e40642d4f1f82c0d"
+    },
+    {
+      "node_id": "DnAR8",
+      "image": "DnAR8.png",
+      "sha256": "9ee1753c4b58ff55c97ed1dbb34e4b26009c651841f45bc1dbdfbead4ba37472"
+    }
+  ],
+  "automatic_dismiss_status": "pending_owner_decision",
+  "whole_uid_005_g2_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

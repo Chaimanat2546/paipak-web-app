@@ -1,0 +1,66 @@
+{
+  "task_id": "UID-005",
+  "version": "Account Password Link Policy G2-r5",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "รับ",
+  "status": "owner_approved",
+  "accepted_scope": "Eight displayed desktop and mobile first-password setup wireframes for resend wait, send limit, ready form and minimum-length feedback, plus the email preview showing the one-hour link lifetime.",
+  "owner_policy": "owner-password-link-policy.json",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "parent_section_id": "Rf1ie",
+    "board_id": "k9n3uY"
+  },
+  "reviewed_images": [
+    {
+      "node_id": "P2XdS",
+      "image": "P2XdS.png",
+      "sha256": "0e7f909fe03f56f721eff3bf79e636101849e93f529c2ca4e4a45b34239cf7ca"
+    },
+    {
+      "node_id": "PLabK",
+      "image": "PLabK.png",
+      "sha256": "bb93f573562526fadfed22073e30a40801e956e80424ef15b7be21f9bcf654ad"
+    },
+    {
+      "node_id": "L9Lv6",
+      "image": "L9Lv6.png",
+      "sha256": "1e0919053ca0f61731d2f85f7a46bae9271e461e547d5b30e6b156b5f7ddd505"
+    },
+    {
+      "node_id": "V14euP",
+      "image": "V14euP.png",
+      "sha256": "98d10a6c6401841262774a80f637e915286605c42e3bd859347939b2ec51735d"
+    },
+    {
+      "node_id": "BS75p",
+      "image": "BS75p.png",
+      "sha256": "6b94c2986f39bce2cf1db564c1b12fcd8b4f58fa8599611c50485e9ea18686af"
+    },
+    {
+      "node_id": "O7ILqP",
+      "image": "O7ILqP.png",
+      "sha256": "c0af68169f10ed2346704542a42c6c92d17d1d01371f75b15486c418cd5b2ab9"
+    },
+    {
+      "node_id": "N2hsgS",
+      "image": "N2hsgS.png",
+      "sha256": "c22ba5de59f93bcfa84270b9e7db87351885ad113055d54a779a7157bb50be3d"
+    },
+    {
+      "node_id": "YUSvZ",
+      "image": "YUSvZ.png",
+      "sha256": "26d0cef53d5112d3c9a464aabe27a5252395f612fca70f958de8bf605ae5e0e9"
+    },
+    {
+      "node_id": "u6Vn8",
+      "image": "u6Vn8.png",
+      "sha256": "112458da72fd87cfafad6c931c76260156eccdd789b065670f607cbdfb53bd5e"
+    }
+  ],
+  "whole_uid_005_g2_approved": false,
+  "high_fidelity_authorized": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

@@ -1,0 +1,21 @@
+{
+  "task_id": "UID-005",
+  "scope_name": "กติกา SMS OTP สำหรับเพิ่มหรือเปลี่ยนเบอร์",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "ห้ใช้ชุดนี้กับ SMS OTP",
+  "status": "owner_approved",
+  "purpose": ["add_phone_in_account_security", "change_phone_in_account_security"],
+  "digits": 6,
+  "verify_automatically_when_complete": true,
+  "expires_minutes": 5,
+  "resend_wait_seconds": 60,
+  "show_countdown_in_resend_button": true,
+  "request_limit_per_hour": 10,
+  "incorrect_code_limit_per_hour": 20,
+  "count_separately_from_email_otp": true,
+  "invalidate_previous_code_when_new_code_issuance_is_confirmed": true,
+  "phone_sign_in": "phone_plus_password",
+  "g2_visual_approval": false,
+  "provider_or_implementation_authorized": false
+}

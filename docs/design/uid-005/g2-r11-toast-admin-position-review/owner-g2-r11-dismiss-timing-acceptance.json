@@ -1,0 +1,15 @@
+{
+  "task_id": "UID-005",
+  "version": "G2-r11",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "รับ",
+  "status": "owner_approved",
+  "scope": "Automatic dismissal of the profile save success toast on desktop and mobile",
+  "automatic_dismiss_seconds": 5,
+  "starts_when_toast_is_displayed": true,
+  "position_acceptance": "owner-g2-r11-placement-acceptance.json",
+  "whole_uid_005_g2_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

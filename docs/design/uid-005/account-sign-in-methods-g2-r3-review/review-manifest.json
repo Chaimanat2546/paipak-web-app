@@ -1,0 +1,74 @@
+{
+  "task_id": "UID-005",
+  "version": "Account Sign-in Methods G2-r3",
+  "status": "pending_owner_review",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_scope_decision": "owner-account-methods-decision.json",
+  "interaction_spec": "interaction-spec.md",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section_id": "g55hA"
+  },
+  "invariant": "All supported sign-in methods reach the same papaipak member and data",
+  "screens": [
+    {
+      "state": "email_otp_and_google",
+      "title": "อีเมลและ Google · ยังไม่มีรหัสผ่าน",
+      "has_password": false,
+      "google_linked": true,
+      "desktop": {
+        "node_id": "au2fm",
+        "image": "au2fm.png",
+        "width_px": 1440,
+        "height_px": 1050
+      },
+      "mobile": {
+        "node_id": "oFIbo",
+        "image": "oFIbo.png",
+        "width_px": 390,
+        "height_px": 1351
+      }
+    },
+    {
+      "state": "email_otp_and_password",
+      "title": "อีเมลและรหัสผ่าน · ยังไม่เชื่อม Google",
+      "has_password": true,
+      "google_linked": false,
+      "desktop": {
+        "node_id": "vODn6",
+        "image": "vODn6.png",
+        "width_px": 1440,
+        "height_px": 1033
+      },
+      "mobile": {
+        "node_id": "h6Q5Y",
+        "image": "h6Q5Y.png",
+        "width_px": 390,
+        "height_px": 1384
+      }
+    },
+    {
+      "state": "email_otp_password_and_google",
+      "title": "อีเมล รหัสผ่าน และ Google",
+      "has_password": true,
+      "google_linked": true,
+      "desktop": {
+        "node_id": "rmAx9",
+        "image": "rmAx9.png",
+        "width_px": 1440,
+        "height_px": 1031
+      },
+      "mobile": {
+        "node_id": "qb5mQ",
+        "image": "qb5mQ.png",
+        "width_px": 390,
+        "height_px": 1330
+      }
+    }
+  ],
+  "existing_password_setup": "../account-password-email-link-g2-r2-review/review-manifest.json",
+  "existing_google_link": "../account-google-link-g2-r2-review/review-manifest.json",
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

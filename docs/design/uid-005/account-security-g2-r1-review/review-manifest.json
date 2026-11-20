@@ -1,0 +1,282 @@
+{
+  "task_id": "UID-005",
+  "scope": "account_login_and_security",
+  "version": "Account Security G2-r1",
+  "status": "pending_owner_review",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_g0_approval": "owner-g0-approval.json",
+  "interaction_spec": "interaction-spec.md",
+  "profile_source": "../g2-r7-review/review-manifest.json",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section_id": "BMRV3",
+    "notes_id": "BnZe7"
+  },
+  "security_verification_proposals": {
+    "current_password": "password_change_example",
+    "existing_email_otp": "identity_verification_for_eligible_accounts",
+    "new_email_otp": "new_email_ownership_example",
+    "new_phone_ownership": "owner_method_pending"
+  },
+  "screens": [
+    {
+      "state": "entry",
+      "title": "ทางเข้าจากข้อมูลส่วนตัว",
+      "desktop": {
+        "node_id": "HWRcx",
+        "image": "HWRcx.png",
+        "width_px": 1440,
+        "height_px": 1138
+      },
+      "mobile": {
+        "node_id": "Z9kwBZ",
+        "image": "Z9kwBZ.png",
+        "width_px": 390,
+        "height_px": 1474
+      }
+    },
+    {
+      "state": "overview_local",
+      "title": "รายการวิธีเข้าสู่ระบบ · บัญชีมีรหัสผ่าน",
+      "desktop": {
+        "node_id": "ccBWK",
+        "image": "ccBWK.png",
+        "width_px": 1440,
+        "height_px": 1012
+      },
+      "mobile": {
+        "node_id": "Mt1Rc",
+        "image": "Mt1Rc.png",
+        "width_px": 390,
+        "height_px": 1309
+      }
+    },
+    {
+      "state": "overview_google",
+      "title": "รายการวิธีเข้าสู่ระบบ · ตัวอย่างบัญชี Google",
+      "desktop": {
+        "node_id": "emfFd",
+        "image": "emfFd.png",
+        "width_px": 1440,
+        "height_px": 1010
+      },
+      "mobile": {
+        "node_id": "OYrRP",
+        "image": "OYrRP.png",
+        "width_px": 390,
+        "height_px": 1255
+      }
+    },
+    {
+      "state": "password_form",
+      "title": "เปลี่ยนรหัสผ่าน",
+      "desktop": {
+        "node_id": "r4gMh",
+        "image": "r4gMh.png",
+        "width_px": 1440,
+        "height_px": 1172
+      },
+      "mobile": {
+        "node_id": "flJca",
+        "image": "flJca.png",
+        "width_px": 390,
+        "height_px": 1364
+      }
+    },
+    {
+      "state": "password_invalid",
+      "title": "รหัสผ่านใหม่ทั้งสองช่องไม่ตรงกัน",
+      "desktop": {
+        "node_id": "w338M",
+        "image": "w338M.png",
+        "width_px": 1440,
+        "height_px": 1194
+      },
+      "mobile": {
+        "node_id": "CGzzq",
+        "image": "CGzzq.png",
+        "width_px": 390,
+        "height_px": 1386
+      }
+    },
+    {
+      "state": "password_success",
+      "title": "เปลี่ยนรหัสผ่านสำเร็จ",
+      "desktop": {
+        "node_id": "HngNL",
+        "image": "HngNL.png",
+        "width_px": 1440,
+        "height_px": 1080
+      },
+      "mobile": {
+        "node_id": "Gu8qe",
+        "image": "Gu8qe.png",
+        "width_px": 390,
+        "height_px": 1373
+      }
+    },
+    {
+      "state": "reauth_start",
+      "title": "ขอยืนยันตัวตนก่อนเปลี่ยนอีเมลหรือเบอร์",
+      "desktop": {
+        "node_id": "kslPj",
+        "image": "kslPj.png",
+        "width_px": 1440,
+        "height_px": 977
+      },
+      "mobile": {
+        "node_id": "n9On2i",
+        "image": "n9On2i.png",
+        "width_px": 390,
+        "height_px": 1176
+      }
+    },
+    {
+      "state": "reauth_code",
+      "title": "กรอกรหัสยืนยันตัวตน",
+      "desktop": {
+        "node_id": "D7Fd0",
+        "image": "D7Fd0.png",
+        "width_px": 1440,
+        "height_px": 1018
+      },
+      "mobile": {
+        "node_id": "qyaVR",
+        "image": "qyaVR.png",
+        "width_px": 390,
+        "height_px": 1215
+      }
+    },
+    {
+      "state": "reauth_expired",
+      "title": "รหัสยืนยันตัวตนหมดอายุ",
+      "desktop": {
+        "node_id": "X84Zk1",
+        "image": "X84Zk1.png",
+        "width_px": 1440,
+        "height_px": 1065
+      },
+      "mobile": {
+        "node_id": "izI0u",
+        "image": "izI0u.png",
+        "width_px": 390,
+        "height_px": 1262
+      }
+    },
+    {
+      "state": "email_form",
+      "title": "กรอกอีเมลใหม่",
+      "desktop": {
+        "node_id": "awMji",
+        "image": "awMji.png",
+        "width_px": 1440,
+        "height_px": 1056
+      },
+      "mobile": {
+        "node_id": "i70Ih",
+        "image": "i70Ih.png",
+        "width_px": 390,
+        "height_px": 1250
+      }
+    },
+    {
+      "state": "email_code",
+      "title": "ยืนยันอีเมลใหม่",
+      "desktop": {
+        "node_id": "yv4Ah",
+        "image": "yv4Ah.png",
+        "width_px": 1440,
+        "height_px": 1053
+      },
+      "mobile": {
+        "node_id": "gTEHu",
+        "image": "gTEHu.png",
+        "width_px": 390,
+        "height_px": 1248
+      }
+    },
+    {
+      "state": "email_code_invalid",
+      "title": "รหัสยืนยันอีเมลใหม่ไม่ถูกต้อง",
+      "desktop": {
+        "node_id": "iguae",
+        "image": "iguae.png",
+        "width_px": 1440,
+        "height_px": 1053
+      },
+      "mobile": {
+        "node_id": "BqE5f",
+        "image": "BqE5f.png",
+        "width_px": 390,
+        "height_px": 1248
+      }
+    },
+    {
+      "state": "email_success",
+      "title": "เปลี่ยนอีเมลสำเร็จ",
+      "desktop": {
+        "node_id": "jcJZ3",
+        "image": "jcJZ3.png",
+        "width_px": 1440,
+        "height_px": 1080
+      },
+      "mobile": {
+        "node_id": "Vqp0f",
+        "image": "Vqp0f.png",
+        "width_px": 390,
+        "height_px": 1373
+      }
+    },
+    {
+      "state": "phone_change",
+      "title": "กรอกเบอร์ใหม่เพื่อขอเปลี่ยน",
+      "desktop": {
+        "node_id": "p4P9W5",
+        "image": "p4P9W5.png",
+        "width_px": 1440,
+        "height_px": 1056
+      },
+      "mobile": {
+        "node_id": "qWUeK",
+        "image": "qWUeK.png",
+        "width_px": 390,
+        "height_px": 1250
+      }
+    },
+    {
+      "state": "phone_add",
+      "title": "เพิ่มเบอร์เมื่อบัญชียังไม่มี",
+      "desktop": {
+        "node_id": "pzVV5",
+        "image": "pzVV5.png",
+        "width_px": 1440,
+        "height_px": 1056
+      },
+      "mobile": {
+        "node_id": "e8qynJ",
+        "image": "e8qynJ.png",
+        "width_px": 390,
+        "height_px": 1250
+      }
+    },
+    {
+      "state": "email_send_failed",
+      "title": "ส่งรหัสยืนยันอีเมลใหม่ไม่สำเร็จ",
+      "desktop": {
+        "node_id": "QKP9Z",
+        "image": "QKP9Z.png",
+        "width_px": 1440,
+        "height_px": 1138
+      },
+      "mobile": {
+        "node_id": "tnKPR",
+        "image": "tnKPR.png",
+        "width_px": 390,
+        "height_px": 1330
+      }
+    }
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

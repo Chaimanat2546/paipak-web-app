@@ -1,0 +1,139 @@
+{
+  "task_id": "UID-005",
+  "version": "G2-r1",
+  "status": "superseded",
+  "superseded_by": "../g2-r2-review/review-manifest.json",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "g0_approval": "owner-g0-approval.json",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section_id": "bKZIk",
+    "annotation_id": "DuVuh"
+  },
+  "interaction_spec": "interaction-spec.md",
+  "screens": [
+    {
+      "state": "view",
+      "desktop": {
+        "node_id": "Bmj4t",
+        "image": "Bmj4t.png",
+        "width_px": 1440,
+        "height_px": 816
+      },
+      "mobile": {
+        "node_id": "p8ZMb",
+        "image": "p8ZMb.png",
+        "width_px": 390,
+        "height_px": 916
+      }
+    },
+    {
+      "state": "missing",
+      "desktop": {
+        "node_id": "T70DNO",
+        "image": "T70DNO.png",
+        "width_px": 1440,
+        "height_px": 816
+      },
+      "mobile": {
+        "node_id": "lLyYg",
+        "image": "lLyYg.png",
+        "width_px": 390,
+        "height_px": 916
+      }
+    },
+    {
+      "state": "edit",
+      "desktop": {
+        "node_id": "BFVTP",
+        "image": "BFVTP.png",
+        "width_px": 1440,
+        "height_px": 816
+      },
+      "mobile": {
+        "node_id": "v44Ww1",
+        "image": "v44Ww1.png",
+        "width_px": 390,
+        "height_px": 916
+      }
+    },
+    {
+      "state": "add",
+      "desktop": {
+        "node_id": "Ck88U",
+        "image": "Ck88U.png",
+        "width_px": 1440,
+        "height_px": 816
+      },
+      "mobile": {
+        "node_id": "KKN41",
+        "image": "KKN41.png",
+        "width_px": 390,
+        "height_px": 916
+      }
+    },
+    {
+      "state": "busy",
+      "desktop": {
+        "node_id": "t44qT",
+        "image": "t44qT.png",
+        "width_px": 1440,
+        "height_px": 816
+      },
+      "mobile": {
+        "node_id": "bMCLT",
+        "image": "bMCLT.png",
+        "width_px": 390,
+        "height_px": 916
+      }
+    },
+    {
+      "state": "saved",
+      "desktop": {
+        "node_id": "s28Dh",
+        "image": "s28Dh.png",
+        "width_px": 1440,
+        "height_px": 816
+      },
+      "mobile": {
+        "node_id": "WfQK8",
+        "image": "WfQK8.png",
+        "width_px": 390,
+        "height_px": 916
+      }
+    },
+    {
+      "state": "invalid",
+      "desktop": {
+        "node_id": "eNo7N",
+        "image": "eNo7N.png",
+        "width_px": 1440,
+        "height_px": 816
+      },
+      "mobile": {
+        "node_id": "u6gJvV",
+        "image": "u6gJvV.png",
+        "width_px": 390,
+        "height_px": 916
+      }
+    },
+    {
+      "state": "failed",
+      "desktop": {
+        "node_id": "Hp76t",
+        "image": "Hp76t.png",
+        "width_px": 1440,
+        "height_px": 816
+      },
+      "mobile": {
+        "node_id": "ioVKI",
+        "image": "ioVKI.png",
+        "width_px": 390,
+        "height_px": 916
+      }
+    }
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

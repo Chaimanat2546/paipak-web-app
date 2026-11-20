@@ -1,0 +1,118 @@
+{
+  "task_id": "UID-005",
+  "scope": "separate_profile_save_from_account_phone_verification",
+  "version": "Profile and Phone Separation G2-r1",
+  "status": "pending_owner_review",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_scope_decision": "owner-scope-decision.json",
+  "supersedes_for_phone_flow": "../profile-phone-return-g2-r1-review/review-manifest.json",
+  "interaction_spec": "interaction-spec.md",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section_id": "tZP4a",
+    "notes_id": "EuOrd"
+  },
+  "profile_phone_mode": "display_only",
+  "phone_manage_route": "account_security",
+  "screens": [
+    {
+      "state": "profile_view_missing",
+      "title": "ดูโปรไฟล์เมื่อยังไม่มีเบอร์",
+      "desktop": {
+        "node_id": "m5Ickv",
+        "image": "m5Ickv.png",
+        "width_px": 1440,
+        "height_px": 1138
+      },
+      "mobile": {
+        "node_id": "WBUra",
+        "image": "WBUra.png",
+        "width_px": 390,
+        "height_px": 1474
+      }
+    },
+    {
+      "state": "profile_view_existing",
+      "title": "ดูโปรไฟล์เมื่อมีเบอร์แล้ว",
+      "desktop": {
+        "node_id": "pmOvf",
+        "image": "pmOvf.png",
+        "width_px": 1440,
+        "height_px": 1138
+      },
+      "mobile": {
+        "node_id": "o8bJS",
+        "image": "o8bJS.png",
+        "width_px": 390,
+        "height_px": 1474
+      }
+    },
+    {
+      "state": "profile_edit_missing",
+      "title": "แก้ไขโปรไฟล์เมื่อยังไม่มีเบอร์",
+      "desktop": {
+        "node_id": "GmRjF",
+        "image": "GmRjF.png",
+        "width_px": 1440,
+        "height_px": 1218
+      },
+      "mobile": {
+        "node_id": "KNdmt",
+        "image": "KNdmt.png",
+        "width_px": 390,
+        "height_px": 1614
+      }
+    },
+    {
+      "state": "profile_edit_existing",
+      "title": "แก้ไขโปรไฟล์เมื่อมีเบอร์แล้ว",
+      "desktop": {
+        "node_id": "OAIm6",
+        "image": "OAIm6.png",
+        "width_px": 1440,
+        "height_px": 1196
+      },
+      "mobile": {
+        "node_id": "FnV0n",
+        "image": "FnV0n.png",
+        "width_px": 390,
+        "height_px": 1602
+      }
+    },
+    {
+      "state": "security_add",
+      "title": "เพิ่มเบอร์จากหน้าการเข้าสู่ระบบ",
+      "desktop": {
+        "node_id": "yQRsb",
+        "image": "yQRsb.png",
+        "width_px": 1440,
+        "height_px": 1010
+      },
+      "mobile": {
+        "node_id": "KWag2",
+        "image": "KWag2.png",
+        "width_px": 390,
+        "height_px": 1255
+      }
+    },
+    {
+      "state": "security_change",
+      "title": "เปลี่ยนเบอร์จากหน้าการเข้าสู่ระบบ",
+      "desktop": {
+        "node_id": "R0B5K",
+        "image": "R0B5K.png",
+        "width_px": 1440,
+        "height_px": 1014
+      },
+      "mobile": {
+        "node_id": "nsHCQ",
+        "image": "nsHCQ.png",
+        "width_px": 390,
+        "height_px": 1363
+      }
+    }
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

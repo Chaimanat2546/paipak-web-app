@@ -1,0 +1,1465 @@
+{
+  "task_id": "UID-005",
+  "version": "G2-r12",
+  "status": "pending_owner_review",
+  "current_profile_and_account_g2": true,
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_consolidation_direction": "ทำ G2 ให้ใช้อันเดียวกันตอนนี้มีแบบที่ไม่ได้ใช้อันเดียวกันให้เหลืออันสุดท้าย",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section_id": "Rf1ie",
+    "hidden_archive_id": "Syki1",
+    "archived_board_ids": [
+      "tZP4a",
+      "ljHx4",
+      "ibNjU",
+      "Z7WZa",
+      "Ey3mz",
+      "Qy7S3",
+      "g55hA",
+      "PfVVM",
+      "ROXhI",
+      "xaSld",
+      "BMRV3",
+      "R5IaVO",
+      "n1lvS7",
+      "k9n3uY",
+      "zh1uc",
+      "avx98",
+      "bKZIk",
+      "j8fGv6",
+      "mKYvM",
+      "nZv7z",
+      "c2B8q",
+      "BVYo9",
+      "Q6i0L",
+      "EmWir"
+    ]
+  },
+  "account_navigation": [
+    "ข้อมูลส่วนตัว",
+    "การเข้าสู่ระบบ",
+    "รายการจองของฉัน"
+  ],
+  "groups": [
+    {
+      "key": "profile",
+      "title": "ข้อมูลส่วนตัวและข้อมูลที่ใช้จอง",
+      "pencil_group_id": "OZnjI",
+      "states": [
+        {
+          "state": "profile_view_existing",
+          "title": "ดูโปรไฟล์เมื่อมีเบอร์แล้ว",
+          "desktop": {
+            "node_id": "C7k9wg",
+            "width_px": 1440,
+            "height_px": 1138,
+            "image": "C7k9wg.png"
+          },
+          "mobile": {
+            "node_id": "jrcRk",
+            "width_px": 390,
+            "height_px": 1474,
+            "image": "jrcRk.png"
+          },
+          "source": {
+            "review_manifest": "../profile-phone-separation-g2-r1-review/review-manifest.json",
+            "desktop_node": "pmOvf",
+            "mobile_node": "o8bJS"
+          }
+        },
+        {
+          "state": "profile_view_missing",
+          "title": "ดูโปรไฟล์เมื่อยังไม่มีเบอร์",
+          "desktop": {
+            "node_id": "Q0tA0",
+            "width_px": 1440,
+            "height_px": 1138
+          },
+          "mobile": {
+            "node_id": "n6bAX",
+            "width_px": 390,
+            "height_px": 1474
+          },
+          "source": {
+            "review_manifest": "../profile-phone-separation-g2-r1-review/review-manifest.json",
+            "desktop_node": "m5Ickv",
+            "mobile_node": "WBUra"
+          }
+        },
+        {
+          "state": "missing",
+          "title": "ดูโปรไฟล์เมื่อข้อมูลสำหรับจองยังไม่ครบ",
+          "desktop": {
+            "node_id": "qHoIQ",
+            "width_px": 1440,
+            "height_px": 1138
+          },
+          "mobile": {
+            "node_id": "ENVIY",
+            "width_px": 390,
+            "height_px": 1474
+          },
+          "source": {
+            "review_manifest": "../g2-r7-review/review-manifest.json",
+            "desktop_node": "XqVqL",
+            "mobile_node": "J8KL0F"
+          }
+        },
+        {
+          "state": "profile_edit_existing",
+          "title": "แก้ไขโปรไฟล์เมื่อมีเบอร์แล้ว",
+          "desktop": {
+            "node_id": "ZogzT",
+            "width_px": 1440,
+            "height_px": 1196
+          },
+          "mobile": {
+            "node_id": "U36pNT",
+            "width_px": 390,
+            "height_px": 1602
+          },
+          "source": {
+            "review_manifest": "../profile-phone-separation-g2-r1-review/review-manifest.json",
+            "desktop_node": "OAIm6",
+            "mobile_node": "FnV0n"
+          }
+        },
+        {
+          "state": "profile_edit_missing",
+          "title": "แก้ไขโปรไฟล์เมื่อยังไม่มีเบอร์",
+          "desktop": {
+            "node_id": "YEnqF",
+            "width_px": 1440,
+            "height_px": 1218
+          },
+          "mobile": {
+            "node_id": "RkfQz",
+            "width_px": 390,
+            "height_px": 1614
+          },
+          "source": {
+            "review_manifest": "../profile-phone-separation-g2-r1-review/review-manifest.json",
+            "desktop_node": "GmRjF",
+            "mobile_node": "KNdmt"
+          }
+        },
+        {
+          "state": "edit_clean",
+          "title": "ยังไม่มีข้อมูลเปลี่ยนแปลง",
+          "desktop": {
+            "node_id": "wFbKY",
+            "width_px": 1440,
+            "height_px": 1196
+          },
+          "mobile": {
+            "node_id": "kO1wD",
+            "width_px": 390,
+            "height_px": 1602
+          },
+          "source": {
+            "review_manifest": "../g2-r8-review/review-manifest.json",
+            "desktop_node": "yBVda",
+            "mobile_node": "Ff1ba"
+          }
+        },
+        {
+          "state": "invalid",
+          "title": "ชื่อผู้ใช้ผิดรูปแบบ",
+          "desktop": {
+            "node_id": "U4vwfK",
+            "width_px": 1440,
+            "height_px": 1218
+          },
+          "mobile": {
+            "node_id": "gY8fB",
+            "width_px": 390,
+            "height_px": 1614
+          },
+          "source": {
+            "review_manifest": "../g2-r7-review/review-manifest.json",
+            "desktop_node": "uF10Q",
+            "mobile_node": "n4GVL0"
+          }
+        },
+        {
+          "state": "busy",
+          "title": "กำลังบันทึกโปรไฟล์",
+          "desktop": {
+            "node_id": "rXA42",
+            "width_px": 1440,
+            "height_px": 1220
+          },
+          "mobile": {
+            "node_id": "Xy1PS",
+            "width_px": 390,
+            "height_px": 1618
+          },
+          "source": {
+            "review_manifest": "../g2-r7-review/review-manifest.json",
+            "desktop_node": "y0UyTM",
+            "mobile_node": "zEGK8"
+          }
+        },
+        {
+          "state": "saved_toast",
+          "title": "บันทึกโปรไฟล์สำเร็จและแสดง Toast",
+          "desktop": {
+            "node_id": "w0Lopy",
+            "width_px": 1440,
+            "height_px": 900,
+            "image": "w0Lopy.png"
+          },
+          "mobile": {
+            "node_id": "Ri4wf",
+            "width_px": 390,
+            "height_px": 844,
+            "image": "Ri4wf.png"
+          },
+          "source": {
+            "review_manifest": "../g2-r11-toast-admin-position-review/review-manifest.json",
+            "desktop_node": "S7ZS3",
+            "mobile_node": "DnAR8"
+          }
+        },
+        {
+          "state": "failed",
+          "title": "บันทึกโปรไฟล์ไม่สำเร็จ",
+          "desktop": {
+            "node_id": "WXq7t",
+            "width_px": 1440,
+            "height_px": 1308
+          },
+          "mobile": {
+            "node_id": "n6ZwV6",
+            "width_px": 390,
+            "height_px": 1702
+          },
+          "source": {
+            "review_manifest": "../g2-r7-review/review-manifest.json",
+            "desktop_node": "sbOHK",
+            "mobile_node": "W1JqQf"
+          }
+        },
+        {
+          "state": "save_unknown",
+          "title": "ยังยืนยันผลการบันทึกไม่ได้",
+          "desktop": {
+            "node_id": "T6p9O3",
+            "width_px": 1440,
+            "height_px": 1308,
+            "image": "T6p9O3.png"
+          },
+          "mobile": {
+            "node_id": "qB9vy",
+            "width_px": 390,
+            "height_px": 1650,
+            "image": "qB9vy.png"
+          },
+          "source": {
+            "review_manifest": "../g2-r8-review/review-manifest.json",
+            "desktop_node": "n2cRv",
+            "mobile_node": "tHaRO"
+          }
+        },
+        {
+          "state": "leave_dirty",
+          "title": "ออกจากหน้าขณะมีข้อมูลที่แก้ไว้",
+          "desktop": {
+            "node_id": "xjsWg",
+            "width_px": 1440,
+            "height_px": 1218
+          },
+          "mobile": {
+            "node_id": "T8f434",
+            "width_px": 390,
+            "height_px": 1614
+          },
+          "source": {
+            "review_manifest": "../g2-r8-review/review-manifest.json",
+            "desktop_node": "Ee0LO",
+            "mobile_node": "LkW9H"
+          }
+        },
+        {
+          "state": "loading",
+          "title": "กำลังโหลดข้อมูลส่วนตัว",
+          "desktop": {
+            "node_id": "xmNHG",
+            "width_px": 1440,
+            "height_px": 898
+          },
+          "mobile": {
+            "node_id": "FY1oX",
+            "width_px": 390,
+            "height_px": 1124
+          },
+          "source": {
+            "review_manifest": "../g2-r8-review/review-manifest.json",
+            "desktop_node": "M3Hwqi",
+            "mobile_node": "rDvTn"
+          }
+        },
+        {
+          "state": "load_error",
+          "title": "โหลดข้อมูลส่วนตัวไม่สำเร็จ",
+          "desktop": {
+            "node_id": "qxr5W",
+            "width_px": 1440,
+            "height_px": 957
+          },
+          "mobile": {
+            "node_id": "B3cwuX",
+            "width_px": 390,
+            "height_px": 1061
+          },
+          "source": {
+            "review_manifest": "../g2-r8-review/review-manifest.json",
+            "desktop_node": "VGLQv",
+            "mobile_node": "yfzft"
+          }
+        },
+        {
+          "state": "auth_required",
+          "title": "เข้าสู่ระบบเพื่อดูโปรไฟล์",
+          "desktop": {
+            "node_id": "MSZ2d",
+            "width_px": 1440,
+            "height_px": 889
+          },
+          "mobile": {
+            "node_id": "lwgvs",
+            "width_px": 390,
+            "height_px": 997
+          },
+          "source": {
+            "review_manifest": "../g2-r8-review/review-manifest.json",
+            "desktop_node": "HcjgH",
+            "mobile_node": "WI32s"
+          }
+        },
+        {
+          "state": "session_expired",
+          "title": "เซสชันหมดอายุ",
+          "desktop": {
+            "node_id": "UIYOX",
+            "width_px": 1440,
+            "height_px": 889
+          },
+          "mobile": {
+            "node_id": "gb3nF",
+            "width_px": 390,
+            "height_px": 997
+          },
+          "source": {
+            "review_manifest": "../g2-r8-review/review-manifest.json",
+            "desktop_node": "QiEgX",
+            "mobile_node": "tJFIA"
+          }
+        }
+      ],
+      "supporting_artifacts": [
+        {
+          "title": "สถานะพื้นที่รูปโปรไฟล์",
+          "node_id": "bhFX5",
+          "width_px": 1180,
+          "height_px": 341,
+          "source_node": "n3bqb0",
+          "source_manifest": "../g2-r8-review/review-manifest.json"
+        }
+      ]
+    },
+    {
+      "key": "sms",
+      "title": "เพิ่มหรือเปลี่ยนเบอร์ด้วย SMS",
+      "pencil_group_id": "ukWHH",
+      "states": [
+        {
+          "state": "add_entry",
+          "title": "เพิ่มเบอร์และขอรหัส SMS",
+          "desktop": {
+            "node_id": "HFV12",
+            "width_px": 1440,
+            "height_px": 1056
+          },
+          "mobile": {
+            "node_id": "LS2xz",
+            "width_px": 390,
+            "height_px": 1250
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r1-review/review-manifest.json",
+            "desktop_node": "TgW95",
+            "mobile_node": "S3Znem"
+          }
+        },
+        {
+          "state": "change_entry",
+          "title": "เปลี่ยนเบอร์และขอรหัส SMS",
+          "desktop": {
+            "node_id": "vm6tS",
+            "width_px": 1440,
+            "height_px": 1056
+          },
+          "mobile": {
+            "node_id": "YQ1NW",
+            "width_px": 390,
+            "height_px": 1250
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r1-review/review-manifest.json",
+            "desktop_node": "hP4Yq",
+            "mobile_node": "kTsF7"
+          }
+        },
+        {
+          "state": "country_selector",
+          "title": "เปิดตัวเลือกประเทศของเบอร์โทรใหม่",
+          "desktop": {
+            "node_id": "yyCau",
+            "width_px": 1440,
+            "height_px": 1165,
+            "image": "yyCau.png"
+          },
+          "mobile": {
+            "node_id": "TeMSO",
+            "width_px": 390,
+            "height_px": 1359,
+            "image": "TeMSO.png"
+          },
+          "source": {
+            "review_manifest": "../g2-r8-review/review-manifest.json",
+            "desktop_node": "TgW95",
+            "mobile_node": "S3Znem",
+            "form_source": "../account-phone-sms-g2-r1-review/review-manifest.json"
+          }
+        },
+        {
+          "state": "phone_format_error",
+          "title": "เบอร์โทรใหม่ผิดรูปแบบ",
+          "desktop": {
+            "node_id": "Ux4i9",
+            "width_px": 1440,
+            "height_px": 1079
+          },
+          "mobile": {
+            "node_id": "H686mG",
+            "width_px": 390,
+            "height_px": 1273
+          },
+          "source": {
+            "review_manifest": "../g2-r8-review/review-manifest.json",
+            "desktop_node": "TgW95",
+            "mobile_node": "S3Znem",
+            "form_source": "../account-phone-sms-g2-r1-review/review-manifest.json"
+          }
+        },
+        {
+          "state": "send_pending",
+          "title": "กำลังส่งรหัส SMS",
+          "desktop": {
+            "node_id": "rF3DG",
+            "width_px": 1440,
+            "height_px": 1056
+          },
+          "mobile": {
+            "node_id": "G1TADN",
+            "width_px": 390,
+            "height_px": 1198
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r1-review/review-manifest.json",
+            "desktop_node": "a7gGBr",
+            "mobile_node": "flBs6"
+          }
+        },
+        {
+          "state": "send_failed",
+          "title": "ส่งรหัส SMS ไม่สำเร็จ",
+          "desktop": {
+            "node_id": "bTvj8",
+            "width_px": 1440,
+            "height_px": 1138
+          },
+          "mobile": {
+            "node_id": "iAzli",
+            "width_px": 390,
+            "height_px": 1330
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r1-review/review-manifest.json",
+            "desktop_node": "jGf2N",
+            "mobile_node": "iYO5R"
+          }
+        },
+        {
+          "state": "phone_unavailable",
+          "title": "เบอร์ที่กรอกใช้ไม่ได้",
+          "desktop": {
+            "node_id": "HEo1U",
+            "width_px": 1440,
+            "height_px": 1078
+          },
+          "mobile": {
+            "node_id": "H4o8D",
+            "width_px": 390,
+            "height_px": 1272
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r1-review/review-manifest.json",
+            "desktop_node": "XXryd",
+            "mobile_node": "jXdQn"
+          }
+        },
+        {
+          "state": "countdown",
+          "title": "นับถอยหลังก่อนส่งรหัสใหม่",
+          "desktop": {
+            "node_id": "aOrKJ",
+            "width_px": 1440,
+            "height_px": 1111
+          },
+          "mobile": {
+            "node_id": "j1CWeb",
+            "width_px": 390,
+            "height_px": 1304
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r2-review/review-manifest.json",
+            "desktop_node": "jeaCN",
+            "mobile_node": "s2xse"
+          }
+        },
+        {
+          "state": "code_checking",
+          "title": "กำลังตรวจรหัส SMS",
+          "desktop": {
+            "node_id": "DKaiz",
+            "width_px": 1440,
+            "height_px": 983
+          },
+          "mobile": {
+            "node_id": "DxI0h",
+            "width_px": 390,
+            "height_px": 1130
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r1-review/review-manifest.json",
+            "desktop_node": "JDJdu",
+            "mobile_node": "EowLr"
+          }
+        },
+        {
+          "state": "code_invalid",
+          "title": "รหัส SMS ไม่ถูกต้อง",
+          "desktop": {
+            "node_id": "Q6sDEp",
+            "width_px": 1440,
+            "height_px": 1111,
+            "image": "Q6sDEp.png"
+          },
+          "mobile": {
+            "node_id": "w3gFBj",
+            "width_px": 390,
+            "height_px": 1304,
+            "image": "w3gFBj.png"
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r1-review/review-manifest.json",
+            "desktop_node": "FfYlt",
+            "mobile_node": "OqIgY"
+          }
+        },
+        {
+          "state": "code_expired",
+          "title": "รหัส SMS หมดอายุ",
+          "desktop": {
+            "node_id": "JR1fN",
+            "width_px": 1440,
+            "height_px": 1125
+          },
+          "mobile": {
+            "node_id": "KUexj",
+            "width_px": 390,
+            "height_px": 1320
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r1-review/review-manifest.json",
+            "desktop_node": "DWmEJ",
+            "mobile_node": "p7FID"
+          }
+        },
+        {
+          "state": "resend_ready",
+          "title": "ครบเวลารอและส่งรหัสใหม่ได้",
+          "desktop": {
+            "node_id": "g0LoYc",
+            "width_px": 1440,
+            "height_px": 1111
+          },
+          "mobile": {
+            "node_id": "E1kBW",
+            "width_px": 390,
+            "height_px": 1304
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r2-review/review-manifest.json",
+            "desktop_node": "xMYgG",
+            "mobile_node": "S0B92"
+          }
+        },
+        {
+          "state": "resend_pending",
+          "title": "กำลังส่งรหัส SMS ใหม่",
+          "desktop": {
+            "node_id": "Z252op",
+            "width_px": 1440,
+            "height_px": 983
+          },
+          "mobile": {
+            "node_id": "r6R19e",
+            "width_px": 390,
+            "height_px": 1130
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r1-review/review-manifest.json",
+            "desktop_node": "SgRC9",
+            "mobile_node": "jt29l"
+          }
+        },
+        {
+          "state": "resend_confirmed",
+          "title": "ส่งรหัสใหม่สำเร็จและใช้รหัสล่าสุด",
+          "desktop": {
+            "node_id": "QpN8E",
+            "width_px": 1440,
+            "height_px": 1193
+          },
+          "mobile": {
+            "node_id": "GRByk",
+            "width_px": 390,
+            "height_px": 1384
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r2-review/review-manifest.json",
+            "desktop_node": "G2jKp",
+            "mobile_node": "ZsjJF"
+          }
+        },
+        {
+          "state": "request_limit",
+          "title": "ขอรหัสครบ 10 ครั้ง แต่รหัสล่าสุดยังใช้ได้",
+          "desktop": {
+            "node_id": "AT6WP",
+            "width_px": 1440,
+            "height_px": 1160
+          },
+          "mobile": {
+            "node_id": "rJMpu",
+            "width_px": 390,
+            "height_px": 1353
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r2-review/review-manifest.json",
+            "desktop_node": "y8Gnq",
+            "mobile_node": "tISo0"
+          }
+        },
+        {
+          "state": "request_limit_expired",
+          "title": "รหัสหมดอายุและขอรหัสครบโควตา",
+          "desktop": {
+            "node_id": "Azg0z",
+            "width_px": 1440,
+            "height_px": 1125
+          },
+          "mobile": {
+            "node_id": "Geiss",
+            "width_px": 390,
+            "height_px": 1339
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r2-review/review-manifest.json",
+            "desktop_node": "g3DSiV",
+            "mobile_node": "FCoPZ"
+          }
+        },
+        {
+          "state": "attempt_limit",
+          "title": "กรอกผิดครบ 20 ครั้ง",
+          "desktop": {
+            "node_id": "ZLpbH",
+            "width_px": 1440,
+            "height_px": 1065
+          },
+          "mobile": {
+            "node_id": "m0yA5",
+            "width_px": 390,
+            "height_px": 1210
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r2-review/review-manifest.json",
+            "desktop_node": "yy2xS",
+            "mobile_node": "Wr48L"
+          }
+        },
+        {
+          "state": "result_unknown",
+          "title": "ยังตรวจสอบผลยืนยันเบอร์ไม่ได้",
+          "desktop": {
+            "node_id": "yqokS",
+            "width_px": 1440,
+            "height_px": 1065
+          },
+          "mobile": {
+            "node_id": "lGpUx",
+            "width_px": 390,
+            "height_px": 1210
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r1-review/review-manifest.json",
+            "desktop_node": "H11iQB",
+            "mobile_node": "m9GpzV"
+          }
+        },
+        {
+          "state": "add_done",
+          "title": "เพิ่มและยืนยันเบอร์สำเร็จ",
+          "desktop": {
+            "node_id": "Q3TWpt",
+            "width_px": 1440,
+            "height_px": 1118
+          },
+          "mobile": {
+            "node_id": "bCmlw",
+            "width_px": 390,
+            "height_px": 1415
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r1-review/review-manifest.json",
+            "desktop_node": "UoxCq",
+            "mobile_node": "r9Ab1U"
+          }
+        },
+        {
+          "state": "change_done",
+          "title": "เปลี่ยนและยืนยันเบอร์สำเร็จ",
+          "desktop": {
+            "node_id": "EYABb",
+            "width_px": 1440,
+            "height_px": 1101
+          },
+          "mobile": {
+            "node_id": "HkUlo",
+            "width_px": 390,
+            "height_px": 1448
+          },
+          "source": {
+            "review_manifest": "../account-phone-sms-g2-r1-review/review-manifest.json",
+            "desktop_node": "uYZu5",
+            "mobile_node": "CvPxQ"
+          }
+        }
+      ]
+    },
+    {
+      "key": "account",
+      "title": "วิธีเข้าสู่ระบบและความปลอดภัย",
+      "pencil_group_id": "H5pIc",
+      "states": [
+        {
+          "state": "email_otp_and_password",
+          "title": "อีเมลและรหัสผ่าน · ยังไม่เชื่อม Google",
+          "desktop": {
+            "node_id": "uZt93",
+            "width_px": 1440,
+            "height_px": 1033
+          },
+          "mobile": {
+            "node_id": "JkATD",
+            "width_px": 390,
+            "height_px": 1384
+          },
+          "source": {
+            "review_manifest": "../account-sign-in-methods-g2-r3-review/review-manifest.json",
+            "desktop_node": "vODn6",
+            "mobile_node": "h6Q5Y"
+          }
+        },
+        {
+          "state": "email_otp_and_google",
+          "title": "อีเมลและ Google · ยังไม่มีรหัสผ่าน",
+          "desktop": {
+            "node_id": "CeLBg",
+            "width_px": 1440,
+            "height_px": 1050
+          },
+          "mobile": {
+            "node_id": "aM9sx",
+            "width_px": 390,
+            "height_px": 1351
+          },
+          "source": {
+            "review_manifest": "../account-sign-in-methods-g2-r3-review/review-manifest.json",
+            "desktop_node": "au2fm",
+            "mobile_node": "oFIbo"
+          }
+        },
+        {
+          "state": "before",
+          "title": "อีเมล รหัสผ่าน และ Google",
+          "desktop": {
+            "node_id": "I1GhJ",
+            "width_px": 1440,
+            "height_px": 1052
+          },
+          "mobile": {
+            "node_id": "aRSjI",
+            "width_px": 390,
+            "height_px": 1351
+          },
+          "source": {
+            "review_manifest": "../account-email-change-google-g2-r4-review/review-manifest.json",
+            "desktop_node": "sdoxv",
+            "mobile_node": "N9Kszs"
+          }
+        },
+        {
+          "state": "password_form",
+          "title": "เปลี่ยนรหัสผ่าน",
+          "desktop": {
+            "node_id": "V8Xkfu",
+            "width_px": 1440,
+            "height_px": 1172
+          },
+          "mobile": {
+            "node_id": "xYQ2P",
+            "width_px": 390,
+            "height_px": 1364
+          },
+          "source": {
+            "review_manifest": "../account-security-g2-r1-review/review-manifest.json",
+            "desktop_node": "r4gMh",
+            "mobile_node": "flJca"
+          }
+        },
+        {
+          "state": "password_invalid",
+          "title": "รหัสผ่านใหม่ทั้งสองช่องไม่ตรงกัน",
+          "desktop": {
+            "node_id": "rUC3S",
+            "width_px": 1440,
+            "height_px": 1194
+          },
+          "mobile": {
+            "node_id": "TSPmL",
+            "width_px": 390,
+            "height_px": 1386
+          },
+          "source": {
+            "review_manifest": "../account-security-g2-r1-review/review-manifest.json",
+            "desktop_node": "w338M",
+            "mobile_node": "CGzzq"
+          }
+        },
+        {
+          "state": "password_success",
+          "title": "เปลี่ยนรหัสผ่านสำเร็จ",
+          "desktop": {
+            "node_id": "qFCfr",
+            "width_px": 1440,
+            "height_px": 1101
+          },
+          "mobile": {
+            "node_id": "K78Ic",
+            "width_px": 390,
+            "height_px": 1448
+          },
+          "source": {
+            "review_manifest": "../account-security-g2-r1-review/review-manifest.json",
+            "desktop_node": "HngNL",
+            "mobile_node": "Gu8qe"
+          }
+        },
+        {
+          "state": "reauth_start",
+          "title": "ขอยืนยันตัวตนก่อนเปลี่ยนอีเมลหรือเบอร์",
+          "desktop": {
+            "node_id": "eXfX6",
+            "width_px": 1440,
+            "height_px": 977
+          },
+          "mobile": {
+            "node_id": "N5xZM",
+            "width_px": 390,
+            "height_px": 1176
+          },
+          "source": {
+            "review_manifest": "../account-security-g2-r1-review/review-manifest.json",
+            "desktop_node": "kslPj",
+            "mobile_node": "n9On2i"
+          }
+        },
+        {
+          "state": "reauth_code",
+          "title": "กรอกรหัสยืนยันตัวตน",
+          "desktop": {
+            "node_id": "U8VzR",
+            "width_px": 1440,
+            "height_px": 1018
+          },
+          "mobile": {
+            "node_id": "PZH3S",
+            "width_px": 390,
+            "height_px": 1215
+          },
+          "source": {
+            "review_manifest": "../account-security-g2-r1-review/review-manifest.json",
+            "desktop_node": "D7Fd0",
+            "mobile_node": "qyaVR"
+          }
+        },
+        {
+          "state": "reauth_expired",
+          "title": "รหัสยืนยันตัวตนหมดอายุ",
+          "desktop": {
+            "node_id": "Cb6sc",
+            "width_px": 1440,
+            "height_px": 1065
+          },
+          "mobile": {
+            "node_id": "POrQD",
+            "width_px": 390,
+            "height_px": 1262
+          },
+          "source": {
+            "review_manifest": "../account-security-g2-r1-review/review-manifest.json",
+            "desktop_node": "X84Zk1",
+            "mobile_node": "izI0u"
+          }
+        },
+        {
+          "state": "email_form",
+          "title": "กรอกอีเมลใหม่",
+          "desktop": {
+            "node_id": "F0eOup",
+            "width_px": 1440,
+            "height_px": 1056
+          },
+          "mobile": {
+            "node_id": "n4vjf",
+            "width_px": 390,
+            "height_px": 1250
+          },
+          "source": {
+            "review_manifest": "../account-security-g2-r1-review/review-manifest.json",
+            "desktop_node": "awMji",
+            "mobile_node": "i70Ih"
+          }
+        },
+        {
+          "state": "verification",
+          "title": "ยืนยันอีเมลใหม่",
+          "desktop": {
+            "node_id": "sUfZD",
+            "width_px": 1440,
+            "height_px": 1053
+          },
+          "mobile": {
+            "node_id": "SiXCN",
+            "width_px": 390,
+            "height_px": 1248
+          },
+          "source": {
+            "review_manifest": "../account-email-change-google-g2-r4-review/review-manifest.json",
+            "desktop_node": "UmAoM",
+            "mobile_node": "uMccv"
+          }
+        },
+        {
+          "state": "email_code_invalid",
+          "title": "รหัสยืนยันอีเมลใหม่ไม่ถูกต้อง",
+          "desktop": {
+            "node_id": "ik2t1",
+            "width_px": 1440,
+            "height_px": 1053
+          },
+          "mobile": {
+            "node_id": "nKYZT",
+            "width_px": 390,
+            "height_px": 1248
+          },
+          "source": {
+            "review_manifest": "../account-security-g2-r1-review/review-manifest.json",
+            "desktop_node": "iguae",
+            "mobile_node": "BqE5f"
+          }
+        },
+        {
+          "state": "email_send_failed",
+          "title": "ส่งรหัสยืนยันอีเมลใหม่ไม่สำเร็จ",
+          "desktop": {
+            "node_id": "AAB5y",
+            "width_px": 1440,
+            "height_px": 1138
+          },
+          "mobile": {
+            "node_id": "rwFDc",
+            "width_px": 390,
+            "height_px": 1330
+          },
+          "source": {
+            "review_manifest": "../account-security-g2-r1-review/review-manifest.json",
+            "desktop_node": "QKP9Z",
+            "mobile_node": "tnKPR"
+          }
+        },
+        {
+          "state": "after",
+          "title": "เปลี่ยนอีเมลสำเร็จ",
+          "desktop": {
+            "node_id": "Yf7tb",
+            "width_px": 1440,
+            "height_px": 1142,
+            "image": "Yf7tb.png"
+          },
+          "mobile": {
+            "node_id": "lf21P",
+            "width_px": 390,
+            "height_px": 1437,
+            "image": "lf21P.png"
+          },
+          "source": {
+            "review_manifest": "../account-email-change-google-g2-r4-review/review-manifest.json",
+            "desktop_node": "McTvR",
+            "mobile_node": "gycVL"
+          }
+        }
+      ]
+    },
+    {
+      "key": "password",
+      "title": "ตั้งรหัสผ่านครั้งแรกผ่านลิงก์อีเมล",
+      "pencil_group_id": "dbuEF",
+      "states": [
+        {
+          "state": "request_link",
+          "title": "ขอลิงก์ตั้งรหัสผ่าน",
+          "desktop": {
+            "node_id": "gEPAR",
+            "width_px": 1440,
+            "height_px": 912
+          },
+          "mobile": {
+            "node_id": "Ljdjj",
+            "width_px": 390,
+            "height_px": 1110
+          },
+          "source": {
+            "review_manifest": "../account-password-email-link-g2-r2-review/review-manifest.json",
+            "desktop_node": "SUqQi",
+            "mobile_node": "OvTKI"
+          }
+        },
+        {
+          "state": "sending",
+          "title": "กำลังส่งลิงก์",
+          "desktop": {
+            "node_id": "XoWqS",
+            "width_px": 1440,
+            "height_px": 912
+          },
+          "mobile": {
+            "node_id": "YCW9w",
+            "width_px": 390,
+            "height_px": 1058
+          },
+          "source": {
+            "review_manifest": "../account-password-email-link-g2-r2-review/review-manifest.json",
+            "desktop_node": "X38y0",
+            "mobile_node": "nDHe0"
+          }
+        },
+        {
+          "state": "wait",
+          "title": "รอส่งลิงก์อีกครั้ง",
+          "desktop": {
+            "node_id": "TJqiY",
+            "width_px": 1440,
+            "height_px": 932
+          },
+          "mobile": {
+            "node_id": "sZhwv",
+            "width_px": 390,
+            "height_px": 1078
+          },
+          "source": {
+            "review_manifest": "../account-password-link-policy-g2-r5-review/review-manifest.json",
+            "desktop_node": "P2XdS",
+            "mobile_node": "PLabK"
+          }
+        },
+        {
+          "state": "sent",
+          "title": "ส่งลิงก์แล้วและขอซ้ำได้",
+          "desktop": {
+            "node_id": "Qaenz",
+            "width_px": 1440,
+            "height_px": 932
+          },
+          "mobile": {
+            "node_id": "TIFrT",
+            "width_px": 390,
+            "height_px": 1078
+          },
+          "source": {
+            "review_manifest": "../account-password-email-link-g2-r2-review/review-manifest.json",
+            "desktop_node": "U5mZbi",
+            "mobile_node": "UTYCT"
+          }
+        },
+        {
+          "state": "limit",
+          "title": "ส่งลิงก์ครบ 10 ครั้ง",
+          "desktop": {
+            "node_id": "N4RS4b",
+            "width_px": 1440,
+            "height_px": 912
+          },
+          "mobile": {
+            "node_id": "HXmEv",
+            "width_px": 390,
+            "height_px": 1078
+          },
+          "source": {
+            "review_manifest": "../account-password-link-policy-g2-r5-review/review-manifest.json",
+            "desktop_node": "L9Lv6",
+            "mobile_node": "V14euP"
+          }
+        },
+        {
+          "state": "failed",
+          "title": "ส่งลิงก์ไม่สำเร็จ",
+          "desktop": {
+            "node_id": "AwJQl",
+            "width_px": 1440,
+            "height_px": 912
+          },
+          "mobile": {
+            "node_id": "XKPtN",
+            "width_px": 390,
+            "height_px": 1078
+          },
+          "source": {
+            "review_manifest": "../account-password-email-link-g2-r2-review/review-manifest.json",
+            "desktop_node": "ULtNM",
+            "mobile_node": "y7wOfb"
+          }
+        },
+        {
+          "state": "unusable",
+          "title": "ลิงก์ใช้ไม่ได้",
+          "desktop": {
+            "node_id": "NxVBw",
+            "width_px": 1440,
+            "height_px": 852
+          },
+          "mobile": {
+            "node_id": "ptev7",
+            "width_px": 390,
+            "height_px": 1020
+          },
+          "source": {
+            "review_manifest": "../account-password-email-link-g2-r2-review/review-manifest.json",
+            "desktop_node": "W9OvH",
+            "mobile_node": "N12cz"
+          }
+        },
+        {
+          "state": "password_form",
+          "title": "ตั้งรหัสผ่านใหม่",
+          "desktop": {
+            "node_id": "mv3Wd",
+            "width_px": 1440,
+            "height_px": 1074
+          },
+          "mobile": {
+            "node_id": "aE8qZ",
+            "width_px": 390,
+            "height_px": 1270
+          },
+          "source": {
+            "review_manifest": "../account-password-link-policy-g2-r5-review/review-manifest.json",
+            "desktop_node": "BS75p",
+            "mobile_node": "O7ILqP"
+          }
+        },
+        {
+          "state": "short",
+          "title": "รหัสผ่านสั้นเกินไป",
+          "desktop": {
+            "node_id": "QpZfj",
+            "width_px": 1440,
+            "height_px": 1074,
+            "image": "QpZfj.png"
+          },
+          "mobile": {
+            "node_id": "mLY8Q",
+            "width_px": 390,
+            "height_px": 1270,
+            "image": "mLY8Q.png"
+          },
+          "source": {
+            "review_manifest": "../account-password-link-policy-g2-r5-review/review-manifest.json",
+            "desktop_node": "N2hsgS",
+            "mobile_node": "YUSvZ"
+          }
+        },
+        {
+          "state": "mismatch",
+          "title": "รหัสผ่านไม่ตรงกัน",
+          "desktop": {
+            "node_id": "K2EDb",
+            "width_px": 1440,
+            "height_px": 1096
+          },
+          "mobile": {
+            "node_id": "b12mp",
+            "width_px": 390,
+            "height_px": 1292
+          },
+          "source": {
+            "review_manifest": "../account-password-setup-g2-r1-review/review-manifest.json",
+            "desktop_node": "G8KYn8",
+            "mobile_node": "pR2Pa"
+          }
+        },
+        {
+          "state": "saving",
+          "title": "กำลังตั้งรหัสผ่าน",
+          "desktop": {
+            "node_id": "brpyc",
+            "width_px": 1440,
+            "height_px": 1074
+          },
+          "mobile": {
+            "node_id": "h0dDFR",
+            "width_px": 390,
+            "height_px": 1218
+          },
+          "source": {
+            "review_manifest": "../account-password-setup-g2-r1-review/review-manifest.json",
+            "desktop_node": "rcbpQ",
+            "mobile_node": "LOT18"
+          }
+        },
+        {
+          "state": "known_failure",
+          "title": "ตั้งรหัสผ่านไม่สำเร็จ",
+          "desktop": {
+            "node_id": "f4twBp",
+            "width_px": 1440,
+            "height_px": 1156
+          },
+          "mobile": {
+            "node_id": "ea7FM",
+            "width_px": 390,
+            "height_px": 1350
+          },
+          "source": {
+            "review_manifest": "../account-password-setup-g2-r1-review/review-manifest.json",
+            "desktop_node": "nELMZ",
+            "mobile_node": "QBkEs"
+          }
+        },
+        {
+          "state": "result_unknown",
+          "title": "ยังยืนยันผลไม่ได้",
+          "desktop": {
+            "node_id": "F68Lk",
+            "width_px": 1440,
+            "height_px": 1156
+          },
+          "mobile": {
+            "node_id": "yOsqQ",
+            "width_px": 390,
+            "height_px": 1298
+          },
+          "source": {
+            "review_manifest": "../account-password-setup-g2-r1-review/review-manifest.json",
+            "desktop_node": "ZPeDt",
+            "mobile_node": "Zeex5"
+          }
+        },
+        {
+          "state": "success",
+          "title": "ตั้งรหัสผ่านสำเร็จ",
+          "desktop": {
+            "node_id": "Y0O1Iz",
+            "width_px": 1440,
+            "height_px": 1120
+          },
+          "mobile": {
+            "node_id": "N8CTpB",
+            "width_px": 390,
+            "height_px": 1415
+          },
+          "source": {
+            "review_manifest": "../account-password-setup-g2-r1-review/review-manifest.json",
+            "desktop_node": "eTrEd",
+            "mobile_node": "ucqhd"
+          }
+        }
+      ],
+      "supporting_artifacts": [
+        {
+          "title": "อีเมลที่มีลิงก์ตั้งรหัสผ่าน",
+          "node_id": "H6Aqf3",
+          "width_px": 600,
+          "height_px": 313,
+          "image": "H6Aqf3.png",
+          "source_node": "u6Vn8",
+          "source_manifest": "../account-password-link-policy-g2-r5-review/review-manifest.json"
+        }
+      ]
+    },
+    {
+      "key": "google",
+      "title": "เชื่อม Google กับบัญชีเดิม",
+      "pencil_group_id": "ZVfc9",
+      "states": [
+        {
+          "state": "opening_google",
+          "title": "กำลังเปิดหน้าเลือกบัญชีที่ Google",
+          "desktop": {
+            "node_id": "Yy1Hk",
+            "width_px": 1440,
+            "height_px": 919
+          },
+          "mobile": {
+            "node_id": "GoK35",
+            "width_px": 390,
+            "height_px": 1088
+          },
+          "source": {
+            "review_manifest": "../account-google-link-g2-r2-review/review-manifest.json",
+            "desktop_node": "zQ4Ph",
+            "mobile_node": "jFgjN"
+          }
+        },
+        {
+          "state": "consent",
+          "title": "ตรวจบัญชีและยืนยันการเชื่อม",
+          "desktop": {
+            "node_id": "y5PsC6",
+            "width_px": 1440,
+            "height_px": 1051
+          },
+          "mobile": {
+            "node_id": "oO5ST",
+            "width_px": 390,
+            "height_px": 1246
+          },
+          "source": {
+            "review_manifest": "../account-google-link-g2-r2-review/review-manifest.json",
+            "desktop_node": "o7Wz7N",
+            "mobile_node": "PVJfg"
+          }
+        },
+        {
+          "state": "linking",
+          "title": "กำลังเชื่อม Google",
+          "desktop": {
+            "node_id": "l8c0F",
+            "width_px": 1440,
+            "height_px": 1051
+          },
+          "mobile": {
+            "node_id": "IfgdQ",
+            "width_px": 390,
+            "height_px": 1194
+          },
+          "source": {
+            "review_manifest": "../account-google-link-g2-r2-review/review-manifest.json",
+            "desktop_node": "nzK2x",
+            "mobile_node": "f3TGEd"
+          }
+        },
+        {
+          "state": "unavailable",
+          "title": "บัญชี Google นี้ใช้เชื่อมไม่ได้",
+          "desktop": {
+            "node_id": "Ut3Dp",
+            "width_px": 1440,
+            "height_px": 965
+          },
+          "mobile": {
+            "node_id": "gaSo9",
+            "width_px": 390,
+            "height_px": 1166
+          },
+          "source": {
+            "review_manifest": "../account-google-link-g2-r2-review/review-manifest.json",
+            "desktop_node": "lB9Zk",
+            "mobile_node": "cKJ9S"
+          }
+        },
+        {
+          "state": "link_failed",
+          "title": "เชื่อม Google ไม่สำเร็จ",
+          "desktop": {
+            "node_id": "YQI7e",
+            "width_px": 1440,
+            "height_px": 1133
+          },
+          "mobile": {
+            "node_id": "DwNtu",
+            "width_px": 390,
+            "height_px": 1326
+          },
+          "source": {
+            "review_manifest": "../account-google-link-g2-r2-review/review-manifest.json",
+            "desktop_node": "aUA2d",
+            "mobile_node": "iISW7"
+          }
+        },
+        {
+          "state": "connected",
+          "title": "เชื่อม Google สำเร็จ",
+          "desktop": {
+            "node_id": "Scmzi",
+            "width_px": 1440,
+            "height_px": 1120,
+            "image": "Scmzi.png"
+          },
+          "mobile": {
+            "node_id": "VhJMy",
+            "width_px": 390,
+            "height_px": 1415,
+            "image": "VhJMy.png"
+          },
+          "source": {
+            "review_manifest": "../account-google-link-g2-r2-review/review-manifest.json",
+            "desktop_node": "mf23u",
+            "mobile_node": "m0uWg"
+          }
+        }
+      ]
+    }
+  ],
+  "state_count": 70,
+  "preview_count": 17,
+  "decisions": {
+    "profile_fields": "../profile-phone-separation-g2-r1-review/owner-scope-decision.json",
+    "account_methods": "../account-sign-in-methods-g2-r3-review/owner-account-methods-decision.json",
+    "email_change": "../account-email-change-google-g2-r4-review/owner-g2-r4-visual-acceptance.json",
+    "first_password": "../account-password-link-policy-g2-r5-review/owner-g2-r5-visual-acceptance.json",
+    "phone_sms": "../account-phone-sms-g2-r2-review/owner-otp-policy-decision.json",
+    "toast_position": "../g2-r11-toast-admin-position-review/owner-g2-r11-placement-acceptance.json",
+    "toast_timing": "../g2-r11-toast-admin-position-review/owner-g2-r11-dismiss-timing-acceptance.json"
+  },
+  "runtime_verified": false,
+  "high_fidelity_authorized": false,
+  "implementation_authorized": false
+}

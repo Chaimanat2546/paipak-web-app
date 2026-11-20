@@ -935,7 +935,50 @@ tasks:
   auth_g4_status: owner_approved
   auth_g4_approved_on: '2026-11-11'
   auth_g4_review_manifest: docs/design/dsd-001/home-auth-g4-r1/review-manifest.json
+  profile_g2_status: pending_owner_review
+  profile_g0_approval: docs/design/uid-005/g2-r1-review/owner-g0-approval.json
+  profile_booking_scope_amendment: docs/design/uid-005/g2-r2-review/owner-booking-profile-amendment.json
+  profile_g2_version: G2-r12
+  profile_g2_review_manifest: docs/design/uid-005/g2-r12-consolidated-review/review-manifest.json
+  profile_g2_history_manifest: docs/design/uid-005/g2-r7-review/review-manifest.json
+  profile_g2_supplemental_states_review_manifest: docs/design/uid-005/g2-r8-review/review-manifest.json
+  profile_g2_toast_review_manifest: docs/design/uid-005/g2-r9-toast-review/review-manifest.json
+  profile_g2_toast_current_layout_review_manifest: docs/design/uid-005/g2-r10-toast-aligned-review/review-manifest.json
+  profile_g2_toast_admin_position_direction: docs/design/uid-005/g2-r11-toast-admin-position-review/owner-toast-position-direction.json
+  profile_g2_toast_admin_position_review_manifest: docs/design/uid-005/g2-r11-toast-admin-position-review/review-manifest.json
+  profile_g2_toast_admin_position_acceptance: docs/design/uid-005/g2-r11-toast-admin-position-review/owner-g2-r11-placement-acceptance.json
+  profile_g2_toast_dismiss_timing_acceptance: docs/design/uid-005/g2-r11-toast-admin-position-review/owner-g2-r11-dismiss-timing-acceptance.json
+  account_security_g0_approval: docs/design/uid-005/account-security-g2-r1-review/owner-g0-approval.json
+  account_security_g2_review_manifest: docs/design/uid-005/account-security-g2-r1-review/review-manifest.json
+  account_google_link_g0_approval: docs/design/uid-005/account-google-link-g2-r1-review/owner-g0-approval.json
+  account_google_link_g2_review_manifest: docs/design/uid-005/account-google-link-g2-r2-review/review-manifest.json
+  account_phone_sms_scope_decision: docs/design/uid-005/account-phone-sms-g2-r1-review/owner-sms-scope-decision.json
+  account_phone_sms_g2_review_manifest: docs/design/uid-005/account-phone-sms-g2-r1-review/review-manifest.json
+  account_phone_sms_otp_policy_decision: docs/design/uid-005/account-phone-sms-g2-r2-review/owner-otp-policy-decision.json
+  account_phone_sms_otp_states_review_manifest: docs/design/uid-005/account-phone-sms-g2-r2-review/review-manifest.json
+  profile_phone_return_flow_decision: docs/design/uid-005/profile-phone-return-g2-r1-review/owner-flow-decision.json
+  profile_phone_return_g2_review_manifest: docs/design/uid-005/profile-phone-return-g2-r1-review/review-manifest.json
+  profile_phone_return_status: superseded_by_separate_phone_management
+  profile_phone_separation_scope_decision: docs/design/uid-005/profile-phone-separation-g2-r1-review/owner-scope-decision.json
+  profile_phone_separation_g2_review_manifest: docs/design/uid-005/profile-phone-separation-g2-r1-review/review-manifest.json
+  account_password_setup_scope_decision: docs/design/uid-005/account-password-setup-g2-r1-review/owner-setup-scope.json
+  account_password_setup_g2_review_manifest: docs/design/uid-005/account-password-setup-g2-r1-review/review-manifest.json
+  account_password_email_link_decision: docs/design/uid-005/account-password-email-link-g2-r2-review/owner-email-link-decision.json
+  account_password_email_link_g2_review_manifest: docs/design/uid-005/account-password-email-link-g2-r2-review/review-manifest.json
+  account_sign_in_methods_decision: docs/design/uid-005/account-sign-in-methods-g2-r3-review/owner-account-methods-decision.json
+  account_sign_in_methods_g2_review_manifest: docs/design/uid-005/account-sign-in-methods-g2-r3-review/review-manifest.json
+  account_email_change_google_decision: docs/design/uid-005/account-email-change-google-g2-r4-review/owner-email-change-decision.json
+  account_email_change_google_g2_review_manifest: docs/design/uid-005/account-email-change-google-g2-r4-review/review-manifest.json
+  account_email_change_google_g2_visual_acceptance: docs/design/uid-005/account-email-change-google-g2-r4-review/owner-g2-r4-visual-acceptance.json
+  account_password_link_policy_decision: docs/design/uid-005/account-password-link-policy-g2-r5-review/owner-password-link-policy.json
+  account_password_link_policy_g2_review_manifest: docs/design/uid-005/account-password-link-policy-g2-r5-review/review-manifest.json
+  account_password_link_policy_g2_visual_acceptance: docs/design/uid-005/account-password-link-policy-g2-r5-review/owner-g2-r5-visual-acceptance.json
+  profile_account_pencil_review_section: Rf1ie
+  profile_account_pencil_history_archive: Syki1
+  profile_account_review_index: docs/design/uid-005/README.md
   artifact_links:
+  - docs/design/uid-005/README.md
+  - docs/design/uid-005/g2-r12-consolidated-review/README.md
   - docs/design/dsd-001/home-auth-g4-r1/README.md
   runtime_verified: false
   implementation_authorized: false

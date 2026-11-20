@@ -1,0 +1,120 @@
+{
+  "task_id": "UID-005",
+  "scope": "phone_sms_resend_and_limits",
+  "version": "Phone SMS G2-r2",
+  "status": "pending_owner_review",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "base_review": "../account-phone-sms-g2-r1-review/review-manifest.json",
+  "owner_otp_policy_decision": "owner-otp-policy-decision.json",
+  "interaction_spec": "interaction-spec.md",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section_id": "Qy7S3",
+    "notes_id": "IlR1r"
+  },
+  "illustrative_countdowns": [
+    "00:42",
+    "00:59"
+  ],
+  "screens": [
+    {
+      "state": "countdown",
+      "title": "นับถอยหลังก่อนส่งรหัสใหม่",
+      "desktop": {
+        "node_id": "jeaCN",
+        "image": "jeaCN.png",
+        "width_px": 1440,
+        "height_px": 1111
+      },
+      "mobile": {
+        "node_id": "s2xse",
+        "image": "s2xse.png",
+        "width_px": 390,
+        "height_px": 1304
+      }
+    },
+    {
+      "state": "resend_ready",
+      "title": "ครบเวลารอและส่งรหัสใหม่ได้",
+      "desktop": {
+        "node_id": "xMYgG",
+        "image": "xMYgG.png",
+        "width_px": 1440,
+        "height_px": 1111
+      },
+      "mobile": {
+        "node_id": "S0B92",
+        "image": "S0B92.png",
+        "width_px": 390,
+        "height_px": 1304
+      }
+    },
+    {
+      "state": "resend_confirmed",
+      "title": "ส่งรหัสใหม่สำเร็จและใช้รหัสล่าสุด",
+      "desktop": {
+        "node_id": "G2jKp",
+        "image": "G2jKp.png",
+        "width_px": 1440,
+        "height_px": 1193
+      },
+      "mobile": {
+        "node_id": "ZsjJF",
+        "image": "ZsjJF.png",
+        "width_px": 390,
+        "height_px": 1384
+      }
+    },
+    {
+      "state": "request_limit",
+      "title": "ขอรหัสครบ 10 ครั้ง แต่รหัสล่าสุดยังใช้ได้",
+      "desktop": {
+        "node_id": "y8Gnq",
+        "image": "y8Gnq.png",
+        "width_px": 1440,
+        "height_px": 1160
+      },
+      "mobile": {
+        "node_id": "tISo0",
+        "image": "tISo0.png",
+        "width_px": 390,
+        "height_px": 1353
+      }
+    },
+    {
+      "state": "request_limit_expired",
+      "title": "รหัสหมดอายุและขอรหัสครบโควตา",
+      "desktop": {
+        "node_id": "g3DSiV",
+        "image": "g3DSiV.png",
+        "width_px": 1440,
+        "height_px": 1125
+      },
+      "mobile": {
+        "node_id": "FCoPZ",
+        "image": "FCoPZ.png",
+        "width_px": 390,
+        "height_px": 1339
+      }
+    },
+    {
+      "state": "attempt_limit",
+      "title": "กรอกผิดครบ 20 ครั้ง",
+      "desktop": {
+        "node_id": "yy2xS",
+        "image": "yy2xS.png",
+        "width_px": 1440,
+        "height_px": 1065
+      },
+      "mobile": {
+        "node_id": "Wr48L",
+        "image": "Wr48L.png",
+        "width_px": 390,
+        "height_px": 1210
+      }
+    }
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

@@ -1,0 +1,125 @@
+{
+  "task_id": "UID-005",
+  "version": "Account Password Email Link G2-r2",
+  "status": "pending_owner_review",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_scope_decision": "owner-email-link-decision.json",
+  "interaction_spec": "interaction-spec.md",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section_id": "PfVVM"
+  },
+  "source_password_setup": "../account-password-setup-g2-r1-review/review-manifest.json",
+  "confirmation_method": "single_use_link_to_existing_verified_account_email",
+  "supersedes_source_state": "identity_required",
+  "email_preview": {
+    "subject": "ตั้งรหัสผ่านบัญชี papaipak",
+    "node_id": "Ejcwo",
+    "image": "Ejcwo.png",
+    "width_px": 600,
+    "height_px": 313
+  },
+  "screens": [
+    {
+      "state": "ready",
+      "title": "ขอลิงก์ตั้งรหัสผ่าน",
+      "desktop": {
+        "node_id": "SUqQi",
+        "image": "SUqQi.png",
+        "width_px": 1440,
+        "height_px": 912
+      },
+      "mobile": {
+        "node_id": "OvTKI",
+        "image": "OvTKI.png",
+        "width_px": 390,
+        "height_px": 1110
+      }
+    },
+    {
+      "state": "sending",
+      "title": "กำลังส่งลิงก์",
+      "desktop": {
+        "node_id": "X38y0",
+        "image": "X38y0.png",
+        "width_px": 1440,
+        "height_px": 912
+      },
+      "mobile": {
+        "node_id": "nDHe0",
+        "image": "nDHe0.png",
+        "width_px": 390,
+        "height_px": 1058
+      }
+    },
+    {
+      "state": "sent",
+      "title": "ส่งลิงก์แล้ว",
+      "desktop": {
+        "node_id": "U5mZbi",
+        "image": "U5mZbi.png",
+        "width_px": 1440,
+        "height_px": 932
+      },
+      "mobile": {
+        "node_id": "UTYCT",
+        "image": "UTYCT.png",
+        "width_px": 390,
+        "height_px": 1078
+      }
+    },
+    {
+      "state": "failed",
+      "title": "ส่งลิงก์ไม่สำเร็จ",
+      "desktop": {
+        "node_id": "ULtNM",
+        "image": "ULtNM.png",
+        "width_px": 1440,
+        "height_px": 912
+      },
+      "mobile": {
+        "node_id": "y7wOfb",
+        "image": "y7wOfb.png",
+        "width_px": 390,
+        "height_px": 1078
+      }
+    },
+    {
+      "state": "unusable",
+      "title": "ลิงก์ใช้ไม่ได้",
+      "desktop": {
+        "node_id": "W9OvH",
+        "image": "W9OvH.png",
+        "width_px": 1440,
+        "height_px": 852
+      },
+      "mobile": {
+        "node_id": "N12cz",
+        "image": "N12cz.png",
+        "width_px": 390,
+        "height_px": 1020
+      }
+    },
+    {
+      "state": "form",
+      "title": "ฟอร์มหลังเปิดลิงก์",
+      "desktop": {
+        "node_id": "F9yjed",
+        "image": "F9yjed.png",
+        "width_px": 1440,
+        "height_px": 1050
+      },
+      "mobile": {
+        "node_id": "U50KJh",
+        "image": "U50KJh.png",
+        "width_px": 390,
+        "height_px": 1246
+      }
+    }
+  ],
+  "link_lifetime_status": "pending_owner_decision",
+  "delivery_provider_status": "unselected",
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

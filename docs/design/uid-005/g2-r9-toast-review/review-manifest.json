@@ -1,0 +1,45 @@
+{
+  "task_id": "UID-005",
+  "version": "G2-r9",
+  "scope": "profile_save_success_toast",
+  "status": "pending_owner_review",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_request": "toast การแจ้งเตือนล่ะ",
+  "confirmed_save_only": true,
+  "position_proposal": {
+    "desktop": "viewport_bottom_right",
+    "mobile": "viewport_bottom_inside_safe_area"
+  },
+  "mobile_review_scroll_offset_px": 88,
+  "automatic_dismiss_duration": "pending_owner_review",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section_id": "Z7WZa"
+  },
+  "sources": [
+    "../g2-r7-review/review-manifest.json",
+    "../g2-r8-review/state-spec.md",
+    "../../dsd-001/home-auth-favorite-return-g2-r28/review-manifest.json"
+  ],
+  "screens": [
+    {
+      "device": "desktop",
+      "node_id": "KK3lT",
+      "toast_node_id": "v8fVBG",
+      "image": "KK3lT.png",
+      "width_px": 1440,
+      "height_px": 900
+    },
+    {
+      "device": "mobile",
+      "node_id": "n0lts",
+      "toast_node_id": "vx4uQ",
+      "image": "n0lts.png",
+      "width_px": 390,
+      "height_px": 844
+    }
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

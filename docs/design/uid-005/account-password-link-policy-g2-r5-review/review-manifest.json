@@ -1,0 +1,90 @@
+{
+  "task_id": "UID-005",
+  "version": "Account Password Link Policy G2-r5",
+  "status": "owner_approved",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_policy": "owner-password-link-policy.json",
+  "owner_visual_acceptance": "owner-g2-r5-visual-acceptance.json",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "parent_section_id": "Rf1ie",
+    "board_id": "k9n3uY"
+  },
+  "source_email_link": "../account-password-email-link-g2-r2-review/review-manifest.json",
+  "source_password_form": "../account-password-setup-g2-r1-review/review-manifest.json",
+  "screens": [
+    {
+      "state": "wait",
+      "title": "รอส่งลิงก์อีกครั้ง",
+      "desktop": {
+        "node_id": "P2XdS",
+        "image": "P2XdS.png",
+        "width_px": 1440,
+        "height_px": 932
+      },
+      "mobile": {
+        "node_id": "PLabK",
+        "image": "PLabK.png",
+        "width_px": 390,
+        "height_px": 1078
+      }
+    },
+    {
+      "state": "limit",
+      "title": "ส่งลิงก์ครบ 10 ครั้ง",
+      "desktop": {
+        "node_id": "L9Lv6",
+        "image": "L9Lv6.png",
+        "width_px": 1440,
+        "height_px": 912
+      },
+      "mobile": {
+        "node_id": "V14euP",
+        "image": "V14euP.png",
+        "width_px": 390,
+        "height_px": 1078
+      }
+    },
+    {
+      "state": "ready",
+      "title": "ฟอร์มตั้งรหัสผ่าน",
+      "desktop": {
+        "node_id": "BS75p",
+        "image": "BS75p.png",
+        "width_px": 1440,
+        "height_px": 1074
+      },
+      "mobile": {
+        "node_id": "O7ILqP",
+        "image": "O7ILqP.png",
+        "width_px": 390,
+        "height_px": 1270
+      }
+    },
+    {
+      "state": "short",
+      "title": "รหัสผ่านสั้นเกินไป",
+      "desktop": {
+        "node_id": "N2hsgS",
+        "image": "N2hsgS.png",
+        "width_px": 1440,
+        "height_px": 1074
+      },
+      "mobile": {
+        "node_id": "YUSvZ",
+        "image": "YUSvZ.png",
+        "width_px": 390,
+        "height_px": 1270
+      }
+    }
+  ],
+  "email_preview": {
+    "node_id": "u6Vn8",
+    "image": "u6Vn8.png",
+    "width_px": 600,
+    "height_px": 313
+  },
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

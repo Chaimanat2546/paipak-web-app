@@ -1,0 +1,175 @@
+{
+  "task_id": "UID-005",
+  "scope": "google_link_from_account_security",
+  "version": "Google Link G2-r1",
+  "status": "pending_owner_review",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_g0_approval": "owner-g0-approval.json",
+  "interaction_spec": "interaction-spec.md",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section_id": "Q6i0L",
+    "notes_id": "L8Yggu"
+  },
+  "source_reviews": [
+    "../account-security-g2-r1-review/review-manifest.json",
+    "../../dsd-001/home-auth-google-link-g2-r41/README.md"
+  ],
+  "verification_method": "existing_account_email_OTP_example_pending_policy",
+  "google_sign_in": {
+    "owner_clarification": "เข้าด้วย google ไม่ต้องมียืนยันครับ",
+    "scope": "sign_in_using_an_existing_google_connection",
+    "additional_papaipak_otp_or_email_verification": false,
+    "reference": "../../dsd-001/home-auth-google-no-extra-email-verification.json"
+  },
+  "example_identity_relationship": "same_email_fixture_different_email_policy_pending",
+  "screens": [
+    {
+      "state": "unlinked",
+      "title": "ทางเข้าเชื่อม Google",
+      "desktop": {
+        "node_id": "TWv1Z",
+        "image": "TWv1Z.png",
+        "width_px": 1440,
+        "height_px": 1014
+      },
+      "mobile": {
+        "node_id": "zHrTv",
+        "image": "zHrTv.png",
+        "width_px": 390,
+        "height_px": 1363
+      }
+    },
+    {
+      "state": "reauth_start",
+      "title": "ขอยืนยันตัวตนก่อนเชื่อม Google",
+      "desktop": {
+        "node_id": "PErbe",
+        "image": "PErbe.png",
+        "width_px": 1440,
+        "height_px": 977
+      },
+      "mobile": {
+        "node_id": "tnYx5",
+        "image": "tnYx5.png",
+        "width_px": 390,
+        "height_px": 1196
+      }
+    },
+    {
+      "state": "reauth_code",
+      "title": "กรอกรหัสยืนยันบัญชี papaipak",
+      "desktop": {
+        "node_id": "Z2Ghs",
+        "image": "Z2Ghs.png",
+        "width_px": 1440,
+        "height_px": 1018
+      },
+      "mobile": {
+        "node_id": "nh63o",
+        "image": "nh63o.png",
+        "width_px": 390,
+        "height_px": 1215
+      }
+    },
+    {
+      "state": "select_google",
+      "title": "ทางไปเลือกบัญชี Google",
+      "desktop": {
+        "node_id": "horj5",
+        "image": "horj5.png",
+        "width_px": 1440,
+        "height_px": 919
+      },
+      "mobile": {
+        "node_id": "I8Fm2Z",
+        "image": "I8Fm2Z.png",
+        "width_px": 390,
+        "height_px": 1140
+      }
+    },
+    {
+      "state": "consent",
+      "title": "ตรวจบัญชีและยืนยันการเชื่อม",
+      "desktop": {
+        "node_id": "TP0g8",
+        "image": "TP0g8.png",
+        "width_px": 1440,
+        "height_px": 1051
+      },
+      "mobile": {
+        "node_id": "W53Ba",
+        "image": "W53Ba.png",
+        "width_px": 390,
+        "height_px": 1246
+      }
+    },
+    {
+      "state": "linking",
+      "title": "กำลังเชื่อม Google",
+      "desktop": {
+        "node_id": "K6KEZ",
+        "image": "K6KEZ.png",
+        "width_px": 1440,
+        "height_px": 1051
+      },
+      "mobile": {
+        "node_id": "y8onKf",
+        "image": "y8onKf.png",
+        "width_px": 390,
+        "height_px": 1194
+      }
+    },
+    {
+      "state": "connected",
+      "title": "เชื่อม Google สำเร็จ",
+      "desktop": {
+        "node_id": "SzWFs",
+        "image": "SzWFs.png",
+        "width_px": 1440,
+        "height_px": 1080
+      },
+      "mobile": {
+        "node_id": "uuRcv",
+        "image": "uuRcv.png",
+        "width_px": 390,
+        "height_px": 1373
+      }
+    },
+    {
+      "state": "unavailable",
+      "title": "บัญชี Google นี้ใช้เชื่อมไม่ได้",
+      "desktop": {
+        "node_id": "Lq9DH",
+        "image": "Lq9DH.png",
+        "width_px": 1440,
+        "height_px": 965
+      },
+      "mobile": {
+        "node_id": "f1hTdm",
+        "image": "f1hTdm.png",
+        "width_px": 390,
+        "height_px": 1166
+      }
+    },
+    {
+      "state": "link_failed",
+      "title": "เชื่อม Google ไม่สำเร็จ",
+      "desktop": {
+        "node_id": "OWadl",
+        "image": "OWadl.png",
+        "width_px": 1440,
+        "height_px": 1133
+      },
+      "mobile": {
+        "node_id": "xxHph",
+        "image": "xxHph.png",
+        "width_px": 390,
+        "height_px": 1326
+      }
+    }
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

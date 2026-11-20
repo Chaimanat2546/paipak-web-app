@@ -1,0 +1,19 @@
+{
+  "task_id": "UID-005",
+  "scope_name": "การเข้าสู่ระบบและความปลอดภัย",
+  "plan": "Account security G0 plan-1",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "อนุมัติ",
+  "status": "owner_approved",
+  "deliverables": ["desktop_wireframe", "mobile_wireframe", "interaction_and_states"],
+  "approved_scope": {
+    "password": "Change for an account with an existing password, with the approved recovery flow available if needed.",
+    "email": "Verify the member's identity before requesting a change and verify the new address before activation.",
+    "phone": "Add or change after identity confirmation. The method for verifying ownership of the new number is pending.",
+    "google": "Display the account's connection status."
+  },
+  "g2_approved": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

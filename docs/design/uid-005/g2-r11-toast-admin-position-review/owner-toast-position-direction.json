@@ -1,0 +1,14 @@
+{
+  "task_id": "UID-005",
+  "scope": "use_admin_toast_placement_for_profile_save_success",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "ก็ไว้ที่เดียวกบระบบหลังบ้านดิ่",
+  "status": "owner_directed_layout_alignment",
+  "reference": "../../admin-category-g4-r1/README.md",
+  "desktop_anchor": "viewport_top_right",
+  "mobile_anchor": "below_customer_site_header",
+  "automatic_dismiss_duration": "pending_owner_decision",
+  "g2_visual_approval": false,
+  "implementation_authorized": false
+}

@@ -1,0 +1,13 @@
+{
+  "task_id": "UID-005",
+  "scope_name": "เพิ่มเบอร์จากโปรไฟล์และกลับมาที่ฟอร์ม",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "ได้",
+  "status": "owner_approved",
+  "entry": "Add phone in the profile edit flow when a number has not been added",
+  "verification_flow": "Reuse the account security flow for SMS verification of the new number",
+  "return": "Return to the active profile edit form with unsaved input still present",
+  "g2_approved": false,
+  "implementation_authorized": false
+}

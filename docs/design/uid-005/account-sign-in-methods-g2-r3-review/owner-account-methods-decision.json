@@ -1,0 +1,12 @@
+{
+  "task_id": "UID-005",
+  "scope": "shared_member_account_across_email_and_google",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_confirmed_design_direction",
+  "owner_direction": "ดังนั้นการทำงานต่างๆก็ต้องไม่ต่างกันแค่ google เป็นการเข้าสู่ระบบที่ง่ายขึ้น",
+  "owner_confirmation": "ใช่",
+  "allowed_review_scope": "Account Security overview and design contract for email, password and linked Google",
+  "g2_visual_approval": false,
+  "implementation_authorized": false
+}

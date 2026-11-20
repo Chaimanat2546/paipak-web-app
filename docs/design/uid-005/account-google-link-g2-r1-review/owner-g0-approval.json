@@ -1,0 +1,18 @@
+{
+  "task_id": "UID-005",
+  "scope_name": "เชื่อม Google จากหน้าการเข้าสู่ระบบและความปลอดภัย",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "อนุมัติ",
+  "status": "owner_approved",
+  "approved_scope": [
+    "Provide an entry on the account security page when Google is not connected.",
+    "Verify the existing papaipak account, choose a Google account, and request explicit confirmation before linking.",
+    "Return to account security and show connected only after the confirmed result.",
+    "Provide clear feedback and allow choosing another Google account when the selection cannot be linked."
+  ],
+  "deliverables": ["desktop_wireframe", "mobile_wireframe", "interaction_and_states"],
+  "g2_approved": false,
+  "frontend_authorized": false,
+  "backend_authorized": false
+}

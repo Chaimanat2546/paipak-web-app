@@ -1,0 +1,137 @@
+{
+  "task_id": "UID-005",
+  "scope": "google_link_from_account_security_with_active_member_session",
+  "version": "Google Link G2-r2",
+  "status": "pending_owner_review",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "based_on": "../account-google-link-g2-r1-review/review-manifest.json",
+  "owner_scope_correction": {
+    "quote": "ครั้งแรกก็ไม่ใช้",
+    "applies_to": "first_google_link_from_already_signed_in_account_security",
+    "additional_papaipak_verification": false,
+    "explicit_confirmation_of_selected_link": true
+  },
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section_id": "xaSld",
+    "notes_id": "vqHuj"
+  },
+  "interaction_spec": "interaction-spec.md",
+  "screens": [
+    {
+      "state": "unlinked",
+      "title": "ทางเข้าเชื่อม Google",
+      "desktop": {
+        "node_id": "Y4NYio",
+        "image": "Y4NYio.png",
+        "width_px": 1440,
+        "height_px": 1014
+      },
+      "mobile": {
+        "node_id": "uk1Y6",
+        "image": "uk1Y6.png",
+        "width_px": 390,
+        "height_px": 1363
+      }
+    },
+    {
+      "state": "opening_google",
+      "title": "กำลังเปิดหน้าเลือกบัญชีที่ Google",
+      "desktop": {
+        "node_id": "zQ4Ph",
+        "image": "zQ4Ph.png",
+        "width_px": 1440,
+        "height_px": 919
+      },
+      "mobile": {
+        "node_id": "jFgjN",
+        "image": "jFgjN.png",
+        "width_px": 390,
+        "height_px": 1088
+      }
+    },
+    {
+      "state": "consent",
+      "title": "ตรวจบัญชีและยืนยันการเชื่อม",
+      "desktop": {
+        "node_id": "o7Wz7N",
+        "image": "o7Wz7N.png",
+        "width_px": 1440,
+        "height_px": 1051
+      },
+      "mobile": {
+        "node_id": "PVJfg",
+        "image": "PVJfg.png",
+        "width_px": 390,
+        "height_px": 1246
+      }
+    },
+    {
+      "state": "linking",
+      "title": "กำลังเชื่อม Google",
+      "desktop": {
+        "node_id": "nzK2x",
+        "image": "nzK2x.png",
+        "width_px": 1440,
+        "height_px": 1051
+      },
+      "mobile": {
+        "node_id": "f3TGEd",
+        "image": "f3TGEd.png",
+        "width_px": 390,
+        "height_px": 1194
+      }
+    },
+    {
+      "state": "connected",
+      "title": "เชื่อม Google สำเร็จ",
+      "desktop": {
+        "node_id": "mf23u",
+        "image": "mf23u.png",
+        "width_px": 1440,
+        "height_px": 1080
+      },
+      "mobile": {
+        "node_id": "m0uWg",
+        "image": "m0uWg.png",
+        "width_px": 390,
+        "height_px": 1373
+      }
+    },
+    {
+      "state": "unavailable",
+      "title": "บัญชี Google นี้ใช้เชื่อมไม่ได้",
+      "desktop": {
+        "node_id": "lB9Zk",
+        "image": "lB9Zk.png",
+        "width_px": 1440,
+        "height_px": 965
+      },
+      "mobile": {
+        "node_id": "cKJ9S",
+        "image": "cKJ9S.png",
+        "width_px": 390,
+        "height_px": 1166
+      }
+    },
+    {
+      "state": "link_failed",
+      "title": "เชื่อม Google ไม่สำเร็จ",
+      "desktop": {
+        "node_id": "aUA2d",
+        "image": "aUA2d.png",
+        "width_px": 1440,
+        "height_px": 1133
+      },
+      "mobile": {
+        "node_id": "iISW7",
+        "image": "iISW7.png",
+        "width_px": 390,
+        "height_px": 1326
+      }
+    }
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

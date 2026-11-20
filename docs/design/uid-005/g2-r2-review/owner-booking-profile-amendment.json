@@ -1,0 +1,19 @@
+{
+  "task_id": "UID-005",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "prior_version": "G2-r1",
+  "scope_request_owner_quote": "ข้อมูลส่วนตัวไม่ครบเพราะจะให้เป็นข้อมูลส่วนตัวที่ใช้สำหรับจองด้วย",
+  "owner_approval_quote": "โอเค",
+  "approval_scope": "Revise the profile wireframe for booking contact details",
+  "booking_details": {
+    "given_name": "view_and_edit",
+    "family_name": "view_and_edit",
+    "phone": "default_from_member_account_view_or_add_when_missing",
+    "account_email": "default_from_member_account_view"
+  },
+  "profile_display_username": "view_add_edit",
+  "completion_timing": "Members may complete their profile later. When booking, ask only for missing booking information.",
+  "g2_design_approved": false,
+  "implementation_authorized": false
+}

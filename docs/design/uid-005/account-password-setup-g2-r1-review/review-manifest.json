@@ -1,0 +1,152 @@
+{
+  "task_id": "UID-005",
+  "scope": "first_local_password_setup_in_account_security",
+  "version": "Account Password Setup G2-r1",
+  "status": "pending_owner_review",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_scope_decision": "owner-setup-scope.json",
+  "interaction_spec": "interaction-spec.md",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "section_id": "ROXhI"
+  },
+  "source_account_overview": "../profile-phone-separation-g2-r1-review/review-manifest.json",
+  "eligibility": "signed_in_member_without_local_password",
+  "identity_confirmation": "required_before_form",
+  "proof_method_and_expiry_status": "pending_owner_decision",
+  "first_password_rules_status": "pending_owner_decision",
+  "success_feedback": "inline_account_security_status",
+  "screens": [
+    {
+      "state": "eligible",
+      "title": "ยังไม่มีรหัสผ่าน",
+      "desktop": {
+        "node_id": "BY7Oe",
+        "image": "BY7Oe.png",
+        "width_px": 1440,
+        "height_px": 1012
+      },
+      "mobile": {
+        "node_id": "zrKFc",
+        "image": "zrKFc.png",
+        "width_px": 390,
+        "height_px": 1309
+      }
+    },
+    {
+      "state": "identity_required",
+      "title": "ยืนยันบัญชีก่อนตั้งรหัสผ่าน",
+      "desktop": {
+        "node_id": "PfaHR",
+        "image": "PfaHR.png",
+        "width_px": 1440,
+        "height_px": 912
+      },
+      "mobile": {
+        "node_id": "pPnzG",
+        "image": "pPnzG.png",
+        "width_px": 390,
+        "height_px": 1110
+      }
+    },
+    {
+      "state": "set_form",
+      "title": "ฟอร์มตั้งรหัสผ่าน",
+      "desktop": {
+        "node_id": "tajTc",
+        "image": "tajTc.png",
+        "width_px": 1440,
+        "height_px": 1050
+      },
+      "mobile": {
+        "node_id": "hnQEP",
+        "image": "hnQEP.png",
+        "width_px": 390,
+        "height_px": 1246
+      }
+    },
+    {
+      "state": "mismatch",
+      "title": "รหัสผ่านไม่ตรงกัน",
+      "desktop": {
+        "node_id": "G8KYn8",
+        "image": "G8KYn8.png",
+        "width_px": 1440,
+        "height_px": 1072
+      },
+      "mobile": {
+        "node_id": "pR2Pa",
+        "image": "pR2Pa.png",
+        "width_px": 390,
+        "height_px": 1268
+      }
+    },
+    {
+      "state": "saving",
+      "title": "กำลังตั้งรหัสผ่าน",
+      "desktop": {
+        "node_id": "rcbpQ",
+        "image": "rcbpQ.png",
+        "width_px": 1440,
+        "height_px": 1050
+      },
+      "mobile": {
+        "node_id": "LOT18",
+        "image": "LOT18.png",
+        "width_px": 390,
+        "height_px": 1194
+      }
+    },
+    {
+      "state": "known_failure",
+      "title": "ตั้งรหัสผ่านไม่สำเร็จ",
+      "desktop": {
+        "node_id": "nELMZ",
+        "image": "nELMZ.png",
+        "width_px": 1440,
+        "height_px": 1132
+      },
+      "mobile": {
+        "node_id": "QBkEs",
+        "image": "QBkEs.png",
+        "width_px": 390,
+        "height_px": 1326
+      }
+    },
+    {
+      "state": "result_unknown",
+      "title": "ยังยืนยันผลไม่ได้",
+      "desktop": {
+        "node_id": "ZPeDt",
+        "image": "ZPeDt.png",
+        "width_px": 1440,
+        "height_px": 1132
+      },
+      "mobile": {
+        "node_id": "Zeex5",
+        "image": "Zeex5.png",
+        "width_px": 390,
+        "height_px": 1274
+      }
+    },
+    {
+      "state": "success",
+      "title": "ตั้งรหัสผ่านสำเร็จ",
+      "desktop": {
+        "node_id": "eTrEd",
+        "image": "eTrEd.png",
+        "width_px": 1440,
+        "height_px": 1080
+      },
+      "mobile": {
+        "node_id": "ucqhd",
+        "image": "ucqhd.png",
+        "width_px": 390,
+        "height_px": 1373
+      }
+    }
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}
