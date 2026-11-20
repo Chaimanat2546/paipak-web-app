@@ -1,0 +1,27 @@
+{
+  "task": "UID-014",
+  "version": "G2-r2",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "status": "pending_owner_review",
+  "direction": "G1-r2",
+  "direction_approval": "../owner-G1-r2-acceptance.json",
+  "owner_revision_request": "ไปจัดหน้าใหม่ด้วยขาดส่วน การแนะนำบทความอื่นๆแล้วก็อยากได้บ้านพักอยู่ขวามือมากกว่า",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "ta0m8",
+  "new_frame_count": 8,
+  "frame_count": 16,
+  "new_screens": [
+    {"id": "F-01", "state": "article_with_villa_sidebar_and_recommendations", "desktop": "gmEKe", "mobile": "Oc6KK"},
+    {"id": "F-02", "state": "recommendations_without_eligible_villas", "desktop": "JoMH6", "mobile": "XJsVo"},
+    {"id": "F-03", "state": "cover_load_failed", "desktop": "m3deAU", "mobile": "d3tDtC"},
+    {"id": "F-09", "state": "eligible_villas_without_recommendations", "desktop": "L2MIP", "mobile": "w7lTgC"}
+  ],
+  "retained": {
+    "manifest": "../g2-r1-review/review-manifest.json",
+    "pencil_group": "XXbdF",
+    "screens": ["F-04", "F-05", "F-06", "F-07", "F-08"]
+  },
+  "review_package": "README.md",
+  "interaction_specification": "interaction-spec.md"
+}

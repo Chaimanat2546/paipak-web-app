@@ -19,6 +19,8 @@
 | DV-3178 · LYYA | [เปิดภาพ](../property-detail-r31-checklist/lyya-desktop.png) | [เปิดภาพ](../property-detail-r31-checklist/lyya-mobile.png) |
 | DV-1945 · Fun Beach · รายละเอียดต้นทางไม่พร้อม | [เปิดภาพ](../property-detail-r31-checklist/fallback-dv1945-desktop.png) | [เปิดภาพ](../property-detail-r31-checklist/fallback-dv1945-mobile.png) |
 | สถานะปฏิทินและกล่องจอง | [เปิดภาพ](../property-detail-r31-checklist/booking-states-desktop.png) | [เปิดภาพ](../property-detail-r31-checklist/booking-states-mobile.png) |
+| ไม่พบที่พักนี้ · [แบบเต็มหน้า r1 ที่อนุมัติ](../property-not-found-r1-review/README.md) | [เปิดภาพ](../property-not-found-r1-review/WsZYy.png) | [เปิดภาพ](../property-not-found-r1-review/qyaKf.png) |
+| โหลดข้อมูลที่พักไม่สำเร็จ · [แบบเต็มหน้า r1 ที่อนุมัติ](../property-load-error-r1-review/README.md) | [เปิดภาพ](../property-load-error-r1-review/tMKLt.png) | [เปิดภาพ](../property-load-error-r1-review/f8ZkvB.png) |
 
 แนะนำให้เริ่มเทียบ **Celuna** เพื่อดูหน้าแบบข้อมูลครบ แล้วเทียบ **RimLay** สำหรับตัวอย่างติดทะเลและปฏิทินเดือนที่เต็ม กับ **Fun Beach** สำหรับกรณีรายละเอียดต้นทางไม่พร้อม ราคาและวันว่างในภาพเป็นข้อมูลอ้างอิงจากรอบตรวจ r31 เมื่อ 10 พฤศจิกายน 2026
 

@@ -1,0 +1,22 @@
+{
+  "task": "UID-014",
+  "version": "G3-r4",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "status": "pending_owner_review",
+  "wireframe_baseline": "G2-r3",
+  "baseline_manifest": "../g3-r3-review/review-manifest.json",
+  "owner_revision_request": "Align the heights of the two desktop recommendation cards shown in the owner's screenshot.",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "YwLah",
+  "new_frame_count": 4,
+  "frame_count": 20,
+  "new_screens": [
+    {"id": "F-01", "state": "ready_with_villas_and_recommendations", "desktop": "rv0At"},
+    {"id": "F-02", "state": "ready_without_eligible_villas", "desktop": "jByfc"},
+    {"id": "F-03", "state": "cover_load_failed", "desktop": "niEaX"},
+    {"id": "F-05", "state": "article_load_failed_with_recommendations", "desktop": "GrpCR"}
+  ],
+  "review_package": "README.md",
+  "interaction_update": "interaction-update.md"
+}

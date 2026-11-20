@@ -1,0 +1,35 @@
+{
+  "task": "UID-006",
+  "version": "G2-r5",
+  "status": "owner_approved",
+  "owner_approval": "owner-G2-r5-acceptance.json",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "scope": "Desktop navigation emphasizes the current page by text weight",
+  "owner_instruction": "แต่ตัวหน้าตรงค้นหาที่พักจริงๆมันเอาไว้ใช้สำหรับหน้าที่แสดงอยู่เช่นรายการโปรดก็จะเป็นตัวหนาแทน",
+  "desktop_nav_approval": "owner-desktop-nav-acceptance.json",
+  "baseline_manifest": "../g2-r4-review/review-manifest.json",
+  "direct_entry_approval": "../g2-r4-review/owner-direct-entry-acceptance.json",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_section": "eVI9G",
+  "frame_count": 12,
+  "updated_viewport": 1440,
+  "mobile_viewport": 390,
+  "mobile_screens": [
+    {"state": "direct_entry_signed_out", "frame": "USTzy", "image": "../g2-r4-review/USTzy.png"},
+    {"state": "guest_entry_from_home", "frame": "D0RbX", "image": "../g2-r3-review/D0RbX.png"},
+    {"state": "saved", "frame": "f8sbv", "image": "../g2-r3-review/f8sbv.png"},
+    {"state": "empty", "frame": "C5pp7M", "image": "../g2-r3-review/C5pp7M.png"},
+    {"state": "loading", "frame": "OrvKK", "image": "../g2-r3-review/OrvKK.png"},
+    {"state": "load_error", "frame": "OcL6f", "image": "../g2-r3-review/OcL6f.png"}
+  ],
+  "updated_desktop_screens": [
+    {"state": "direct_entry_signed_out", "frame": "fAe8M"},
+    {"state": "guest_entry_from_home", "frame": "ubhVU"},
+    {"state": "saved", "frame": "imYJY"},
+    {"state": "empty", "frame": "i8BcMP"},
+    {"state": "loading", "frame": "L6ExF"},
+    {"state": "load_error", "frame": "mlX4g"}
+  ],
+  "implementation_authorized": false
+}

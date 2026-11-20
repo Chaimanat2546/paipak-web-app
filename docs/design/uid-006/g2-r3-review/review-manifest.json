@@ -1,0 +1,28 @@
+{
+  "task": "UID-006",
+  "version": "G2-r3",
+  "status": "superseded_for_review",
+  "superseded_by": "../g2-r4-review/review-manifest.json",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "scope": "Reconcile Favorites entry with existing Header r1 and mobile menu controls",
+  "owner_scope_approval": "../g2-r1-review/owner-G0-approval.json",
+  "baseline_manifest": "../g2-r2-review/review-manifest.json",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_section": "eVI9G",
+  "prior_pencil_section": "rvUYz",
+  "desktop_header_reference": "P8J24",
+  "mobile_header_reference": "ogMRL",
+  "mobile_open_menu_reference": "docs/design/dsd-001/f01-ui-3/screens/E3Tu4.png",
+  "frame_count": 10,
+  "viewports": {"desktop": 1440, "mobile": 390},
+  "screens": [
+    {"state": "guest_entry", "desktop": "ubhVU", "mobile": "D0RbX"},
+    {"state": "saved", "desktop": "imYJY", "mobile": "f8sbv"},
+    {"state": "empty", "desktop": "i8BcMP", "mobile": "C5pp7M"},
+    {"state": "loading", "desktop": "L6ExF", "mobile": "OrvKK"},
+    {"state": "load_error", "desktop": "mlX4g", "mobile": "OcL6f"}
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

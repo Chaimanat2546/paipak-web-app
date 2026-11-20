@@ -1,0 +1,15 @@
+{
+  "task": "UID-014",
+  "gate": "G3",
+  "version": "G3-r9",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "อนุมัติ UID-014 G3-r9 ทั้งเดสก์ท็อปและมือถือครับ ไปทำชุดส่งมอบ G4 ได้เลย",
+  "scope": "Desktop and mobile G3-r9 review set, including the inherited current frames in the manifest chain.",
+  "frame_count": 20,
+  "pencil_group": "YwLah",
+  "review_package": "README.md",
+  "approved_manifest": "review-manifest.json",
+  "authorized_next_gate": "G4"
+}

@@ -1,0 +1,14 @@
+{
+  "task": "UID-014",
+  "gate": "G2",
+  "version": "G2-r3",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "อนุมัติ UID-014 Wireframe G2-r3 ตามแบบและกติกาที่ตกลงกันครับ ไปทำแบบละเอียด G3 ทั้งเดสก์ท็อปและมือถือได้เลย หน้าโหลดไม่สำเร็จอยากให้แนบบทความอื่นให้อ่านด้วย",
+  "review_package": "README.md",
+  "interaction_specification": "interaction-spec.md",
+  "pencil_group": "Y720PF",
+  "authorized_next_gate": "G3",
+  "g3_amendment": "Show other articles on the retryable article-load failure screen."
+}

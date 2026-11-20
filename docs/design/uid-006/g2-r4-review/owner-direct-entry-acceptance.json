@@ -1,0 +1,14 @@
+{
+  "task": "UID-006",
+  "gate": "G2",
+  "version": "G2-r4",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "โอเคละ",
+  "scope": "Displayed signed-out Favorites direct-entry wireframes on Desktop and Mobile, including opening existing Auth, landing on account Favorites on success and returning to the signed-out Favorites page on dismissal.",
+  "frames": {"desktop": "fAe8M", "mobile": "USTzy"},
+  "pencil_section": "eVI9G",
+  "whole_g2_approved": false,
+  "implementation_authorized": false
+}

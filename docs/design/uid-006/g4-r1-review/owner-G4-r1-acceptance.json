@@ -1,0 +1,19 @@
+{
+  "task": "UID-006",
+  "gate": "G4",
+  "version": "G4-r1",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "ได้",
+  "scope": "Final visual and interaction baseline for the Favorites page only",
+  "favorites_design_status": "completed",
+  "frames_approved": 12,
+  "component_study": "jDp6v",
+  "pencil_section": "eVI9G",
+  "pencil_visual_group": "lUMVu",
+  "review_manifest": "review-manifest.json",
+  "interaction_specification": "interaction-spec.md",
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

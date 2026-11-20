@@ -648,6 +648,9 @@ tasks:
   approval_scope: homepage_g4_r1_visual_baseline_at_six_widths
   g4_status: owner_approved
   g4_review_manifest: docs/design/dsd-001/home-g4-r1/review-manifest.json
+  home_card_bathrooms_version: home-card-bathrooms-r1
+  home_card_bathrooms_acceptance: docs/design/dsd-001/home-card-bathrooms-r1-review/owner-r1-acceptance.json
+  home_card_bathrooms_pencil_board: xUNLB
   artifact_links:
   - docs/design/dsd-001/home-g4-r1/README.md
   runtime_verified: false
@@ -694,6 +697,17 @@ tasks:
   pencil_wireframe_section: Jpzxu
   earlier_pencil_review_groups: removed_from_main_file
   pencil_implementation_reference: docs/design/uid-002/g4-r1-review/implementation-reference.md
+  card_bathroom_visibility_acceptance: docs/design/uid-002/card-bathroom-visibility-r1/owner-r1-acceptance.json
+  card_bathroom_visibility_pencil_board: UKt48
+  no_results_without_previous_version: no-results-r2
+  no_results_without_previous_acceptance: docs/design/uid-002/desktop-no-results-r2-review/owner-r2-acceptance.json
+  no_results_without_previous_pencil_board: kHRZV
+  initial_load_error_version: initial-load-error-r1
+  initial_load_error_acceptance: docs/design/uid-002/initial-load-error-r1-review/owner-r1-acceptance.json
+  initial_load_error_pencil_board: tOPKe
+  pagination_load_error_version: pagination-load-error-r1
+  pagination_load_error_acceptance: docs/design/uid-002/pagination-load-error-r1-review/owner-r1-acceptance.json
+  pagination_load_error_pencil_board: XD8nL
   g4_pencil_group: mC4Ut
   g4_preview_count: 2
   g3_narrow_review_package: docs/design/uid-002/g3-r8-review/README.md
@@ -870,6 +884,12 @@ tasks:
   property_detail_ui_acceptance: docs/design/uid-003/property-detail-r31-checklist/owner-ui-acceptance.json
   g4_status: owner_approved
   g4_review_manifest: docs/design/uid-003/property-detail-g4-r1/review-manifest.json
+  property_not_found_version: property-not-found-r1
+  property_not_found_acceptance: docs/design/uid-003/property-not-found-r1-review/owner-r1-acceptance.json
+  property_not_found_pencil_board: rlx9o
+  property_load_error_version: property-load-error-r1
+  property_load_error_acceptance: docs/design/uid-003/property-load-error-r1-review/owner-r1-acceptance.json
+  property_load_error_pencil_board: cAolt
   artifact_links:
   - docs/design/uid-003/property-detail-g4-r1/README.md
 - id: UID-004
@@ -986,7 +1006,7 @@ tasks:
   title: Favorites and bookings high-fidelity
   stage: screens
   kind: design
-  status: planned_not_started
+  status: in_progress
   handoff: manual_user_initiated
   depends_on:
   - UXD-002
@@ -1009,6 +1029,18 @@ tasks:
   - accessibility_review
   - human_approval
   approval_status: not_requested
+  favorites_review:
+    version: G4-r1
+    status: owner_approved
+    owner_scope_approval: docs/design/uid-006/g2-r1-review/owner-G0-approval.json
+    direct_entry_approval: docs/design/uid-006/g2-r4-review/owner-direct-entry-acceptance.json
+    desktop_nav_approval: docs/design/uid-006/g2-r5-review/owner-desktop-nav-acceptance.json
+    wireframe_approval: docs/design/uid-006/g2-r5-review/owner-G2-r5-acceptance.json
+    high_fidelity_approval: docs/design/uid-006/g3-r1-review/owner-G3-r1-acceptance.json
+    final_visual_approval: docs/design/uid-006/g4-r1-review/owner-G4-r1-acceptance.json
+    review_manifest: docs/design/uid-006/g4-r1-review/review-manifest.json
+    pencil_section: eVI9G
+    pencil_g3_group: lUMVu
 - id: UID-007
   title: Empty loading error and offline feedback design
   stage: states
@@ -1229,6 +1261,9 @@ tasks:
   g4_followup_pencil_file: docs/design/dsd-001/papaipak-ui.pen
   g4_followup_pencil_group: aQPs7
   g4_followup_frame_count: 10
+  empty_add_button_version: empty-add-button-r1
+  empty_add_button_acceptance: docs/design/uid-011/empty-add-button-r1-review/owner-r1-acceptance.json
+  empty_add_button_pencil_board: LR7NF
   edit_link_design_approval:
     status: owner_approved
     approved_on: '2026-11-13'
@@ -1325,6 +1360,12 @@ tasks:
   g4_review_version: G4-r1
   g4_approved_on: '2026-11-18'
   g4_approval_record: docs/design/uid-012/g4-review/owner-G4-r1-acceptance.json
+  search_no_results_version: article-search-no-results-r1
+  search_no_results_acceptance: docs/design/uid-012/search-no-results-r1-review/owner-r1-acceptance.json
+  search_no_results_pencil_board: pmgZ4
+  pinned_empty_version: pinned-empty-r1
+  pinned_empty_acceptance: docs/design/uid-012/pinned-empty-r1-review/owner-r1-acceptance.json
+  pinned_empty_pencil_board: Eojk4
   g4_review_pencil_group: BrM0R
   g4_review_mobile_frames:
     F-29: b54o5t
@@ -1428,6 +1469,10 @@ tasks:
   g4_approved_version: G4-r5
   g4_approved_on: '2026-11-18'
   g4_approval_record: docs/design/uid-013/g4-r5-mobile-order-review/owner-G4-r5-acceptance.json
+  empty_faq_version: empty-faq-r1
+  empty_faq_acceptance: docs/design/uid-013/empty-faq-r1-review/owner-r1-acceptance.json
+  empty_faq_pencil_desktop_section: Hy3Hg
+  empty_faq_pencil_mobile_section: oTVq8
   g4_review_package: docs/design/uid-013/g4-r5-mobile-order-review/README.md
   g4_review_manifest: docs/design/uid-013/g4-r5-mobile-order-review/review-manifest.json
   g4_interaction_spec: docs/design/uid-013/g4-r5-mobile-order-review/README.md
@@ -1486,6 +1531,119 @@ tasks:
   - Desktop and mobile show how admins create and edit a single-language source with plain-text answers, change the saved order and confirm permanent deletion.
   - The homepage shows the latest saved content immediately and uses the current source until a translation exists for the selected language.
   - The design covers incomplete fields, failed saves, long answers and the homepage with no FAQ entries.
+  evidence_required:
+  - design_artifact_links
+  - desktop_mobile_review
+  - accessibility_review
+  - human_approval
+- id: UID-014
+  title: หน้ารายละเอียดบทความ
+  stage: screens
+  kind: design
+  status: completed
+  handoff: manual_user_initiated
+  review_gate: G4
+  g0_status: owner_approved
+  g0_approved_on: '2026-11-20'
+  g0_approval_instruction: อนุมัติ UID-014 ที่ G0 ตามขอบเขตที่สรุปครับ ไปต่อ G1 เสนอทิศทางหน้าจอได้เลย
+  g1_status: owner_approved
+  g1_direction_version: G1-r2
+  g1_approved_on: '2026-11-20'
+  g1_selected_direction: บทความท่องเที่ยวแบบนิตยสาร
+  g1_direction_proposal: tasks/design/UID-014.md
+  g1_approval_record: docs/design/uid-014/owner-G1-r2-acceptance.json
+  g2_status: owner_approved
+  g2_version: G2-r3
+  g2_approved_on: '2026-11-20'
+  g2_approval_record: docs/design/uid-014/g2-r3-review/owner-G2-r3-acceptance.json
+  g2_review_package: docs/design/uid-014/g2-r3-review/README.md
+  g2_review_manifest: docs/design/uid-014/g2-r3-review/review-manifest.json
+  g2_pencil_group: Y720PF
+  g2_review_frame_count: 16
+  g3_status: owner_approved
+  g3_version: G3-r9
+  g3_approved_on: '2026-11-20'
+  g3_approval_record: docs/design/uid-014/g3-r9-review/owner-G3-r9-acceptance.json
+  g3_review_package: docs/design/uid-014/g3-r9-review/README.md
+  g3_review_manifest: docs/design/uid-014/g3-r9-review/review-manifest.json
+  g3_pencil_group: YwLah
+  g3_review_frame_count: 20
+  g4_review_status: owner_approved
+  g4_review_version: G4-r1
+  g4_approved_version: G4-r1
+  g4_approved_on: '2026-11-20'
+  g4_approval_record: docs/design/uid-014/g4-r1-review/owner-G4-r1-acceptance.json
+  g4_review_package: docs/design/uid-014/g4-r1-review/README.md
+  g4_review_manifest: docs/design/uid-014/g4-r1-review/review-manifest.json
+  g4_interaction_spec: docs/design/uid-014/g4-r1-review/interaction-spec.md
+  g4_review_pencil_file: docs/design/dsd-001/papaipak-ui.pen
+  pencil_task_section: DfjX9
+  g4_review_pencil_group: YwLah
+  g4_review_frame_count: 20
+  approval_status: owner_approved
+  depends_on:
+  - UID-001
+  - UID-003
+  - UID-012
+  decision_refs:
+  - BRAND-001
+  scope: Desktop and mobile public reading page for one published article, accessible from Home or a direct link, with attached villas in the desktop right column and recommendations at the end of the article and on the retryable load failure screen.
+  deliverables:
+  - desktop_and_mobile_article_detail_design
+  - article_detail_interaction_specification
+  artifact_links:
+  - tasks/design/UID-014.md
+  - docs/design/uid-014/owner-G1-r2-acceptance.json
+  - docs/design/uid-014/g2-r1-review/README.md
+  - docs/design/uid-014/g2-r1-review/interaction-spec.md
+  - docs/design/uid-014/g2-r1-review/review-manifest.json
+  - docs/design/uid-014/g2-r2-review/README.md
+  - docs/design/uid-014/g2-r2-review/interaction-spec.md
+  - docs/design/uid-014/g2-r2-review/review-manifest.json
+  - docs/design/uid-014/g2-r3-review/README.md
+  - docs/design/uid-014/g2-r3-review/interaction-spec.md
+  - docs/design/uid-014/g2-r3-review/review-manifest.json
+  - docs/design/uid-014/g2-r3-review/owner-G2-r3-acceptance.json
+  - docs/design/uid-014/g3-r1-review/README.md
+  - docs/design/uid-014/g3-r1-review/interaction-update.md
+  - docs/design/uid-014/g3-r1-review/review-manifest.json
+  - docs/design/uid-014/g3-r2-review/README.md
+  - docs/design/uid-014/g3-r2-review/interaction-update.md
+  - docs/design/uid-014/g3-r2-review/review-manifest.json
+  - docs/design/uid-014/g3-r3-review/README.md
+  - docs/design/uid-014/g3-r3-review/interaction-update.md
+  - docs/design/uid-014/g3-r3-review/review-manifest.json
+  - docs/design/uid-014/g3-r4-review/README.md
+  - docs/design/uid-014/g3-r4-review/interaction-update.md
+  - docs/design/uid-014/g3-r4-review/review-manifest.json
+  - docs/design/uid-014/g3-r5-review/README.md
+  - docs/design/uid-014/g3-r5-review/interaction-update.md
+  - docs/design/uid-014/g3-r5-review/review-manifest.json
+  - docs/design/uid-014/g3-r6-review/README.md
+  - docs/design/uid-014/g3-r6-review/interaction-update.md
+  - docs/design/uid-014/g3-r6-review/review-manifest.json
+  - docs/design/uid-014/g3-r7-review/README.md
+  - docs/design/uid-014/g3-r7-review/interaction-update.md
+  - docs/design/uid-014/g3-r7-review/review-manifest.json
+  - docs/design/uid-014/g3-r8-review/README.md
+  - docs/design/uid-014/g3-r8-review/interaction-update.md
+  - docs/design/uid-014/g3-r8-review/review-manifest.json
+  - docs/design/uid-014/g3-r9-review/README.md
+  - docs/design/uid-014/g3-r9-review/interaction-update.md
+  - docs/design/uid-014/g3-r9-review/review-manifest.json
+  - docs/design/uid-014/g3-r9-review/owner-G3-r9-acceptance.json
+  - docs/design/uid-014/g4-r1-review/README.md
+  - docs/design/uid-014/g4-r1-review/interaction-spec.md
+  - docs/design/uid-014/g4-r1-review/review-manifest.json
+  - docs/design/uid-014/g4-r1-review/owner-G4-r1-acceptance.json
+  acceptance_criteria:
+  - Visitors can see the title, cover and full published content without signing in.
+  - The desktop article cover stays inside the reading column when the right villa column is present.
+  - Attached villas that can be viewed appear in the desktop right column or after the article on mobile and open the corresponding property detail.
+  - Attached villa cards use the approved Search card fields and show the photo and values for the linked villa.
+  - Available recommendations for other published articles use two columns on desktop and one on mobile, with a left thumbnail, title and available topic tag in each link.
+  - Unavailable and retryable failure statuses sit directly on the page background with their respective actions, followed by eligible recommendations in the retryable state when available.
+  - The design covers long titles on narrow screens, cover load failure, unavailable articles and retryable load failure.
   evidence_required:
   - design_artifact_links
   - desktop_mobile_review

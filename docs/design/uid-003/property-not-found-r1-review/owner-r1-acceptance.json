@@ -1,0 +1,16 @@
+{
+  "task": "UID-003",
+  "version": "property-not-found-r1",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_approval_quote": "โอเคถัดไป",
+  "scope": "Show the approved full-page layout when the requested property is missing from both the detail data and the catalog. The action returns to Search.",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "board": "rlx9o",
+    "desktop": "WsZYy",
+    "mobile": "qyaKf"
+  },
+  "runtime_verified": false
+}

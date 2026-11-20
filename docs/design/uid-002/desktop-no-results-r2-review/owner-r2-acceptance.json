@@ -1,0 +1,18 @@
+{
+  "task": "UID-002",
+  "version": "no-results-r2",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_approval_quote": "โอเคครับ อนุมัติแบบนี้ทั้งเดสก์ท็อปและมือถือ",
+  "scope": "Search returned zero matching properties and there are no previous results. Show alternatives in the selected location by relaxing price and bedroom count while retaining the selected check-in date, guest count and pets.",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "board": "kHRZV",
+    "desktop": "nxmOf",
+    "mobile": "ung85",
+    "mobile_scroll_content": "C4o2HI"
+  },
+  "implementation_status": "deferred_at_design_close",
+  "runtime_verified": false
+}

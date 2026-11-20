@@ -1,0 +1,31 @@
+{
+  "task": "UID-014",
+  "version": "G2-r1",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "status": "pending_owner_review",
+  "direction": "G1-r2",
+  "direction_approval": "../owner-G1-r2-acceptance.json",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "XXbdF",
+  "reference_widths_px": {
+    "desktop": 1440,
+    "mobile": 390,
+    "narrow_mobile": 360
+  },
+  "pair_count": 6,
+  "frame_count": 14,
+  "frame_local_bounds_issues": 0,
+  "screens": [
+    {"id": "F-01", "state": "article_with_contents_and_villas", "desktop": "mf2ly", "mobile": "mtlN5"},
+    {"id": "F-02", "state": "short_article_without_eligible_villas", "desktop": "E6pdi", "mobile": "B3yUcn"},
+    {"id": "F-03", "state": "cover_load_failed", "desktop": "h1HCJ", "mobile": "omS2C"},
+    {"id": "F-04", "state": "article_unavailable", "desktop": "ppdZ5", "mobile": "ns0Tq"},
+    {"id": "F-05", "state": "article_load_failed", "desktop": "CisCE", "mobile": "ixG79"},
+    {"id": "F-06", "state": "article_loading_or_retrying", "desktop": "DYUWd", "mobile": "K1Q252"},
+    {"id": "F-07", "state": "mobile_contents_expanded_excerpt", "mobile": "Z5LulV"},
+    {"id": "F-08", "state": "narrow_mobile_long_title_excerpt", "mobile": "BhkIn"}
+  ],
+  "review_package": "README.md",
+  "interaction_specification": "interaction-spec.md"
+}

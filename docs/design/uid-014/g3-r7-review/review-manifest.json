@@ -1,0 +1,24 @@
+{
+  "task": "UID-014",
+  "version": "G3-r7",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "status": "pending_owner_review",
+  "wireframe_baseline": "G2-r3",
+  "baseline_manifest": "../g3-r6-review/review-manifest.json",
+  "owner_revision_request": "ใส่แท็กด้วย",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "YwLah",
+  "example_tags": ["ทริปกับเพื่อน", "ทริปครอบครัว"],
+  "new_frame_count": 10,
+  "frame_count": 20,
+  "new_screens": [
+    {"id": "F-01", "state": "ready_with_villas_and_recommendations", "desktop": "ERdZn", "mobile": "oZBKM"},
+    {"id": "F-02", "state": "ready_without_eligible_villas", "desktop": "i7V2zx", "mobile": "FpnT9"},
+    {"id": "F-03", "state": "cover_load_failed", "desktop": "v16owa", "mobile": "qA23q"},
+    {"id": "F-05", "state": "article_load_failed_with_recommendations", "desktop": "QBVmL", "mobile": "xWkZb"},
+    {"id": "F-11", "state": "ready_with_one_recommendation", "desktop": "FvFvn", "mobile": "StNxP"}
+  ],
+  "review_package": "README.md",
+  "interaction_update": "interaction-update.md"
+}

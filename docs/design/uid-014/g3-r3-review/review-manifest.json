@@ -1,0 +1,21 @@
+{
+  "task": "UID-014",
+  "version": "G3-r3",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "status": "pending_owner_review",
+  "wireframe_baseline": "G2-r3",
+  "baseline_manifest": "../g3-r2-review/review-manifest.json",
+  "owner_revision_request": "ชื่อเรื่อง desktop ให้ยาวครอบบ้านพักได้ แล้วไม่ต้องมีเส้นแบ่งด้านบน",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "YwLah",
+  "new_frame_count": 3,
+  "frame_count": 20,
+  "new_screens": [
+    {"id": "F-01", "state": "ready_with_villas_and_recommendations", "desktop": "WWYvr"},
+    {"id": "F-03", "state": "cover_load_failed", "desktop": "sG8DS"},
+    {"id": "F-09", "state": "ready_without_eligible_recommendations", "desktop": "DpyPT"}
+  ],
+  "review_package": "README.md",
+  "interaction_update": "interaction-update.md"
+}

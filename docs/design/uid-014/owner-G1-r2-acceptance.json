@@ -1,0 +1,12 @@
+{
+  "task": "UID-014",
+  "gate": "G1",
+  "version": "G1-r2",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "selected_direction": "บทความท่องเที่ยวแบบนิตยสาร",
+  "owner_quote": "อนุมัติ UID-014 G1-r2 แนวนิตยสารท่องเที่ยวครับ ไปทำ Wireframe G2 ทั้งเดสก์ท็อปและมือถือได้เลย",
+  "direction_proposal": "../../../tasks/design/UID-014.md",
+  "next_authorized_scope": "Desktop and mobile G2 wireframes within the approved UID-014 G0 scope"
+}

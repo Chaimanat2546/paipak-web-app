@@ -1,0 +1,17 @@
+{
+  "version": "card-bathroom-visibility-r1",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_scope_quote": "เอาไปใส่หน้าอื่นด้วย",
+  "owner_approval_quote": "โอเคละ",
+  "scope": "Across property cards, show the bathroom icon and count only when the count is greater than zero. Collapse the entire group for zero or missing counts.",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "board": "UKt48",
+    "component": "V0hJN",
+    "known_count_example": "M3PQL",
+    "missing_or_zero_example": "sACqj"
+  },
+  "runtime_verified": false
+}

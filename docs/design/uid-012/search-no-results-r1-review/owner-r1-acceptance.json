@@ -1,0 +1,16 @@
+{
+  "task": "UID-012",
+  "version": "article-search-no-results-r1",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_approval_quote": "โอเคละถัดไป",
+  "scope": "Center the article search empty state and Clear query action within the results area on desktop and mobile. Display them directly on the list panel background, with search and filters above.",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "board": "pmgZ4",
+    "desktop": "c7JEY",
+    "mobile": "qxfsM"
+  },
+  "runtime_verified": false
+}

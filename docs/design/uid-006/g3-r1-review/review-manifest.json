@@ -1,0 +1,29 @@
+{
+  "task": "UID-006",
+  "version": "G3-r1",
+  "status": "owner_approved",
+  "owner_approval": "owner-G3-r1-acceptance.json",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "scope": "Favorites high-fidelity design",
+  "approved_wireframe": "../g2-r5-review/owner-G2-r5-acceptance.json",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_section": "eVI9G",
+  "pencil_g3_group": "lUMVu",
+  "shared_property_card": "V0hJN",
+  "shared_loading_card": "cDP8I",
+  "shared_primary_button": "OYERv",
+  "frame_count": 12,
+  "viewports": {"desktop": 1440, "mobile": 390},
+  "screens": [
+    {"state": "saved", "desktop": "M5ov4R", "mobile": "d8lHj3"},
+    {"state": "direct_entry_signed_out", "desktop": "N156K", "mobile": "JA8JB"},
+    {"state": "empty", "desktop": "z6TWKe", "mobile": "F1qaM"},
+    {"state": "loading", "desktop": "U2iA6", "mobile": "zJCXX"},
+    {"state": "load_error", "desktop": "XLwvX", "mobile": "E5Ou40"},
+    {"state": "guest_entry_from_home", "desktop": "pcB3j", "mobile": "AD0jQ"}
+  ],
+  "component_study": {"frame": "jDp6v", "image": "jDp6v.png", "scope": "Saved heart focus and 328 px card for a 360 px screen"},
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

@@ -1,0 +1,23 @@
+{
+  "task": "UID-014",
+  "version": "G3-r9",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_approved",
+  "owner_approval": "owner-G3-r9-acceptance.json",
+  "wireframe_baseline": "G2-r3",
+  "baseline_manifest": "../g3-r8-review/review-manifest.json",
+  "owner_revision_request": "ไม่ต้องใส่เป็น card",
+  "revision_scope": "Place the unavailable and retryable failure messages directly on the page background.",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "YwLah",
+  "new_frame_count": 6,
+  "frame_count": 20,
+  "new_screens": [
+    {"id": "F-04", "state": "article_unavailable", "desktop": "rg1Jl", "mobile": "V9Bw2"},
+    {"id": "F-05", "state": "article_load_failed_with_recommendations", "desktop": "u8q1D", "mobile": "Rykt1"},
+    {"id": "F-10", "state": "article_load_failed_without_recommendations", "desktop": "W3n1IR", "mobile": "w16CyY"}
+  ],
+  "review_package": "README.md",
+  "interaction_update": "interaction-update.md"
+}

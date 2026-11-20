@@ -1,0 +1,18 @@
+{
+  "task": "UID-006",
+  "gate": "G3",
+  "version": "G3-r1",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "ได้",
+  "scope": "Favorites high-fidelity review on Desktop and Mobile, with the saved-heart focus and narrow-card study",
+  "frames_approved": 12,
+  "component_study": "jDp6v",
+  "review_manifest": "review-manifest.json",
+  "pencil_section": "eVI9G",
+  "pencil_g3_group": "lUMVu",
+  "g4_approved": false,
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

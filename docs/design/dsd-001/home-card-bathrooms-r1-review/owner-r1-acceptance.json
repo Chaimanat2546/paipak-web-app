@@ -1,0 +1,18 @@
+{
+  "task": "UID-001",
+  "version": "home-card-bathrooms-r1",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_approval_quote": "โอเคละ",
+  "scope": "On Homepage cards, show the bathroom icon and count only when the count is greater than zero. Collapse the entire bathroom fact when zero or missing. The displayed review covers desktop 1440 and mobile 390 and 360.",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "board": "xUNLB",
+    "desktop": "eDzMZ",
+    "mobile_390": "KaMv3",
+    "mobile_360": "t3ZQ3F",
+    "known_count_example": "fvZz0"
+  },
+  "runtime_verified": false
+}

@@ -1,0 +1,11 @@
+{
+  "task": "UID-006",
+  "gate": "G0",
+  "status": "owner_approved",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_statement": "ได้",
+  "scope": "Favorites page wireframe for Desktop and Mobile using approved shared property card as reference, saved, empty, loading and load failure states, and the existing Auth entry and return behavior.",
+  "design_output_approved": false,
+  "implementation_authorized": false
+}

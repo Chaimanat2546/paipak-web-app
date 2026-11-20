@@ -1,0 +1,22 @@
+{
+  "task": "UID-014",
+  "version": "G2-r3",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_approved",
+  "owner_approval": "owner-G2-r3-acceptance.json",
+  "direction": "G1-r2",
+  "direction_approval": "../owner-G1-r2-acceptance.json",
+  "owner_revision_request": "อยากให้รูปปกไม่ครอบส่วนบ้านพัก",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "Y720PF",
+  "new_frame_count": 2,
+  "frame_count": 16,
+  "new_screens": [
+    {"id": "F-01", "state": "article_with_villa_sidebar_and_recommendations", "desktop": "C3hCEn"},
+    {"id": "F-09", "state": "eligible_villas_without_recommendations", "desktop": "mIj1N"}
+  ],
+  "baseline_manifest": "../g2-r2-review/review-manifest.json",
+  "review_package": "README.md",
+  "interaction_specification": "interaction-spec.md"
+}

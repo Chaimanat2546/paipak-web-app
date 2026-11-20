@@ -1,0 +1,16 @@
+{
+  "task": "UID-011",
+  "version": "empty-add-button-r1",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_approval_quote": "โอเคถัดไป",
+  "scope": "Fit the primary Add clip button in the empty list to its icon and label, with equal horizontal padding on desktop and mobile.",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "board": "LR7NF",
+    "desktop": "zV1SQ",
+    "mobile": "t2yTNH"
+  },
+  "runtime_verified": false
+}

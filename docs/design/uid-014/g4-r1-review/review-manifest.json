@@ -1,0 +1,250 @@
+{
+  "task": "UID-014",
+  "version": "G4-r1",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "status": "owner_approved",
+  "owner_approval": "owner-G4-r1-acceptance.json",
+  "design_task_status": "completed",
+  "visual_baseline": "G3-r9",
+  "visual_approval": "../g3-r9-review/owner-G3-r9-acceptance.json",
+  "visual_manifest": "../g3-r9-review/review-manifest.json",
+  "wireframe_baseline": "G2-r3",
+  "wireframe_approval": "../g2-r3-review/owner-G2-r3-acceptance.json",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_task_section": "DfjX9",
+  "pencil_group": "YwLah",
+  "frame_count": 20,
+  "pair_count": 9,
+  "mobile_excerpt_count": 2,
+  "reference_widths_px": {
+    "desktop": 1440,
+    "mobile": 390,
+    "narrow_mobile": 360
+  },
+  "shared_components": {
+    "villa_card": "V0hJN",
+    "retry_button": "OYERv",
+    "home_button": "QUcEl",
+    "desktop_header": "P8J24",
+    "mobile_header": "ogMRL",
+    "narrow_mobile_header": "Ij68i",
+    "desktop_footer": "Xcsmd",
+    "mobile_footer": "D8ohL"
+  },
+  "verification": {
+    "active_native_frame_count": 20,
+    "export_count": 20,
+    "native_export_id_and_dimension_match": true,
+    "design_checks": [
+      "ready and conditional article layouts",
+      "villa and recommendation counts",
+      "loading skeleton and failure actions"
+    ],
+    "runtime": "pending"
+  },
+  "frames": [
+    {
+      "scenario": "F-01",
+      "device": "desktop",
+      "node": "suaBU",
+      "source_version": "G3-r8",
+      "width": 1440,
+      "height": 2521,
+      "file": "docs/design/uid-014/g3-r8-review/suaBU.png",
+      "sha256": "a390d1a9add777c66d5f931092df13d84966e230f849bf3499f71b66429e9d77"
+    },
+    {
+      "scenario": "F-01",
+      "device": "mobile",
+      "node": "oZBKM",
+      "source_version": "G3-r7",
+      "width": 390,
+      "height": 3126,
+      "file": "docs/design/uid-014/g3-r7-review/oZBKM.png",
+      "sha256": "647b141b729762a7b311a13f3ca3ca955e3aab5f1d61d69d836df48dd19f3b39"
+    },
+    {
+      "scenario": "F-02",
+      "device": "desktop",
+      "node": "ljLXC",
+      "source_version": "G3-r8",
+      "width": 1440,
+      "height": 1721,
+      "file": "docs/design/uid-014/g3-r8-review/ljLXC.png",
+      "sha256": "710e0a242d702478b7eee2c7ac348322648ee2bc8a11113b99d68a94414b2116"
+    },
+    {
+      "scenario": "F-02",
+      "device": "mobile",
+      "node": "FpnT9",
+      "source_version": "G3-r7",
+      "width": 390,
+      "height": 1566,
+      "file": "docs/design/uid-014/g3-r7-review/FpnT9.png",
+      "sha256": "dde95f77c91ad65281e0fed7a29216e420f13b7dbc08db7619933a22d992ff91"
+    },
+    {
+      "scenario": "F-03",
+      "device": "desktop",
+      "node": "cvDMj",
+      "source_version": "G3-r8",
+      "width": 1440,
+      "height": 1467,
+      "file": "docs/design/uid-014/g3-r8-review/cvDMj.png",
+      "sha256": "f262db1e9e26caeb7eeb076af37903525e9c8890568ea5ef033c81eb4dde80f0"
+    },
+    {
+      "scenario": "F-03",
+      "device": "mobile",
+      "node": "qA23q",
+      "source_version": "G3-r7",
+      "width": 390,
+      "height": 2223,
+      "file": "docs/design/uid-014/g3-r7-review/qA23q.png",
+      "sha256": "060af6b2a4986142e1bf435bae4c08149719f9c830a478768ddec4e3bd2119e8"
+    },
+    {
+      "scenario": "F-04",
+      "device": "desktop",
+      "node": "rg1Jl",
+      "source_version": "G3-r9",
+      "width": 1440,
+      "height": 838,
+      "file": "docs/design/uid-014/g3-r9-review/rg1Jl.png",
+      "sha256": "00d8e55bdfeab71825f98a272f378152f149e276193dd926acdda40f08b911d4"
+    },
+    {
+      "scenario": "F-04",
+      "device": "mobile",
+      "node": "V9Bw2",
+      "source_version": "G3-r9",
+      "width": 390,
+      "height": 944,
+      "file": "docs/design/uid-014/g3-r9-review/V9Bw2.png",
+      "sha256": "177bafff6c38d6bf3f7981c721b74cd15ed76b96b73afcb744d625a59e86d81a"
+    },
+    {
+      "scenario": "F-05",
+      "device": "desktop",
+      "node": "u8q1D",
+      "source_version": "G3-r9",
+      "width": 1440,
+      "height": 1019,
+      "file": "docs/design/uid-014/g3-r9-review/u8q1D.png",
+      "sha256": "dd1c269cfb1ee25f5ed61488f2fd8d4c7bdeeccd22c36a5a4b01992337b87849"
+    },
+    {
+      "scenario": "F-05",
+      "device": "mobile",
+      "node": "Rykt1",
+      "source_version": "G3-r9",
+      "width": 390,
+      "height": 1246,
+      "file": "docs/design/uid-014/g3-r9-review/Rykt1.png",
+      "sha256": "3c4cb6e8a9c911d0f941347e87e429ea7e5d14d624fed152d4a6dd0331d1938e"
+    },
+    {
+      "scenario": "F-06",
+      "device": "desktop",
+      "node": "V4lRo",
+      "source_version": "G3-r2",
+      "width": 1440,
+      "height": 1352,
+      "file": "docs/design/uid-014/g3-r2-review/V4lRo.png",
+      "sha256": "6ef13eef1e0fcf7c3ce47eaedcd13f651d61f6bbe89208cb1c181ad909592cad"
+    },
+    {
+      "scenario": "F-06",
+      "device": "mobile",
+      "node": "qoET0",
+      "source_version": "G3-r2",
+      "width": 390,
+      "height": 1086,
+      "file": "docs/design/uid-014/g3-r2-review/qoET0.png",
+      "sha256": "12ca0597c2a26bde9e31e8da412c5597af7103d3533ab0f0d5af043ec022161d"
+    },
+    {
+      "scenario": "F-07",
+      "device": "mobile",
+      "node": "qYNYB",
+      "source_version": "G3-r5",
+      "width": 390,
+      "height": 861,
+      "file": "docs/design/uid-014/g3-r5-review/qYNYB.png",
+      "sha256": "aede57e7a6bcec2c5a53d776aa6f3067c5680505fc084f05f2b74c679d411511"
+    },
+    {
+      "scenario": "F-08",
+      "device": "mobile",
+      "node": "YDuYY",
+      "source_version": "G3-r5",
+      "width": 360,
+      "height": 723,
+      "file": "docs/design/uid-014/g3-r5-review/YDuYY.png",
+      "sha256": "440637afe8dff2d6641c745bdbf2f7a4a7c69385cc99d9ef6d1050ee094d38c1"
+    },
+    {
+      "scenario": "F-09",
+      "device": "desktop",
+      "node": "HeUFi",
+      "source_version": "G3-r5",
+      "width": 1440,
+      "height": 2303,
+      "file": "docs/design/uid-014/g3-r5-review/HeUFi.png",
+      "sha256": "15b48b98eb92f1d1c32502d7e689042bd41173320c57c7f9fc0151cd4338e42a"
+    },
+    {
+      "scenario": "F-09",
+      "device": "mobile",
+      "node": "W2bhYs",
+      "source_version": "G3-r5",
+      "width": 390,
+      "height": 2842,
+      "file": "docs/design/uid-014/g3-r5-review/W2bhYs.png",
+      "sha256": "ef58073fc65c8f3e8d56f81d5c89018f3bc2f5efdf561d7fde082bf1673ccb2b"
+    },
+    {
+      "scenario": "F-10",
+      "device": "desktop",
+      "node": "W3n1IR",
+      "source_version": "G3-r9",
+      "width": 1440,
+      "height": 801,
+      "file": "docs/design/uid-014/g3-r9-review/W3n1IR.png",
+      "sha256": "74997ac69df29881928baff90f526c8b35ef105d2b6a7ff1d44f50e024ec029d"
+    },
+    {
+      "scenario": "F-10",
+      "device": "mobile",
+      "node": "w16CyY",
+      "source_version": "G3-r9",
+      "width": 390,
+      "height": 964,
+      "file": "docs/design/uid-014/g3-r9-review/w16CyY.png",
+      "sha256": "04621276f215982e19dcaf30d742328d0b835f26747a41982b2da72de574ad27"
+    },
+    {
+      "scenario": "F-11",
+      "device": "desktop",
+      "node": "Y2RSMW",
+      "source_version": "G3-r8",
+      "width": 1440,
+      "height": 1721,
+      "file": "docs/design/uid-014/g3-r8-review/Y2RSMW.png",
+      "sha256": "9b69aa8686bdb8213da0b1e3a3f06f3ecfd8b3078abfe556ba0556964fb91eb2"
+    },
+    {
+      "scenario": "F-11",
+      "device": "mobile",
+      "node": "StNxP",
+      "source_version": "G3-r7",
+      "width": 390,
+      "height": 1464,
+      "file": "docs/design/uid-014/g3-r7-review/StNxP.png",
+      "sha256": "285da0fc7a3009b4c0c21386dd454486d9fd6827ac2fe6c137a1977069da7baf"
+    }
+  ],
+  "review_package": "README.md",
+  "interaction_specification": "interaction-spec.md"
+}

@@ -1,0 +1,17 @@
+{
+  "task": "UID-002",
+  "version": "initial-load-error-r1",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_approval_quote": "โอเคครับ อนุมัติแบบนี้ทั้งเดสก์ท็อปและมือถือ",
+  "scope": "Search results failed to load on the initial request. Use the F-05 error layout with retry and return home buttons, with the footer directly after the error area.",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "board": "tOPKe",
+    "desktop": "k3weP",
+    "mobile": "uw3dR"
+  },
+  "implementation_status": "deferred_at_design_close",
+  "runtime_verified": false
+}

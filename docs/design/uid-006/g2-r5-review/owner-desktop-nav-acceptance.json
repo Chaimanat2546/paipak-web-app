@@ -1,0 +1,14 @@
+{
+  "task": "UID-006",
+  "gate": "G2",
+  "version": "G2-r5",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "โอเคละ",
+  "scope": "Desktop navigation emphasis follows the current page across the G2-r5 Favorites views. The Favorites label is emphasized on the Favorites page and Search and Articles retain regular weight there.",
+  "desktop_frames": ["fAe8M", "ubhVU", "imYJY", "i8BcMP", "L6ExF", "mlX4g"],
+  "pencil_section": "eVI9G",
+  "whole_g2_approved": false,
+  "implementation_authorized": false
+}

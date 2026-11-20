@@ -1,0 +1,15 @@
+{
+  "task": "UID-006",
+  "scope": "Favorites page",
+  "gate": "G2",
+  "version": "G2-r5",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "ได้",
+  "frames_approved": 12,
+  "pencil_section": "eVI9G",
+  "authorized_next_gate": "G3",
+  "next_scope": "Favorites page only",
+  "implementation_authorized": false
+}

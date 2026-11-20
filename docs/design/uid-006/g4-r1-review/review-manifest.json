@@ -1,0 +1,136 @@
+{
+  "task": "UID-006",
+  "version": "G4-r1",
+  "status": "owner_approved",
+  "owner_approval": "owner-G4-r1-acceptance.json",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "scope": "Favorites page visual baseline and interaction handoff",
+  "accepted_g3": "../g3-r1-review/owner-G3-r1-acceptance.json",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_section": "eVI9G",
+  "pencil_visual_group": "lUMVu",
+  "interaction_specification": "interaction-spec.md",
+  "frame_count": 12,
+  "viewports": {
+    "desktop": 1440,
+    "mobile": 390
+  },
+  "screens": [
+    {
+      "state": "saved",
+      "desktop": {
+        "frame": "M5ov4R",
+        "image": "../g3-r1-review/M5ov4R.png",
+        "width": 1440,
+        "height": 1051,
+        "sha256": "aa981c3be210c99f85906a605280f1aef255d37d3e9f4086881b945f5597d997"
+      },
+      "mobile": {
+        "frame": "d8lHj3",
+        "image": "../g3-r1-review/d8lHj3.png",
+        "width": 390,
+        "height": 2406,
+        "sha256": "d6ddaae8d0ce137c6b278a2052d02f214f2e23812f663a1724760a9e454c6639"
+      }
+    },
+    {
+      "state": "direct_entry_signed_out",
+      "desktop": {
+        "frame": "N156K",
+        "image": "../g3-r1-review/N156K.png",
+        "width": 1440,
+        "height": 959,
+        "sha256": "f27de302dff816ef255f20d2a3fc58404de91071083f4fee2296fa3c9fe19374"
+      },
+      "mobile": {
+        "frame": "JA8JB",
+        "image": "../g3-r1-review/JA8JB.png",
+        "width": 390,
+        "height": 1040,
+        "sha256": "1c3b77df9559623516fb1d8e352cd66011038c2ce324972f72636aa6fc2f38e3"
+      }
+    },
+    {
+      "state": "empty",
+      "desktop": {
+        "frame": "z6TWKe",
+        "image": "../g3-r1-review/z6TWKe.png",
+        "width": 1440,
+        "height": 959,
+        "sha256": "6f9a2225e94b3f8b46755b5684e255cffd92bdfbdc084c1d1f4259ac205a1a25"
+      },
+      "mobile": {
+        "frame": "F1qaM",
+        "image": "../g3-r1-review/F1qaM.png",
+        "width": 390,
+        "height": 1040,
+        "sha256": "90f18e6aa0e0df6a67e8ef1511a9241040f27abb151f1d06c9acfcfb457ce625"
+      }
+    },
+    {
+      "state": "loading",
+      "desktop": {
+        "frame": "U2iA6",
+        "image": "../g3-r1-review/U2iA6.png",
+        "width": 1440,
+        "height": 1051,
+        "sha256": "9bddc2c383dc748d680d3653647ee2e1fcea60c5d8372e6989822eeff4fca7f7"
+      },
+      "mobile": {
+        "frame": "zJCXX",
+        "image": "../g3-r1-review/zJCXX.png",
+        "width": 390,
+        "height": 1606,
+        "sha256": "2354d2a06b3803581460a7123e4f40fc17f31cfdfecb3e8fb5edf515e09523b7"
+      }
+    },
+    {
+      "state": "load_error",
+      "desktop": {
+        "frame": "XLwvX",
+        "image": "../g3-r1-review/XLwvX.png",
+        "width": 1440,
+        "height": 959,
+        "sha256": "24015a2677e33065e3076a1369e33f2d91d6b196d4013413dc43203641316e30"
+      },
+      "mobile": {
+        "frame": "E5Ou40",
+        "image": "../g3-r1-review/E5Ou40.png",
+        "width": 390,
+        "height": 1040,
+        "sha256": "fc1ee5543793765a3f1368e051afc6ea6a17b04f03bbf88b58fdf28251f7c079"
+      }
+    },
+    {
+      "state": "guest_entry_from_home",
+      "desktop": {
+        "frame": "pcB3j",
+        "image": "../g3-r1-review/pcB3j.png",
+        "width": 1440,
+        "height": 702,
+        "sha256": "459b4528409f33a128b7b173a9bdec17fe159f6db2df44bf50e2ae9f290bb262"
+      },
+      "mobile": {
+        "frame": "AD0jQ",
+        "image": "../g3-r1-review/AD0jQ.png",
+        "width": 390,
+        "height": 844,
+        "sha256": "a6e850f01de9ece4bc8a38fa315c4c77fd239a2daff512ae580afb370fde6827"
+      }
+    }
+  ],
+  "component_study": {
+    "frame": "jDp6v",
+    "image": "../g3-r1-review/jDp6v.png",
+    "width": 754,
+    "height": 516,
+    "sha256": "946ae8d776fdc5d5cdde1cb6bc3498bbdab0283cf6c9d8b5a184749366d38d59"
+  },
+  "verification": {
+    "fresh_render_sha256_matches": 13,
+    "primary_button_label_contrast_ratio": 5.16
+  },
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

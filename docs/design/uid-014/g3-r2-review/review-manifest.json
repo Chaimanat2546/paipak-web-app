@@ -1,0 +1,20 @@
+{
+  "task": "UID-014",
+  "version": "G3-r2",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "status": "pending_owner_review",
+  "wireframe_baseline": "G2-r3",
+  "baseline_manifest": "../g3-r1-review/review-manifest.json",
+  "owner_revision_request": "ถ้าใช้ skeleton แล้วไม่ต้องมีคำว่ากำลังโหลด",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "YwLah",
+  "loading_row": "ETfuF",
+  "new_frame_count": 2,
+  "frame_count": 20,
+  "new_screens": [
+    {"id": "F-06", "state": "article_loading_or_retrying_skeleton_only", "desktop": "V4lRo", "mobile": "qoET0"}
+  ],
+  "review_package": "README.md",
+  "interaction_update": "interaction-update.md"
+}

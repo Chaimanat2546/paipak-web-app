@@ -1,0 +1,22 @@
+{
+  "task": "UID-006",
+  "version": "G2-r4",
+  "status": "superseded_for_review",
+  "superseded_by": "../g2-r5-review/review-manifest.json",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "scope": "Signed-out state when opening the Favorites page directly",
+  "owner_scope_confirmation": "ได้",
+  "direct_entry_approval": "owner-direct-entry-acceptance.json",
+  "owner_scope_approval": "../g2-r1-review/owner-G0-approval.json",
+  "baseline_manifest": "../g2-r3-review/review-manifest.json",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_section": "eVI9G",
+  "frame_count": 12,
+  "viewports": {"desktop": 1440, "mobile": 390},
+  "new_screens": [
+    {"state": "direct_entry_signed_out", "desktop": "fAe8M", "mobile": "USTzy"}
+  ],
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

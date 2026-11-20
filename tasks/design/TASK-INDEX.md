@@ -9,7 +9,7 @@
 - **UID-003 — Property detail and availability high-fidelity** | Depends on: UXD-002, DSD-002 | Status: r31 desktop and mobile G4-r1 visual baseline approved on 2026-11-11 | [G4-r1 package](../../docs/design/uid-003/property-detail-g4-r1/README.md)
 - **UID-004 — Checkout and confirmation high-fidelity** | Depends on: UXD-002, DSD-002, UXD-001 | Status: planned/not started
 - **UID-005 — Authentication and account high-fidelity** | Depends on: UXD-002, DSD-002, UXD-001 | Status: Home Auth G4-r1 approved on 2026-11-11; profile review pending | [G4-r1 package](../../docs/design/dsd-001/home-auth-g4-r1/README.md)
-- **UID-006 — Favorites and bookings high-fidelity** | Depends on: UXD-002, DSD-002 | Status: planned/not started
+- **UID-006 — Favorites and bookings high-fidelity** | ภูอนุมัติแบบอ้างอิงสุดท้ายของหน้ารายการโปรด G4-r1 · หน้าการจองของฉันอยู่ในแผน | [ชุดส่งต่อรายการโปรด](../../docs/design/uid-006/g4-r1-review/README.md)
 - **UID-007 — Empty loading error and offline feedback design** | Depends on: DSD-002, UID-001, UID-002, UID-003, UID-004, UID-005, UID-006 | Status: planned/not started
 - **UID-008 — Accessibility and responsive design review** | Depends on: UID-001, UID-002, UID-003, UID-004, UID-005, UID-006, UID-007 | Status: planned/not started
 - **UID-009 — Final visual reference approval and handoff** | Depends on: UID-008 | Status: planned/not started
@@ -17,11 +17,12 @@
 - **UID-011 — ระบบจัดการคลิป TikTok บนหน้าแรก** | G4-r4 อนุมัติแล้ว · 18 พฤศจิกายน 2026 | [แบบที่อนุมัติ](../../docs/design/admin-g4-r4-review/README.md)
 - **UID-012 — ระบบจัดการบทความ** | ภูอนุมัติ G4-r1 ครบสามเฟรมมือถือและปิดงานออกแบบเมื่อ 18 พฤศจิกายน 2026 | [ชุดแบบ G4-r1](../../docs/design/uid-012/g4-review/README.md)
 - **UID-013 — ระบบจัดการคำถามที่พบบ่อย** | G4-r5 อนุมัติแล้ว · 18 พฤศจิกายน 2026 | [มือถือ G4-r5](../../docs/design/uid-013/g4-r5-mobile-order-review/README.md) · [เดสก์ท็อป G4-r4](../../docs/design/admin-g4-r4-review/README.md)
+- **UID-014 — หน้ารายละเอียดบทความ** | อนุมัติ G4-r1 ทั้งเดสก์ท็อปและมือถือ และปิดงานออกแบบ 20 พฤศจิกายน 2026 | [ชุดส่งมอบ 20 เฟรม](../../docs/design/uid-014/g4-r1-review/README.md)
 - **UXD-003 — Usability prototype and user testing spec** | Depends on: UXD-002 | Status: planned/not started
 
 ## Section งานออกแบบใน Pencil
 
-บอร์ดที่มีในไฟล์เรียงตาม UID จากซ้ายไปขวา แต่ละ section วาง Wireframe ทางซ้ายและ Mockup สุดท้ายทางขวา [เปิด Pencil](../../docs/design/dsd-001/papaipak-ui.pen)
+ตารางเรียงตาม UID ให้หาแต่ละงานจากชื่อหรือรหัส section ในไฟล์ [เปิด Pencil](../../docs/design/dsd-001/papaipak-ui.pen)
 
 | งาน | Section | Wireframe |
 | --- | --- | --- |
@@ -29,10 +30,12 @@
 | UID-002 · หน้าผลค้นหาที่พัก | `tYF4Q` | Wireframe G2-r30 ทางซ้าย `Jpzxu` · Hi-Fi G4-r1 ทางขวา `MilCd` |
 | UID-003 · รายละเอียดบ้านพัก | `rqZz8` | ภาพอ้างอิง UXD-002 review-5 รอตรวจรับ |
 | UID-005 · สมัครสมาชิกและเข้าสู่ระบบ | `R5IaVO` | แผนผัง Home Auth Desktop G2-r40 ที่อนุมัติ |
+| UID-006 · รายการโปรดของลูกค้า | `eVI9G` | โครงหน้า G2-r5 ด้านซ้าย · แบบอ้างอิง G4-r1 `lUMVu` ด้านขวาอนุมัติแล้ว |
 | UID-010 · จัดการหมวดหมู่บ้านพัก | `jNYEs` | ไวร์เฟรมทางซ้าย · G4-r4 เดสก์ท็อปทางขวา · มือถือ หน้าแรก และสถานะฟอร์มด้านล่าง |
 | UID-011 · คลิป TikTok หน้าแรก | `FvFoc` | ไวร์เฟรมทางซ้าย · G4-r4 เดสก์ท็อปทางขวา · แบบเพิ่มและแก้คลิป มือถือ และหน้าแรกด้านล่าง |
 | UID-012 · ระบบจัดการบทความ | `qVhG8` | Wireframe G2-r18 ทางซ้าย · High-Fi G3-r1 ตรงกลาง แยก 6 เส้นทาง · แบบมือถือ G4-r1 ที่อนุมัติทางขวา |
 | UID-013 · ระบบจัดการคำถามที่พบบ่อย | `nev4k` | ไวร์เฟรมทางซ้าย · G4-r4 เดสก์ท็อปทางขวา · มือถือ G4-r5 และ FAQ หน้าแรกด้านล่าง |
+| UID-014 · หน้ารายละเอียดบทความ | `YwLah` | Wireframe G2-r3 ที่อนุมัติ `Y720PF` · ชุดส่งมอบ G4-r1 ทางขวาอนุมัติแล้ว · Archive G2-r2 `ta0m8` และ G2-r1 `XXbdF` |
 
 Header และ Footer อยู่ใน section ใช้ร่วมกัน `pnnKH` คลังสถานะ Home Desktop อยู่ใน Archive `ysmkc`
 

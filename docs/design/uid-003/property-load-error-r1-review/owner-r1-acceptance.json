@@ -1,0 +1,16 @@
+{
+  "task": "UID-003",
+  "version": "property-load-error-r1",
+  "status": "owner_approved",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_approval_quote": "โอเคถัดไป",
+  "scope": "Full-page layout when the data needed to open property details fails to load. Retry requests the same property. The secondary action opens Search.",
+  "pencil": {
+    "file": "docs/design/dsd-001/papaipak-ui.pen",
+    "board": "cAolt",
+    "desktop": "tMKLt",
+    "mobile": "f8ZkvB"
+  },
+  "runtime_verified": false
+}

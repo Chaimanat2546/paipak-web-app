@@ -63,6 +63,7 @@
   "rules": {
     "name": "Keep one visible line and add ellipsis on overflow. Keep the full listing name for its destination and accessible name. Static Pencil fixture uses a pre-truncated display string.",
     "bathrooms_missing": "— ห้องน้ำ, in the existing room metadata row.",
+    "bathrooms_missing_superseded_by": "../card-bathroom-visibility-r1/README.md",
     "price_missing": "ยังไม่มีข้อมูลราคา in the existing price row. Suppress the amount and nightly unit when absent."
   },
   "owner_approved": false,

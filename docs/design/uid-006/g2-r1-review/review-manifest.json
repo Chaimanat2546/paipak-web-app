@@ -1,0 +1,25 @@
+{
+  "task": "UID-006",
+  "version": "G2-r1",
+  "status": "superseded_for_review",
+  "superseded_by": "../g2-r2-review/review-manifest.json",
+  "date": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "scope": "Favorites only",
+  "owner_scope_approval": "owner-G0-approval.json",
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_section": "mc8Zh",
+  "shared_property_card": "V0hJN",
+  "shared_skeleton": "cDP8I",
+  "frame_count": 8,
+  "viewports": {"desktop": 1440, "mobile": 390},
+  "screens": [
+    {"state": "saved", "desktop": "RcuJ4", "mobile": "v8MwQ"},
+    {"state": "empty", "desktop": "p9259l", "mobile": "dXRpK"},
+    {"state": "loading", "desktop": "W0PQUv", "mobile": "i1MGF"},
+    {"state": "load_error", "desktop": "m1fdif", "mobile": "H9SwJf"}
+  ],
+  "prior_flow": "docs/design/uxd-002/review-5/flow-groups/README.md",
+  "runtime_verified": false,
+  "implementation_authorized": false
+}

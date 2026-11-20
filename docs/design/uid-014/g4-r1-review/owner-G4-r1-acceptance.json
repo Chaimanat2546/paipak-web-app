@@ -1,0 +1,25 @@
+{
+  "task": "UID-014",
+  "gate": "G4",
+  "version": "G4-r1",
+  "status": "owner_approved",
+  "design_task_status": "completed",
+  "approved_on": "2026-11-20",
+  "timezone": "Asia/Bangkok",
+  "owner_quote": "อนุมัติ UID-014 G4-r1 ทั้งเดสก์ท็อปและมือถือเป็นชุดส่งมอบสุดท้ายครับ บันทึกผลอนุมัติแล้วปิดงานออกแบบนี้ได้เลย",
+  "scope": {
+    "desktop": true,
+    "mobile": true,
+    "frame_count": 20,
+    "visual_baseline": "G3-r9",
+    "approved_manifest": "review-manifest.json"
+  },
+  "pencil_file": "docs/design/dsd-001/papaipak-ui.pen",
+  "pencil_group": "YwLah",
+  "review_package": "README.md",
+  "interaction_specification": "interaction-spec.md",
+  "later_stages": {
+    "implementation": "not_authorized",
+    "runtime_verification": "pending"
+  }
+}
